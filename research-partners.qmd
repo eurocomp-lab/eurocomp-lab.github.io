@@ -1,11 +1,29 @@
 ---
-title: "Other research partners"
+title: "Partners and related initiatives"
 ---
 
 ::: {.lede}
-Established labs and research groups already running rigorous impact evaluations -
-for teams that want outside technical support alongside EuroCOMP Lab.
+Where to find support and learn from others running experiments: related initiatives
+across the European Commission, and established research groups that can provide
+outside technical support alongside EuroCOMP Lab.
 :::
+
+## Related European Commission initiatives
+
+Experimentation is gaining ground across the European Commission, not only in Cohesion Policy.
+
+:::: {.cards}
+::: {.card-e}
+#### [Policy experimentation in research and innovation](https://research-and-innovation.ec.europa.eu/strategy/support-policy-making/shaping-eu-research-and-innovation-policy/policy-experimentation-research-and-innovation_en)
+The Directorate General Research and Innovation's work on testing research and innovation policies before
+scaling them up, including an interactive map of policy-experimentation organisations
+across EU Member States and an emerging Community of Practice.
+:::
+::::
+
+## International research partners
+
+Established labs and research groups already running rigorous impact evaluations.
 
 :::: {.cards}
 ::: {.card-e}
