@@ -64,14 +64,14 @@ This page presents examples of public programmes that built experimentation into
   <td class="status"><span class="status-pill ongoing">In implementation</span></td>
 </tr>
 
-<tr class="group-row"><td colspan="3">EuroCOMP Lab precursors</td></tr>
+<tr class="group-row"><td colspan="3">Other examples from Europe</td></tr>
 <tr>
-  <td><a href="#earlier-work-by-the-eurocomp-lab-team-digitrans">Digitrans</a></td>
-  <td class="topic">Bulgaria, Poland &amp; Slovakia - digital adoption support for MSMEs</td>
+  <td><a href="#earlier-work-by-the-eurocomp-lab-team-digitrans">Bulgaria, Poland and Slovakia</a></td>
+  <td class="topic">Digitrans - digital adoption support for MSMEs</td>
   <td class="status"><span class="status-pill done">Completed</span></td>
 </tr>
 
-<tr class="group-row"><td colspan="3">Examples beyond the Lab</td></tr>
+<tr class="group-row"><td colspan="3">Examples from beyond Europe</td></tr>
 <tr>
   <td><a href="#colombia-scaling-up-management-consulting">Colombia</a></td>
   <td class="topic">Scaling up management consulting</td>
@@ -94,7 +94,7 @@ This page presents examples of public programmes that built experimentation into
 
   <div class="fr-entry">
   <span class="fr-cite">World Bank. 2026. &ldquo;Short-Term Impacts of the First RCTs with Cohesion Policy: Summary Report.&rdquo; European Regional Competitiveness Policy Lab. World Bank, Washington, DC.</span>
-  <a href="assets/summary_report.pdf" target="_blank" rel="noopener">Read the 2026 summary report (PDF) &rarr;</a>
+  <a href="assets/01-10-2026_World_Bank_EuroCOMP_Lab_22_25_Results.pdf" target="_blank" rel="noopener">Read the 2026 summary report (PDF) &rarr;</a>
   </div>
 
   <div class="fr-entry">
@@ -602,182 +602,6 @@ pilot.
   <div class="fr-entry">
   <span class="fr-cite">Avdeenko, A., Campos, F., Chandy, R., Iacovone, L., and Kala, N. 2025. &ldquo;Connecting Minds, Creating Innovation: Matchmaking between Business and Science in Croatia.&rdquo; World Bank, Washington, DC.</span>
   <a href="https://documents1.worldbank.org/curated/en/099062725130142696/pdf/P171223-e13421d0-c5a3-4085-ac74-1883f089d91e.pdf">Read the report &rarr;</a>
-  </div>
-</div>
-```
-
-## Europe: grants for SME energy efficiency
-
-::: {.cards}
-::: {.card-e}
-**The problem**
-
-Energy efficiency is one of the cheapest ways for a firm to cut energy use and costs,
-yet most European SMEs invest little in it. Among the firms that applied to this
-programme, only 22% had invested in energy efficiency in the year before applying, even
-though 62% already monitored their energy use and almost all planned some form of
-capital investment. Advice on its own was not turning plans into purchases.
-:::
-::: {.card-e}
-**What was done**
-
-The European Commission (DG GROW and EISMEA), the Enterprise Europe Network (EEN) and
-the World Bank ran the EENergy pilot, funded by the EU Single Market Programme.
-
-On top of the advisory support EEN advisors already provide, the pilot offered a
-reimbursement grant of up to EUR 10,000 for energy-efficiency measures: equipment and
-installations, consultancy, or staff training. The evaluation was designed into the
-programme from the start, before the first call opened.
-:::
-:::
-
-### What experimentation sought to answer
-
-::: {.quote-e}
-"Does money on top of advice change what small firms invest in, and does it cut their
-energy use?"
-:::
-
-
-
-### The programme
-
-```{=html}
-<div class="facts">
-  <div><div class="k">Timeline</div><div class="v">Call 1 opened February 2024 (1,406 firms); lottery June 2024; activities from July 2024; Call 2 December 2024 to February 2025 (558 firms); follow-up surveys Q1 2025 and Q1 2026; findings September 2026</div></div>
-  <div><div class="k">The programme</div><div class="v">EENergy: a reimbursement grant of up to EUR 10,000 for equipment, consultancy or training, on top of standard EEN advisory services</div></div>
-  <div><div class="k">Where</div><div class="v">34 European countries; European Commission (DG GROW, EISMEA) and Enterprise Europe Network with the World Bank, funded by the EU Single Market Programme</div></div>
-  <div><div class="k">Who is randomised</div><div class="v">1,964 eligible SMEs across two open calls: 54% micro, 36% small, 9% medium-sized; 36% in manufacturing</div></div>
-  <div><div class="k">The design</div><div class="v">Simple lottery among eligible applicants, run separately for each call and stratified by consortium and advisor: 986 offered the grant vs. 978 receiving advisory services only</div></div>
-  <div><div class="k">Outcomes tracked</div><div class="v">Energy-efficiency and renewable investment, energy use and spending, energy management practices, revenue, profits and employment</div></div>
-  <div><div class="k">Starting point</div><div class="v">Only 22% of applicant firms had invested in energy efficiency in the year before the programme, although 62% already monitored their energy use</div></div>
-</div>
-```
-
-### Key steps and dates
-
-```{=html}
-<div class="flow">
-  <div>Two open calls</div>
-  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
-  <div>Eligibility check</div>
-  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
-  <div>Lottery</div>
-  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
-  <div>Grants &amp; advisory services</div>
-  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
-  <div>Follow-up surveys</div>
-</div>
-```
-
-### How the programme was tested
-
-Firms applied in two open calls, from February to May 2024 and from December 2024 to
-February 2025. Applications were screened against the EU definition of an SME and
-against programme requirements, including an energy-efficiency action plan agreed with
-an EEN advisor and a target of at least 5% lower energy consumption. Eligible firms
-then entered a lottery, run separately for each call and stratified by consortium and
-advisor characteristics, so that funded and unfunded firms came from the same pool and
-worked with comparable advisors.
-
-```{=html}
-<figure class="fig-e">
-<svg viewBox="0 0 700 200" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="1,964 eligible firms enter a lottery, splitting them into 986 firms offered a grant of up to EUR 10,000 and 978 firms receiving advisory services only">
-  <rect x="20" y="66" width="150" height="66" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="95" y="95" text-anchor="middle" fill="var(--dg-ink)" font-size="19" font-weight="bold">1,964</text>
-  <text x="95" y="114" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="10.5">eligible firms</text>
-
-  <path d="M170 99 H230" stroke="var(--dg-line)" stroke-width="1.5"/>
-
-  <rect x="230" y="66" width="150" height="66" rx="6" fill="var(--dg-accent)"/>
-  <text x="305" y="92" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">LOTTERY</text>
-  <text x="305" y="110" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">every firm, the same chance</text>
-
-  <path d="M380 99 H410 V40 H440" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
-  <path d="M380 99 H410 V160 H440" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
-
-  <rect x="440" y="14" width="245" height="52" rx="6" fill="var(--dg-accent)"/>
-  <text x="454" y="36" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">986 offered a grant</text>
-  <text x="454" y="53" fill="var(--dg-ink)" font-size="11">up to EUR 10,000, plus advice</text>
-
-  <rect x="440" y="134" width="245" height="52" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="454" y="156" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">978 standard group</text>
-  <text x="454" y="173" fill="var(--dg-ink-soft)" font-size="11">advisory services only</text>
-</svg>
-<figcaption>Note: Every firm in the study had already cleared eligibility and was working with an EEN advisor, so the lottery isolates the effect of the money rather than the advice.</figcaption>
-</figure>
-```
-
-::: {.soft-panel}
-**Why this design.**
-Strength: because the grant was drawn by lottery among firms that
-all received the same advisory service, the comparison separates the effect of the cash
-from the effect of the advice, across 34 countries at once.
-Limitation: firms offered
-the grant answered follow-up surveys far more often than the standard group (91%
-against 65%), so the estimates depend on statistical corrections for who responded.
-:::
-
-### What the programme achieved
-
-One year on, the grant had changed what firms bought and how they managed energy.
-Total energy-related investment was about EUR 9,700 higher per firm in the grant group,
-almost all of it capital spending, with renewable-energy installations the single
-largest category.
-
-::: {.cards}
-::: {.card-e}
-[+26 pp]{.num}
-
-**Firms investing in energy efficiency**
-
-43% of firms offered the grant made an energy-efficiency investment, against 17% of the
-standard group.
-:::
-::: {.card-e}
-[×3]{.num}
-
-**Firms investing in renewables**
-
-The share investing in renewable energy rose from 10% to about 30%.
-:::
-::: {.card-e}
-[+31 pp]{.num}
-
-**Firms setting energy-reduction goals**
-
-83% of the grant group set energy-reduction goals, against 52% of the standard group,
-alongside more regular energy monitoring.
-:::
-:::
-
-The response was strongest among the smallest firms. Renewable-energy investment rose
-by 22 percentage points among micro and small firms, against 5 points among
-medium-sized firms. The fixed EUR 10,000 was worth roughly 5% of annual revenue for the
-median micro firm, but only 0.1% for the median medium-sized firm, which is the
-clearest explanation on offer for the gap.
-
-::: {.caution}
-Averaged across all firms, no reduction in electricity consumption or total energy
-spending was detectable one year after the grants, and there was no detectable effect
-on revenue, profits or employment. Savings did appear for particular groups:
-electricity consumption fell by about 10% among micro and small firms, and electricity
-spending by about 20% among firms in the second call. The practical lesson for
-programme design is to scale a fixed grant to firm size, or to target smaller firms,
-and to justify it on investment and management change rather than on short-run business
-performance.
-:::
-
-```{=html}
-<div class="further-reading">
-  <span class="fr-label">Further reading</span>
-  <div class="fr-entry">
-  <span class="fr-cite">Avdeenko, A., Campos, F., Iacovone, L., Kala, N., Nuno, M., Salhab, J., and Martin, R. 2026. &ldquo;Does Financial Support Improve SME Energy Efficiency? An RCT in Europe.&rdquo; World Bank, Washington, DC.</span>
-  <a href="assets/eenergy-2pager.pdf">Summary of findings (PDF) &rarr;</a>
-  </div>
-  <div class="fr-entry">
-  <span class="fr-cite">Trial registration: AEARCTR-0015124, AEA RCT Registry.</span>
-  <a href="https://www.socialscienceregistry.org/trials/15124">View the registration &rarr;</a>
   </div>
 </div>
 ```
@@ -1385,7 +1209,184 @@ models of innovation diffusion, an area where experimental evidence remains scar
 
 ***
 
-## Earlier work by the EuroCOMP Lab team: Digitrans
+
+## Europe: grants for SME energy efficiency
+
+::: {.cards}
+::: {.card-e}
+**The problem**
+
+Energy efficiency is one of the cheapest ways for a firm to cut energy use and costs,
+yet most European SMEs invest little in it. Among the firms that applied to this
+programme, only 22% had invested in energy efficiency in the year before applying, even
+though 62% already monitored their energy use and almost all planned some form of
+capital investment. Advice on its own was not turning plans into purchases.
+:::
+::: {.card-e}
+**What was done**
+
+The European Commission (DG GROW and EISMEA), the Enterprise Europe Network (EEN) and
+the World Bank ran the EENergy pilot, funded by the EU Single Market Programme.
+
+On top of the advisory support EEN advisors already provide, the pilot offered a
+reimbursement grant of up to EUR 10,000 for energy-efficiency measures: equipment and
+installations, consultancy, or staff training. The evaluation was designed into the
+programme from the start, before the first call opened.
+:::
+:::
+
+### What experimentation sought to answer
+
+::: {.quote-e}
+"Does money on top of advice change what small firms invest in, and does it cut their
+energy use?"
+:::
+
+
+
+### The programme
+
+```{=html}
+<div class="facts">
+  <div><div class="k">Timeline</div><div class="v">Call 1 opened February 2024 (1,406 firms); lottery June 2024; activities from July 2024; Call 2 December 2024 to February 2025 (558 firms); follow-up surveys Q1 2025 and Q1 2026; findings September 2026</div></div>
+  <div><div class="k">The programme</div><div class="v">EENergy: a reimbursement grant of up to EUR 10,000 for equipment, consultancy or training, on top of standard EEN advisory services</div></div>
+  <div><div class="k">Where</div><div class="v">34 European countries; European Commission (DG GROW, EISMEA) and Enterprise Europe Network with the World Bank, funded by the EU Single Market Programme</div></div>
+  <div><div class="k">Who is randomised</div><div class="v">1,964 eligible SMEs across two open calls: 54% micro, 36% small, 9% medium-sized; 36% in manufacturing</div></div>
+  <div><div class="k">The design</div><div class="v">Simple lottery among eligible applicants, run separately for each call and stratified by consortium and advisor: 986 offered the grant vs. 978 receiving advisory services only</div></div>
+  <div><div class="k">Outcomes tracked</div><div class="v">Energy-efficiency and renewable investment, energy use and spending, energy management practices, revenue, profits and employment</div></div>
+  <div><div class="k">Starting point</div><div class="v">Only 22% of applicant firms had invested in energy efficiency in the year before the programme, although 62% already monitored their energy use</div></div>
+</div>
+```
+
+### Key steps and dates
+
+```{=html}
+<div class="flow">
+  <div>Two open calls</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Eligibility check</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Lottery</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Grants &amp; advisory services</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Follow-up surveys</div>
+</div>
+```
+
+### How the programme was tested
+
+Firms applied in two open calls, from February to May 2024 and from December 2024 to
+February 2025. Applications were screened against the EU definition of an SME and
+against programme requirements, including an energy-efficiency action plan agreed with
+an EEN advisor and a target of at least 5% lower energy consumption. Eligible firms
+then entered a lottery, run separately for each call and stratified by consortium and
+advisor characteristics, so that funded and unfunded firms came from the same pool and
+worked with comparable advisors.
+
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 700 200" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="1,964 eligible firms enter a lottery, splitting them into 986 firms offered a grant of up to EUR 10,000 and 978 firms receiving advisory services only">
+  <rect x="20" y="66" width="150" height="66" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="95" y="95" text-anchor="middle" fill="var(--dg-ink)" font-size="19" font-weight="bold">1,964</text>
+  <text x="95" y="114" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="10.5">eligible firms</text>
+
+  <path d="M170 99 H230" stroke="var(--dg-line)" stroke-width="1.5"/>
+
+  <rect x="230" y="66" width="150" height="66" rx="6" fill="var(--dg-accent)"/>
+  <text x="305" y="92" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">LOTTERY</text>
+  <text x="305" y="110" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">every firm, the same chance</text>
+
+  <path d="M380 99 H410 V40 H440" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+  <path d="M380 99 H410 V160 H440" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+
+  <rect x="440" y="14" width="245" height="52" rx="6" fill="var(--dg-accent)"/>
+  <text x="454" y="36" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">986 offered a grant</text>
+  <text x="454" y="53" fill="var(--dg-ink)" font-size="11">up to EUR 10,000, plus advice</text>
+
+  <rect x="440" y="134" width="245" height="52" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="454" y="156" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">978 standard group</text>
+  <text x="454" y="173" fill="var(--dg-ink-soft)" font-size="11">advisory services only</text>
+</svg>
+<figcaption>Note: Every firm in the study had already cleared eligibility and was working with an EEN advisor, so the lottery isolates the effect of the money rather than the advice.</figcaption>
+</figure>
+```
+
+::: {.soft-panel}
+**Why this design.**
+Strength: because the grant was drawn by lottery among firms that
+all received the same advisory service, the comparison separates the effect of the cash
+from the effect of the advice, across 34 countries at once.
+Limitation: firms offered
+the grant answered follow-up surveys far more often than the standard group (91%
+against 65%), so the estimates depend on statistical corrections for who responded.
+:::
+
+### What the programme achieved
+
+One year on, the grant had changed what firms bought and how they managed energy.
+Total energy-related investment was about EUR 9,700 higher per firm in the grant group,
+almost all of it capital spending, with renewable-energy installations the single
+largest category.
+
+::: {.cards}
+::: {.card-e}
+[+26 pp]{.num}
+
+**Firms investing in energy efficiency**
+
+43% of firms offered the grant made an energy-efficiency investment, against 17% of the
+standard group.
+:::
+::: {.card-e}
+[×3]{.num}
+
+**Firms investing in renewables**
+
+The share investing in renewable energy rose from 10% to about 30%.
+:::
+::: {.card-e}
+[+31 pp]{.num}
+
+**Firms setting energy-reduction goals**
+
+83% of the grant group set energy-reduction goals, against 52% of the standard group,
+alongside more regular energy monitoring.
+:::
+:::
+
+The response was strongest among the smallest firms. Renewable-energy investment rose
+by 22 percentage points among micro and small firms, against 5 points among
+medium-sized firms. The fixed EUR 10,000 was worth roughly 5% of annual revenue for the
+median micro firm, but only 0.1% for the median medium-sized firm, which is the
+clearest explanation on offer for the gap.
+
+::: {.caution}
+Averaged across all firms, no reduction in electricity consumption or total energy
+spending was detectable one year after the grants, and there was no detectable effect
+on revenue, profits or employment. Savings did appear for particular groups:
+electricity consumption fell by about 10% among micro and small firms, and electricity
+spending by about 20% among firms in the second call. The practical lesson for
+programme design is to scale a fixed grant to firm size, or to target smaller firms,
+and to justify it on investment and management change rather than on short-run business
+performance.
+:::
+
+```{=html}
+<div class="further-reading">
+  <span class="fr-label">Further reading</span>
+  <div class="fr-entry">
+  <span class="fr-cite">Avdeenko, A., Campos, F., Iacovone, L., Kala, N., Nuno, M., Salhab, J., and Martin, R. 2026. &ldquo;Does Financial Support Improve SME Energy Efficiency? An RCT in Europe.&rdquo; World Bank, Washington, DC.</span>
+  <a href="assets/eenergy-2pager.pdf">Summary of findings (PDF) &rarr;</a>
+  </div>
+  <div class="fr-entry">
+  <span class="fr-cite">Trial registration: AEARCTR-0015124, AEA RCT Registry.</span>
+  <a href="https://www.socialscienceregistry.org/trials/15124">View the registration &rarr;</a>
+  </div>
+</div>
+```
+
+## Digitrans
 
 ::: {.cards}
 ::: {.card-e}
@@ -1546,6 +1547,16 @@ purchases: the benefits of combined support were especially strong among smaller
 firms with low initial digital capabilities, service-sector firms and women-led
 businesses.
 :::
+
+```{=html}
+<div class="further-reading">
+  <span class="fr-label">Further reading</span>
+  <div class="fr-entry">
+  <span class="fr-cite">Campos, F., Iacovone, L., Iwanowski, D., and Reichenbach, A. W. 2025. &ldquo;Bridging the Digital Gap: Evidence from a Multi-Country Pilot on Supporting MSME Digitalization in the EU.&rdquo; World Bank, Washington, DC.</span>
+  <a href="assets/Gr_Digitrans_Pilot_Report%20(1).pdf">Read the report &rarr;</a>
+  </div>
+</div>
+```
 
 ***
 
