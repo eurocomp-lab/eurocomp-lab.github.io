@@ -36,12 +36,6 @@ This page presents examples of public programmes that built experimentation into
   <td class="topic">Matching businesses with scientists - Scinergy</td>
   <td class="status"><span class="status-pill done">Completed</span></td>
 </tr>
-<tr>
-  <td><a href="#europe-grants-for-sme-energy-efficiency">Europe (34 countries)</a></td>
-  <td class="topic">Grants for SME energy efficiency (EENergy pilot)</td>
-  <td class="status"><span class="status-pill done">Completed</span></td>
-</tr>
-
 
 <tr>
   <td><a href="#bulgaria">Bulgaria</a></td>
@@ -68,6 +62,11 @@ This page presents examples of public programmes that built experimentation into
 <tr>
   <td><a href="#earlier-work-by-the-eurocomp-lab-team-digitrans">Bulgaria, Poland and Slovakia</a></td>
   <td class="topic">Digitrans - digital adoption support for MSMEs</td>
+  <td class="status"><span class="status-pill done">Completed</span></td>
+</tr>
+<tr>
+  <td><a href="#europe-grants-for-sme-energy-efficiency">Europe (34 countries)</a></td>
+  <td class="topic">Grants for SME energy efficiency (EENergy pilot)</td>
   <td class="status"><span class="status-pill done">Completed</span></td>
 </tr>
 
