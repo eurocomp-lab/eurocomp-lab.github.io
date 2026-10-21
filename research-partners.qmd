@@ -42,10 +42,6 @@ The World Bank's Development Impact Evaluation group.
 #### [International Initiative for Impact Evaluation (3ie)](https://www.3ieimpact.org/)
 A global non-profit research organisation collaborating with decision-makers in governments, foundations, NGOs, development and research organizations globally.
 :::
-::: {.card-e}
-#### [Inter-American Development Bank](https://www.iadb.org/en/results-and-effectiveness/development-effectiveness/project-evaluation/impact-evaluations)
-Impact Evaluation guidelines from the Inter-American Development Bank.
-:::
 ::::
 
 ::: {.card-e}
