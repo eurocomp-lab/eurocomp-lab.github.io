@@ -4,8 +4,9 @@ title: "Partners and related initiatives"
 
 ::: {.lede}
 Where to find support and learn from others running experiments: related initiatives
-across the European Commission, and established research groups that can provide
-outside technical support alongside EuroCOMP Lab.
+across the European Commission, established research groups that can provide
+outside technical support alongside EuroCOMP Lab, and practical resources for
+setting up your own evaluation.
 :::
 
 ## Related European Commission initiatives
@@ -15,20 +16,30 @@ Experimentation is gaining ground across the European Commission, not only in Co
 :::: {.cards}
 ::: {.card-e}
 #### [Policy experimentation in research and innovation](https://research-and-innovation.ec.europa.eu/strategy/support-policy-making/shaping-eu-research-and-innovation-policy/policy-experimentation-research-and-innovation_en)
-The Directorate General Research and Innovation's work on testing research and innovation policies before
-scaling them up, including an interactive map of policy-experimentation organisations
-across EU Member States and an emerging Community of Practice.
+The Directorate-General for Research and Innovation's work on testing research and
+innovation policies before scaling them up, including an interactive map of
+policy-experimentation organisations across EU Member States and an emerging
+Community of Practice.
 :::
 ::::
 
 ## International research partners
 
 Established labs and research groups already running rigorous impact evaluations.
+Many of them also publish free guidance and training you can use directly.
 
 :::: {.cards}
 ::: {.card-e}
 #### [J-PAL](https://www.povertyactionlab.org/)
 The Abdul Latif Jameel Poverty Action Lab specialises in impact evaluation design.
+
+**Go further**
+
+- [Research resources](https://www.povertyactionlab.org/research-resources?view=toc):
+  detailed, step-by-step resources for setting up a research programme, from
+  design to data collection and analysis.
+- [MicroMasters in Data, Economics and Design of Policy](https://micromasters.mit.edu/dedp/):
+  an online programme from MIT and J-PAL for those who want to learn more.
 :::
 ::: {.card-e}
 #### [IPA](https://poverty-action.org/)
@@ -37,10 +48,32 @@ Innovations for Poverty Action designs and rigorously evaluates solutions to pov
 ::: {.card-e}
 #### [World Bank DIME](https://www.worldbank.org/en/about/unit/unit-dec/impactevaluation/about)
 The World Bank's Development Impact Evaluation group.
+
+**Go further**
+
+- [DIME Wiki](https://dimewiki.worldbank.org/): a collaborative, open-source
+  resource with guidelines that are easy to understand and apply for users of
+  varying levels of expertise.
 :::
 ::: {.card-e}
 #### [International Initiative for Impact Evaluation (3ie)](https://www.3ieimpact.org/)
-A global non-profit research organisation collaborating with decision-makers in governments, foundations, NGOs, development and research organizations globally.
+A global non-profit research organisation working with governments, foundations,
+NGOs, and development and research organisations worldwide.
+:::
+::: {.card-e}
+#### [Innovation Growth Lab (IGL)](https://www.innovationgrowthlab.org/)
+A global partnership that supports governments to test and evaluate innovation,
+entrepreneurship and growth policies.
+
+**Go further**
+
+- [IGL resources](https://www.innovationgrowthlab.org/resources): guides,
+  toolkits and evidence for running policy experiments.
+:::
+::: {.card-e}
+#### [Inter-American Development Bank (IDB)](https://www.iadb.org/en/results-and-effectiveness/development-effectiveness/project-evaluation/impact-evaluations)
+The IDB's impact evaluation work, which measures the effects of the projects it
+finances and shares the methods and lessons learned.
 :::
 ::::
 
