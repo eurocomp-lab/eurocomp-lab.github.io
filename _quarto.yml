@@ -21,8 +21,6 @@ website:
     logo-alt: "European Regional Competitiveness Policy Lab (EuroCOMP Lab), home page"
     title: false
     left:
-      - href: index.qmd
-        text: Home
       - href: 01-why-and-when.qmd
         text: "RCTs: why and when"
       - href: 02-how.qmd
@@ -122,10 +120,6 @@ website:
   page-footer:
     border: true
     left: "EuroCOMP Lab, powered by the World Bank Group"
-    center: |
-      [Legal notice](legal-notice.qmd) &nbsp;·&nbsp;
-      [Privacy statement](privacy.qmd) &nbsp;·&nbsp;
-      [Accessibility statement](accessibility.qmd)
     right: "Draft site, under review by the team"
 
 format:
