@@ -11,9 +11,15 @@ project:
 website:
   title: "EuroCOMP Lab"
   description: "Experimental evaluation for competitive business support programmes"
+  favicon: assets/logo/favicon.png
 
   navbar:
     background: primary
+    # White version of the logo for the blue bar; the original file is
+    # assets/logo/eurocomp-lab-logo.svg (for light backgrounds).
+    logo: assets/logo/eurocomp-lab-logo-white.svg
+    logo-alt: "European Regional Competitiveness Policy Lab (EuroCOMP Lab), home page"
+    title: false
     left:
       - href: index.qmd
         text: Home

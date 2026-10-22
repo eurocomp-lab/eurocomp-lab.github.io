@@ -976,3 +976,35 @@ li > strong:first-child { color: $eu-blue; }
 .navbar .navbar-nav .nav-link.active:focus {
   color: #FFD617;
 }
+
+/* ---- site logo, top left of the navbar ---- */
+/* Quarto caps navbar logos at 24px, too small for a two-line wordmark. */
+.navbar .navbar-brand {
+  padding-top: .4rem;
+  padding-bottom: .4rem;
+}
+.navbar .navbar-logo {
+  max-height: none;
+  height: 48px;
+  width: auto;
+  padding-right: 0;
+}
+.navbar .navbar-brand-container { flex-shrink: 0; }  /* never crop the logo */
+
+@media (min-width: 992px) {
+  .navbar .navbar-brand.navbar-brand-logo { margin-right: 1.25rem; }
+}
+/* 992 to 1199px: the full menu only just fits, so a smaller logo and snugger links */
+@media (min-width: 992px) and (max-width: 1199.98px) {
+  .navbar .navbar-logo { height: 40px; }
+  .navbar .navbar-brand.navbar-brand-logo { margin-right: .75rem; }
+  .navbar .navbar-nav .nav-link { padding-left: .4rem; padding-right: .4rem; }
+}
+@media (max-width: 575.98px) {
+  .navbar .navbar-logo { height: 40px; }
+  /* Quarto reserves 115px beside the logo; the menu and search buttons need 90px */
+  .navbar .navbar-brand-container { max-width: calc(100% - 90px); }
+}
+@media (max-width: 359.98px) {
+  .navbar .navbar-logo { height: 34px; }
+}
