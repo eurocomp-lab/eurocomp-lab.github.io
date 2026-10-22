@@ -1,1 +1,1 @@
-Sitemap: https://miketheebike.github.io/eurocomp-lab-site/sitemap.xml
+Sitemap: https://eurocomp-lab.github.io/sitemap.xml
