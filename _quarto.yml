@@ -23,93 +23,33 @@ website:
     left:
       - href: 01-why-and-when.qmd
         text: "RCTs: why and when"
-      - href: 02-how.qmd
-        text: "How to design an RCT"
-      - href: 03-examples.qmd
-        text: Examples
-      - href: 04-templates.qmd
-        text: Repository
-      - text: About
+      # Dropdowns show one level of pages. Deeper pages (the Step 4 and
+      # Step 6 detail pages, the repository topics) are linked from their
+      # parent page.
+      - text: "How to design an RCT"
         menu:
-          - href: eurocomp.qmd
-            text: EuroCOMP Lab
-          - href: research-partners.qmd
-            text: Research partners
-          - href: glossary.qmd
-            text: Glossary
-
-  sidebar:
-    style: floating
-    collapse-level: 1
-    contents:
-      - href: index.qmd
-        text: Home
-
-      - href: 01-why-and-when.qmd
-        text: "RCTs: why and when"
-
-      - section: "How to design an RCT"
-        href: 02-how.qmd
-        contents:
+          - href: 02-how.qmd
+            text: Overview
+          - text: "---"
           - href: 02.01-toc.qmd
           - href: 02.02-eval_questions.qmd
           # Step 3 precedes Step 4, matching the page titles
           - href: 02.04-indicators.qmd
-          # the a/b/c pages are supporting detail, nested under their step
-          - section: 02.03-assess.qmd
-            contents:
-              - href: 02.03a-power.qmd
-              - href: 02.03b-balance.qmd
-              - href: 02.03c-legal.qmd
+          - href: 02.03-assess.qmd
           - href: 02.05-data_sources.qmd
-          - section: 02.06-data_collect.qmd
-            contents:
-              - href: 02.06a-tor.qmd
-              - href: 02.06b-consent.qmd
+          - href: 02.06-data_collect.qmd
           - href: 02.07-data_quality.qmd
-
       - href: 03-examples.qmd
         text: Examples
-
-      - section: "Repository"
-        href: 04-templates.qmd
-        contents:
-          - section: "Survey question repository"
-            href: 08-bank_survey.qmd
-            contents:
-              - href: 08.01-bank_survey_company.qmd
-              - href: 08.02-bank_survey_respondent.qmd
-              - href: 08.03-bank_survey_ownership.qmd
-              - href: 08.04-bank_survey_performance.qmd
-              - href: 08.05-bank_survey_collab.qmd
-              - href: 08.06-bank_survey_techadop.qmd
-              - href: 08.07-bank_survey_digital.qmd
-              - href: 08.08-bank_survey_innov.qmd
-              - href: 08.09-bank_survey_ip.qmd
-              - href: 08.11-bank_survey_trl.qmd
-              - href: 08.12-bank_survey_energy.qmd
-              - href: 08.13-bank_survey_finance.qmd
-              - href: 08.14-bank_survey_train.qmd
-              - href: 08.15-bank_survey_mgmt.qmd
-              - href: 08.16-bank_survey_comp.qmd
-          - section: "RCT outcome repository"
-            href: 09-bank_outcomes.qmd
-            contents:
-              - href: 09.01-bank_outcomes_performance.qmd
-              - href: 09.02-bank_survey_innov.qmd
-              - href: "09.03-bank_survey_r&d.qmd"
-              - href: 09.04-bank_survey_techadop.qmd
-              - href: 09.05-bank_survey_digital.qmd
-              - href: 09.06-bank_survey_collab.qmd
-              - href: 09.07-bank_survey_ip.qmd
-              - href: 09.08-bank_survey_employ.qmd
-              - href: 09.09-bank_outcome_finance.qmd
-              - href: 09.10-bank_outcome_train.qmd
-              - href: 09.11-bank_outcome_mgmt.qmd
-              - href: 09.12-bank_outcome_energy.qmd
-
-      - section: "About"
-        contents:
+      - text: Repository
+        menu:
+          - href: 04-templates.qmd
+            text: Overview
+          - text: "---"
+          - href: 08-bank_survey.qmd
+          - href: 09-bank_outcomes.qmd
+      - text: About
+        menu:
           - href: eurocomp.qmd
             text: EuroCOMP Lab
           - href: research-partners.qmd
@@ -131,3 +71,5 @@ format:
     anchor-sections: true
     link-external-newwindow: true
     date-format: "D MMMM YYYY"
+    # highlights the current section in the top bar (there is no left menu)
+    include-after-body: _nav-current.html

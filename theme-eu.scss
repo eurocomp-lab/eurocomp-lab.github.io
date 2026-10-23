@@ -1008,3 +1008,52 @@ li > strong:first-child { color: $eu-blue; }
 @media (max-width: 359.98px) {
   .navbar .navbar-logo { height: 34px; }
 }
+
+/* ---- top-bar dropdown menus (they replace the left menu) ---- */
+.navbar .dropdown-menu {
+  border-radius: 2px;
+  padding: .35rem 0;
+}
+.navbar .dropdown-item {
+  padding: .42rem 1.1rem;
+}
+.navbar .dropdown-item:hover,
+.navbar .dropdown-item:focus {
+  background: $surface;
+  color: $eu-blue;
+}
+/* current page; Bootstrap's default here is a bright off-brand blue */
+.navbar .dropdown-item.active,
+.navbar .dropdown-item:active {
+  background: $eu-blue-pale;
+  color: $eu-blue;
+  font-weight: 700;
+}
+.navbar .dropdown-divider { margin: .3rem 0; }
+
+/* phone and tablet: dropdowns open inside the blue menu, as an indented list */
+@media (max-width: 991.98px) {
+  .navbar .dropdown-menu {
+    background: transparent;
+    border: 0;
+    box-shadow: none;
+    padding: 0 0 .5rem .9rem;
+  }
+  .navbar .dropdown-item {
+    color: rgba(255, 255, 255, .86);
+    white-space: normal;
+    padding: .45rem .8rem;
+  }
+  .navbar .dropdown-item:hover,
+  .navbar .dropdown-item:focus {
+    background: transparent;
+    color: $eu-yellow;
+  }
+  .navbar .dropdown-item.active,
+  .navbar .dropdown-item:active {
+    background: transparent;
+    color: #FFFFFF;
+    box-shadow: inset 3px 0 0 $eu-yellow;
+  }
+  .navbar .dropdown-divider { border-color: rgba(255, 255, 255, .25); }
+}

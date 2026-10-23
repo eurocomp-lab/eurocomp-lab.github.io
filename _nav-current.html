@@ -1,0 +1,33 @@
+<script>
+/* Top-bar "you are here". With no left menu, mark the dropdown for the
+   section you are in, and the page itself if it is listed in the dropdown.
+   Pages without their own menu entry (e.g. 02.03a, 08.12) count as part of
+   the dropdown whose pages share their two-digit number (02, 08). */
+document.addEventListener("DOMContentLoaded", function () {
+  function pageName(href) {
+    var last = (href || "").split("#")[0].split("?")[0].split("/").pop();
+    return decodeURIComponent(last || "index.html").replace(/\.html$/, "");
+  }
+  function numberPrefix(name) {
+    var m = name.match(/^(\d\d)/);
+    return m ? m[1] : null;
+  }
+  var page = pageName(window.location.pathname);
+  var prefix = numberPrefix(page);
+  document.querySelectorAll(".navbar .dropdown").forEach(function (menu) {
+    var inSection = false;
+    menu.querySelectorAll(".dropdown-item").forEach(function (item) {
+      var name = pageName(item.getAttribute("href"));
+      if (name === page) {
+        item.classList.add("active");
+        item.setAttribute("aria-current", "page");
+        inSection = true;
+      } else if (prefix && numberPrefix(name) === prefix) {
+        inSection = true;
+      }
+    });
+    var toggle = menu.querySelector(".dropdown-toggle");
+    if (inSection && toggle) toggle.classList.add("active");
+  });
+});
+</script>
