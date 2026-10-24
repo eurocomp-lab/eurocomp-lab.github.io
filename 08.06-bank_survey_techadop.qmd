@@ -17,7 +17,7 @@ title: "Topic: technology adoption"
 
 ***
 
-** How did your company acquire the technologies it currently uses?**
+**How did your company acquire the technologies it currently uses?**
 *(Select all that apply)*
 
 - Purchased off-the-shelf from a supplier
@@ -95,7 +95,7 @@ title: "Topic: technology adoption"
 
 ***
 
-** If yes: Why does your company use Generative Artificial Intelligence (GenAI)?**
+**If yes: Why does your company use Generative Artificial Intelligence (GenAI)?**
 
 - Customer acquisition
 - Simplifying internal org processes

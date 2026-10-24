@@ -47,12 +47,12 @@ Include:
 ***
 
 **Who developed these product innovations?**
-**(Select all that apply)*
+*(Select all that apply)*
 
 - Your enterprise by itself
-- Your enterprise together with other enterprises or organisations*
-- Your enterprise by adapting or modifying products originally developed by other enterprises or organisations*
-- Other enterprises or organisations*
+- Your enterprise together with other enterprises or organisations
+- Your enterprise by adapting or modifying products originally developed by other enterprises or organisations
+- Other enterprises or organisations
 
 ***
 

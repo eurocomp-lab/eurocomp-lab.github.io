@@ -72,7 +72,7 @@ The Managing Authority brings knowledge that no outside expert can replicate - h
 
 Before working through the seven steps, identify who inside the Managing Authority will take on each of the following roles:
 
-- **An evaluation focal point** - the person who leads the process, coordinates across the other roles, and serves as the primary contact for the external evaluation team. Ideally someone with some familiarity with impact evaluation methods, or who has been through the EuroComp Lab training.
+- **An evaluation focal point** - the person who leads the process, coordinates across the other roles, and serves as the primary contact for the external evaluation team. Ideally someone with some familiarity with impact evaluation methods, or who has been through the EuroCOMP Lab training.
 - **A programme manager** - someone with detailed knowledge of the intervention: eligibility criteria, selection process, implementation timeline, and the population of applicants. This is the person who can answer the policy questions that drive the evaluation design - particularly what effect size would be meaningful and what the programme is realistically expected to achieve.
 
 Where possible, it is also helpful to involve a legal or procurement officer early - to confirm that the national legal framework permits randomisation and to manage the procurement process - and a data protection officer, to ensure that data-sharing agreements and General Data Protection Regulation compliance are in place before fieldwork begins.

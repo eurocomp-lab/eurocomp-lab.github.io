@@ -147,7 +147,7 @@ In North-East Romania, the World Bank randomised outreach activities across 46 c
 <details class="myth-box">
 <summary>Eligibility criteria should remain broad enough</summary>
 
-On one hand, eligibility criteria should not be too restrictive to target a large enough number of fimrs. On the other hand, eligibility critiera should remain specific enough to identify firms with the highest potential to benefit. Eligibility criteria should be linked to the programme's Theory of Change to avoid that wrong firms enter the pool.
+On one hand, eligibility criteria should not be too restrictive to target a large enough number of firms. On the other hand, eligibility criteria should remain specific enough to identify firms with the highest potential to benefit. Eligibility criteria should be linked to the programme's Theory of Change to avoid that wrong firms enter the pool.
 
 ::: {.example .case #digitrans}
 [Romania]{.tag}

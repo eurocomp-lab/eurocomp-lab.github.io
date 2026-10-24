@@ -75,7 +75,7 @@ Key sources of secondary firm-level data
 ::: {.example .romania}
 [North-East Romania: administrative data]{.tag}
 
-North-East Romania used two administraive data sources: (i) publicly available financial records from the Romanian Ministry of Finance, which contain information on annual revenues, profits, and firm size and (ii) the ORBIS database.
+North-East Romania used two administrative data sources: (i) publicly available financial records from the Romanian Ministry of Finance, which contain information on annual revenues, profits, and firm size and (ii) the ORBIS database.
 :::
 
 ## Data-sharing agreements

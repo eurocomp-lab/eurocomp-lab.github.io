@@ -4,7 +4,7 @@ title: "Informed consent in RCT data collection"
 
 ::: {.team-note}
 #### Summary
-This page explains what informed consent means in the context of an European Union (EU) randomised controlled trial (RCT), what a consent form must contain, how to handle the distinction between mandatory and voluntary participation, and how to ensure General Data Protection Regulation (GDPR) compliance throughout. 
+This page explains what informed consent means in the context of a European Union (EU) randomised controlled trial (RCT), what a consent form must contain, how to handle the distinction between mandatory and voluntary participation, and how to ensure General Data Protection Regulation (GDPR) compliance throughout. 
 :::
 
 Data collection for an RCT involves collecting personal and firm-level data from participants who have a right to know what that data will be used for, who will have access to it, and what their choices are. Informed consent is the mechanism through which those rights are exercised. Getting it right is a legal requirement under GDPR and a precondition for ethical evaluation practice.

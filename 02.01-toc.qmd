@@ -113,7 +113,7 @@ A ToC follows a causal chain from resources invested to long-term change achieve
 ::: {.example .romania}
 [North-East Romania: outputs]{.tag}
 
-- Digitalisation grants are awared to selected companies
+- Digitalisation grants are awarded to selected companies
 :::
 
 **Short-term outcomes** refer to the immediate changes that occur as a direct result of the outputs. These outcomes are often related to changes in knowledge, attitudes, skills, and behaviors among the target population. Although short-term outcomes are not the program's ultimate goals, they play a crucial role in achieving the larger objectives.

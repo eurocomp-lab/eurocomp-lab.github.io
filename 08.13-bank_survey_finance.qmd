@@ -9,7 +9,7 @@ title: "Topic: business finance"
 
 ***
 
-**If your enterprise tried to obtain equity finance: was it successfull?**
+**If your enterprise tried to obtain equity finance: was it successful?**
 
 - Yes
 - No
@@ -30,7 +30,7 @@ title: "Topic: business finance"
 
 ***
 
-**If your enterprise tried to obtain debt finance: was it successfull?**
+**If your enterprise tried to obtain debt finance: was it successful?**
 
 - Yes
 - No

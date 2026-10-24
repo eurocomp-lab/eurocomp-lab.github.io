@@ -936,7 +936,7 @@ and better targeted, without compromising fairness?"
 ```{=html}
 <div class="facts">
   <div><div class="k">The programme</div><div class="v">An AI decision-support tool, co-developed with UiPath, that benchmarks budgets, flags risks and supports eligibility and quality scoring for grant reviewers</div></div>
-  <div><div class="k">Where</div><div class="v">North-East Romania; Regional Development Agency (RDA), embedded in the 2026 Microenterprise Growth Grant Call (&asymp;EUR30 million)</div></div>
+  <div><div class="k">Where</div><div class="v">North-East Romania; Regional Development Agency (RDA), embedded in the 2026 Microenterprise Growth Grant Call (&asymp;EUR 30 million)</div></div>
   <div><div class="k">Who is randomised</div><div class="v">~1,000 expressions of interest and ~800 full proposals, reviewed by 30&ndash;40 trained reviewers; ~150 funded projects</div></div>
   <div><div class="k">The design</div><div class="v">Multi-phase RCT: reviewers randomised to AI-assisted or human-only review at each stage; ~150 grants allocated by lottery within score bands; funded projects randomised to AI-assisted or standard monitoring</div></div>
   <div><div class="k">Outcomes tracked</div><div class="v">Review time and scores, clarification requests and appeals, on-time disbursement, and funded-firm survival, employment, revenue and investment</div></div>
@@ -1088,7 +1088,7 @@ returns, once spillovers to other firms are taken into account?"
 ```{=html}
 <div class="facts">
   <div><div class="k">The programme</div><div class="v">Innovation subsidy grants (50&ndash;70% co-financed by firms) for R&amp;D projects, cross-randomised with a management-training programme on change and innovation culture</div></div>
-  <div><div class="k">Where</div><div class="v">South-Muntenia, Romania; South-Muntenia Regional Development Agency (SM-RDA), EUR24.8 million SME innovation grant allocation</div></div>
+  <div><div class="k">Where</div><div class="v">South-Muntenia, Romania; South-Muntenia Regional Development Agency (SM-RDA), EUR 24.8 million SME innovation grant allocation</div></div>
   <div><div class="k">Who is randomised</div><div class="v">&asymp;900 SMEs across 100 geographic or sectoral clusters (&asymp;9 firms per cluster), excluding agricultural firms</div></div>
   <div><div class="k">The design</div><div class="v">Two-stage RCT: clusters randomised to 0%, 33%, 66% or 100% funding intensity, then firms randomised to funding within each cluster; management training cross-randomised at firm level</div></div>
   <div><div class="k">Outcomes tracked</div><div class="v">Short-run revenue, inputs, profit, productivity, investment, pricing and product variety; medium- to long-run technology adoption, new products, licensing and patenting</div></div>

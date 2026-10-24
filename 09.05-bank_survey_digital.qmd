@@ -4,7 +4,7 @@ title: "Topic: digitalisation and technology adoption"
 
 **Digital technology adoption**
 
-- **Definition:** whether and which digital technologies the firm uses (cloud, artificial intelligence, internet of thrings, big data, etc.)
+- **Definition:** whether and which digital technologies the firm uses (cloud, artificial intelligence, Internet of Things, big data, etc.)
 - **Metric:** number of digital technologies in use; binary indicators per technology type
 
 ---

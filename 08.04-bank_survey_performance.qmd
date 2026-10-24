@@ -2,7 +2,7 @@
 title: "Topic: company financial performance"
 ---
 
-**How many full-time paid employees work in the business as of the end of [year]?
+**How many full-time paid employees work in the business as of the end of [year]?**
 *(Open numeric field)*
 
 ***
@@ -22,7 +22,7 @@ title: "Topic: company financial performance"
 
 ***
 
-**What was your company's total investment in inangible assets in [year]?**
+**What was your company's total investment in intangible assets in [year]?**
 *(Open numeric field, in [currency])*
 
 ***

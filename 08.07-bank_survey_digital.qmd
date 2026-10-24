@@ -152,7 +152,7 @@ title: "Topic: digitalisation and technology adoption"
 
 ***
 
-**Which human resources mangement tools is the business using? These tools are related to streamlining communication and company-employee relations.**
+**Which human resources management tools is the business using? These tools are related to streamlining communication and company-employee relations.**
 
 - Salary calculation using appropriate software
 - Management of holidays and days off using software connected to the financial accounting system
@@ -198,7 +198,7 @@ title: "Topic: digitalisation and technology adoption"
 
 ***
 
-**Which processess digitalization tools is the business using? These tools are related to the digitalization of the processes within the business.**
+**Which processes digitalization tools is the business using? These tools are related to the digitalization of the processes within the business.**
 
 - Digital approval/signature (using e.g. electronic signature) of documents, contracts, etc.
 - Easy interconnection and exploitation of the various digital solutions implemented
@@ -237,7 +237,7 @@ title: "Topic: digitalisation and technology adoption"
 - Marketing and customer relationship tools
 - e-Payments tools
 - Record and financial management tools
-- Human resources managament tools
+- Human resources management tools
 - Production digitization tools
 - Other
 
@@ -283,7 +283,7 @@ title: "Topic: digitalisation and technology adoption"
 
 ***
 
-** How did your company acquire the technologies it currently uses?**
+**How did your company acquire the technologies it currently uses?**
 *(Select all that apply)*
 
 - Purchased off-the-shelf from a supplier
