@@ -1,5 +1,6 @@
 ---
-title: "Topic: business training"
+title: "Survey questions: business support and training"
+description-meta: "Ask firms whether they applied for or joined business support programmes, and whether they train their staff, using tested survey questions."
 ---
 
 **In [year], did your enterprise apply for any business support programme?**

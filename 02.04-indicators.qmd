@@ -1,5 +1,6 @@
 ---
 title: "Step 3: determine relevant indicators"
+description-meta: "Turn your Theory of Change into measurable indicators, test them against the SMART criteria and find validated measures in the outcome repository."
 ---
 
 ```{=html}
@@ -55,6 +56,6 @@ The RCT outcome repository lists outcome indicators by topic, from firm performa
 ---
 
 ::: {.nav-buttons}
-[← Previous - Step 2: define evaluation questions](02.02-eval_questions.qmd) | [Next - Step 4: assess feasibility of conducting an RCT →](02.03-assess.qmd)
+[← Previous - Step 2: define learning questions](02.02-eval_questions.qmd) | [Next - Step 4: check whether an RCT is feasible →](02.03-assess.qmd)
 :::
 

@@ -1,5 +1,6 @@
 ---
-title: "Repository"
+title: "Survey questions and outcome indicators"
+description-meta: "Browse ready-made survey questions and outcome indicators, organised by topic, to measure how business support changes the firms in your evaluation."
 ---
 
 ## Survey question repository

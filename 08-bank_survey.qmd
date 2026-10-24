@@ -1,5 +1,6 @@
 ---
 title: "Survey question repository"
+description-meta: "Find tested survey questions for firm-level evaluations, organised by topic and drawn from the Community Innovation Survey, World Bank surveys and others."
 ---
 
 Before writing a single question, review existing, validated survey instruments. Using questions that have already been tested in comparable evaluations saves time, improves data quality, and makes findings comparable with evidence from other programmes and regions. Key reference sources include:
@@ -25,6 +26,6 @@ The survey question repository brings together questions drawn from the resource
 - Topic: [technology readiness level](08.11-bank_survey_trl.qmd)
 - Topic: [energy efficiency](08.12-bank_survey_energy.qmd)
 - Topic: [business finance](08.13-bank_survey_finance.qmd)
-- Topic: [training](08.14-bank_survey_train.qmd)
+- Topic: [business support and training](08.14-bank_survey_train.qmd)
 - Topic: [management practices](08.15-bank_survey_mgmt.qmd)
 - Topic: [competition](08.16-bank_survey_comp.qmd)

@@ -1,5 +1,6 @@
 ---
 title: "Step 1: develop a Theory of Change"
+description-meta: "Build a Theory of Change that maps how your programme should work, from inputs to goals, and see how it fits the intervention logic EU funds require."
 ---
 
 ```{=html}

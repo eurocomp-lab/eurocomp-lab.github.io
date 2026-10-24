@@ -1,5 +1,6 @@
 ---
-title: "Topic: energy efficiency"
+title: "Outcome indicators: energy efficiency"
+description-meta: "Measure energy efficiency with outcome indicators for energy use and cost, energy mix, on-site renewables, audits, investment and savings."
 ---
 
 **Total energy consumption**

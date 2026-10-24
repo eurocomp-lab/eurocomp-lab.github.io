@@ -1,5 +1,6 @@
 ---
-title: "Topic: technology readiness level"
+title: "Survey questions: technology readiness level"
+description-meta: "Ask firms where their main technology sits on the technology readiness scale from 1 to 9, and which level they aim to reach, using tested survey questions."
 ---
 
 **What is the current Technology Readiness Level (TRL) of your firm's main technology or product under development?**

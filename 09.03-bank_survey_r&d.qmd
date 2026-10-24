@@ -1,5 +1,6 @@
 ---
-title: "Topic: Research & Development activity"
+title: "Outcome indicators: R&D activity"
+description-meta: "Measure research and development with outcome indicators for R&D engagement, spending and staff, each with a plain-language definition and metric."
 ---
 
 **Research & Development (R&D) engagement**

@@ -1,5 +1,6 @@
 ---
-title: "Topic: business finance"
+title: "Outcome indicators: business finance"
+description-meta: "Measure access to finance with outcome indicators for equity, debt and public support, and whether each one goes to R&D and innovation."
 ---
 
 **Access to equity finance**

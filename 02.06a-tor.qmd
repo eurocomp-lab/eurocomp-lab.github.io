@@ -1,5 +1,6 @@
 ---
-title: "Terms of Reference for evaluation and data collection"
+title: "Writing terms of reference for an RCT"
+description-meta: "Hire an evaluator and data collection firm: procurement from expression of interest to inception, what the terms of reference must cover and what to avoid."
 ---
 
 ::: {.team-note}

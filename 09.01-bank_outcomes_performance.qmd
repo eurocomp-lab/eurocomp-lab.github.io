@@ -1,5 +1,6 @@
 ---
-title: "Topic: firm performance and growth"
+title: "Outcome indicators: firm performance and growth"
+description-meta: "Measure firm performance with outcome indicators for turnover, profits, value added, productivity, wages and exports, each with a definition and metric."
 ---
 
 **Turnover**

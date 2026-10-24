@@ -1,5 +1,6 @@
 ---
-title: "Glossary"
+title: "Glossary of evaluation terms"
+description-meta: "Look up plain-language definitions of the evaluation terms used on this site, from additionality and attrition to spillover effects and Theory of Change."
 ---
 
 ::: {.lede}

@@ -1,5 +1,6 @@
 ---
-title: "Topic: business finance"
+title: "Survey questions: business finance"
+description-meta: "Ask firms whether they sought equity or debt finance, whether they got it, and whether it paid for R&D or innovation, using tested survey questions."
 ---
 
 **In [year], did your enterprise try to obtain equity finance (finance provided in exchange for a share in the ownership of the enterprise)?**

@@ -1,5 +1,6 @@
 ---
-title: "Topic: collaboration"
+title: "Survey questions: collaboration"
+description-meta: "Ask firms who they co-operate with and where, which sources of knowledge they use and what holds collaboration back, using tested survey questions."
 ---
 
 **In [year], did your enterprise co-operate with other enterprises or organisations on the following activities?** 

@@ -1,5 +1,6 @@
 ---
-title: "Topic: energy efficiency"
+title: "Survey questions: energy efficiency"
+description-meta: "Ask firms about energy use and costs, renewable energy, energy management, audits and efficiency investments, using tested survey questions."
 ---
 
 ## Energy consumption

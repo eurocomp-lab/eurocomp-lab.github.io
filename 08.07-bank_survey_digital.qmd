@@ -1,5 +1,6 @@
 ---
-title: "Topic: digitalisation and technology adoption"
+title: "Survey questions: digitalisation and technology"
+description-meta: "Ask firms which digital tools they use, from hardware and software to online sales, digital marketing and e-payments, using tested survey questions."
 ---
 
 **Which of the following digital technologies does your company currently use?**

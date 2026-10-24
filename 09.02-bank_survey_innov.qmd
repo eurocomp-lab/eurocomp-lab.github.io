@@ -1,5 +1,6 @@
 ---
-title: "Topic: innovation and intellectual property"
+title: "Outcome indicators: innovation and IP"
+description-meta: "Measure innovation with outcome indicators for new products and processes, innovation spending, technology readiness, patents, trademarks and licensing."
 ---
 
 **Innovation activity**

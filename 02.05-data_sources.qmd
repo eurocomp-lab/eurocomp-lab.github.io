@@ -1,5 +1,6 @@
 ---
 title: "Step 5: identify available data sources"
+description-meta: "Decide where your outcome data will come from: weigh survey and administrative data, find firm-level sources and set up data-sharing agreements early."
 ---
 
 ```{=html}
@@ -87,5 +88,5 @@ A data-sharing agreement between the Managing Authority and the data-holding bod
 ***
 
 ::: {.nav-buttons}
-[← Previous - Step 4: assess feasibility of conducting an RCT](02.03-assess.qmd) | [Next - Step 6: collect data →](02.06-data_collect.qmd)
+[← Previous - Step 4: check whether an RCT is feasible](02.03-assess.qmd) | [Next - Step 6: collect data →](02.06-data_collect.qmd)
 :::

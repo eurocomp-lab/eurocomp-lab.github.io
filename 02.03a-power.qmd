@@ -1,5 +1,6 @@
 ---
-title: "More details on power calculations"
+title: "Power calculations: how many firms you need"
+description-meta: "Find out how many firms your trial needs to detect an effect, what drives that number and what to discuss with your evaluator about sample size."
 ---
 
 ::: {.team-note}
@@ -257,5 +258,5 @@ Free software covering a wide range of experimental designs
 ***
 
 ::: {.nav-buttons}
-[← Back to - Step 4: assess feasibility](02.03-assess.qmd)
+[← Back to - Step 4: check whether an RCT is feasible](02.03-assess.qmd)
 :::

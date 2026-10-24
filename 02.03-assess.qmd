@@ -1,5 +1,6 @@
 ---
-title: "Step 4: assess feasibility of conducting an RCT"
+title: "Step 4: check whether an RCT is feasible"
+description-meta: "Check the five conditions a randomised trial needs, choose from five randomisation designs and avoid the problems that most often arise after the lottery."
 ---
 
 ```{=html}
@@ -41,7 +42,7 @@ An RCT requires sustained commitment from the Managing Authority and any interme
 :::
 ::: {.card-e}
 ### 5. Can the outcomes actually be measured? {.unlisted}
-The indicators selected in [Step 3](02.04-indicators) must be observable - through administrative records, a survey, or both. If the primary outcome cannot be reliably measured for both treatment and comparison firms, the evaluation will not produce credible results even if the design is sound.
+The indicators selected in [Step 3](02.04-indicators.qmd) must be observable - through administrative records, a survey, or both. If the primary outcome cannot be reliably measured for both treatment and comparison firms, the evaluation will not produce credible results even if the design is sound.
 :::
 :::
 
@@ -528,6 +529,6 @@ The evaluation was pre-registered in the [AEA RCT Registry](https://www.socialsc
 ***
 
 ::: {.nav-buttons}
-[← Previous - Step 3: determine relevant indicators](02.03-assess.qmd) | [Next - Step 5: identify available data sources →](02.05-data_sources.qmd)
+[← Previous - Step 3: determine relevant indicators](02.04-indicators.qmd) | [Next - Step 5: identify available data sources →](02.05-data_sources.qmd)
 :::
 

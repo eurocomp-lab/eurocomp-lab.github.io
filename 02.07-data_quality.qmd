@@ -1,5 +1,6 @@
 ---
 title: "Step 7: ensure high-quality data"
+description-meta: "Build quality checks into every stage of data collection: before fieldwork, in real time while it runs, and afterwards through cleaning and validation."
 ---
 
 ```{=html}

@@ -1,5 +1,6 @@
 ---
-title: "More details on comparability of groups"
+title: "Balance checks: are the groups comparable?"
+description-meta: "Learn how to check that the treatment and comparison groups look alike after the lottery, how to read the results and what to do if they differ."
 ---
 
 ::: {.team-note}
@@ -107,5 +108,5 @@ Never drop firms from the analysis because they appear to be outliers or because
 ***
 
 ::: {.nav-buttons}
-[← Back to - Step 4: assess feasibility](02.03-assess.qmd)
+[← Back to - Step 4: check whether an RCT is feasible](02.03-assess.qmd)
 :::

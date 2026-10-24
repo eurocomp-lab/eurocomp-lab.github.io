@@ -1,5 +1,6 @@
 ---
 title: "Step 6: collect data"
+description-meta: "Plan survey rounds, choose a collection method, design and pilot the questionnaire, limit attrition and meet data protection rules when surveying firms."
 ---
 
 ```{=html}
@@ -90,7 +91,7 @@ The primary respondents were CEOs and/or firm owners, with additional input from
 
 ## The role of data collection firms and evaluation consultants
 
-Managing Authorities can implement RCTs in-house including conducting surveys and data analysis. However, implementing RCTs comes with many specificities and challenges. The technical expertise needed can be contracted in. Having the right expert team on board makes all the difference. What Managing Authorities need is a well-crafted Terms of Reference (ToRs): the document that attracts the right teams, sets the methodological bar, and defines the conditions for a credible, policy-relevant evaluation. A strong ToR is therefore not a procurement formality - it is the Managing Authority’s most important contribution to the quality of the evaluation. For more information on ToRs, please click here: [Terms of References](02.06a-tor.qmd)
+Managing Authorities can implement RCTs in-house including conducting surveys and data analysis. However, implementing RCTs comes with many specificities and challenges. The technical expertise needed can be contracted in. Having the right expert team on board makes all the difference. What Managing Authorities need is a well-crafted Terms of Reference (ToRs): the document that attracts the right teams, sets the methodological bar, and defines the conditions for a credible, policy-relevant evaluation. A strong ToR is therefore not a procurement formality - it is the Managing Authority’s most important contribution to the quality of the evaluation. For more information on ToRs, please click here: [Terms of Reference](02.06a-tor.qmd)
 
 The division of responsibilities between the Managing Authority, the evaluation consultant and/or the data collection firm should be made explicit in procurement. Close collaboration is key for a successfully conducted RCT. Depending on which activities the Managing Authorities conduct in-house, the evaluation consultant or data collection firm supports or conducts the following activities: designing the survey instrument, translating and piloting the questionnaire, determining the sample, setting up the digital survey platform, recruiting and training enumerators, managing fieldwork, monitoring response rates, implementing quality controls, delivering a clean dataset, and carrying out the statistical analysis once data has been collected.
 

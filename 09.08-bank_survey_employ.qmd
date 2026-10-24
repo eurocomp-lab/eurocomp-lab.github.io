@@ -1,5 +1,6 @@
 ---
-title: "Topic: employment and human capital"
+title: "Outcome indicators: employment and human capital"
+description-meta: "Measure employment with outcome indicators for jobs, job growth, high-skilled staff, training and wages, each with a definition and metric."
 ---
 
 **Employment**

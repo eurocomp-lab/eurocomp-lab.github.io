@@ -1,5 +1,6 @@
 ---
 title: "Informed consent in RCT data collection"
+description-meta: "Draft a consent form for trial surveys: what it must contain, how to split mandatory and optional parts, and how to comply with EU data protection rules."
 ---
 
 ::: {.team-note}

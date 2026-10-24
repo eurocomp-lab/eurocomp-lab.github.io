@@ -1,5 +1,6 @@
 ---
-title: "Topic: digitalisation and technology adoption"
+title: "Outcome indicators: digitalisation and technology"
+description-meta: "Measure digitalisation with outcome indicators for technology use, online sales, digital investment, digital skills and digital maturity."
 ---
 
 **Digital technology adoption**

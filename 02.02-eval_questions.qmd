@@ -1,5 +1,6 @@
 ---
 title: "Step 2: define learning questions"
+description-meta: "Write the questions your evaluation must answer: what makes a good learning question, the four types to cover and how each links to your Theory of Change."
 ---
 
 ```{=html}
@@ -88,5 +89,5 @@ Evaluation questions must be scoped to what the evaluation can credibly deliver.
 
 
 ::: {.nav-buttons}
-[← Previous: Step 1 - Develop a Theory of Change](02.01-toc.qmd) | [Next: Step 3 - Determine relevant indicators →](02.04-indicators.qmd)
+[← Previous - Step 1: develop a Theory of Change](02.01-toc.qmd) | [Next - Step 3: determine relevant indicators →](02.04-indicators.qmd)
 :::

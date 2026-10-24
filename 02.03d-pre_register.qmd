@@ -1,5 +1,6 @@
 ---
 title: "Pre-registration of an RCT"
+description-meta: "Register your evaluation design publicly before the lottery, so results cannot be reported selectively, and compare three registries that accept trials."
 ---
 
 ## Pre-register the evaluation design before the lottery
@@ -40,5 +41,5 @@ The evaluation was pre-registered in the [AEA RCT Registry](https://www.socialsc
 ***
 
 ::: {.nav-buttons}
-[← Back to - Step 4: assess feasibility](02.03-assess.qmd)
+[← Back to - Step 4: check whether an RCT is feasible](02.03-assess.qmd)
 :::

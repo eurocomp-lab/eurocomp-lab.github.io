@@ -1,5 +1,6 @@
 ---
-title: "Topic: company details"
+title: "Survey questions: company details"
+description-meta: "Ask firms for their name, registration number, sector, products, main customers, location and website, using tested survey questions."
 ---
 
 **What is the name of your company?**

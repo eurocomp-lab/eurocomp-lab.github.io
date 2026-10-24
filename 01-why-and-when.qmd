@@ -1,5 +1,6 @@
 ---
-title: "RCTs: why and when"
+title: "Why and when to use a randomised controlled trial"
+description-meta: "Learn what impact evaluation is, why a randomised controlled trial usually gives the most credible answer, and when to plan one or use another method."
 ---
 
 ::: {.team-note}
@@ -1018,7 +1019,7 @@ markets to serve do not exist.
 ### Statistically not feasible {.unlisted}
 Too few units or too little money. Large indirect or spillover effects you cannot measure (Spillovers alone are not a
 reason to drop an RCT: if expected, they can be designed for and measured (see
-[Step 4: assess feasibility of conducting an RCT](02.03-assess.qmd)))
+[Step 4: check whether an RCT is feasible](02.03-assess.qmd)))
 Setting too chaotic, for example disaster relief. Treatment assigned at too high a level,
 for example national policy.
 :::
@@ -1031,7 +1032,7 @@ The answer is already known from credible existing studies, or there is no gener
 :::
 :::
 
-If an RCT is the right tool in principle, [Step 4: assess feasibility of conducting an RCT](02.03-assess.qmd) checks whether it is
+If an RCT is the right tool in principle, [Step 4: check whether an RCT is feasible](02.03-assess.qmd) checks whether it is
 feasible in practice: oversubscription, timing, legal basis, institutional buy-in and
 measurable outcomes.
 

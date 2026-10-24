@@ -1,5 +1,6 @@
 ---
 title: "RCT outcome repository"
+description-meta: "Find outcome indicators for evaluating business support, each with a plain-language definition and a metric, drawn from World Bank and OECD sources."
 ---
 
 Indicators rarely need to be built from scratch. Managing Authorities should draw on existing, well-tested measures from comparable evaluations before designing new ones. The selection of outcomes and their definitions in this repository was informed by the EuroCOMP Lab evaluations (see [Examples](03-examples.qmd)), policy reports such as the [World Bank's TIDES report](https://www.worldbank.org/en/region/eca/publication/tides-of-change-igniting-productivity-growth-in-europe-and-central-asia), and established indicator manuals such as the [OECD Oslo Manual](https://www.oecd.org/en/publications/2018/10/oslo-manual-2018_g1g9373b.html) for innovation and the [OECD Frascati Manual](https://www.oecd.org/en/publications/2015/10/frascati-manual-2015_g1g57dcb.html) for research and development. Drawing on these sources improves the quality of your data and makes findings easier to compare with evidence from other programmes and regions.
@@ -26,7 +27,7 @@ The RCT outcome repository provides a curated list of outcome indicators, organi
   - Example: [World Bank. 2025. &ldquo;Thinking Bigger: Digital Transformation in North-East Romania: Short-Term Impacts.&rdquo; Strengthening Monitoring and Evaluation of Innovation Programs in the EU. World Bank, Washington, DC.](https://documents1.worldbank.org/curated/en/099062725130014823/pdf/P171223-aee2b26f-49c8-4bd1-a313-6a8d9d71abc4.pdf)
 - Topic: [business finance](09.09-bank_outcome_finance.qmd)
   - Example: [Dautovic, E., Cusolito, A. P., and McKenzie, D. 2018. &ldquo;Can Government Intervention Make Firms More Investment-Ready?: A Randomized Experiment in the Western Balkans.&rdquo; Policy Research Working Paper; No. 8541. World Bank, Washington, DC.](https://openknowledge.worldbank.org/server/api/core/bitstreams/28fbd029-9619-5eb8-836a-c1432fe1581b/content)
-- Topic: [business training](09.10-bank_outcome_train.qmd)
+- Topic: [business support and training](09.10-bank_outcome_train.qmd)
   - Example: [Iacovone, L., Maloney, W., and McKenzie, D. 2022. &ldquo;Improving Management with Individual and Group-Based Consulting: Results from a Randomized Experiment in Colombia.&rdquo; The Review of Economic Studies, Review of Economic Studies Ltd, vol. 89(1), pages 346-371.](https://documents1.worldbank.org/curated/en/166671557929384690/pdf/Improving-Management-with-Individual-and-Group-Based-Consulting-Results-from-a-Randomized-Experiment-in-Colombia.pdf)
 - Topic: [management practices](09.11-bank_outcome_mgmt.qmd)
   - Example: [Viganola, D. and Diallo, M. Y. 2025. &ldquo;How Management Practices Differ in the EU-27.&rdquo; Policy Indicators Briefs. World Bank, Washington, DC.](https://documents1.worldbank.org/curated/en/099513502142528787/pdf/IDU-b17303ed-2bae-41a2-9c52-5d5795945e21.pdf)

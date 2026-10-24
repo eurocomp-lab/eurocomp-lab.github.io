@@ -1,5 +1,6 @@
 ---
 title: "What is the EuroCOMP Lab?"
+description-meta: "Learn how the EuroCOMP Lab, a joint initiative of the European Commission and the World Bank, builds randomised trials into EU competitiveness programmes."
 ---
 
 ::: {.team-note}

@@ -1,5 +1,6 @@
 ---
-title: "Topic: respondent details"
+title: "Survey questions: respondent details"
+description-meta: "Ask the person answering for a firm about their role, contact details, education and gender, and how they heard of the programme, using tested questions."
 ---
 
 **What is your first name?**

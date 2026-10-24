@@ -1,5 +1,6 @@
 ---
-title: "Topic: collaboration and knowledge transfer"
+title: "Outcome indicators: collaboration"
+description-meta: "Measure collaboration and knowledge transfer with outcome indicators for partnerships, partner diversity, links with universities and network membership."
 ---
 
 **Collaboration incidence**

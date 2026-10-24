@@ -1,5 +1,6 @@
 ---
-title: "Topic: business training"
+title: "Outcome indicators: business support and training"
+description-meta: "Measure take-up of business support with outcome indicators for applications, participation, programme type and formal employee training."
 ---
 
 **Application for business support programmes**

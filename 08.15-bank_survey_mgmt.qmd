@@ -1,5 +1,6 @@
 ---
-title: "Topic: management practices"
+title: "Survey questions: management practices"
+description-meta: "Ask firms how they solve problems, monitor performance, set targets and reward or promote staff, using tested survey questions on management practices."
 ---
 
 **ASK IF MANUFACTURING: over [year], what best describes what happened at this establishment when a problem in the production process arose?**

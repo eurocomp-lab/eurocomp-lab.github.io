@@ -1,5 +1,6 @@
 ---
-title: "Integrating randomisation into national legislation"
+title: "A legal basis for random selection"
+description-meta: "See what a national legal framework must cover before Managing Authorities can select beneficiaries by lottery, with examples from Spain and France."
 ---
 
 ::: {.team-note}
@@ -36,5 +37,5 @@ France adopted a higher-level approach, embedding the right to conduct policy ex
 ---
 
 ::: {.nav-buttons}
-[← Back to - Step 4: assess feasibility](02.03-assess.qmd)
+[← Back to - Step 4: check whether an RCT is feasible](02.03-assess.qmd)
 :::

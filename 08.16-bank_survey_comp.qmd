@@ -1,5 +1,6 @@
 ---
-title: "Topic: competition"
+title: "Survey questions: competition"
+description-meta: "Ask firms about their main market, how many competitors they face, how competition has changed and whether they can raise prices, using tested questions."
 ---
 
 **In [year], which of the following was the main market in which this establishment sold its main product [or offered its main service]?**

@@ -1,5 +1,6 @@
 ---
-title: "How to design an RCT"
+title: "How to design a randomised controlled trial"
+description-meta: "Follow seven steps to design a credible randomised controlled trial, from a Theory of Change to high-quality data, and see who to bring onto your team."
 ---
 
 ::: {.team-note}
@@ -36,7 +37,7 @@ Select the outcome indicators that will be used to measure change across each le
 
 ::: {.card-e}
 
-### [Step 4: assess feasibility of conducting an RCT](02.03-assess.qmd) {.unlisted}
+### [Step 4: check whether an RCT is feasible](02.03-assess.qmd) {.unlisted}
 
 Check whether the conditions for a valid RCT are in place - oversubscription, timing, legal basis, and political buy-in.
 :::

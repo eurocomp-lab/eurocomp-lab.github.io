@@ -10,7 +10,7 @@ project:
 
 website:
   title: "EuroCOMP Lab"
-  description: "Experimental evaluation for competitive business support programmes"
+  description: "Experimental evaluation for EU-funded programmes"
   favicon: assets/logo/favicon.png
 
   navbar:

@@ -1,5 +1,6 @@
 ---
-title: "Topic: management practices"
+title: "Outcome indicators: management practices"
+description-meta: "Measure management practices with an overall index and indicators for problem solving, monitoring, targets, bonuses, promotion and underperformance."
 ---
 
 **Management practices index**

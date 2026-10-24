@@ -1,5 +1,6 @@
 ---
 title: "Partners and related initiatives"
+description-meta: "Find research groups that can support your evaluation, such as J-PAL, IPA and World Bank DIME, and European Commission initiatives on experimentation."
 ---
 
 ::: {.lede}

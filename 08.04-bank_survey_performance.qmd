@@ -1,5 +1,6 @@
 ---
-title: "Topic: company financial performance"
+title: "Survey questions: company financial performance"
+description-meta: "Ask firms about employees, turnover, wages, investment, exports, profit, debt and assets, and how they rate their finances, using tested survey questions."
 ---
 
 **How many full-time paid employees work in the business as of the end of [year]?**

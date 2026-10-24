@@ -1,5 +1,6 @@
 ---
-title: "Topic: innovation, R&D activities, and intellectual property"
+title: "Survey questions: innovation, R&D and IP"
+description-meta: "Ask firms about new products and processes, R&D, intellectual property and the barriers to innovation, using tested survey questions."
 ---
 
 
