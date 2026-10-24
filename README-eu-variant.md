@@ -11,9 +11,9 @@ tokenisation in step 1, which is reversible via git.
 | `theme.scss` | Your existing warm theme, plus the variable definitions the diagrams now need. Replaces the current file. |
 | `theme-eu.scss` | The EU-register variant. New file. |
 | `_quarto-eu.yml` | Config for the EU variant, including the legal page links and funding statement placeholder. New file. |
-| `legal-notice.qmd` | Draft legal notice. |
-| `privacy.qmd` | Draft privacy statement. |
-| `accessibility.qmd` | Draft accessibility statement. |
+| `XX-legal-notice.qmd` | Draft legal notice (parked: not built). |
+| `XX-privacy.qmd` | Draft privacy statement (parked: not built). |
+| `XX-accessibility.qmd` | Draft accessibility statement (parked: not built). |
 
 ## To try it
 
@@ -40,7 +40,8 @@ tokenisation in step 1, which is reversible via git.
 
 ## Before publishing the legal pages
 
-All three are drafts with open questions marked in the gold note boxes. In
+All three are drafts with open questions marked in the gold note boxes. The
+`XX-` prefix keeps them out of the site; remove it to publish a page. In
 particular:
 
 - **Funding statement.** Confirm whether the Lab itself receives EU funding.

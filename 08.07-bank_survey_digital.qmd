@@ -269,6 +269,7 @@ description-meta: "Ask firms which digital tools they use, from hardware and sof
 - Yes, to some employees
 - No
 
+***
 
 **Which of the following general-purpose technologies does your company currently use in its operations?**
 *(Select all that apply)*

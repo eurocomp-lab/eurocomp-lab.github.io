@@ -93,7 +93,7 @@ This page presents examples of public programmes that built experimentation into
 
   <div class="fr-entry">
   <span class="fr-cite">World Bank. 2026. &ldquo;Short-Term Impacts of the First RCTs with Cohesion Policy: Summary Report.&rdquo; European Regional Competitiveness Policy Lab. World Bank, Washington, DC.</span>
-  <a href="assets/01-10-2026_World_Bank_EuroCOMP_Lab_22_25_Results.pdf" target="_blank" rel="noopener">Read the 2026 summary report (PDF) &rarr;</a>
+  <a href="assets/01-10-2026_World_Bank_EuroCOMP_Lab_22_25_Results.pdf">Read the 2026 summary report (PDF) &rarr;</a>
   </div>
 
   <div class="fr-entry">
