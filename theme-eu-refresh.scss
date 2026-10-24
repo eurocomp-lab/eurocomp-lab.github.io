@@ -481,7 +481,7 @@ hr:has(+ .nav-buttons) { display: none; }
 @media (max-width: 1199.98px) {
   .flow { flex-direction: column; flex-wrap: nowrap; align-items: stretch; max-width: 26rem; }
   .flow > div { flex: 0 0 auto; }
-  .flow-arrow { align-self: center; padding: 0; line-height: 1; transform: rotate(90deg); }
+  .flow .flow-arrow { align-self: center; padding: 0; line-height: 1; transform: rotate(90deg); }
 }
 
 /* Diagrams on phones: keep text readable and let wide diagrams scroll
@@ -504,3 +504,43 @@ hr:has(+ .nav-buttons) { display: none; }
   border: 1px solid $rf-rule;
   border-radius: 8px;
 }
+
+/* ---------------------------------------------------------------
+   Batch 8 (October 2026): fixes from the page check of
+   'Why and when to use a randomised controlled trial'
+   --------------------------------------------------------------- */
+/* Inputs -> outcomes chain: one row with right arrows from 576px up;
+   on phones a column with down arrows, like the step flows */
+@media (min-width: 576px) {
+  .chain { flex-wrap: nowrap; }
+  .chain > div, .chain > .step { flex: 1 1 0; min-width: 0; }
+}
+@media (max-width: 575.98px) {
+  .chain { flex-direction: column; flex-wrap: nowrap; align-items: stretch; max-width: 26rem; }
+  .chain > div, .chain > .step { flex: 0 0 auto; }
+  .chain .flow-arrow { align-self: center; padding: 0; line-height: 1; transform: rotate(90deg); }
+}
+
+/* Diagrams that scroll sideways on phones: a hint under the diagram,
+   and the note stays in view while the diagram scrolls */
+@media (max-width: 575.98px) {
+  #quarto-document-content figure.fig-e > figcaption { position: sticky; left: 0; }
+  #quarto-document-content figure.fig-e > svg:not(.fig-wide):not(.fig-phone) ~ figcaption::before,
+  #quarto-document-content figure.fig-e:not(:has(> figcaption)):has(> svg:not(.fig-wide):not(.fig-phone))::after {
+    content: "Swipe sideways to see the whole figure \2192";
+    display: block;
+    font-size: .8rem;
+    font-weight: 700;
+    color: $rf-ink-soft;
+  }
+  #quarto-document-content figure.fig-e > svg:not(.fig-wide):not(.fig-phone) ~ figcaption::before { margin-bottom: .3rem; }
+  #quarto-document-content figure.fig-e:not(:has(> figcaption)):has(> svg:not(.fig-wide):not(.fig-phone))::after {
+    position: sticky;
+    left: 0;
+    margin-top: .6rem;
+  }
+}
+
+/* Comparison headers: a header that wraps splits into even lines
+   instead of leaving one word alone */
+.compare .col-head { text-wrap: balance; }

@@ -53,35 +53,54 @@ transparent](#legitimacy), and [how outreach was tested](#two-questions) to illu
 
 ```{=html}
 <figure class="fig-e">
-<svg viewBox="0 0 660 250" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Impact evaluation splits into policy learning and accountability; accountability splits into financial accountability and performance and impact accountability">
+<svg class="fig-wide" viewBox="0 0 660 250" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Impact evaluation splits into policy learning and accountability; accountability splits into financial accountability and performance and impact accountability">
   <rect x="200" y="14" width="260" height="34" rx="5" fill="var(--dg-ink)"/>
   <text x="330" y="36" text-anchor="middle" fill="var(--dg-reverse)" font-size="14" font-weight="bold">Impact evaluation</text>
 
   <path d="M330 48 V72 H170 V96" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
   <path d="M330 48 V72 H490 V96" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
 
-    <rect x="60" y="96" width="220" height="34" rx="5" fill="#F2C94C"/>
-  <text x="170" y="118" text-anchor="middle" fill="#2B2724" font-size="13.5" font-weight="bold">Policy learning</text>
+  <rect x="60" y="96" width="220" height="34" rx="5" fill="var(--dg-accent)"/>
+  <text x="170" y="118" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5" font-weight="bold">Policy learning</text>
 
-  <path d="M170 130 V176" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
+  <path d="M170 130 V176" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
 
-  <rect x="380" y="96" width="220" height="34" rx="5" fill="#F2C94C"/>
-  <text x="490" y="118" text-anchor="middle" fill="#2B2724" font-size="13.5" font-weight="bold">Accountability</text>
+  <rect x="380" y="96" width="220" height="34" rx="5" fill="var(--dg-accent)"/>
+  <text x="490" y="118" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5" font-weight="bold">Accountability</text>
 
-  <path d="M490 130 V152 H400 V176" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
-  <path d="M490 130 V152 H580 V176" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+  <path d="M490 130 V152 H414 V176" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+  <path d="M490 130 V152 H566 V176" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
 
   <rect x="60" y="176" width="220" height="52" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
   <text x="170" y="197" text-anchor="middle" fill="var(--dg-ink)" font-size="12">What works, for whom,</text>
   <text x="170" y="213" text-anchor="middle" fill="var(--dg-ink)" font-size="12">under what conditions</text>
 
-  <rect x="310" y="176" width="180" height="52" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="400" y="197" text-anchor="middle" fill="var(--dg-ink)" font-size="12">Financial</text>
-  <text x="400" y="213" text-anchor="middle" fill="var(--dg-ink)" font-size="12">accountability</text>
+  <rect x="344" y="176" width="140" height="52" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="414" y="197" text-anchor="middle" fill="var(--dg-ink)" font-size="12">Financial</text>
+  <text x="414" y="213" text-anchor="middle" fill="var(--dg-ink)" font-size="12">accountability</text>
 
-  <rect x="500" y="176" width="150" height="52" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="575" y="197" text-anchor="middle" fill="var(--dg-ink)" font-size="12">Performance</text>
-  <text x="575" y="213" text-anchor="middle" fill="var(--dg-ink)" font-size="12">and impact</text>
+  <rect x="496" y="176" width="140" height="52" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="566" y="197" text-anchor="middle" fill="var(--dg-ink)" font-size="12">Performance</text>
+  <text x="566" y="213" text-anchor="middle" fill="var(--dg-ink)" font-size="12">and impact</text>
+</svg>
+<svg class="fig-phone" viewBox="0 0 360 316" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Impact evaluation splits into policy learning and accountability; accountability splits into financial accountability and performance and impact accountability">
+  <rect x="10" y="10" width="340" height="40" rx="5" fill="var(--dg-ink)"/>
+  <text x="180" y="35" text-anchor="middle" fill="var(--dg-reverse)" font-size="15" font-weight="bold">Impact evaluation</text>
+  <path d="M24 50 V196 M24 84 H36 M24 196 H36" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+
+  <rect x="36" y="66" width="314" height="36" rx="5" fill="var(--dg-accent)"/>
+  <text x="193" y="89" text-anchor="middle" fill="var(--dg-ink)" font-size="14" font-weight="bold">Policy learning</text>
+  <path d="M52 102 V134 H64" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+  <rect x="64" y="116" width="286" height="36" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="207" y="138" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5">What works, for whom, under what conditions</text>
+
+  <rect x="36" y="178" width="314" height="36" rx="5" fill="var(--dg-accent)"/>
+  <text x="193" y="201" text-anchor="middle" fill="var(--dg-ink)" font-size="14" font-weight="bold">Accountability</text>
+  <path d="M52 214 V292 M52 246 H64 M52 292 H64" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+  <rect x="64" y="228" width="286" height="36" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="207" y="250" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5">Financial accountability</text>
+  <rect x="64" y="274" width="286" height="36" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="207" y="296" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5">Performance and impact</text>
 </svg>
 <figcaption>Note: Policy learning feeds back into programme design, helping develop more effective policies. Accountability refers to both: what the money was spent on and what impact the money achieved to ensure efficient use of public funds.</figcaption>
 </figure>
@@ -189,7 +208,7 @@ four tracked outcomes: digital adoption, revenue, employment, and productivity.
 
 ```{=html}
 <figure class="fig-e">
-<svg viewBox="0 0 620 142" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Four outcomes tracked for North-East Romania: digital adoption, revenue, employment and productivity">
+<svg class="fig-wide" viewBox="0 0 620 142" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Four outcomes tracked for North-East Romania: digital adoption, revenue, employment and productivity">
   <rect x="10" y="10" width="294" height="56" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
   <text x="26" y="32" fill="#2B2724" font-size="12.5" font-weight="bold">Digital adoption</text>
   <text x="26" y="50" fill="#6B6455" font-size="10.5">Measured with the DESI framework</text>
@@ -205,6 +224,23 @@ four tracked outcomes: digital adoption, revenue, employment, and productivity.
   <rect x="316" y="76" width="294" height="56" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
   <text x="332" y="98" fill="#2B2724" font-size="12.5" font-weight="bold">Productivity</text>
   <text x="332" y="116" fill="#6B6455" font-size="10.5">Output relative to inputs</text>
+</svg>
+<svg class="fig-phone" viewBox="0 0 300 226" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Four outcomes tracked for North-East Romania: digital adoption, revenue, employment and productivity">
+  <rect x="1" y="1" width="298" height="50" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="15" y="22" fill="#2B2724" font-size="12.5" font-weight="bold">Digital adoption</text>
+  <text x="15" y="39" fill="#6B6455" font-size="10.5">Measured with the DESI framework</text>
+
+  <rect x="1" y="59" width="298" height="50" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="15" y="80" fill="#2B2724" font-size="12.5" font-weight="bold">Revenue</text>
+  <text x="15" y="97" fill="#6B6455" font-size="10.5">Turnover and growth over the period</text>
+
+  <rect x="1" y="117" width="298" height="50" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="15" y="138" fill="#2B2724" font-size="12.5" font-weight="bold">Employment</text>
+  <text x="15" y="155" fill="#6B6455" font-size="10.5">Headcount and job creation</text>
+
+  <rect x="1" y="175" width="298" height="50" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="15" y="196" fill="#2B2724" font-size="12.5" font-weight="bold">Productivity</text>
+  <text x="15" y="213" fill="#6B6455" font-size="10.5">Output relative to inputs</text>
 </svg>
 </figure>
 ```
@@ -381,7 +417,7 @@ group without the programme.
   <polyline points="300,190 390,182 480,174 570,166" fill="none" stroke="var(--dg-ink)" stroke-width="2.5"/>
 
   <circle cx="110" cy="200" r="5" fill="var(--dg-ink)"/>
-  <text x="122" y="192" fill="var(--dg-ink-soft)" font-size="11.5">Same starting point</text>
+  <text x="122" y="184" fill="var(--dg-ink-soft)" font-size="11.5">Same starting point</text>
 
   <path d="M588 85 H596 M588 166 H596 M592 85 V166" stroke="var(--dg-ink)" stroke-width="1.5" fill="none"/>
   <text x="604" y="129" fill="var(--dg-ink)" font-size="13" font-weight="bold">Impact</text>
@@ -432,7 +468,7 @@ impact of being invited to apply for the grant.
 ### The randomisation design {.unlisted}
 ```{=html}
 <figure class="fig-e">
-<svg viewBox="0 0 680 240" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="1038 eligible firms enter a random draw and are split into a treatment group invited to apply for a grant and a comparison group receiving no invitation">
+<svg class="fig-wide" viewBox="0 0 680 240" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="1038 eligible firms enter a random draw and are split into a treatment group invited to apply for a grant and a comparison group receiving no invitation">
   <rect x="10" y="87" width="150" height="66" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
   <text x="85" y="116" text-anchor="middle" fill="#2B2724" font-size="20" font-weight="bold">1,038</text>
   <text x="85" y="135" text-anchor="middle" fill="#6B6455" font-size="11.5">eligible firms</text>
@@ -455,6 +491,31 @@ impact of being invited to apply for the grant.
   <text x="446" y="182" fill="#2B2724" font-size="12.5" font-weight="bold">Comparison group &ndash; 519</text>
   <text x="446" y="199" fill="#6B6455" font-size="10.5">No invitation, surveyed</text>
   <text x="446" y="212" fill="#6B6455" font-size="10.5">the same way</text>
+</svg>
+<svg class="fig-phone" viewBox="0 0 300 256" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="1038 eligible firms enter a random draw and are split into a treatment group invited to apply for a grant and a comparison group receiving no invitation">
+  <rect x="75" y="1" width="150" height="58" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="150" y="29" text-anchor="middle" fill="#2B2724" font-size="20" font-weight="bold">1,038</text>
+  <text x="150" y="47" text-anchor="middle" fill="#6B6455" font-size="11.5">eligible firms</text>
+
+  <path d="M150 59 V79" stroke="#B9AF95" stroke-width="1.5"/>
+
+  <rect x="65" y="79" width="170" height="56" rx="6" fill="#F2C94C"/>
+  <text x="150" y="103" text-anchor="middle" fill="#2B2724" font-size="12.5" font-weight="bold">RANDOM DRAW</text>
+  <text x="150" y="121" text-anchor="middle" fill="#2B2724" font-size="11">before a notary</text>
+
+  <path d="M150 135 V151 H73 V167 M150 151 H227 V167" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
+
+  <rect x="1" y="167" width="144" height="88" rx="6" fill="#F2C94C"/>
+  <text x="73" y="191" text-anchor="middle" fill="#2B2724" font-size="18" font-weight="bold">519</text>
+  <text x="73" y="209" text-anchor="middle" fill="#2B2724" font-size="12" font-weight="bold">Treatment group</text>
+  <text x="73" y="227" text-anchor="middle" fill="#2B2724" font-size="10.5">Invited to apply for</text>
+  <text x="73" y="241" text-anchor="middle" fill="#2B2724" font-size="10.5">a grant</text>
+
+  <rect x="155" y="167" width="144" height="88" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="227" y="191" text-anchor="middle" fill="#2B2724" font-size="18" font-weight="bold">519</text>
+  <text x="227" y="209" text-anchor="middle" fill="#2B2724" font-size="12" font-weight="bold">Comparison group</text>
+  <text x="227" y="227" text-anchor="middle" fill="#6B6455" font-size="10.5">No invitation, surveyed</text>
+  <text x="227" y="241" text-anchor="middle" fill="#6B6455" font-size="10.5">the same way</text>
 </svg>
 <figcaption>Note: Among eligible firms, which firms were invited to apply for a grant was randomly assigned.</figcaption>
 </figure>
@@ -869,7 +930,7 @@ those that do not, so they might grow faster regardless of the grant.
 </details>
 
 <details class="myth-box" id="difference-in-differences">
-<summary>Difference in differences</summary>
+<summary>Difference-in-differences</summary>
 
 ::: {.method}
 Method
@@ -1016,9 +1077,9 @@ markets to serve do not exist.
 [03]{.num}
 
 ### Statistically not feasible {.unlisted}
-Too few units or too little money. Large indirect or spillover effects you cannot measure (Spillovers alone are not a
-reason to drop an RCT: if expected, they can be designed for and measured (see
-[Step 4: check whether an RCT is feasible](02.03-assess.qmd)))
+Too few units or too little money. Large indirect or spillover effects you cannot measure. (Spillovers alone are not a
+reason to drop an RCT: if expected, they can be designed for and measured; see
+[Step 4: check whether an RCT is feasible](02.03-assess.qmd).)
 Setting too chaotic, for example disaster relief. Treatment assigned at too high a level,
 for example national policy.
 :::
@@ -1046,16 +1107,16 @@ But before adopting what worked elsewhere, questions of external validity need t
 
 ```{=html}
 <figure class="fig-e">
-<svg viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="A four stage cycle: review evidence and create learnings, design, test, adjust and invest">
+<svg class="fig-wide" viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="A four stage cycle: review evidence and create learnings, design, test, adjust and invest">
   <defs>
     <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
       <path d="M0 0 L10 5 L0 10 z" fill="var(--dg-line)"/>
     </marker>
   </defs>
   <path d="M370 60 Q510 90 530 148" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah)"/>
-  <path d="M530 200 Q505 258 380 240" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+  <path d="M530 200 Q511 253 408 242" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah)"/>
   <path d="M270 240 Q150 258 128 200" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah)"/>
-  <path d="M128 148 Q150 90 275 62" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+  <path d="M128 148 Q147 98 252 69" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah)"/>
 
   <rect x="255" y="30" width="150" height="52" rx="6" fill="var(--dg-accent)"/>
   <text x="330" y="51" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Review evidence,</text>
@@ -1069,6 +1130,29 @@ But before adopting what worked elsewhere, questions of external validity need t
 
   <rect x="40" y="152" width="150" height="42" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
   <text x="115" y="178" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5" font-weight="bold">Adjust and invest</text>
+</svg>
+<svg class="fig-phone" viewBox="0 0 360 262" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="A four stage cycle: review evidence and create learnings, design, test, adjust and invest">
+  <defs>
+    <marker id="ah-cycle-phone" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="var(--dg-line)"/>
+    </marker>
+  </defs>
+  <path d="M155 54 V77" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah-cycle-phone)"/>
+  <path d="M155 120 V143" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah-cycle-phone)"/>
+  <path d="M155 186 V209" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah-cycle-phone)"/>
+  <path d="M300 232 H320 Q332 232 332 220 V44 Q332 32 320 32 H303" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah-cycle-phone)"/>
+
+  <rect x="10" y="10" width="290" height="44" rx="6" fill="var(--dg-accent)"/>
+  <text x="155" y="37" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">Review evidence, create learnings</text>
+
+  <rect x="10" y="80" width="290" height="40" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="155" y="105" text-anchor="middle" fill="var(--dg-ink)" font-size="14" font-weight="bold">Design</text>
+
+  <rect x="10" y="146" width="290" height="40" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="155" y="171" text-anchor="middle" fill="var(--dg-ink)" font-size="14" font-weight="bold">Test</text>
+
+  <rect x="10" y="212" width="290" height="40" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="155" y="237" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5" font-weight="bold">Adjust and invest</text>
 </svg>
 <figcaption>Note: Testing new policies and learning from previous programmes are integral for designing effective and efficient policies.</figcaption>
 </figure>
