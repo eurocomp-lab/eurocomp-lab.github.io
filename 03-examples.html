@@ -399,7 +399,7 @@ ul.task-list li input[type="checkbox"] {
 
   <div class="fr-entry">
   <span class="fr-cite">World Bank. 2026. “Short-Term Impacts of the First RCTs with Cohesion Policy: Summary Report.” European Regional Competitiveness Policy Lab. World Bank, Washington, DC.</span>
-  <a href="assets/01-10-2026_World_Bank_EuroCOMP_Lab_22_25_Results.pdf" target="_blank" rel="noopener">Read the 2026 summary report (PDF) →</a>
+  <a href="assets/01-10-2026_World_Bank_EuroCOMP_Lab_22_25_Results.pdf">Read the 2026 summary report (PDF) →</a>
   </div>
 
   <div class="fr-entry">
@@ -1808,11 +1808,6 @@ document.addEventListener("DOMContentLoaded", function () {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
-            // target, if specified
-            link.setAttribute("target", "_blank");
-            if (link.getAttribute("rel") === null) {
-              link.setAttribute("rel", "noopener");
-            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {

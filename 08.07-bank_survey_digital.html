@@ -473,6 +473,7 @@ ul.task-list li input[type="checkbox"] {
 <li>Yes, to some employees</li>
 <li>No</li>
 </ul>
+<hr>
 <p><strong>Which of the following general-purpose technologies does your company currently use in its operations?</strong> <em>(Select all that apply)</em></p>
 <ul>
 <li>Computer Numerical Control (CNC) machines</li>
@@ -684,11 +685,6 @@ document.addEventListener("DOMContentLoaded", function () {
           if (link.dataset.originalHref !== undefined) {
             link.href = link.dataset.originalHref;
           }
-            // target, if specified
-            link.setAttribute("target", "_blank");
-            if (link.getAttribute("rel") === null) {
-              link.setAttribute("rel", "noopener");
-            }
         }
       }
     function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
