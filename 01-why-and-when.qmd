@@ -28,7 +28,7 @@ Development Agency with World Bank support.
 </div>
 ```
 
-## Key steps and dates
+## Key steps
 
 ```{=html}
 <div class="flow">
@@ -47,19 +47,6 @@ This site returns to this running example at each step: [what impact means here]
 [how the lottery created a comparison group](#rct), [how the draw was made
 transparent](#legitimacy), and [how outreach was tested](#two-questions) to illustrate the concepts covered.
 
-```{=html}
-<div class="further-reading">
-  <span class="fr-label">Further reading</span>
-  <div class="fr-entry">
-  <span class="fr-cite">World Bank. 2025. &ldquo;Thinking Bigger: Digital Transformation in North-East Romania: Short-Term Impacts.&rdquo; Strengthening Monitoring and Evaluation of Innovation Programs in the EU. World Bank, Washington, DC.</span>
-  <a href="https://documents1.worldbank.org/curated/en/099062725130014823/pdf/P171223-aee2b26f-49c8-4bd1-a313-6a8d9d71abc4.pdf">Read the report &rarr;</a>
-  </div>
-  <div class="fr-entry">
-  <span class="fr-cite">Anderson, S. J., Avdeenko, A., Espinosa-Balbuena, J., Chandy, R., Iacovone, L., and Marć, Ł. M. 2026. &ldquo;Digital Adoption Grants and Spillovers: Evidence from a Large-Scale Randomized Field Experiment.&rdquo; Working paper.</span>
-  <a href="https://www.dropbox.com/scl/fi/oui5tiwrq05w2ub4uyi72/Smart_IE_Romania.pdf?rlkey=gi8a8x324y2aju9hoir241tk7&amp;st=8jqbnc1g&amp;dl=0">Read the paper &rarr;</a>
-  </div>
-</div>
-```
 :::
 
 ## What is impact evaluation for? {#impact-evaluation}
@@ -303,34 +290,7 @@ Strategy B causes 35 successes and thus is more impactful than A.
 :::
 :::
 
-```{=html}
-<figure class="fig-e">
-<svg viewBox="0 0 660 250" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Bar chart comparing observed successes with successes caused by the grant for two strategies">
-  <line x1="70" y1="200" x2="620" y2="200" stroke="var(--dg-line)" stroke-width="1.5"/>
-  <text x="60" y="205" text-anchor="end" fill="var(--dg-ink-soft)" font-size="11">0</text>
-  <text x="60" y="110" text-anchor="end" fill="var(--dg-ink-soft)" font-size="11">50</text>
-  <line x1="70" y1="106" x2="620" y2="106" stroke="var(--dg-rule)" stroke-width="1"/>
-
-  <rect x="140" y="56" width="70" height="144" fill="var(--dg-ink)"/>
-  <text x="175" y="48" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">80</text>
-  <rect x="220" y="173" width="70" height="27" fill="var(--dg-accent)"/>
-  <text x="255" y="165" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">15</text>
-  <text x="215" y="222" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Strategy A</text>
-
-  <rect x="390" y="101" width="70" height="99" fill="var(--dg-ink)"/>
-  <text x="425" y="93" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">55</text>
-  <rect x="470" y="137" width="70" height="63" fill="var(--dg-accent)"/>
-  <text x="505" y="129" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">35</text>
-  <text x="465" y="222" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Strategy B</text>
-
-  <rect x="140" y="236" width="11" height="11" fill="var(--dg-ink)"/>
-  <text x="158" y="246" fill="var(--dg-ink-soft)" font-size="11.5">Observed successes</text>
-  <rect x="300" y="236" width="11" height="11" fill="var(--dg-accent)"/>
-  <text x="318" y="246" fill="var(--dg-ink-soft)" font-size="11.5">Caused by the grant</text>
-</svg>
-<figcaption>Note: Raw success counts can be misleading. Programmes need to be judged on impact, not on raw success to evaluate their effectiveness.</figcaption>
-</figure>
-```
+Raw success counts can be misleading. Programmes need to be judged on impact, not on raw success to evaluate their effectiveness.
 
 ::: {.cards}
 ::: {.card-e}
@@ -354,7 +314,6 @@ did not predict which firms would survive or grow three years later (McKenzie & 
 2019; see [Common myths](index.qmd#common-myths-about-rcts)).
 :::
 :::
-
 
 ## Finding the counterfactual  {#finding-counterfactual}
 
@@ -537,283 +496,6 @@ eligible pool, no ranking of the "best" applications was needed. Evaluators only
 check that each firm met the formal criteria and that the requested funds were justified.
 :::
 
-## Learning through RCTs is a continuous process {#learning-cycle}
-
-Every RCT raises new questions along with the ones it answers, each round building
-on the last. That is how we expand our knowledge of what works, for whom, and under what
-conditions, and use it to design better programmes. Exchange within a community of practice
-matters, so we can learn from each other, not just from our own results. 
-
-But before adopting what worked elsewhere, questions of external validity need to be considered, as what worked in one place may not necessarily work in another. One needs to ask: are the conditions comparable, i.e. is the target group similar and are the conditions essential to that result actually in place in my setting? 
-
-```{=html}
-<figure class="fig-e">
-<svg viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="A four stage cycle: review evidence and create learnings, design, test, adjust and invest">
-  <defs>
-    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
-      <path d="M0 0 L10 5 L0 10 z" fill="var(--dg-line)"/>
-    </marker>
-  </defs>
-  <path d="M370 60 Q510 90 530 148" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah)"/>
-  <path d="M530 200 Q505 258 380 240" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah)"/>
-  <path d="M270 240 Q150 258 128 200" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah)"/>
-  <path d="M128 148 Q150 90 275 62" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah)"/>
-
-  <rect x="255" y="30" width="150" height="52" rx="6" fill="var(--dg-accent)"/>
-  <text x="330" y="51" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Review evidence,</text>
-  <text x="330" y="68" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">create learnings</text>
-
-  <rect x="470" y="152" width="150" height="42" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="545" y="178" text-anchor="middle" fill="var(--dg-ink)" font-size="14" font-weight="bold">Design</text>
-
-  <rect x="255" y="228" width="150" height="42" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="330" y="254" text-anchor="middle" fill="var(--dg-ink)" font-size="14" font-weight="bold">Test</text>
-
-  <rect x="40" y="152" width="150" height="42" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="115" y="178" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5" font-weight="bold">Adjust and invest</text>
-</svg>
-<figcaption>Note: Testing new policies and learning from previous programmes are integral for designing effective and efficient policies.</figcaption>
-</figure>
-```
-
-::: {.cards}
-::: {.card-e}
-[Review]{.num}
-Before considering how to embed an RCT, review a programme's [theory of change](02.01-toc.qmd), identify risks and the [learning questions](02.02-eval_questions.qmd) this round should answer, and the [outcomes](09-bank_outcomes.qmd) most likely to change.
-Review lessons from other [settings and countries](03-examples.qmd) and adapt them.
-Identify baseline needs of potential beneficiaries in your region.
-:::
-::: {.card-e}
-[Design]{.num}
-Choose a credible comparison group and set the [sample size](02.03a-power.qmd) needed to detect a meaningful effect.
-Turn the outcomes identified in Review into [measurable indicators](02.04-indicators.qmd) using [primary and secondary data](02.05-data_sources.qmd), and set out the [data collection](02.06-data_collect.qmd) plan, budget, and timeline in a [Terms of Reference](02.06a-tor.qmd).
-:::
-::: {.card-e}
-[Test]{.num}
-Test different programme designs and delivery modes to identify what works best.
-Assess for whom the programme works best. Address take-up challenges. Learn about mechanisms, unintended effects, and crowding out.
-:::
-::: {.card-e}
-[Invest]{.num}
-Get a quantitative and credible impact estimate that can guide future investments.
-Conduct cost-benefit analyses to avoid wasting money and to inform programme decisions.
-Scale up based on evidence.
-:::
-:::
-
-## What if you cannot randomise? {#alternatives}
-
-For the question of whether a programme has an effect at all, an RCT only works if randomisation is built in from day one, integrated at design stage before the programme launches (ex-ante), not added afterwards. The comparison group, sample size, and data to collect all depend on those early decisions. When early randomisation for this question is not possible,
-quasi-experimental methods are the alternative as these are usually conducted after a programme (ex-post). This section provides an overview of the most common quasi-experimental methods. 
-
-However, if what you want to know is how best to run a programme that is already launched, rather than whether it works at all, this constraint does not bind in the same way - we come back to that below. 
-
-::: {.caution}
-Quasi-experimental methods always rely on assumptions, some stronger than others. If those
-assumptions do not hold, the impact estimate is biased. Many of these assumptions are not
-testable. The credibility of the evaluation depends on the credibility of the assumptions made.
-:::
-
-### Pre-post (before and after)
-
-::: {.method}
-Method
-: Compare programme participants before and after the programme.
-
-Identifying assumption
-: In the absence of the programme, participants would have had the same measured outcomes
-as before. That means no other factors or events, for example economic shocks, affect the
-outcome besides the programme. This is a strong assumption that rarely holds in practice.
-
-::: {.eg}
-For example, sales might rise after a grant simply because the whole regional economy is
-recovering at the same time, not because of the programme.
-:::
-:::
-
-```{=html}
-<figure class="fig-e">
-<svg viewBox="0 0 660 260" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Pre-post design assumes a flat comparison line, so the whole rise is attributed to the programme">
-  <line x1="80" y1="215" x2="620" y2="215" stroke="var(--dg-line)" stroke-width="1.5"/>
-  <line x1="80" y1="25" x2="80" y2="215" stroke="var(--dg-line)" stroke-width="1.5"/>
-  <text x="350" y="243" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12">Time</text>
-  <line x1="280" y1="25" x2="280" y2="215" stroke="var(--dg-ink-soft)" stroke-width="1.5" stroke-dasharray="5 4"/>
-  <text x="280" y="18" text-anchor="middle" fill="var(--dg-ink)" font-size="12" font-weight="bold">Intervention</text>
-
-  <polyline points="110,180 280,170" fill="none" stroke="var(--dg-ink)" stroke-width="2.5"/>
-  <polyline points="280,170 380,140 480,110 570,80" fill="none" stroke="var(--dg-accent)" stroke-width="3.5"/>
-  <polyline points="280,170 570,170" fill="none" stroke="var(--dg-ink-soft)" stroke-width="2" stroke-dasharray="6 5"/>
-  <text x="400" y="188" fill="var(--dg-ink-soft)" font-size="11.5">Comparison assumed flat</text>
-
-  <path d="M588 80 H596 M588 170 H596 M592 80 V170" stroke="var(--dg-ink)" stroke-width="1.5" fill="none"/>
-  <text x="604" y="120" fill="var(--dg-ink)" font-size="12" font-weight="bold">Pre-post</text>
-  <text x="604" y="136" fill="var(--dg-ink)" font-size="12" font-weight="bold">impact</text>
-</svg>
-<figcaption>Note: A before-and-after comparison assumes that, without the programme, outcomes would have stayed flat. Any change in the meantime is counted as impact.</figcaption>
-</figure>
-```
-
-### Simple difference
-
-::: {.method}
-Method
-: Compare programme participants with non-participants.
-
-Identifying assumption
-: There is no difference between participants and non-participants besides programme
-participation. The reason for participation must be unrelated to outcomes. Again, this is
-unlikely to hold in practice.
-
-::: {.eg}
-For example, firms that apply for a grant are often more ambitious or better managed than
-those that do not, so they might grow faster regardless of the grant.
-:::
-:::
-
-```{=html}
-<figure class="fig-e">
-<svg viewBox="0 0 660 250" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Participants show higher outcomes than non-participants, but part of the gap is pre-existing firm quality">
-  <line x1="90" y1="205" x2="600" y2="205" stroke="var(--dg-line)" stroke-width="1.5"/>
-  <line x1="90" y1="25" x2="90" y2="205" stroke="var(--dg-line)" stroke-width="1.5"/>
-  <text x="72" y="115" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12" transform="rotate(-90 72 115)">Outcome</text>
-
-  <rect x="180" y="60" width="110" height="145" fill="var(--dg-accent)"/>
-  <rect x="180" y="130" width="110" height="75" fill="var(--dg-accent-dark)"/>
-  <text x="235" y="225" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Participants</text>
-
-  <rect x="400" y="130" width="110" height="75" fill="var(--dg-ink)"/>
-  <text x="455" y="225" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Non-participants</text>
-
-  <line x1="290" y1="130" x2="400" y2="130" stroke="var(--dg-ink-soft)" stroke-width="1.5" stroke-dasharray="5 4"/>
-
-  <path d="M528 60 H536 M528 130 H536 M532 60 V130" stroke="var(--dg-ink)" stroke-width="1.5" fill="none"/>
-  <text x="544" y="90" fill="var(--dg-ink)" font-size="12" font-weight="bold">Simple</text>
-  <text x="544" y="106" fill="var(--dg-ink)" font-size="12" font-weight="bold">difference</text>
-
-  <text x="300" y="172" fill="var(--dg-ink-soft)" font-size="11.5">Unobserved difference,</text>
-  <text x="300" y="188" fill="var(--dg-ink-soft)" font-size="11.5">for example firm quality</text>
-</svg>
-<figcaption>Note: The measured gap mixes the programme effect with differences that were there all along.</figcaption>
-</figure>
-```
-
-### Difference in differences
-
-::: {.method}
-Method
-: Find a group with the same trend and compare differences over time.
-
-Identifying assumption
-: Any other factors affecting participants over time are the same for non-participants, so
-both groups would follow the same trajectory in the absence of treatment. This is the
-parallel trends assumption, and it cannot be tested.
-
-::: {.eg}
-For example, if grant recipients are concentrated in areas hit harder by a regional
-downturn than the comparison firms, their trends could diverge even without the programme.
-:::
-:::
-
-```{=html}
-<figure class="fig-e">
-<svg viewBox="0 0 660 260" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Treatment and comparison groups both rise, but the treatment group rises further; the difference between the two changes is the estimate">
-  <line x1="80" y1="215" x2="620" y2="215" stroke="var(--dg-line)" stroke-width="1.5"/>
-  <line x1="80" y1="25" x2="80" y2="215" stroke="var(--dg-line)" stroke-width="1.5"/>
-  <text x="350" y="243" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12">Time</text>
-  <line x1="290" y1="25" x2="290" y2="215" stroke="var(--dg-ink-soft)" stroke-width="1.5" stroke-dasharray="5 4"/>
-  <text x="290" y="18" text-anchor="middle" fill="var(--dg-ink)" font-size="12" font-weight="bold">Intervention</text>
-
-  <polyline points="120,150 290,130" fill="none" stroke="var(--dg-accent)" stroke-width="3.5"/>
-  <polyline points="290,130 560,60" fill="none" stroke="var(--dg-accent)" stroke-width="3.5"/>
-  <polyline points="120,190 290,175" fill="none" stroke="var(--dg-ink)" stroke-width="2.5"/>
-  <polyline points="290,175 560,145" fill="none" stroke="var(--dg-ink)" stroke-width="2.5"/>
-
-  <path d="M578 60 H586 M578 130 H586 M582 60 V130" stroke="var(--dg-ink)" stroke-width="1.5" fill="none"/>
-  <text x="594" y="99" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Diff 1</text>
-  <path d="M578 145 H586 M578 175 H586 M582 145 V175" stroke="var(--dg-ink-soft)" stroke-width="1.5" fill="none"/>
-  <text x="594" y="164" fill="var(--dg-ink-soft)" font-size="11.5">Diff 2</text>
-
-  <text x="380" y="52" fill="var(--dg-ink)" font-size="12" font-weight="bold">Treatment group</text>
-  <text x="380" y="178" fill="var(--dg-ink-soft)" font-size="12">Comparison group</text>
-</svg>
-<figcaption>Note: The estimate is Difference 1 minus Difference 2: how much more the treatment group changed than the comparison group.</figcaption>
-</figure>
-```
-
-### Matching
-
-::: {.method}
-Method
-: Participants are matched with non-participants who share the same observable
-characteristics. Matching tries to mimic an RCT. It can be done in different ways: a
-participant can be matched with one non-participant, or with a weighted average of all
-similar non-participants, where closer matches count more.
-
-Identifying assumption
-: There are no differences between participants and matched non-participants in
-unobserved characteristics that affect the outcome.
-
-::: {.eg}
-For example, two firms matched on size and sector might still differ in the owner's
-ambition or management quality, both of which would likely affect outcomes.
-:::
-:::
-
-### Regression discontinuity design
-
-::: {.method}
-Method
-: Compare participants who were just eligible with those who were just ineligible. This
-does not measure impact for all participants, only for those at the cut-off, which is why
-the result is called a local average treatment effect. The advantage is that unobservable
-characteristics stop being a concern.
-
-Identifying assumption
-: This design assumes that
-
-    - the programme is administered following pre-defined cut-off rules
-    - the criteria determining who falls above or below are not manipulated
-    - a large number of units sit around the cut-off
-    - nothing else changes suddenly at the cut-off
-
-::: {.eg}
-For example, if firms know grants are awarded below a certain revenue threshold, some
-might understate revenue slightly to stay just below it, so firms just below the cut-off
-are no longer comparable to those just above.
-:::
-:::
-
-```{=html}
-<figure class="fig-e">
-<svg viewBox="0 0 660 260" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Outcomes jump discontinuously at the eligibility cutoff">
-  <line x1="80" y1="215" x2="620" y2="215" stroke="var(--dg-line)" stroke-width="1.5"/>
-  <line x1="80" y1="25" x2="80" y2="215" stroke="var(--dg-line)" stroke-width="1.5"/>
-  <text x="350" y="243" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12">Cut-off variable</text>
-  <text x="62" y="120" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12" transform="rotate(-90 62 120)">Outcome</text>
-
-  <line x1="350" y1="25" x2="350" y2="215" stroke="var(--dg-ink-soft)" stroke-width="1.5" stroke-dasharray="5 4"/>
-  <text x="350" y="18" text-anchor="middle" fill="var(--dg-ink)" font-size="12" font-weight="bold">Cut-off</text>
-
-  <circle cx="130" cy="180" r="4" fill="var(--dg-ink)"/><circle cx="165" cy="172" r="4" fill="var(--dg-ink)"/>
-  <circle cx="200" cy="178" r="4" fill="var(--dg-ink)"/><circle cx="235" cy="163" r="4" fill="var(--dg-ink)"/>
-  <circle cx="270" cy="168" r="4" fill="var(--dg-ink)"/><circle cx="305" cy="156" r="4" fill="var(--dg-ink)"/>
-  <circle cx="335" cy="160" r="4" fill="var(--dg-ink)"/>
-  <polyline points="120,182 345,158" fill="none" stroke="var(--dg-ink)" stroke-width="2.5"/>
-
-  <circle cx="365" cy="108" r="4" fill="var(--dg-accent)"/><circle cx="400" cy="112" r="4" fill="var(--dg-accent)"/>
-  <circle cx="435" cy="98" r="4" fill="var(--dg-accent)"/><circle cx="470" cy="104" r="4" fill="var(--dg-accent)"/>
-  <circle cx="505" cy="90" r="4" fill="var(--dg-accent)"/><circle cx="540" cy="95" r="4" fill="var(--dg-accent)"/>
-  <circle cx="575" cy="84" r="4" fill="var(--dg-accent)"/>
-  <polyline points="355,110 585,86" fill="none" stroke="var(--dg-accent)" stroke-width="3.5"/>
-
-  <path d="M338 110 H346 M338 158 H346 M342 110 V158" stroke="var(--dg-ink)" stroke-width="1.5" fill="none"/>
-  <text x="250" y="128" fill="var(--dg-ink)" font-size="12" font-weight="bold">RDD effect</text>
-</svg>
-<figcaption>Note: This method requires many applicants sitting close to the cut-off, so those just below and just above can be meaningfully compared.</figcaption>
-</figure>
-```
-
-
 ## What do you want to learn? {#two-questions}
 
 Whether you have sufficient evidence that your programme works, or you are still working
@@ -864,12 +546,11 @@ significantly raised sales and profits.
 
 :::
 
-
 ## Choosing the right evaluation design {#choosing-design}
 
 ```{=html}
 <figure class="fig-e">
-<svg viewBox="0 0 1000 500" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Two decision paths from one question, what do you want to learn: the left path asks whether the programme causes an effect at all and needs a comparison group fixed before launch; the right path asks how to deliver it better and can be tested at any point since nobody is excluded">
+<svg class="fig-wide" viewBox="0 0 1000 500" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Two decision paths from one question, what do you want to learn: the left path asks whether the programme causes an effect at all and needs a comparison group fixed before launch; the right path asks how to deliver it better and can be tested at any point since nobody is excluded">
   <rect x="375" y="12" width="250" height="46" rx="5" fill="var(--dg-ink)"/>
   <text x="500" y="40" text-anchor="middle" fill="var(--dg-reverse)" font-size="16" font-weight="bold">What do you want to learn?</text>
 
@@ -937,6 +618,68 @@ significantly raised sales and profits.
   <text x="750" y="452" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5">at the design stage. It can be added</text>
   <text x="750" y="472" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5">once implementation is already under way.</text>
 </svg>
+<svg class="fig-phone" viewBox="0 0 360 752" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Two decision paths from one question, what do you want to learn: the first path asks whether the programme causes an effect at all and needs a comparison group fixed before launch; the second path asks how to deliver it better and can be tested at any point since nobody is excluded">
+  <rect x="10" y="10" width="340" height="40" rx="5" fill="var(--dg-ink)"/>
+  <text x="180" y="35" text-anchor="middle" fill="var(--dg-reverse)" font-size="15" font-weight="bold">What do you want to learn?</text>
+
+  <path d="M24 50 V466 M24 86 H36 M24 466 H36" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+
+  <rect x="36" y="66" width="314" height="40" rx="5" fill="var(--dg-ink)"/>
+  <text x="193" y="91" text-anchor="middle" fill="var(--dg-reverse)" font-size="13" font-weight="bold">Does the programme cause an effect at all?</text>
+
+  <rect x="36" y="118" width="314" height="40" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="193" y="143" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Can you plan an evaluation from the outset?</text>
+
+  <path d="M52 158 V265 M52 199 H82 M52 265 H82" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+  <text x="58" y="194" fill="var(--dg-ink-soft)" font-size="12" font-weight="bold">No</text>
+  <text x="56" y="260" fill="var(--dg-ink-soft)" font-size="12" font-weight="bold">Yes</text>
+
+  <rect x="82" y="168" width="268" height="62" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="96" y="189" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Quasi-experimental methods</text>
+  <text x="96" y="206" fill="var(--dg-ink-soft)" font-size="11.5">Matching &#183; Diff-in-diff &#183;</text>
+  <text x="96" y="221" fill="var(--dg-ink-soft)" font-size="11.5">Regression discontinuity</text>
+
+  <rect x="82" y="242" width="268" height="46" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="96" y="261" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Is there excess demand that lets</text>
+  <text x="96" y="278" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">you randomise participation?</text>
+
+  <path d="M100 288 V366 M100 316 H130 M100 366 H130" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+  <text x="104" y="311" fill="var(--dg-ink-soft)" font-size="12" font-weight="bold">Yes</text>
+  <text x="106" y="361" fill="var(--dg-ink-soft)" font-size="12" font-weight="bold">No</text>
+
+  <rect x="130" y="298" width="220" height="36" rx="5" fill="var(--dg-accent)"/>
+  <text x="144" y="321" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">RCT <tspan font-weight="normal" font-size="11.5">(impact)</tspan></text>
+
+  <rect x="130" y="346" width="220" height="42" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="144" y="364" fill="var(--dg-ink)" font-size="11.5">Quasi-exp., or another RCT</text>
+  <text x="144" y="379" fill="var(--dg-ink-soft)" font-size="11">design (phase-in)</text>
+
+  <text x="36" y="412" fill="var(--dg-ink-soft)" font-size="11.5">No assumptions about outcome levels or trends</text>
+  <text x="36" y="428" fill="var(--dg-ink-soft)" font-size="11.5">between groups are needed for the RCT branch.</text>
+
+  <rect x="36" y="446" width="314" height="40" rx="5" fill="var(--dg-ink)"/>
+  <text x="193" y="471" text-anchor="middle" fill="var(--dg-reverse)" font-size="13" font-weight="bold">How do you deliver it better?</text>
+
+  <rect x="36" y="498" width="314" height="46" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="193" y="517" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Everyone eligible is already included -</text>
+  <text x="193" y="534" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">nobody is held back</text>
+
+  <path d="M193 544 V558" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+
+  <rect x="36" y="558" width="314" height="46" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="193" y="577" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Randomise which version of the</text>
+  <text x="193" y="594" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">programme each firm gets</text>
+
+  <path d="M193 604 V618" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+
+  <rect x="76" y="618" width="234" height="40" rx="5" fill="var(--dg-accent)"/>
+  <text x="193" y="643" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5" font-weight="bold">Randomised controlled trial</text>
+
+  <rect x="36" y="670" width="314" height="72" rx="5" fill="var(--dg-accent-wash)"/>
+  <text x="193" y="692" text-anchor="middle" fill="var(--dg-ink)" font-size="12">The RCT does not need to be planned</text>
+  <text x="193" y="709" text-anchor="middle" fill="var(--dg-ink)" font-size="12">at the design stage. It can be added</text>
+  <text x="193" y="726" text-anchor="middle" fill="var(--dg-ink)" font-size="12">once implementation is already under way.</text>
+</svg>
 <figcaption>Note: The left path needs a comparison group fixed before launch. If there is no excess demand, an RCT may still be possible with another design, for
 example a randomised phase-in, where every eligible firm is served but in a random order. Page How to design an RCT explains different ways to
 randomise. The right path does need a comparison group fixed from the outset, because nobody is excluded from the programme itself - only which version of it they get is randomised.</figcaption>
@@ -996,6 +739,240 @@ Within the quasi-experimental branch, here is how the three methods compare:
 </figure>
 ```
 
+## What if you cannot randomise? {#alternatives}
+
+For the question of whether a programme has an effect at all, an RCT only works if randomisation is built in from day one, integrated at design stage before the programme launches (ex-ante), not added afterwards. The comparison group, sample size, and data to collect all depend on those early decisions. When early randomisation for this question is not possible,
+quasi-experimental methods are the alternative as these are usually conducted after a programme (ex-post). This section provides an overview of the most common quasi-experimental methods. 
+
+However, if what you want to know is how best to run a programme that is already launched, rather than whether it works at all, this constraint does not bind in the same way ([see above](#two-questions)). 
+
+::: {.caution}
+Quasi-experimental methods always rely on assumptions, some stronger than others. If those
+assumptions do not hold, the impact estimate is biased. Many of these assumptions are not
+testable. The credibility of the evaluation depends on the credibility of the assumptions made.
+:::
+
+::::: {.myths-grid .methods}
+
+<details class="myth-box" id="pre-post-before-and-after">
+<summary>Pre-post (before and after)</summary>
+
+::: {.method}
+Method
+: Compare programme participants before and after the programme.
+
+Identifying assumption
+: In the absence of the programme, participants would have had the same measured outcomes
+as before. That means no other factors or events, for example economic shocks, affect the
+outcome besides the programme. This is a strong assumption that rarely holds in practice.
+
+::: {.eg}
+For example, sales might rise after a grant simply because the whole regional economy is
+recovering at the same time, not because of the programme.
+:::
+:::
+
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 660 260" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Pre-post design assumes a flat comparison line, so the whole rise is attributed to the programme">
+  <line x1="80" y1="215" x2="620" y2="215" stroke="var(--dg-line)" stroke-width="1.5"/>
+  <line x1="80" y1="25" x2="80" y2="215" stroke="var(--dg-line)" stroke-width="1.5"/>
+  <text x="350" y="243" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12">Time</text>
+  <line x1="280" y1="25" x2="280" y2="215" stroke="var(--dg-ink-soft)" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="280" y="18" text-anchor="middle" fill="var(--dg-ink)" font-size="12" font-weight="bold">Intervention</text>
+
+  <polyline points="110,180 280,170" fill="none" stroke="var(--dg-ink)" stroke-width="2.5"/>
+  <polyline points="280,170 380,140 480,110 570,80" fill="none" stroke="var(--dg-accent)" stroke-width="3.5"/>
+  <polyline points="280,170 570,170" fill="none" stroke="var(--dg-ink-soft)" stroke-width="2" stroke-dasharray="6 5"/>
+  <text x="400" y="188" fill="var(--dg-ink-soft)" font-size="11.5">Comparison assumed flat</text>
+
+  <path d="M588 80 H596 M588 170 H596 M592 80 V170" stroke="var(--dg-ink)" stroke-width="1.5" fill="none"/>
+  <text x="604" y="120" fill="var(--dg-ink)" font-size="12" font-weight="bold">Pre-post</text>
+  <text x="604" y="136" fill="var(--dg-ink)" font-size="12" font-weight="bold">impact</text>
+</svg>
+<figcaption>Note: A before-and-after comparison assumes that, without the programme, outcomes would have stayed flat. Any change in the meantime is counted as impact.</figcaption>
+</figure>
+```
+
+</details>
+
+<details class="myth-box" id="simple-difference">
+<summary>Simple difference</summary>
+
+::: {.method}
+Method
+: Compare programme participants with non-participants.
+
+Identifying assumption
+: There is no difference between participants and non-participants besides programme
+participation. The reason for participation must be unrelated to outcomes. Again, this is
+unlikely to hold in practice.
+
+::: {.eg}
+For example, firms that apply for a grant are often more ambitious or better managed than
+those that do not, so they might grow faster regardless of the grant.
+:::
+:::
+
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 660 250" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Participants show higher outcomes than non-participants. The gap, the simple difference, mixes the programme effect with an unobserved difference that was there all along, for example firm quality">
+  <line x1="90" y1="205" x2="600" y2="205" stroke="var(--dg-line)" stroke-width="1.5"/>
+  <line x1="90" y1="25" x2="90" y2="205" stroke="var(--dg-line)" stroke-width="1.5"/>
+  <text x="72" y="115" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12" transform="rotate(-90 72 115)">Outcome</text>
+
+  <rect x="180" y="130" width="110" height="75" fill="var(--dg-accent-dark)"/>
+  <rect x="180" y="95" width="110" height="35" fill="var(--dg-accent)" fill-opacity="0.4"/>
+  <rect x="180" y="60" width="110" height="35" fill="var(--dg-accent)"/>
+  <text x="235" y="225" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Participants</text>
+
+  <rect x="440" y="130" width="110" height="75" fill="var(--dg-ink)"/>
+  <text x="495" y="225" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Non-participants</text>
+
+  <line x1="290" y1="60" x2="568" y2="60" stroke="var(--dg-ink-soft)" stroke-width="1" stroke-dasharray="5 4"/>
+  <line x1="290" y1="130" x2="440" y2="130" stroke="var(--dg-ink-soft)" stroke-width="1.5" stroke-dasharray="5 4"/>
+
+  <text x="300" y="82" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Programme effect</text>
+  <text x="300" y="109" fill="var(--dg-ink-soft)" font-size="11.5">Unobserved difference,</text>
+  <text x="300" y="123" fill="var(--dg-ink-soft)" font-size="11.5">for example firm quality</text>
+
+  <path d="M572 60 H580 M572 130 H580 M576 60 V130" stroke="var(--dg-ink)" stroke-width="1.5" fill="none"/>
+  <text x="588" y="90" fill="var(--dg-ink)" font-size="12" font-weight="bold">Simple</text>
+  <text x="588" y="106" fill="var(--dg-ink)" font-size="12" font-weight="bold">difference</text>
+</svg>
+<figcaption>Note: The measured gap mixes the programme effect with differences that were there all along.</figcaption>
+</figure>
+```
+
+</details>
+
+<details class="myth-box" id="difference-in-differences">
+<summary>Difference in differences</summary>
+
+::: {.method}
+Method
+: Find a group with the same trend and compare differences over time.
+
+Identifying assumption
+: Any other factors affecting participants over time are the same for non-participants, so
+both groups would follow the same trajectory in the absence of treatment. This is the
+parallel trends assumption, and it cannot be tested.
+
+::: {.eg}
+For example, if grant recipients are concentrated in areas hit harder by a regional
+downturn than the comparison firms, their trends could diverge even without the programme.
+:::
+:::
+
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 660 260" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Treatment and comparison groups both rise, but the treatment group rises further; the difference between the two changes is the estimate">
+  <line x1="80" y1="215" x2="620" y2="215" stroke="var(--dg-line)" stroke-width="1.5"/>
+  <line x1="80" y1="25" x2="80" y2="215" stroke="var(--dg-line)" stroke-width="1.5"/>
+  <text x="350" y="243" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12">Time</text>
+  <line x1="290" y1="25" x2="290" y2="215" stroke="var(--dg-ink-soft)" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="290" y="18" text-anchor="middle" fill="var(--dg-ink)" font-size="12" font-weight="bold">Intervention</text>
+
+  <polyline points="120,150 290,130" fill="none" stroke="var(--dg-accent)" stroke-width="3.5"/>
+  <polyline points="290,130 560,60" fill="none" stroke="var(--dg-accent)" stroke-width="3.5"/>
+  <polyline points="120,190 290,175" fill="none" stroke="var(--dg-ink)" stroke-width="2.5"/>
+  <polyline points="290,175 560,145" fill="none" stroke="var(--dg-ink)" stroke-width="2.5"/>
+
+  <path d="M578 60 H586 M578 130 H586 M582 60 V130" stroke="var(--dg-ink)" stroke-width="1.5" fill="none"/>
+  <text x="594" y="99" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Diff 1</text>
+  <path d="M578 145 H586 M578 175 H586 M582 145 V175" stroke="var(--dg-ink-soft)" stroke-width="1.5" fill="none"/>
+  <text x="594" y="164" fill="var(--dg-ink-soft)" font-size="11.5">Diff 2</text>
+
+  <text x="380" y="52" fill="var(--dg-ink)" font-size="12" font-weight="bold">Treatment group</text>
+  <text x="380" y="178" fill="var(--dg-ink-soft)" font-size="12">Comparison group</text>
+</svg>
+<figcaption>Note: The estimate is Difference 1 minus Difference 2: how much more the treatment group changed than the comparison group.</figcaption>
+</figure>
+```
+
+</details>
+
+<details class="myth-box" id="matching">
+<summary>Matching</summary>
+
+::: {.method}
+Method
+: Participants are matched with non-participants who share the same observable
+characteristics. Matching tries to mimic an RCT. It can be done in different ways: a
+participant can be matched with one non-participant, or with a weighted average of all
+similar non-participants, where closer matches count more.
+
+Identifying assumption
+: There are no differences between participants and matched non-participants in
+unobserved characteristics that affect the outcome.
+
+::: {.eg}
+For example, two firms matched on size and sector might still differ in the owner's
+ambition or management quality, both of which would likely affect outcomes.
+:::
+:::
+
+</details>
+
+<details class="myth-box" id="regression-discontinuity-design">
+<summary>Regression discontinuity design</summary>
+
+::: {.method}
+Method
+: Compare participants who were just eligible with those who were just ineligible. This
+does not measure impact for all participants, only for those at the cut-off, which is why
+the result is called a local average treatment effect. The advantage is that unobservable
+characteristics stop being a concern.
+
+Identifying assumption
+: This design assumes that
+
+    - the programme is administered following pre-defined cut-off rules
+    - the criteria determining who falls above or below are not manipulated
+    - a large number of units sit around the cut-off
+    - nothing else changes suddenly at the cut-off
+
+::: {.eg}
+For example, if firms know grants are awarded below a certain revenue threshold, some
+might understate revenue slightly to stay just below it, so firms just below the cut-off
+are no longer comparable to those just above.
+:::
+:::
+
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 660 260" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Outcomes jump discontinuously at the eligibility cutoff">
+  <line x1="80" y1="215" x2="620" y2="215" stroke="var(--dg-line)" stroke-width="1.5"/>
+  <line x1="80" y1="25" x2="80" y2="215" stroke="var(--dg-line)" stroke-width="1.5"/>
+  <text x="350" y="243" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12">Cut-off variable</text>
+  <text x="62" y="120" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12" transform="rotate(-90 62 120)">Outcome</text>
+
+  <line x1="350" y1="25" x2="350" y2="215" stroke="var(--dg-ink-soft)" stroke-width="1.5" stroke-dasharray="5 4"/>
+  <text x="350" y="18" text-anchor="middle" fill="var(--dg-ink)" font-size="12" font-weight="bold">Cut-off</text>
+
+  <circle cx="130" cy="180" r="4" fill="var(--dg-ink)"/><circle cx="165" cy="172" r="4" fill="var(--dg-ink)"/>
+  <circle cx="200" cy="178" r="4" fill="var(--dg-ink)"/><circle cx="235" cy="163" r="4" fill="var(--dg-ink)"/>
+  <circle cx="270" cy="168" r="4" fill="var(--dg-ink)"/><circle cx="305" cy="156" r="4" fill="var(--dg-ink)"/>
+  <circle cx="335" cy="160" r="4" fill="var(--dg-ink)"/>
+  <polyline points="120,182 345,158" fill="none" stroke="var(--dg-ink)" stroke-width="2.5"/>
+
+  <circle cx="365" cy="108" r="4" fill="var(--dg-accent)"/><circle cx="400" cy="112" r="4" fill="var(--dg-accent)"/>
+  <circle cx="435" cy="98" r="4" fill="var(--dg-accent)"/><circle cx="470" cy="104" r="4" fill="var(--dg-accent)"/>
+  <circle cx="505" cy="90" r="4" fill="var(--dg-accent)"/><circle cx="540" cy="95" r="4" fill="var(--dg-accent)"/>
+  <circle cx="575" cy="84" r="4" fill="var(--dg-accent)"/>
+  <polyline points="355,110 585,86" fill="none" stroke="var(--dg-accent)" stroke-width="3.5"/>
+
+  <path d="M338 110 H346 M338 158 H346 M342 110 V158" stroke="var(--dg-ink)" stroke-width="1.5" fill="none"/>
+  <text x="250" y="128" fill="var(--dg-ink)" font-size="12" font-weight="bold">RDD effect</text>
+</svg>
+<figcaption>Note: This method requires many applicants sitting close to the cut-off, so those just below and just above can be meaningfully compared.</figcaption>
+</figure>
+```
+
+</details>
+
+:::::
+
 ## When not to run an RCT {#when-not}
 
 ::: {.cards}
@@ -1036,3 +1013,86 @@ If an RCT is the right tool in principle, [Step 4: check whether an RCT is feasi
 feasible in practice: oversubscription, timing, legal basis, institutional buy-in and
 measurable outcomes.
 
+## Learning through RCTs is a continuous process {#learning-cycle}
+
+Every RCT raises new questions along with the ones it answers, each round building
+on the last. That is how we expand our knowledge of what works, for whom, and under what
+conditions, and use it to design better programmes. Exchange within a community of practice
+matters, so we can learn from each other, not just from our own results. 
+
+But before adopting what worked elsewhere, questions of external validity need to be considered, as what worked in one place may not necessarily work in another. One needs to ask: are the conditions comparable, i.e. is the target group similar and are the conditions essential to that result actually in place in my setting? 
+
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="A four stage cycle: review evidence and create learnings, design, test, adjust and invest">
+  <defs>
+    <marker id="ah" viewBox="0 0 10 10" refX="8" refY="5" markerWidth="7" markerHeight="7" orient="auto">
+      <path d="M0 0 L10 5 L0 10 z" fill="var(--dg-line)"/>
+    </marker>
+  </defs>
+  <path d="M370 60 Q510 90 530 148" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+  <path d="M530 200 Q505 258 380 240" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+  <path d="M270 240 Q150 258 128 200" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+  <path d="M128 148 Q150 90 275 62" stroke="var(--dg-line)" stroke-width="2" fill="none" marker-end="url(#ah)"/>
+
+  <rect x="255" y="30" width="150" height="52" rx="6" fill="var(--dg-accent)"/>
+  <text x="330" y="51" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Review evidence,</text>
+  <text x="330" y="68" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">create learnings</text>
+
+  <rect x="470" y="152" width="150" height="42" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="545" y="178" text-anchor="middle" fill="var(--dg-ink)" font-size="14" font-weight="bold">Design</text>
+
+  <rect x="255" y="228" width="150" height="42" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="330" y="254" text-anchor="middle" fill="var(--dg-ink)" font-size="14" font-weight="bold">Test</text>
+
+  <rect x="40" y="152" width="150" height="42" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="115" y="178" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5" font-weight="bold">Adjust and invest</text>
+</svg>
+<figcaption>Note: Testing new policies and learning from previous programmes are integral for designing effective and efficient policies.</figcaption>
+</figure>
+```
+
+::: {.cards}
+::: {.card-e}
+[Review]{.num}
+Before considering how to embed an RCT, review a programme's [theory of change](02.01-toc.qmd), identify risks and the [learning questions](02.02-eval_questions.qmd) this round should answer, and the [outcomes](09-bank_outcomes.qmd) most likely to change.
+Review lessons from other [settings and countries](03-examples.qmd) and adapt them.
+Identify baseline needs of potential beneficiaries in your region.
+:::
+::: {.card-e}
+[Design]{.num}
+Choose a credible comparison group and set the [sample size](02.03a-power.qmd) needed to detect a meaningful effect.
+Turn the outcomes identified in Review into [measurable indicators](02.04-indicators.qmd) using [primary and secondary data](02.05-data_sources.qmd), and set out the [data collection](02.06-data_collect.qmd) plan, budget, and timeline in a [Terms of Reference](02.06a-tor.qmd).
+:::
+::: {.card-e}
+[Test]{.num}
+Test different programme designs and delivery modes to identify what works best.
+Assess for whom the programme works best. Address take-up challenges. Learn about mechanisms, unintended effects, and crowding out.
+:::
+::: {.card-e}
+[Invest]{.num}
+Get a quantitative and credible impact estimate that can guide future investments.
+Conduct cost-benefit analyses to avoid wasting money and to inform programme decisions.
+Scale up based on evidence.
+:::
+:::
+
+```{=html}
+<div class="further-reading">
+  <span class="fr-label">Further reading: North-East Romania</span>
+  <div class="fr-entry">
+  <span class="fr-cite">World Bank. 2025. &ldquo;Thinking Bigger: Digital Transformation in North-East Romania: Short-Term Impacts.&rdquo; Strengthening Monitoring and Evaluation of Innovation Programs in the EU. World Bank, Washington, DC.</span>
+  <a href="https://documents1.worldbank.org/curated/en/099062725130014823/pdf/P171223-aee2b26f-49c8-4bd1-a313-6a8d9d71abc4.pdf">Read the report &rarr;</a>
+  </div>
+  <div class="fr-entry">
+  <span class="fr-cite">Anderson, S. J., Avdeenko, A., Espinosa-Balbuena, J., Chandy, R., Iacovone, L., and Marć, Ł. M. 2026. &ldquo;Digital Adoption Grants and Spillovers: Evidence from a Large-Scale Randomized Field Experiment.&rdquo; Working paper.</span>
+  <a href="https://www.dropbox.com/scl/fi/oui5tiwrq05w2ub4uyi72/Smart_IE_Romania.pdf?rlkey=gi8a8x324y2aju9hoir241tk7&amp;st=8jqbnc1g&amp;dl=0">Read the paper &rarr;</a>
+  </div>
+</div>
+```
+
+***
+
+::: {.nav-buttons}
+[← Back to - home page](index.qmd) | [Next - How to design an RCT →](02-how.qmd)
+:::

@@ -467,3 +467,40 @@ hr:has(+ .nav-buttons) { display: none; }
 @media (max-width: 575.98px) {
   #quarto-content #quarto-document-content .example h2 { font-size: 1.2rem; }
 }
+
+/* ---------------------------------------------------------------
+   Batch 5 (October 2026): layout fixes from the review of
+   'Why and when to use a randomised controlled trial'
+   --------------------------------------------------------------- */
+/* Step flows: one row where all steps fit; below 1200px a column with
+   down arrows, instead of a last step wrapping onto its own row */
+@media (min-width: 1200px) {
+  .flow { flex-wrap: nowrap; }
+  .flow > div { flex: 1 1 0; }
+}
+@media (max-width: 1199.98px) {
+  .flow { flex-direction: column; flex-wrap: nowrap; align-items: stretch; max-width: 26rem; }
+  .flow > div { flex: 0 0 auto; }
+  .flow-arrow { align-self: center; padding: 0; line-height: 1; transform: rotate(90deg); }
+}
+
+/* Diagrams on phones: keep text readable and let wide diagrams scroll
+   sideways. A diagram with a phone version (.fig-phone) swaps instead. */
+.fig-e .fig-phone { display: none; }
+@media (max-width: 575.98px) {
+  #quarto-document-content figure.fig-e { overflow-x: auto; }
+  #quarto-document-content figure.fig-e > svg { min-width: 560px; }
+  #quarto-document-content figure.fig-e > svg.fig-wide { display: none; }
+  #quarto-document-content figure.fig-e > svg.fig-phone { display: block; min-width: 0; }
+}
+
+/* Method descriptions at the same line length as body text */
+#quarto-document-content .method { max-width: 40rem; }
+
+/* Case examples read as examples (a filled panel like the running
+   example) rather than as another blue-bordered note */
+#quarto-document-content .example.case {
+  background: #F3F4F6;
+  border: 1px solid $rf-rule;
+  border-radius: 8px;
+}
