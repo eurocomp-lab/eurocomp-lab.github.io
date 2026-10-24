@@ -3,7 +3,7 @@ title: "More details on power calculations"
 ---
 
 ::: {.team-note}
-#### Summary
+## Summary {.unlisted}
 This page explains what a power calculation is, what goes into it, and what a Managing Authority needs to know to have a useful conversation with an evaluator about sample size.
 :::
 
@@ -160,7 +160,7 @@ In North-East Romania, the evaluation team ran the power calculation before the 
 ```
 
 ```{=html}
-<div class="case-band"><b>North-East Romania</b><span>&#10003; 1,038 eligible firms formed the randomized pool</span></div>
+<div class="case-band"><b>North-East Romania</b><span>&#10003; 1,038 eligible firms formed the randomised pool</span></div>
 ```
 
 :::
@@ -187,27 +187,27 @@ If the power calculation reveals that your eligible pool is too small, there are
 ```{=html}
 <div class="designs">
   <div class="d"><div>
-    <h4>Increase outreach</h4>
+    <h3>Increase outreach</h3>
     <p>More applicants mean a larger eligible pool. North-East Romania ran outreach events in more than 20 cities before the application window opened, specifically to ensure the pool would be large enough.</p>
   </div></div>
   <div class="d"><div>
-    <h4>Expand eligibility</h4>
+    <h3>Expand eligibility</h3>
     <p>Lowering the eligibility threshold adds more firms to the pool. Be careful not to expand so broadly that the evaluation no longer answers the original question - the expanded population should still be the one the programme is designed to serve.</p>
   </div></div>
   <div class="d"><div>
-    <h4>Combine regions or cohorts</h4>
+    <h3>Combine regions or cohorts</h3>
     <p>If a single region or programme round does not produce enough firms, pooling two regions running similar programmes - or two consecutive cohorts - into a single evaluation can reach the required sample without changing the design.</p>
   </div></div>
   <div class="d"><div>
-    <h4>Run a phase-in</h4>
+    <h3>Run a phase-in</h3>
     <p>Rather than running the programme to all eligible firms at once, stagger rollout across waves. Each wave that is still waiting acts as the comparison group for the waves already receiving support - doubling the effective sample without needing more firms overall.</p>
   </div></div>
   <div class="d"><div>
-    <h4>Focus on where effects are largest</h4>
+    <h3>Focus on where effects are largest</h3>
     <p>If the expected effect is larger among a specific subgroup - younger firms, firms in a particular sector, firms with no prior R&D experience - narrowing the focus raises the detectable effect and reduces the required sample. This only makes sense if the narrowed population remains policy-relevant.</p>
   </div></div>
   <div class="d"><div>
-    <h4>Invest in a strong baseline</h4>
+    <h3>Invest in a strong baseline</h3>
     <p>Collecting good baseline data on the primary outcome - before the intervention - and using it in the analysis significantly reduces the sample size needed. The evaluator can explain how much this helps in your specific context; the reduction is often substantial.</p>
   </div></div>
 </div>
@@ -233,22 +233,22 @@ The evaluator will run the power calculation, but free tools are available if yo
 
 ::: {.cards}
 ::: {.card-e}
-#### IDÉE Power Calculator
+### IDÉE Power Calculator {.unlisted}
 Web-based, no software required, designed for non-specialists. A good starting point.
 [idee-education.fr](https://www.idee-education.fr/en/power-calculator/)
 :::
 ::: {.card-e}
-#### EGAP Power Guide
+### EGAP Power Guide {.unlisted}
 A plain-language explanation of power concepts with an interactive calculator.
 [egap.org](https://egap.org/resource/10-things-to-know-about-statistical-power/)
 :::
 ::: {.card-e}
-#### World Bank DIME Wiki
+### World Bank DIME Wiki {.unlisted}
 Step-by-step guidance with worked examples drawn from real evaluations.
 [dimewiki.worldbank.org](https://dimewiki.worldbank.org/Power_Calculations)
 :::
 ::: {.card-e}
-#### G\*Power
+### G\*Power {.unlisted}
 Free software covering a wide range of experimental designs
 [psychologie.hhu.de](https://www.psychologie.hhu.de/arbeitsgruppen/allgemeine-psychologie-und-arbeitspsychologie/gpower)
 :::

@@ -7,7 +7,7 @@ title: "Step 3: determine relevant indicators"
 ```
 
 ::: {.team-note}
-#### Summary
+## Summary {.unlisted}
 
 This page covers how to move from the Theory of Change (ToC) to measurable indicators, what makes a good indicator using the SMART criteria, and where to find validated measures — including the randomised controlled trial (RCT) outcome repository.
 :::
@@ -20,7 +20,7 @@ Indicators for evaluation purposes therefore need to go beyond the mandatory mon
 
 ---
 
-### Well-defined indicators
+## Well-defined indicators
 
 Good indicators share five characteristics, often summarised as SMART:
 
@@ -39,7 +39,7 @@ Good indicators share five characteristics, often summarised as SMART:
 - Expenditures in equipment, software, development, training, and digital tools
 - Sales
 - Profits
-- Labor productivity
+- Labour productivity
 :::
 
 ## Choosing indicators: where to start

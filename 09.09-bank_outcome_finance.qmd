@@ -11,7 +11,7 @@ title: "Topic: business finance"
 
 **Equity finance for R&D and innovation**
 
-- **Definition:** whether equity finance obtained by the firm was directed toward research, development, or other innovation activities
+- **Definition:** whether equity finance obtained by the firm was directed towards research, development, or other innovation activities
 - **Metric:** binary indicator (yes/no)
 
 ---
@@ -25,7 +25,7 @@ title: "Topic: business finance"
 
 **Debt finance for R&D and innovation**
 
-- **Definition:** whether debt finance obtained by the firm was directed toward research, development, or other innovation activities
+- **Definition:** whether debt finance obtained by the firm was directed towards research, development, or other innovation activities
 - **Metric:** binary indicator (yes/no)
 
 ---
@@ -39,7 +39,7 @@ title: "Topic: business finance"
 
 **Public financial support for R&D and innovation**
 
-- **Definition:** share of public financial support received that was directed toward research, development, or other innovation activities
+- **Definition:** share of public financial support received that was directed towards research, development, or other innovation activities
 - **Metric:** binary indicator (yes/no); amount directed to R&D and innovation in €
 
 ---

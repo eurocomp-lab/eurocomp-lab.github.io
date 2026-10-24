@@ -3,7 +3,7 @@ title: "Integrating randomisation into national legislation"
 ---
 
 ::: {.team-note}
-#### Summary
+## Summary {.unlisted}
 This page covers the legal preconditions for using randomisation under EU Cohesion Policy, the key elements any national legal framework must address, and country examples from Spain and France showing how RCTs have been embedded in law.
 :::
 

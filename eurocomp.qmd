@@ -3,7 +3,7 @@ title: "What is the EuroCOMP Lab?"
 ---
 
 ::: {.team-note}
-#### Summary
+## Summary {.unlisted}
 This page gives an overview over the European Regional Competitiveness Policy Lab (EuroCOMP Lab).
 :::
 The EuroCOMP Lab is a joint initiative of the European Commission's Directorate-General for Regional and Urban Policy (DG REGIO) and the World Bank Group. It embeds rigorous, randomised experimentation in European Union (EU) Member States' investments in competitiveness programmes under Cohesion Policy, so the EU can learn what works, for whom, and why.
@@ -14,7 +14,7 @@ The EuroCOMP Lab is a joint initiative of the European Commission's Directorate-
 
 A short introduction to the EuroCOMP Lab, how impact evaluations can make public
 support more efficient and effective, and how it is already being used to improve
-programs across Europe.
+programmes across Europe.
 
 ::: {.video-frame}
 {{< video https://youtu.be/yeEmFmDABIk title="Introducing the EuroCOMP Lab" aspect-ratio="16x9" >}}

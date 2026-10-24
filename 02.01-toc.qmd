@@ -7,12 +7,12 @@ title: "Step 1: develop a Theory of Change"
 ```
 
 ::: {.team-note}
-#### Summary
+## Summary {.unlisted}
 This page covers what a Theory of Change (ToC) is, how it relates to the intervention logic required under European Regional Development Fund (ERDF) and European Social Fund Plus (ESF+), each component of the causal chain from inputs to goals with examples, and why building one strengthens both evaluation design and policy lessons.
 :::
 
 
-Before any data is collected and before any evaluation contract is signed, a Managing Authority needs to be clear about what the programme is trying to achieve, how progress toward that goal will be measured, and what data will be needed to do so. A ToC makes this logic explicit and evaluation-ready.
+Before any data is collected and before any evaluation contract is signed, a Managing Authority needs to be clear about what the programme is trying to achieve, how progress towards that goal will be measured, and what data will be needed to do so. A ToC makes this logic explicit and evaluation-ready.
 
 ---
 
@@ -104,7 +104,7 @@ A ToC follows a causal chain from resources invested to long-term change achieve
 [North-East Romania: activities]{.tag}
 
 - Outreach and information campaign for potential applicants
-- Pre-assessment questionnaire to express interest in digitalization grants 
+- Pre-assessment questionnaire to express interest in digitalisation grants 
 - Call for proposals to deliver digitalisation grants
 :::
 
@@ -116,16 +116,16 @@ A ToC follows a causal chain from resources invested to long-term change achieve
 - Digitalisation grants are awarded to selected companies
 :::
 
-**Short-term outcomes** refer to the immediate changes that occur as a direct result of the outputs. These outcomes are often related to changes in knowledge, attitudes, skills, and behaviors among the target population. Although short-term outcomes are not the program's ultimate goals, they play a crucial role in achieving the larger objectives.
+**Short-term outcomes** refer to the immediate changes that occur as a direct result of the outputs. These outcomes are often related to changes in knowledge, attitudes, skills, and behaviours among the target population. Although short-term outcomes are not the programme's ultimate goals, they play a crucial role in achieving the larger objectives.
 
 ::: {.example .romania}
 [North-East Romania: short-term outcomes]{.tag}
 
 - Digital solution procured, installed, configured and tested 
-- Digital solution is operationalized, used by employees, customers and  others in the supply chain.​​
+- Digital solution is operationalised, used by employees, customers and  others in the supply chain.​​
 :::
 
-**Medium-term outcomes** are the intermediate changes that occur due to sustained efforts and progress from short-term outcomes. These outcomes indicate progress toward the overall goal and often involve shifts in social norms, policies, or organizational practices. These correspond closely to the common result indicators that ERDF and ESF+ programmes report on, though impact evaluations typically aim to go further by establishing a credible causal link between the programme and the result.
+**Medium-term outcomes** are the intermediate changes that occur due to sustained efforts and progress from short-term outcomes. These outcomes indicate progress towards the overall goal and often involve shifts in social norms, policies, or organisational practices. These correspond closely to the common result indicators that ERDF and ESF+ programmes report on, though impact evaluations typically aim to go further by establishing a credible causal link between the programme and the result.
 
 ::: {.example .romania}
 [North-East Romania: preregister the evaluation design]{.tag}
@@ -143,16 +143,16 @@ A ToC follows a causal chain from resources invested to long-term change achieve
 - Higher resilience to economic shocks, due to the business versatility ensured though the digital solutions 
 :::
 
-**Assumptions** are the underlying beliefs, conditions, or factors that are considered to be true but have not yet been fully proven or tested. Assumptions may involve external factors, stakeholder behavior, or contextual influences that must align for the theory to work as expected.
+**Assumptions** are the underlying beliefs, conditions, or factors that are considered to be true but have not yet been fully proven or tested. Assumptions may involve external factors, stakeholder behaviour, or contextual influences that must align for the theory to work as expected.
 
 ::: {.example .romania}
 [North-East Romania: assumptions]{.tag}
 
 - Employees will possess, or will be able to acquire, the digital skills needed to effectively use the solution for advanced digital transformation
-- Companies have sufficient organizational flexibility to change internal processes
-- Companies have the organizational capacity
+- Companies have sufficient organisational flexibility to change internal processes
+- Companies have the organisational capacity
 - Companies' customers and suppliers are sufficiently active in digital channels (online payments, e-commerce transactions, digital invoicing) to make adoption beneficial
-- Suppliers, partners, and customers will engage with and utilize digital links (communications, transactions, data exchange) established by companies, ensuring network effects and value creation.
+- Suppliers, partners, and customers will engage with and use digital links (communications, transactions, data exchange) established by companies, ensuring network effects and value creation.
 :::
 
 

@@ -8,7 +8,7 @@ title: "Step 2: define learning questions"
 ```
 
 ::: {.team-note}
-#### Summary
+## Summary {.unlisted}
 This page covers why learning questions must come first, what makes a good learning question, the four types - primary, heterogeneity, mechanism, and implementation - how to link them to the Theory of Change (ToC).
 :::
 

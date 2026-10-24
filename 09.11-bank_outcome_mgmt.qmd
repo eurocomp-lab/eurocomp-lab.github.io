@@ -25,7 +25,7 @@ title: "Topic: management practices"
 
 **Target-setting and time horizon** 
 
-- **Definition:** whether the firm sets formal production or service delivery targets and whether these are oriented toward short- or long-term performance
+- **Definition:** whether the firm sets formal production or service delivery targets and whether these are oriented towards short- or long-term performance
 - **Metric:** average score on a three-point scale (short-term focus / long-term focus / combination)
 
 ---

@@ -3,7 +3,7 @@ title: "RCTs: why and when"
 ---
 
 ::: {.team-note}
-#### Summary
+## Summary {.unlisted}
 This page explains in more detail why experimentation is worth doing and when to plan it. It explains what impact evaluation is and why experimentation - running a randomised controlled trial (RCT) - is usually the preferred way to do it, and when to use one: which questions it can answer, why it has to be planned early, and when it is not the right tool.
 :::
 
@@ -27,7 +27,7 @@ Development Agency with World Bank support.
 </div>
 ```
 
-### Key steps and dates
+## Key steps and dates
 
 ```{=html}
 <div class="flow">
@@ -333,21 +333,21 @@ Strategy B causes 35 successes and thus is more impactful than A.
 
 ::: {.cards}
 ::: {.card-e}
-#### Deadweight: low additionality
+### Deadweight: low additionality {.unlisted}
 Additionality is the share of activity that would not have happened without the programme. Top performers would likely have invested anyway, so public funds mostly substitute for money they would have spent regardless - generating little that is truly additional per euro.
 :::
 ::: {.card-e}
-#### Selection bias in measurement
+### Selection bias in measurement {.unlisted}
 Comparing funded, stronger firms with unfunded, weaker ones credits the programme with
 firms' pre-existing quality, not with what the grant did.
 :::
 ::: {.card-e}
-#### Where the grant buys most
+### Where the grant buys most {.unlisted}
 Support actually changes behaviour for the marginal, constrained firm: the good project
 that could not otherwise get funded.
 :::
 ::: {.card-e}
-#### Can experts spot the marginal firm?
+### Can experts spot the marginal firm? {.unlisted}
 Evidence suggests not reliably. In a business plan competition in Nigeria, judges' scores
 did not predict which firms would survive or grow three years later (McKenzie & Sansone,
 2019; see [Common myths](index.qmd#common-myths-about-rcts)).
@@ -469,7 +469,7 @@ Before any grants were awarded, the two groups were statistically identical:
 Because the groups started out the same, the difference between them over time is the
 impact of being invited to apply for the grant.
 
-#### The randomisation design 
+### The randomisation design {.unlisted}
 ```{=html}
 <figure class="fig-e">
 <svg viewBox="0 0 680 240" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="1038 eligible firms enter a random draw and are split into a treatment group invited to apply for a grant and a comparison group receiving no invitation">
@@ -602,7 +602,7 @@ Scale up based on evidence.
 
 ## What if you cannot randomise? {#alternatives}
 
-For the question of whether a programme has an effect at all, an RCT only works if randomisation is built in from day one, integrated at design stage before the programme launches (ex-ante), not added afterward. The comparison group, sample size, and data to collect all depend on those early decisions. When early randomisation for this question is not possible,
+For the question of whether a programme has an effect at all, an RCT only works if randomisation is built in from day one, integrated at design stage before the programme launches (ex-ante), not added afterwards. The comparison group, sample size, and data to collect all depend on those early decisions. When early randomisation for this question is not possible,
 quasi-experimental methods are the alternative as these are usually conducted after a programme (ex-post). This section provides an overview of the most common quasi-experimental methods. 
 
 However, if what you want to know is how best to run a programme that is already launched, rather than whether it works at all, this constraint does not bind in the same way - we come back to that below. 
@@ -1001,21 +1001,21 @@ Within the quasi-experimental branch, here is how the three methods compare:
 ::: {.card-e}
 [01]{.num}
 
-#### Not the right tool
+### Not the right tool {.unlisted}
 The question is excellent but is not about impact, for example satisfaction with services
 or cost per service. Monitoring and feedback data are easier and do not need a counterfactual.
 :::
 ::: {.card-e}
 [02]{.num}
 
-#### Not yet
+### Not yet {.unlisted}
 The theory of change is not clear, or implementation is unlikely to work because the
 markets to serve do not exist.
 :::
 ::: {.card-e}
 [03]{.num}
 
-#### Statistically not feasible
+### Statistically not feasible {.unlisted}
 Too few units or too little money. Large indirect or spillover effects you cannot measure (Spillovers alone are not a
 reason to drop an RCT: if expected, they can be designed for and measured (see
 [Step 4: assess feasibility of conducting an RCT](02.03-assess.qmd)))
@@ -1025,7 +1025,7 @@ for example national policy.
 ::: {.card-e}
 [04]{.num}
 
-#### Maybe not worth it for learning
+### Maybe not worth it for learning {.unlisted}
 The answer is already known from credible existing studies, or there is no generalisable
 "why" because the programme is one-off with little scale or replication potential.
 :::

@@ -4,7 +4,7 @@ title: "Topic: Research and Development"
 
 *Use at baseline and endline. Drawn from the CIS and aligned with the OECD Frascati Manual definitions.*
 
-### 12.1 Did your company carry out research and experimental development (R&D) activities during the last financial year?
+## 12.1 Did your company carry out research and experimental development (R&D) activities during the last financial year?
 
 - Yes, continuously (R&D is an ongoing activity)
 - Yes, occasionally (R&D projects are undertaken from time to time)
@@ -12,13 +12,13 @@ title: "Topic: Research and Development"
 
 *Source: CIS / Frascati Manual. Use at: Baseline and endline.*
 
-### 12.2 What was your company's total R&D expenditure in the last financial year?
+## 12.2 What was your company's total R&D expenditure in the last financial year?
 
 *(Open numeric field, in €)*
 
 *Source: CIS / Frascati Manual. Use at: Baseline and endline.*
 
-### 12.3 What share of your company's total turnover was spent on R&D in the last financial year?
+## 12.3 What share of your company's total turnover was spent on R&D in the last financial year?
 
 - None
 - Less than 1%
@@ -28,13 +28,13 @@ title: "Topic: Research and Development"
 
 *Source: CIS. Use at: Baseline and endline.*
 
-### 12.4 How many full-time equivalent (FTE) staff were engaged in R&D activities in your company in the last financial year?
+## 12.4 How many full-time equivalent (FTE) staff were engaged in R&D activities in your company in the last financial year?
 
 *(Open numeric field)*
 
 *Source: CIS / Frascati Manual. Use at: Baseline and endline.*
 
-### 12.5 What type of R&D does your company mainly carry out?
+## 12.5 What type of R&D does your company mainly carry out?
 
 - Basic research (expanding general scientific knowledge)
 - Applied research (aimed at a specific practical goal)
@@ -43,7 +43,7 @@ title: "Topic: Research and Development"
 
 *Source: Frascati Manual. Use at: Baseline.*
 
-### 12.6 Where does your company conduct its R&D?
+## 12.6 Where does your company conduct its R&D?
 
 *(Select all that apply)*
 
@@ -55,7 +55,7 @@ title: "Topic: Research and Development"
 
 *Source: CIS. Use at: Baseline and endline.*
 
-### 12.7 Did your company receive any public funding for R&D activities in the last three years?
+## 12.7 Did your company receive any public funding for R&D activities in the last three years?
 
 *(Select all that apply)*
 
@@ -68,7 +68,7 @@ title: "Topic: Research and Development"
 
 *Source: CIS. Use at: Baseline.*
 
-### 12.8 What were the main outputs of your company's R&D activities in the last three years?
+## 12.8 What were the main outputs of your company's R&D activities in the last three years?
 
 *(Select all that apply)*
 

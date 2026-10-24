@@ -7,7 +7,7 @@ title: "Step 5: identify available data sources"
 ```
 
 ::: {.team-note}
-#### Summary
+## Summary {.unlisted}
 This page covers the choice between primary and secondary data, how to assess what administrative sources already exist and whether they contain the right outcomes, where to find secondary firm-level data, and how to set up data-sharing agreements.
 :::
 
@@ -32,7 +32,7 @@ In countries where administrative data sources - such as business registries, ta
 North-East Romania used a combination of primary and secondary data: self-reported survey data was collected using a structured questionnaire that complements administrative data sources. 
 :::
 
-#### Comparison of primary vs. secondary data
+### Comparison of primary vs. secondary data {.unlisted}
 
 | Topic | Primary data | Secondary data (administrative) |
 |---|---|---|

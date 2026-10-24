@@ -30,7 +30,7 @@ This website pools knowledge and resources to help Managing Authorities use rand
 ::::::
 
 ::: {.team-note}
-#### Summary
+## Summary {.unlisted}
 Whether you are considering an RCT for the first time or already have experience with experimentation, you can find the concepts, examples and practical resources you need to get started.
 This page explains why experimentation matters for policy, how RCTs relate to impact evaluation more broadly, which questions they can answer, and common myths about them. It ends with a guide to the rest of the site.
 :::
@@ -94,21 +94,21 @@ An RCT can answer several kinds of questions, depending on how it is designed:
 
 ::: {.cards}
 ::: {.card-e}
-#### How effective is a given programme?
+### How effective is a given programme? {.unlisted}
 Whether the programme works, and for whom it works best.
 :::
 ::: {.card-e}
-#### Which version of a programme is most effective?
+### Which version of a programme is most effective? {.unlisted}
 How different versions of a programme compare - which parts of a programme work, which do not, and
 how they work together.
 :::
 ::: {.card-e}
-#### How should a programme be delivered?
+### How should a programme be delivered? {.unlisted}
 How different delivery mechanisms change results, including how to target beneficiaries
 accurately and increase take-up.
 :::
 ::: {.card-e}
-#### Is it worth the cost?
+### Is it worth the cost? {.unlisted}
 How cost-effective the programme is, and how it compares to other programmes.
 :::
 :::
@@ -162,7 +162,7 @@ For establishing whether a programme caused a change in outcomes, RCTs are the g
 <details class="myth-box">
 <summary>RCTs are more expensive than other rigorous methods</summary>
 
-Randomisation is an allocation rule. It tells you who is assigned to a programme and who is not, but says nothing about how you measure outcomes afterward. Measuring outcomes (for example, profits, business survival) requires data, which costs money and takes time - not just for RCTs but for whichever evaluation method is used. Other rigorous methods often skip a baseline survey, which RCTs generally plan from design stage. That may look like a saving at first glance, but it makes it harder to assess the credibility of the assumptions those methods rely on. With a large enough sample, RCTs technically do not need a baseline survey either, though collecting one is best practice. Where outcomes are already recorded in administrative registers, the cost of an RCT is the same as that of any other rigorous evaluation: legal/GDPR clearance to access and link the registers, and analytical time.
+Randomisation is an allocation rule. It tells you who is assigned to a programme and who is not, but says nothing about how you measure outcomes afterwards. Measuring outcomes (for example, profits, business survival) requires data, which costs money and takes time - not just for RCTs but for whichever evaluation method is used. Other rigorous methods often skip a baseline survey, which RCTs generally plan from design stage. That may look like a saving at first glance, but it makes it harder to assess the credibility of the assumptions those methods rely on. With a large enough sample, RCTs technically do not need a baseline survey either, though collecting one is best practice. Where outcomes are already recorded in administrative registers, the cost of an RCT is the same as that of any other rigorous evaluation: legal/GDPR clearance to access and link the registers, and analytical time.
 
 RCTs do come with additional staffing costs. Unlike a method applied retrospectively to data that already exists, randomisation must be run and monitored while the programme is ongoing - so the Managing Authority needs staff assigned to it on an ongoing basis.
 

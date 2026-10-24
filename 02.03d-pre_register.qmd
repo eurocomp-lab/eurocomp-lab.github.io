@@ -14,17 +14,17 @@ Pre-registration should be completed before the baseline survey is fielded. The 
 
 ::: {.cards}
 ::: {.card-e}
-#### AEA RCT Registry
+### AEA RCT Registry {.unlisted}
 The most widely used registry for economic and policy evaluations. Free to register.
 [socialscienceregistry.org →](https://www.socialscienceregistry.org)
 :::
 ::: {.card-e}
-#### Open Science Framework
+### Open Science Framework {.unlisted}
 Broader registry covering multiple disciplines; supports pre-registration and open data.
 [osf.io/prereg →](https://osf.io/prereg/)
 :::
 ::: {.card-e}
-#### RIDIE
+### RIDIE {.unlisted}
 Registry for International Development Impact Evaluations, hosted by 3ie.
 [ridie.3ieimpact.org →](https://ridie.3ieimpact.org)
 :::

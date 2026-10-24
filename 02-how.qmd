@@ -3,7 +3,7 @@ title: "How to design an RCT"
 ---
 
 ::: {.team-note}
-#### Summary
+## Summary {.unlisted}
 This page covers the internal team to assemble before starting and seven sequential steps - Theory of Change (ToC), learning questions, indicators, feasibility, data sources, data collection, and data quality - for designing a credible randomised controlled trial (RCT).
 :::
 
@@ -16,48 +16,48 @@ A well-designed RCT does not begin with randomisation - it begins with a clear u
 ::: {.cards .steps}
 ::: {.card-e}
 
-#### [Step 1: develop a preliminary Theory of Change](02.01-toc.qmd)
+### [Step 1: develop a preliminary Theory of Change](02.01-toc.qmd) {.unlisted}
 
 Map the causal logic of your intervention - from inputs to long-term goals - and make the assumptions explicit.
 :::
 ::: {.card-e}
 
-#### [Step 2: define learning questions](02.02-eval_questions.qmd)
+### [Step 2: define learning questions](02.02-eval_questions.qmd) {.unlisted}
 
 Formulate the specific questions the evaluation is designed to answer, grounded in the ToC.
 :::
 
 ::: {.card-e}
 
-#### [Step 3: determine relevant indicators](02.04-indicators.qmd)
+### [Step 3: determine relevant indicators](02.04-indicators.qmd) {.unlisted}
 
 Select the outcome indicators that will be used to measure change across each level of the ToC.
 :::
 
 ::: {.card-e}
 
-#### [Step 4: assess feasibility of conducting an RCT](02.03-assess.qmd)
+### [Step 4: assess feasibility of conducting an RCT](02.03-assess.qmd) {.unlisted}
 
 Check whether the conditions for a valid RCT are in place - oversubscription, timing, legal basis, and political buy-in.
 :::
 
 ::: {.card-e}
 
-#### [Step 5: identify available data sources](02.05-data_sources.qmd)
+### [Step 5: identify available data sources](02.05-data_sources.qmd) {.unlisted}
 
 Decide whether to rely on primary data, administrative data, or a combination - and map what is already available.
 :::
 
 ::: {.card-e}
 
-#### [Step 6: collect data](02.06-data_collect.qmd)
+### [Step 6: collect data](02.06-data_collect.qmd) {.unlisted}
 
 Design and implement the data collection - surveys, administrative data access, and quality controls.
 :::
 
 ::: {.card-e}
 
-#### [Step 7: ensure high-quality data](02.07-data_quality.qmd)
+### [Step 7: ensure high-quality data](02.07-data_quality.qmd) {.unlisted}
 
 Put in place the checks needed to detect and address data quality problems before analysis begins.
 :::

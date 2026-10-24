@@ -7,7 +7,7 @@ title: "Step 4: assess feasibility of conducting an RCT"
 ```
 
 ::: {.team-note}
-#### Summary
+## Summary {.unlisted}
 
 This page covers five feasibility conditions that must be in place before committing to an randomised controlled trial (RCT), five randomisation designs and when to use each, and the most common problems that arise after the lottery.
 :::
@@ -24,23 +24,23 @@ Work through these five questions before committing to a randomised design. If t
 
 ::: {.cards}
 ::: {.card-e}
-#### 1. Is the programme oversubscribed?
+### 1. Is the programme oversubscribed? {.unlisted}
 An RCT requires more eligible applicants than available funding slots. If you can support everyone who qualifies, there is no basis for a lottery - and no credible comparison group. Oversubscription is the single most important precondition.
 :::
 ::: {.card-e}
-#### 2. Is there enough time?
+### 2. Is there enough time? {.unlisted}
 Randomisation must happen before the first grant is awarded. If the programme has already launched, it is too late. Planning must ideally begin at the programme design stage.
 :::
 ::: {.card-e}
-#### 3. Is there a legal basis?
+### 3. Is there a legal basis? {.unlisted}
 Most national frameworks were designed around ranking or first-come-first-served selection and say nothing about random assignment. Explicit permission - either in existing regulations or through a programme-specific instrument - must be confirmed before proceeding.
 :::
 ::: {.card-e}
-#### 4. Is there political and institutional buy-in?
+### 4. Is there political and institutional buy-in? {.unlisted}
 An RCT requires sustained commitment from the Managing Authority and any intermediate bodies involved in delivery. If key stakeholders are not on board, or if political changes could interrupt the evaluation midway, the investment may not be recoverable.
 :::
 ::: {.card-e}
-#### 5. Can the outcomes actually be measured?
+### 5. Can the outcomes actually be measured? {.unlisted}
 The indicators selected in [Step 3](02.04-indicators) must be observable - through administrative records, a survey, or both. If the primary outcome cannot be reliably measured for both treatment and comparison firms, the evaluation will not produce credible results even if the design is sound.
 :::
 :::
@@ -183,7 +183,7 @@ Application requirements should be proportionate to the amount of funding reques
 ::: {.example .case #digitrans}
 [North-East Romania]{.tag}
 
-In Romania, the pre-assessment survey was designed to do three jobs simultaneously: collect baseline data for the evaluation, assess firm eligibility in real time, and provide firms with enough information to decide whether to proceed - all within approximately 40 minutes. Survey responses were automatically cross-referenced with official firm data, enabling instant verification of core eligibility criteria. Firms that did not meet the requirements were informed immediately, saving them from investing further time in a formal application that would have been rejected. Eligible firms received individualised benchmark reports comparing their digitalization levels to similar firms in their region, providing added value to participants regardless of their eventual selection outcome.
+In Romania, the pre-assessment survey was designed to do three jobs simultaneously: collect baseline data for the evaluation, assess firm eligibility in real time, and provide firms with enough information to decide whether to proceed - all within approximately 40 minutes. Survey responses were automatically cross-referenced with official firm data, enabling instant verification of core eligibility criteria. Firms that did not meet the requirements were informed immediately, saving them from investing further time in a formal application that would have been rejected. Eligible firms received individualised benchmark reports comparing their digitalisation levels to similar firms in their region, providing added value to participants regardless of their eventual selection outcome.
 ::::
 
 </details>
@@ -192,7 +192,7 @@ In Romania, the pre-assessment survey was designed to do three jobs simultaneous
 <details class="myth-box">
 <summary>Use the application process to exchange information</summary>
 
-The application process is typically treated as a one-way flow of information: firms submit data to the Managing Authority. In practice, it can also be a vehicle for delivering useful information and tools to firms - raising awareness about a topic (digitalization, innovation, energy efficiency), helping firms identify investment needs, and providing benchmarks that inform business decisions regardless of whether the firm is selected for support.
+The application process is typically treated as a one-way flow of information: firms submit data to the Managing Authority. In practice, it can also be a vehicle for delivering useful information and tools to firms - raising awareness about a topic (digitalisation, innovation, energy efficiency), helping firms identify investment needs, and providing benchmarks that inform business decisions regardless of whether the firm is selected for support.
 
 Firms that receive useful information during the application process are more engaged, better prepared to make investment decisions if selected, and more likely to view the experience positively even if they are not funded.
 
@@ -210,11 +210,11 @@ If the eligible pool falls short, there are two immediate levers:
 
 ::: {.cards}
 ::: {.card-e}
-#### Loosen the eligibility bar
+### Loosen the eligibility bar {.unlisted}
 If fewer firms qualify than needed, lowering the eligibility threshold adds more firms to the pool you randomise from. Be careful not to dilute the target population so much that the evaluation no longer answers the original question.
 :::
 ::: {.card-e}
-#### Widen the ranking bands
+### Widen the ranking bands {.unlisted}
 If you are scoring applicants, avoid treating small score differences as decisive. Group firms with similar scores into bands and treat everyone in a band as equally eligible - this moves more firms into the randomised pool rather than having marginal cases decided by a single point.
 :::
 :::
@@ -228,27 +228,27 @@ Not every programme fits the same shape. The right design depends on your progra
 ```{=html}
 <div class="designs">
   <div class="d"><div>
-    <h4>Lottery</h4>
+    <h3>Lottery</h3>
     <p><span class="lab">How:</span> randomly select which eligible firms receive the programme, by a documented public or private draw.</p>
     <p><span class="lab">Best when:</span> eligibility is clear, the programme is oversubscribed, and a single treatment is being tested.</p>
   </div></div>
   <div class="d"><div>
-    <h4>Multiple treatment arms</h4>
+    <h3>Multiple treatment arms</h3>
     <p><span class="lab">How:</span> randomly assign firms to different versions of the programme - for example, grant only vs. grant plus advisory support - with or without a comparison group receiving nothing.</p>
     <p><span class="lab">Best when:</span> you want to know which design element drives results, not just whether the programme works at all.</p>
   </div></div>
   <div class="d"><div>
-    <h4>Randomised phase-in</h4>
+    <h3>Randomised phase-in</h3>
     <p><span class="lab">How:</span> everyone receives the programme eventually, but in a randomly assigned order. Firms still waiting serve as the comparison group in the meantime.</p>
     <p><span class="lab">Best when:</span> budget or capacity limits mean you cannot reach all eligible firms at once, and withholding support permanently would be unacceptable.</p>
   </div></div>
   <div class="d"><div>
-    <h4>Randomised intensities</h4>
+    <h3>Randomised intensities</h3>
     <p><span class="lab">How:</span> vary the dose of the programme across firms - for example, 100%, 50%, or 0% of eligible employees receive training.</p>
     <p><span class="lab">Best when:</span> you suspect that knowledge or behaviour spreads between treated and untreated workers within the same firm, and you want to measure that spread.</p>
   </div></div>
   <div class="d"><div>
-    <h4>Encouragement design</h4>
+    <h3>Encouragement design</h3>
     <p><span class="lab">How:</span> randomise who receives extra outreach or information encouraging take-up, rather than randomising access to the programme itself.</p>
     <p><span class="lab">Best when:</span> the programme cannot legally be denied to anyone who qualifies - for example, an open voucher scheme - but take-up is voluntary and varies.</p>
   </div></div>
@@ -427,7 +427,7 @@ Rather than randomising which firms receive the programme, you can randomise how
 
 ```{=html}
 <figure class="fig-e">
-<svg viewBox="0 0 660 210" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Three firms receive the programme at 100 percent, 50 percent and zero percent of eligible employees">
+<svg viewBox="0 0 660 210" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Three firms receive the programme at 100%, 50% and 0% of eligible employees">
   <line x1="120" y1="165" x2="600" y2="165" stroke="var(--dg-line)" stroke-width="1.5"/>
   <rect x="150" y="35" width="110" height="130" fill="var(--dg-accent)"/>
   <text x="205" y="106" text-anchor="middle" fill="var(--dg-ink)" font-size="15" font-weight="bold">100%</text>
@@ -508,12 +508,12 @@ For a Managing Authority, pre-registration also serves a protective function. It
 
 ::: {.cards}
 ::: {.card-e}
-#### AEA RCT Registry
+### AEA RCT Registry {.unlisted}
 The most widely used registry for economic and policy evaluations. Free to register.
 [socialscienceregistry.org](https://www.socialscienceregistry.org)
 :::
 ::: {.card-e}
-#### RIDIE
+### RIDIE {.unlisted}
 Registry for International Development Impact Evaluations, hosted by 3ie.
 [ridie.3ieimpact.org](https://ridie.3ieimpact.org)
 :::

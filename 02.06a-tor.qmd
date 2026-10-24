@@ -3,7 +3,7 @@ title: "Terms of Reference for evaluation and data collection"
 ---
 
 ::: {.team-note}
-#### Summary
+## Summary {.unlisted}
 This page covers the procurement process - Expression of Interest (EoI), proposal evaluation, and inception - and what the Terms of Reference (ToR) must contain: programme background, learning questions, scope of work, methodology, deliverables, budget, data access, required qualifications, and common mistakes to avoid.
 :::
 
@@ -191,20 +191,20 @@ Describe the reporting line, frequency of progress meetings, and the composition
 
 ::: {.cards}
 ::: {.card-e}
-#### EoI
+### EoI {.unlisted}
 
 - [Template from Inter-American Developent Bank](assets/EoI_template_Inter-American Development Bank.DOCX)
 - [Example from 3ie](https://3ieimpact.org/about/our-work-commissioning-center/call-expressions-interest-private-sector-led-digital)
 :::
 ::: {.card-e}
-#### ToRs
+### ToRs {.unlisted}
 
 - [Example from UNICEF](https://evaluationreports.unicef.org/GetDocument?documentID=20405&fileID=54164)
 - [Template (comprehensive ToRs) from Inter-American Developent Bank](assets/Comprehensive TORs_template_Inter-American Development Bank.DOCX)
 - [Template (data collection ToRs) from Inter-American Developent Bank](assets/Data Collection Firm TORs_template_Inter-American Development Bank.DOCX)
 :::
 ::: {.card-e}
-#### Budget
+### Budget {.unlisted}
 
 - [Template from J-PAL](https://www.povertyactionlab.org/sites/default/files/Budgeting%20for%20a%20randomized%20evaluation.pdf) 
 - [Template from Inter-American Developent Bank](assets/Budget_template_Inter-American Development Bank.XLSX) 

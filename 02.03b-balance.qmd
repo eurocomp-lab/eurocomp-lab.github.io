@@ -3,7 +3,7 @@ title: "More details on comparability of groups"
 ---
 
 ::: {.team-note}
-#### Summary
+## Summary {.unlisted}
 This page explains what balance means, why it matters, how to check it, and what to do if the groups turn out not to be comparable after the lottery.
 :::
 

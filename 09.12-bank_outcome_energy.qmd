@@ -25,7 +25,7 @@ title: "Topic: energy efficiency"
 
 **Energy source mix**
 
-- **Definition:** the range of energy sources used by the firm, capturing the degree of diversification and shift toward non-fossil fuels
+- **Definition:** the range of energy sources used by the firm, capturing the degree of diversification and shift towards non-fossil fuels
 - **Metric:** binary indicator per energy source (natural gas / oil / solid fuels / solar PV / other renewables / grid only); number of energy sources used
 
 ---

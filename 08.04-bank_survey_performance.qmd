@@ -28,12 +28,12 @@ title: "Topic: company financial performance"
 ***
 
 **What share of your company's total sales came from exports in [year]?**
-*(Open numeric field, in percent)*
+*(Open numeric field, in %)*
 
 ***
 
 **What share of your company's total sales came from online sales in [year]?**
-*(Open numeric field, in percent)*
+*(Open numeric field, in %)*
 
 ***
 

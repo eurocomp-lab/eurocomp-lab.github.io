@@ -60,5 +60,5 @@ title: "Topic: digitalisation and technology adoption"
 
 **DESI digital technology integration score**
 
-- **Definition:** level of digital technology integration across the firm's operations, measured against the European Commission's Digital Economy and Society Index (DESI) business digitalization criteria - covering electronic information sharing, cloud computing, big data analytics, social media, IoT, AI, e-invoicing, and e-commerce
+- **Definition:** level of digital technology integration across the firm's operations, measured against the European Commission's Digital Economy and Society Index (DESI) business digitalisation criteria - covering electronic information sharing, cloud computing, big data analytics, social media, IoT, AI, e-invoicing, and e-commerce
 - **Metric**: number of DESI criteria met (out of 12); composite DESI integration sub-score; binary indicator for reaching a defined threshold (e.g. at least 7 of 12 criteria)

@@ -27,7 +27,8 @@ $rf-rule:      #D5DCE6;
 
 /* only plain text sections; components that render as sections keep their own widths */
 #quarto-document-content > :is(p, ul, ol, blockquote),
-#quarto-document-content section:is([class="level2"], [class="level3"], [class="level4"]) > :is(p, ul, ol, blockquote, h2, h3, h4) {
+#quarto-document-content section:is([class="level2"], [class="level3"], [class="level4"],
+  [class="level2 unlisted"], [class="level3 unlisted"], [class="level4 unlisted"]) > :is(p, ul, ol, blockquote, h2, h3, h4) {
   max-width: 40rem;
 }
 
@@ -94,8 +95,12 @@ h1.title {
   font-size: 1.15rem;
   line-height: 1.55;
 }
-.team-note > h4 {
+/* the summary heading is an h2 (an h4 before October 2026); the IDs keep
+   the page-wide and first-h2 rules from applying */
+#quarto-content #quarto-document-content .team-note > :is(h2, h4) {
+  text-wrap: wrap;
   font-size: 1rem;
+  font-weight: 700;
   line-height: 1.3;
   color: $rf-blue;
   margin: 0 0 .4rem;
@@ -117,6 +122,10 @@ h1.title {
 }
 .card-e { padding: 1.15rem 1.25rem 1.25rem; }
 .card-e h4 { font-size: 1.02rem; line-height: 1.32; margin-bottom: .45rem; }
+/* card titles under an h2 section are h3s: same look as the h4 version,
+   and the ID keeps the page-wide h3 size from applying */
+#quarto-document-content .card-e h3 { text-wrap: wrap; font-size: 1.02rem; font-weight: 700; line-height: 1.32; margin: 0 0 .45rem; }
+#quarto-document-content .card-e .num + h3 { margin-top: .35rem; }
 .card-e p { color: $rf-ink-soft; }
 
 /* four cards sit 2 x 2 instead of 3 + 1 */
@@ -130,14 +139,14 @@ h1.title {
 /* a card whose title is a link is clickable as a whole
    (position is set on every card so the link overlay never escapes its card) */
 .card-e { position: relative; }
-.card-e:has(> h4 > a:not(.anchorjs-link)) { transition: border-color .15s ease; }
-.card-e > h4 > a:not(.anchorjs-link) { color: $rf-blue; text-decoration: none; }
-.card-e > h4 > a:not(.anchorjs-link)::after { content: ""; position: absolute; inset: 0; }
-.card-e:has(> h4 > a:not(.anchorjs-link)):hover { border-color: $rf-blue; }
-.card-e:has(> h4 > a:not(.anchorjs-link)):hover > h4 > a { text-decoration: underline; }
+.card-e:has(> :is(h3, h4) > a:not(.anchorjs-link)) { transition: border-color .15s ease; }
+.card-e > :is(h3, h4) > a:not(.anchorjs-link) { color: $rf-blue; text-decoration: none; }
+.card-e > :is(h3, h4) > a:not(.anchorjs-link)::after { content: ""; position: absolute; inset: 0; }
+.card-e:has(> :is(h3, h4) > a:not(.anchorjs-link)):hover { border-color: $rf-blue; }
+.card-e:has(> :is(h3, h4) > a:not(.anchorjs-link)):hover > :is(h3, h4) > a { text-decoration: underline; }
 .card-e :is(p, li) a { position: relative; z-index: 1; }   // other links in a card stay clickable
-.card-e:has(> h4 > a:not(.anchorjs-link)):focus-within { outline: 3px solid $rf-blue; outline-offset: 2px; }
-.card-e > h4 > a:not(.anchorjs-link):focus-visible { background: transparent; box-shadow: none; }
+.card-e:has(> :is(h3, h4) > a:not(.anchorjs-link)):focus-within { outline: 3px solid $rf-blue; outline-offset: 2px; }
+.card-e > :is(h3, h4) > a:not(.anchorjs-link):focus-visible { background: transparent; box-shadow: none; }
 
 /* ---------------------------------------------------------------
    Seven steps as a path: one row per step, linked by a line.
@@ -171,6 +180,7 @@ h1.title {
   border: 2px solid $rf-blue;
 }
 .cards.steps > .card-e > h4 { margin: 0; }
+#quarto-document-content .cards.steps > .card-e > h3 { margin: 0; }
 .cards.steps > .card-e > p { margin: 0; }
 .cards.steps > .card-e:hover { background: $rf-pale; }
 .cards.steps > .card-e:hover::before { background: $rf-yellow; border-color: $rf-blue; }
@@ -235,7 +245,7 @@ section.band {
 #quarto-document-content section.band > h2 { margin-top: 0; }
 hr:has(+ section.band) { display: none; }
 section.band .card-e { border-color: transparent; }
-section.band .card-e:has(> h4 > a:not(.anchorjs-link)):hover { border-color: $rf-blue; }
+section.band .card-e:has(> :is(h3, h4) > a:not(.anchorjs-link)):hover { border-color: $rf-blue; }
 
 /* ---------------------------------------------------------------
    Footer: deep blue band
@@ -432,4 +442,28 @@ hr:has(+ .nav-buttons) { display: none; }
 @media (prefers-reduced-motion: reduce) {
   .hero-draw svg .firm,
   .card-e { transition: none; }
+}
+
+/* ---------------------------------------------------------------
+   Headings in design boxes and example boxes. Heading levels were
+   fixed in October 2026; these keep the look they had before.
+   --------------------------------------------------------------- */
+#quarto-document-content .designs .d h3 { text-wrap: wrap; font-size: 1rem; font-weight: 700; line-height: 1.2; margin: .1rem 0 .4rem; }
+#quarto-content #quarto-document-content .example h2 {        // was an h3
+  font-size: 1.3rem;
+  line-height: 1.3;
+  letter-spacing: -0.01em;
+  margin-top: 2.5rem;
+  margin-bottom: .75rem;
+}
+#quarto-document-content .example h3 {        // was an h4
+  text-wrap: wrap;
+  font-size: 1.25rem;
+  font-weight: 700;
+  line-height: 1.2;
+  margin-top: 1.5rem;
+  margin-bottom: .5rem;
+}
+@media (max-width: 575.98px) {
+  #quarto-content #quarto-document-content .example h2 { font-size: 1.2rem; }
 }

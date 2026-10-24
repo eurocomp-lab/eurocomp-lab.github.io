@@ -45,7 +45,7 @@ title: "Topic: respondent details"
 
 ***
 
-**Where did you hear about the program?**
+**Where did you hear about the programme?**
 
 - Search engine (Google, Yahoo, etc.)
 - Recommended by a friend or colleague
@@ -54,10 +54,10 @@ title: "Topic: respondent details"
 - Other social media
 - Newspapers
 - Radio
-- Attended an event from [agency/organization]
+- Attended an event from [agency/organisation]
 - I talked with a consultant.
-- [agency/organization] newsletter
-- [agency/organization] podcast
+- [agency/organisation] newsletter
+- [agency/organisation] podcast
 - Other (please specify)
 
 ***

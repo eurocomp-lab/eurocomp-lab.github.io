@@ -7,7 +7,7 @@ title: "Step 7: ensure high-quality data"
 ```
 
 ::: {.team-note}
-#### Summary
+## Summary {.unlisted}
 This page covers quality controls before fieldwork, real-time monitoring during fieldwork, and post-collection steps - cleaning, balance checks, attrition assessment, and validation against administrative data.
 :::
 

@@ -15,7 +15,7 @@ Experimentation is gaining ground across the European Commission, not only in Co
 
 :::: {.cards}
 ::: {.card-e}
-#### [Policy experimentation in research and innovation](https://research-and-innovation.ec.europa.eu/strategy/support-policy-making/shaping-eu-research-and-innovation-policy/policy-experimentation-research-and-innovation_en)
+### [Policy experimentation in research and innovation](https://research-and-innovation.ec.europa.eu/strategy/support-policy-making/shaping-eu-research-and-innovation-policy/policy-experimentation-research-and-innovation_en) {.unlisted}
 The Directorate-General for Research and Innovation's work on testing research and
 innovation policies before scaling them up, including an interactive map of
 policy-experimentation organisations across EU Member States and an emerging
@@ -30,7 +30,7 @@ Many of them also publish free guidance and training you can use directly.
 
 :::: {.cards}
 ::: {.card-e}
-#### [J-PAL](https://www.povertyactionlab.org/)
+### [J-PAL](https://www.povertyactionlab.org/) {.unlisted}
 The Abdul Latif Jameel Poverty Action Lab specialises in impact evaluation design.
 
 **Go further**
@@ -42,11 +42,11 @@ The Abdul Latif Jameel Poverty Action Lab specialises in impact evaluation desig
   an online programme from MIT and J-PAL for those who want to learn more.
 :::
 ::: {.card-e}
-#### [IPA](https://poverty-action.org/)
+### [IPA](https://poverty-action.org/) {.unlisted}
 Innovations for Poverty Action designs and rigorously evaluates solutions to poverty.
 :::
 ::: {.card-e}
-#### [World Bank DIME](https://www.worldbank.org/en/about/unit/unit-dec/impactevaluation/about)
+### [World Bank DIME](https://www.worldbank.org/en/about/unit/unit-dec/impactevaluation/about) {.unlisted}
 The World Bank's Development Impact Evaluation group.
 
 **Go further**
@@ -56,12 +56,12 @@ The World Bank's Development Impact Evaluation group.
   varying levels of expertise.
 :::
 ::: {.card-e}
-#### [International Initiative for Impact Evaluation (3ie)](https://www.3ieimpact.org/)
+### [International Initiative for Impact Evaluation (3ie)](https://www.3ieimpact.org/) {.unlisted}
 A global non-profit research organisation working with governments, foundations,
 NGOs, and development and research organisations worldwide.
 :::
 ::: {.card-e}
-#### [Innovation Growth Lab (IGL)](https://www.innovationgrowthlab.org/)
+### [Innovation Growth Lab (IGL)](https://www.innovationgrowthlab.org/) {.unlisted}
 A global partnership that supports governments to test and evaluate innovation,
 entrepreneurship and growth policies.
 
@@ -71,14 +71,14 @@ entrepreneurship and growth policies.
   toolkits and evidence for running policy experiments.
 :::
 ::: {.card-e}
-#### [Inter-American Development Bank (IDB)](https://www.iadb.org/en/results-and-effectiveness/development-effectiveness/project-evaluation/impact-evaluations)
+### [Inter-American Development Bank (IDB)](https://www.iadb.org/en/results-and-effectiveness/development-effectiveness/project-evaluation/impact-evaluations) {.unlisted}
 The IDB's impact evaluation work, which measures the effects of the projects it
 finances and shares the methods and lessons learned.
 :::
 ::::
 
 ::: {.card-e}
-#### To add
+### To add {.unlisted}
 Contacts at managing authorities already running experimental evaluations, for teams that
 want to speak to a peer rather than read a page.
 :::

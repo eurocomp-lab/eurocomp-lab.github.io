@@ -3,7 +3,7 @@ title: "Informed consent in RCT data collection"
 ---
 
 ::: {.team-note}
-#### Summary
+## Summary {.unlisted}
 This page explains what informed consent means in the context of a European Union (EU) randomised controlled trial (RCT), what a consent form must contain, how to handle the distinction between mandatory and voluntary participation, and how to ensure General Data Protection Regulation (GDPR) compliance throughout. 
 :::
 
@@ -64,7 +64,7 @@ Explain clearly that the evaluation uses a randomised design: all eligible firms
 ::: {.example .case }
 [Romania (South-Muntenia)]{.tag}
 
-To achieve a rigorous and unbiased evaluation, the selection of eligible firms invited to submit a formal application is randomized. Information from this form will be used to establish a baseline list of eligible firms. A random sample will then be assigned to the treatment group (invited to fill out the formal application) and the remaining firms will be assigned to the control group (not invited to formally apply).
+To achieve a rigorous and unbiased evaluation, the selection of eligible firms invited to submit a formal application is randomised. Information from this form will be used to establish a baseline list of eligible firms. A random sample will then be assigned to the treatment group (invited to fill out the formal application) and the remaining firms will be assigned to the control group (not invited to formally apply).
 ::::
 
 ### 4. Who will have access to the data
@@ -111,15 +111,15 @@ Example:
 ```{=html}
 <div class="designs">
   <div class="d"><div>
-    <h4>Box 1 - Randomised programme participation <span style="font-weight:400;font-size:0.9em">(required)</span></h4>
-    <p>Covers participation in the evaluation study, acknowledgment of the randomised selection methodology, data sharing with the World Bank for monitoring and research, and consent to be contacted for follow-up questions for up to six years. This box is required to proceed with the application.</p>
+    <h3>Box 1 - Randomised programme participation <span style="font-weight:400;font-size:0.9em">(required)</span></h3>
+    <p>Covers participation in the evaluation study, acknowledgement of the randomised selection methodology, data sharing with the World Bank for monitoring and research, and consent to be contacted for follow-up questions for up to six years. This box is required to proceed with the application.</p>
   </div></div>
   <div class="d"><div>
-    <h4>Box 2 - Direct institutional access to transactional data <span style="font-weight:400;font-size:0.9em">(optional - important for evaluation quality)</span></h4>
+    <h3>Box 2 - Direct institutional access to transactional data <span style="font-weight:400;font-size:0.9em">(optional - important for evaluation quality)</span></h3>
     <p>Authorises the Managing Authority, acting directly or through the World Bank, to access historical, current, and future firm data from national fiscal and corporate registries - including tax authority, trade registry, and the Ministry of Finance. Valid for up to ten years from form submission.</p>
   </div></div>
   <div class="d"><div>
-    <h4>Box 3 - Document quality control via secure AI tools <span style="font-weight:400;font-size:0.9em">(optional - important for evaluation quality)</span></h4>
+    <h3>Box 3 - Document quality control via secure AI tools <span style="font-weight:400;font-size:0.9em">(optional - important for evaluation quality)</span></h3>
     <p>Permits the use of secure AI tools to cross-check the consistency of submitted textual descriptions and financial statements (such as balance sheets). The AI tools do not retain or store data; all information remains under the sole control of the survey provider.</p>
   </div></div>
 </div>
@@ -147,12 +147,12 @@ Box 1 is required. Boxes 2 and 3 are optional but described as important for the
 
 ::: {.cards}
 ::: {.card-e}
-#### J-PAL Informed Consent Checklist
+### J-PAL Informed Consent Checklist {.unlisted}
 Annotated guide to writing informed consent documents for research with human subjects, based on the US OHRP checklist.
 [povertyactionlab.org](https://www.povertyactionlab.org/media/file-research-resource/annotated-informed-consent-checklist)
 :::
 ::: {.card-e}
-#### GDPR
+### GDPR {.unlisted}
 Full text of the EU regulation governing the processing of personal data, including the rules on consent, legal bases, and safeguards for scientific research.
 [eur-lex.europa.eu](https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=CELEX:32016R0679)
 :::

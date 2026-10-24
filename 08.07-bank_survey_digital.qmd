@@ -111,7 +111,7 @@ title: "Topic: digitalisation and technology adoption"
 
 ***
 
-**Which digitized e-Payments tools is the business currently using?**
+**Which digitised e-Payments tools is the business currently using?**
 
 - PayU
 - MobilPay
@@ -130,11 +130,11 @@ title: "Topic: digitalisation and technology adoption"
 
 ***
 
-**Which digitized e-Government tools (online platforms that electronically provide government services and information to citizens) is the business currently using?**
+**Which digitised e-Government tools (online platforms that electronically provide government services and information to citizens) is the business currently using?**
 
 - E-Government tools for business name
 - E-Government tools for business registration
-- E-Government tools for payment of licenses
+- E-Government tools for payment of licences
 - E-Government tools for land registration
 - Others
 - None
@@ -169,7 +169,7 @@ title: "Topic: digitalisation and technology adoption"
 - Identification/selection of customers according to specific parameters in the database
 - Automatic updating of customer data (name, address, etc.) in the IT system
 - Online purchase of the applicant's products/services
-- Estimating sales volumes, analyzing buying habits, organizing discount campaigns, using customer data history analysis software
+- Estimating sales volumes, analysing buying habits, organising discount campaigns, using customer data history analysis software
 - Customers have online access to transaction status/history
 - Others
 - None
@@ -198,7 +198,7 @@ title: "Topic: digitalisation and technology adoption"
 
 ***
 
-**Which processes digitalization tools is the business using? These tools are related to the digitalization of the processes within the business.**
+**Which processes digitalisation tools is the business using? These tools are related to the digitalisation of the processes within the business.**
 
 - Digital approval/signature (using e.g. electronic signature) of documents, contracts, etc.
 - Easy interconnection and exploitation of the various digital solutions implemented
@@ -211,7 +211,7 @@ title: "Topic: digitalisation and technology adoption"
 
 **Which security policy tools is the business using? These tools are related to the ability to quickly recover access to data in the event of its loss.**
 
-- Identifying and analyzing potential threats regarding data alteration or loss; prevention, detection, response and recovery measures
+- Identifying and analysing potential threats regarding data alteration or loss; prevention, detection, response and recovery measures
 - Systematic training and education of employees regarding data security and IT security
 - Measures against security breaches in telecommuting conditions
 - Securing communications in the process of transmitting/storing commercial documents/data
@@ -220,9 +220,9 @@ title: "Topic: digitalisation and technology adoption"
 
 ***
 
-**Which production digitalization tools is the business using? These tools are related to the automation/informatization/digitalization of the business production (does not apply to non-manufacturing applicants).**
+**Which production digitalisation tools is the business using? These tools are related to the automation/informatisation/digitalisation of the business production (does not apply to non-manufacturing applicants).**
 
-- The production process includes measurement sensors that transmit data to servers in order to optimize production
+- The production process includes measurement sensors that transmit data to servers in order to optimise production
 - Real-time tracking of production processes by managers using computer systems
 - Using RFI (Radio Frequency Identification) or other similar digital functionality to track parts and subassemblies or finished products in the manufacturing process
 - Collaborative robots ( cobots ) in manufacturing
@@ -238,7 +238,7 @@ title: "Topic: digitalisation and technology adoption"
 - e-Payments tools
 - Record and financial management tools
 - Human resources management tools
-- Production digitization tools
+- Production digitisation tools
 - Other
 
 ***
