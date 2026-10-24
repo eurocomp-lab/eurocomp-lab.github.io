@@ -1,0 +1,434 @@
+/*-- scss:defaults --*/
+
+// Visual refresh, layered on top of theme-eu.scss.
+// To go back, remove "theme-eu-refresh.scss" from the theme list in _quarto.yml.
+// Same palette and typeface as the EU register; what changes is scale, spacing,
+// fewer box styles, and the homepage hero.
+
+$rf-blue:      #004494;   // structure: navbar, hero, links, info panels
+$rf-deep:      #002B5C;   // footer band
+$rf-yellow:    #FFD617;   // supported firms, key statements, primary action on blue
+$rf-ink:       #1A1A1A;
+$rf-ink-soft:  #4A4F57;   // secondary text, 8.2:1 on white
+$rf-pale:      #E7EEF7;   // routing band
+$rf-rule:      #D5DCE6;
+
+/*-- scss:rules --*/
+
+/* ---------------------------------------------------------------
+   Reading comfort
+   Prose at 17px, lines capped near 80 characters. Cards, figures,
+   tables and panels keep the full column width.
+   --------------------------------------------------------------- */
+#quarto-document-content { font-size: 1.0625rem; }
+#quarto-document-content p,
+#quarto-document-content li { line-height: 1.62; }
+#quarto-document-content table { font-size: 1rem; }   // tables stay at 16px so they fit on phones
+
+/* only plain text sections; components that render as sections keep their own widths */
+#quarto-document-content > :is(p, ul, ol, blockquote),
+#quarto-document-content section:is([class="level2"], [class="level3"], [class="level4"]) > :is(p, ul, ol, blockquote, h2, h3, h4) {
+  max-width: 40rem;
+}
+
+h1.title {
+  text-wrap: balance;
+  font-size: 2.5rem;
+  line-height: 1.12;
+  letter-spacing: -0.02em;
+  max-width: 22em;
+}
+#title-block-header { margin-bottom: 1.5rem; }
+
+#quarto-document-content h2 {
+  text-wrap: balance;
+  font-size: 1.75rem;
+  line-height: 1.2;
+  letter-spacing: -0.015em;
+  margin-top: 3.75rem;
+  margin-bottom: 1rem;
+}
+#quarto-document-content h3 {
+  text-wrap: balance;
+  font-size: 1.3rem;
+  line-height: 1.3;
+  margin-top: 2.5rem;
+  margin-bottom: .75rem;
+}
+
+/* links: thinner, lower underline; thicker on hover */
+#quarto-document-content a {
+  text-decoration-thickness: 1px;
+  text-underline-offset: .18em;
+}
+#quarto-document-content a:hover { text-decoration-thickness: 2px; }
+
+::selection { background: rgba(255, 214, 23, .45); }
+
+/* keyboard focus: yellow highlight with an ink underline on white,
+   a yellow ring on the blue bars */
+#quarto-document-content a:focus-visible {
+  outline: none;
+  background: $rf-yellow;
+  color: $rf-ink;
+  text-decoration: none;
+  box-shadow: 0 -2px $rf-yellow, 0 3px $rf-ink;
+}
+:focus-visible { outline: 3px solid $rf-blue; outline-offset: 2px; }
+.navbar :focus-visible,
+.hero :focus-visible,
+.nav-footer :focus-visible { outline: 3px solid $rf-yellow; outline-offset: 2px; }
+.hero a:focus-visible { background: transparent; box-shadow: none; }
+
+/* ---------------------------------------------------------------
+   Summary: from small grey box to the page's standfirst
+   --------------------------------------------------------------- */
+.team-note {
+  background: transparent;
+  border-left: 3px solid $rf-blue;
+  border-radius: 0;
+  padding: .1rem 0 .1rem 1.25rem;
+  margin: 0 0 2.75rem;
+  max-width: 40rem;
+  color: $rf-ink;
+  font-size: 1.15rem;
+  line-height: 1.55;
+}
+.team-note > h4 {
+  font-size: 1rem;
+  line-height: 1.3;
+  color: $rf-blue;
+  margin: 0 0 .4rem;
+  letter-spacing: 0;
+}
+#quarto-document-content .team-note p { line-height: 1.55; margin-bottom: .6rem; }
+#quarto-document-content .team-note p:last-child { margin-bottom: 0; }
+
+/* ---------------------------------------------------------------
+   Cards: white, one border, no orphans
+   --------------------------------------------------------------- */
+.cards { gap: 1rem; margin: 1.75rem 0 2rem; }
+.card-e,
+.flow > div,
+.chain > div,
+.chain > .step {
+  background: #FFFFFF;
+  border-color: $rf-rule;
+}
+.card-e { padding: 1.15rem 1.25rem 1.25rem; }
+.card-e h4 { font-size: 1.02rem; line-height: 1.32; margin-bottom: .45rem; }
+.card-e p { color: $rf-ink-soft; }
+
+/* four cards sit 2 x 2 instead of 3 + 1 */
+.cards:has(> .card-e:nth-child(4):last-child) {
+  grid-template-columns: repeat(2, minmax(0, 1fr));
+}
+@media (max-width: 575.98px) {
+  .cards:has(> .card-e:nth-child(4):last-child) { grid-template-columns: 1fr; }
+}
+
+/* a card whose title is a link is clickable as a whole
+   (position is set on every card so the link overlay never escapes its card) */
+.card-e { position: relative; }
+.card-e:has(> h4 > a:not(.anchorjs-link)) { transition: border-color .15s ease; }
+.card-e > h4 > a:not(.anchorjs-link) { color: $rf-blue; text-decoration: none; }
+.card-e > h4 > a:not(.anchorjs-link)::after { content: ""; position: absolute; inset: 0; }
+.card-e:has(> h4 > a:not(.anchorjs-link)):hover { border-color: $rf-blue; }
+.card-e:has(> h4 > a:not(.anchorjs-link)):hover > h4 > a { text-decoration: underline; }
+.card-e :is(p, li) a { position: relative; z-index: 1; }   // other links in a card stay clickable
+.card-e:has(> h4 > a:not(.anchorjs-link)):focus-within { outline: 3px solid $rf-blue; outline-offset: 2px; }
+.card-e > h4 > a:not(.anchorjs-link):focus-visible { background: transparent; box-shadow: none; }
+
+/* ---------------------------------------------------------------
+   Seven steps as a path: one row per step, linked by a line.
+   Used by the step overview on "How to design an RCT" ({.cards .steps}).
+   --------------------------------------------------------------- */
+.cards.steps {
+  display: block;
+  border-left: 2px solid $rf-rule;
+  margin: 1.75rem 0 2.25rem .45rem;
+}
+.cards.steps > .card-e {
+  display: grid;
+  grid-template-columns: minmax(0, 16.5rem) minmax(0, 1fr);
+  gap: .3rem 1.5rem;
+  align-items: baseline;
+  border: 0;
+  border-radius: 0;
+  background: transparent;
+  padding: .95rem 1rem 1rem 1.6rem;
+  position: relative;
+}
+.cards.steps > .card-e::before {
+  content: "";
+  position: absolute;
+  left: -8px;
+  top: 1.3rem;
+  width: 14px;
+  height: 14px;
+  border-radius: 50%;
+  background: #FFFFFF;
+  border: 2px solid $rf-blue;
+}
+.cards.steps > .card-e > h4 { margin: 0; }
+.cards.steps > .card-e > p { margin: 0; }
+.cards.steps > .card-e:hover { background: $rf-pale; }
+.cards.steps > .card-e:hover::before { background: $rf-yellow; border-color: $rf-blue; }
+@media (max-width: 767.98px) {
+  .cards.steps > .card-e { grid-template-columns: 1fr; }
+}
+
+/* ---------------------------------------------------------------
+   Key statements: large type and a yellow rule, not a blue block.
+   Leaves the hero as the only big blue moment on the homepage.
+   --------------------------------------------------------------- */
+.gold-panel {
+  background: transparent;
+  color: $rf-ink;
+  border-left: 4px solid $rf-yellow;
+  border-radius: 0;
+  padding: .1rem 0 .1rem 1.4rem;
+  margin: 2.25rem 0;
+  max-width: 40rem;
+  font-size: 1.3rem;
+  line-height: 1.45;
+  font-weight: 400;
+}
+#quarto-document-content .gold-panel p { line-height: 1.45; }
+.gold-panel strong { color: inherit; }
+
+section.statement {
+  border-left: 4px solid $rf-yellow;
+  padding-left: 1.4rem;
+  margin: 3.5rem 0;
+  max-width: 40rem;
+}
+#quarto-document-content section.statement > h3 {
+  font-size: 1rem;
+  line-height: 1.4;
+  color: $rf-blue;
+  margin: 0 0 .6rem;
+}
+section.statement ul { list-style: none; padding: 0; margin: 1.1rem 0 1.25rem; }
+#quarto-document-content section.statement li {
+  font-size: 1.6rem;
+  font-weight: 700;
+  line-height: 1.25;
+  letter-spacing: -0.015em;
+  color: $rf-ink;
+  margin: 0 0 .8rem;
+}
+#quarto-document-content section.statement li p { line-height: 1.25; margin: 0; }
+
+/* ---------------------------------------------------------------
+   Full-bleed band, used for "How to start" on the homepage.
+   The shadow paints the band to both screen edges without
+   changing the page grid; clip-path keeps it to the section height.
+   --------------------------------------------------------------- */
+section.band {
+  background: $rf-pale;
+  box-shadow: 0 0 0 100vmax $rf-pale;
+  clip-path: inset(0 -100vmax);
+  padding: 2.75rem 0 3.25rem;
+  margin-top: 4.5rem;
+}
+#quarto-document-content section.band > h2 { margin-top: 0; }
+hr:has(+ section.band) { display: none; }
+section.band .card-e { border-color: transparent; }
+section.band .card-e:has(> h4 > a:not(.anchorjs-link)):hover { border-color: $rf-blue; }
+
+/* ---------------------------------------------------------------
+   Footer: deep blue band
+   --------------------------------------------------------------- */
+footer.footer { background: $rf-deep; margin-top: 0; }
+footer.footer .nav-footer {
+  background-color: $rf-deep;   // Quarto paints the footer white by default
+  border-top: 0;
+  color: rgba(255, 255, 255, .84);
+  font-size: .9rem;
+  padding: 1.6rem 1.75rem;     // lines up with the navbar logo
+}
+footer.footer .nav-footer p { margin: 0; font-size: .9rem; }
+footer.footer .nav-footer a { color: #FFFFFF; }
+
+/* ---------------------------------------------------------------
+   Smaller fixes
+   --------------------------------------------------------------- */
+/* a rule right before the previous/next buttons doubles their own top border */
+hr:has(+ .nav-buttons) { display: none; }
+
+/* Step tracker as a progress strip on the seven step pages:
+   steps done in blue, the current step in yellow, steps ahead in grey */
+.tracker {
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: minmax(0, 1fr);
+  gap: 4px;
+  max-width: 40rem;
+  margin: 1rem 0 2rem;
+  font-size: .78rem;
+  letter-spacing: 0;
+  text-transform: none;
+}
+.tracker span {
+  padding: .45rem 0 0;
+  border-top: 4px solid $rf-rule;
+  border-radius: 0;
+  color: $rf-ink-soft;
+  font-weight: 400;
+}
+.tracker span.sep { display: none; }
+.tracker span:has(~ .on) { border-top-color: $rf-blue; color: $rf-blue; }
+.tracker span.on {
+  border-top-color: $rf-yellow;
+  background: transparent;
+  color: $rf-ink;
+  font-weight: 700;
+}
+
+/* rules between questions and sections follow the text width */
+#quarto-document-content hr { max-width: 40rem; }
+
+/* Examples overview table: let country names wrap on phones, scroll if still too wide */
+.eval-overview { overflow-x: auto; }
+@media (max-width: 575.98px) {
+  .eval-overview td { padding: .55rem .7rem; }
+  .eval-overview td:first-child { white-space: normal; }
+}
+
+.myth-box summary:hover { color: $rf-blue; }
+
+/* ---------------------------------------------------------------
+   Homepage hero with the random-draw demo
+   --------------------------------------------------------------- */
+/* index.qmd sets body-classes: has-hero. With title-block-style: none Quarto still
+   writes a title header; the hero carries the h1, so hide it and drop the top gap. */
+.has-hero #title-block-header { display: none; }
+.has-hero #quarto-document-content { margin-top: 0; padding-top: 0; }
+
+#quarto-document-content .hero {
+  display: block;              // Quarto makes it a page grid; the inner box does the layout
+  background: $rf-blue;
+  color: #FFFFFF;
+  margin-bottom: 3rem;
+  padding: 3.25rem 0 3.5rem;
+}
+#quarto-document-content .hero-inner {
+  max-width: 1180px;
+  margin: 0 auto;
+  padding: 0 1.5rem;
+  display: grid;
+  grid-template-columns: minmax(0, 1.1fr) minmax(0, 1fr);
+  gap: 3.5rem;
+  align-items: center;
+}
+#quarto-document-content .hero h1 {
+  text-wrap: balance;
+  color: #FFFFFF;
+  font-size: 2.85rem;
+  line-height: 1.08;
+  letter-spacing: -0.025em;
+  margin: 0 0 1.25rem;
+  max-width: 14em;
+}
+.hero h1 .anchorjs-link { display: none; }
+#quarto-document-content .hero p {
+  color: rgba(255, 255, 255, .9);
+  font-size: 1.2rem;
+  line-height: 1.5;
+  max-width: 30em;
+  margin-bottom: 1.75rem;
+}
+#quarto-document-content .hero-actions p {
+  display: flex;
+  flex-wrap: wrap;
+  gap: .75rem;
+  margin: 0;
+}
+#quarto-document-content a.hero-btn {
+  display: inline-flex;
+  align-items: center;
+  min-height: 48px;
+  padding: .65rem 1.25rem;
+  border: 2px solid #FFFFFF;
+  border-radius: 2px;
+  color: #FFFFFF;
+  font-size: 1rem;
+  font-weight: 700;
+  text-decoration: none;
+  transition: background-color .15s ease, border-color .15s ease;
+}
+#quarto-document-content a.hero-btn:hover { background: rgba(255, 255, 255, .12); }
+#quarto-document-content a.hero-btn.primary {
+  background: $rf-yellow;
+  border-color: $rf-yellow;
+  color: $rf-ink;
+}
+#quarto-document-content a.hero-btn.primary:hover { background: #FFE24D; border-color: #FFE24D; }
+
+.hero-draw { margin: 0; }
+.hero-draw svg,
+.hero-draw img { display: block; width: 100%; height: auto; overflow: visible; }
+.hero-draw svg text {
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 13px;
+  font-weight: 700;
+  fill: #FFFFFF;
+}
+.hero-draw svg text.t { fill: $rf-yellow; }
+.hero-draw svg .path { fill: none; stroke: rgba(255, 255, 255, .55); stroke-width: 1.5; }
+.hero-draw svg .ghost { fill: none; stroke: rgba(255, 255, 255, .22); stroke-width: 1; }
+.hero-draw svg .firm {
+  fill: rgba(255, 255, 255, .88);
+  stroke: rgba(255, 255, 255, .88);
+  stroke-width: 2;
+  transition: transform .75s cubic-bezier(.2, .7, .2, 1), fill .35s ease, stroke .35s ease;
+}
+.hero-draw svg .firm.t { fill: $rf-yellow; stroke: $rf-yellow; }
+.hero-draw svg.no-anim .firm { transition: none; }
+.hero-draw svg .firm.c { fill: rgba(255, 255, 255, 0); stroke: #FFFFFF; }
+.hero-draw-caption {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: .85rem;
+  margin-top: 1rem;
+  max-width: 32rem;
+  color: rgba(255, 255, 255, .88);
+  font-size: .95rem;
+  line-height: 1.5;
+}
+.hero-draw .draw-again {
+  background: transparent;
+  color: #FFFFFF;
+  border: 1px solid rgba(255, 255, 255, .7);
+  border-radius: 2px;
+  padding: .45rem .85rem;
+  font: inherit;
+  font-size: .9rem;
+  font-weight: 700;
+  cursor: pointer;
+}
+.hero-draw .draw-again:hover { background: rgba(255, 255, 255, .12); }
+.hero-draw .draw-again[hidden] { display: none; }
+
+@media (max-width: 991.98px) {
+  #quarto-document-content .hero-inner { grid-template-columns: 1fr; gap: 2.25rem; }
+  .hero-draw { max-width: 34rem; }
+}
+@media (max-width: 575.98px) {
+  .team-note { font-size: 1.0625rem; padding-left: 1rem; }
+  #quarto-document-content h2 { font-size: 1.45rem; margin-top: 3rem; }
+  #quarto-document-content h3 { font-size: 1.2rem; }
+  #quarto-document-content .hero { padding: 2.25rem 0 2.5rem; }
+  #quarto-document-content .hero-inner { padding: 0 1rem; }
+  #quarto-document-content .hero h1 { font-size: 2.05rem; }
+  #quarto-document-content .hero p { font-size: 1.08rem; }
+  h1.title { font-size: 2rem; }
+  #quarto-document-content section.statement li { font-size: 1.3rem; }
+  .gold-panel { font-size: 1.15rem; }
+}
+@media (prefers-reduced-motion: reduce) {
+  .hero-draw svg .firm,
+  .card-e { transition: none; }
+}

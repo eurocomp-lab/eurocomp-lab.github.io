@@ -13,7 +13,7 @@ A well-designed RCT does not begin with randomisation - it begins with a clear u
 
 ## 7 steps for designing an RCT successfully
 
-::: {.cards}
+::: {.cards .steps}
 ::: {.card-e}
 
 #### [Step 1: develop a preliminary Theory of Change](02.01-toc.qmd)

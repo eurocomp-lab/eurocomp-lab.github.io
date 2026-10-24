@@ -64,7 +64,7 @@ website:
 
 format:
   html:
-    theme: [cosmo, theme-eu.scss]
+    theme: [cosmo, theme-eu.scss, theme-eu-refresh.scss]
     toc: true
     toc-title: "On this page"
     toc-depth: 3
