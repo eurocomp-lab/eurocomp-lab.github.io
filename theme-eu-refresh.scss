@@ -377,16 +377,17 @@ hr:has(+ .nav-buttons) { display: none; }
 }
 .hero-draw svg text.t { fill: $rf-yellow; }
 .hero-draw svg .path { fill: none; stroke: rgba(255, 255, 255, .55); stroke-width: 1.5; }
-.hero-draw svg .ghost { fill: none; stroke: rgba(255, 255, 255, .22); stroke-width: 1; }
+/* firms: dim while undrawn; yellow when drawn into the supported group, a white ring
+   for the comparison group. Movement is handled in random-draw.js. */
 .hero-draw svg .firm {
-  fill: rgba(255, 255, 255, .88);
-  stroke: rgba(255, 255, 255, .88);
+  fill: rgba(255, 255, 255, .28);
+  stroke: rgba(255, 255, 255, .28);
   stroke-width: 2;
-  transition: transform .75s cubic-bezier(.2, .7, .2, 1), fill .35s ease, stroke .35s ease;
+  transition: fill .25s ease, stroke .25s ease;
 }
 .hero-draw svg .firm.t { fill: $rf-yellow; stroke: $rf-yellow; }
-.hero-draw svg.no-anim .firm { transition: none; }
 .hero-draw svg .firm.c { fill: rgba(255, 255, 255, 0); stroke: #FFFFFF; }
+.hero-draw .draw-again[aria-disabled="true"] { opacity: .6; cursor: progress; }
 .hero-draw-caption {
   display: flex;
   flex-direction: column;
