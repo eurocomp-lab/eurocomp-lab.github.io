@@ -23,7 +23,7 @@ Before any data is collected and before any evaluation contract is signed, a Man
 
 For some European Union funding programmes (e.g. the European Regional Development Fund), participating Managing Authorities are already required to articulate an intervention logic - a structured account of how a policy instrument is expected to produce its intended results. A ToC builds on this familiar concept and makes it more explicit and evaluation-ready.
 
-Where an intervention logic maps the pathway from inputs to outputs to results, a ToC adds two important elements: it specifies the assumptions that must hold at each step for the logic to work, and it makes clear which links in the chain are strong and which are uncertain. This is precisely the information an randomised controlled trials (RCT) is designed to test.
+Where an intervention logic maps the pathway from inputs to outputs to results, a ToC adds two important elements: it specifies the assumptions that must hold at each step for the logic to work, and it makes clear which links in the chain are strong and which are uncertain. This is precisely the information a randomised controlled trial (RCT) is designed to test.
 
 If your programme already has a well-developed intervention logic in its programme document or partnership agreement, you have a strong starting point. The task of building a ToC is largely one of making that logic more precise - defining each step clearly enough that it can be measured.
 
@@ -172,5 +172,5 @@ In Romania, the World Bank supported the Managing Authority in developing a ToC 
 ***
 
 ::: {.nav-buttons}
-[← Back to - how to design an RCT](02-how.qmd) | [Next - Step 2: define learning questions →](02.02-eval_questions.qmd)
+[← Back to - How to design an RCT](02-how.qmd) | [Next - Step 2: define learning questions →](02.02-eval_questions.qmd)
 :::

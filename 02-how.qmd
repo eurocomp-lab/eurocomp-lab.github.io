@@ -12,12 +12,18 @@ A well-designed RCT does not begin with randomisation - it begins with a clear u
 
 ---
 
-## 7 steps for designing an RCT successfully
+## Seven steps for designing an RCT successfully
 
 ::: {.cards .steps}
+::: {.card-e .step-start}
+
+### [Before you start: assemble your internal evaluation team](#before-you-start-assemble-your-internal-evaluation-team) {.unlisted}
+
+Identify who inside the Managing Authority will take on each role before working through the seven steps.
+:::
 ::: {.card-e}
 
-### [Step 1: develop a preliminary Theory of Change](02.01-toc.qmd) {.unlisted}
+### [Step 1: develop a Theory of Change](02.01-toc.qmd) {.unlisted}
 
 Map the causal logic of your intervention - from inputs to long-term goals - and make the assumptions explicit.
 :::
@@ -40,6 +46,10 @@ Select the outcome indicators that will be used to measure change across each le
 ### [Step 4: check whether an RCT is feasible](02.03-assess.qmd) {.unlisted}
 
 Check whether the conditions for a valid RCT are in place - oversubscription, timing, legal basis, and political buy-in.
+
+::: {.sub-steps}
+Also in this step: [Power calculations](02.03a-power.qmd) · [Balance checks](02.03b-balance.qmd) · [Legal basis for random selection](02.03c-legal.qmd) · [Pre-registration](02.03d-pre_register.qmd)
+:::
 :::
 
 ::: {.card-e}
@@ -54,6 +64,10 @@ Decide whether to rely on primary data, administrative data, or a combination - 
 ### [Step 6: collect data](02.06-data_collect.qmd) {.unlisted}
 
 Design and implement the data collection - surveys, administrative data access, and quality controls.
+
+::: {.sub-steps}
+Also in this step: [Terms of reference](02.06a-tor.qmd) · [Informed consent](02.06b-consent.qmd)
+:::
 :::
 
 ::: {.card-e}
@@ -73,11 +87,25 @@ The Managing Authority brings knowledge that no outside expert can replicate - h
 
 Before working through the seven steps, identify who inside the Managing Authority will take on each of the following roles:
 
-- **An evaluation focal point** - the person who leads the process, coordinates across the other roles, and serves as the primary contact for the external evaluation team. Ideally someone with some familiarity with impact evaluation methods, or who has been through the EuroCOMP Lab training.
-- **A programme manager** - someone with detailed knowledge of the intervention: eligibility criteria, selection process, implementation timeline, and the population of applicants. This is the person who can answer the policy questions that drive the evaluation design - particularly what effect size would be meaningful and what the programme is realistically expected to achieve.
+::: {.cards .defs}
+::: {.card-e}
+**An evaluation focal point**
+
+The person who leads the process, coordinates across the other roles, and serves as the primary contact for the external evaluation team. Ideally someone with some familiarity with impact evaluation methods, or who has been through the EuroCOMP Lab training.
+:::
+::: {.card-e}
+**A programme manager**
+
+Someone with detailed knowledge of the intervention: eligibility criteria, selection process, implementation timeline, and the population of applicants. This is the person who can answer the policy questions that drive the evaluation design - particularly what effect size would be meaningful and what the programme is realistically expected to achieve.
+:::
+:::
 
 Where possible, it is also helpful to involve a legal or procurement officer early - to confirm that the national legal framework permits randomisation and to manage the procurement process - and a data protection officer, to ensure that data-sharing agreements and General Data Protection Regulation compliance are in place before fieldwork begins.
 
 The internal team does not need to be large - in smaller Managing Authorities, one or two people may cover several roles. What matters is that the responsibilities are clearly assigned and that the evaluation focal point has the authority to make decisions and the access to programme information they need.
 
 Where internal capacity or methodological expertise is limited, external experts can be hired to support - covering evaluation design, data collection, or both.
+
+::: {.nav-buttons}
+[← Back to - RCTs: why and when](01-why-and-when.qmd) | [Next - Step 1: develop a Theory of Change →](02.01-toc.qmd)
+:::

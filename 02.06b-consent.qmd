@@ -53,8 +53,18 @@ This survey is being conducted by the [...] Regional Development Agency and the 
 
 Describe each category of data that will be collected, clearly distinguishing between:
 
-- **Mandatory data** - required for programme administration and collected under a legal basis other than consent
-- **Optional data** - collected solely for research purposes and requiring explicit consent
+::: {.cards .defs}
+::: {.card-e}
+**Mandatory data**
+
+Required for programme administration and collected under a legal basis other than consent.
+:::
+::: {.card-e}
+**Optional data**
+
+Collected solely for research purposes and requiring explicit consent.
+:::
+:::
 
 For each optional category, explain what it is, why it is useful to the research, and what happens if the participant declines.
 

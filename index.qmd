@@ -80,7 +80,7 @@ non-participants constructing the comparison group after the programme had alrea
 evaluation too, and it can be credible. But because the comparison group is built after
 implementation, its credibility rests on assumptions that have to be separately defended.
 
-Now imagine doing this differently: designing the comparison group by randomly assigning eligible applicants to different groups, rather than picking it afterwards. That is what a RCT does.
+Now imagine doing this differently: designing the comparison group by randomly assigning eligible applicants to different groups, rather than picking it afterwards. That is what an RCT does.
 See [how the methods compare](01-why-and-when.qmd#alternatives) and [why RCTs are usually the stronger
 choice](01-why-and-when.qmd#rct).
 
@@ -262,7 +262,7 @@ other evaluation methods, when to use one, and when to plan it.
 :::
 ::: {.card-e}
 #### [How to design an RCT](02-how.qmd)
-This page explains how to plan a RCT, walking you through the process in seven steps: from thinking through the causal logic of your intervention, through choosing the right design for your experiment, to ensuring high-quality data is collected.
+This page explains how to plan an RCT, walking you through the process in seven steps: from thinking through the causal logic of your intervention, through choosing the right design for your experiment, to ensuring high-quality data is collected.
 :::
 ::: {.card-e}
 #### [Examples](03-examples.qmd)

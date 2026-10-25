@@ -10,7 +10,7 @@ description-meta: "Check the five conditions a randomised trial needs, choose fr
 ::: {.team-note}
 ## Summary {.unlisted}
 
-This page covers five feasibility conditions that must be in place before committing to an randomised controlled trial (RCT), five randomisation designs and when to use each, and the most common problems that arise after the lottery.
+This page covers five feasibility conditions that must be in place before committing to a randomised controlled trial (RCT), five randomisation designs and when to use each, and the most common problems that arise after the lottery.
 :::
 
 By this point you have mapped your programme's causal logic, defined what you want to find out, and chosen the indicators you will use to measure it. The question this step answers is whether you can actually run a randomised evaluation to get those answers - and if so, how to design it.
@@ -136,7 +136,7 @@ Standard outreach channels - newsletters, social media posts, agency websites - 
 Effective outreach requires direct, personalised engagement: in-person events, road trips to municipalities, collaboration with mayors and local business associations, and hands-on application support. Experimenting with different outreach approaches - and measuring which ones work - can significantly expand the eligible pool and improve the quality of applications.
 
 
-::: {.example .romania #digitrans}
+::: {.example .romania}
 [North-East Romania]{.tag}
 
 In North-East Romania, the World Bank randomised outreach activities across 46 cities, selecting 26 for road-trips where a consultant explained the call and helped firms complete the pre-assessment survey. Cities that received road-trips produced 110 applications compared to 71 in cities that did not - a 55% increase. Applications from road-trip cities also came from significantly smaller firms (12.6 employees on average, compared to 19.6 in comparison cities). Compared to previous calls, the total number of applicants tripled and the number of eligible firms more than doubled. This small experiment demonstrated both the effectiveness of in-person mobilisation and the value of embedding experimentation into programme implementation.
@@ -150,7 +150,7 @@ In North-East Romania, the World Bank randomised outreach activities across 46 c
 
 On one hand, eligibility criteria should not be too restrictive to target a large enough number of firms. On the other hand, eligibility criteria should remain specific enough to identify firms with the highest potential to benefit. Eligibility criteria should be linked to the programme's Theory of Change to avoid that wrong firms enter the pool.
 
-::: {.example .case #digitrans}
+::: {.example .case}
 [Romania]{.tag}
 
 In South-Muntenia (Romania), the World Bank found that eligibility criteria for an innovation support programme were quite restrictive, taking into account the firm landscape in this region. The World Bank worked with the Managing Authority to adjust the criteria to target a higher number of firms.
@@ -165,7 +165,7 @@ Programmes that are designed without a prior assessment of beneficiary needs fre
 
 A baseline needs assessment - conducted before the programme launches - allows the Managing Authority to understand the regional landscape, calibrate grant sizes and eligibility thresholds, and anticipate demand more accurately. Where uncertainty about demand remains, piloting different programme elements before full-scale rollout can reduce the risk of costly mismatches.
 
-::: {.example .case #digitrans}
+::: {.example .case}
 [Italy]{.tag}
 
 In Italy, a minibond programme pre-identified 289 eligible firms, of which only 30 applied - a hit rate of 10.3%. Of the 19 firms that ultimately issued a minibond, most had access to alternative financing and may not have needed the programme at all. A prior needs assessment could have revealed that the programme's terms were less attractive than alternative instruments already available in the region - including zero-interest loans and non-repayable grants from earlier programmes - and that the design needed to be adjusted accordingly before launch.
@@ -181,7 +181,7 @@ Complex, document-heavy application processes disproportionately burden firms th
 
 Application requirements should be proportionate to the amount of funding requested. Processes should be fully digital, integrated with existing administrative databases wherever possible, and capable of providing real-time eligibility feedback so that firms can assess their likelihood of success before investing significant time in an application.
 
-::: {.example .case #digitrans}
+::: {.example .case}
 [North-East Romania]{.tag}
 
 In Romania, the pre-assessment survey was designed to do three jobs simultaneously: collect baseline data for the evaluation, assess firm eligibility in real time, and provide firms with enough information to decide whether to proceed - all within approximately 40 minutes. Survey responses were automatically cross-referenced with official firm data, enabling instant verification of core eligibility criteria. Firms that did not meet the requirements were informed immediately, saving them from investing further time in a formal application that would have been rejected. Eligible firms received individualised benchmark reports comparing their digitalisation levels to similar firms in their region, providing added value to participants regardless of their eventual selection outcome.
@@ -197,7 +197,7 @@ The application process is typically treated as a one-way flow of information: f
 
 Firms that receive useful information during the application process are more engaged, better prepared to make investment decisions if selected, and more likely to view the experience positively even if they are not funded.
 
-::: {.example .case #digitrans}
+::: {.example .case}
 [Croatia]{.tag}
 
 In the Scinergy pilot in Croatia, the World Bank supported an extensive outreach and information campaign that included a dedicated project website, a LinkedIn campaign with paid promotions, appearances in television and online media, presentations at industry events and scientific institutions, and webinars targeting thousands of firms. The campaign was structured around a business-science matchmaking concept, providing firms with substantive information about how to collaborate with research institutions - not just how to apply for a grant. The initiative attracted widespread media coverage and generated strong interest in applications well before the call officially opened.

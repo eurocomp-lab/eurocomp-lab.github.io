@@ -767,3 +767,62 @@ hr:has(+ .nav-buttons) { display: none; }
   letter-spacing: -.01em;
   color: $rf-blue;
 }
+
+/* ---------------------------------------------------------------
+   Batch 13 (October 2026): How to design an RCT overview. Numbered
+   steps that open on a click anywhere in the row, the team to
+   assemble as the first stop, the detail pages under Steps 4 and 6,
+   and labelled cards instead of bullets that left a stray dash.
+   --------------------------------------------------------------- */
+#quarto-document-content .cards.steps { counter-reset: step; margin-left: 1rem; }
+#quarto-document-content .cards.steps > .card-e { padding-left: 2rem; }
+#quarto-document-content .cards.steps > .card-e:not(.step-start) { counter-increment: step; }
+/* numbered markers on the line instead of empty circles */
+#quarto-document-content .cards.steps > .card-e::before {
+  content: counter(step);
+  left: -.86rem;
+  top: .85rem;
+  width: 1.6rem;
+  height: 1.6rem;
+  display: grid;
+  place-items: center;
+  font-size: .8rem;
+  font-weight: 700;
+  line-height: 1;
+  color: #FFFFFF;
+  background: $rf-blue;
+  border: 0;
+}
+#quarto-document-content .cards.steps > .card-e:not(.step-start):hover::before,
+#quarto-document-content .cards.steps > .card-e:not(.step-start):focus-within::before { background: $rf-yellow; color: $rf-blue; }
+/* the first stop: the team to assemble before Step 1 */
+#quarto-document-content .cards.steps > .card-e.step-start::before {
+  content: "";
+  left: -.6rem;
+  top: 1.15rem;
+  width: 1.1rem;
+  height: 1.1rem;
+  background: $rf-yellow;
+  border: 2px solid $rf-blue;
+}
+/* the whole row opens the step; keyboard focus shows like hover */
+#quarto-document-content .cards.steps > .card-e > h3 > a:not(.anchorjs-link)::after { content: ""; position: absolute; inset: 0; }
+#quarto-document-content .cards.steps .anchorjs-link { display: none; }   /* a heading anchor would sit over the row's link */
+#quarto-document-content .cards.steps > .card-e:focus-within { background: $rf-pale; }
+/* detail pages under a step, above the row's link */
+#quarto-document-content .cards.steps > .card-e > .sub-steps {
+  grid-column: 2;
+  position: relative;
+  z-index: 1;
+  margin-top: .35rem;
+  font-size: .85rem;
+  line-height: 1.5;
+  color: $rf-ink-soft;
+}
+@media (max-width: 767.98px) {
+  #quarto-document-content .cards.steps > .card-e > .sub-steps { grid-column: 1; }
+}
+/* cards that each open with a bold label: the two core roles (How to design an RCT)
+   and the two kinds of data (informed consent) */
+#quarto-document-content .cards.defs { margin: 1.25rem 0 1.5rem; }
+#quarto-document-content .cards.defs .card-e > p:first-child { margin-bottom: .45rem; color: $rf-blue; }
