@@ -86,6 +86,7 @@ average), financing 35% to 80% of a firm's proposed R&D investment.
 "What is the impact of R&D grants on SMEs' business performance?"
 :::
 
+### The programme
 
 ```{=html}
 <div class="facts">
@@ -384,7 +385,7 @@ group.
   <text x="446" y="130" fill="#2B2724" font-size="12.5" font-weight="bold">56 no support (~1/3)</text>
   <text x="446" y="147" fill="#6B6455" font-size="11">comparison group</text>
 </svg>
-<figcaption>Note: Randomisation was stratified by firm size and region (Ústecký or Karlovarský); comparison firms were offered priority in a future programme once data collection is complete.</figcaption>
+<figcaption>Note: Randomisation was stratified by firm size and region (Ústí or Karlovy Vary); comparison firms were offered priority in a future programme once data collection was complete.</figcaption>
 </figure>
 ```
 
@@ -473,7 +474,7 @@ support to help pairs plan R&D projects together.
 ```{=html}
 <div class="facts">
   <div><div class="k">The programme</div><div class="v">Scinergy: matchmaking events, workshops, and ongoing support for firm-scientist pairs</div></div>
-  <div><div class="k">Where</div><div class="v">Croatia; Innovation Centre Nikola Tesla with the Ministry of Science, Education, and Youth</div></div>
+  <div><div class="k">Where</div><div class="v">Croatia; Innovation Centre Nikola Tesla with the Ministry of Science, Education and Youth</div></div>
   <div><div class="k">Who is randomised</div><div class="v">210 eligible firms, from over 250 applications, seeking scientific collaboration</div></div>
   <div><div class="k">The design</div><div class="v">Simple lottery: 100 firms invited to Scinergy vs. 110 not invited</div></div>
   <div><div class="k">Outcomes tracked</div><div class="v">Collaboration attempts and partnerships, innovation, R&D employment</div></div>
@@ -519,8 +520,9 @@ were randomly assigned by lottery to receive matchmaking support or not.
   <path d="M296 99 H326" stroke="#B9AF95" stroke-width="1.5"/>
 
   <rect x="326" y="66" width="130" height="66" rx="6" fill="#F2C94C"/>
-  <text x="391" y="92" text-anchor="middle" fill="#2B2724" font-size="12.5" font-weight="bold">LOTTERY</text>
-  <text x="391" y="110" text-anchor="middle" fill="#2B2724" font-size="10.5">every firm, the same chance</text>
+  <text x="391" y="89" text-anchor="middle" fill="#2B2724" font-size="12.5" font-weight="bold">LOTTERY</text>
+  <text x="391" y="105" text-anchor="middle" fill="#2B2724" font-size="10.5">every firm,</text>
+  <text x="391" y="118" text-anchor="middle" fill="#2B2724" font-size="10.5">the same chance</text>
 
   <path d="M456 99 H486 V34 H516" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
   <path d="M456 99 H486 V164 H516" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
@@ -594,8 +596,8 @@ Romanian SMEs lag behind the EU average in digital performance. Key barriers to 
 transformation include a lack of financing, awareness, and capacity to capitalise on
 digital investments.
 
-Among the 1,038 eligible firms in North-East Romania, the average firm met 4.3 of 12
-digital indicators, and 67% named lack of finance as their main obstacle.
+Among the 1,038 likely eligible firms in North-East Romania, firms met 4.3 of 12
+digital indicators on average, and 67% named lack of finance as their main obstacle.
 :::
 ::: {.card-e}
 **What was done**
@@ -622,7 +624,7 @@ generate learning.
 ```{=html}
 <div class="facts">
   <div><div class="k">The programme</div><div class="v">Non-refundable grants of EUR 15,000&ndash;100,000 for digital tools, equipment and services, covering 90% of eligible costs</div></div>
-  <div><div class="k">Where</div><div class="v">North-East Romania; North-East Regional Development Agency (RDA), funded by EU Cohesion Policy</div></div>
+  <div><div class="k">Where</div><div class="v">North-East Romania; North-East Regional Development Agency (RDA), co-funded by EU Cohesion Policy</div></div>
   <div><div class="k">Who is randomised</div><div class="v">1,038 likely eligible SMEs, identified by a pre-assessment survey from over 1,500 applicants</div></div>
   <div><div class="k">The design</div><div class="v">Lottery among pre-identified applicants, with encouragement to apply: 519 selected and invited to apply vs. 519 not selected</div></div>
   <div><div class="k">Outcomes tracked</div><div class="v">Digital investments, use of digital tools, firm performance</div></div>
@@ -638,7 +640,7 @@ generate learning.
   <span class="flow-arrow" aria-hidden="true">&rarr;</span>
   <div>Lottery before a notary<span class="flow-date">Oct 2023</span></div>
   <span class="flow-arrow" aria-hidden="true">&rarr;</span>
-  <div>Full proposals<span class="flow-date">By end of winter 2024</span></div>
+  <div>Full proposals<span class="flow-date">Mostly by end of winter 2024</span></div>
   <span class="flow-arrow" aria-hidden="true">&rarr;</span>
   <div>Contracts signed<span class="flow-date">Mar 2024&ndash;Mar 2025</span></div>
   <span class="flow-arrow" aria-hidden="true">&rarr;</span>
@@ -692,9 +694,10 @@ Limitation: firms may drop out after they apply, which affects statistical power
 
 ### What the programme achieved
 
-The short-term results compare all 519 selected firms with the comparison group,
-whether or not they went on to sign a contract, only a few months after contracts were
-signed. They are therefore conservative estimates.
+The short-term results compare the firms selected in the lottery with the comparison
+group, whether or not they went on to sign a contract, only a few months after
+contracts were signed. They are therefore conservative estimates, based on firms'
+self-reported survey data.
 
 ::: {.cards .results}
 ::: {.card-e}
@@ -707,7 +710,7 @@ Selected firms invested about twice as much in digital tools as the comparison g
 ::: {.card-e}
 [+291%]{.num}
 
-**Digital tools for business administration**
+**Spending on digital tools for business administration**
 
 Software spending rose by 167% and production-related digital investment by 352%.
 :::
@@ -716,13 +719,13 @@ Software spending rose by 167% and production-related digital investment by 352%
 
 **Firms using ERP software**
 
-From 26% in the comparison group. The share using CRM software rose by 3.1 percentage
-points, from 11.7%.
+Against 26% in the comparison group. The share using CRM software was 3.1 percentage
+points higher than the comparison group's 11.7%.
 :::
 :::
 
 ::: {.caution}
-No significant short-term effect on profits or sales was observed yet. Selected firms
+No significant short-term effect on profits or sales has been observed yet. Selected firms
 showed slightly higher sales and labour productivity, but the differences were not
 statistically significant, likely because implementation was at an early stage.
 Tailored support and continued monitoring will be essential to ensure inclusive and
@@ -731,7 +734,7 @@ sustained digital transformation.
 
 ::: {.takeaway}
 The programme also tested outreach. Before the call, the agency randomly selected 26 of
-46 towns for in-person information visits. The visited towns produced 55% more
+46 towns for in-person information visits. The visited towns produced more
 applications, and the additional applicants were smaller firms
 ([see What do you want to learn?](01-why-and-when.qmd#two-questions)).
 :::
@@ -1026,8 +1029,9 @@ that groups were balanced from the outset.
   <path d="M160 125 H196" stroke="#B9AF95" stroke-width="1.5"/>
 
   <rect x="196" y="90" width="180" height="70" rx="6" fill="#F2C94C"/>
-  <text x="286" y="118" text-anchor="middle" fill="#2B2724" font-size="12.5" font-weight="bold">STRATIFIED LOTTERY</text>
-  <text x="286" y="136" text-anchor="middle" fill="#2B2724" font-size="10.5">by country, size and digital sophistication</text>
+  <text x="286" y="113" text-anchor="middle" fill="#2B2724" font-size="12.5" font-weight="bold">STRATIFIED LOTTERY</text>
+  <text x="286" y="130" text-anchor="middle" fill="#2B2724" font-size="10.5">by country, size and</text>
+  <text x="286" y="143" text-anchor="middle" fill="#2B2724" font-size="10.5">digital sophistication</text>
 
   <path d="M376 125 H406" stroke="#B9AF95" stroke-width="1.5"/>
   <path d="M406 125 V28 H436" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
@@ -1072,7 +1076,7 @@ attributed to the support received rather than to pre-existing differences.
 ::: {.card-e}
 [×2.5]{.num}
 
-**Digital tool usage is 2.5x higher with combined support**
+**Digital tool usage is 2.5 times higher with combined support**
 
 Firms that received both types of support increased their digital tool usage intensity
 more than twice as much as those with a subsidy alone.
@@ -1140,7 +1144,7 @@ against an EU average of 13.5%.
 
 The Bulgarian Small and Medium Enterprises Promotion Agency (BSMEPA) is launching a
 programme that pairs group training in managerial skills with one of three ways of
-delivering further support: one-on-one human-led consulting, a subscription to an
+delivering further support: one-to-one human-led consulting, a subscription to an
 off-the-shelf AI platform such as ChatGPT Premium, or a customised AI tool that
 proactively nudges managers towards it. The aim is to find out whether AI-led
 alternatives can match costly human consulting at a fraction of the price.
@@ -1210,7 +1214,7 @@ arms.
 
   <rect x="214" y="70" width="516" height="40" rx="5" fill="#F2C94C"/>
   <text x="228" y="95" fill="#2B2724" font-size="12" font-weight="bold">150 training + human-led consulting</text>
-  <text x="560" y="95" fill="#2B2724" font-size="10.5">one-on-one, in person</text>
+  <text x="560" y="95" fill="#2B2724" font-size="10.5">one-to-one, in person</text>
 
   <rect x="214" y="150" width="516" height="40" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
   <text x="228" y="175" fill="#2B2724" font-size="12" font-weight="bold">150 training + AI subscription</text>
@@ -1239,8 +1243,8 @@ of around 26% or more, so more modest effects could go undetected.
 ::: {.card-e}
 **Human-led vs AI-led**
 
-Whether a customised, proactively-nudging AI tool can approach the effectiveness of
-costly one-on-one human consulting, at a lower marginal cost.
+Whether a customised, proactively nudging AI tool can approach the effectiveness of
+costly one-to-one human consulting, at a lower marginal cost.
 :::
 ::: {.card-e}
 **Off-the-shelf vs custom AI**
@@ -1250,7 +1254,7 @@ enough, or whether a tailored, proactive AI platform is needed to change busines
 practices.
 :::
 ::: {.card-e}
-**How durable are the gains**
+**How durable are the gains?**
 
 Whether improvements from AI-enabled consulting persist for longer than from
 human-led consulting, since managers keep the ability to self-serve after the
@@ -1283,7 +1287,7 @@ participant to support tracking through autumn 2027.
 Polish SMEs underperform in Horizon Europe, the EU's flagship innovation funding
 programme: a 16.5% success rate, against an EU-27 average of 20.3%. Funding is also
 highly concentrated - just 11 SMEs account for roughly a third of all Polish
-projects. A previous support scheme, "Grants for Eurogrants," converted only 400 of
+projects. A previous support scheme, "Grants for Eurogrants", converted only 400 of
 about 1,700 applications into signed contracts, and just 19 firms ultimately secured
 EU funding. Only 20.1% of firms report knowing PARP, the agency responsible for this
 support.
@@ -1343,13 +1347,13 @@ fact-based announcement to versions adding behavioural nudges and information ab
 the new AI-powered support. Second, from a pool of about 11,000 Horizon-eligible
 firms, one half is ranked by a machine-learning model trained on past Horizon
 winners; the top 500 ranked firms and 500 randomly selected firms then both receive
-an encouragement call. Third, among the roughly 400-500 firms that register interest
+an encouragement call. Third, among the roughly 400–500 firms that register interest
 in extra support, 200 are randomly selected for immediate access to an AI advisory
 tool and a technology scout, while the remainder are waitlisted.
 
 ```{=html}
 <figure class="fig-e">
-<svg viewBox="0 0 760 240" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Three nested experiments: around 120,000 SMEs are randomly shown one of three outreach messages; around 11,000 eligible firms are split into a ranked half and a not-ranked half, with 500 firms from each called to encourage applications; and around 200 of the interested firms are randomly given AI tool and technology scout support, with the rest waitlisted">
+<svg viewBox="0 0 760 145" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Three nested experiments: around 120,000 SMEs are randomly shown one of three outreach messages; around 11,000 eligible firms are split into a ranked half and a not-ranked half, with 500 firms from each called to encourage applications; and around 200 of the interested firms are randomly given AI tool and technology scout support, with the rest waitlisted">
   <rect x="10" y="10" width="230" height="80" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
   <text x="125" y="34" text-anchor="middle" fill="#2B2724" font-size="12" font-weight="bold">Stage 1: Outreach</text>
   <text x="125" y="54" text-anchor="middle" fill="#6B6455" font-size="10">~120,000 SMEs</text>
@@ -1397,7 +1401,7 @@ messaging.
 ::: {.card-e}
 **Can an algorithm find promising firms?**
 
-Whether a machine-learning "Horizon potential score," trained on past winners,
+Whether a machine-learning "Horizon potential score", trained on past winners,
 identifies firms more likely to submit competitive applications than outreach
 targeted at random.
 :::
@@ -1436,8 +1440,8 @@ At Romania's Regional Development Agencies, grant application reviews are slow a
 inconsistent. The 2023 Microenterprise call at the North-East RDA took roughly seven
 months from submission to contract, generated 50 technical-financial appeals and 19
 contracting appeals, and disadvantaged smaller firms: enterprises under two years
-old, with no employees or turnover below 250,000 RON, succeeded only 14% of the
-time, against over 90% for firms with turnover of 1.5-2 million RON. Many applicants
+old, with no employees or turnover below RON 250,000, succeeded only 14% of the
+time, against over 90% for firms with turnover of RON 1.5–2 million. Many applicants
 turn to a large consultancy industry - an estimated EUR 527 million in annual turnover
 across 1,500 firms - just to navigate the process.
 :::
@@ -1465,7 +1469,7 @@ and better targeted, without compromising fairness?"
 ```{=html}
 <div class="facts">
   <div><div class="k">The programme</div><div class="v">An AI decision-support tool, co-developed with UiPath, that benchmarks budgets, flags risks and supports eligibility and quality scoring for grant reviewers</div></div>
-  <div><div class="k">Where</div><div class="v">North-East Romania; Regional Development Agency (RDA), embedded in the 2026 Microenterprise Growth Grant Call (&asymp;EUR 30 million)</div></div>
+  <div><div class="k">Where</div><div class="v">North-East Romania; Regional Development Agency (RDA), embedded in the 2026 Microenterprise Growth Grant Call (~EUR 30 million)</div></div>
   <div><div class="k">Who is randomised</div><div class="v">~1,000 expressions of interest and ~800 full proposals, reviewed by 30&ndash;40 trained reviewers; ~150 funded projects</div></div>
   <div><div class="k">The design</div><div class="v">Multi-phase RCT: reviewers randomised to AI-assisted or human-only review at each stage; ~150 grants allocated by lottery within score bands; funded projects randomised to AI-assisted or standard monitoring</div></div>
   <div><div class="k">Outcomes tracked</div><div class="v">Review time and scores, clarification requests and appeals, on-time disbursement, and funded-firm survival, employment, revenue and investment</div></div>
@@ -1491,7 +1495,7 @@ and better targeted, without compromising fairness?"
 
 ### How the programme is designed
 
-Around 1,000 expressions of interest are expected, each assigned to one of 30-40
+Around 1,000 expressions of interest are expected, each assigned to one of 30–40
 trained reviewers who are randomly given, or not given, access to the AI tool;
 reviewers cycle between AI-assisted and unassisted batches so the comparison is not
 confounded by reviewer ability. Roughly 800 full proposals then go through the same
@@ -1604,7 +1608,7 @@ research institutes but only EUR 74 million to private firms, and the region hos
 The South-Muntenia Regional Development Agency (SM-RDA) is allocating EUR 24.8 million
 in innovation subsidies to SMEs, cross-randomised with a management-training
 programme on change and innovation culture. Grants are assigned through a two-stage
-design: geographic or sector clusters are randomly assigned different shares of
+design: geographic or sectoral clusters are randomly assigned different shares of
 funded firms, and firms within each cluster are then randomly selected to receive
 funding - allowing the evaluation to separate a firm's own private return from
 spillovers onto its neighbours.
@@ -1624,7 +1628,7 @@ returns, once spillovers to other firms are taken into account?"
 <div class="facts">
   <div><div class="k">The programme</div><div class="v">Innovation subsidy grants (50&ndash;70% co-financed by firms) for R&amp;D projects, cross-randomised with a management-training programme on change and innovation culture</div></div>
   <div><div class="k">Where</div><div class="v">South-Muntenia, Romania; South-Muntenia Regional Development Agency (SM-RDA), EUR 24.8 million SME innovation grant allocation</div></div>
-  <div><div class="k">Who is randomised</div><div class="v">&asymp;900 SMEs across 100 geographic or sectoral clusters (&asymp;9 firms per cluster), excluding agricultural firms</div></div>
+  <div><div class="k">Who is randomised</div><div class="v">~900 SMEs across 100 geographic or sectoral clusters (~9 firms per cluster), excluding agricultural firms</div></div>
   <div><div class="k">The design</div><div class="v">Two-stage RCT: clusters randomised to 0%, 33%, 66% or 100% funding intensity, then firms randomised to funding within each cluster; management training cross-randomised at firm level</div></div>
   <div><div class="k">Outcomes tracked</div><div class="v">Short-run revenue, inputs, profit, productivity, investment, pricing and product variety; medium- to long-run technology adoption, new products, licensing and patenting</div></div>
   <div><div class="k">Starting point</div><div class="v">Only 6.3% of firms in the region are classified as innovative and just 1.4% of the workforce works in high-tech sectors, with an Innovation Readiness Index of 28</div></div>
@@ -1660,7 +1664,7 @@ within the same cluster isolates each firm's own private return.
 ```{=html}
 <figure class="fig-e">
 <svg viewBox="0 0 700 260" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Roughly 100 clusters of about 9 firms each are randomly assigned a funding intensity of 0, 33, 66 or 100%; within each cluster, firms are then randomly selected for funding up to that share, illustrated here for a single cluster at 33% intensity with 3 of 9 firms funded">
-  <text x="10" y="24" fill="#6B6455" font-size="11.5" font-weight="bold">Cluster-level intensity (randomised across &asymp;100 clusters)</text>
+  <text x="10" y="24" fill="#6B6455" font-size="11.5" font-weight="bold">Cluster-level intensity (randomised across ~100 clusters)</text>
 
   <rect x="10" y="36" width="150" height="46" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
   <text x="85" y="64" text-anchor="middle" fill="#2B2724" font-size="12" font-weight="bold">0% funded</text>
@@ -1758,7 +1762,7 @@ models of innovation diffusion, an area where experimental evidence remains scar
 Colombian auto parts manufacturers show wide variation in management practices, and
 weaker practices are closely tied to lower productivity. Structured, hands-on
 management consulting can improve how firms are run, but delivering it in a
-resource-intensive, one-on-one format is costly - a cost that can be prohibitive for
+resource-intensive, one-to-one format is costly - a cost that can be prohibitive for
 small and medium firms to finance on their own, and for governments seeking to support
 large numbers of firms at once.
 :::
@@ -1837,8 +1841,9 @@ individual consulting, or group consulting.
   <path d="M160 125 H196" stroke="#B9AF95" stroke-width="1.5"/>
 
   <rect x="196" y="90" width="180" height="70" rx="6" fill="#F2C94C"/>
-  <text x="286" y="118" text-anchor="middle" fill="#2B2724" font-size="12.5" font-weight="bold">53 MATCHED TRIPLETS</text>
-  <text x="286" y="136" text-anchor="middle" fill="#2B2724" font-size="10.5">by location, size, productivity, practices</text>
+  <text x="286" y="113" text-anchor="middle" fill="#2B2724" font-size="12.5" font-weight="bold">53 MATCHED TRIPLETS</text>
+  <text x="286" y="130" text-anchor="middle" fill="#2B2724" font-size="10.5">by location, size,</text>
+  <text x="286" y="143" text-anchor="middle" fill="#2B2724" font-size="10.5">productivity, practices</text>
 
   <path d="M376 125 H406" stroke="#B9AF95" stroke-width="1.5"/>
   <path d="M406 125 V28 H436" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
@@ -1950,7 +1955,7 @@ without first being hired. Early jobs matter because they build both
 job-specific and soft skills, but firms may under-invest in providing them -
 a reluctance that can be sharper still in a fragile, conflict-affected
 setting. Job opportunities for young graduates were also increasingly scarce
-following Yemen's 2011-12 political crisis.
+following Yemen's 2011–12 political crisis.
 :::
 ::: {.card-e}
 
@@ -1981,7 +1986,7 @@ outcomes afterwards?"
   <div><div class="k">The programme</div><div class="v">Enterprise Revitalization and Employment Pilot (EREP), internship component: matching grants covering half the cost of a six-month internship, plus matchmaking between graduates and firms</div></div>
   <div><div class="k">Where</div><div class="v">Republic of Yemen; Sanaa and Aden</div></div>
   <div><div class="k">Who is randomised</div><div class="v">583 eligible youth (Yemeni, Sanaa/Aden residents, graduated within 2 years), to treatment (430) or control (153)</div></div>
-  <div><div class="k">The design</div><div class="v">RCT; treatment group offered matchmaking to internships subsidised at 50% of cost, for up to six months</div></div>
+  <div><div class="k">The design</div><div class="v">Stratified RCT: treatment group offered matchmaking to internships subsidised at 50% of cost, for up to six months</div></div>
   <div><div class="k">Outcomes tracked</div><div class="v">Employment, months worked and earnings, via a follow-up phone survey</div></div>
   <div><div class="k">Starting point</div><div class="v">3,487 eligible youth applied; 500 were randomly invited to a two-day basic skills training (477 attended)</div></div>
 </div>
@@ -2072,22 +2077,22 @@ internship.
 
 ::: {.cards .results}
 ::: {.card-e}
-[+17 pp / +42 pp]{.num}
+[+17\ pp / +42\ pp]{.num}
 
 **More likely to have worked at all in 2014**
 
 Being offered internship matchmaking raised the chance of having worked at
-all during 2014 by 17 percentage points on an intention-to-treat basis, and
-by 42 percentage points among those who actually took up an internship,
-relative to a 61% employment rate in the control group.
+all during 2014 by 17 percentage points on an intention-to-treat basis, from
+a 61% employment rate in the control group, and by 42 percentage points among
+those who actually took up an internship.
 :::
 ::: {.card-e}
-[+0.35 s.d. / +0.85 s.d.]{.num}
+[+0.35\ s.d. / +0.85\ s.d.]{.num}
 
 **Employment gains persisted months after the internship ended**
 
 On a standardised index of employment outcomes measured three to five months
-after internships ended, effects remained statistically significant - 0.35
+after internships ended, effects remained statistically significant: 0.35
 standard deviations on an intention-to-treat basis, and 0.85 standard
 deviations for those who took up an internship.
 :::
