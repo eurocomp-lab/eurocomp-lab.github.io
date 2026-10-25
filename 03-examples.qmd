@@ -21,6 +21,7 @@ This page presents examples of public programmes that built experimentation into
 <a class="case-card" href="#spain"><img src="assets/maps/spain.svg" alt="" width="160" height="142"><span class="case-card-text"><span class="loc">Spain</span><span class="reg">Extremadura</span><span class="topic">Financial support to innovate</span><span class="status-pill done">Completed</span></span></a>
 <a class="case-card" href="#czechia-light-touch-support-for-smes"><img src="assets/maps/czechia.svg" alt="" width="160" height="142"><span class="case-card-text"><span class="loc">Czechia</span><span class="reg">Moravian-Silesian, Ústí and Karlovy Vary regions</span><span class="topic">Light-touch support for SMEs</span><span class="status-pill done">Completed</span></span></a>
 <a class="case-card" href="#croatia"><img src="assets/maps/croatia.svg" alt="" width="160" height="142"><span class="case-card-text"><span class="loc">Croatia</span><span class="reg">National programme</span><span class="topic">Matching businesses with scientists</span><span class="status-pill done">Completed</span></span></a>
+<a class="case-card" href="#romania-north-east-digitalisation"><img src="assets/maps/romania-ne.svg" alt="" width="160" height="142"><span class="case-card-text"><span class="loc">Romania</span><span class="reg">North-East region</span><span class="topic">Financial support to digitalise</span><span class="status-pill done">Completed</span></span></a>
 <a class="case-card" href="#europe-grants-for-sme-energy-efficiency"><img src="assets/maps/eenergy.svg" alt="" width="160" height="142"><span class="case-card-text"><span class="loc">Europe</span><span class="reg">34 countries</span><span class="topic">Grants for SME energy efficiency</span><span class="status-pill done">Completed</span></span></a>
 <a class="case-card" href="#digitrans"><img src="assets/maps/digitrans.svg" alt="" width="160" height="142"><span class="case-card-text"><span class="loc">Bulgaria, Poland and Slovakia</span><span class="reg">Three countries</span><span class="topic">Digitrans: digital adoption support for MSMEs</span><span class="status-pill done">Completed</span></span></a>
 <p class="case-group">In implementation</p>
@@ -51,11 +52,10 @@ This page presents examples of public programmes that built experimentation into
 </div>
 ```
 
-## Spain: financial support to innovate {#spain .case data-case="1 of 11" data-status="Completed"}
+## Spain: financial support to innovate {#spain .case data-case="1 of 12" data-status="Completed" data-map="spain"}
 
 ```{=html}
 <div class="case-meta">
-<img class="case-map" src="assets/maps/spain.svg" alt="" width="160" height="142" loading="lazy">
 <span class="case-where">Extremadura, Spain</span><span>Bin-ranking RCT</span><span>56 firms in the middle band</span><span>2024–2025</span>
 </div>
 ```
@@ -214,11 +214,10 @@ firms would have spent anyway.
 
 [↑ Back to all examples](#examples-overview){.back-to-cases}
 
-## Czechia: [light-touch]{.nobr} support for SMEs {#czechia-light-touch-support-for-smes .case data-case="2 of 11" data-status="Completed"}
+## Czechia: [light-touch]{.nobr} support for SMEs {#czechia-light-touch-support-for-smes .case data-case="2 of 12" data-status="Completed" data-map="czechia"}
 
 ```{=html}
 <div class="case-meta">
-<img class="case-map" src="assets/maps/czechia.svg" alt="" width="160" height="142" loading="lazy">
 <span class="case-where">Moravian-Silesian, Ústí and Karlovy Vary regions</span><span>Two lotteries</span><span>419 firms in two pilots</span><span>2024–2025</span>
 </div>
 ```
@@ -428,11 +427,10 @@ AI Klub
 
 [↑ Back to all examples](#examples-overview){.back-to-cases}
 
-## Croatia: matching businesses with scientists {#croatia .case data-case="3 of 11" data-status="Completed"}
+## Croatia: matching businesses with scientists {#croatia .case data-case="3 of 12" data-status="Completed" data-map="croatia"}
 
 ```{=html}
 <div class="case-meta">
-<img class="case-map" src="assets/maps/croatia.svg" alt="" width="160" height="142" loading="lazy">
 <span class="case-where">Croatia, national programme</span><span>Simple lottery</span><span>210 firms</span><span>2023–2025</span>
 </div>
 ```
@@ -580,11 +578,184 @@ pilot.
 
 [↑ Back to all examples](#examples-overview){.back-to-cases}
 
-## Europe: grants for SME energy efficiency {#europe-grants-for-sme-energy-efficiency .case data-case="4 of 11" data-status="Completed"}
+## Romania ([North-East]{.nobr}): financial support to digitalise {#romania-north-east-digitalisation .case data-case="4 of 12" data-status="Completed" data-map="romania-ne"}
 
 ```{=html}
 <div class="case-meta">
-<img class="case-map" src="assets/maps/eenergy.svg" alt="" width="160" height="142" loading="lazy">
+<span class="case-where">North-East region, Romania</span><span>Lottery with encouragement to apply</span><span>1,038 firms</span><span>2023–2025</span>
+</div>
+```
+
+::: {.cards}
+::: {.card-e}
+**The problem**
+
+Romanian SMEs lag behind the EU average in digital performance. Key barriers to digital
+transformation include a lack of financing, awareness, and capacity to capitalise on
+digital investments.
+
+Among the 1,038 eligible firms in North-East Romania, the average firm met 4.3 of 12
+digital indicators, and 67% named lack of finance as their main obstacle.
+:::
+::: {.card-e}
+**What was done**
+
+The North-East Regional Development Agency (RDA) offers non-refundable grants of
+EUR 15,000 to 100,000 for digital tools, equipment and services, covering 90% of
+eligible project costs. The first call had EUR 31 million: EUR 26.35 million from the
+European Regional Development Fund and EUR 4.65 million from the state budget.
+
+The RDA and the World Bank formed a learning partnership, announced publicly at the
+programme's launch. The first call was non-competitive and framed as a pilot to
+generate learning.
+:::
+:::
+
+### What experimentation sought to answer
+
+::: {.quote-e}
+"What is the impact of digitalisation support on Romanian SMEs' performance?"
+:::
+
+### The programme
+
+```{=html}
+<div class="facts">
+  <div><div class="k">The programme</div><div class="v">Non-refundable grants of EUR 15,000&ndash;100,000 for digital tools, equipment and services, covering 90% of eligible costs</div></div>
+  <div><div class="k">Where</div><div class="v">North-East Romania; North-East Regional Development Agency (RDA), funded by EU Cohesion Policy</div></div>
+  <div><div class="k">Who is randomised</div><div class="v">1,038 likely eligible SMEs, identified by a pre-assessment survey from over 1,500 applicants</div></div>
+  <div><div class="k">The design</div><div class="v">Lottery among pre-identified applicants, with encouragement to apply: 519 selected and invited to apply vs. 519 not selected</div></div>
+  <div><div class="k">Outcomes tracked</div><div class="v">Digital investments, use of digital tools, firm performance</div></div>
+  <div><div class="k">Starting point</div><div class="v">Firms met 4.3 of 12 digital indicators on average; 67% named lack of finance as their main obstacle</div></div>
+</div>
+```
+
+### Key steps and dates
+
+```{=html}
+<div class="flow">
+  <div>Pre-assessment survey<span class="flow-date">May&ndash;Sep 2023</span></div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Lottery before a notary<span class="flow-date">Oct 2023</span></div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Full proposals<span class="flow-date">By end of winter 2024</span></div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Contracts signed<span class="flow-date">Mar 2024&ndash;Mar 2025</span></div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Follow-up survey</div>
+</div>
+```
+
+### How the programme was tested
+
+Firms first completed a pre-assessment survey that assessed their digital maturity,
+recorded their interest in applying and gave them an automated, simplified check of
+their eligibility. Piloted in May 2023 and closed in September 2023, it identified 1,038
+likely eligible SMEs from over 1,500 applicants. In October 2023, 519 of them were
+selected at random, in front of a notary, and invited to submit full proposals; the
+other 519 formed the comparison group.
+
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 700 200" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="1,038 likely eligible firms enter a lottery held in front of a notary; 519 are invited to apply, of which 393 submitted full proposals and 333 signed contracts, and 519 not selected form the comparison group">
+  <rect x="10" y="66" width="150" height="66" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="85" y="95" text-anchor="middle" fill="#2B2724" font-size="19" font-weight="bold">1,038</text>
+  <text x="85" y="114" text-anchor="middle" fill="#6B6455" font-size="10.5">likely eligible firms</text>
+
+  <path d="M160 99 H196" stroke="#B9AF95" stroke-width="1.5"/>
+
+  <rect x="196" y="66" width="150" height="66" rx="6" fill="#F2C94C"/>
+  <text x="271" y="92" text-anchor="middle" fill="#2B2724" font-size="12.5" font-weight="bold">LOTTERY</text>
+  <text x="271" y="110" text-anchor="middle" fill="#2B2724" font-size="10.5">in front of a notary</text>
+
+  <path d="M346 99 H376 V36 H406" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
+  <path d="M346 99 H376 V164 H406" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
+
+  <rect x="406" y="8" width="284" height="56" rx="6" fill="#F2C94C"/>
+  <text x="420" y="30" fill="#2B2724" font-size="12.5" font-weight="bold">519 invited to apply</text>
+  <text x="420" y="48" fill="#2B2724" font-size="10.5">393 submitted full proposals &middot; 333 contracted</text>
+
+  <rect x="406" y="136" width="284" height="56" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="420" y="158" fill="#2B2724" font-size="12.5" font-weight="bold">519 not selected</text>
+  <text x="420" y="176" fill="#6B6455" font-size="10.5">comparison group</text>
+</svg>
+<figcaption>Note: Only firms identified as likely eligible entered the lottery. Of the 519 selected firms, 76% submitted a full proposal and 64% had signed a contract by March 2025.</figcaption>
+</figure>
+```
+
+::: {.soft-panel}
+**Why this design.**
+Strength: it requires, and so ensures, wide outreach, thanks to a simple application
+process.
+Limitation: firms may drop out after they apply, which affects statistical power.
+:::
+
+### What the programme achieved
+
+The short-term results compare all 519 selected firms with the comparison group,
+whether or not they went on to sign a contract, only a few months after contracts were
+signed. They are therefore conservative estimates.
+
+::: {.cards .results}
+::: {.card-e}
+[+101%]{.num}
+
+**Investment in digital tools**
+
+Selected firms invested about twice as much in digital tools as the comparison group.
+:::
+::: {.card-e}
+[+291%]{.num}
+
+**Digital tools for business administration**
+
+Software spending rose by 167% and production-related digital investment by 352%.
+:::
+::: {.card-e}
+[+5.6 pp]{.num}
+
+**Firms using ERP software**
+
+From 26% in the comparison group. The share using CRM software rose by 3.1 percentage
+points, from 11.7%.
+:::
+:::
+
+::: {.caution}
+No significant short-term effect on profits or sales was observed yet. Selected firms
+showed slightly higher sales and labour productivity, but the differences were not
+statistically significant, likely because implementation was at an early stage.
+Tailored support and continued monitoring will be essential to ensure inclusive and
+sustained digital transformation.
+:::
+
+::: {.takeaway}
+The programme also tested outreach. Before the call, the agency randomly selected 26 of
+46 towns for in-person information visits. The visited towns produced 55% more
+applications, and the additional applicants were smaller firms
+([see What do you want to learn?](01-why-and-when.qmd#two-questions)).
+:::
+
+```{=html}
+<div class="further-reading">
+  <span class="fr-label">Further reading</span>
+  <div class="fr-entry">
+  <span class="fr-cite">World Bank. 2025. &ldquo;Thinking Bigger: Digital Transformation in North-East Romania: Short-Term Impacts.&rdquo; Strengthening Monitoring and Evaluation of Innovation Programs in the EU. World Bank, Washington, DC.</span>
+  <a href="https://documents1.worldbank.org/curated/en/099062725130014823/pdf/P171223-aee2b26f-49c8-4bd1-a313-6a8d9d71abc4.pdf">Read the report &rarr;</a>
+  </div>
+  <div class="fr-entry">
+  <span class="fr-cite">World Bank. 2026. &ldquo;Short-Term Impacts of the First RCTs with Cohesion Policy: Summary Report.&rdquo; European Regional Competitiveness Policy Lab. World Bank, Washington, DC.</span>
+  <a href="assets/01-10-2026_World_Bank_EuroCOMP_Lab_22_25_Results.pdf">Read the summary report (PDF) &rarr;</a>
+  </div>
+</div>
+```
+
+[↑ Back to all examples](#examples-overview){.back-to-cases}
+
+## Europe: grants for SME energy efficiency {#europe-grants-for-sme-energy-efficiency .case data-case="5 of 12" data-status="Completed" data-map="eenergy"}
+
+```{=html}
+<div class="case-meta">
 <span class="case-where">34 European countries</span><span>Simple lottery</span><span>1,964 SMEs</span><span>2024–2026</span>
 </div>
 ```
@@ -765,11 +936,10 @@ performance.
 
 [↑ Back to all examples](#examples-overview){.back-to-cases}
 
-## Bulgaria, Poland and Slovakia: Digitrans, digital adoption support for MSMEs {#digitrans .case data-case="5 of 11" data-status="Completed"}
+## Bulgaria, Poland and Slovakia: Digitrans, digital adoption support for MSMEs {#digitrans .case data-case="6 of 12" data-status="Completed" data-map="digitrans"}
 
 ```{=html}
 <div class="case-meta">
-<img class="case-map" src="assets/maps/digitrans.svg" alt="" width="160" height="142" loading="lazy">
 <span class="case-where">Bulgaria, Poland and Slovakia</span><span>Three-arm RCT</span><span>629 MSMEs</span><span>2024–2025</span>
 </div>
 ```
@@ -946,11 +1116,10 @@ businesses.
 
 [↑ Back to all examples](#examples-overview){.back-to-cases}
 
-## Bulgaria: [human-led]{.nobr} versus [AI-led]{.nobr} business consulting {#bulgaria .case data-case="6 of 11" data-status="In implementation"}
+## Bulgaria: [human-led]{.nobr} versus [AI-led]{.nobr} business consulting {#bulgaria .case data-case="7 of 12" data-status="In implementation" data-map="bulgaria"}
 
 ```{=html}
 <div class="case-meta">
-<img class="case-map" src="assets/maps/bulgaria.svg" alt="" width="160" height="142" loading="lazy">
 <span class="case-where">Northern Bulgaria</span><span>Four-arm RCT</span><span>600 firms</span><span>2026–2027 (planned)</span>
 </div>
 ```
@@ -1099,11 +1268,10 @@ participant to support tracking through autumn 2027.
 
 [↑ Back to all examples](#examples-overview){.back-to-cases}
 
-## Poland: AI assistance for smarter Horizon Europe applications {#poland-ai-assistance-for-smarter-horizon-europe-applications .case data-case="7 of 11" data-status="In implementation"}
+## Poland: AI assistance for smarter Horizon Europe applications {#poland-ai-assistance-for-smarter-horizon-europe-applications .case data-case="8 of 12" data-status="In implementation" data-map="poland"}
 
 ```{=html}
 <div class="case-meta">
-<img class="case-map" src="assets/maps/poland.svg" alt="" width="160" height="142" loading="lazy">
 <span class="case-where">Poland, national programme</span><span>Three nested RCTs</span><span>~120,000 SMEs reached</span>
 </div>
 ```
@@ -1252,11 +1420,10 @@ calls as credible outreach from PARP rather than as spam.
 
 [↑ Back to all examples](#examples-overview){.back-to-cases}
 
-## Romania ([North-East]{.nobr}): AI assistance for smarter grant reviews {#romania-north-east-ai-assistance-for-smarter-grant-reviews .case data-case="8 of 11" data-status="In implementation"}
+## Romania ([North-East]{.nobr}): AI assistance for smarter grant reviews {#romania-north-east-ai-assistance-for-smarter-grant-reviews .case data-case="9 of 12" data-status="In implementation" data-map="romania-ne"}
 
 ```{=html}
 <div class="case-meta">
-<img class="case-map" src="assets/maps/romania-ne.svg" alt="" width="160" height="142" loading="lazy">
 <span class="case-where">North-East region, Romania</span><span>Multi-phase RCT</span><span>~800 proposals</span><span>2026–2027 (planned)</span>
 </div>
 ```
@@ -1412,11 +1579,10 @@ and adjusted before the full-proposal stage goes ahead.
 
 [↑ Back to all examples](#examples-overview){.back-to-cases}
 
-## Romania ([South-Muntenia]{.nobr}): the returns to innovation subsidies {#south-muntenia .case data-case="9 of 11" data-status="In implementation"}
+## Romania ([South-Muntenia]{.nobr}): the returns to innovation subsidies {#south-muntenia .case data-case="10 of 12" data-status="In implementation" data-map="romania-sm"}
 
 ```{=html}
 <div class="case-meta">
-<img class="case-map" src="assets/maps/romania-sm.svg" alt="" width="160" height="142" loading="lazy">
 <span class="case-where">South-Muntenia region, Romania</span><span>Two-stage cluster RCT</span><span>~900 SMEs</span><span>2026–2028 (planned)</span>
 </div>
 ```
@@ -1576,11 +1742,10 @@ models of innovation diffusion, an area where experimental evidence remains scar
 
 [↑ Back to all examples](#examples-overview){.back-to-cases}
 
-## Colombia: scaling up management consulting {#colombia-scaling-up-management-consulting .case data-case="10 of 11" data-status="Completed"}
+## Colombia: scaling up management consulting {#colombia-scaling-up-management-consulting .case data-case="11 of 12" data-status="Completed" data-map="colombia"}
 
 ```{=html}
 <div class="case-meta">
-<img class="case-map" src="assets/maps/colombia.svg" alt="" width="160" height="134" loading="lazy">
 <span class="case-where">Antioquia, Cundinamarca, Valle del Cauca and Eje Cafetero</span><span>Three-arm RCT</span><span>159 firms</span><span>2012–2018</span>
 </div>
 ```
@@ -1766,11 +1931,10 @@ models.
 
 [↑ Back to all examples](#examples-overview){.back-to-cases}
 
-## Yemen: testing whether internships help youth find work {#yemen-testing-whether-internships-help-youth-find-work .case data-case="11 of 11" data-status="Completed"}
+## Yemen: testing whether internships help youth find work {#yemen-testing-whether-internships-help-youth-find-work .case data-case="12 of 12" data-status="Completed" data-map="yemen"}
 
 ```{=html}
 <div class="case-meta">
-<img class="case-map" src="assets/maps/yemen.svg" alt="" width="160" height="145" loading="lazy">
 <span class="case-where">Sanaa and Aden, Yemen</span><span>Stratified RCT</span><span>583 young graduates</span><span>2013–2015</span>
 </div>
 ```

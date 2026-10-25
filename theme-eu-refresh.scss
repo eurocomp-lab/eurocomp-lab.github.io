@@ -593,8 +593,8 @@ hr:has(+ .nav-buttons) { display: none; }
 #quarto-document-content a.case-card .topic { margin: .15rem 0 .35rem; font-size: .88rem; color: $rf-blue; line-height: 1.3; }
 
 /* header band: the example's h2 (with its number and status above it), then the facts line */
-#quarto-document-content section.case { position: relative; }
 #quarto-document-content section.case > h2.case {
+  position: relative;
   margin: 4.5rem 0 0;
   padding: 1.15rem 10rem .3rem 1.5rem;
   border: 0;
@@ -629,14 +629,31 @@ hr:has(+ .nav-buttons) { display: none; }
 /* the facts as small chips: they wrap as whole items, no separators to strand at a line start */
 #quarto-document-content .case-meta span { display: inline-block; margin: .3rem .4rem 0 0; padding: .05rem .6rem; border-radius: 12px; background: rgba(255, 255, 255, .14); white-space: nowrap; }
 #quarto-document-content .case-meta .case-where { font-weight: 700; white-space: normal; }
-#quarto-document-content .case-meta .case-map {
+/* the locator map, drawn from the heading (data-map) so that it can reach down into the facts line.
+   It hangs off the h2, not the section: a positioned section would throw off the "On this page"
+   highlighting, which reads the sub-headings' offsets. The paths are relative to the compiled
+   stylesheet in site_libs/bootstrap/; the overview cards use the same files. */
+#quarto-document-content section.case > h2.case::after {
+  content: "";
   position: absolute;
   top: 1.15rem;
   right: 1.4rem;
   width: 7rem;
-  height: auto;
+  aspect-ratio: 160 / 142;
   border-radius: 6px;
+  background: center / contain no-repeat;
 }
+#quarto-document-content section.case > h2.case[data-map="spain"]::after { background-image: url("assets/maps/spain.svg"); }
+#quarto-document-content section.case > h2.case[data-map="czechia"]::after { background-image: url("assets/maps/czechia.svg"); }
+#quarto-document-content section.case > h2.case[data-map="croatia"]::after { background-image: url("assets/maps/croatia.svg"); }
+#quarto-document-content section.case > h2.case[data-map="romania-ne"]::after { background-image: url("assets/maps/romania-ne.svg"); }
+#quarto-document-content section.case > h2.case[data-map="romania-sm"]::after { background-image: url("assets/maps/romania-sm.svg"); }
+#quarto-document-content section.case > h2.case[data-map="bulgaria"]::after { background-image: url("assets/maps/bulgaria.svg"); }
+#quarto-document-content section.case > h2.case[data-map="poland"]::after { background-image: url("assets/maps/poland.svg"); }
+#quarto-document-content section.case > h2.case[data-map="eenergy"]::after { background-image: url("assets/maps/eenergy.svg"); }
+#quarto-document-content section.case > h2.case[data-map="digitrans"]::after { background-image: url("assets/maps/digitrans.svg"); }
+#quarto-document-content section.case > h2.case[data-map="colombia"]::after { background-image: url("assets/maps/colombia.svg"); aspect-ratio: 160 / 134; }
+#quarto-document-content section.case > h2.case[data-map="yemen"]::after { background-image: url("assets/maps/yemen.svg"); aspect-ratio: 160 / 145; }
 /* the example's text keeps the reading width of other sections */
 #quarto-document-content section.case > :is(p, ul, ol, blockquote, h3, h4) { max-width: 40rem; }
 
@@ -659,5 +676,5 @@ hr:has(+ .nav-buttons) { display: none; }
   #quarto-document-content .case-cards { grid-template-columns: 1fr; }
   #quarto-document-content section.case > h2.case { margin-top: 3.25rem; padding: 1rem 1rem .25rem; }
   #quarto-document-content section.case > .case-meta { min-height: 0; padding: .3rem 1rem 1rem; }
-  #quarto-document-content .case-meta .case-map { display: none; }   /* the overview cards carry the maps on phones */
+  #quarto-document-content section.case > h2.case::after { display: none; }   /* the overview cards carry the maps on phones */
 }

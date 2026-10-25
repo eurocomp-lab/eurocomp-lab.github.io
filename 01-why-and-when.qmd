@@ -47,6 +47,8 @@ This site returns to this running example at each step: [what impact means here]
 [how the lottery created a comparison group](#rct), [how the draw was made
 transparent](#legitimacy), and [how outreach was tested](#two-questions) to illustrate the concepts covered.
 
+[Read the full example, including its short-term results](03-examples.qmd#romania-north-east-digitalisation).
+
 :::
 
 ## What is impact evaluation for? {#impact-evaluation}
