@@ -47,7 +47,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-6fa1afed298ab751bcd764f81074838b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-e36bd874e4459c0f9a123e9badeffc69.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -271,6 +271,71 @@ document.addEventListener("DOMContentLoaded", function () {
     });
     var toggle = menu.querySelector(".dropdown-toggle");
     if (inSection && toggle) toggle.classList.add("active");
+  });
+});
+</script>
+<script>
+/* "On this page": group labels in the menu.
+   - Examples page: the group labels of the overview cards (Completed, In implementation,
+     Beyond Europe), read from the cards, and each example as place over topic.
+   - Pages in parts (why and when): the label of each part, read from the data-part
+     attribute of the section that starts it.
+   Pages without either keep the plain menu, as does any page if this script does not run. */
+document.addEventListener("DOMContentLoaded", function () {
+  var list = document.querySelector("#TOC > ul");
+  if (!list) return;
+  var overview = document.getElementById("examples-overview");
+  var groupOf = {};
+  // match on the "#fragment" only: links can be rewritten to full addresses after load
+  function frag(a) { return a.getAttribute("data-scroll-target") || a.hash || ""; }
+  if (overview) {
+    var label = null;
+    Array.prototype.forEach.call(overview.children, function (el) {
+      if (el.classList.contains("case-group")) label = el.textContent.trim();
+      else if (el.classList.contains("case-card")) groupOf[frag(el)] = label;
+    });
+  } else {
+    document.querySelectorAll("section[data-part]").forEach(function (s) {
+      groupOf["#" + s.id] = s.getAttribute("data-part").replace(/ of \d+/, "");
+    });
+  }
+  if (!Object.keys(groupOf).length) return;
+
+  function splitPlace(a) {   // "Spain: financial support…" -> place over topic, keeping spans
+    var nodes = Array.prototype.slice.call(a.childNodes);
+    for (var i = 0; i < nodes.length; i++) {
+      var n = nodes[i];
+      if (n.nodeType !== 3 || n.data.indexOf(": ") < 0) continue;
+      var k = n.data.indexOf(": ");
+      var place = document.createElement("span"), topic = document.createElement("span");
+      var sep = document.createElement("span");   // keeps "Place: topic" for screen readers
+      place.className = "toc-place"; topic.className = "toc-topic";
+      sep.className = "visually-hidden"; sep.textContent = ": ";
+      for (var j = 0; j < nodes.length; j++) {
+        if (j < i) place.appendChild(nodes[j]);
+        else if (j > i) topic.appendChild(nodes[j]);
+      }
+      place.appendChild(document.createTextNode(n.data.slice(0, k)));
+      topic.insertBefore(document.createTextNode(n.data.slice(k + 2)), topic.firstChild);
+      a.removeChild(n);
+      a.appendChild(place); a.appendChild(sep); a.appendChild(topic);
+      return;
+    }
+  }
+
+  var last = null;
+  Array.prototype.slice.call(list.children).forEach(function (li) {
+    var a = li.firstElementChild;
+    if (!a || a.tagName !== "A") return;
+    if (overview) splitPlace(a);
+    var g = groupOf[frag(a)];
+    if (g && g !== last) {
+      var head = document.createElement("li");
+      head.className = "toc-group";
+      head.textContent = g;
+      list.insertBefore(head, li);
+      last = g;
+    }
   });
 });
 </script>
