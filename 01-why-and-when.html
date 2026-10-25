@@ -47,7 +47,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-57aacdfb8a0a08e38f136ab60a158360.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-7d7fd825f2be00ad84b41c5af435d249.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -244,8 +244,40 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="unlisted anchored" data-anchor-id="summary">Summary</h2>
 <p>This page explains in more detail why experimentation is worth doing and when to plan it. It explains what impact evaluation is and why experimentation - running a randomised controlled trial (RCT) - is usually the preferred way to do it, and when to use one: which questions it can answer, why it has to be planned early, and when it is not the right tool.</p>
 </section>
-<div class="example romania">
-<p><span class="tag">The running example: North-East Romania</span></p>
+<nav class="page-parts" id="page-overview" aria-label="Parts of this page">
+  <div class="part-card">
+    <span class="part-no">Part 1</span>
+    <span class="part-title">What impact evaluation is</span>
+    <ul>
+      <li><a href="#impact-evaluation">What is impact evaluation for?</a></li>
+      <li><a href="#monitoring">Monitoring and evaluation (M&amp;E) vs impact evaluation</a></li>
+      <li><a href="#counterfactual">What exactly is the impact of a programme?</a></li>
+      <li><a href="#allocation">What does good allocation of public resources look like?</a></li>
+    </ul>
+  </div>
+  <div class="part-card">
+    <span class="part-no">Part 2</span>
+    <span class="part-title">Why an RCT</span>
+    <ul>
+      <li><a href="#finding-counterfactual">Finding the counterfactual</a></li>
+      <li><a href="#rct">What is a randomised controlled trial?</a></li>
+      <li><a href="#legitimacy">Randomisation can improve legitimacy and trust in programmes</a></li>
+    </ul>
+  </div>
+  <div class="part-card">
+    <span class="part-no">Part 3</span>
+    <span class="part-title">When to use one</span>
+    <ul>
+      <li><a href="#two-questions">What do you want to learn?</a></li>
+      <li><a href="#choosing-design">Choosing the right evaluation design</a></li>
+      <li><a href="#alternatives">What if you cannot randomise?</a></li>
+      <li><a href="#when-not">When not to run an RCT</a></li>
+      <li><a href="#learning-cycle">Learning through RCTs is a continuous process</a></li>
+    </ul>
+  </div>
+</nav>
+<div class="example romania" data-map="romania-ne">
+<p><span class="tag">The running example: North‑East Romania</span></p>
 <p>Throughout this site, we come back to one programme developed as part of the <a href="./eurocomp.html">EuroCOMP Lab</a> to show these ideas in practice: a digitalisation grant scheme for micro, small and medium enterprises (MSMEs) in North-East Romania, run by the Regional Development Agency with World Bank support.</p>
 <div class="facts">
   <div><div class="k">The programme</div><div class="v">EU-funded grants of EUR 15,000–100,000 for digital tools, equipment, and services</div></div>
@@ -272,8 +304,8 @@ ul.task-list li input[type="checkbox"] {
 <p><a href="./03-examples.html#romania-north-east-digitalisation">Read the full example, including its short-term results</a>.</p>
 </section>
 </div>
-<section id="impact-evaluation" class="level2">
-<h2 class="anchored" data-anchor-id="impact-evaluation">What is impact evaluation for?</h2>
+<section id="impact-evaluation" class="level2" data-part="Part 1 of 3 · What impact evaluation is">
+<h2 data-part="Part 1 of 3 · What impact evaluation is" class="anchored" data-anchor-id="impact-evaluation">What is impact evaluation for?</h2>
 <figure class="fig-e figure">
 <svg class="fig-wide" viewbox="0 0 660 250" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Impact evaluation splits into policy learning and accountability; accountability splits into financial accountability and performance and impact accountability">
   <rect x="200" y="14" width="260" height="34" rx="5" fill="var(--dg-ink)"></rect>
@@ -404,8 +436,8 @@ ul.task-list li input[type="checkbox"] {
 <p>What changes because of it. For example, growth, jobs, innovation, resilience.</p>
 </section>
 </div>
-<div class="example romania">
-<p><span class="tag">The impact in the North-East Romania programme</span></p>
+<div class="example romania" data-map="romania-ne">
+<p><span class="tag">The impact in the North‑East Romania programme</span></p>
 <p>For North-East Romania, the impact is the gap between treatment and comparison firms on four tracked outcomes: digital adoption, revenue, employment, and productivity.</p>
 <figure class="fig-e figure">
 <svg class="fig-wide" viewbox="0 0 620 142" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Four outcomes tracked for North-East Romania: digital adoption, revenue, employment and productivity">
@@ -457,8 +489,8 @@ ul.task-list li input[type="checkbox"] {
 <p>But which outcomes should one look at exactly? A programme can change many things, and not all of them can or should be measured. To know which outcomes to look at, and when to expect them to change, start by spelling out how the programme is supposed to work: how its inputs and activities lead to outputs, and how those outputs are expected to lead to outcomes.</p>
 <p>This chain is the foundation of a theory of change, and having thought it through helps in designing a strong impact evaluation. There is more on this in <a href="./02.01-toc.html">Step 1: develop a Theory of Change</a>.</p>
 <p>Making the chain explicit also surfaces the assumptions behind each link, and shows which of them the programme’s impact depends on most. If one of these assumptions does not hold (for example, that firms will take up the support they are offered), the programme may fall short of its intended impact. One way to reduce this risk is to test, within the same evaluation, alternative ways of addressing that weak link, such as two different outreach approaches, and see which works better.</p>
-<div id="digitrans" class="example case">
-<p><span class="tag">Digitrans example</span> The Digitrans pilot (see <a href="./03-examples.html">Examples</a> for more details) tested and compared two alternative ways to increase digital adoption among MSMEs in Bulgaria, Poland and Slovakia. Firms were randomly assigned to either (i) a comparison group receiving no support, (ii) a financial subsidy alone, or (iii) the same subsidy paired with technical assistance.</p>
+<div id="digitrans" class="example case" data-map="digitrans">
+<p><span class="tag">Digitrans example</span> The Digitrans pilot (see <a href="./03-examples.html#digitrans">Examples</a> for more details) tested and compared two alternative ways to increase digital adoption among MSMEs in Bulgaria, Poland and Slovakia. Firms were randomly assigned to either (i) a comparison group receiving no support, (ii) a financial subsidy alone, or (iii) the same subsidy paired with technical assistance.</p>
 <p>The pilot found that money alone was not the most effective approach. Firms that also received technical assistance used digital tools 2.5 times more intensively than those with the subsidy alone. This is evidence that capability, not just cash, was a constraint to digitalisation.</p>
 </div>
 </section>
@@ -468,7 +500,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Return on public investment is the benefit attributable to a programme divided by its cost. “Attributable” requires knowing what the programme beneficiaries would have done in the absence of the programme (the counterfactual).</p>
 <p>That is especially hard when beneficiaries are not assigned to programmes at random but are selected by the Managing Authority. Beneficiaries may differ from those that were not selected, e.g.&nbsp;they may be more motivated or have more resources. Most of these traits are never recorded in any database or questionnaire. When the beneficiaries later do better on the outcomes of interest than the applicants that were not selected, it is impossible to tell how much of that difference is due to the programme.</p>
 <p>Consider an illustrative innovation-grant scheme: EUR 50,000 to each of 100 firms, where “success” means launching a new product. Compare two selection rules.</p>
-<div class="compare">
+<div class="compare strategy">
 <div class="col-e">
 <div class="col-head">
 <p>Strategy A: fund the top performers</p>
@@ -517,9 +549,10 @@ ul.task-list li input[type="checkbox"] {
 <p>Evidence suggests not reliably. In a business plan competition in Nigeria, judges’ scores did not predict which firms would survive or grow three years later (McKenzie &amp; Sansone, 2019; see <a href="./index.html#common-myths-about-rcts">Common myths</a>).</p>
 </section>
 </div>
+<p><a href="#page-overview" class="back-to-cases">↑ Back to the overview</a></p>
 </section>
-<section id="finding-counterfactual" class="level2">
-<h2 class="anchored" data-anchor-id="finding-counterfactual">Finding the counterfactual</h2>
+<section id="finding-counterfactual" class="level2" data-part="Part 2 of 3 · Why an RCT">
+<h2 data-part="Part 2 of 3 · Why an RCT" class="anchored" data-anchor-id="finding-counterfactual">Finding the counterfactual</h2>
 <p>As <a href="#counterfactual">defined above</a>, the counterfactual is what would have happened to programme participants without the programme. It can never be observed directly, so it has to be estimated.</p>
 <p><strong>Strategy.</strong> Find a group of firms that on average look like treated firms would have looked in the absence of the programme. This group is the comparison group.</p>
 <p>There are two ways of estimating the counterfactual:</p>
@@ -544,8 +577,8 @@ ul.task-list li input[type="checkbox"] {
 <div class="caution">
 <p><strong>Selection bias</strong> is the risk that the comparison group does not actually look like the treatment group on average. If that assumption is wrong, the impact estimate is biased.</p>
 </div>
-<div class="example romania">
-<p><span class="tag">North-East Romania: the counterfactual</span> In North-East Romania, the counterfactual is the group of eligible firms that were not drawn in the lottery. <a href="#rct">How the lottery created it</a>.</p>
+<div class="example romania" data-map="romania-ne">
+<p><span class="tag">North‑East Romania: the counterfactual</span> In North-East Romania, the counterfactual is the group of eligible firms that were not drawn in the lottery. <a href="#rct">How the lottery created it</a>.</p>
 </div>
 </section>
 <section id="rct" class="level2">
@@ -588,8 +621,8 @@ ul.task-list li input[type="checkbox"] {
 <li>They deliver strong evidence</li>
 <li>They are easy to interpret</li>
 </ul>
-<div class="example romania">
-<p><span class="tag">North-East Romania: the lottery and its comparison group</span></p>
+<div class="example romania" data-map="romania-ne">
+<p><span class="tag">North‑East Romania: the lottery and its comparison group</span></p>
 <p>Firms first completed an online pre-assessment survey. The 1,038 firms that met the pre-set eligibility criteria all qualified. Because demand exceeded the budget, a public lottery decided which 519 would be invited to apply formally; the other 519 formed the comparison group.</p>
 <p>Before any grants were awarded, the two groups were statistically identical:</p>
 <table class="caption-top table">
@@ -702,13 +735,14 @@ ul.task-list li input[type="checkbox"] {
     <div class="dots"><span class="b"></span><span class="a"></span><span class="a"></span><span class="b"></span><span class="a"></span><span class="b"></span><span class="a"></span><span class="a"></span><span class="b"></span><span class="a"></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
   </figure>
 </div>
-<div class="example romania">
-<p><span class="tag">North-East Romania: additional measures to increase trust</span></p>
+<div class="example romania" data-map="romania-ne">
+<p><span class="tag">North‑East Romania: additional measures to increase trust</span></p>
 <p>North-East Romania’s draw was run in front of a notary: the random number seed drawn, the selection code run, and the resulting balance between groups reviewed. This increased firms’ confidence that selection was fair. The draw also made selection faster. Because beneficiaries were drawn at random from the eligible pool, no ranking of the “best” applications was needed. Evaluators only had to check that each firm met the formal criteria and that the requested funds were justified.</p>
 </div>
+<p><a href="#page-overview" class="back-to-cases">↑ Back to the overview</a></p>
 </section>
-<section id="two-questions" class="level2">
-<h2 class="anchored" data-anchor-id="two-questions">What do you want to learn?</h2>
+<section id="two-questions" class="level2" data-part="Part 3 of 3 · When to use one">
+<h2 data-part="Part 3 of 3 · When to use one" class="anchored" data-anchor-id="two-questions">What do you want to learn?</h2>
 <p>Whether you have sufficient evidence that your programme works, or you are still working out who it reaches and how to design it, there is a case for experimentation. The starting question is whether the programme is working as well as it could be.</p>
 <div class="compare">
 <div class="col-e">
@@ -728,10 +762,10 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<div class="example romania">
-<p><span class="tag">North-East Romania: testing outreach</span> In fact, the North-East Romania programme asked both questions. It used an experiment to find out if the programme is effective and a second experiment to study how to best conduct outreach. Before the digitalisation call, the regional development agency randomly selected 26 of 46 towns for in-person information visits, in which a consultant explained the call and helped firms complete the pre-assessment survey. The visited towns produced 110 applications against 71 in the towns that did not receive in-person visits (55% more). The additional applicants in towns with in-person visits were smaller firms (12.6 employees on average, compared with 19.6).</p>
+<div class="example romania" data-map="romania-ne">
+<p><span class="tag">North‑East Romania: testing outreach</span> In fact, the North-East Romania programme asked both questions. It used an experiment to find out if the programme is effective and a second experiment to study how to best conduct outreach. Before the digitalisation call, the regional development agency randomly selected 26 of 46 towns for in-person information visits, in which a consultant explained the call and helped firms complete the pre-assessment survey. The visited towns produced 110 applications against 71 in the towns that did not receive in-person visits (55% more). The additional applicants in towns with in-person visits were smaller firms (12.6 employees on average, compared with 19.6).</p>
 </div>
-<div class="example case">
+<div class="example case" data-map="colombia">
 <p><span class="tag">Colombia: group vs individual management support</span> <a href="./03-examples.html#colombia-scaling-up-management-consulting">Iacovone et al.&nbsp;2022</a> compared two ways to deliver management consulting to auto-parts firms: one-to-one (about US$28,950 per firm) and in groups of 3-8 firms (about US$10,500). Both raised management scores by around 9 percentage points, but only group consulting significantly raised sales and profits.</p>
 </div>
 </section>
