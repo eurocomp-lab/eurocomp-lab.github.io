@@ -3,6 +3,10 @@ title: "Informed consent in RCT data collection"
 description-meta: "Draft a consent form for trial surveys: what it must contain, how to split mandatory and optional parts, and how to comply with EU data protection rules."
 ---
 
+```{=html}
+<nav class="tracker" aria-label="Seven steps for designing an RCT"><span><a href="02.01-toc.qmd" title="Step 1: develop a Theory of Change">Step 1</a></span><span><a href="02.02-eval_questions.qmd" title="Step 2: define learning questions">Step 2</a></span><span><a href="02.04-indicators.qmd" title="Step 3: determine relevant indicators">Step 3</a></span><span><a href="02.03-assess.qmd" title="Step 4: check whether an RCT is feasible">Step 4</a></span><span><a href="02.05-data_sources.qmd" title="Step 5: identify available data sources">Step 5</a></span><span class="on"><a href="02.06-data_collect.qmd" title="Step 6: collect data">Step 6</a></span><span><a href="02.07-data_quality.qmd" title="Step 7: ensure high-quality data">Step 7</a></span></nav>
+```
+
 ::: {.team-note}
 ## Summary {.unlisted}
 This page explains what informed consent means in the context of a European Union (EU) randomised controlled trial (RCT), what a consent form must contain, how to handle the distinction between mandatory and voluntary participation, and how to ensure General Data Protection Regulation (GDPR) compliance throughout. 
@@ -43,7 +47,7 @@ State clearly who is conducting the research, who the data controller is, and wh
 
 The purpose statement should be broad enough to cover the full range of anticipated uses - including future policy reports and academic publications - without being so vague that participants cannot understand what they are agreeing to.
 
-::: {.example .case }
+::: {.example .case data-map="romania-sm"}
 [Romania (South-Muntenia)]{.tag}
 
 This survey is being conducted by the [...] Regional Development Agency and the World Bank. The goal of the evaluation study is to assess the effectiveness of innovation grants on the creation of successful innovation projects by SMEs and SMEs' business outcomes and competitiveness.
@@ -72,7 +76,7 @@ For each optional category, explain what it is, why it is useful to the research
 
 Explain clearly that the evaluation uses a randomised design: all eligible firms have an equal chance of being assigned to the treatment group (invited to apply for the grant) or the comparison group (not invited). Participants must understand this before they enter the process. The explanation should be plain and non-technical.
 
-::: {.example .case }
+::: {.example .case data-map="romania-sm"}
 [Romania (South-Muntenia)]{.tag}
 
 To achieve a rigorous and unbiased evaluation, the selection of eligible firms invited to submit a formal application is randomised. Information from this form will be used to establish a baseline list of eligible firms. A random sample will then be assigned to the treatment group (invited to fill out the formal application) and the remaining firms will be assigned to the control group (not invited to formally apply).

@@ -4,7 +4,7 @@ description-meta: "Build a Theory of Change that maps how your programme should 
 ---
 
 ```{=html}
-<div class="tracker"><span class="on">Step 1</span><span class="sep">&rsaquo;</span><span>Step 2</span><span class="sep">&rsaquo;</span><span>Step 3</span><span class="sep">&rsaquo;</span><span>Step 4</span><span class="sep">&rsaquo;</span><span>Step 5</span><span class="sep">&rsaquo;</span><span>Step 6</span><span class="sep">&rsaquo;</span><span>Step 7</span></div>
+<nav class="tracker" aria-label="Seven steps for designing an RCT"><span class="on" aria-current="step">Step 1</span><span><a href="02.02-eval_questions.qmd" title="Step 2: define learning questions">Step 2</a></span><span><a href="02.04-indicators.qmd" title="Step 3: determine relevant indicators">Step 3</a></span><span><a href="02.03-assess.qmd" title="Step 4: check whether an RCT is feasible">Step 4</a></span><span><a href="02.05-data_sources.qmd" title="Step 5: identify available data sources">Step 5</a></span><span><a href="02.06-data_collect.qmd" title="Step 6: collect data">Step 6</a></span><span><a href="02.07-data_quality.qmd" title="Step 7: ensure high-quality data">Step 7</a></span></nav>
 ```
 
 ::: {.team-note}
@@ -92,8 +92,8 @@ A ToC follows a causal chain from resources invested to long-term change achieve
 
 **Inputs** are the resources, efforts, and actions invested in a policy. For ERDF programmes, inputs typically include ERDF co-financing, national co-financing, and the administrative capacity of the Managing Authority and intermediate bodies.
 
-::: {.example .romania}
-[North-East Romania: inputs]{.tag}
+::: {.example .romania data-map="romania-ne"}
+[North&#8209;East Romania: inputs]{.tag}
 
 - Number of staff involved in designing and implementing the digitalisation grants
 - Available budget to disrupt digitalisation grants
@@ -101,8 +101,8 @@ A ToC follows a causal chain from resources invested to long-term change achieve
 
 **Activities** are the concrete actions undertaken to deliver the programme. These are what the programme actually does.
 
-::: {.example .romania}
-[North-East Romania: activities]{.tag}
+::: {.example .romania data-map="romania-ne"}
+[North&#8209;East Romania: activities]{.tag}
 
 - Outreach and information campaign for potential applicants
 - Pre-assessment questionnaire to express interest in digitalisation grants 
@@ -111,16 +111,16 @@ A ToC follows a causal chain from resources invested to long-term change achieve
 
 **Outputs** are represent the direct and immediate results of the activities conducted within a policy. They are tangible and observable products or deliverables that demonstrate the completion of specific tasks. For ERDF programmes, these correspond closely to the common output indicators that Managing Authorities are already required to report to the European Commission.
 
-::: {.example .romania}
-[North-East Romania: outputs]{.tag}
+::: {.example .romania data-map="romania-ne"}
+[North&#8209;East Romania: outputs]{.tag}
 
 - Digitalisation grants are awarded to selected companies
 :::
 
 **Short-term outcomes** refer to the immediate changes that occur as a direct result of the outputs. These outcomes are often related to changes in knowledge, attitudes, skills, and behaviours among the target population. Although short-term outcomes are not the programme's ultimate goals, they play a crucial role in achieving the larger objectives.
 
-::: {.example .romania}
-[North-East Romania: short-term outcomes]{.tag}
+::: {.example .romania data-map="romania-ne"}
+[North&#8209;East Romania: short-term outcomes]{.tag}
 
 - Digital solution procured, installed, configured and tested 
 - Digital solution is operationalised, used by employees, customers and  others in the supply chain.​​
@@ -128,8 +128,8 @@ A ToC follows a causal chain from resources invested to long-term change achieve
 
 **Medium-term outcomes** are the intermediate changes that occur due to sustained efforts and progress from short-term outcomes. These outcomes indicate progress towards the overall goal and often involve shifts in social norms, policies, or organisational practices. These correspond closely to the common result indicators that ERDF and ESF+ programmes report on, though impact evaluations typically aim to go further by establishing a credible causal link between the programme and the result.
 
-::: {.example .romania}
-[North-East Romania: preregister the evaluation design]{.tag}
+::: {.example .romania data-map="romania-ne"}
+[North&#8209;East Romania: preregister the evaluation design]{.tag}
 
 - Companies achieve advanced digital transformation
 - Improved time management and business efficiency
@@ -137,8 +137,8 @@ A ToC follows a causal chain from resources invested to long-term change achieve
 
 **Goals** are a policy’s broad, long-term aspirations or objectives. They describe the ultimate impact or change that the policy aims to achieve. Goals are usually overarching and may require significant time and effort to accomplish.
 
-::: {.example .romania}
-[North-East Romania: goals]{.tag}
+::: {.example .romania data-map="romania-ne"}
+[North&#8209;East Romania: goals]{.tag}
 
 - Increase in sales, employment, productivity (Total Factor Productivity) and profitability
 - Higher resilience to economic shocks, due to the business versatility ensured though the digital solutions 
@@ -146,8 +146,8 @@ A ToC follows a causal chain from resources invested to long-term change achieve
 
 **Assumptions** are the underlying beliefs, conditions, or factors that are considered to be true but have not yet been fully proven or tested. Assumptions may involve external factors, stakeholder behaviour, or contextual influences that must align for the theory to work as expected.
 
-::: {.example .romania}
-[North-East Romania: assumptions]{.tag}
+::: {.example .romania data-map="romania-ne"}
+[North&#8209;East Romania: assumptions]{.tag}
 
 - Employees will possess, or will be able to acquire, the digital skills needed to effectively use the solution for advanced digital transformation
 - Companies have sufficient organisational flexibility to change internal processes
@@ -163,8 +163,8 @@ Developing a ToC is well worth the effort for two important reasons. First, it s
 
 Second, a ToC produces richer and more transferable policy lessons. Measuring the right intermediate outcomes reveals not just whether an intervention worked, but how and why it worked. Opening this "black box" transforms evaluation results from a simple pass/fail verdict into actionable insight that can inform the next programming period. The knowledge gained also travels better - findings grounded in a clear causal logic are more readily applied by other Managing Authorities facing similar challenges in different regional contexts.
 
-:::: {.example .romania}
-[North-East Romania: why investing time]{.tag}
+:::: {.example .romania data-map="romania-ne"}
+[North&#8209;East Romania: why investing time]{.tag}
 
 In Romania, the World Bank supported the Managing Authority in developing a ToC and in applying systematic methods to quantify the Managing Authority's own expectations about programme impacts before the call launched. This exercise revealed gaps between what the programme was designed to achieve and what its indicators actually measured - allowing the design to be adjusted before implementation rather than after the evaluation.
 ::::

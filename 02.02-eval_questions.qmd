@@ -4,7 +4,7 @@ description-meta: "Write the questions your evaluation must answer: what makes a
 ---
 
 ```{=html}
-<div class="tracker"><span>Step 1</span><span class="sep">&rsaquo;</span><span class="on">Step 2</span><span class="sep">&rsaquo;</span><span>Step 3</span><span class="sep">&rsaquo;</span><span>Step 4</span><span class="sep">&rsaquo;</span><span>Step 5</span><span class="sep">&rsaquo;</span><span>Step 6</span><span class="sep">&rsaquo;</span><span>Step 7</span></div>
+<nav class="tracker" aria-label="Seven steps for designing an RCT"><span><a href="02.01-toc.qmd" title="Step 1: develop a Theory of Change">Step 1</a></span><span class="on" aria-current="step">Step 2</span><span><a href="02.04-indicators.qmd" title="Step 3: determine relevant indicators">Step 3</a></span><span><a href="02.03-assess.qmd" title="Step 4: check whether an RCT is feasible">Step 4</a></span><span><a href="02.05-data_sources.qmd" title="Step 5: identify available data sources">Step 5</a></span><span><a href="02.06-data_collect.qmd" title="Step 6: collect data">Step 6</a></span><span><a href="02.07-data_quality.qmd" title="Step 7: ensure high-quality data">Step 7</a></span></nav>
 
 ```
 
@@ -43,24 +43,24 @@ A well-structured evaluation typically includes a primary question and a set of 
 
 **The primary question** focuses on the main effect of the intervention on the most important outcome. This is the question the evaluation is powered to answer - the sample size and data collection plan are designed around it. For most competitiveness and innovation programmes, the primary question concerns a key outcome such as R&D expenditure, product innovation, or labour productivity.
 
-::: {.example .romania}
-[North-East Romania: primary question]{.tag}
+::: {.example .romania data-map="romania-ne"}
+[North&#8209;East Romania: primary question]{.tag}
 
 Does receiving a digitalisation grant increases business performance (e.g. sales) and productivity?
 :::
 
 **Heterogeneity questions** ask whether effects differ across subgroups - for example, by firm size, age, sector, or prior innovation experience. These questions are important for understanding *for whom* the programme works best and informing targeting decisions in future programme rounds.
 
-::: {.example .romania}
-[North-East Romania: heterogeneity question]{.tag}
+::: {.example .romania data-map="romania-ne"}
+[North&#8209;East Romania: heterogeneity question]{.tag}
 
 How do impacts of receiving a digitalisation grant vary across firm size, location, sector, and initial level of digitalisation?
 :::
 
 **Mechanism questions** probe *how* the intervention produces its effects - which links in the ToC are activated. By measuring intermediate outcomes, these questions open the "black box" and generate richer policy lessons than a simple estimate of the final effect.
 
-::: {.example .romania}
-[North-East Romania: mechanism question]{.tag}
+::: {.example .romania data-map="romania-ne"}
+[North&#8209;East Romania: mechanism question]{.tag}
 
 Does the digitalisation grant increase investments in digitalisation and technology adoption?
 :::
@@ -68,8 +68,8 @@ Does the digitalisation grant increase investments in digitalisation and technol
 
 **Implementation questions** assess whether the programme was delivered as intended and what barriers affected take-up or compliance. These are particularly important for interpreting null results - an evaluation that finds no effect needs to establish whether the intervention was actually delivered.
 
-::: {.example .romania}
-[North-East Romania: implementation question]{.tag}
+::: {.example .romania data-map="romania-ne"}
+[North&#8209;East Romania: implementation question]{.tag}
 
 What share of companies in the treatment group, that were invited to apply, were actually contracted?
 :::

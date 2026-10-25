@@ -3,6 +3,10 @@ title: "Power calculations: how many firms you need"
 description-meta: "Find out how many firms your trial needs to detect an effect, what drives that number and what to discuss with your evaluator about sample size."
 ---
 
+```{=html}
+<nav class="tracker" aria-label="Seven steps for designing an RCT"><span><a href="02.01-toc.qmd" title="Step 1: develop a Theory of Change">Step 1</a></span><span><a href="02.02-eval_questions.qmd" title="Step 2: define learning questions">Step 2</a></span><span><a href="02.04-indicators.qmd" title="Step 3: determine relevant indicators">Step 3</a></span><span class="on"><a href="02.03-assess.qmd" title="Step 4: check whether an RCT is feasible">Step 4</a></span><span><a href="02.05-data_sources.qmd" title="Step 5: identify available data sources">Step 5</a></span><span><a href="02.06-data_collect.qmd" title="Step 6: collect data">Step 6</a></span><span><a href="02.07-data_quality.qmd" title="Step 7: ensure high-quality data">Step 7</a></span></nav>
+```
+
 ::: {.team-note}
 ## Summary {.unlisted}
 This page explains what a power calculation is, what goes into it, and what a Managing Authority needs to know to have a useful conversation with an evaluator about sample size.
@@ -138,8 +142,8 @@ Here is what each ingredient means in plain language:
 
 
 
-::: {.example .romania}
-[North-East Romania: Was 1,038 companies enough for North-East Romania?]{.tag}
+::: {.example .romania data-map="romania-ne"}
+[North&#8209;East Romania: Was 1,038 companies enough for North&#8209;East Romania?]{.tag}
 Once the power calculation is run, you compare the result against the size of your eligible pool. If your pool exceeds the required sample, you are ready to randomise. If it falls short, you need to grow the pool before the draw.
 
 In North-East Romania, the evaluation team ran the power calculation before the draw and confirmed that the pool of 1,038 firms was large enough to detect the effects they expected - which is why the draw proceeded with 519 firms in each group.

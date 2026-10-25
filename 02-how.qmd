@@ -39,6 +39,10 @@ Formulate the specific questions the evaluation is designed to answer, grounded 
 ### [Step 3: determine relevant indicators](02.04-indicators.qmd) {.unlisted}
 
 Select the outcome indicators that will be used to measure change across each level of the ToC.
+
+::: {.sub-steps}
+Tool: [RCT outcome repository](09-bank_outcomes.qmd)
+:::
 :::
 
 ::: {.card-e}
@@ -67,6 +71,8 @@ Design and implement the data collection - surveys, administrative data access, 
 
 ::: {.sub-steps}
 Also in this step: [Terms of reference](02.06a-tor.qmd) · [Informed consent](02.06b-consent.qmd)
+
+Tool: [Survey question repository](08-bank_survey.qmd)
 :::
 :::
 
@@ -100,11 +106,26 @@ Someone with detailed knowledge of the intervention: eligibility criteria, selec
 :::
 :::
 
-Where possible, it is also helpful to involve a legal or procurement officer early - to confirm that the national legal framework permits randomisation and to manage the procurement process - and a data protection officer, to ensure that data-sharing agreements and General Data Protection Regulation compliance are in place before fieldwork begins.
+Where possible, it is also helpful to involve:
 
+::: {.cards .defs .optional}
+::: {.card-e}
+**A legal or procurement officer**
+
+Involved early, to confirm that the national legal framework permits randomisation and to manage the procurement process.
+:::
+::: {.card-e}
+**A data protection officer**
+
+To ensure that data-sharing agreements and General Data Protection Regulation compliance are in place before fieldwork begins.
+:::
+:::
+
+::: {.soft-panel}
 The internal team does not need to be large - in smaller Managing Authorities, one or two people may cover several roles. What matters is that the responsibilities are clearly assigned and that the evaluation focal point has the authority to make decisions and the access to programme information they need.
 
 Where internal capacity or methodological expertise is limited, external experts can be hired to support - covering evaluation design, data collection, or both.
+:::
 
 ::: {.nav-buttons}
 [← Back to - RCTs: why and when](01-why-and-when.qmd) | [Next - Step 1: develop a Theory of Change →](02.01-toc.qmd)

@@ -4,7 +4,7 @@ description-meta: "Decide where your outcome data will come from: weigh survey a
 ---
 
 ```{=html}
-<div class="tracker"><span>Step 1</span><span class="sep">&rsaquo;</span><span>Step 2</span><span class="sep">&rsaquo;</span><span>Step 3</span><span class="sep">&rsaquo;</span><span>Step 4</span><span class="sep">&rsaquo;</span><span class="on">Step 5</span><span class="sep">&rsaquo;</span><span>Step 6</span><span class="sep">&rsaquo;</span><span>Step 7</span></div>
+<nav class="tracker" aria-label="Seven steps for designing an RCT"><span><a href="02.01-toc.qmd" title="Step 1: develop a Theory of Change">Step 1</a></span><span><a href="02.02-eval_questions.qmd" title="Step 2: define learning questions">Step 2</a></span><span><a href="02.04-indicators.qmd" title="Step 3: determine relevant indicators">Step 3</a></span><span><a href="02.03-assess.qmd" title="Step 4: check whether an RCT is feasible">Step 4</a></span><span class="on" aria-current="step">Step 5</span><span><a href="02.06-data_collect.qmd" title="Step 6: collect data">Step 6</a></span><span><a href="02.07-data_quality.qmd" title="Step 7: ensure high-quality data">Step 7</a></span></nav>
 ```
 
 ::: {.team-note}
@@ -27,8 +27,8 @@ For each indicator in your evaluation framework, you must decide whether to rely
 
 In countries where administrative data sources - such as business registries, tax records, and social security data - are well established and reliable, as is generally the case across the European Union, combining both sources is often the most effective approach: secondary data provides broad coverage and pre-intervention history, while primary survey data captures the outcomes and mechanisms that administrative records cannot.
 
-::: {.example .romania}
-[North-East Romania: data sources]{.tag}
+::: {.example .romania data-map="romania-ne"}
+[North&#8209;East Romania: data sources]{.tag}
 
 North-East Romania used a combination of primary and secondary data: self-reported survey data was collected using a structured questionnaire that complements administrative data sources. 
 :::
@@ -73,8 +73,8 @@ Key sources of secondary firm-level data
 | Programme management system | Beneficiary list, grant amounts, disbursement dates, output indicators | Held internally by the Managing Authority |
 
 
-::: {.example .romania}
-[North-East Romania: administrative data]{.tag}
+::: {.example .romania data-map="romania-ne"}
+[North&#8209;East Romania: administrative data]{.tag}
 
 North-East Romania used two administrative data sources: (i) publicly available financial records from the Romanian Ministry of Finance, which contain information on annual revenues, profits, and firm size and (ii) the ORBIS database.
 :::

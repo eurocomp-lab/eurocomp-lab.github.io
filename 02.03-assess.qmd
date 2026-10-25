@@ -4,7 +4,7 @@ description-meta: "Check the five conditions a randomised trial needs, choose fr
 ---
 
 ```{=html}
-<div class="tracker"><span>Step 1</span><span class="sep">&rsaquo;</span><span>Step 2</span><span class="sep">&rsaquo;</span><span>Step 3</span><span class="sep">&rsaquo;</span><span class="on">Step 4</span><span class="sep">&rsaquo;</span><span>Step 5</span><span class="sep">&rsaquo;</span><span>Step 6</span><span class="sep">&rsaquo;</span><span>Step 7</span></div>
+<nav class="tracker" aria-label="Seven steps for designing an RCT"><span><a href="02.01-toc.qmd" title="Step 1: develop a Theory of Change">Step 1</a></span><span><a href="02.02-eval_questions.qmd" title="Step 2: define learning questions">Step 2</a></span><span><a href="02.04-indicators.qmd" title="Step 3: determine relevant indicators">Step 3</a></span><span class="on" aria-current="step">Step 4</span><span><a href="02.05-data_sources.qmd" title="Step 5: identify available data sources">Step 5</a></span><span><a href="02.06-data_collect.qmd" title="Step 6: collect data">Step 6</a></span><span><a href="02.07-data_quality.qmd" title="Step 7: ensure high-quality data">Step 7</a></span></nav>
 ```
 
 ::: {.team-note}
@@ -105,8 +105,8 @@ The most common mistake is treating randomisation as something that can be added
 </figure>
 ```
 
-:::: {.example .romania}
-[North-East Romania: building the eligibility pool]{.tag}
+:::: {.example .romania data-map="romania-ne"}
+[North&#8209;East Romania: building the eligibility pool]{.tag}
 ```{=html}
 <div class="flow">
   <div>Outreach<br><span style="font-weight:400;color:#6B6455">Social media, radio, and events in 20+ cities</span></div>
@@ -136,8 +136,8 @@ Standard outreach channels - newsletters, social media posts, agency websites - 
 Effective outreach requires direct, personalised engagement: in-person events, road trips to municipalities, collaboration with mayors and local business associations, and hands-on application support. Experimenting with different outreach approaches - and measuring which ones work - can significantly expand the eligible pool and improve the quality of applications.
 
 
-::: {.example .romania}
-[North-East Romania]{.tag}
+::: {.example .romania data-map="romania-ne"}
+[North&#8209;East Romania]{.tag}
 
 In North-East Romania, the World Bank randomised outreach activities across 46 cities, selecting 26 for road-trips where a consultant explained the call and helped firms complete the pre-assessment survey. Cities that received road-trips produced 110 applications compared to 71 in cities that did not - a 55% increase. Applications from road-trip cities also came from significantly smaller firms (12.6 employees on average, compared to 19.6 in comparison cities). Compared to previous calls, the total number of applicants tripled and the number of eligible firms more than doubled. This small experiment demonstrated both the effectiveness of in-person mobilisation and the value of embedding experimentation into programme implementation.
 ::::
@@ -150,8 +150,8 @@ In North-East Romania, the World Bank randomised outreach activities across 46 c
 
 On one hand, eligibility criteria should not be too restrictive to target a large enough number of firms. On the other hand, eligibility criteria should remain specific enough to identify firms with the highest potential to benefit. Eligibility criteria should be linked to the programme's Theory of Change to avoid that wrong firms enter the pool.
 
-::: {.example .case}
-[Romania]{.tag}
+::: {.example .case data-map="romania-sm"}
+[Romania (South-Muntenia)]{.tag}
 
 In South-Muntenia (Romania), the World Bank found that eligibility criteria for an innovation support programme were quite restrictive, taking into account the firm landscape in this region. The World Bank worked with the Managing Authority to adjust the criteria to target a higher number of firms.
 ::::
@@ -165,7 +165,7 @@ Programmes that are designed without a prior assessment of beneficiary needs fre
 
 A baseline needs assessment - conducted before the programme launches - allows the Managing Authority to understand the regional landscape, calibrate grant sizes and eligibility thresholds, and anticipate demand more accurately. Where uncertainty about demand remains, piloting different programme elements before full-scale rollout can reduce the risk of costly mismatches.
 
-::: {.example .case}
+::: {.example .case data-map="italy"}
 [Italy]{.tag}
 
 In Italy, a minibond programme pre-identified 289 eligible firms, of which only 30 applied - a hit rate of 10.3%. Of the 19 firms that ultimately issued a minibond, most had access to alternative financing and may not have needed the programme at all. A prior needs assessment could have revealed that the programme's terms were less attractive than alternative instruments already available in the region - including zero-interest loans and non-repayable grants from earlier programmes - and that the design needed to be adjusted accordingly before launch.
@@ -181,8 +181,8 @@ Complex, document-heavy application processes disproportionately burden firms th
 
 Application requirements should be proportionate to the amount of funding requested. Processes should be fully digital, integrated with existing administrative databases wherever possible, and capable of providing real-time eligibility feedback so that firms can assess their likelihood of success before investing significant time in an application.
 
-::: {.example .case}
-[North-East Romania]{.tag}
+::: {.example .romania data-map="romania-ne"}
+[North&#8209;East Romania]{.tag}
 
 In Romania, the pre-assessment survey was designed to do three jobs simultaneously: collect baseline data for the evaluation, assess firm eligibility in real time, and provide firms with enough information to decide whether to proceed - all within approximately 40 minutes. Survey responses were automatically cross-referenced with official firm data, enabling instant verification of core eligibility criteria. Firms that did not meet the requirements were informed immediately, saving them from investing further time in a formal application that would have been rejected. Eligible firms received individualised benchmark reports comparing their digitalisation levels to similar firms in their region, providing added value to participants regardless of their eventual selection outcome.
 ::::
@@ -197,7 +197,7 @@ The application process is typically treated as a one-way flow of information: f
 
 Firms that receive useful information during the application process are more engaged, better prepared to make investment decisions if selected, and more likely to view the experience positively even if they are not funded.
 
-::: {.example .case}
+::: {.example .case data-map="croatia"}
 [Croatia]{.tag}
 
 In the Scinergy pilot in Croatia, the World Bank supported an extensive outreach and information campaign that included a dedicated project website, a LinkedIn campaign with paid promotions, appearances in television and online media, presentations at industry events and scientific institutions, and webinars targeting thousands of firms. The campaign was structured around a business-science matchmaking concept, providing firms with substantive information about how to collaborate with research institutions - not just how to apply for a grant. The initiative attracted widespread media coverage and generated strong interest in applications well before the call officially opened.
@@ -256,8 +256,8 @@ Not every programme fits the same shape. The right design depends on your progra
 </div>
 ```
 
-:::: {.example .romania}
-[North-East Romania used a lottery]{.tag}
+:::: {.example .romania data-map="romania-ne"}
+[North&#8209;East Romania used a lottery]{.tag}
 
 North-East Romania used a simple lottery. The 1,038 eligible firms were split into two equal groups of 519 by a random draw. The treatment group was invited to apply for a grant of between €15,000 and €100,000 to invest in equipment, software, or services. The firms in the comparison group were not invited to apply and thus, received no grant. Both groups were surveyed in the same way throughout the evaluation period.
 
@@ -472,9 +472,9 @@ Even a well-designed RCT must survive contact with reality. These are the four m
 
 **Spillovers.** Comparison firms benefit from the programme indirectly - a treated supplier passes on improved products, or a treated neighbour shares what they learned in a training session. When this happens, the gap between the groups narrows and the evaluation underestimates the true effect. Spillovers are most likely in concentrated sectors or geographically tight clusters. Where the risk is high, randomising at a higher level - by region or sector cohort rather than by individual firm - can contain it. If spillovers are anticipated, the RCT can be designed in a manner accounting for them.
 
-::: {.example .case}
-[South Muntenia: designing for spillovers]{.tag}
-South Muntenia built spillovers into the design.
+::: {.example .case data-map="romania-sm"}
+[Romania (South-Muntenia): designing for spillovers]{.tag}
+South-Muntenia built spillovers into the design.
 About 900 applicant SMEs are grouped into roughly 100 geographic or sector clusters. Each
 cluster is randomly assigned a funding intensity of 0%, 33%, 66% or 100%, and firms within
 each cluster are then randomly selected for funding up to that share. Comparing funded and
@@ -491,8 +491,8 @@ different intensities measures the spillover onto neighbours and competitors.
 None of these problems make an RCT impossible - but all of them must be anticipated at the design stage, not discovered after the endline survey. 
 :::
 
-::: {.example .romania}
-[North-East Romania: the programme did not achieve full take-up]{.tag}
+::: {.example .romania data-map="romania-ne"}
+[North&#8209;East Romania: the programme did not achieve full take-up]{.tag}
 
 Of the 519 firms selected by lottery, only 393 (75.7%) went on to submit a full funding proposal, and 333 (64.2%) were eventually contracted.
 
@@ -520,8 +520,8 @@ Registry for International Development Impact Evaluations, hosted by 3ie.
 :::
 :::
 
-:::: {.example .romania}
-[North-East Romania: preregister the evaluation design]{.tag}
+:::: {.example .romania data-map="romania-ne"}
+[North&#8209;East Romania: preregister the evaluation design]{.tag}
 
 The evaluation was pre-registered in the [AEA RCT Registry](https://www.socialscienceregistry.org/trials/15592/history/256867) on 18 March 2025, prior to follow-up data collection.
 ::::

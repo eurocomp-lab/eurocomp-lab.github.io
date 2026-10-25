@@ -4,7 +4,7 @@ description-meta: "Turn your Theory of Change into measurable indicators, test t
 ---
 
 ```{=html}
-<div class="tracker"><span>Step 1</span><span class="sep">&rsaquo;</span><span>Step 2</span><span class="sep">&rsaquo;</span><span class="on">Step 3</span><span class="sep">&rsaquo;</span><span>Step 4</span><span class="sep">&rsaquo;</span><span>Step 5</span><span class="sep">&rsaquo;</span><span>Step 6</span><span class="sep">&rsaquo;</span><span>Step 7</span></div>
+<nav class="tracker" aria-label="Seven steps for designing an RCT"><span><a href="02.01-toc.qmd" title="Step 1: develop a Theory of Change">Step 1</a></span><span><a href="02.02-eval_questions.qmd" title="Step 2: define learning questions">Step 2</a></span><span class="on" aria-current="step">Step 3</span><span><a href="02.03-assess.qmd" title="Step 4: check whether an RCT is feasible">Step 4</a></span><span><a href="02.05-data_sources.qmd" title="Step 5: identify available data sources">Step 5</a></span><span><a href="02.06-data_collect.qmd" title="Step 6: collect data">Step 6</a></span><span><a href="02.07-data_quality.qmd" title="Step 7: ensure high-quality data">Step 7</a></span></nav>
 ```
 
 ::: {.team-note}
@@ -33,8 +33,8 @@ Good indicators share five characteristics, often summarised as SMART:
 | **Realistic** | The data can be obtained within the available time and budget, at a frequency that matches the evaluation timeline |
 | **Targeted** | The indicator reflects outcomes for the specific population the programme is designed to serve |
 
-::: {.example .romania}
-[North-East Romania: selected indicators]{.tag}
+::: {.example .romania data-map="romania-ne"}
+[North&#8209;East Romania: selected indicators]{.tag}
 
 - Digital adoption (Digital Economy and Society Index)
 - Expenditures in equipment, software, development, training, and digital tools

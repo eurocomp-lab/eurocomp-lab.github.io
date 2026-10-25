@@ -4,7 +4,7 @@ description-meta: "Plan survey rounds, choose a collection method, design and pi
 ---
 
 ```{=html}
-<div class="tracker"><span>Step 1</span><span class="sep">&rsaquo;</span><span>Step 2</span><span class="sep">&rsaquo;</span><span>Step 3</span><span class="sep">&rsaquo;</span><span>Step 4</span><span class="sep">&rsaquo;</span><span>Step 5</span><span class="sep">&rsaquo;</span><span class="on">Step 6</span><span class="sep">&rsaquo;</span><span>Step 7</span></div>
+<nav class="tracker" aria-label="Seven steps for designing an RCT"><span><a href="02.01-toc.qmd" title="Step 1: develop a Theory of Change">Step 1</a></span><span><a href="02.02-eval_questions.qmd" title="Step 2: define learning questions">Step 2</a></span><span><a href="02.04-indicators.qmd" title="Step 3: determine relevant indicators">Step 3</a></span><span><a href="02.03-assess.qmd" title="Step 4: check whether an RCT is feasible">Step 4</a></span><span><a href="02.05-data_sources.qmd" title="Step 5: identify available data sources">Step 5</a></span><span class="on" aria-current="step">Step 6</span><span><a href="02.07-data_quality.qmd" title="Step 7: ensure high-quality data">Step 7</a></span></nav>
 ```
 
 ::: {.team-note}
@@ -23,16 +23,16 @@ An RCT evaluation requires data at multiple points in time. The exact rounds dep
 
 **Baseline survey:** conducted before the intervention begins and might be used as the basis for randomisation companies into treatment and comparison groups. It captures pre-treatment characteristics, enables balance checks after randomisation, and provides the benchmark against which post-intervention outcomes are compared. It must be completed before randomisation is revealed. A baseline primary survey is almost always needed, since administrative data rarely contains the intermediate outcomes and mechanism variables required by the evaluation.
 
-::: {.example .romania}
-[North-East Romania: baseline survey]{.tag}
+::: {.example .romania data-map="romania-ne"}
+[North&#8209;East Romania: baseline survey]{.tag}
 
 A baseline survey (pre-application data) was administered: the primary objective of the baseline survey was to conduct an initial evaluation of the business's digital tool requirements and help determine their programme eligibility. The survey questions covered topics such as location, sector, financial considerations (e.g., profits, capital, assets, liabilities), and legal prerequisites. The survey required approximately an hour to complete and was completed online by each firm between June and the end of September 2023.
 :::
 
 **Follow-up data collection:** measures outcomes after the intervention, at a point when effects are realistically expected to have materialised. In the European Union (EU) context, a dedicated endline survey is not always necessary. Business registries, tax records, social security data, and customs records - consistently available across member states - can cover many of the core outcome variables (turnover, employment, exports, productivity) without placing any additional burden on firms. Where administrative data provides sufficient coverage, it should be the primary endline source. A primary endline survey becomes necessary only when the evaluation requires outcomes or mechanisms that administrative records do not contain - for example, management practices, innovation behaviour, digital technology adoption, or respondent-reported perceptions of the programme.
 
-::: {.example .romania}
-[North-East Romania: follow-up data collection]{.tag}
+::: {.example .romania data-map="romania-ne"}
+[North&#8209;East Romania: follow-up data collection]{.tag}
 
 A follow-up survey was administered: the 1,038 firms surveyed at baseline were contacted for a follow-up survey conducted between March and May 2025. Interviews took approximately 60 minutes to complete and covered nine key topics i) general administrative details about the business; ii) background information on the business manager; iii) an overview of the business; iv) details on products/services, market presence, revenue, and customers; v) the use of telecommunications and internet across business locations; vi) relevant digital indicators for the business; vii) methods and processes used for routine business operations; viii) key factors influencing technology adoption, such as investments and management decisions; and ix) financial information for the business in 2024.
 :::
@@ -70,8 +70,8 @@ There is no single best method. The right choice depends on who the respondents 
 
 In practice, methods can be combined: begin with a web survey, follow up with CATI for non-respondents, and use CAPI selectively for subgroups where richer detail is needed.
 
-::: {.example .romania}
-[North-East Romania: primary respondents]{.tag}
+::: {.example .romania data-map="romania-ne"}
+[North&#8209;East Romania: primary respondents]{.tag}
 
 Data in North-East Romania was collected using a web survey (baseline survey) and involved CAPI and CATI methods for the follow-up survey, depending on respondents' availability.
 :::
@@ -80,8 +80,8 @@ Data in North-East Romania was collected using a web survey (baseline survey) an
 
 **Choosing the right respondent.** For firm-level surveys, the ideal respondent is a senior decision-maker - a Chief Executive Officers (CEOs), Chief Financial Officer (CFO), or equivalent - who has oversight of the firm's strategic and financial decisions. The respondent should ideally be the same person at baseline and endline to ensure that differences reflect real changes rather than differences between respondents. Where the programme targets a specific group within the firm - such as R&D personnel - those individuals may be more appropriate for certain questions.
 
-::: {.example .romania}
-[North-East Romania: primary respondents]{.tag}
+::: {.example .romania data-map="romania-ne"}
+[North&#8209;East Romania: primary respondents]{.tag}
 
 The primary respondents were CEOs and/or firm owners, with additional input from senior representatives of relevant departments when necessary.
 :::
@@ -95,8 +95,8 @@ Managing Authorities can implement RCTs in-house including conducting surveys an
 
 The division of responsibilities between the Managing Authority, the evaluation consultant and/or the data collection firm should be made explicit in procurement. Close collaboration is key for a successfully conducted RCT. Depending on which activities the Managing Authorities conduct in-house, the evaluation consultant or data collection firm supports or conducts the following activities: designing the survey instrument, translating and piloting the questionnaire, determining the sample, setting up the digital survey platform, recruiting and training enumerators, managing fieldwork, monitoring response rates, implementing quality controls, delivering a clean dataset, and carrying out the statistical analysis once data has been collected.
 
-::: {.example .romania}
-[North-East Romania: primary respondents]{.tag}
+::: {.example .romania data-map="romania-ne"}
+[North&#8209;East Romania: primary respondents]{.tag}
 
 The survey implementation was undertaken by a team of 30 enumerators hired by Romanian-based data collection firms.
 :::

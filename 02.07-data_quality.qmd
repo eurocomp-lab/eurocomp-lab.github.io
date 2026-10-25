@@ -4,7 +4,7 @@ description-meta: "Build quality checks into every stage of data collection: bef
 ---
 
 ```{=html}
-<div class="tracker"><span>Step 1</span><span class="sep">&rsaquo;</span><span>Step 2</span><span class="sep">&rsaquo;</span><span>Step 3</span><span class="sep">&rsaquo;</span><span>Step 4</span><span class="sep">&rsaquo;</span><span>Step 5</span><span class="sep">&rsaquo;</span><span>Step 6</span><span class="sep">&rsaquo;</span><span class="on">Step 7</span></div>
+<nav class="tracker" aria-label="Seven steps for designing an RCT"><span><a href="02.01-toc.qmd" title="Step 1: develop a Theory of Change">Step 1</a></span><span><a href="02.02-eval_questions.qmd" title="Step 2: define learning questions">Step 2</a></span><span><a href="02.04-indicators.qmd" title="Step 3: determine relevant indicators">Step 3</a></span><span><a href="02.03-assess.qmd" title="Step 4: check whether an RCT is feasible">Step 4</a></span><span><a href="02.05-data_sources.qmd" title="Step 5: identify available data sources">Step 5</a></span><span><a href="02.06-data_collect.qmd" title="Step 6: collect data">Step 6</a></span><span class="on" aria-current="step">Step 7</span></nav>
 ```
 
 ::: {.team-note}
@@ -68,6 +68,6 @@ Where administrative data quality is uncertain, the evaluation should include a 
 ***
 
 ::: {.nav-buttons}
-[← Previous - Step 6: collect data](02.06-data_collect.qmd) | [← Back to - How to design an RCT](02-how.qmd)
+[← Previous - Step 6: collect data](02.06-data_collect.qmd) | [Next - Examples →](03-examples.qmd)
 :::
 
