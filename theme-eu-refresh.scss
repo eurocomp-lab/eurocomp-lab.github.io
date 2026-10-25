@@ -905,3 +905,16 @@ hr:has(+ .nav-buttons) { display: none; }
 #TOC a:focus-visible .toc-place,
 #TOC a.active .toc-place { color: $rf-blue; }
 #TOC a .nobr { white-space: nowrap; }
+
+/* ---------------------------------------------------------------
+   Batch 16 (October 2026): the home page gets the "On this page"
+   menu. Quarto hides it while the hero is in view; over the
+   "How to start" band it sits on a white panel.
+   --------------------------------------------------------------- */
+.has-hero #TOC {
+  padding: .7rem .6rem .7rem .7rem;
+  background: #FFFFFF;
+  border-radius: 8px;
+}
+/* while the hero is in view Quarto swaps the menu for a small toggle; the hero has its own buttons */
+.has-hero #quarto-toc-toggle { display: none !important; }

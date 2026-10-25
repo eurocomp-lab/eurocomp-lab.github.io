@@ -72,4 +72,7 @@ format:
     link-external-newwindow: false
     date-format: "D MMMM YYYY"
     # highlights the current section in the top bar (there is no left menu)
-    include-after-body: _nav-current.html
+    include-after-body:
+      - _nav-current.html
+      # group labels in the On this page menu (examples page, why-and-when page)
+      - _toc-groups.html

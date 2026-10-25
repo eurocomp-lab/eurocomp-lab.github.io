@@ -1,7 +1,6 @@
 ---
 title: "Randomised trials for EU-funded programmes"
 description-meta: "Learn how Managing Authorities can use randomised controlled trials to find out which EU-funded programmes work, with guidance, examples and survey tools."
-toc: false
 title-block-style: none   # the hero below carries the page title
 body-classes: has-hero
 ---
@@ -126,7 +125,7 @@ receives. See [Choosing the right evaluation design](01-why-and-when.qmd#choosin
 {{< video https://youtu.be/CP88LYKlzW0 title="Trying something new" aspect-ratio="16x9" >}}
 :::
 
-### Do you think you already know which programme works and whom to fund? {.statement}
+### Do you think you already know which programme works and whom to fund? {.statement .unlisted}
 
 Every euro you commit is a euro you cannot spend elsewhere. To ensure resources are spent efficiently, ask yourself:
 
@@ -287,7 +286,7 @@ Established labs already supporting experimentation.
 :::
 ::::
 
-### The EU needs more Managing Authorities leading the change towards experimentation in policy making
+### The EU needs more Managing Authorities leading the change towards experimentation in policy making {.unlisted}
 
 
 ::: {.video-frame}
