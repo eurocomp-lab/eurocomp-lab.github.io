@@ -480,7 +480,7 @@ cluster is randomly assigned a funding intensity of 0%, 33%, 66% or 100%, and fi
 each cluster are then randomly selected for funding up to that share. Comparing funded and
 unfunded firms within a cluster measures each firm's own return; comparing clusters with
 different intensities measures the spillover onto neighbours and competitors.
-[Read the full example](03-examples.qmd#romania-south-muntenia-the-returns-to-innovation-subsidies).
+[Read the full example](03-examples.qmd#south-muntenia).
 :::
 
 **Low take-up.** Some firms assigned to the treatment group never use the support - they decline the grant, fail to meet the conditions, or disengage early. Low take-up dilutes the estimated effect: if only half the treatment group actually received the programme, the impact estimate reflects a half-dose. Monitoring take-up actively during implementation - and understanding why firms do not engage - is essential for interpreting what the evaluation ultimately shows.
