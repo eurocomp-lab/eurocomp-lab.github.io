@@ -1,6 +1,7 @@
 ---
 title: "Examples of RCTs in public programmes"
 description-meta: "Explore randomised trials built into public programmes in Spain, Croatia, Czechia, Romania and beyond: the problem, the design and the results so far."
+toc-depth: 2
 ---
 
 ```{=html}
@@ -2139,3 +2140,57 @@ equilibrium effect this study could not measure.
 
 [↑ Back to all examples](#examples-overview){.back-to-cases}
 
+```{=html}
+<script>
+/* "On this page" on the examples page: each example shows its place over its topic, under the
+   group labels of the overview cards (Completed, In implementation, Beyond Europe). The labels
+   are read from the overview cards, so the menu follows any change made there. Without
+   JavaScript the menu keeps the plain headings. */
+(function () {
+  var list = document.querySelector("#TOC > ul");
+  var overview = document.getElementById("examples-overview");
+  if (!list || !overview) return;
+  var groupOf = {}, label = null;
+  Array.prototype.forEach.call(overview.children, function (el) {
+    if (el.classList.contains("case-group")) label = el.textContent.trim();
+    else if (el.classList.contains("case-card")) groupOf[el.getAttribute("href")] = label;
+  });
+  var last = null;
+  Array.prototype.slice.call(list.children).forEach(function (li) {
+    var a = li.firstElementChild;
+    if (!a || a.tagName !== "A") return;
+    // place and topic: split the heading at its first ": ", keeping any spans inside it
+    var nodes = Array.prototype.slice.call(a.childNodes);
+    for (var i = 0; i < nodes.length; i++) {
+      var n = nodes[i];
+      if (n.nodeType !== 3 || n.data.indexOf(": ") < 0) continue;
+      var k = n.data.indexOf(": ");
+      var place = document.createElement("span"), topic = document.createElement("span");
+      place.className = "toc-place"; topic.className = "toc-topic";
+      for (var j = 0; j < nodes.length; j++) {
+        if (j < i) place.appendChild(nodes[j]);
+        else if (j > i) topic.appendChild(nodes[j]);
+      }
+      place.appendChild(document.createTextNode(n.data.slice(0, k)));
+      topic.insertBefore(document.createTextNode(n.data.slice(k + 2)), topic.firstChild);
+      var sep = document.createElement("span");   // keeps "Place: topic" for screen readers
+      sep.className = "visually-hidden"; sep.textContent = ": ";
+      a.removeChild(n);
+      a.appendChild(place);
+      a.appendChild(sep);
+      a.appendChild(topic);
+      break;
+    }
+    // a group label where a new group starts
+    var g = groupOf[a.getAttribute("href")];
+    if (g && g !== last) {
+      var head = document.createElement("li");
+      head.className = "toc-group";
+      head.textContent = g;
+      list.insertBefore(head, li);
+      last = g;
+    }
+  });
+})();
+</script>
+```
