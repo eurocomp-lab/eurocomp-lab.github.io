@@ -678,3 +678,92 @@ hr:has(+ .nav-buttons) { display: none; }
   #quarto-document-content section.case > .case-meta { min-height: 0; padding: .3rem 1rem 1rem; }
   #quarto-document-content section.case > h2.case::after { display: none; }   /* the overview cards carry the maps on phones */
 }
+
+/* ---------------------------------------------------------------
+   Batch 12 (October 2026): why-and-when page. An overview of the
+   page in three parts, a part label above the heading that starts
+   each part, locator maps in the example boxes, and the
+   additionality rates as large numbers.
+   --------------------------------------------------------------- */
+/* overview of the page */
+#quarto-document-content .page-parts {
+  display: grid;
+  grid-template-columns: repeat(3, minmax(0, 1fr));
+  gap: .75rem;
+  margin: 1.75rem 0 2.25rem;
+}
+#quarto-document-content .page-parts .part-card {
+  padding: .9rem 1rem 1rem;
+  background: #FFFFFF;
+  border: 1px solid $rf-rule;
+  border-top: 3px solid $rf-blue;
+  border-radius: 8px;
+}
+#quarto-document-content .page-parts .part-no {
+  display: block;
+  font-size: .72rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: $rf-blue;
+}
+#quarto-document-content .page-parts .part-title { display: block; margin: .2rem 0 .6rem; font-weight: 700; line-height: 1.25; color: $rf-ink; }
+#quarto-document-content .page-parts ul { margin: 0; padding: 0; list-style: none; }
+#quarto-document-content .page-parts li { margin: 0 0 .4rem; font-size: .88rem; line-height: 1.35; }
+#quarto-document-content .page-parts a { text-decoration: none; }
+#quarto-document-content .page-parts a:hover,
+#quarto-document-content .page-parts a:focus-visible { text-decoration: underline; }
+@media (max-width: 991.98px) {
+  #quarto-document-content .page-parts { grid-template-columns: 1fr; }
+}
+
+/* the heading that starts each part carries its label, with a rule above
+   (data-part, not a class: a class on the section would drop the 40rem reading width) */
+#quarto-document-content section[data-part] > h2[data-part] {
+  max-width: none;
+  padding-top: 1.1rem;
+  border-top: 3px solid $rf-blue;
+}
+#quarto-document-content h2[data-part]::before {
+  content: attr(data-part);
+  display: block;
+  margin-bottom: .5rem;
+  font-size: .72rem;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: $rf-blue;
+}
+
+/* locator maps in the example boxes that name one (data-map), the same maps as on the
+   examples page. Paths are relative to this file; Quarto copies the maps next to the
+   compiled stylesheet. */
+#quarto-document-content .example[data-map] .tag { display: flex; align-items: center; gap: .7rem; }
+#quarto-document-content .example[data-map] .tag::before {
+  content: "";
+  flex: none;
+  width: 3.5rem;
+  aspect-ratio: 160 / 142;
+  border-radius: 4px;
+  background: center / contain no-repeat;
+}
+#quarto-document-content .example[data-map="romania-ne"] .tag::before { background-image: url("assets/maps/romania-ne.svg"); }
+#quarto-document-content .example[data-map="digitrans"] .tag::before { background-image: url("assets/maps/digitrans.svg"); }
+#quarto-document-content .example[data-map="colombia"] .tag::before { background-image: url("assets/maps/colombia.svg"); aspect-ratio: 160 / 134; }
+
+/* strategy A vs B: the additionality rate as a large number */
+#quarto-document-content .compare.strategy .body > p:last-child {
+  margin-top: .9rem;
+  padding-top: .75rem;
+  border-top: 1px solid $rf-rule;
+}
+#quarto-document-content .compare.strategy .body > p:last-child strong {
+  display: block;
+  margin-top: .1rem;
+  font-size: 2rem;
+  font-weight: 800;
+  line-height: 1.1;
+  letter-spacing: -.01em;
+  color: $rf-blue;
+}

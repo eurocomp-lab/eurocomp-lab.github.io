@@ -8,9 +8,43 @@ description-meta: "Learn what impact evaluation is, why a randomised controlled 
 This page explains in more detail why experimentation is worth doing and when to plan it. It explains what impact evaluation is and why experimentation - running a randomised controlled trial (RCT) - is usually the preferred way to do it, and when to use one: which questions it can answer, why it has to be planned early, and when it is not the right tool.
 :::
 
+```{=html}
+<nav class="page-parts" id="page-overview" aria-label="Parts of this page">
+  <div class="part-card">
+    <span class="part-no">Part 1</span>
+    <span class="part-title">What impact evaluation is</span>
+    <ul>
+      <li><a href="#impact-evaluation">What is impact evaluation for?</a></li>
+      <li><a href="#monitoring">Monitoring and evaluation (M&amp;E) vs impact evaluation</a></li>
+      <li><a href="#counterfactual">What exactly is the impact of a programme?</a></li>
+      <li><a href="#allocation">What does good allocation of public resources look like?</a></li>
+    </ul>
+  </div>
+  <div class="part-card">
+    <span class="part-no">Part 2</span>
+    <span class="part-title">Why an RCT</span>
+    <ul>
+      <li><a href="#finding-counterfactual">Finding the counterfactual</a></li>
+      <li><a href="#rct">What is a randomised controlled trial?</a></li>
+      <li><a href="#legitimacy">Randomisation can improve legitimacy and trust in programmes</a></li>
+    </ul>
+  </div>
+  <div class="part-card">
+    <span class="part-no">Part 3</span>
+    <span class="part-title">When to use one</span>
+    <ul>
+      <li><a href="#two-questions">What do you want to learn?</a></li>
+      <li><a href="#choosing-design">Choosing the right evaluation design</a></li>
+      <li><a href="#alternatives">What if you cannot randomise?</a></li>
+      <li><a href="#when-not">When not to run an RCT</a></li>
+      <li><a href="#learning-cycle">Learning through RCTs is a continuous process</a></li>
+    </ul>
+  </div>
+</nav>
+```
 
-::: {.example .romania}
-[The running example: North-East Romania]{.tag}
+::: {.example .romania data-map="romania-ne"}
+[The running example: North&#8209;East Romania]{.tag}
 
 Throughout this site, we come back to one programme developed as part of the [EuroCOMP
 Lab](eurocomp.qmd) to show these ideas in practice: a digitalisation grant scheme for
@@ -51,7 +85,7 @@ transparent](#legitimacy), and [how outreach was tested](#two-questions) to illu
 
 :::
 
-## What is impact evaluation for? {#impact-evaluation}
+## What is impact evaluation for? {#impact-evaluation data-part="Part 1 of 3 · What impact evaluation is"}
 
 ```{=html}
 <figure class="fig-e">
@@ -202,8 +236,8 @@ For example, growth, jobs, innovation, resilience.
 
 
 
-::: {.example .romania}
-[The impact in the North-East Romania programme]{.tag}
+::: {.example .romania data-map="romania-ne"}
+[The impact in the North&#8209;East Romania programme]{.tag}
 
 For North-East Romania, the impact is the gap between treatment and comparison firms on
 four tracked outcomes: digital adoption, revenue, employment, and productivity.
@@ -271,9 +305,9 @@ in designing a strong impact evaluation. There is more on this in
 
 Making the chain explicit also surfaces the assumptions behind each link, and shows which of them the programme's impact depends on most. If one of these assumptions does not hold (for example, that firms will take up the support they are offered), the programme may fall short of its intended impact. One way to reduce this risk is to test, within the same evaluation, alternative ways of addressing that weak link, such as two different outreach approaches, and see which works better.
 
-::: {.example .case #digitrans}
+::: {.example .case #digitrans data-map="digitrans"}
 [Digitrans example]{.tag}
-The Digitrans pilot (see [Examples](03-examples.qmd) for more details) tested and compared two alternative ways to increase digital adoption among MSMEs in Bulgaria, Poland and Slovakia. Firms were randomly assigned to either (i) a comparison group receiving no support, (ii) a financial subsidy alone, or (iii) the same subsidy paired with technical assistance.
+The Digitrans pilot (see [Examples](03-examples.qmd#digitrans) for more details) tested and compared two alternative ways to increase digital adoption among MSMEs in Bulgaria, Poland and Slovakia. Firms were randomly assigned to either (i) a comparison group receiving no support, (ii) a financial subsidy alone, or (iii) the same subsidy paired with technical assistance.
 
 The pilot found that money alone was not the most effective approach. Firms that also received technical assistance used
 digital tools 2.5 times more intensively than those with the subsidy alone. This is evidence that capability, not just cash, was a constraint to digitalisation. 
@@ -291,7 +325,7 @@ it is impossible to tell how much of that difference is due to the programme.
 Consider an illustrative innovation-grant scheme: EUR 50,000 to each of 100 firms, where
 "success" means launching a new product. Compare two selection rules.
 
-::: {.compare}
+::: {.compare .strategy}
 ::: {.col-e}
 ::: {.col-head}
 Strategy A: fund the top performers
@@ -353,7 +387,9 @@ did not predict which firms would survive or grow three years later (McKenzie & 
 :::
 :::
 
-## Finding the counterfactual  {#finding-counterfactual}
+[↑ Back to the overview](#page-overview){.back-to-cases}
+
+## Finding the counterfactual  {#finding-counterfactual data-part="Part 2 of 3 · Why an RCT"}
 
 As [defined above](#counterfactual), the counterfactual is what would have happened to programme participants without the programme. It can never be observed directly, so it has to be estimated.
 
@@ -388,8 +424,8 @@ using natural variation in who received the programme and who did not.
 treatment group on average. If that assumption is wrong, the impact estimate is biased.
 :::
 
-::: {.example .romania}
-[North-East Romania: the counterfactual]{.tag}
+::: {.example .romania data-map="romania-ne"}
+[North&#8209;East Romania: the counterfactual]{.tag}
 In North-East Romania, the counterfactual is the group of eligible firms that were not
 drawn in the lottery. [How the lottery created it](#rct).
 :::
@@ -446,8 +482,8 @@ because:
 - They are easy to interpret
 
 
-::: {.example .romania}
-[North-East Romania: the lottery and its comparison group]{.tag}
+::: {.example .romania data-map="romania-ne"}
+[North&#8209;East Romania: the lottery and its comparison group]{.tag}
 
 Firms first completed an online pre-assessment survey. The 1,038 firms that met the
 pre-set eligibility criteria all qualified. Because demand exceeded the budget, a public
@@ -549,8 +585,8 @@ Illustration:
 </div>
 ```
 
-::: {.example .romania}
-[North-East Romania: additional measures to increase trust]{.tag}
+::: {.example .romania data-map="romania-ne"}
+[North&#8209;East Romania: additional measures to increase trust]{.tag}
 
 North-East Romania's draw was run in front of a notary: the random number seed drawn, the
 selection code run, and the resulting balance between groups reviewed. This increased firms' confidence that selection was fair.
@@ -559,7 +595,9 @@ eligible pool, no ranking of the "best" applications was needed. Evaluators only
 check that each firm met the formal criteria and that the requested funds were justified.
 :::
 
-## What do you want to learn? {#two-questions}
+[↑ Back to the overview](#page-overview){.back-to-cases}
+
+## What do you want to learn? {#two-questions data-part="Part 3 of 3 · When to use one"}
 
 Whether you have sufficient evidence that your programme works, or you are still working
 out who it reaches and how to design it, there is a case for experimentation. The starting
@@ -590,8 +628,8 @@ technical assistance performs best.
 :::
 :::
 
-::: {.example .romania}
-[North-East Romania: testing outreach]{.tag}
+::: {.example .romania data-map="romania-ne"}
+[North&#8209;East Romania: testing outreach]{.tag}
 In fact, the North-East Romania programme asked both questions. It used an experiment to find out if the programme is effective and a second experiment to study how to best conduct outreach.
 Before the digitalisation call, the regional development agency randomly selected 26 of 46
 towns for in-person information visits, in which a consultant explained the call and
@@ -600,7 +638,7 @@ applications against 71 in the towns that did not receive in-person visits (55% 
 smaller firms (12.6 employees on average, compared with 19.6).
 :::
 
-::: {.example .case}
+::: {.example .case data-map="colombia"}
 [Colombia: group vs individual management support]{.tag}
 [Iacovone et al. 2022](03-examples.qmd#colombia-scaling-up-management-consulting) compared two ways to deliver management consulting to auto-parts firms:
 one-to-one (about US$28,950 per firm) and in groups of 3-8 firms (about US$10,500). Both
