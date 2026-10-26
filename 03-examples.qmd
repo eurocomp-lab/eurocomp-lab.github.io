@@ -18,18 +18,18 @@ This page presents examples of public programmes that built experimentation into
 
 ```{=html}
 <div class="case-cards" id="examples-overview">
-<p class="case-group">Completed</p>
+<p class="case-group">Examples from EuroCOMP Lab and precursors</p>
 <a class="case-card" href="#spain"><img src="assets/maps/spain.svg" alt="" width="160" height="142"><span class="case-card-text"><span class="loc">Spain</span><span class="reg">Extremadura</span><span class="topic">Financial support to innovate</span><span class="status-pill done">Completed</span></span></a>
 <a class="case-card" href="#czechia-light-touch-support-for-smes"><img src="assets/maps/czechia.svg" alt="" width="160" height="142"><span class="case-card-text"><span class="loc">Czechia</span><span class="reg">Moravian-Silesian, Ústí and Karlovy Vary regions</span><span class="topic">Light-touch support for SMEs</span><span class="status-pill done">Completed</span></span></a>
 <a class="case-card" href="#croatia"><img src="assets/maps/croatia.svg" alt="" width="160" height="142"><span class="case-card-text"><span class="loc">Croatia</span><span class="reg">National programme</span><span class="topic">Matching businesses with scientists</span><span class="status-pill done">Completed</span></span></a>
 <a class="case-card" href="#romania-north-east-digitalisation"><img src="assets/maps/romania-ne.svg" alt="" width="160" height="142"><span class="case-card-text"><span class="loc">Romania</span><span class="reg">North-East region</span><span class="topic">Financial support to digitalise</span><span class="status-pill done">Completed</span></span></a>
-<a class="case-card" href="#europe-grants-for-sme-energy-efficiency"><img src="assets/maps/eenergy.svg" alt="" width="160" height="142"><span class="case-card-text"><span class="loc">Europe</span><span class="reg">34 countries</span><span class="topic">Grants for SME energy efficiency</span><span class="status-pill done">Completed</span></span></a>
-<a class="case-card" href="#digitrans"><img src="assets/maps/digitrans.svg" alt="" width="160" height="142"><span class="case-card-text"><span class="loc">Bulgaria, Poland and Slovakia</span><span class="reg">Three countries</span><span class="topic">Digitrans: digital adoption support for MSMEs</span><span class="status-pill done">Completed</span></span></a>
-<p class="case-group">In implementation</p>
 <a class="case-card" href="#bulgaria"><img src="assets/maps/bulgaria.svg" alt="" width="160" height="142"><span class="case-card-text"><span class="loc">Bulgaria</span><span class="reg">Northern Bulgaria</span><span class="topic">Human-led versus AI-led business consulting</span><span class="status-pill ongoing">In implementation</span></span></a>
 <a class="case-card" href="#poland-ai-assistance-for-smarter-horizon-europe-applications"><img src="assets/maps/poland.svg" alt="" width="160" height="142"><span class="case-card-text"><span class="loc">Poland</span><span class="reg">National programme</span><span class="topic">AI assistance for smarter Horizon Europe applications</span><span class="status-pill ongoing">In implementation</span></span></a>
 <a class="case-card" href="#romania-north-east-ai-assistance-for-smarter-grant-reviews"><img src="assets/maps/romania-ne.svg" alt="" width="160" height="142"><span class="case-card-text"><span class="loc">Romania</span><span class="reg">North-East region</span><span class="topic">AI assistance for smarter grant reviews</span><span class="status-pill ongoing">In implementation</span></span></a>
 <a class="case-card" href="#south-muntenia"><img src="assets/maps/romania-sm.svg" alt="" width="160" height="142"><span class="case-card-text"><span class="loc">Romania</span><span class="reg">South-Muntenia region</span><span class="topic">The returns to innovation subsidies</span><span class="status-pill ongoing">In implementation</span></span></a>
+<p class="case-group">Other examples from Europe</p>
+<a class="case-card" href="#digitrans"><img src="assets/maps/digitrans.svg" alt="" width="160" height="142"><span class="case-card-text"><span class="loc">Bulgaria, Poland and Slovakia</span><span class="reg">Three countries</span><span class="topic">Digitrans: digital adoption support for MSMEs</span><span class="status-pill done">Completed</span></span></a>
+<a class="case-card" href="#europe-grants-for-sme-energy-efficiency"><img src="assets/maps/eenergy.svg" alt="" width="160" height="142"><span class="case-card-text"><span class="loc">Europe</span><span class="reg">34 countries</span><span class="topic">Grants for SME energy efficiency</span><span class="status-pill done">Completed</span></span></a>
 <p class="case-group">Beyond Europe</p>
 <a class="case-card" href="#colombia-scaling-up-management-consulting"><img src="assets/maps/colombia.svg" alt="" width="160" height="134"><span class="case-card-text"><span class="loc">Colombia</span><span class="reg">Four regions</span><span class="topic">Scaling up management consulting</span><span class="status-pill done">Completed</span></span></a>
 <a class="case-card" href="#yemen-testing-whether-internships-help-youth-find-work"><img src="assets/maps/yemen.svg" alt="" width="160" height="145"><span class="case-card-text"><span class="loc">Yemen</span><span class="reg">Sanaa and Aden</span><span class="topic">Testing whether internships help youth find work</span><span class="status-pill done">Completed</span></span></a>
@@ -756,370 +756,6 @@ applications, and the additional applicants were smaller firms
 
 [↑ Back to all examples](#examples-overview){.back-to-cases}
 
-## Europe: grants for SME energy efficiency {#europe-grants-for-sme-energy-efficiency .case data-case="5 of 12" data-status="Completed" data-map="eenergy"}
-
-```{=html}
-<div class="case-meta">
-<span class="case-where">34 European countries</span><span>Simple lottery</span><span>1,964 SMEs</span><span>2024–2026</span>
-</div>
-```
-
-::: {.cards}
-::: {.card-e}
-**The problem**
-
-Energy efficiency is one of the cheapest ways for a firm to cut energy use and costs,
-yet most European SMEs invest little in it. Among the firms that applied to this
-programme, only 22% had invested in energy efficiency in the year before applying, even
-though 62% already monitored their energy use and almost all planned some form of
-capital investment. Advice on its own was not turning plans into purchases.
-:::
-::: {.card-e}
-**What was done**
-
-The European Commission (DG GROW and EISMEA), the Enterprise Europe Network (EEN) and
-the World Bank ran the EENergy pilot, funded by the EU Single Market Programme.
-
-On top of the advisory support EEN advisors already provide, the pilot offered a
-reimbursement grant of up to EUR 10,000 for energy-efficiency measures: equipment and
-installations, consultancy, or staff training. The evaluation was designed into the
-programme from the start, before the first call opened.
-:::
-:::
-
-### What experimentation sought to answer
-
-::: {.quote-e}
-"Does money on top of advice change what small firms invest in, and does it cut their
-energy use?"
-:::
-
-
-
-### The programme
-
-```{=html}
-<div class="facts">
-  <div><div class="k">Timeline</div><div class="v">Call 1 opened February 2024 (1,406 firms); lottery June 2024; activities from July 2024; Call 2 December 2024 to February 2025 (558 firms); follow-up surveys Q1 2025 and Q1 2026; findings September 2026</div></div>
-  <div><div class="k">The programme</div><div class="v">EENergy: a reimbursement grant of up to EUR 10,000 for equipment, consultancy or training, on top of standard EEN advisory services</div></div>
-  <div><div class="k">Where</div><div class="v">34 European countries; European Commission (DG GROW, EISMEA) and Enterprise Europe Network with the World Bank, funded by the EU Single Market Programme</div></div>
-  <div><div class="k">Who is randomised</div><div class="v">1,964 eligible SMEs across two open calls: 54% micro, 36% small, 9% medium-sized; 36% in manufacturing</div></div>
-  <div><div class="k">The design</div><div class="v">Simple lottery among eligible applicants, run separately for each call and stratified by consortium and advisor: 986 offered the grant vs. 978 receiving advisory services only</div></div>
-  <div><div class="k">Outcomes tracked</div><div class="v">Energy-efficiency and renewable investment, energy use and spending, energy management practices, revenue, profits and employment</div></div>
-  <div><div class="k">Starting point</div><div class="v">Only 22% of applicant firms had invested in energy efficiency in the year before the programme, although 62% already monitored their energy use</div></div>
-</div>
-```
-
-### Key steps and dates
-
-```{=html}
-<div class="flow">
-  <div>Two open calls</div>
-  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
-  <div>Eligibility check</div>
-  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
-  <div>Lottery</div>
-  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
-  <div>Grants and advisory services</div>
-  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
-  <div>Follow-up surveys</div>
-</div>
-```
-
-### How the programme was tested
-
-Firms applied in two open calls, from February to May 2024 and from December 2024 to
-February 2025. Applications were screened against the EU definition of an SME and
-against programme requirements, including an energy-efficiency action plan agreed with
-an EEN advisor and a target of at least 5% lower energy consumption. Eligible firms
-then entered a lottery, run separately for each call and stratified by consortium and
-advisor characteristics, so that funded and unfunded firms came from the same pool and
-worked with comparable advisors.
-
-```{=html}
-<figure class="fig-e">
-<svg viewBox="0 0 700 200" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="1,964 eligible firms enter a lottery, splitting them into 986 firms offered a grant of up to EUR 10,000 and 978 firms receiving advisory services only">
-  <rect x="20" y="66" width="150" height="66" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="95" y="95" text-anchor="middle" fill="var(--dg-ink)" font-size="19" font-weight="bold">1,964</text>
-  <text x="95" y="114" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="10.5">eligible firms</text>
-
-  <path d="M170 99 H230" stroke="var(--dg-line)" stroke-width="1.5"/>
-
-  <rect x="230" y="66" width="150" height="66" rx="6" fill="var(--dg-accent)"/>
-  <text x="305" y="92" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">LOTTERY</text>
-  <text x="305" y="110" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">every firm, the same chance</text>
-
-  <path d="M380 99 H410 V40 H440" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
-  <path d="M380 99 H410 V160 H440" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
-
-  <rect x="440" y="14" width="245" height="52" rx="6" fill="var(--dg-accent)"/>
-  <text x="454" y="36" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">986 offered a grant</text>
-  <text x="454" y="53" fill="var(--dg-ink)" font-size="11">up to EUR 10,000, plus advice</text>
-
-  <rect x="440" y="134" width="245" height="52" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="454" y="156" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">978 standard group</text>
-  <text x="454" y="173" fill="var(--dg-ink-soft)" font-size="11">advisory services only</text>
-</svg>
-<figcaption>Note: Every firm in the study had already cleared eligibility and was working with an EEN advisor, so the lottery isolates the effect of the money rather than the advice.</figcaption>
-</figure>
-```
-
-::: {.soft-panel}
-**Why this design.**
-Strength: because the grant was drawn by lottery among firms that
-all received the same advisory service, the comparison separates the effect of the cash
-from the effect of the advice, across 34 countries at once.
-Limitation: firms offered
-the grant answered follow-up surveys far more often than the standard group (91%
-against 65%), so the estimates depend on statistical corrections for who responded.
-:::
-
-### What the programme achieved
-
-One year on, the grant had changed what firms bought and how they managed energy.
-Total energy-related investment was about EUR 9,700 higher per firm in the grant group,
-almost all of it capital spending, with renewable-energy installations the single
-largest category.
-
-::: {.cards .results}
-::: {.card-e}
-[+26 pp]{.num}
-
-**Firms investing in energy efficiency**
-
-43% of firms offered the grant made an energy-efficiency investment, against 17% of the
-standard group.
-:::
-::: {.card-e}
-[×3]{.num}
-
-**Firms investing in renewables**
-
-The share investing in renewable energy rose from 10% to about 30%.
-:::
-::: {.card-e}
-[+31 pp]{.num}
-
-**Firms setting energy-reduction goals**
-
-83% of the grant group set energy-reduction goals, against 52% of the standard group,
-alongside more regular energy monitoring.
-:::
-:::
-
-The response was strongest among the smallest firms. Renewable-energy investment rose
-by 22 percentage points among micro and small firms, against 5 points among
-medium-sized firms. The fixed EUR 10,000 was worth roughly 5% of annual revenue for the
-median micro firm, but only 0.1% for the median medium-sized firm, which is the
-clearest explanation on offer for the gap.
-
-::: {.caution}
-Averaged across all firms, no reduction in electricity consumption or total energy
-spending was detectable one year after the grants, and there was no detectable effect
-on revenue, profits or employment. Savings did appear for particular groups:
-electricity consumption fell by about 10% among micro and small firms, and electricity
-spending by about 20% among firms in the second call. The practical lesson for
-programme design is to scale a fixed grant to firm size, or to target smaller firms,
-and to justify it on investment and management change rather than on short-run business
-performance.
-:::
-
-```{=html}
-<div class="further-reading">
-  <span class="fr-label">Further reading</span>
-  <div class="fr-entry">
-  <span class="fr-cite">Avdeenko, A., Campos, F., Iacovone, L., Kala, N., Nuno, M., Salhab, J., and Martin, R. 2026. &ldquo;Does Financial Support Improve SME Energy Efficiency? An RCT in Europe.&rdquo; World Bank, Washington, DC.</span>
-  <a href="assets/eenergy-2pager.pdf">Summary of findings (PDF) &rarr;</a>
-  </div>
-  <div class="fr-entry">
-  <span class="fr-cite">Trial registration: AEARCTR-0015124, AEA RCT Registry.</span>
-  <a href="https://www.socialscienceregistry.org/trials/15124">View the registration &rarr;</a>
-  </div>
-</div>
-```
-
-[↑ Back to all examples](#examples-overview){.back-to-cases}
-
-## Bulgaria, Poland and Slovakia: Digitrans, digital adoption support for MSMEs {#digitrans .case data-case="6 of 12" data-status="Completed" data-map="digitrans"}
-
-```{=html}
-<div class="case-meta">
-<span class="case-where">Bulgaria, Poland and Slovakia</span><span>Three-arm RCT</span><span>629 MSMEs</span><span>2024–2025</span>
-</div>
-```
-
-::: {.cards}
-::: {.card-e}
-**The problem**
-
-Small businesses in Bulgaria, Poland and Slovakia show limited adoption of digital
-tools beyond what regulation or the financial sector requires. The 2022 Digital Economy
-and Society Index places all three countries in the bottom quartile of EU members for
-business digitalisation.
-
-Current public support programmes in the region largely overlook this: MSMEs account
-for 98% of businesses and two-thirds of employment, yet most programmes still emphasise
-technology adoption and financial assistance, leaving the managerial and organisational
-capabilities firms need to make use of new tools unaddressed.
-:::
-::: {.card-e}
-**What was done**
-
-The World Bank designed Digitrans, a standardised support instrument tested across
-Bulgaria, Poland and Slovakia, integrating a financial subsidy with technical
-assistance to address both resource and capability constraints.
-
-The financial subsidy provides up to EUR 2,000 per firm towards the cost of adopting
-digital business tools. The technical assistance component adds a 10-week programme of
-diagnostic assessment, group training and one-to-one advisory support.
-:::
-:::
-
-### What experimentation sought to answer
-
-::: {.quote-e}
-"Does pairing technical assistance with a financial subsidy improve MSME
-digitalisation outcomes more than a subsidy alone?"
-:::
-
-### The programme
-
-```{=html}
-<div class="facts">
-  <div><div class="k">The programme</div><div class="v">A financial subsidy of up to EUR 2,000 per firm, with a subset of firms also receiving a 10-week technical assistance programme</div></div>
-  <div><div class="k">Where</div><div class="v">Bulgaria, Poland and Slovakia; World Bank Digitrans pilot, EU-funded</div></div>
-  <div><div class="k">Who is randomised</div><div class="v">629 MSMEs with 5&ndash;35 employees and at least 12 months trading, drawn from over 1,600 applications</div></div>
-  <div><div class="k">The design</div><div class="v">Three-arm RCT, stratified by country, firm size and digital sophistication: comparison (209), subsidy only (210), subsidy plus technical assistance (210)</div></div>
-  <div><div class="k">Outcomes tracked</div><div class="v">Digital tool adoption and usage, managerial and organisational change, firm performance</div></div>
-  <div><div class="k">Starting point</div><div class="v">Small businesses show limited digital adoption beyond what regulation or banks require</div></div>
-</div>
-```
-
-### Key steps and dates
-
-```{=html}
-<div class="flow">
-  <div>Applications<span class="flow-date">May&ndash;Jul 2024</span></div>
-  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
-  <div>Eligibility and interview</div>
-  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
-  <div>Random assignment</div>
-  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
-  <div>Subsidy and support<span class="flow-date">Q3&ndash;Q4 2024</span></div>
-  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
-  <div>Follow-up survey<span class="flow-date">From Q4 2024</span></div>
-</div>
-```
-
-
-### How the programme was tested
-
-Firms applied through an open call across Bulgaria, Poland and Slovakia in 2024, and
-those meeting the eligibility criteria completed a baseline interview. Eligible firms
-were then randomly assigned by the World Bank into one of three groups, with
-randomisation stratified within each country by firm size and digital sophistication so
-that groups were balanced from the outset.
-
-```{=html}
-<figure class="fig-e">
-<svg viewBox="0 0 700 270" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="629 randomised firms enter a stratified lottery, splitting them into a comparison group of 209 firms, a financial subsidy only group of 210 firms, and a financial subsidy plus technical assistance group of 210 firms">
-  <rect x="10" y="90" width="150" height="70" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
-  <text x="85" y="120" text-anchor="middle" fill="#2B2724" font-size="19" font-weight="bold">629</text>
-  <text x="85" y="139" text-anchor="middle" fill="#6B6455" font-size="10.5">randomised firms</text>
-
-  <path d="M160 125 H196" stroke="#B9AF95" stroke-width="1.5"/>
-
-  <rect x="196" y="90" width="180" height="70" rx="6" fill="#F2C94C"/>
-  <text x="286" y="113" text-anchor="middle" fill="#2B2724" font-size="12.5" font-weight="bold">STRATIFIED LOTTERY</text>
-  <text x="286" y="130" text-anchor="middle" fill="#2B2724" font-size="10.5">by country, size and</text>
-  <text x="286" y="143" text-anchor="middle" fill="#2B2724" font-size="10.5">digital sophistication</text>
-
-  <path d="M376 125 H406" stroke="#B9AF95" stroke-width="1.5"/>
-  <path d="M406 125 V28 H436" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
-  <path d="M406 125 H436" stroke="#B9AF95" stroke-width="1.5"/>
-  <path d="M406 125 V222 H436" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
-
-  <rect x="436" y="0" width="254" height="56" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
-  <text x="450" y="22" fill="#2B2724" font-size="12.5" font-weight="bold">209 comparison group</text>
-  <text x="450" y="39" fill="#6B6455" font-size="10.5">benchmarking report only</text>
-
-  <rect x="436" y="97" width="254" height="56" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
-  <text x="450" y="119" fill="#2B2724" font-size="12.5" font-weight="bold">210 financial subsidy</text>
-  <text x="450" y="136" fill="#6B6455" font-size="10.5">subsidy plus benchmarking report</text>
-
-  <rect x="436" y="194" width="254" height="56" rx="6" fill="#F2C94C"/>
-  <text x="450" y="216" fill="#2B2724" font-size="12.5" font-weight="bold">210 subsidy + technical assistance</text>
-  <text x="450" y="233" fill="#2B2724" font-size="10.5">the full support package</text>
-</svg>
-<figcaption>Note: Randomisation was stratified within each country by firm size and digital sophistication, splitting 629 eligible firms into a comparison group and two support groups of about 210 firms each.</figcaption>
-</figure>
-```
-
-::: {.soft-panel}
-**Why this design.**
-Strength: a three-arm design separates the effect of money from
-the effect of capability-building support, rather than only comparing supported firms
-to unsupported ones.
-Limitation: it needs a larger sample than a simple two-arm trial to
-detect the same effect size, since firms are split three ways.
-:::
-
-::: {.takeaway}
-Allocation resulted in balanced groups across a broad range of firm characteristics,
-creating a solid foundation for rigorous impact evaluation. There was no evidence of
-systematic differences between groups at baseline, so later changes can be reliably
-attributed to the support received rather than to pre-existing differences.
-:::
-
-### What the programme achieved
-
-::: {.cards .results}
-::: {.card-e}
-[×2.5]{.num}
-
-**Digital tool usage is 2.5 times higher with combined support**
-
-Firms that received both types of support increased their digital tool usage intensity
-more than twice as much as those with a subsidy alone.
-:::
-::: {.card-e}
-[×2]{.num}
-
-**Managerial changes are more common with technical assistance**
-
-Firms in the combined support group were twice as likely to introduce internal
-organisational and managerial changes.
-:::
-::: {.card-e}
-[82% vs 67%]{.num}
-
-**Combined support leads to deeper use of digital tools**
-
-Firms with technical assistance made better use of advanced software functions: 82%
-used CRM systems for client communication, against 67% in the subsidy-only group.
-:::
-:::
-
-::: {.caution}
-Firms receiving only a financial subsidy typically limited their spending to the
-subsidy value, with no meaningful increase in the sophistication of tools available to
-them. Effective digitalisation support needs to go beyond subsidising technology
-purchases: the benefits of combined support were especially strong among smaller firms,
-firms with low initial digital capabilities, service-sector firms and women-led
-businesses.
-:::
-
-```{=html}
-<div class="further-reading">
-  <span class="fr-label">Further reading</span>
-  <div class="fr-entry">
-  <span class="fr-cite">Campos, F., Iacovone, L., Iwanowski, D., and Reichenbach, A. W. 2025. &ldquo;Bridging the Digital Gap: Evidence from a Multi-Country Pilot on Supporting MSME Digitalization in the EU.&rdquo; World Bank, Washington, DC.</span>
-  <a href="assets/Gr_Digitrans_Pilot_Report%20(1).pdf">Read the report &rarr;</a>
-  </div>
-</div>
-```
-
-[↑ Back to all examples](#examples-overview){.back-to-cases}
 
 ## Bulgaria: [human-led]{.nobr} versus [AI-led]{.nobr} business consulting {#bulgaria .case data-case="7 of 12" data-status="In implementation" data-map="bulgaria"}
 
@@ -1746,6 +1382,374 @@ models of innovation diffusion, an area where experimental evidence remains scar
 :::
 
 [↑ Back to all examples](#examples-overview){.back-to-cases}
+
+
+
+## Europe: grants for SME energy efficiency {#europe-grants-for-sme-energy-efficiency .case data-case="5 of 12" data-status="Completed" data-map="eenergy"}
+
+```{=html}
+<div class="case-meta">
+<span class="case-where">34 European countries</span><span>Simple lottery</span><span>1,964 SMEs</span><span>2024–2026</span>
+</div>
+```
+
+::: {.cards}
+::: {.card-e}
+**The problem**
+
+Energy efficiency is one of the cheapest ways for a firm to cut energy use and costs,
+yet most European SMEs invest little in it. Among the firms that applied to this
+programme, only 22% had invested in energy efficiency in the year before applying, even
+though 62% already monitored their energy use and almost all planned some form of
+capital investment. Advice on its own was not turning plans into purchases.
+:::
+::: {.card-e}
+**What was done**
+
+The European Commission (DG GROW and EISMEA), the Enterprise Europe Network (EEN) and
+the World Bank ran the EENergy pilot, funded by the EU Single Market Programme.
+
+On top of the advisory support EEN advisors already provide, the pilot offered a
+reimbursement grant of up to EUR 10,000 for energy-efficiency measures: equipment and
+installations, consultancy, or staff training. The evaluation was designed into the
+programme from the start, before the first call opened.
+:::
+:::
+
+### What experimentation sought to answer
+
+::: {.quote-e}
+"Does money on top of advice change what small firms invest in, and does it cut their
+energy use?"
+:::
+
+
+
+### The programme
+
+```{=html}
+<div class="facts">
+  <div><div class="k">Timeline</div><div class="v">Call 1 opened February 2024 (1,406 firms); lottery June 2024; activities from July 2024; Call 2 December 2024 to February 2025 (558 firms); follow-up surveys Q1 2025 and Q1 2026; findings September 2026</div></div>
+  <div><div class="k">The programme</div><div class="v">EENergy: a reimbursement grant of up to EUR 10,000 for equipment, consultancy or training, on top of standard EEN advisory services</div></div>
+  <div><div class="k">Where</div><div class="v">34 European countries; European Commission (DG GROW, EISMEA) and Enterprise Europe Network with the World Bank, funded by the EU Single Market Programme</div></div>
+  <div><div class="k">Who is randomised</div><div class="v">1,964 eligible SMEs across two open calls: 54% micro, 36% small, 9% medium-sized; 36% in manufacturing</div></div>
+  <div><div class="k">The design</div><div class="v">Simple lottery among eligible applicants, run separately for each call and stratified by consortium and advisor: 986 offered the grant vs. 978 receiving advisory services only</div></div>
+  <div><div class="k">Outcomes tracked</div><div class="v">Energy-efficiency and renewable investment, energy use and spending, energy management practices, revenue, profits and employment</div></div>
+  <div><div class="k">Starting point</div><div class="v">Only 22% of applicant firms had invested in energy efficiency in the year before the programme, although 62% already monitored their energy use</div></div>
+</div>
+```
+
+### Key steps and dates
+
+```{=html}
+<div class="flow">
+  <div>Two open calls</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Eligibility check</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Lottery</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Grants and advisory services</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Follow-up surveys</div>
+</div>
+```
+
+### How the programme was tested
+
+Firms applied in two open calls, from February to May 2024 and from December 2024 to
+February 2025. Applications were screened against the EU definition of an SME and
+against programme requirements, including an energy-efficiency action plan agreed with
+an EEN advisor and a target of at least 5% lower energy consumption. Eligible firms
+then entered a lottery, run separately for each call and stratified by consortium and
+advisor characteristics, so that funded and unfunded firms came from the same pool and
+worked with comparable advisors.
+
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 700 200" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="1,964 eligible firms enter a lottery, splitting them into 986 firms offered a grant of up to EUR 10,000 and 978 firms receiving advisory services only">
+  <rect x="20" y="66" width="150" height="66" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="95" y="95" text-anchor="middle" fill="var(--dg-ink)" font-size="19" font-weight="bold">1,964</text>
+  <text x="95" y="114" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="10.5">eligible firms</text>
+
+  <path d="M170 99 H230" stroke="var(--dg-line)" stroke-width="1.5"/>
+
+  <rect x="230" y="66" width="150" height="66" rx="6" fill="var(--dg-accent)"/>
+  <text x="305" y="92" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">LOTTERY</text>
+  <text x="305" y="110" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">every firm, the same chance</text>
+
+  <path d="M380 99 H410 V40 H440" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+  <path d="M380 99 H410 V160 H440" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+
+  <rect x="440" y="14" width="245" height="52" rx="6" fill="var(--dg-accent)"/>
+  <text x="454" y="36" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">986 offered a grant</text>
+  <text x="454" y="53" fill="var(--dg-ink)" font-size="11">up to EUR 10,000, plus advice</text>
+
+  <rect x="440" y="134" width="245" height="52" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="454" y="156" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">978 standard group</text>
+  <text x="454" y="173" fill="var(--dg-ink-soft)" font-size="11">advisory services only</text>
+</svg>
+<figcaption>Note: Every firm in the study had already cleared eligibility and was working with an EEN advisor, so the lottery isolates the effect of the money rather than the advice.</figcaption>
+</figure>
+```
+
+::: {.soft-panel}
+**Why this design.**
+Strength: because the grant was drawn by lottery among firms that
+all received the same advisory service, the comparison separates the effect of the cash
+from the effect of the advice, across 34 countries at once.
+Limitation: firms offered
+the grant answered follow-up surveys far more often than the standard group (91%
+against 65%), so the estimates depend on statistical corrections for who responded.
+:::
+
+### What the programme achieved
+
+One year on, the grant had changed what firms bought and how they managed energy.
+Total energy-related investment was about EUR 9,700 higher per firm in the grant group,
+almost all of it capital spending, with renewable-energy installations the single
+largest category.
+
+::: {.cards .results}
+::: {.card-e}
+[+26 pp]{.num}
+
+**Firms investing in energy efficiency**
+
+43% of firms offered the grant made an energy-efficiency investment, against 17% of the
+standard group.
+:::
+::: {.card-e}
+[×3]{.num}
+
+**Firms investing in renewables**
+
+The share investing in renewable energy rose from 10% to about 30%.
+:::
+::: {.card-e}
+[+31 pp]{.num}
+
+**Firms setting energy-reduction goals**
+
+83% of the grant group set energy-reduction goals, against 52% of the standard group,
+alongside more regular energy monitoring.
+:::
+:::
+
+The response was strongest among the smallest firms. Renewable-energy investment rose
+by 22 percentage points among micro and small firms, against 5 points among
+medium-sized firms. The fixed EUR 10,000 was worth roughly 5% of annual revenue for the
+median micro firm, but only 0.1% for the median medium-sized firm, which is the
+clearest explanation on offer for the gap.
+
+::: {.caution}
+Averaged across all firms, no reduction in electricity consumption or total energy
+spending was detectable one year after the grants, and there was no detectable effect
+on revenue, profits or employment. Savings did appear for particular groups:
+electricity consumption fell by about 10% among micro and small firms, and electricity
+spending by about 20% among firms in the second call. The practical lesson for
+programme design is to scale a fixed grant to firm size, or to target smaller firms,
+and to justify it on investment and management change rather than on short-run business
+performance.
+:::
+
+```{=html}
+<div class="further-reading">
+  <span class="fr-label">Further reading</span>
+  <div class="fr-entry">
+  <span class="fr-cite">Avdeenko, A., Campos, F., Iacovone, L., Kala, N., Nuno, M., Salhab, J., and Martin, R. 2026. &ldquo;Does Financial Support Improve SME Energy Efficiency? An RCT in Europe.&rdquo; World Bank, Washington, DC.</span>
+  <a href="assets/eenergy-2pager.pdf">Summary of findings (PDF) &rarr;</a>
+  </div>
+  <div class="fr-entry">
+  <span class="fr-cite">Trial registration: AEARCTR-0015124, AEA RCT Registry.</span>
+  <a href="https://www.socialscienceregistry.org/trials/15124">View the registration &rarr;</a>
+  </div>
+</div>
+```
+
+[↑ Back to all examples](#examples-overview){.back-to-cases}
+
+## Bulgaria, Poland and Slovakia: Digitrans, digital adoption support for MSMEs {#digitrans .case data-case="6 of 12" data-status="Completed" data-map="digitrans"}
+
+```{=html}
+<div class="case-meta">
+<span class="case-where">Bulgaria, Poland and Slovakia</span><span>Three-arm RCT</span><span>629 MSMEs</span><span>2024–2025</span>
+</div>
+```
+
+::: {.cards}
+::: {.card-e}
+**The problem**
+
+Small businesses in Bulgaria, Poland and Slovakia show limited adoption of digital
+tools beyond what regulation or the financial sector requires. The 2022 Digital Economy
+and Society Index places all three countries in the bottom quartile of EU members for
+business digitalisation.
+
+Current public support programmes in the region largely overlook this: MSMEs account
+for 98% of businesses and two-thirds of employment, yet most programmes still emphasise
+technology adoption and financial assistance, leaving the managerial and organisational
+capabilities firms need to make use of new tools unaddressed.
+:::
+::: {.card-e}
+**What was done**
+
+The World Bank designed Digitrans, a standardised support instrument tested across
+Bulgaria, Poland and Slovakia, integrating a financial subsidy with technical
+assistance to address both resource and capability constraints.
+
+The financial subsidy provides up to EUR 2,000 per firm towards the cost of adopting
+digital business tools. The technical assistance component adds a 10-week programme of
+diagnostic assessment, group training and one-to-one advisory support.
+:::
+:::
+
+### What experimentation sought to answer
+
+::: {.quote-e}
+"Does pairing technical assistance with a financial subsidy improve MSME
+digitalisation outcomes more than a subsidy alone?"
+:::
+
+### The programme
+
+```{=html}
+<div class="facts">
+  <div><div class="k">The programme</div><div class="v">A financial subsidy of up to EUR 2,000 per firm, with a subset of firms also receiving a 10-week technical assistance programme</div></div>
+  <div><div class="k">Where</div><div class="v">Bulgaria, Poland and Slovakia; World Bank Digitrans pilot, EU-funded</div></div>
+  <div><div class="k">Who is randomised</div><div class="v">629 MSMEs with 5&ndash;35 employees and at least 12 months trading, drawn from over 1,600 applications</div></div>
+  <div><div class="k">The design</div><div class="v">Three-arm RCT, stratified by country, firm size and digital sophistication: comparison (209), subsidy only (210), subsidy plus technical assistance (210)</div></div>
+  <div><div class="k">Outcomes tracked</div><div class="v">Digital tool adoption and usage, managerial and organisational change, firm performance</div></div>
+  <div><div class="k">Starting point</div><div class="v">Small businesses show limited digital adoption beyond what regulation or banks require</div></div>
+</div>
+```
+
+### Key steps and dates
+
+```{=html}
+<div class="flow">
+  <div>Applications<span class="flow-date">May&ndash;Jul 2024</span></div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Eligibility and interview</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Random assignment</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Subsidy and support<span class="flow-date">Q3&ndash;Q4 2024</span></div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Follow-up survey<span class="flow-date">From Q4 2024</span></div>
+</div>
+```
+
+
+### How the programme was tested
+
+Firms applied through an open call across Bulgaria, Poland and Slovakia in 2024, and
+those meeting the eligibility criteria completed a baseline interview. Eligible firms
+were then randomly assigned by the World Bank into one of three groups, with
+randomisation stratified within each country by firm size and digital sophistication so
+that groups were balanced from the outset.
+
+```{=html}
+<figure class="fig-e">
+<svg viewBox="0 0 700 270" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="629 randomised firms enter a stratified lottery, splitting them into a comparison group of 209 firms, a financial subsidy only group of 210 firms, and a financial subsidy plus technical assistance group of 210 firms">
+  <rect x="10" y="90" width="150" height="70" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="85" y="120" text-anchor="middle" fill="#2B2724" font-size="19" font-weight="bold">629</text>
+  <text x="85" y="139" text-anchor="middle" fill="#6B6455" font-size="10.5">randomised firms</text>
+
+  <path d="M160 125 H196" stroke="#B9AF95" stroke-width="1.5"/>
+
+  <rect x="196" y="90" width="180" height="70" rx="6" fill="#F2C94C"/>
+  <text x="286" y="113" text-anchor="middle" fill="#2B2724" font-size="12.5" font-weight="bold">STRATIFIED LOTTERY</text>
+  <text x="286" y="130" text-anchor="middle" fill="#2B2724" font-size="10.5">by country, size and</text>
+  <text x="286" y="143" text-anchor="middle" fill="#2B2724" font-size="10.5">digital sophistication</text>
+
+  <path d="M376 125 H406" stroke="#B9AF95" stroke-width="1.5"/>
+  <path d="M406 125 V28 H436" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
+  <path d="M406 125 H436" stroke="#B9AF95" stroke-width="1.5"/>
+  <path d="M406 125 V222 H436" stroke="#B9AF95" stroke-width="1.5" fill="none"/>
+
+  <rect x="436" y="0" width="254" height="56" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="450" y="22" fill="#2B2724" font-size="12.5" font-weight="bold">209 comparison group</text>
+  <text x="450" y="39" fill="#6B6455" font-size="10.5">benchmarking report only</text>
+
+  <rect x="436" y="97" width="254" height="56" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
+  <text x="450" y="119" fill="#2B2724" font-size="12.5" font-weight="bold">210 financial subsidy</text>
+  <text x="450" y="136" fill="#6B6455" font-size="10.5">subsidy plus benchmarking report</text>
+
+  <rect x="436" y="194" width="254" height="56" rx="6" fill="#F2C94C"/>
+  <text x="450" y="216" fill="#2B2724" font-size="12.5" font-weight="bold">210 subsidy + technical assistance</text>
+  <text x="450" y="233" fill="#2B2724" font-size="10.5">the full support package</text>
+</svg>
+<figcaption>Note: Randomisation was stratified within each country by firm size and digital sophistication, splitting 629 eligible firms into a comparison group and two support groups of about 210 firms each.</figcaption>
+</figure>
+```
+
+::: {.soft-panel}
+**Why this design.**
+Strength: a three-arm design separates the effect of money from
+the effect of capability-building support, rather than only comparing supported firms
+to unsupported ones.
+Limitation: it needs a larger sample than a simple two-arm trial to
+detect the same effect size, since firms are split three ways.
+:::
+
+::: {.takeaway}
+Allocation resulted in balanced groups across a broad range of firm characteristics,
+creating a solid foundation for rigorous impact evaluation. There was no evidence of
+systematic differences between groups at baseline, so later changes can be reliably
+attributed to the support received rather than to pre-existing differences.
+:::
+
+### What the programme achieved
+
+::: {.cards .results}
+::: {.card-e}
+[×2.5]{.num}
+
+**Digital tool usage is 2.5 times higher with combined support**
+
+Firms that received both types of support increased their digital tool usage intensity
+more than twice as much as those with a subsidy alone.
+:::
+::: {.card-e}
+[×2]{.num}
+
+**Managerial changes are more common with technical assistance**
+
+Firms in the combined support group were twice as likely to introduce internal
+organisational and managerial changes.
+:::
+::: {.card-e}
+[82% vs 67%]{.num}
+
+**Combined support leads to deeper use of digital tools**
+
+Firms with technical assistance made better use of advanced software functions: 82%
+used CRM systems for client communication, against 67% in the subsidy-only group.
+:::
+:::
+
+::: {.caution}
+Firms receiving only a financial subsidy typically limited their spending to the
+subsidy value, with no meaningful increase in the sophistication of tools available to
+them. Effective digitalisation support needs to go beyond subsidising technology
+purchases: the benefits of combined support were especially strong among smaller firms,
+firms with low initial digital capabilities, service-sector firms and women-led
+businesses.
+:::
+
+```{=html}
+<div class="further-reading">
+  <span class="fr-label">Further reading</span>
+  <div class="fr-entry">
+  <span class="fr-cite">Campos, F., Iacovone, L., Iwanowski, D., and Reichenbach, A. W. 2025. &ldquo;Bridging the Digital Gap: Evidence from a Multi-Country Pilot on Supporting MSME Digitalization in the EU.&rdquo; World Bank, Washington, DC.</span>
+  <a href="assets/Gr_Digitrans_Pilot_Report%20(1).pdf">Read the report &rarr;</a>
+  </div>
+</div>
+```
+
+[↑ Back to all examples](#examples-overview){.back-to-cases}
+
 
 ## Colombia: scaling up management consulting {#colombia-scaling-up-management-consulting .case data-case="11 of 12" data-status="Completed" data-map="colombia"}
 
