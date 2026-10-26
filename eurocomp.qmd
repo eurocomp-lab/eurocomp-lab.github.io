@@ -100,6 +100,59 @@ See here highlights from an event bringing together Managing Authortities, resea
 {{< video https://www.youtube.com/watch?v=ipRSNDSP4XQ title="Enhancing Cohesion Policy's impact for jobs, skills, and competitiveness - Berlin highlights" aspect-ratio="16x9" >}}
 :::
 
+## EuroCOMP Lab at EURegionsWeek 2026
+ 
+Few places bring Europe's regional policy community together at this scale. EURegionsWeek 2026 gathered nearly 5,000 participants in Brussels, from policymakers and Managing Authorities to researchers and EU institutions, all asking: how can regional policy deliver more impact?
+ 
+The EuroCOMP Lab, a partnership between the European Commission (DG REGIO) and the World Bank (FCI ECA), organised a workshop on how to credibly measure what policies achieve. Instead of assuming a policy will work, regions shared how, together with the Lab, they test approaches, learn fast, and plan to use this evidence to improve programmes and implementation at scale.
+ 
+Pioneering partners from Romania and Spain, who ran the very first experiments in their own multi-million programmes, shared what they learned. In Romania, a digital grant led to more sales and jobs for supported firms, with positive spillovers to neighbouring firms.
+ 
+The timing matters: as Europe shapes the 2028–2034 budget, the decisions taken now will define how billions in Cohesion Policy funding are delivered.
+ 
+```{=html}
+<style>
+  .event-gallery {
+    display: grid;
+    grid-template-columns: 4fr 5fr;
+    grid-template-areas: "tall top" "tall bottom";
+    gap: 0.75rem;
+    margin: 1.5rem 0 0.5rem;
+  }
+  .event-gallery img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    display: block;
+    border-radius: 6px;
+  }
+  .event-gallery .g-top    { grid-area: top;    aspect-ratio: 3 / 2; }
+  .event-gallery .g-bottom { grid-area: bottom; aspect-ratio: 3 / 2; }
+  .event-gallery .g-tall   { grid-area: tall; }
+  .event-caption {
+    font-size: 0.875rem;
+    opacity: 0.75;
+    margin-bottom: 2rem;
+  }
+  @media (max-width: 640px) {
+    .event-gallery {
+      grid-template-columns: 1fr;
+      grid-template-areas: "top" "tall" "bottom";
+    }
+    .event-gallery .g-tall { aspect-ratio: 4 / 5; }
+  }
+</style>
+ 
+<div class="event-gallery">
+  <img class="g-top" src="assets/foto2.jpg" loading="lazy"
+       alt="Five panellists at the EuroCOMP Lab workshop during the European Week of Regions and Cities in Brussels">
+  <img class="g-tall" src="assets/foto1.jpg" loading="lazy"
+       alt="A speaker laughing at the panel table, in front of the European Week of Regions and Cities banner">
+  <img class="g-bottom" src="assets/foto3.jpg" loading="lazy"
+       alt="Workshop participants listening in the audience">
+</div>
+<p class="event-caption">EuroCOMP Lab workshop, European Week of Regions and Cities, Brussels, 12–14 October 2026.</p>
+```
 
 ## How it works
 
