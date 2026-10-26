@@ -207,20 +207,6 @@ In the Scinergy pilot in Croatia, the World Bank supported an extensive outreach
 
 ::::
 
-If the eligible pool still falls short, there are two immediate levers:
-
-::: {.cards}
-::: {.card-e}
-### Loosen the eligibility bar {.unlisted}
-If fewer firms qualify than needed, lowering the eligibility threshold adds more firms to the pool you randomise from. Be careful not to dilute the target population so much that the evaluation no longer answers the original question.
-:::
-::: {.card-e}
-### Widen the ranking bands {.unlisted}
-If you are scoring applicants, avoid treating small score differences as decisive. Group firms with similar scores into bands and treat everyone in a band as equally eligible - this moves more firms into the randomised pool rather than having marginal cases decided by a single point.
-:::
-:::
-
-
 
 ## Five ways to randomise your programme
 
