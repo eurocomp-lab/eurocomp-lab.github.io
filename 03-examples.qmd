@@ -20,7 +20,8 @@ This page presents examples of public programmes that built experimentation into
 <div class="case-cards" id="examples-overview">
 <p class="case-group">Examples from EuroCOMP Lab and precursors</p>
 <a class="case-card" href="#spain"><img src="assets/maps/spain.svg" alt="" width="160" height="142"><span class="case-card-text"><span class="loc">Spain</span><span class="reg">Extremadura</span><span class="topic">Financial support to innovate</span><span class="status-pill done">Completed</span></span></a>
-<a class="case-card" href="#czechia-light-touch-support-for-smes"><img src="assets/maps/czechia.svg" alt="" width="160" height="142"><span class="case-card-text"><span class="loc">Czechia</span><span class="reg">Moravian-Silesian, Ústí and Karlovy Vary regions</span><span class="topic">Light-touch support for SMEs</span><span class="status-pill done">Completed</span></span></a>
+<a class="case-card" href="#czechia-smart-start"><img src="assets/maps/czechia.svg" alt="" width="160" height="142"><span class="case-card-text"><span class="loc">Czechia</span><span class="reg">Moravian-Silesian region</span><span class="topic">Scientific decision-making for entrepreneurs</span><span class="status-pill done">Completed</span></span></a>
+<a class="case-card" href="#czechia-ai-klub"><img src="assets/maps/czechia.svg" alt="" width="160" height="142"><span class="case-card-text"><span class="loc">Czechia</span><span class="reg">Ústí and Karlovy Vary regions</span><span class="topic">AI adoption in post-coal regions</span><span class="status-pill done">Completed</span></span></a>
 <a class="case-card" href="#croatia"><img src="assets/maps/croatia.svg" alt="" width="160" height="142"><span class="case-card-text"><span class="loc">Croatia</span><span class="reg">National programme</span><span class="topic">Matching businesses with scientists</span><span class="status-pill done">Completed</span></span></a>
 <a class="case-card" href="#romania-north-east-digitalisation"><img src="assets/maps/romania-ne.svg" alt="" width="160" height="142"><span class="case-card-text"><span class="loc">Romania</span><span class="reg">North-East region</span><span class="topic">Financial support to digitalise</span><span class="status-pill done">Completed</span></span></a>
 <a class="case-card" href="#bulgaria"><img src="assets/maps/bulgaria.svg" alt="" width="160" height="142"><span class="case-card-text"><span class="loc">Bulgaria</span><span class="reg">Northern Bulgaria</span><span class="topic">Human-led versus AI-led business consulting</span><span class="status-pill ongoing">In implementation</span></span></a>
@@ -53,7 +54,7 @@ This page presents examples of public programmes that built experimentation into
 </div>
 ```
 
-## Spain: financial support to innovate {#spain .case data-case="1 of 12" data-status="Completed" data-map="spain"}
+## Spain: financial support to innovate {#spain .case data-case="1 of 13" data-status="Completed" data-map="spain"}
 
 ```{=html}
 <div class="case-meta">
@@ -216,11 +217,13 @@ firms would have spent anyway.
 
 [↑ Back to all examples](#examples-overview){.back-to-cases}
 
-## Czechia: [light-touch]{.nobr} support for SMEs {#czechia-light-touch-support-for-smes .case data-case="2 of 12" data-status="Completed" data-map="czechia"}
+[]{#czechia-light-touch-support-for-smes}
+
+## Czechia ([Moravian-Silesian]{.nobr}): scientific decision-making for entrepreneurs {#czechia-smart-start .case data-case="2 of 13" data-status="Completed" data-map="czechia"}
 
 ```{=html}
 <div class="case-meta">
-<span class="case-where">Moravian-Silesian, Ústí and Karlovy Vary regions</span><span>Two lotteries</span><span>419 firms in two pilots</span><span>2024–2025</span>
+<span class="case-where">Moravian-Silesian region, Czechia</span><span>Simple lottery</span><span>246 firms</span><span>2024–2025</span>
 </div>
 ```
 
@@ -228,79 +231,75 @@ firms would have spent anyway.
 ::: {.card-e}
 **The problem**
 
-Entrepreneurial activity remains low in Czech regions hit by the decline of the coal
-industry. These regions need to diversify away from carbon-intensive industries and
-grow their private sector.
+The Moravian-Silesian region is moving away from an economy built on coal mining and
+heavy industry. Despite a relatively educated population and considerable public support,
+it has long had one of the lowest rates of active entrepreneurship in Czechia.
 
-In September 2022, the European Commission approved the Just Transition Programme
-(JTP): EUR 1.641 billion for business R&D, post-mining regeneration, skills, clean energy
-and the circular economy in the Moravian-Silesian, Ústí and Karlovy Vary regions.
-
-A key part of the JTP is a voucher scheme for entrepreneurs: up to EUR 21,100 for business
-development, up to EUR 42,200 for innovation, and up to EUR 21,100 for digital transformation.
+World Bank fieldwork found two constraints. **Ability**: entrepreneurs had strong technical
+skills but struggled to validate a business model, understand customers and test their
+assumptions. **Ambition**: many could start a business but struggled to win more customers
+and grow.
 :::
 ::: {.card-e}
 **What was done**
 
-The World Bank tested two light-touch, complementary pilots that add skills support on
-top of the voucher scheme.
+In September 2022, the European Commission approved the Just Transition Programme (JTP):
+EUR 1.641 billion for Czech coal regions, including vouchers of up to EUR 21,100 for
+business development, EUR 42,200 for innovation and EUR 21,100 for digital transformation.
 
-**Smart Start** (Moravian-Silesian region): seven workshops teaching a scientific
-approach to decision-making under uncertainty, covering risk versus uncertainty,
-hypothesis testing and A/B testing, aimed at voucher recipients and other interested
-firms.
-
-**AI Klub** (Ústí and Karlovy Vary regions): five hands-on workshops on using AI for
-efficiency, marketing, sales, product development and financial management, with
-peer-to-peer exchange between firms.
+The World Bank and the Moravian-Silesian Innovation Centre (MSIC) designed Smart Start to
+complement these vouchers with skills support. Across seven workshops, entrepreneurs
+worked on the Business Model Canvas, customer journeys, business hypotheses, customer
+interviews and testing a minimum viable product, ending with a pitch.
 :::
 :::
-
-
 
 ### What experimentation sought to answer
 
 ::: {.quote-e}
-"Does light-touch support to SMEs improve firm capabilities and performance?"
+"Can building business capabilities and a more experimental, evidence-based mindset improve business decisions, customer acquisition and firm performance?"
 :::
 
-
-### How the two pilots were tested
-
-Both pilots drew their sample from firms that had already shown interest, then invited
-roughly two in three of them by random selection, leaving the rest as a comparison
-group.
-
-### Smart Start entrepreneur training
+### The programme
 
 ```{=html}
 <div class="facts">
-  <div><div class="k">The programme</div><div class="v">Smart Start: seven workshops on scientific decision-making and customer validation</div></div>
+  <div><div class="k">The programme</div><div class="v">Smart Start: seven 3-hour workshops on scientific decision-making, plus individual consultations and feedback from trainers and peers</div></div>
   <div><div class="k">Where</div><div class="v">Ostrava, Moravian-Silesian region; Just Transition Programme with MSIC</div></div>
-  <div><div class="k">Who is randomised</div><div class="v">246 interested firms, many of them entrepreneurial voucher applicants</div></div>
+  <div><div class="k">Who is randomised</div><div class="v">Firms: 246 interested entrepreneurs, voucher applicants and others from the region</div></div>
   <div><div class="k">The design</div><div class="v">Simple lottery with unequal shares: 163 invited to the training vs. 83 with no support</div></div>
-  <div><div class="k">Outcomes tracked</div><div class="v">Business changes, motivations for change, sales and firm performance</div></div>
-  <div><div class="k">Starting point</div><div class="v">Entrepreneurial activity remains low in regions hit by the coal industry's decline</div></div>
+  <div><div class="k">Outcomes tracked</div><div class="v">Learning and mindset, business changes, motivations for change, sales, profits and employment</div></div>
+  <div><div class="k">Starting point</div><div class="v">One of the lowest rates of active entrepreneurship in Czechia</div></div>
 </div>
 ```
 
-#### Key steps and dates
+### Key steps and dates
 
 ```{=html}
 <div class="flow">
-  <div>Interest sign-up<span class="flow-date">Jan&ndash;Aug 2024</span></div>
+  <div>Diagnostic and design<span class="flow-date">2022&ndash;2023</span></div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Outreach in two batches<span class="flow-date">Jan&ndash;Aug 2024</span></div>
   <span class="flow-arrow" aria-hidden="true">&rarr;</span>
   <div>Random selection</div>
   <span class="flow-arrow" aria-hidden="true">&rarr;</span>
   <div>Seven workshops<span class="flow-date">Sep&ndash;Nov 2024</span></div>
   <span class="flow-arrow" aria-hidden="true">&rarr;</span>
-  <div>Presentations</div>
+  <div>Midline survey<span class="flow-date">Nov&ndash;Dec 2024</span></div>
   <span class="flow-arrow" aria-hidden="true">&rarr;</span>
-  <div>Follow-up survey<span class="flow-date">Nov 2024&ndash;Feb 2025</span></div>
+  <div>Endline survey<span class="flow-date">Jul&ndash;Sep 2026</span></div>
 </div>
 ```
 
-#### Smart Start &middot; Moravian-Silesian region
+### How the programme was tested
+
+Smart Start was first meant only for firms applying for Just Transition vouchers. When the
+voucher scheme was delayed, the team widened recruitment to entrepreneurs across the
+region through advertising, networks and social media. Firms were therefore recruited in
+two batches: voucher applicants and an extra sample from the general public.
+
+Eligible firms that completed a baseline survey were randomly assigned within each batch:
+about two in three were invited to Smart Start and the rest formed the comparison group.
 
 ```{=html}
 <figure class="fig-e">
@@ -330,7 +329,146 @@ group.
 </figure>
 ```
 
-### AI adoption in post-coal regions
+::: {.soft-panel}
+**Why this design.**
+Strength: demand exceeded the places available, so a lottery gave every eligible
+applicant an equal and transparent chance instead of a subjective selection. Inviting
+two in three let more entrepreneurs receive support while keeping a comparison group
+large enough for causal evaluation.
+Limitation: not every invited firm took part, so the study reports both the effect of
+being offered the programme (intention to treat) and the effect on firms that actually
+attended.
+:::
+
+Of the 163 invited firms, 81% attended at least one session and about 60% completed
+the programme. About 70% of firms answered the midline survey (120 invited and 52
+comparison firms), and their baseline characteristics remained balanced between the
+two groups.
+
+Implementation brought several challenges:
+
+- **Recruitment was resource-intensive.** Voucher applicants could be contacted directly,
+  but the extra sample needed advertising and outreach. The first round took about eight
+  weeks; lessons from it shortened later rounds.
+- **Entrepreneurs had little time.** Many found it hard to set aside several hours for
+  repeated sessions, and some more advanced voucher applicants saw less value in the
+  programme.
+- **Floods.** Severe flooding in September 2024 disrupted the planned start of several
+  groups and forced rapid rescheduling. The programme was nevertheless completed.
+- **Noisy financial data.** Self-reported sales and profits are noisy for small, young
+  firms, so the midline used paper and online questionnaires, incentives for
+  non-respondents and direct follow-up by the field team.
+
+::: {.takeaway}
+What worked in practice: plain Czech and concrete business benefits rather than academic
+terms; active outreach (applications dropped sharply when promotion stopped); peer
+recommendations and testimonials; repeated feedback and practical assignments; and
+personalised feedback from trainers, which entrepreneurs valued most.
+:::
+
+### What the programme achieved
+
+At midline, Smart Start had changed how firms went to market and raised their sales,
+and entrepreneurs linked these changes to what they had learned in the programme.
+
+::: {.cards .results}
+::: {.card-e}
+[+47%]{.num}
+
+**Go-to-market change intensity**
+
+42% of invited firms made moderate or larger changes, for example to customer targeting
+and sales channels, versus 19% of the comparison group.
+:::
+::: {.card-e}
+[+98%]{.num}
+
+**Programme-related reasons for change**
+
+Invited firms cited 2.10 programme-related reasons for their business changes on
+average, versus 1.06 in the comparison group.
+:::
+::: {.card-e}
+[+64%]{.num}
+
+**Monthly sales**
+
+CZK 103,325 above the comparison-group average of CZK 160,271. Effects were larger
+among firms that actually attended.
+:::
+:::
+
+::: {.caution}
+There was no significant effect yet on profits or on internal production and operations
+management. Firms may have been investing in customer acquisition and growth, so profits
+may take longer to show, but this is an interpretation, not a demonstrated mechanism.
+Results were measured soon after the training, rely on self-reported financial data and
+come from one post-industrial region.
+:::
+
+Smart Start cost about EUR 450 per participating company to deliver. Because the
+curriculum now exists and partners can use their own facilities, this could fall to
+around EUR 250 when scaled through local partners.
+
+### What happened next
+
+- **Smart Selling** (June 2025 – February 2026): a second programme on turning customer
+  understanding into systematic sales, covering sales funnels, customer acquisition and
+  retention, direct selling, objection handling, CRM and sales targets, through six
+  one-to-one sessions and a workshop.
+- **Access for the comparison group**: firms left out by the lottery were offered the
+  programme in September–October 2026.
+- **Continued delivery**: MSIC is set to deliver Smart Start to five groups in 2027,
+  with financing close to being secured.
+
+```{=html}
+<div class="further-reading">
+  <span class="fr-label">Further reading</span>
+  <div class="fr-entry">
+  <span class="fr-cite">Pereira-Lopez, M., Anderson, S. J., Campos, F., Spina, C., and Suhag, R. 2025. &ldquo;Developing High-Growth Entrepreneurship through Knowledge and Mindset Interventions: Evidence from an RCT in the Czech Republic.&rdquo; World Bank, Washington, DC. </span>
+  <a href="https://documents1.worldbank.org/curated/en/099062725130037608/pdf/P171223-486b327a-f7c9-4e72-afda-08508bd15e57.pdf">Read the report &rarr;</a>
+  </div>
+</div>
+```
+
+[↑ Back to all examples](#examples-overview){.back-to-cases}
+
+## Czechia ([Ústí and Karlovy Vary]{.nobr}): AI adoption in post-coal regions {#czechia-ai-klub .case data-case="3 of 13" data-status="Completed" data-map="czechia"}
+
+```{=html}
+<div class="case-meta">
+<span class="case-where">Ústí and Karlovy Vary regions, Czechia</span><span>Simple lottery</span><span>173 firms</span><span>2024–2025</span>
+</div>
+```
+
+::: {.cards}
+::: {.card-e}
+**The problem**
+
+Entrepreneurial activity remains low in Czech regions hit by the decline of the coal
+industry. Local economies still rely on carbon-intensive industries and need to
+diversify and grow their private sector.
+
+The EU's Just Transition Programme supports these regions with vouchers for
+entrepreneurs, including innovation vouchers of up to EUR 42,200 for SMEs.
+:::
+::: {.card-e}
+**What was done**
+
+The World Bank and local partners tested AI Klub, a light-touch pilot that adds skills
+support on top of the vouchers: five hands-on workshops on using AI for efficiency,
+marketing, sales, product development and financial management, with peer-to-peer
+exchange between firms.
+:::
+:::
+
+### What experimentation sought to answer
+
+::: {.quote-e}
+"Does light-touch support to SMEs improve firm capabilities and performance?"
+:::
+
+### The programme
 
 ```{=html}
 <div class="facts">
@@ -343,7 +481,7 @@ group.
 </div>
 ```
 
-#### Key steps and dates
+### Key steps and dates
 
 ```{=html}
 <div class="flow">
@@ -359,8 +497,12 @@ group.
 </div>
 ```
 
+### How the programme was tested
 
-#### AI Klub &middot; Ústí and Karlovy Vary regions
+All voucher recipients, as well as interested firms outside the scheme, were invited to
+express interest. About two in three interested firms were then randomly invited to the
+workshops and the rest formed the comparison group. The unequal shares leave room to
+test further add-on activities later.
 
 ```{=html}
 <figure class="fig-e">
@@ -390,36 +532,35 @@ group.
 </figure>
 ```
 
-### What the two pilots achieved
+### What the programme achieved
 
-::: {.compare}
-::: {.col-e}
-::: {.col-head}
-Smart Start
+::: {.cards .results}
+::: {.card-e}
+[+117%]{.num}
+
+**Monthly sales**
+
+CZK 1,420,659 above the comparison-group average of CZK 1,218,750.
 :::
-::: {.body}
-- **+47%** go-to-market change intensity, versus the comparison group
-- **+64%** monthly sales, versus the comparison group (CZK 103,325 higher)
+::: {.card-e}
+[+66%]{.num}
+
+**Monthly profits**
+
+CZK 72,648 above the comparison-group average of CZK 110,484.
 :::
-:::
-::: {.col-e}
-::: {.col-head}
-AI Klub
-:::
-::: {.body}
-- **+117%** monthly sales, versus the comparison group
-- **+66%** monthly profits, versus the comparison group
-:::
+::: {.card-e}
+[+15%]{.num}
+
+**AI adoption intensity**
+
+0.38 points higher on a 0–5 scale than the comparison-group average of 2.62.
 :::
 :::
 
 ```{=html}
 <div class="further-reading">
   <span class="fr-label">Further reading</span>
-  <div class="fr-entry">
-  <span class="fr-cite">Pereira-Lopez, M., Anderson, S. J., Campos, F., Spina, C., and Suhag, R. 2025. &ldquo;Developing High-Growth Entrepreneurship through Knowledge and Mindset Interventions: Evidence from an RCT in the Czech Republic.&rdquo; World Bank, Washington, DC. </span>
-  <a href="https://documents1.worldbank.org/curated/en/099062725130037608/pdf/P171223-486b327a-f7c9-4e72-afda-08508bd15e57.pdf">Read the report &rarr;</a>
-  </div>
   <div class="fr-entry">
   <span class="fr-cite">Pereira-Lopez, M., Anderson, S. J., Iacovone, L., Menzel, A., Münch, F. A., and Suhag, R. 2025. &ldquo;Creating Ecosystems for Innovation in a Post-Coal Region: Evidence from an RCT in the Czech Republic.&rdquo; World Bank, Washington, DC. </span>
   <a href="https://documents1.worldbank.org/curated/en/099062725130041014/pdf/P171223-48a49632-7dc2-41ab-8161-8c1e8e4f67c1.pdf">Read the report &rarr;</a>
@@ -429,7 +570,7 @@ AI Klub
 
 [↑ Back to all examples](#examples-overview){.back-to-cases}
 
-## Croatia: matching businesses with scientists {#croatia .case data-case="3 of 12" data-status="Completed" data-map="croatia"}
+## Croatia: matching businesses with scientists {#croatia .case data-case="4 of 13" data-status="Completed" data-map="croatia"}
 
 ```{=html}
 <div class="case-meta">
@@ -581,7 +722,7 @@ pilot.
 
 [↑ Back to all examples](#examples-overview){.back-to-cases}
 
-## Romania ([North-East]{.nobr}): financial support to digitalise {#romania-north-east-digitalisation .case data-case="4 of 12" data-status="Completed" data-map="romania-ne"}
+## Romania ([North-East]{.nobr}): financial support to digitalise {#romania-north-east-digitalisation .case data-case="5 of 13" data-status="Completed" data-map="romania-ne"}
 
 ```{=html}
 <div class="case-meta">
@@ -757,7 +898,7 @@ applications, and the additional applicants were smaller firms
 [↑ Back to all examples](#examples-overview){.back-to-cases}
 
 
-## Bulgaria: [human-led]{.nobr} versus [AI-led]{.nobr} business consulting {#bulgaria .case data-case="7 of 12" data-status="In implementation" data-map="bulgaria"}
+## Bulgaria: [human-led]{.nobr} versus [AI-led]{.nobr} business consulting {#bulgaria .case data-case="8 of 13" data-status="In implementation" data-map="bulgaria"}
 
 ```{=html}
 <div class="case-meta">
@@ -909,7 +1050,7 @@ participant to support tracking through autumn 2027.
 
 [↑ Back to all examples](#examples-overview){.back-to-cases}
 
-## Poland: AI assistance for smarter Horizon Europe applications {#poland-ai-assistance-for-smarter-horizon-europe-applications .case data-case="8 of 12" data-status="In implementation" data-map="poland"}
+## Poland: AI assistance for smarter Horizon Europe applications {#poland-ai-assistance-for-smarter-horizon-europe-applications .case data-case="9 of 13" data-status="In implementation" data-map="poland"}
 
 ```{=html}
 <div class="case-meta">
@@ -1061,7 +1202,7 @@ calls as credible outreach from PARP rather than as spam.
 
 [↑ Back to all examples](#examples-overview){.back-to-cases}
 
-## Romania ([North-East]{.nobr}): AI assistance for smarter grant reviews {#romania-north-east-ai-assistance-for-smarter-grant-reviews .case data-case="9 of 12" data-status="In implementation" data-map="romania-ne"}
+## Romania ([North-East]{.nobr}): AI assistance for smarter grant reviews {#romania-north-east-ai-assistance-for-smarter-grant-reviews .case data-case="10 of 13" data-status="In implementation" data-map="romania-ne"}
 
 ```{=html}
 <div class="case-meta">
@@ -1220,7 +1361,7 @@ and adjusted before the full-proposal stage goes ahead.
 
 [↑ Back to all examples](#examples-overview){.back-to-cases}
 
-## Romania ([South-Muntenia]{.nobr}): the returns to innovation subsidies {#south-muntenia .case data-case="10 of 12" data-status="In implementation" data-map="romania-sm"}
+## Romania ([South-Muntenia]{.nobr}): the returns to innovation subsidies {#south-muntenia .case data-case="11 of 13" data-status="In implementation" data-map="romania-sm"}
 
 ```{=html}
 <div class="case-meta">
@@ -1385,7 +1526,7 @@ models of innovation diffusion, an area where experimental evidence remains scar
 
 
 
-## Europe: grants for SME energy efficiency {#europe-grants-for-sme-energy-efficiency .case data-case="5 of 12" data-status="Completed" data-map="eenergy"}
+## Europe: grants for SME energy efficiency {#europe-grants-for-sme-energy-efficiency .case data-case="6 of 13" data-status="Completed" data-map="eenergy"}
 
 ```{=html}
 <div class="case-meta">
@@ -1569,7 +1710,7 @@ performance.
 
 [↑ Back to all examples](#examples-overview){.back-to-cases}
 
-## Bulgaria, Poland and Slovakia: Digitrans, digital adoption support for MSMEs {#digitrans .case data-case="6 of 12" data-status="Completed" data-map="digitrans"}
+## Bulgaria, Poland and Slovakia: Digitrans, digital adoption support for MSMEs {#digitrans .case data-case="7 of 13" data-status="Completed" data-map="digitrans"}
 
 ```{=html}
 <div class="case-meta">
@@ -1751,7 +1892,7 @@ businesses.
 [↑ Back to all examples](#examples-overview){.back-to-cases}
 
 
-## Colombia: scaling up management consulting {#colombia-scaling-up-management-consulting .case data-case="11 of 12" data-status="Completed" data-map="colombia"}
+## Colombia: scaling up management consulting {#colombia-scaling-up-management-consulting .case data-case="12 of 13" data-status="Completed" data-map="colombia"}
 
 ```{=html}
 <div class="case-meta">
@@ -1941,7 +2082,7 @@ models.
 
 [↑ Back to all examples](#examples-overview){.back-to-cases}
 
-## Yemen: testing whether internships help youth find work {#yemen-testing-whether-internships-help-youth-find-work .case data-case="12 of 12" data-status="Completed" data-map="yemen"}
+## Yemen: testing whether internships help youth find work {#yemen-testing-whether-internships-help-youth-find-work .case data-case="13 of 13" data-status="Completed" data-map="yemen"}
 
 ```{=html}
 <div class="case-meta">
