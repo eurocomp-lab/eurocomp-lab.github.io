@@ -20,8 +20,8 @@ This page presents examples of public programmes that built experimentation into
 <div class="case-cards" id="examples-overview">
 <p class="case-group">Examples from EuroCOMP Lab and precursors</p>
 <a class="case-card" href="#spain"><img src="assets/maps/spain.svg" alt="" width="160" height="142"><span class="case-card-text"><span class="loc">Spain</span><span class="reg">Extremadura</span><span class="topic">Financial support to innovate</span><span class="status-pill done">Completed</span></span></a>
-<a class="case-card" href="#czechia-smart-start"><img src="assets/maps/czechia.svg" alt="" width="160" height="142"><span class="case-card-text"><span class="loc">Czechia</span><span class="reg">Moravian-Silesian region</span><span class="topic">Scientific decision-making for entrepreneurs</span><span class="status-pill done">Completed</span></span></a>
-<a class="case-card" href="#czechia-ai-klub"><img src="assets/maps/czechia.svg" alt="" width="160" height="142"><span class="case-card-text"><span class="loc">Czechia</span><span class="reg">Ústí and Karlovy Vary regions</span><span class="topic">AI adoption in post-coal regions</span><span class="status-pill done">Completed</span></span></a>
+<a class="case-card" href="#czechia-smart-start"><img src="assets/maps/czechia-ms.svg" alt="" width="160" height="142"><span class="case-card-text"><span class="loc">Czechia</span><span class="reg">Moravian-Silesian region</span><span class="topic">Scientific decision-making for entrepreneurs</span><span class="status-pill done">Completed</span></span></a>
+<a class="case-card" href="#czechia-ai-klub"><img src="assets/maps/czechia-ukv.svg" alt="" width="160" height="142"><span class="case-card-text"><span class="loc">Czechia</span><span class="reg">Ústí and Karlovy Vary regions</span><span class="topic">AI adoption in post-coal regions</span><span class="status-pill done">Completed</span></span></a>
 <a class="case-card" href="#croatia"><img src="assets/maps/croatia.svg" alt="" width="160" height="142"><span class="case-card-text"><span class="loc">Croatia</span><span class="reg">National programme</span><span class="topic">Matching businesses with scientists</span><span class="status-pill done">Completed</span></span></a>
 <a class="case-card" href="#romania-north-east-digitalisation"><img src="assets/maps/romania-ne.svg" alt="" width="160" height="142"><span class="case-card-text"><span class="loc">Romania</span><span class="reg">North-East region</span><span class="topic">Financial support to digitalise</span><span class="status-pill done">Completed</span></span></a>
 <a class="case-card" href="#bulgaria"><img src="assets/maps/bulgaria.svg" alt="" width="160" height="142"><span class="case-card-text"><span class="loc">Bulgaria</span><span class="reg">Northern Bulgaria</span><span class="topic">Human-led versus AI-led business consulting</span><span class="status-pill ongoing">In implementation</span></span></a>
@@ -29,8 +29,8 @@ This page presents examples of public programmes that built experimentation into
 <a class="case-card" href="#romania-north-east-ai-assistance-for-smarter-grant-reviews"><img src="assets/maps/romania-ne.svg" alt="" width="160" height="142"><span class="case-card-text"><span class="loc">Romania</span><span class="reg">North-East region</span><span class="topic">AI assistance for smarter grant reviews</span><span class="status-pill ongoing">In implementation</span></span></a>
 <a class="case-card" href="#south-muntenia"><img src="assets/maps/romania-sm.svg" alt="" width="160" height="142"><span class="case-card-text"><span class="loc">Romania</span><span class="reg">South-Muntenia region</span><span class="topic">The returns to innovation subsidies</span><span class="status-pill ongoing">In implementation</span></span></a>
 <p class="case-group">Other examples from Europe</p>
-<a class="case-card" href="#digitrans"><img src="assets/maps/digitrans.svg" alt="" width="160" height="142"><span class="case-card-text"><span class="loc">Bulgaria, Poland and Slovakia</span><span class="reg">Three countries</span><span class="topic">Digitrans: digital adoption support for MSMEs</span><span class="status-pill done">Completed</span></span></a>
 <a class="case-card" href="#europe-grants-for-sme-energy-efficiency"><img src="assets/maps/eenergy.svg" alt="" width="160" height="142"><span class="case-card-text"><span class="loc">Europe</span><span class="reg">34 countries</span><span class="topic">Grants for SME energy efficiency</span><span class="status-pill done">Completed</span></span></a>
+<a class="case-card" href="#digitrans"><img src="assets/maps/digitrans.svg" alt="" width="160" height="142"><span class="case-card-text"><span class="loc">Bulgaria, Poland and Slovakia</span><span class="reg">Three countries</span><span class="topic">Digitrans: digital adoption support for MSMEs</span><span class="status-pill done">Completed</span></span></a>
 <p class="case-group">Beyond Europe</p>
 <a class="case-card" href="#colombia-scaling-up-management-consulting"><img src="assets/maps/colombia.svg" alt="" width="160" height="134"><span class="case-card-text"><span class="loc">Colombia</span><span class="reg">Four regions</span><span class="topic">Scaling up management consulting</span><span class="status-pill done">Completed</span></span></a>
 <a class="case-card" href="#yemen-testing-whether-internships-help-youth-find-work"><img src="assets/maps/yemen.svg" alt="" width="160" height="145"><span class="case-card-text"><span class="loc">Yemen</span><span class="reg">Sanaa and Aden</span><span class="topic">Testing whether internships help youth find work</span><span class="status-pill done">Completed</span></span></a>
@@ -219,11 +219,11 @@ firms would have spent anyway.
 
 []{#czechia-light-touch-support-for-smes}
 
-## Czechia ([Moravian-Silesian]{.nobr}): scientific decision-making for entrepreneurs {#czechia-smart-start .case data-case="2 of 13" data-status="Completed" data-map="czechia"}
+## Czechia ([Moravian-Silesian]{.nobr}): scientific decision-making for entrepreneurs {#czechia-smart-start .case data-case="2 of 13" data-status="Completed" data-map="czechia-ms"}
 
 ```{=html}
 <div class="case-meta">
-<span class="case-where">Moravian-Silesian region, Czechia</span><span>Simple lottery</span><span>246 firms</span><span>2024–2025</span>
+<span class="case-where">Moravian-Silesian region, Czechia</span><span>Simple lottery</span><span>246 firms</span><span>2024–2026</span>
 </div>
 ```
 
@@ -377,8 +377,9 @@ and entrepreneurs linked these changes to what they had learned in the programme
 
 **Go-to-market change intensity**
 
-42% of invited firms made moderate or larger changes, for example to customer targeting
-and sales channels, versus 19% of the comparison group.
+Change intensity was 47% higher than in the comparison group, and 42% of invited firms
+made moderate or larger changes, for example to customer targeting and sales channels,
+versus 19% of comparison firms.
 :::
 ::: {.card-e}
 [+98%]{.num}
@@ -433,7 +434,7 @@ around EUR 250 when scaled through local partners.
 
 [↑ Back to all examples](#examples-overview){.back-to-cases}
 
-## Czechia ([Ústí and Karlovy Vary]{.nobr}): AI adoption in post-coal regions {#czechia-ai-klub .case data-case="3 of 13" data-status="Completed" data-map="czechia"}
+## Czechia ([Ústí and Karlovy Vary]{.nobr}): AI adoption in post-coal regions {#czechia-ai-klub .case data-case="3 of 13" data-status="Completed" data-map="czechia-ukv"}
 
 ```{=html}
 <div class="case-meta">
@@ -898,7 +899,7 @@ applications, and the additional applicants were smaller firms
 [↑ Back to all examples](#examples-overview){.back-to-cases}
 
 
-## Bulgaria: [human-led]{.nobr} versus [AI-led]{.nobr} business consulting {#bulgaria .case data-case="8 of 13" data-status="In implementation" data-map="bulgaria"}
+## Bulgaria: [human-led]{.nobr} versus [AI-led]{.nobr} business consulting {#bulgaria .case data-case="6 of 13" data-status="In implementation" data-map="bulgaria"}
 
 ```{=html}
 <div class="case-meta">
@@ -1050,7 +1051,7 @@ participant to support tracking through autumn 2027.
 
 [↑ Back to all examples](#examples-overview){.back-to-cases}
 
-## Poland: AI assistance for smarter Horizon Europe applications {#poland-ai-assistance-for-smarter-horizon-europe-applications .case data-case="9 of 13" data-status="In implementation" data-map="poland"}
+## Poland: AI assistance for smarter Horizon Europe applications {#poland-ai-assistance-for-smarter-horizon-europe-applications .case data-case="7 of 13" data-status="In implementation" data-map="poland"}
 
 ```{=html}
 <div class="case-meta">
@@ -1202,7 +1203,7 @@ calls as credible outreach from PARP rather than as spam.
 
 [↑ Back to all examples](#examples-overview){.back-to-cases}
 
-## Romania ([North-East]{.nobr}): AI assistance for smarter grant reviews {#romania-north-east-ai-assistance-for-smarter-grant-reviews .case data-case="10 of 13" data-status="In implementation" data-map="romania-ne"}
+## Romania ([North-East]{.nobr}): AI assistance for smarter grant reviews {#romania-north-east-ai-assistance-for-smarter-grant-reviews .case data-case="8 of 13" data-status="In implementation" data-map="romania-ne"}
 
 ```{=html}
 <div class="case-meta">
@@ -1361,7 +1362,7 @@ and adjusted before the full-proposal stage goes ahead.
 
 [↑ Back to all examples](#examples-overview){.back-to-cases}
 
-## Romania ([South-Muntenia]{.nobr}): the returns to innovation subsidies {#south-muntenia .case data-case="11 of 13" data-status="In implementation" data-map="romania-sm"}
+## Romania ([South-Muntenia]{.nobr}): the returns to innovation subsidies {#south-muntenia .case data-case="9 of 13" data-status="In implementation" data-map="romania-sm"}
 
 ```{=html}
 <div class="case-meta">
@@ -1526,7 +1527,7 @@ models of innovation diffusion, an area where experimental evidence remains scar
 
 
 
-## Europe: grants for SME energy efficiency {#europe-grants-for-sme-energy-efficiency .case data-case="6 of 13" data-status="Completed" data-map="eenergy"}
+## Europe: grants for SME energy efficiency {#europe-grants-for-sme-energy-efficiency .case data-case="10 of 13" data-status="Completed" data-map="eenergy"}
 
 ```{=html}
 <div class="case-meta">
@@ -1710,7 +1711,7 @@ performance.
 
 [↑ Back to all examples](#examples-overview){.back-to-cases}
 
-## Bulgaria, Poland and Slovakia: Digitrans, digital adoption support for MSMEs {#digitrans .case data-case="7 of 13" data-status="Completed" data-map="digitrans"}
+## Bulgaria, Poland and Slovakia: Digitrans, digital adoption support for MSMEs {#digitrans .case data-case="11 of 13" data-status="Completed" data-map="digitrans"}
 
 ```{=html}
 <div class="case-meta">

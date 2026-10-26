@@ -63,7 +63,8 @@ NGOs, and development and research organisations worldwide.
 
 **Go further**
 
-- [3ie resources](https://www.3ieimpact.org/resources): resources designed to support policymakers, researchers, and practitioners in making evidence-based decisions for sustainable development
+- [3ie resources](https://www.3ieimpact.org/resources): support for policymakers,
+  researchers and practitioners making evidence-based decisions.
 :::
 ::: {.card-e}
 ### [Innovation Growth Lab (IGL)](https://www.innovationgrowthlab.org/) {.unlisted}
@@ -76,26 +77,29 @@ entrepreneurship and growth policies.
   toolkits and evidence for running policy experiments.
 :::
 ::: {.card-e}
-### [Inter-American Development Bank (IADB)](https://www.iadb.org/en/results-and-effectiveness/development-effectiveness/project-evaluation/impact-evaluations) {.unlisted}
+### [Inter-American Development Bank (IDB)](https://www.iadb.org/en/results-and-effectiveness/development-effectiveness/project-evaluation/impact-evaluations) {.unlisted}
 The IDB's impact evaluation work, which measures the effects of the projects it
 finances and shares the methods and lessons learned.
 
 **Go further**
 
-- [IADB resources](https://www.iadb.org/en/results-and-effectiveness/development-effectiveness/project-evaluation/impact-evaluations): templates and external references.
+- [Impact Evaluation in Practice](https://publications.iadb.org/en/impact-evaluation-practice-second-edition):
+  a free handbook from the World Bank and the IDB on designing and running impact
+  evaluations.
 :::
 ::::
 
-::: {.card-e}
-### To add {.unlisted}
-Contacts at managing authorities already running experimental evaluations, for teams that
-want to speak to a peer rather than read a page.
-South Muntenia: office@adrmuntenia.ro https://www.adrmuntenia.ro/
-North East: https://www.adrnordest.ro/en/homepage/ adrnordest@adrnordest.ro
-Poland: biuro@parp.gov.pl https://www.parp.gov.pl/
-Spain: https://www.juntaex.es/ tuatencion@juntaex.es
-Croaita: https://icent.fer.unizg.hr/en/ info@icent.hr
-Bulgaria: k.toncheva@sme.government.bg https://sme.government.bg/
-Moravian Silesian region: https://www.msk.cz/index-en.html https://www.msk.cz/index-en.html
+## Talk to a peer
 
+Contacts at Managing Authorities and agencies already running experimental evaluations, for
+teams that want to speak to a peer rather than read a page.
+
+::: {.card-e .peer-contacts}
+- **Bulgaria:** [[Bulgarian Small and Medium Enterprises Promotion Agency (BSMEPA)](https://sme.government.bg/) · [k.toncheva@sme.government.bg](mailto:k.toncheva@sme.government.bg)]{.peer-org}
+- **Croatia:** [[Innovation Centre Nikola Tesla (ICENT)](https://icent.fer.unizg.hr/en/) · [info@icent.hr](mailto:info@icent.hr)]{.peer-org}
+- **Czechia:** [[Moravian-Silesian Region](https://www.msk.cz/index-en.html)]{.peer-org}
+- **Poland:** [[Polish Agency for Enterprise Development (PARP)](https://www.parp.gov.pl/) · [biuro@parp.gov.pl](mailto:biuro@parp.gov.pl)]{.peer-org}
+- **Romania:** [[North-East Regional Development Agency](https://www.adrnordest.ro/en/homepage/) · [adrnordest@adrnordest.ro](mailto:adrnordest@adrnordest.ro)]{.peer-org}
+- **Romania:** [[South-Muntenia Regional Development Agency](https://www.adrmuntenia.ro/) · [office@adrmuntenia.ro](mailto:office@adrmuntenia.ro)]{.peer-org}
+- **Spain:** [[Junta de Extremadura](https://www.juntaex.es/) · [tuatencion@juntaex.es](mailto:tuatencion@juntaex.es)]{.peer-org}
 :::

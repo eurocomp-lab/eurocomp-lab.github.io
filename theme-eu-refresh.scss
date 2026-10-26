@@ -918,3 +918,14 @@ hr:has(+ .nav-buttons) { display: none; }
 }
 /* while the hero is in view Quarto swaps the menu for a small toggle; the hero has its own buttons */
 .has-hero #quarto-toc-toggle { display: none !important; }
+
+/* ---------------------------------------------------------------
+   Batch 17 (October 2026): one locator map per Czech example, and
+   lists inside cards (Go further links, peer contacts, templates)
+   at the size and colour of the card text around them.
+   --------------------------------------------------------------- */
+#quarto-document-content section.case > h2.case[data-map="czechia-ms"]::after { background-image: url("assets/maps/czechia-ms.svg"); }
+#quarto-document-content section.case > h2.case[data-map="czechia-ukv"]::after { background-image: url("assets/maps/czechia-ukv.svg"); }
+#quarto-document-content .card-e ul { padding-left: 1.15rem; margin-bottom: 0; }
+#quarto-document-content .card-e li { font-size: .92rem; line-height: 1.5; color: $rf-ink-soft; }
+#quarto-document-content .card-e li + li { margin-top: .4rem; }

@@ -94,7 +94,7 @@ By embedding innovative experimental approaches in Member States' investments in
 
 The studies designed in this project also contribute to a larger, global body of evidence on how to foster competitive markets, address market failures such as information asymmetries and behavioural biases, and adequately support and target private sector investment. The knowledge gained is intended for use in other regions too, enabling the World Bank to apply findings and lessons learned to enhance the effectiveness and impact of its operations globally.
 
-See here highlights from an event bringing together Managing Authortities, researchers, representatives from the European Commission and the World Bank to explore how experimentation can transform programmes on jobs, skills, and competitiveness: 
+See here highlights from an event bringing together Managing Authorities, researchers, representatives from the European Commission and the World Bank to explore how experimentation can transform programmes on jobs, skills, and competitiveness: 
 
 ::: {.video-frame}
 {{< video https://www.youtube.com/watch?v=ipRSNDSP4XQ title="Enhancing Cohesion Policy's impact for jobs, skills, and competitiveness - Berlin highlights" aspect-ratio="16x9" >}}
@@ -104,7 +104,7 @@ See here highlights from an event bringing together Managing Authortities, resea
  
 Few places bring Europe's regional policy community together at this scale. EURegionsWeek 2026 gathered nearly 5,000 participants in Brussels, from policymakers and Managing Authorities to researchers and EU institutions, all asking: how can regional policy deliver more impact?
  
-The EuroCOMP Lab, a partnership between the European Commission (DG REGIO) and the World Bank (FCI ECA), organised a workshop on how to credibly measure what policies achieve. Instead of assuming a policy will work, regions shared how, together with the Lab, they test approaches, learn fast, and plan to use this evidence to improve programmes and implementation at scale.
+The EuroCOMP Lab, a partnership between the European Commission (DG REGIO) and the World Bank, organised a workshop on how to credibly measure what policies achieve. Instead of assuming a policy will work, regions shared how, together with the Lab, they test approaches, learn fast, and plan to use this evidence to improve programmes and implementation at scale.
  
 Pioneering partners from Romania and Spain, who ran the very first experiments in their own multi-million programmes, shared what they learned. In Romania, a digital grant led to more sales and jobs for supported firms, with positive spillovers to neighbouring firms.
  
@@ -151,7 +151,7 @@ The timing matters: as Europe shapes the 2028–2034 budget, the decisions taken
   <img class="g-bottom" src="assets/foto3.jpg" loading="lazy"
        alt="Workshop participants listening in the audience">
 </div>
-<p class="event-caption">EuroCOMP Lab workshop, European Week of Regions and Cities, Brussels, 12–14 October 2026.</p>
+<p class="event-caption">EuroCOMP Lab workshop, European Week of Regions and Cities, Brussels, 12–14 October 2026. Photos: Louis David.</p>
 ```
 
 ## How it works
