@@ -138,7 +138,7 @@ transparent](#legitimacy), and [how outreach was tested](#two-questions) to illu
   <rect x="64" y="274" width="286" height="36" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
   <text x="207" y="296" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5">Performance and impact</text>
 </svg>
-<figcaption>Note: Policy learning feeds back into programme design, helping develop more effective policies. Accountability refers to both: what the money was spent on and what impact the money achieved to ensure efficient use of public funds.</figcaption>
+<figcaption>Note: policy learning feeds back into programme design, helping develop more effective policies. Accountability refers to both: what the money was spent on and what impact the money achieved to ensure efficient use of public funds.</figcaption>
 </figure>
 ```
 
@@ -212,7 +212,7 @@ This can be done in different ways. The page shows different methods of construc
   <text x="500" y="40" fill="var(--dg-ink)" font-size="12" font-weight="bold">Actual</text>
   <text x="500" y="145" fill="var(--dg-ink-soft)" font-size="12">Counterfactual</text>
 </svg>
-<figcaption>Note: Impact is the causal effect of the programme: the gap between what happened with it and what would have happened in its absence.</figcaption>
+<figcaption>Note: impact is the causal effect of the programme: the gap between what happened with it and what would have happened in its absence.</figcaption>
 </figure>
 ```
 
@@ -463,7 +463,7 @@ group without the programme.
   <text x="480" y="72" fill="var(--dg-ink)" font-size="12" font-weight="bold">Treatment group</text>
   <text x="480" y="200" fill="var(--dg-ink-soft)" font-size="12">Comparison group</text>
 </svg>
-<figcaption>Note: Treatment and comparison groups start at the same outcome level and diverge after the programme, with the divergence being the impact of a programme.</figcaption>
+<figcaption>Note: treatment and comparison groups start at the same outcome level and diverge after the programme, with the divergence being the impact of a programme.</figcaption>
 </figure>
 ```
 Because assignment is decided by chance, the two groups are alike on average not only in characteristics you can measure, but also in those you cannot. Take the example of firms applying for a grant: randomising who receives the money means that, on average, the two groups look the same on observable characteristics such as size, sector or turnover, and also on unobservable ones such as management quality or motivation. Nothing should systematically differ between them except that some applicants were lucky in the draw and others were not. That is why no statistical adjustment for firm characteristics is needed to get a credible estimate.
@@ -555,7 +555,7 @@ impact of being invited to apply for the grant.
   <text x="227" y="227" text-anchor="middle" fill="#6B6455" font-size="10.5">No invitation, surveyed</text>
   <text x="227" y="241" text-anchor="middle" fill="#6B6455" font-size="10.5">the same way</text>
 </svg>
-<figcaption>Note: Among eligible firms, which firms were invited to apply for a grant was randomly assigned.</figcaption>
+<figcaption>Note: among eligible firms, which firms were invited to apply for a grant was randomly assigned.</figcaption>
 </figure>
 ```
 :::
@@ -765,7 +765,7 @@ significantly raised sales and profits.
   <text x="193" y="783" text-anchor="middle" fill="var(--dg-ink)" font-size="12">the design stage. It can be added once</text>
   <text x="193" y="799" text-anchor="middle" fill="var(--dg-ink)" font-size="12">implementation is already under way.</text>
 </svg>
-<figcaption>Note: The first path needs a comparison group fixed before launch. If there is no excess demand, an RCT may still be possible with another design, for
+<figcaption>Note: the first path needs a comparison group fixed before launch. If there is no excess demand, an RCT may still be possible with another design, for
 example a randomised phase-in, where every eligible firm is served but in a random order. Page How to design an RCT explains different ways to
 randomise. The second path does not need a comparison group fixed from the outset, because nobody is excluded from the programme itself - only which version of it they get is randomised.</figcaption>
 </figure>
@@ -858,7 +858,7 @@ Within the quasi-experimental branch, here is how the three methods compare:
   <text x="180" y="548" text-anchor="middle" fill="var(--dg-ink)" font-size="12">nothing of the programme's rules and thus</text>
   <text x="180" y="565" text-anchor="middle" fill="var(--dg-ink)" font-size="12">leans hardest on its assumption.</text>
 </svg>
-<figcaption>Note: Take the first row that fits. A "no" sends you to the next question; "yes" gives you the design and the assumption it asks you to make.</figcaption>
+<figcaption>Note: take the first row that fits. A "no" sends you to the next question; "yes" gives you the design and the assumption it asks you to make.</figcaption>
 </figure>
 ```
 
@@ -913,7 +913,7 @@ recovering at the same time, not because of the programme.
   <text x="604" y="120" fill="var(--dg-ink)" font-size="12" font-weight="bold">Pre-post</text>
   <text x="604" y="136" fill="var(--dg-ink)" font-size="12" font-weight="bold">impact</text>
 </svg>
-<figcaption>Note: A before-and-after comparison assumes that, without the programme, outcomes would have stayed flat. Any change in the meantime is counted as impact.</figcaption>
+<figcaption>Note: a before-and-after comparison assumes that, without the programme, outcomes would have stayed flat. Any change in the meantime is counted as impact.</figcaption>
 </figure>
 ```
 
@@ -963,7 +963,7 @@ those that do not, so they might grow faster regardless of the grant.
   <text x="588" y="90" fill="var(--dg-ink)" font-size="12" font-weight="bold">Simple</text>
   <text x="588" y="106" fill="var(--dg-ink)" font-size="12" font-weight="bold">difference</text>
 </svg>
-<figcaption>Note: The measured gap mixes the programme effect with differences that were there all along.</figcaption>
+<figcaption>Note: the measured gap mixes the programme effect with differences that were there all along.</figcaption>
 </figure>
 ```
 
@@ -1009,7 +1009,7 @@ downturn than the comparison firms, their trends could diverge even without the 
   <text x="380" y="52" fill="var(--dg-ink)" font-size="12" font-weight="bold">Treatment group</text>
   <text x="380" y="178" fill="var(--dg-ink-soft)" font-size="12">Comparison group</text>
 </svg>
-<figcaption>Note: The estimate is Difference 1 minus Difference 2: how much more the treatment group changed than the comparison group.</figcaption>
+<figcaption>Note: the estimate is Difference 1 minus Difference 2: how much more the treatment group changed than the comparison group.</figcaption>
 </figure>
 ```
 
@@ -1088,7 +1088,7 @@ are no longer comparable to those just above.
   <path d="M338 110 H346 M338 158 H346 M342 110 V158" stroke="var(--dg-ink)" stroke-width="1.5" fill="none"/>
   <text x="250" y="128" fill="var(--dg-ink)" font-size="12" font-weight="bold">RDD effect</text>
 </svg>
-<figcaption>Note: This method requires many applicants sitting close to the cut-off, so those just below and just above can be meaningfully compared.</figcaption>
+<figcaption>Note: this method requires many applicants sitting close to the cut-off, so those just below and just above can be meaningfully compared.</figcaption>
 </figure>
 ```
 
@@ -1194,7 +1194,7 @@ But before adopting what worked elsewhere, questions of external validity need t
   <rect x="10" y="212" width="290" height="40" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
   <text x="155" y="237" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5" font-weight="bold">Adjust and invest</text>
 </svg>
-<figcaption>Note: Testing new policies and learning from previous programmes are integral for designing effective and efficient policies.</figcaption>
+<figcaption>Note: testing new policies and learning from previous programmes are integral for designing effective and efficient policies.</figcaption>
 </figure>
 ```
 
