@@ -151,7 +151,7 @@ Attrition - firms that cannot be reached or refuse to participate at endline - i
 
 ## Data protection and GDPR compliance
 
-For EU Managing Authorities, compliance with the General Data Protection Regulation (GDPR) is a legal obligation that applies to any data collection exercise involving personal data. Before any survey goes into the field, the following must be in place:
+For EU Managing Authorities, compliance with the GDPR is a legal obligation that applies to any data collection exercise involving personal data. Before any survey goes into the field, the following must be in place:
 
 - A clear legal basis for processing personal data - typically the legitimate interest of the Managing Authority in evaluating public spending, or the explicit consent of respondents
 - An informed consent process: respondents must be told how their data will be used, how long it will be retained, and who will have access, before they agree to participate. [More information on informed consent](02.06b-consent.qmd)
