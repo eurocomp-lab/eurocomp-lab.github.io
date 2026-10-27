@@ -50,7 +50,7 @@ The purpose statement should be broad enough to cover the full range of anticipa
 ::: {.example .case data-map="romania-sm"}
 [Romania (South-Muntenia)]{.tag}
 
-This survey is being conducted by the [...] Regional Development Agency and the World Bank. The goal of the evaluation study is to assess the effectiveness of innovation grants on the creation of successful innovation projects by SMEs and SMEs' business outcomes and competitiveness.
+"This survey is being conducted by the [...] Regional Development Agency and the World Bank. The goal of the evaluation study is to assess the effectiveness of innovation grants on the creation of successful innovation projects by SMEs and SMEs' business outcomes and competitiveness."
 ::::
 
 ### 2. What data will be collected and why
@@ -79,7 +79,7 @@ Explain clearly that the evaluation uses a randomised design: all eligible firms
 ::: {.example .case data-map="romania-sm"}
 [Romania (South-Muntenia)]{.tag}
 
-To achieve a rigorous and unbiased evaluation, the selection of eligible firms invited to submit a formal application is randomised. Information from this form will be used to establish a baseline list of eligible firms. A random sample will then be assigned to the treatment group (invited to fill out the formal application) and the remaining firms will be assigned to the control group (not invited to formally apply).
+"To achieve a rigorous and unbiased evaluation, the selection of eligible firms invited to submit a formal application is randomised. Information from this form will be used to establish a baseline list of eligible firms. A random sample will then be assigned to the treatment group (invited to fill out the formal application) and the remaining firms will be assigned to the control group (not invited to formally apply)."
 ::::
 
 ### 4. Who will have access to the data
@@ -148,7 +148,7 @@ Box 1 is required. Boxes 2 and 3 are optional but described as important for the
 
 ## Special considerations for EU RCTs
 
-**Ethical approval.** Research involving human subjects - including firm-level surveys - typically requires ethical approval from an Institutional Review Board (IRB) or equivalent body. Managing Authorities working with a university or international research partner should confirm that ethical approval has been obtained and that the consent form has been reviewed as part of that process.
+**Ethical approval.** It is recommended that research involving human subjects - including firm-level surveys - apply for ethical approval from an Institutional Review Board (IRB) or equivalent body. Managing Authorities working with a university or international research partner should confirm that ethical approval has been obtained and that the consent form has been reviewed as part of that process.
 
 **Data transfers to international organisations.** If the research partner is based outside the EU - such as the World Bank - the data transfer must be covered by an appropriate GDPR mechanism. The World Bank processes personal data under its own institutional Privacy Policy, consistent with its mandate as an international organisation established by its member countries. This must be stated in the consent form and in the data-sharing agreement between the Managing Authority and the research partner.
 
