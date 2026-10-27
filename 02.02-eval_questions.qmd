@@ -33,7 +33,7 @@ A well-formulated learning question has four characteristics:
 
 **Answerable.** The question must be answerable with the data and methods available. An evaluation that asks about 10-year productivity effects but only has a two-year window will not be able to answer its own primary question. Scope questions to what the evaluation can credibly deliver.
 
-**Decided in advance.** Evaluation questions must be set before data collection begins - not after. Questions formulated after seeing the data are prone to selective reporting and undermine the credibility of the findings. Pre-registration on a public registry (see Step 3) locks in the questions publicly before any results are observed.
+**Decided in advance.** Evaluation questions must be set before data collection begins - not after. Questions formulated after seeing the data are prone to selective reporting and undermine the credibility of the findings. Pre-registration on a public registry (see ) locks in the questions publicly before any results are observed.
 
 
 
