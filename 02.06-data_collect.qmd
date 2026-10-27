@@ -147,7 +147,7 @@ Attrition - firms that cannot be reached or refuse to participate at endline - i
 
 **Make re-contact as easy as possible at endline.** Send advance notices before the endline fieldwork begins. Use the same survey mode as the baseline where possible, as familiarity reduces refusal rates. Keep the endline survey as short as the evaluation objectives allow - respondent fatigue is a leading cause of non-response in follow-up rounds.
 
-**Document and report all non-response.** Record the reason for every non-response using standardised codes (firm refused; firm could not be reached; firm closed; firm no longer eligible). This documentation is essential for the attrition analysis in Step 7.
+**Document and report all non-response.** Record the reason for every non-response using standardised codes (firm refused; firm could not be reached; firm closed; firm no longer eligible).
 
 ## Data protection and GDPR compliance
 
