@@ -178,7 +178,7 @@ Specify which datasets the Managing Authority will provide, in what format and t
 
 ### 8. Qualifications required
 
-For a full RCT evaluation, require: an advanced degree in economics, statistics, or a related quantitative field; demonstrated experience designing and implementing experimental impact evaluations (with publicly available outputs as evidence); experience with firm-level data; and familiarity with EU Cohesion Policy and state aid rules. Where a team is required, specify the expected composition and qualifications for each role.
+For a full RCT evaluation, require: an advanced degree in economics, statistics, or a related quantitative field; demonstrated experience designing and implementing experimental impact evaluations (with publicly available outputs as evidence); experience with firm-level data; and familiarity with EU cohesion policy and state aid rules. Where a team is required, specify the expected composition and qualifications for each role.
 
 
 ### 9. Governance and proposal requirements
