@@ -13,7 +13,7 @@ This page covers when and how many data collection rounds to plan, why surveys a
 :::
 
 
-Step 5 determined where the data will come from. This step is about how and when to collect it. For most randomised controlled trials (RCT) evaluations of competitiveness programmes, this means planning at least one round of primary survey data collection - a baseline before the intervention - while also coordinating access to the administrative data sources identified in Step 5. Whether a primary endline survey is also needed depends on the availability of administrative data, as described below.
+Step 5 determined where the data will come from. This step is about how and when to collect it. For most randomised controlled trials (RCT) evaluations of competitiveness interventions, this means planning at least one round of primary survey data collection - a baseline before the intervention - while also coordinating access to the administrative data sources identified in Step 5. Whether a primary endline survey is also needed depends on the availability of administrative data, as described below.
 
 ---
 
@@ -26,10 +26,10 @@ An RCT evaluation requires data at multiple points in time. The exact rounds dep
 ::: {.example .romania data-map="romania-ne"}
 [North&#8209;East Romania: baseline survey]{.tag}
 
-A baseline survey (pre-application data) was administered: the primary objective of the baseline survey was to conduct an initial evaluation of the business's digital tool requirements and help determine their programme eligibility. The survey questions covered topics such as location, sector, financial considerations (e.g. profits, capital, assets, liabilities), and legal prerequisites. The survey required approximately an hour to complete and was completed online by each firm between June and the end of September 2023.
+A baseline survey (pre-application data) was administered: the primary objective of the baseline survey was to conduct an initial evaluation of the business's digital tool requirements and help determine their intervention eligibility. The survey questions covered topics such as location, sector, financial considerations (e.g. profits, capital, assets, liabilities), and legal prerequisites. The survey required approximately an hour to complete and was completed online by each firm between June and the end of September 2023.
 :::
 
-**Follow-up data collection:** measures outcomes after the intervention, at a point when effects are realistically expected to have materialised. In the European Union (EU) context, a dedicated endline survey is not always necessary. Business registries, tax records, social security data, and customs records - consistently available across member states - can cover many of the core outcome variables (turnover, employment, exports, productivity) without placing any additional burden on firms. Where administrative data provides sufficient coverage, it should be the primary endline source. A primary endline survey becomes necessary only when the evaluation requires outcomes or mechanisms that administrative records do not contain - for example, management practices, innovation behaviour, digital technology adoption, or respondent-reported perceptions of the programme.
+**Follow-up data collection:** measures outcomes after the intervention, at a point when effects are realistically expected to have materialised. In the European Union (EU) context, a dedicated endline survey is not always necessary. Business registries, tax records, social security data, and customs records - consistently available across member states - can cover many of the core outcome variables (turnover, employment, exports, productivity) without placing any additional burden on firms. Where administrative data provides sufficient coverage, it should be the primary endline source. A primary endline survey becomes necessary only when the evaluation requires outcomes or mechanisms that administrative records do not contain - for example, management practices, innovation behaviour, digital technology adoption, or respondent-reported perceptions of the intervention.
 
 ::: {.example .romania data-map="romania-ne"}
 [North&#8209;East Romania: follow-up data collection]{.tag}
@@ -46,23 +46,23 @@ In the EU, the consistent availability of firm-level administrative data - tax r
 
 ## Why surveys?
 
-Surveys are the most widely used tool for collecting primary data in impact evaluations of public support programmes. They make it possible to gather structured, comparable information directly from the firms, individuals, or organisations that a programme is designed to benefit - capturing precisely the outcomes and mechanisms that administrative records do not contain.
+Surveys are the most widely used tool for collecting primary data in impact evaluations of public support interventions. They make it possible to gather structured, comparable information directly from the firms, individuals, or organisations that an intervention is designed to benefit - capturing precisely the outcomes and mechanisms that administrative records do not contain.
 
 A particular strength of surveys is their scalability. Rather than collecting information from every single beneficiary or firm in a target population, a well-designed survey can be conducted on a carefully selected subset - a sample - and, provided that sample is representative, the findings can be generalised with confidence to the full population.
 
-For programmes evaluating competitiveness and innovation outcomes - such as changes in firm-level Research and Developemnt (R&D) investment, technology adoption, or management practices - surveys are often the only way to capture the intermediate outcomes that sit between a grant payment and a long-term productivity gain visible in national statistics. They are also essential for understanding why an intervention worked or did not, by measuring the mechanisms that link the programme's activities to its results.
+For evaluations including competitiveness and innovation outcomes - such as changes in firm-level Research and Developemnt (R&D) investment, technology adoption, or management practices - surveys are often the only way to capture the intermediate outcomes that sit between a grant payment and a long-term productivity gain visible in national statistics. They are also essential for understanding why an intervention worked or did not, by measuring the mechanisms that link the intervention's activities to its results.
 
 
 ## Paper vs. electronic surveys
 
-While paper-based surveys remain in use in some contexts, electronic surveys are the clear standard for programme evaluations today and should be the default choice. Digital surveys offer built-in data validation - mandatory fields, range checks, and logical skip patterns - catching errors at the point of entry rather than during analysis. They eliminate manual transcription entirely, are faster to deploy, easier to monitor in real time, and simpler to adapt if pilot testing reveals problems.
+While paper-based surveys remain in use in some contexts, electronic surveys are the clear standard for evaluations today and should be the default choice. Digital surveys offer built-in data validation - mandatory fields, range checks, and logical skip patterns - catching errors at the point of entry rather than during analysis. They eliminate manual transcription entirely, are faster to deploy, easier to monitor in real time, and simpler to adapt if pilot testing reveals problems.
 
 
 ## Choose a collection method
 
 There is no single best method. The right choice depends on who the respondents are, what the questions require, and the available budget. Three methods are in common use:
 
-**Computer-Assisted Telephone Interviewing (CATI)** involves trained interviewers conducting structured surveys over the phone. CATI reaches a broad range of respondents quickly and is well-suited when response rates need to be actively managed - interviewers can follow up with non-respondents and clarify questions in real time. It is also practical when beneficiary contact details are already held in programme management systems. Surveys must be kept short enough to hold respondents' attention on the phone.
+**Computer-Assisted Telephone Interviewing (CATI)** involves trained interviewers conducting structured surveys over the phone. CATI reaches a broad range of respondents quickly and is well-suited when response rates need to be actively managed - interviewers can follow up with non-respondents and clarify questions in real time. It is also practical when beneficiary contact details are already held in project management systems. Surveys must be kept short enough to hold respondents' attention on the phone.
 
 **Computer-Assisted Personal Interviewing (CAPI)** takes the form of face-to-face interviews conducted with a tablet or laptop loaded with survey software. The personal interaction tends to produce more nuanced and accurate answers, particularly on sensitive topics such as firm finances or employment decisions. CAPI is best reserved for complex questionnaires and small, geographically concentrated samples - it is the most expensive method and carries a risk that the interviewer's presence influences responses.
 
@@ -78,7 +78,7 @@ Data in North-East Romania was collected using a web survey (baseline survey) an
 
 ## Who to collect from, and when
 
-**Choosing the right respondent.** For firm-level surveys, the ideal respondent is a senior decision-maker - a Chief Executive Officers (CEOs), Chief Financial Officer (CFO), or equivalent - who has oversight of the firm's strategic and financial decisions. The respondent should ideally be the same person at baseline and endline to ensure that differences reflect real changes rather than differences between respondents. Where the programme targets a specific group within the firm - such as R&D personnel - those individuals may be more appropriate for certain questions.
+**Choosing the right respondent.** For firm-level surveys, the ideal respondent is a senior decision-maker - a Chief Executive Officers (CEOs), Chief Financial Officer (CFO), or equivalent - who has oversight of the firm's strategic and financial decisions. The respondent should ideally be the same person at baseline and endline to ensure that differences reflect real changes rather than differences between respondents. Where the intervention targets a specific group within the firm - such as R&D personnel - those individuals may be more appropriate for certain questions.
 
 ::: {.example .romania data-map="romania-ne"}
 [North&#8209;East Romania: primary respondents]{.tag}
@@ -106,7 +106,7 @@ The survey implementation was undertaken by a team of 30 enumerators hired by Ro
 
 ### Start with what already exists
 
-Before writing a single question, review existing, validated survey instruments. Using questions that have already been tested in comparable evaluations and surveys saves time, improves data quality, and makes findings comparable with evidence from other programmes and regions. Key reference sources include:
+Before writing a single question, review existing, validated survey instruments. Using questions that have already been tested in comparable evaluations and surveys saves time, improves data quality, and makes findings comparable with evidence from other interventions and regions. Key reference sources include:
 
 - [Community Innovation Survey (CIS)](https://ec.europa.eu/eurostat/web/microdata/collections-research/community-innovation-survey) - the standard EU framework for measuring innovation activity in firms
 - [Firms Adoption of Technology Survey (FAT)](https://microdata.worldbank.org/collections/fat) - World Bank instrument on technology adoption across sectors
@@ -116,7 +116,7 @@ Before writing a single question, review existing, validated survey instruments.
 - [ECB Survey on Access to Finance of Enterprises (SAFE)](https://www.ecb.europa.eu/stats/ecb_surveys/safe/html/index.en.html) - financing conditions and constraints for SMEs
 
 ::: {.takeaway}
-The survey question repository collects questions from the surveys listed above, organised by topic - from company details and financial performance to innovation, digitalisation, and management practices. Use them as a starting point: pick the questions that match your indicators, consult similar evaluations and underlying survey instruments, and adapt the questions to your programme.
+The survey question repository collects questions from the surveys listed above, organised by topic - from company details and financial performance to innovation, digitalisation, and management practices. Use them as a starting point: pick the questions that match your indicators, consult similar evaluations and underlying survey instruments, and adapt the questions to your intervention.
 
 [Browse the survey question repository](08-bank_survey.qmd)
 :::
@@ -143,7 +143,7 @@ Attrition - firms that cannot be reached or refuse to participate at endline - i
 
 **Collect robust contact information at baseline.** Record multiple contact points for each firm: the primary respondent's name, direct phone number, and email; a backup contact; and the firm's main address and website. Ask respondents explicitly for permission to follow up at endline and to contact them via alternative channels if the primary contact changes.
 
-**Maintain a tracking database throughout the intervention period.** Do not wait until the endline survey to discover that contact details have gone stale. Update the database periodically using public business registry records, programme monitoring data, and any contact made for compliance or monitoring purposes.
+**Maintain a tracking database throughout the intervention period.** Do not wait until the endline survey to discover that contact details have gone stale. Update the database periodically using public business registry records, project monitoring data, and any contact made for compliance or monitoring purposes.
 
 **Make re-contact as easy as possible at endline.** Send advance notices before the endline fieldwork begins. Use the same survey mode as the baseline where possible, as familiarity reduces refusal rates. Keep the endline survey as short as the evaluation objectives allow - respondent fatigue is a leading cause of non-response in follow-up rounds.
 
