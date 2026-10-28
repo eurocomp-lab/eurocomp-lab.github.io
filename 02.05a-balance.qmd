@@ -22,7 +22,7 @@ This page explains what balance means in practice, how to verify it, and - becau
 
 The logic of a randomised controlled trial (RCT) is simple: take two groups of similar units, give one group the intervention and withhold it from the other, then compare outcomes. The comparison is only meaningful if the two groups were genuinely similar to begin with. For example, if the treatment group happened to contain more high-performing firms before the intervention started, any difference in outcomes at endline may simply reflect that head start rather than the intervention's effect.
 
-Randomisation is the mechanism that makes comparability likely - but it does not guarantee it, especially with smaller samples. A random draw can, by chance, produce a treatment group that is slightly different (e.g. older, larger, or more export-oriented firms) than the comparison group. With enough units, these chance differences average out. With fewer units, they can be large enough to matter.
+Randomisation is the mechanism that makes comparability likely - but it does not guarantee it, especially with smaller samples. A random draw can, by chance, produce a treatment group that is slightly different (e.g. older, larger, or more export-oriented firms) from the comparison group. With enough units, these chance differences average out. With fewer units, they can be large enough to matter.
 
 This is why the balance check is one of the first things an evaluator does after the baseline survey is complete. It is not a formality - it is a quality control on the randomisation itself.
 
@@ -37,7 +37,7 @@ A balance check compares the two groups on a set of characteristics measured at 
 - Sector or industry classification
 - Prior R&D or innovation activity
 - Export participation
-- The (primary) outcome variables itself, measured before the intervention
+- The outcome variables themselves, above all the primary outcome, measured before the intervention
 
 For each characteristic, the evaluator calculates the average value in the treatment group and the average value in the comparison group, and tests whether the difference between them is larger than you would expect by chance from a random draw. 
 

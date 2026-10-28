@@ -3,67 +3,47 @@ title: "Survey questions and outcome indicators"
 description-meta: "Browse ready-made survey questions and outcome indicators, organised by topic, to measure how business support changes the firms in your evaluation."
 ---
 
+Two repositories help you measure what an intervention changes: tested survey questions for collecting data from firms,
+and indicators that define what to measure, each with a plain-language definition and a metric. Both are organised by
+topic and are a starting point to adapt, not a prescribed set.
+
 ## Survey question repository
 
+Questions drawn from the Community Innovation Survey, World Bank surveys and other validated instruments.
+[Open the survey question repository](08-bank_survey.qmd) for the sources and how to use them.
 
-Before writing a single question, review existing, validated survey instruments. Using questions that have already been tested in comparable evaluations saves time, improves data quality, and makes findings comparable with evidence from other programmes and regions. Key reference sources include:
+### Topics {.unlisted}
 
-- [Community Innovation Survey (CIS)](https://ec.europa.eu/eurostat/web/microdata/collections-research/community-innovation-survey) - the standard EU framework for measuring innovation activity in firms
-- [Firms Adoption of Technology Survey (FAT)](https://microdata.worldbank.org/collections/fat) - World Bank instrument on technology adoption across sectors
-- [World Bank Enterprise Surveys (WBES)](https://espanol.enterprisesurveys.org/en/enterprisesurveys) - firm-level outcomes including investment, productivity, and the business environment
-- [World Management Survey (WMS)](https://worldmanagementsurvey.org/) - management practices across firms and countries
-- [Flash Eurobarometer on SME Digitalisation](https://europa.eu/eurobarometer/surveys/detail/2442) - digital technology adoption and skills across EU member states
-- [ECB Survey on Access to Finance of Enterprises (SAFE)](https://www.ecb.europa.eu/stats/ecb_surveys/safe/html/index.en.html) - financing conditions and constraints for SMEs
-
-The survey question repository brings together questions drawn from the resources above, organised by topic. The questions are suggestions and a starting point, not a complete or prescribed questionnaire: they do not cover every topic an evaluation may need, and they do not have to be used exactly as written. The source surveys linked above give more detail and many more questions, so it is worth consulting them directly when a topic is central to your evaluation. Navigate to the theme most relevant to your evaluation, browse the questions and response options (where applicable), and select those that match the indicators in your Theory of Change. Then adapt the wording, response options, units and reference periods to your programme and national context.
-
-## Topics
-
-- Topic: [company details](08.01-bank_survey_company.qmd)
-- Topic: [respondent details](08.02-bank_survey_respondent.qmd)
-- Topic: [company structure and ownership](08.03-bank_survey_ownership.qmd)
-- Topic: [company financial performance](08.04-bank_survey_performance.qmd)
-- Topic: [collaboration](08.05-bank_survey_collab.qmd)
-- Topic: [digitalisation and technology adoption](08.07-bank_survey_digital.qmd)
-- Topic: [innovation, R&D activities, and intellectual property](08.08-bank_survey_innov.qmd)
-- Topic: [technology readiness level](08.11-bank_survey_trl.qmd)
-- Topic: [energy efficiency](08.12-bank_survey_energy.qmd)
-- Topic: [business finance](08.13-bank_survey_finance.qmd)
-- Topic: [training](08.14-bank_survey_train.qmd)
-- Topic: [management practices](08.15-bank_survey_mgmt.qmd)
-- Topic: [competition](08.16-bank_survey_comp.qmd)
+- [company details](08.01-bank_survey_company.qmd)
+- [respondent details](08.02-bank_survey_respondent.qmd)
+- [company structure and ownership](08.03-bank_survey_ownership.qmd)
+- [company financial performance](08.04-bank_survey_performance.qmd)
+- [collaboration](08.05-bank_survey_collab.qmd)
+- [digitalisation and technology adoption](08.07-bank_survey_digital.qmd)
+- [innovation, R&D activities, and intellectual property](08.08-bank_survey_innov.qmd)
+- [technology readiness level](08.11-bank_survey_trl.qmd)
+- [energy efficiency](08.12-bank_survey_energy.qmd)
+- [business finance](08.13-bank_survey_finance.qmd)
+- [business support and training](08.14-bank_survey_train.qmd)
+- [management practices](08.15-bank_survey_mgmt.qmd)
+- [competition](08.16-bank_survey_comp.qmd)
 
 ---
 
-## RCT outcome repository
+## Indicator repository
 
-Indicators rarely need to be built from scratch. Managing Authorities should draw on existing, well-tested measures from comparable evaluations before designing new ones. The selection of outcomes and their definitions in this repository was informed by the EuroCOMP Lab evaluations (see [Examples](03-examples.qmd)), policy reports such as the [World Bank's TIDES report](https://www.worldbank.org/en/region/eca/publication/tides-of-change-igniting-productivity-growth-in-europe-and-central-asia), and established indicator manuals such as the [OECD Oslo Manual](https://www.oecd.org/en/publications/2018/10/oslo-manual-2018_g1g9373b.html) for innovation and the [OECD Frascati Manual](https://www.oecd.org/en/publications/2015/10/frascati-manual-2015_g1g57dcb.html) for research and development. Drawing on these sources improves the quality of your data and makes findings easier to compare with evidence from other programmes and regions.
+Indicators informed by the EuroCOMP Lab evaluations, World Bank reports and the OECD Oslo and Frascati manuals.
+[Open the indicator repository](09-bank_outcomes.qmd) for the sources, how to use it and an example evaluation for each topic.
 
-The RCT outcome repository provides a curated list of outcome indicators, organised by topic. The outcomes are suggestions and a starting point, not a complete or prescribed set: they do not cover every outcome an evaluation may need, and not all of them will suit every evaluation. Select the outcomes that match the instrument you are evaluating and the causal chain in your Theory of Change, and adapt the definitions and metrics to your programme and context. The reports and manuals above give more detail and further indicators, so it is worth consulting them directly when an outcome is central to your evaluation. For each outcome you will find:
+### Topics {.unlisted}
 
-- The outcome name and a plain-language definition
-- The metric - how to operationalise and measure it
-
-
-## Topics
-
-- Topic: [firm performance and growth](09.01-bank_outcomes_performance.qmd)
-  - Example: [Iacovone, L., Aviomoh, H., Belacin, M., Bossavie, L., Cusolito, A., de Hoyos, R., Ottaviano, G., Scheifele, F., Torre, I., and Yoshino, Y. 2025. &rdquo;TIDES of Change: Igniting Productivity Growth in Europe and Central Asia.&rdquo; Overview booklet. Washington, DC: World Bank. License: Creative Commons Attribution CC BY 3.0 IGO](https://www.worldbank.org/en/region/eca/publication/tides-of-change-igniting-productivity-growth-in-europe-and-central-asia)
-- Topic: [innovation and intellectual property](09.02-bank_survey_innov.qmd)
-    - Example: [Romania (South-Muntenia)](03-examples.qmd#south-muntenia)
-- Topic: [R&D activity](09.03-bank_survey_r&d.qmd)
-  - Example: [Cusolito, A. P., Dalton, P., and Ortega, S. R. 2025. &ldquo;The Impact of Large Public Grants on Industrial R&D: Evidence from an RCT in Extremadura.&rdquo; World Bank, Washington, DC.](https://documents1.worldbank.org/curated/en/099062725130024487/pdf/P171223-e6f6ea58-057f-4a96-b15e-2003d3ecd2a3.pdf)
-- Topic: [digitalisation and technology adoption](09.05-bank_survey_digital.qmd)
-  - Example: [World Bank. 2025. &ldquo;Thinking Bigger: Digital Transformation in North-East Romania: Short-Term Impacts.&rdquo; Strengthening Monitoring and Evaluation of Innovation Programs in the EU. World Bank, Washington, DC.](https://documents1.worldbank.org/curated/en/099062725130014823/pdf/P171223-aee2b26f-49c8-4bd1-a313-6a8d9d71abc4.pdf)
-- Topic: [collaboration and knowledge transfer](09.06-bank_survey_collab.qmd)
-  - Example: [Avdeenko, A., Campos, F., Chandy, R., Iacovone, L., and Kala, N. 2025. &ldquo;Connecting Minds, Creating Innovation: Matchmaking between Business and Science in Croatia.&rdquo; World Bank, Washington, DC.](https://documents1.worldbank.org/curated/en/099062725130142696/pdf/P171223-e13421d0-c5a3-4085-ac74-1883f089d91e.pdf)
-- Topic: [employment and human capital](09.08-bank_survey_employ.qmd)
-  - Example: [World Bank. 2025. &ldquo;Thinking Bigger: Digital Transformation in North-East Romania: Short-Term Impacts.&rdquo; Strengthening Monitoring and Evaluation of Innovation Programs in the EU. World Bank, Washington, DC.](https://documents1.worldbank.org/curated/en/099062725130014823/pdf/P171223-aee2b26f-49c8-4bd1-a313-6a8d9d71abc4.pdf)
-- Topic: [business finance](09.09-bank_outcome_finance.qmd)
-  - Example: [Dautovic, E., Cusolito, A. P., and McKenzie, D. 2018. &ldquo;Can Government Intervention Make Firms More Investment-Ready?: A Randomized Experiment in the Western Balkans.&rdquo; Policy Research Working Paper; No. 8541. World Bank, Washington, DC.](https://openknowledge.worldbank.org/server/api/core/bitstreams/28fbd029-9619-5eb8-836a-c1432fe1581b/content)
-- Topic: [business training](09.10-bank_outcome_train.qmd)
-  - Example: [Iacovone, L., Maloney, W., and McKenzie, D. 2022. &ldquo;Improving Management with Individual and Group-Based Consulting: Results from a Randomized Experiment in Colombia.&rdquo; The Review of Economic Studies, Review of Economic Studies Ltd, vol. 89(1), pages 346-371.](https://documents1.worldbank.org/curated/en/166671557929384690/pdf/Improving-Management-with-Individual-and-Group-Based-Consulting-Results-from-a-Randomized-Experiment-in-Colombia.pdf)
-- Topic: [management practices](09.11-bank_outcome_mgmt.qmd)
-  - Example: [Viganola, D. and Diallo, M. Y. 2025. &ldquo;How Management Practices Differ in the EU-27.&rdquo; Policy Indicators Briefs. World Bank, Washington, DC.](https://documents1.worldbank.org/curated/en/099513502142528787/pdf/IDU-b17303ed-2bae-41a2-9c52-5d5795945e21.pdf)
-- Topic: [energy efficiency](09.12-bank_outcome_energy.qmd)
-  - Example: [Avdeenko, A., Campos, F., Iacovone, L., Kala, N., Nuno, M., Salhab, J., and Martin, R. 2026. &ldquo;Does Financial Support Improve SME Energy Efficiency? An RCT in Europe.&rdquo; World Bank, Washington, DC.](assets/eenergy-2pager.pdf)
+- [firm performance and growth](09.01-bank_outcomes_performance.qmd)
+- [innovation and intellectual property](09.02-bank_survey_innov.qmd)
+- [R&D activity](09.03-bank_survey_r&d.qmd)
+- [digitalisation and technology adoption](09.05-bank_survey_digital.qmd)
+- [collaboration and knowledge transfer](09.06-bank_survey_collab.qmd)
+- [employment and human capital](09.08-bank_survey_employ.qmd)
+- [business finance](09.09-bank_outcome_finance.qmd)
+- [business support and training](09.10-bank_outcome_train.qmd)
+- [management practices](09.11-bank_outcome_mgmt.qmd)
+- [energy efficiency](09.12-bank_outcome_energy.qmd)

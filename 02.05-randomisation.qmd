@@ -15,6 +15,9 @@ private, how to check that the groups are comparable, the most common problems a
 to pre-register the design.
 :::
 
+With the feasibility conditions confirmed in [Step 4](02.04-assess.qmd), the next decision is how to randomise: which
+design fits the intervention, how the draw is run, and how to protect the comparison once it has been made.
+
 ***
 
 ## Five ways to randomise your intervention
@@ -254,7 +257,7 @@ Compliance is rarely perfect in either direction: some encouraged units will nev
 :::
 
 
-## Did randomisation lead to comparable units in treatment and comparison group?
+## Did randomisation lead to comparable treatment and comparison groups?
 
 Once the lottery has been conducted and the baseline survey fielded, the first analytical task is to check whether the draw actually produced two comparable groups. Even a well-designed lottery can, by chance, produce a treatment group that differs from the comparison group (e.g. on firm age, size, sector, or prior performance). A balance check compares the two groups on a set of baseline characteristics and tests whether any differences are larger than chance would produce. If the groups look similar before the intervention starts, the evaluation is on solid ground. If they do not, the analysis will need to account for the imbalance. [More details on balance checks and what to do if groups are not comparable](02.05a-balance.qmd)
 
@@ -265,7 +268,7 @@ Even a well-designed RCT must survive contact with reality. These are the four m
 
 **Attrition.** Units drop out between the baseline and the endline, e.g. because firms closed, relocated, or simply refused to participate in a survey again. If drop-out is higher in one group than the other, the two groups are no longer comparable and the impact estimate may be biased. Prevention is far easier than correction: collect multiple contact details at baseline, keep them updated during the intervention, and keep the endline survey as short as possible.
 
-**Spillovers.** Comparison units benefit from the intervention indirectly - a treated supplier passes on improved products, or a treated neighbour shares what they learned in a training session. When this happens, the gap between the groups narrows and the evaluation underestimates the true effect. Spillovers are most likely in concentrated sectors or geographically tight clusters. Where the risk is high, randomising at a higher level - by region or sector cohort rather than by individual units - can contain it. If spillovers are anticipated, the RCT can be designed in a manner accounting for them.
+**Spillovers.** Comparison units benefit from the intervention indirectly - a treated supplier passes on improved products, or a treated neighbour shares what they learned in a training session. When this happens, the gap between the groups narrows and the evaluation underestimates the true effect. Spillovers are most likely in concentrated sectors or geographically tight clusters. Where the risk is high, randomising at a higher level - by region or sector cohort rather than by individual units - can contain it. If spillovers are expected, the RCT can be designed to measure them.
 
 ::: {.example .case data-map="romania-sm"}
 [Romania (South-Muntenia): designing for spillovers]{.tag}
@@ -290,9 +293,9 @@ Because of limited take-up, it is safer to report the intention-to-treat effect,
 
 ## Pre-register the RCT design before the intervention begins
 
-Before the intervention begins (but latest before data analysis begins), the RCT design must be publicly committed to on a recognised registry. This is called pre-registration, and it is one of the most important quality controls in a rigorous RCT.
+Before the intervention begins (and at the latest before any data analysis begins), the RCT design must be publicly committed to on a recognised registry. This is called pre-registration, and it is one of the most important quality controls in a rigorous RCT.
 
-Pre-registration means publishing, in advance, the primary outcome, the evaluation questions, the randomisation procedure, and the analysis plan. Once that record is time-stamped and publicly visible, it becomes impossible to claim after the fact that a different learning question or outcome was always the primary focus, or that a subgroup analysis was planned from the beginning when it was actually prompted by the results.  The evaluation team should lead this process, but the managing authority should confirm it has been done before approving the inception report.
+Pre-registration means publishing, in advance, the primary outcome, the evaluation questions, the randomisation procedure, and the analysis plan. Once that record is time-stamped and publicly visible, it becomes impossible to claim after the fact that a different learning question or outcome was always the primary focus, or that a subgroup analysis was planned from the beginning when it was actually prompted by the results. The evaluation team should lead this process, but the managing authority should confirm it has been done before approving the inception report.
 
 For a managing authority, pre-registration also serves a protective function. It shields the evaluation team from pressure to adjust the analysis once results are known. And it strengthens the credibility of the findings: when a null result or an inconvenient conclusion is published, pre-registration demonstrates that it reflects reality rather than selective reporting.
 

@@ -148,7 +148,7 @@ Box 1 is required. Boxes 2 and 3 are optional but described as important for the
 
 ## Special considerations for EU RCTs
 
-**Ethical approval.** It is recommended that research involving human subjects - including firm-level surveys - apply for ethical approval from an Institutional Review Board (IRB) or equivalent body. Managing authorities working with a university or international research partner should confirm that ethical approval has been obtained and that the consent form has been reviewed as part of that process.
+**Ethical approval.** For research involving human subjects, including firm-level surveys, it is recommended to seek ethical approval from an Institutional Review Board (IRB) or equivalent body. Managing authorities working with a university or international research partner should confirm that ethical approval has been obtained and that the consent form has been reviewed as part of that process.
 
 **Data transfers to international organisations.** If the research partner is based outside the EU - such as the World Bank - the data transfer must be covered by an appropriate GDPR mechanism. The World Bank processes personal data under its own institutional Privacy Policy, consistent with its mandate as an international organisation established by its member countries. This must be stated in the consent form and in the data-sharing agreement between the managing authority and the research partner.
 

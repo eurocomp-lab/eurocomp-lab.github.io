@@ -176,7 +176,7 @@ Strategy B causes 35 successes and thus has more impact than A.
 :::
 :::
 
-Raw success counts can be misleading. To assess effectiveness, interventions need to be judged on their impact rather than on raw success counts.
+Raw success counts can be misleading: to assess effectiveness, interventions need to be judged on their impact.
 
 ::: {.cards}
 ::: {.card-e}
@@ -196,7 +196,7 @@ that could not otherwise get funded.
 ::: {.card-e}
 ### Can experts spot the marginal firm? {.unlisted}
 Evidence suggests not reliably. In a business plan competition in Nigeria, judges' scores
-did not predict which firms would survive or grow three years later (McKenzie & Sansone,
+did not predict which firms would survive or grow three years later (McKenzie and Sansone,
 2019; see [Common questions about RCTs](#common-questions)).
 :::
 :::
@@ -292,6 +292,7 @@ illustrates these ideas in practice: a digitalisation grant scheme for micro, sm
 medium enterprises (MSMEs) in North-East Romania, run by the Regional Development Agency
 with World Bank support.
 
+```{=html}
 <div class="facts">
   <div><div class="k">The intervention</div><div class="v">EU-funded grants of EUR 15,000&ndash;100,000 for digital tools, equipment and services</div></div>
   <div><div class="k">Where</div><div class="v">North-East Romania; run by the regional development agency with World Bank support</div></div>
@@ -481,15 +482,15 @@ digital tools 2.5 times more intensively than those with the subsidy alone. This
 The North-East Romania intervention asked both questions. It used one experiment to find out whether the grants were effective and a second to study how best to conduct outreach.
 Before the digitalisation call, the regional development agency randomly selected 26 of 46
 towns for in-person information visits, in which a consultant explained the call and
-helped firms complete the pre-assessment survey. The visited towns produced 110
-applications against 71 in the towns that did not receive in-person visits (55% more). The additional applicants in towns with in-person visits were
-smaller firms (12.6 employees on average, compared with 19.6).
+helped firms complete the pre-assessment survey. The 26 visited towns produced 110
+applications against 71 in the 20 towns without visits, about 4.2 per town against 3.6.
+Applicants from visited towns were also smaller firms (12.6 employees on average, compared with 19.6).
 :::
 
 ::: {.example .case data-map="colombia"}
 [Colombia: group vs individual management support]{.tag}
 [Iacovone et al. 2022](03-examples.qmd#colombia-scaling-up-management-consulting) compared two ways to deliver management consulting to auto-parts firms:
-one-to-one (about US$28,950 per firm) and in groups of 3-8 firms (about US$10,500). Both
+one-to-one (about USD 28,950 per firm) and in groups of 3–8 firms (about USD 10,500). Both
 raised management scores by around 9 percentage points, but only group consulting
 significantly raised sales and profits.
 
@@ -615,7 +616,7 @@ significantly raised sales and profits.
   <text x="193" y="799" text-anchor="middle" fill="var(--dg-ink)" font-size="12">implementation is already under way.</text>
 </svg>
 <figcaption>Note: for an RCT, the first path needs a comparison group fixed before launch. If there is no excess demand, an RCT may still be possible with another design, for
-example a randomised phase-in, where every eligible participant is served but in a random order. Even when an evaluation can be planned from the outset, quasi-experimental methods can be the right choice, depending on the context. The page How to design an RCT explains different ways to
+example a randomised phase-in, where every eligible participant is served but in a random order. Even when an evaluation can be planned from the outset, quasi-experimental methods can be the right choice, depending on the context. <a href="02.05-randomisation.qmd">Step 5: how to randomise</a> explains the different ways to
 randomise. The second path does not need a comparison group fixed from the outset, because nobody is excluded from the intervention itself – only which version each participant receives is randomised.</figcaption>
 </figure>
 ```
@@ -877,7 +878,7 @@ conditions, such as functioning markets or delivery capacity, are not yet in pla
 ### Statistically not feasible {.unlisted}
 Too few units or too little money. Large indirect or spillover effects that cannot be measured. (Spillovers alone are not a
 reason to drop an RCT: if expected, they can be designed for and measured; see
-[Step 4: check whether an RCT is feasible](02.04-assess.qmd).)
+[Step 5: how to randomise](02.05-randomisation.qmd#what-are-potential-challenges).)
 Support that has to reach all eligible recipients at once, for example emergency aid after a natural
 disaster. Treatment assigned at too high a level, for example to whole NUTS 2 regions, which are
 difficult to randomise.
@@ -898,9 +899,9 @@ measurable results.
 ## Learning through RCTs is a continuous process {#learning-cycle}
 
 Every RCT raises new questions along with the ones it answers, each round building
-on the last. That is how we expand our knowledge of what works, for whom and under what
-conditions, and use it to design better interventions. Exchange within a community of practice
-matters, so we can learn from each other, not just from our own findings.
+on the last. That is how knowledge of what works, for whom and under what conditions
+grows, and how it feeds into better interventions. Exchange within a community of practice
+matters, so that managing authorities learn from each other, not just from their own findings.
 
 But before adopting what worked elsewhere, questions of external validity need to be considered, as what worked in one place may not necessarily work in another. The key question is whether the conditions are comparable: is the target group similar, and are the conditions essential to that effect actually in place in the new setting?
 
@@ -1088,7 +1089,7 @@ Detecting a given effect with confidence needs enough observations in each group
 
 A power calculation needs a few inputs: the smallest effect that would still be meaningful to detect, how much the result already varies across participants before the intervention runs, expected take-up of the intervention (as this affects the effective size of the treatment group), how much loss of observations to expect over time and whether assignment happens at the level of the individual applicant or of a group they belong to. Assigning by group generally needs a larger total sample to reach the same precision.
 
-See [Step 4: sample size](02.04a-power.qmd) for a walkthrough of turning these inputs into an actual sample size calculation.
+See [Power calculations](02.04a-power.qmd), part of Step 4, for a walkthrough of turning these inputs into an actual sample size calculation.
 
 </details>
 
@@ -1097,14 +1098,14 @@ See [Step 4: sample size](02.04a-power.qmd) for a walkthrough of turning these i
 
 It can be, so it is worth planning for at the design stage. Often, though, results of interest are already captured in administrative registers rather than collected through a survey, so comparison group response rates are not a concern.
 
-If data on results need to be collected through surveys, a group that received nothing may feel less invested in answering than a group that participated. Looking across dozens of studies, David McKenzie found that differential attrition between treatment and comparison groups averages only a few percentage points, widening mainly when the treatment is large and highly visible, such as a sizeable cash grant. Examples on this site show both cases. In [Extremadura](03-examples.qmd#spain), there was no evidence of selective attrition in follow-up survey responses. In the European Commission's [SME energy-efficiency grants](03-examples.qmd#europe-grants-for-sme-energy-efficiency), firms offered a grant of up to EUR 10,000 answered follow-up surveys far more often than the comparison group (91% against 65%), so the estimates rely on statistical corrections for who responded. Sustained follow-up – repeat calls, alternative contact channels, incentives for non-respondents – can help close such gaps, as in [Czechia](03-examples.qmd#czechia-smart-start).
+If data on results need to be collected through surveys, a group that received nothing may feel less invested in answering than a group that participated. Looking across dozens of studies, [David McKenzie found](https://blogs.worldbank.org/en/impactevaluations/attrition-rates-typically-aren-t-different-control-group-treatment-group-really-and-why) that differential attrition between treatment and comparison groups averages only a few percentage points, widening mainly when the treatment is large and highly visible, such as a sizeable cash grant. Examples on this site show both cases. In [Extremadura](03-examples.qmd#spain), there was no evidence of selective attrition in follow-up survey responses. In the European Commission's [SME energy-efficiency grants](03-examples.qmd#europe-grants-for-sme-energy-efficiency), firms offered a grant of up to EUR 10,000 answered follow-up surveys far more often than the comparison group (91% against 65%), so the estimates rely on statistical corrections for who responded. Sustained follow-up – repeat calls, alternative contact channels, incentives for non-respondents – can help close such gaps, as in [Czechia](03-examples.qmd#czechia-smart-start).
 
 </details>
 
 <details class="myth-box">
 <summary>Is it unethical to have a comparison group?</summary>
 
-Not necessarily. Where the budget does not allow all eligible applicants to be funded, some are turned away whatever the evaluation method; randomisation only determines how the available funds are allocated, giving every equally eligible applicant the same chance. Where funds would allow a wider roll-out, starting with part of the eligible population can still be justified if the aim is to learn whether the intervention works before scaling it up – for example through a phased roll-out in which the comparison group receives support later. Other ways of choosing among equally eligible applicants are not necessarily more accurate: in a business plan competition in Nigeria, expert judges' scores had no relationship with which businesses went on to survive, hire staff or turn a profit three years later [(McKenzie & Sansone, 2019)](https://doi.org/10.1016/j.jdeveco.2019.07.002).
+Not necessarily. Where the budget does not allow all eligible applicants to be funded, some are turned away whatever the evaluation method; randomisation only determines how the available funds are allocated, giving every equally eligible applicant the same chance. Where funds would allow a wider roll-out, starting with part of the eligible population can still be justified if the aim is to learn whether the intervention works before scaling it up – for example through a phased roll-out in which the comparison group receives support later. Other ways of choosing among equally eligible applicants are not necessarily more accurate: in a business plan competition in Nigeria, expert judges' scores had no relationship with which businesses went on to survive, hire staff or turn a profit three years later [(McKenzie and Sansone, 2019)](https://doi.org/10.1016/j.jdeveco.2019.07.002).
 
 Nor does a comparison group have to mean receiving nothing at all: RCTs can compare two different versions of an intervention, so every participant receives some form of support and the question becomes which version works better. What matters is that participants are properly informed about the study, their rights and how any data on them are processed and stored – which is why RCTs are often reviewed beforehand by a research ethics committee (an Institutional Review Board, or IRB, in some countries), which is also the body participants can turn to with complaints.
 
@@ -1113,7 +1114,7 @@ Nor does a comparison group have to mean receiving nothing at all: RCTs can comp
 <details class="myth-box">
 <summary>Do RCTs require ethical clearance?</summary>
 
-Not always. Whether ethics review is legally mandatory depends on the country, the institution running the study, the type of intervention and whether personal data are involved. For example, an RCT studying an intervention's effect on firms using administrative data to measure results does not require ethical clearance. Seeking it anyway is still recommended: a research ethics committee helps ensure that participants are properly informed, that data handling complies with GDPR and that there is a body participants can turn to with complaints.
+Not always. Whether ethics review is legally mandatory depends on the country, the institution running the study, the type of intervention and whether personal data are involved. For example, an RCT studying an intervention's effect on firms using administrative data to measure results often does not require ethical clearance. Seeking it anyway is still recommended: a research ethics committee helps ensure that participants are properly informed, that data handling complies with GDPR and that there is a body participants can turn to with complaints.
 
 </details>
 

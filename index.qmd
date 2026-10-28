@@ -177,7 +177,7 @@ Quasi-experimental methods, such as matching,
 difference-in-differences or regression discontinuity design, compare participants with similar
 non-participants. Because the evaluator does not decide who ends up in which group, the comparability of the groups rests on assumptions that need to be stated and discussed.
 
-In an RCT, the comparison group is created by random assignment before the intervention starts, so the comparability of the groups does not depend on such assumptions. The Commission's [Better Regulation toolbox](https://commission.europa.eu/law/law-making-process/better-regulation/better-regulation-guidelines-and-toolbox/better-regulation-toolbox_en) (Tool #68) describes randomised controlled trials as "the benchmark for scientific quantitative methods", with quasi-experimental methods as the option when randomised trials are not possible. As an RCT requires random assignment to the intervention, it has to be planned before or during implementation. See more on [how RCTs differ from quasi-experimental methods](01-why-and-when.qmd#alternatives) and [when an RCT is the right choice](01-why-and-when.qmd#rct) on the [RCTs: why and when](01-why-and-when.qmd) page.
+In an RCT, the comparison group is created by random assignment before the intervention starts, so the comparability of the groups does not depend on such assumptions. The Commission's [Better Regulation toolbox](https://commission.europa.eu/law/law-making-process/better-regulation/better-regulation-guidelines-and-toolbox/better-regulation-toolbox_en) (Tool #68) describes randomised controlled trials as "the benchmark for scientific quantitative methods", with quasi-experimental methods as the option when randomised trials are not possible. As an RCT requires random assignment to the intervention, it has to be planned before or during implementation. See more on [how RCTs differ from quasi-experimental methods](01-why-and-when.qmd#alternatives) and [when an RCT is the right choice](01-why-and-when.qmd#two-questions) on the [RCTs: why and when](01-why-and-when.qmd) page.
 
 ## What questions can an RCT answer?
 
@@ -279,5 +279,5 @@ Established labs already supporting experimentation.
 
 
 ::: {.video-frame}
-{{< video https://youtu.be/MUuhKap8BlQ title="Taking iniative" aspect-ratio="16x9" >}}
+{{< video https://youtu.be/MUuhKap8BlQ title="Taking initiative" aspect-ratio="16x9" >}}
 :::

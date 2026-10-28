@@ -24,7 +24,7 @@ In cohesion policy programmes, managing authorities are already required to arti
 
 Where an intervention logic maps the pathway from inputs to outputs to results, a ToC adds two important elements: it specifies the assumptions that must hold at each step for the logic to work, and it makes clear which links in the chain are strong and which are uncertain. This is precisely the information a randomised controlled trial (RCT) is designed to test.
 
-If your intervention already has a well-developed intervention logic in its document or partnership agreement, you have a strong starting point. The task of building a ToC is largely one of making that logic more precise - defining each step clearly enough that it can be measured.
+If your intervention already has a well-developed intervention logic in its programme document or partnership agreement, you have a strong starting point. The task of building a ToC is largely one of making that logic more precise - defining each step clearly enough that it can be measured.
 
 ## Components of a ToC
 
@@ -108,7 +108,7 @@ A ToC follows a causal chain from resources invested to long-term change achieve
 - Call for proposals to deliver digitalisation grants
 :::
 
-**Outputs** are represent the direct and immediate results of the activities conducted within a policy. They are tangible and observable products or deliverables that demonstrate the completion of specific tasks. For cohesion policy programmes, these correspond closely to the output indicators that managing authorities are already required to report to the European Commission.
+**Outputs** represent the direct and immediate results of the activities conducted within a policy. They are tangible and observable products or deliverables that demonstrate the completion of specific tasks. For cohesion policy programmes, these correspond closely to the output indicators that managing authorities are already required to report to the European Commission.
 
 ::: {.example .romania data-map="romania-ne"}
 [North&#8209;East Romania: outputs]{.tag}
@@ -158,7 +158,7 @@ A ToC follows a causal chain from resources invested to long-term change achieve
 
 ## Why invest time in developing a ToC?
 
-Developing a ToC is well worth the effort for two important reasons. First, it sharpens the design of your evaluation. By mapping out the causal logic of an intervention, a ToC generates clear research questions and helps teams identify which outcomes to measure and what data to collect. It can be built collaboratively - by starting from the desired final outcomes and working backwards through the chain of events needed to get there - and this process is particularly useful in an intervention partnership context, where multiple stakeholders may have different views on how the policy is supposed to work. It also prompts a credibility check: is there actually evidence, from comparable interventions in other regions or member states, to support each step in the logic?
+Developing a ToC is well worth the effort for two important reasons. First, it sharpens the design of your evaluation. By mapping out the causal logic of an intervention, a ToC generates clear research questions and helps teams identify which outcomes to measure and what data to collect. It can be built collaboratively - by starting from the desired final outcomes and working backwards through the chain of events needed to get there - and this process is particularly useful in a partnership context, where multiple stakeholders may have different views on how the policy is supposed to work. It also prompts a credibility check: is there actually evidence, from comparable interventions in other regions or member states, to support each step in the logic?
 
 Second, a ToC produces richer and more transferable policy lessons. Measuring the right intermediate outcomes reveals not just whether an intervention worked, but how and why it worked. Opening this "black box" transforms evaluation results from a simple pass/fail verdict into actionable insight that can inform the next programming period. The knowledge gained also travels better - findings grounded in a clear causal logic are more readily applied by other managing authorities facing similar challenges in different regional contexts.
 

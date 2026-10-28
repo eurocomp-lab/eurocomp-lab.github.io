@@ -78,14 +78,14 @@ To detect the impact of an intervention, you need enough units in both the treat
 
 The answer depends on how large an effect you expect, how much units vary on the outcome of interest, and how confident you want to be in the result. An evaluator will run a power calculation to translate these inputs into a minimum required sample. [More details on power calculations](02.04a-power.qmd)
 
-Lessons learned from projects within the EuroCOMP Lab inform about potential ways for reaching large enough numbers.
+Lessons from EuroCOMP Lab projects point to several ways of reaching large enough numbers.
 
 :::: {.myths-grid}
 
 <details class="myth-box">
 <summary>Invest heavily in outreach - especially to reach new beneficiaries</summary>
 
-Standard outreach channels might fail to reach the units that the interventions are designed to serve. Thus, it is important to invest resources in outreach and experimenting with different innovative outreach approaches. Measuring which ones work can significantly expand the eligible pool and improve the quality of applications.
+Standard outreach channels might fail to reach the units that the interventions are designed to serve. It is therefore worth investing in outreach and in testing different outreach approaches. Measuring which ones work can significantly expand the eligible pool and improve the quality of applications.
 
 For interventions targeted to firms, standard outreach channels - newsletters, social media posts, agency websites - consistently fail to reach the firms that the interventions are designed to serve. Firms without prior experience of EU funding, smaller firms, and firms in rural or remote areas are systematically less likely to apply, not because they are ineligible but because they do not know the intervention exists or lack the resources to navigate the application process. In this case, effective outreach might require direct, personalised engagement: in-person events, road trips to municipalities, collaboration with mayors and local business associations, and hands-on application support. 
 
@@ -93,7 +93,7 @@ For interventions targeted to firms, standard outreach channels - newsletters, s
 ::: {.example .romania data-map="romania-ne"}
 [North&#8209;East Romania]{.tag}
 
-In North-East Romania, the World Bank randomised outreach activities across 46 cities, selecting 26 for road-trips where a consultant explained the call and helped firms complete the pre-assessment survey. Cities that received road-trips produced 110 applications compared to 71 in cities that did not - a 55% increase. Applications from road-trip cities also came from significantly smaller firms (12.6 employees on average, compared to 19.6 in comparison cities). Compared to previous calls, the total number of applicants tripled and the number of eligible firms more than doubled. This small experiment demonstrated both the effectiveness of in-person mobilisation and the value of embedding experimentation into intervention implementation.
+In North-East Romania, the World Bank randomised outreach activities across 46 cities, selecting 26 for road-trips where a consultant explained the call and helped firms complete the pre-assessment survey. The 26 cities that received road-trips produced 110 applications, against 71 in the 20 cities that did not: about 4.2 per city against 3.6. Applications from road-trip cities also came from significantly smaller firms (12.6 employees on average, compared to 19.6 in comparison cities). Compared to previous calls, the total number of applicants tripled and the number of eligible firms more than doubled. This small experiment demonstrated both the effectiveness of in-person mobilisation and the value of embedding experimentation into intervention implementation.
 ::::
 
 </details>
@@ -102,12 +102,12 @@ In North-East Romania, the World Bank randomised outreach activities across 46 c
 <details class="myth-box">
 <summary>Eligibility criteria should remain broad enough</summary>
 
-On one hand, eligibility criteria should not be too restrictive to target a large enough number of units. On the other hand, eligibility criteria should remain specific enough to identify units with the highest potential to benefit. Eligibility criteria should be linked to the intervention's Theory of Change to avoid that wrong units enter the pool.
+Eligibility criteria should not be so restrictive that too few units qualify, but they should remain specific enough to identify the units with the highest potential to benefit. Linking the criteria to the intervention's Theory of Change keeps the wrong units out of the pool.
 
 ::: {.example .case data-map="romania-sm"}
 [Romania (South-Muntenia)]{.tag}
 
-In South-Muntenia (Romania), the World Bank found that eligibility criteria for an innovation support intervention were quite restrictive, taking into account the firm landscape in this region. The World Bank worked with the managing authority to adjust the criteria to target a higher number of firms.
+In South-Muntenia (Romania), the World Bank found that eligibility criteria for an innovation support intervention were quite restrictive given the region's firm landscape. The World Bank worked with the managing authority to adjust the criteria to target a higher number of firms.
 ::::
 
 </details>
@@ -131,7 +131,7 @@ In Italy, a minibond intervention pre-identified 289 eligible firms, of which on
 <details class="myth-box">
 <summary>Simplify the application process</summary>
 
-Complex, document-heavy application processes disproportionately burden units that are least familiar with EU funding - the very units that interventions are often designed to reach. For example: When compliance requirements are similar regardless of grant size, small firms face the same administrative burden as large ones, often pushing them to hire consultants and creating a market for intermediaries that adds cost without adding value.
+Complex, document-heavy application processes disproportionately burden units that are least familiar with EU funding - the very units that interventions are often designed to reach. For example, when compliance requirements are similar regardless of grant size, small firms face the same administrative burden as large ones, often pushing them to hire consultants and creating a market for intermediaries that adds cost without adding value.
 
 Application requirements should be proportionate to the amount of funding requested. Processes should be fully digital, integrated with existing administrative databases wherever possible, and capable of providing real-time eligibility feedback so that units can assess their likelihood of success before investing significant time in an application.
 
@@ -147,9 +147,9 @@ In Romania, the pre-assessment survey was designed to do three jobs simultaneous
 <details class="myth-box">
 <summary>Use the application process to exchange information</summary>
 
-The application process is usually treated as a one-way flow of information, with applicants submitting data to the managing authority. In practice, it can also deliver useful information and tools back to applicants. Doing so can make applicants more engaged during the process and help selected unit make better decisions about which activities to prioritize. It can also improve the experience of units that are not selected, who are more likely to view the process positively even without being selected.
+The application process is usually treated as a one-way flow of information, with applicants submitting data to the managing authority. In practice, it can also deliver useful information and tools back to applicants. Doing so can make applicants more engaged during the process and help selected units make better decisions about which activities to prioritise. It can also improve the experience of units that are not selected, who are more likely to view the process positively even without being selected.
 
-For interventions targeted to firms, the application process could be used to raise awareness about a specific topic (e.g. digitalisation, innovation, energy efficiency) among firms, helping firms identify investment needs, and providing benchmarks that inform business decisions regardless of whether the firm is selected for support. 
+For interventions targeted to firms, the application process can raise awareness of a specific topic (e.g. digitalisation, innovation, energy efficiency), help firms identify investment needs and provide benchmarks that inform business decisions, whether or not the firm is selected for support. 
 
 ::: {.example .case data-map="croatia"}
 [Croatia]{.tag}

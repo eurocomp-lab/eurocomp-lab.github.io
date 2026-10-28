@@ -13,7 +13,7 @@ This page covers the choice between primary and secondary data, how to assess wh
 :::
 
 
-With the Theory of Change (ToC), learning questions, indicators in place, and the feasibility of the randomised controlled trial (RCT) confirmed, the next question is where the data will come from. This is a strategic decision that must be made before the intervention launches - not an operational detail to be worked out later. Getting it wrong wastes resources, delays the evaluation, or produces data that cannot support the intended analysis.
+With the Theory of Change (ToC), learning questions and indicators in place, the feasibility of the randomised controlled trial (RCT) confirmed and the randomisation designed, the next question is where the data will come from. This is a strategic decision that must be made before the intervention launches - not an operational detail to be worked out later. Getting it wrong wastes resources, delays the evaluation, or produces data that cannot support the intended analysis.
 
 ---
 
@@ -56,7 +56,7 @@ Two questions determine whether administrative sources can be useful for an eval
 
 First, do they contain the right outcomes? Administrative records capture variables that may or may not align with the outcomes the evaluation is designed to measure. An innovation intervention that wants to measure R&D expenditure or product novelty will find that some business registries simply do not record these. Before relying on administrative data, map each indicator in your evaluation framework against what each source actually contains, and identify the gaps.
 
-Second, can the administrative data be linked to the companies being part of the evaluation? If a firm's VAT number or national registration number is collected at application stage, it can serve as a linking key to match intervention records against tax, registry, or customs data - enabling outcome measurement without any additional burden on firms. Where no common identifier exists, linkage may still be possible through name and address matching, but this requires more effort and introduces matching errors.
+Second, can the administrative data be linked to the companies taking part in the evaluation? If a firm's VAT number or national registration number is collected at application stage, it can serve as a linking key to match intervention records against tax, registry, or customs data - enabling outcome measurement without any additional burden on firms. Where no common identifier exists, linkage may still be possible through name and address matching, but this requires more effort and introduces matching errors.
 
 ## Where to find secondary firm-level data
 

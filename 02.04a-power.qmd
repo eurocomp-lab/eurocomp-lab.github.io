@@ -12,7 +12,7 @@ description-meta: "Find out how many units your trial needs to detect an effect,
 This page explains what a power calculation is, what goes into it, and what a managing authority needs to know to have a useful conversation with an evaluator about sample size.
 :::
 
-A power calculation sounds technical. In practice it answers one practical question: **do you have enough unit to detect whether the intervention works?** This page explains what drives that number, how to think about it without needing to do the maths yourself, and what to do if the answer turns out to be no.
+A power calculation sounds technical. In practice it answers one practical question: **do you have enough units to detect whether the intervention works?** This page explains what drives that number, how to think about it without needing to do the maths yourself, and what to do if the answer turns out to be no.
 
 ***
 
@@ -178,12 +178,12 @@ The power calculation tells you how many units you need to observe at the end of
 The practical implication is straightforward: always recruit more units into the randomised pool than the power calculation requires, to leave a buffer for expected drop-out. If you need 400 units at endline and expect that roughly one in five will be unreachable by then, you need to randomise at least 500 units. The evaluation team will advise on the right buffer based on comparable studies, the expected follow-up period, and the availability of administrative data. In the EU, for firm-level interventions, administrative data can often be used to track firms and observe evaluation outcomes of firms that drop out of interventions. 
 
 ::: {.caution}
-Attrition is not just a power problem. If units drop out at different rates in the treatment and comparison groups - for example, if struggling firms in the comparison group are more likely to close - the two groups stop being comparable and the impact estimate becomes biased.
+Attrition is not just a power problem. If units drop out at different rates in the treatment and comparison groups - for example, if struggling firms in the comparison group are more likely to close - the two groups stop being comparable and the impact estimate becomes biased. [Step 8](02.08-data_quality.qmd) covers how to detect and address this.
 :::
 
 
 
-## What if there are not enough unit?
+## What if there are not enough units?
 
 If the power calculation reveals that your eligible pool is too small, there are six practical fixes. The right combination depends on what is driving the shortfall.
 

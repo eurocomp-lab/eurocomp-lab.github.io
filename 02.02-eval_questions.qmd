@@ -48,7 +48,7 @@ A well-structured evaluation typically includes a primary question and a set of 
 Does receiving a digitalisation grant increases business performance (e.g. sales) and productivity?
 :::
 
-**Heterogeneity questions** ask whether effects differ across subgroups. These questions are important for understanding *for whom* the intervention works best and informing targeting decisions in future programming rounds.
+**Heterogeneity questions** ask whether effects differ across subgroups, for example by size, sector, location or prior experience with public support. These questions are important for understanding *for whom* the intervention works best and informing targeting decisions in future programming rounds.
 
 ::: {.example .romania data-map="romania-ne"}
 [North&#8209;East Romania: heterogeneity question]{.tag}
@@ -84,7 +84,7 @@ Evaluation questions must be scoped to what the evaluation can credibly deliver.
 
 **Over-ambition.** An evaluation that promises to answer questions about long-term productivity effects, regional spillovers, and mechanisms simultaneously may not be powered to answer any of them well. Prioritise the primary question and be selective about secondary questions.
 
-**Attribution.** Learning questions should be scoped to what can be attributed to the intervention, not to broader trends. If a question asks whether firms in the region became more innovative, the answer will reflect macroeconomic conditions and parallel policies as much as the intervention itself. A well-scoped causal question asks about the *difference* between treatment and comparison group, not about levels.
+**Attribution.** Learning questions should be scoped to what can be attributed to the intervention, not to broader trends. If a question asks whether firms in the region became more innovative, the answer will reflect macroeconomic conditions and parallel policies as much as the intervention itself. A well-scoped causal question asks about the *difference* between the treatment and comparison groups, not about levels.
 
 
 ::: {.nav-buttons}

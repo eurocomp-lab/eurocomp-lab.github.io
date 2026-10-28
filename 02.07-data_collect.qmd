@@ -13,7 +13,7 @@ This page covers when and how many data collection rounds to plan, why surveys a
 :::
 
 
-Step 6 determined where the data will come from. This step is about how and when to collect it. For most randomised controlled trials (RCT) evaluations of competitiveness interventions, this means planning at least one round of primary survey data collection - a baseline before the intervention - while also coordinating access to the administrative data sources identified in Step 6. Whether a primary endline survey is also needed depends on the availability of administrative data, as described below.
+Step 6 determined where the data will come from. This step is about how and when to collect it. For most randomised controlled trial (RCT) evaluations of competitiveness interventions, this means planning at least one round of primary survey data collection - a baseline before the intervention - while also coordinating access to the administrative data sources identified in Step 6. Whether a primary endline survey is also needed depends on the availability of administrative data, as described below.
 
 ---
 
@@ -78,7 +78,7 @@ Data in North-East Romania was collected using a web survey (baseline survey) an
 
 ## Who to collect from, and when
 
-**Choosing the right respondent.** For firm-level surveys, the ideal respondent is a senior decision-maker - a Chief Executive Officers (CEOs), Chief Financial Officer (CFO), or equivalent - who has oversight of the firm's strategic and financial decisions. The respondent should ideally be the same person at baseline and endline to ensure that differences reflect real changes rather than differences between respondents. Where the intervention targets a specific group within the firm - such as R&D personnel - those individuals may be more appropriate for certain questions.
+**Choosing the right respondent.** For firm-level surveys, the ideal respondent is a senior decision-maker - a Chief Executive Officer (CEO), Chief Financial Officer (CFO), or equivalent - who has oversight of the firm's strategic and financial decisions. The respondent should ideally be the same person at baseline and endline to ensure that differences reflect real changes rather than differences between respondents. Where the intervention targets a specific group within the firm - such as R&D personnel - those individuals may be more appropriate for certain questions.
 
 ::: {.example .romania data-map="romania-ne"}
 [North&#8209;East Romania: primary respondents]{.tag}
@@ -91,7 +91,7 @@ The primary respondents were CEOs and/or firm owners, with additional input from
 
 ## The role of data collection firms and evaluation consultants
 
-Managing authorities can implement RCTs in-house including conducting surveys and data analysis. However, implementing RCTs comes with many specificities and challenges. The technical expertise needed can be contracted in. Having the right expert team on board makes all the difference. What managing authorities need is a well-crafted Terms of Reference (ToRs): the document that attracts the right teams, sets the methodological bar, and defines the conditions for a credible, policy-relevant evaluation. A strong ToR is therefore not a procurement formality - it is the managing authority’s most important contribution to the quality of the evaluation. For more information on ToRs, please click here: [Terms of Reference](02.07a-tor.qmd)
+Managing authorities can implement RCTs in-house including conducting surveys and data analysis. However, implementing RCTs comes with many specificities and challenges. The technical expertise needed can be contracted in. Having the right expert team on board makes all the difference. What managing authorities need is a well-crafted Terms of Reference (ToR): the document that attracts the right teams, sets the methodological bar, and defines the conditions for a credible, policy-relevant evaluation. A strong ToR is therefore not a procurement formality - it is the managing authority’s most important contribution to the quality of the evaluation. For more information on ToRs, please click here: [Terms of Reference](02.07a-tor.qmd)
 
 The division of responsibilities between the managing authority, the evaluation consultant and/or the data collection firm should be made explicit in procurement. Close collaboration is key for a successfully conducted RCT. Depending on which activities the managing authorities conduct in-house, the evaluation consultant or data collection firm supports or conducts the following activities: designing the survey instrument, translating and piloting the questionnaire, determining the sample, setting up the digital survey platform, recruiting and training enumerators, managing fieldwork, monitoring response rates, implementing quality controls, delivering a clean dataset, and carrying out the statistical analysis once data has been collected.
 
@@ -147,7 +147,7 @@ Attrition - firms that cannot be reached or refuse to participate at endline - i
 
 **Make re-contact as easy as possible at endline.** Send advance notices before the endline fieldwork begins. Use the same survey mode as the baseline where possible, as familiarity reduces refusal rates. Keep the endline survey as short as the evaluation objectives allow - respondent fatigue is a leading cause of non-response in follow-up rounds.
 
-**Document and report all non-response.** Record the reason for every non-response using standardised codes (firm refused; firm could not be reached; firm closed; firm no longer eligible).
+**Document and report all non-response.** Record the reason for every non-response using standardised codes (firm refused; firm could not be reached; firm closed; firm no longer eligible). This documentation is essential for the attrition analysis in [Step 8](02.08-data_quality.qmd).
 
 ## Data protection and GDPR compliance
 
