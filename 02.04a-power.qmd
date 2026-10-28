@@ -18,7 +18,7 @@ A power calculation sounds technical. In practice it answers one practical quest
 
 ## The core problem: too few units and you may miss the truth
 
-Imagine an intervention that genuinely improves firm productivity by 8%. If your evaluation includes only thirty firms, the natural variation between those firms - some were already growing fast, some were already struggling - may easily produce an 8% difference between treatment and comparison groups by chance alone. You cannot tell whether the intervention caused the difference or whether chance did. The intervention may work, but your evaluation cannot prove it.
+Imagine an intervention that genuinely improves firm productivity by 8%. If your evaluation includes only thirty firms, the natural variation between those firms (some were already growing fast, some were already struggling) may easily produce an 8% difference between treatment and comparison groups by chance alone. You cannot tell whether the intervention caused the difference or whether chance did. The intervention may work, but your evaluation cannot prove it.
 
 Add more firms and the picture becomes clearer. With enough observations, the average outcomes in the two groups settle down and genuine differences become visible. The variation that masks the signal shrinks relative to the size of the groups.
 
@@ -62,7 +62,7 @@ Real impacts become measurable: averages settle and the difference stands out.
 :::
 
 ::: {.takeaway}
-More units do not make the lottery fairer - they make its answer visible.
+More units do not make the lottery fairer. They make its answer visible.
 :::
 
 
@@ -97,7 +97,7 @@ If all units in the target population are very similar in characteristics (e.g. 
 :::
 
 ::: {.gold-panel}
-Think of trying to hear a quiet voice in a noisy room. A louder voice needs no particular conditions to be heard. A quieter voice needs a quieter room - or more people listening carefully. More units are the equivalent of reducing the noise.
+Think of trying to hear a quiet voice in a noisy room. A louder voice needs no particular conditions to be heard. A quieter voice needs a quieter room, or more people listening carefully. More units are the equivalent of reducing the noise.
 :::
 
 
@@ -132,13 +132,13 @@ A power calculation takes four inputs and returns a single number: the minimum s
 
 Here is what each ingredient means in plain language:
 
-**Expected effect.** What is the smallest improvement in your primary outcome that would be meaningful enough to be worth detecting? This is a policy judgement, not a statistical one. If a 5% increase in firm R&D spending would be considered a success, that is your expected effect. If only a 25% increase would change how the intervention is designed in the next round, use that. Evidence from similar interventions in other regions or member states can help anchor this number. The smaller the effect you want to reliably detect, the more units you will need.
+**Expected effect.** What is the smallest improvement in your primary outcome that would be meaningful enough to be worth detecting? This is a policy judgement, not a statistical one. If a 5% increase in firm research and development (R&D) spending would be considered a success, that is your expected effect. If only a 25% increase would change how the intervention is designed in the next round, use that. Evidence from similar interventions in other regions or member states can help anchor this number. The smaller the effect you want to reliably detect, the more units you will need.
 
-**Variation between units.** How much do units in your target population differ from each other on the outcome of interest, even before the intervention starts? This is usually estimated from existing data - a prior round of the intervention, national statistics, or a comparable survey. The evaluator will handle this, but it is worth knowing that the more heterogeneous your target population, the larger the required sample.
+**Variation between units.** How much do units in your target population differ from each other on the outcome of interest, even before the intervention starts? This is usually estimated from existing data: a prior round of the intervention, national statistics, or a comparable survey. The evaluator will handle this, but it is worth knowing that the more heterogeneous your target population, the larger the required sample.
 
-**Confidence level.** How willing are you to risk concluding that the intervention worked when it actually did not? The standard is a 5% risk - meaning the evaluation is designed so that a false positive would only arise by chance in 1 out of 20 identical studies. This does not normally need to be changed.
+**Confidence level.** How willing are you to risk concluding that the intervention worked when it actually did not? The standard is a 5% risk, meaning the evaluation is designed so that a false positive would only arise by chance in 1 out of 20 identical studies. This does not normally need to be changed.
 
-**Statistical power.** How willing are you to risk missing a real effect? The standard is 80% - meaning the evaluation has an 80% chance of detecting a genuine effect if one exists, and a 20% chance of missing it. For evaluations where a null result would have major consequences - for example, if it would be used to cancel an intervention - 90% power is preferable, but requires a larger sample.
+**Statistical power.** How willing are you to risk missing a real effect? The standard is 80%, meaning the evaluation has an 80% chance of detecting a genuine effect if one exists, and a 20% chance of missing it. For evaluations where a null result would have major consequences (for example, if it would be used to cancel an intervention), 90% power is preferable, but requires a larger sample.
 
 
 
@@ -146,7 +146,7 @@ Here is what each ingredient means in plain language:
 [North&#8209;East Romania: Was 1,038 companies enough for North&#8209;East Romania?]{.tag}
 Once the power calculation is run, you compare the result against the size of your eligible pool. If your pool exceeds the required sample, you are ready to randomise. If it falls short, you need to grow the pool before the draw.
 
-In North-East Romania, the evaluation team ran the power calculation before the draw and confirmed that the pool of 1,038 firms was large enough to detect the effects they expected - which is why the draw proceeded with 519 firms in each group.
+In North-East Romania, the evaluation team ran the power calculation before the draw and confirmed that the pool of 1,038 firms was large enough to detect the effects they expected. This is why the draw proceeded with 519 firms in each group.
 
 ```{=html}
 <figure class="fig-e">
@@ -173,12 +173,12 @@ In North-East Romania, the evaluation team ran the power calculation before the 
 
 ## Always randomise more units than you need at endline
 
-The power calculation tells you how many units you need to observe at the end of the evaluation - at the endline survey. But not every unit randomised at baseline will still be reachable by then. For example, firms will have closed, relocated, or simply stopped responding. This is called attrition, and it is one of the most common threats to the validity of an RCT.
+The power calculation tells you how many units you need to observe at the end of the evaluation, at the [endline survey](glossary.qmd#endline-data "Glossary definition"). But not every unit randomised at baseline will still be reachable by then. For example, firms will have closed, relocated, or simply stopped responding. This is called [attrition](glossary.qmd#attrition "Glossary definition"), and it is one of the most common threats to the validity of a randomised controlled trial (RCT).
 
 The practical implication is straightforward: always recruit more units into the randomised pool than the power calculation requires, to leave a buffer for expected drop-out. If you need 400 units at endline and expect that roughly one in five will be unreachable by then, you need to randomise at least 500 units. The evaluation team will advise on the right buffer based on comparable studies, the expected follow-up period, and the availability of administrative data. In the EU, for firm-level interventions, administrative data can often be used to track firms and observe evaluation outcomes of firms that drop out of interventions. 
 
 ::: {.caution}
-Attrition is not just a power problem. If units drop out at different rates in the treatment and comparison groups - for example, if struggling firms in the comparison group are more likely to close - the two groups stop being comparable and the impact estimate becomes biased. [Step 8](02.08-data_quality.qmd) covers how to detect and address this.
+Attrition is not just a power problem. If units drop out at different rates in the treatment and comparison groups, the two groups stop being comparable and the impact estimate becomes biased. This happens, for example, if struggling firms in the comparison group are more likely to close. [Step 8](02.08-data_quality.qmd) covers how to detect and address this.
 :::
 
 
@@ -195,15 +195,15 @@ If the power calculation reveals that your eligible pool is too small, there are
   </div></div>
   <div class="d"><div>
     <h3>Expand eligibility</h3>
-    <p>Lowering the eligibility threshold adds more units to the pool. Be careful not to expand so broadly that the evaluation no longer answers the original question - the expanded population should still be the one the intervention is designed to serve.</p>
+    <p>Lowering the eligibility threshold adds more units to the pool. Be careful not to expand so broadly that the evaluation no longer answers the original question: the expanded population should still be the one the intervention is designed to serve.</p>
   </div></div>
   <div class="d"><div>
     <h3>Combine regions or cohorts</h3>
-    <p>If a single region or intervention round does not produce enough units, pooling two regions running similar interventions - or two consecutive cohorts - into a single evaluation can reach the required sample without changing the design.</p>
+    <p>If a single region or intervention round does not produce enough units, pooling two regions running similar interventions (or two consecutive cohorts) into a single evaluation can reach the required sample without changing the design.</p>
   </div></div>
   <div class="d"><div>
     <h3>Run a phase-in</h3>
-    <p>Rather than running the intervention to all eligible units at once, stagger rollout across waves. Each wave that is still waiting acts as the comparison group for the waves already receiving support - doubling the effective sample without needing more units overall.</p>
+    <p>Rather than running the intervention to all eligible units at once, stagger rollout across waves. Each wave that is still waiting acts as the comparison group for the waves already receiving support, doubling the effective sample without needing more units overall.</p>
   </div></div>
   <div class="d"><div>
     <h3>Focus on where effects are largest</h3>
@@ -211,7 +211,7 @@ If the power calculation reveals that your eligible pool is too small, there are
   </div></div>
   <div class="d"><div>
     <h3>Invest in a strong baseline</h3>
-    <p>Collecting good baseline data on the primary outcome - before the intervention - and using it in the analysis significantly reduces the sample size needed. The evaluator can explain how much this helps in your specific context; the reduction is often substantial.</p>
+    <p>Collecting good baseline data on the primary outcome before the intervention, and using it in the analysis, significantly reduces the sample size needed. The evaluator can explain how much this helps in your specific context; the reduction is often substantial.</p>
   </div></div>
 </div>
 ```
@@ -220,12 +220,12 @@ If the power calculation reveals that your eligible pool is too small, there are
 
 ## A practical note for managing authorities
 
-The power calculation is usually the evaluator's job - not the managing authority's. But the managing authority is the only party that can answer the policy question that drives the most important input: what effect would be large enough to matter?
+The power calculation is usually the evaluator's job, not the managing authority's. But the managing authority is the only party that can answer the policy question that drives the most important input: what effect would be large enough to matter?
 
-A managing authority that can say "we would consider the intervention successful if it increased firm R&D spending by at least 15%" gives the evaluator something concrete to work with. A managing authority that leaves that question open will get a power calculation based on assumptions it may not recognise or agree with - and may end up with a required sample that is either impossibly large or so small that meaningful effects cannot be detected.
+A managing authority that can say "we would consider the intervention successful if it increased firm R&D spending by at least 15%" gives the evaluator something concrete to work with. A managing authority that leaves that question open will get a power calculation based on assumptions it may not recognise or agree with. It may end up with a required sample that is either impossibly large or so small that meaningful effects cannot be detected.
 
 ::: {.takeaway}
-The conversation about sample size is one of the most important early conversations between the managing authority and the evaluation team. Have it before the intervention design is finalised - not after the eligible pool is already fixed.
+The conversation about sample size is one of the most important early conversations between the managing authority and the evaluation team. Have it before the intervention design is finalised, not after the eligible pool is already fixed.
 :::
 
 ***
@@ -260,5 +260,5 @@ Free software covering a wide range of experimental designs
 ***
 
 ::: {.nav-buttons}
-[← Back to - Step 4: check whether an RCT is feasible](02.04-assess.qmd)
+[← Back to Step 4: check whether an RCT is feasible](02.04-assess.qmd){.back}
 :::

@@ -9,11 +9,11 @@ description-meta: "Plan survey rounds, choose a collection method, design and pi
 
 ::: {.team-note}
 ## Summary {.unlisted}
-This page covers when and how many data collection rounds to plan, why surveys are used and which method to choose, who to collect from, the role of external data collection firms, how to design and pilot the questionnaire, how to minimise attrition, and General Data Protection Regulation (GDPR) compliance requirements.
+This page covers when and how many data collection rounds to plan, why surveys are used, which method to choose, and who to collect from. It also covers the role of external data collection firms, how to design and pilot the questionnaire, how to minimise attrition, and General Data Protection Regulation (GDPR) compliance requirements.
 :::
 
 
-Step 6 determined where the data will come from. This step is about how and when to collect it. For most randomised controlled trial (RCT) evaluations of competitiveness interventions, this means planning at least one round of primary survey data collection - a baseline before the intervention - while also coordinating access to the administrative data sources identified in Step 6. Whether a primary endline survey is also needed depends on the availability of administrative data, as described below.
+Step 6 determined where the data will come from. This step is about how and when to collect it. For most randomised controlled trial (RCT) evaluations of competitiveness interventions, this means planning at least one round of primary survey data collection: a baseline before the intervention. It also means coordinating access to the administrative data sources identified in Step 6. Whether a primary [endline survey](glossary.qmd#endline-data "Glossary definition") is also needed depends on the availability of administrative data, as described below.
 
 ---
 
@@ -21,7 +21,7 @@ Step 6 determined where the data will come from. This step is about how and when
 
 An RCT evaluation requires data at multiple points in time. The exact rounds depend on the Theory of Change (ToC) and the data sources available, but the standard structure is:
 
-**Baseline survey:** conducted before the intervention begins and might be used as the basis for randomisation companies into treatment and comparison groups. It captures pre-treatment characteristics, enables balance checks after randomisation, and provides the benchmark against which post-intervention outcomes are compared. It must be completed before randomisation is revealed. A baseline primary survey is almost always needed, since administrative data rarely contains the intermediate outcomes and mechanism variables required by the evaluation.
+**Baseline survey:** conducted before the intervention begins and might be used as the basis for randomising companies into treatment and comparison groups. It captures pre-treatment characteristics, enables [balance checks](glossary.qmd#balance "Glossary definition") after randomisation, and provides the benchmark against which post-intervention outcomes are compared. It must be completed before randomisation is revealed. A baseline primary survey is almost always needed, since administrative data rarely contains the intermediate outcomes and mechanism variables required by the evaluation.
 
 ::: {.example .romania data-map="romania-ne"}
 [North&#8209;East Romania: baseline survey]{.tag}
@@ -29,44 +29,56 @@ An RCT evaluation requires data at multiple points in time. The exact rounds dep
 A baseline survey (pre-application data) was administered: the primary objective of the baseline survey was to conduct an initial evaluation of the business's digital tool requirements and help determine their intervention eligibility. The survey questions covered topics such as location, sector, financial considerations (e.g. profits, capital, assets, liabilities), and legal prerequisites. The survey required approximately an hour to complete and was completed online by each firm between June and the end of September 2023.
 :::
 
-**Follow-up data collection:** measures outcomes after the intervention, at a point when effects are realistically expected to have materialised. In the European Union (EU) context, a dedicated endline survey is not always necessary. Business registries, tax records, social security data, and customs records - consistently available across member states - can cover many of the core outcome variables (turnover, employment, exports, productivity) without placing any additional burden on firms. Where administrative data provides sufficient coverage, it should be the primary endline source. A primary endline survey becomes necessary only when the evaluation requires outcomes or mechanisms that administrative records do not contain - for example, management practices, innovation behaviour, digital technology adoption, or respondent-reported perceptions of the intervention.
+**Follow-up data collection:** measures outcomes after the intervention, at a point when effects are realistically expected to have materialised. In the European Union (EU) context, a dedicated endline survey is not always necessary. Business registries, tax records, social security data, and customs records, consistently available across member states, can cover many of the core outcome variables (turnover, employment, exports, productivity) without placing any additional burden on firms. Where administrative data provides sufficient coverage, it should be the primary endline source.
+
+A primary endline survey becomes necessary only when the evaluation requires outcomes or mechanisms that administrative records do not contain: for example, management practices, innovation behaviour, digital technology adoption, or respondent-reported perceptions of the intervention.
 
 ::: {.example .romania data-map="romania-ne"}
 [North&#8209;East Romania: follow-up data collection]{.tag}
 
-A follow-up survey was administered: the 1,038 firms surveyed at baseline were contacted for a follow-up survey conducted between March and May 2025. Interviews took approximately 60 minutes to complete and covered nine key topics i) general administrative details about the business; ii) background information on the business manager; iii) an overview of the business; iv) details on products/services, market presence, revenue, and customers; v) the use of telecommunications and internet across business locations; vi) relevant digital indicators for the business; vii) methods and processes used for routine business operations; viii) key factors influencing technology adoption, such as investments and management decisions; and ix) financial information for the business in 2024.
+A follow-up survey was administered: the 1,038 firms surveyed at baseline were contacted for a follow-up survey conducted between March and May 2025. Interviews took approximately 60 minutes to complete and covered nine key topics:
+
+1. general administrative details about the business
+2. background information on the business manager
+3. an overview of the business
+4. details on products/services, market presence, revenue, and customers
+5. the use of telecommunications and internet across business locations
+6. relevant digital indicators for the business
+7. methods and processes used for routine business operations
+8. key factors influencing technology adoption, such as investments and management decisions
+9. financial information for the business in 2024
 :::
 
-**Midline survey (optional):** where the ToC includes important intermediate outcomes worth tracking before the final endline - for example, changes in management practices or technology adoption as precursors to longer-term productivity effects - a midline round may be warranted. Include a midline only if it is required to answer a specific evaluation question, not as a routine addition.
+**Midline survey (optional):** where the ToC includes important intermediate outcomes worth tracking before the final endline (for example, changes in management practices or technology adoption as precursors to longer-term productivity effects), a midline round may be warranted. Include a midline only if it is required to answer a specific evaluation question, not as a routine addition.
 
 **Administrative data timing:** access to administrative records should be requested and negotiated well in advance of the baseline. These sources typically come with a reporting lag of one to two years, which must be factored into the evaluation timeline. The advantage is coverage: administrative data tracks all firms in the sample, including those who do not respond to surveys, making it a more complete picture of outcomes than a survey endline alone.
 
-In the EU, the consistent availability of firm-level administrative data - tax records, business registries, social security data - means that a primary endline survey can often be avoided. Prioritise administrative data for core financial and employment outcomes; reserve primary survey rounds for the outcomes and mechanisms that only firms themselves can report on.
+In the EU, the consistent availability of firm-level administrative data (tax records, business registries, social security data) means that a primary endline survey can often be avoided. Prioritise administrative data for core financial and employment outcomes; reserve primary survey rounds for the outcomes and mechanisms that only firms themselves can report on.
 
 
 ## Why surveys?
 
-Surveys are the most widely used tool for collecting primary data in impact evaluations of public support interventions. They make it possible to gather structured, comparable information directly from the firms, individuals, or organisations that an intervention is designed to benefit - capturing precisely the outcomes and mechanisms that administrative records do not contain.
+Surveys are the most widely used tool for collecting primary data in impact evaluations of public support interventions. They make it possible to gather structured, comparable information directly from the firms, individuals, or organisations that an intervention is designed to benefit, capturing precisely the outcomes and mechanisms that administrative records do not contain.
 
-A particular strength of surveys is their scalability. Rather than collecting information from every single beneficiary or firm in a target population, a well-designed survey can be conducted on a carefully selected subset - a sample - and, provided that sample is representative, the findings can be generalised with confidence to the full population.
+A particular strength of surveys is their scalability. Rather than collecting information from every single beneficiary or firm in a target population, a well-designed survey can be conducted on a carefully selected subset: a sample. Provided that sample is representative, the findings can be generalised with confidence to the full population.
 
-For evaluations including competitiveness and innovation outcomes - such as changes in firm-level Research and Development (R&D) investment, technology adoption, or management practices - surveys are often the only way to capture the intermediate outcomes that sit between a grant payment and a long-term productivity gain visible in national statistics. They are also essential for understanding why an intervention worked or did not, by measuring the mechanisms that link the intervention's activities to its results.
+Evaluations often include competitiveness and innovation outcomes, such as changes in firm-level Research and Development (R&D) investment, technology adoption, or management practices. For these, surveys are often the only way to capture the intermediate outcomes that sit between a grant payment and a long-term productivity gain visible in national statistics. They are also essential for understanding why an intervention worked or did not, by measuring the mechanisms that link the intervention's activities to its results.
 
 
 ## Paper vs. electronic surveys
 
-While paper-based surveys remain in use in some contexts, electronic surveys are the clear standard for evaluations today and should be the default choice. Digital surveys offer built-in data validation - mandatory fields, range checks, and logical skip patterns - catching errors at the point of entry rather than during analysis. They eliminate manual transcription entirely, are faster to deploy, easier to monitor in real time, and simpler to adapt if pilot testing reveals problems.
+While paper-based surveys remain in use in some contexts, electronic surveys are the clear standard for evaluations today and should be the default choice. Digital surveys offer built-in data validation (mandatory fields, range checks, and logical skip patterns), catching errors at the point of entry rather than during analysis. They eliminate manual transcription entirely, are faster to deploy, easier to monitor in real time, and simpler to adapt if pilot testing reveals problems.
 
 
 ## Choose a collection method
 
 There is no single best method. The right choice depends on who the respondents are, what the questions require, and the available budget. Three methods are in common use:
 
-**Computer-Assisted Telephone Interviewing (CATI)** involves trained interviewers conducting structured surveys over the phone. CATI reaches a broad range of respondents quickly and is well-suited when response rates need to be actively managed - interviewers can follow up with non-respondents and clarify questions in real time. It is also practical when beneficiary contact details are already held in project management systems. Surveys must be kept short enough to hold respondents' attention on the phone.
+**Computer-Assisted Telephone Interviewing (CATI)** involves trained interviewers conducting structured surveys over the phone. CATI reaches a broad range of respondents quickly and is well-suited when response rates need to be actively managed: interviewers can follow up with non-respondents and clarify questions in real time. It is also practical when beneficiary contact details are already held in project management systems. Surveys must be kept short enough to hold respondents' attention on the phone.
 
-**Computer-Assisted Personal Interviewing (CAPI)** takes the form of face-to-face interviews conducted with a tablet or laptop loaded with survey software. The personal interaction tends to produce more nuanced and accurate answers, particularly on sensitive topics such as firm finances or employment decisions. CAPI is best reserved for complex questionnaires and small, geographically concentrated samples - it is the most expensive method and carries a risk that the interviewer's presence influences responses.
+**Computer-Assisted Personal Interviewing (CAPI)** takes the form of face-to-face interviews conducted with a tablet or laptop loaded with survey software. The personal interaction tends to produce more nuanced and accurate answers, particularly on sensitive topics such as firm finances or employment decisions. CAPI is best reserved for complex questionnaires and small, geographically concentrated samples: it is the most expensive method and carries a risk that the interviewer's presence influences responses.
 
-**Web surveys** are sent to respondents via email or embedded in an online platform, inviting them to complete the survey at their own pace. They are the least expensive method and can be deployed quickly to large samples, making them well-suited to digitally comfortable populations such as SMEs and technology firms. Response rates for unsolicited web surveys are often low, so active follow-up is essential.
+**Web surveys** are sent to respondents via email or embedded in an online platform, inviting them to complete the survey at their own pace. They are the least expensive method and can be deployed quickly to large samples, making them well-suited to digitally comfortable populations such as small and medium-sized enterprises (SMEs) and technology firms. Response rates for unsolicited web surveys are often low, so active follow-up is essential.
 
 In practice, methods can be combined: begin with a web survey, follow up with CATI for non-respondents, and use CAPI selectively for subgroups where richer detail is needed.
 
@@ -78,7 +90,7 @@ Data in North-East Romania was collected using a web survey (baseline survey) an
 
 ## Who to collect from, and when
 
-**Choosing the right respondent.** For firm-level surveys, the ideal respondent is a senior decision-maker - a Chief Executive Officer (CEO), Chief Financial Officer (CFO), or equivalent - who has oversight of the firm's strategic and financial decisions. The respondent should ideally be the same person at baseline and endline to ensure that differences reflect real changes rather than differences between respondents. Where the intervention targets a specific group within the firm - such as R&D personnel - those individuals may be more appropriate for certain questions.
+**Choosing the right respondent.** For firm-level surveys, the ideal respondent is a senior decision-maker, such as the Chief Executive Officer (CEO), Chief Financial Officer (CFO), or equivalent, who has oversight of the firm's strategic and financial decisions. The respondent should ideally be the same person at baseline and endline to ensure that differences reflect real changes rather than differences between respondents. Where the intervention targets a specific group within the firm, such as R&D personnel, those individuals may be more appropriate for certain questions.
 
 ::: {.example .romania data-map="romania-ne"}
 [North&#8209;East Romania: primary respondents]{.tag}
@@ -86,14 +98,29 @@ Data in North-East Romania was collected using a web survey (baseline survey) an
 The primary respondents were CEOs and/or firm owners, with additional input from senior representatives of relevant departments when necessary.
 :::
 
-**Timing within the calendar.** Surveys targeting firm employees are best conducted during standard working hours. August is a poor time to survey firms in most European countries due to summer holidays; the end of the financial year is also problematic, as finance teams are occupied with closing accounts. Be mindful of survey fatigue - beneficiaries who are contacted repeatedly for monitoring and reporting purposes may become less willing to participate over time.
+**Timing within the calendar.** Surveys targeting firm employees are best conducted during standard working hours. August is a poor time to survey firms in most European countries due to summer holidays; the end of the financial year is also problematic, as finance teams are occupied with closing accounts. Be mindful of survey fatigue: beneficiaries who are contacted repeatedly for monitoring and reporting purposes may become less willing to participate over time.
 
 
 ## The role of data collection firms and evaluation consultants
 
-Managing authorities can implement RCTs in-house including conducting surveys and data analysis. However, implementing RCTs comes with many specificities and challenges. The technical expertise needed can be contracted in. Having the right expert team on board makes all the difference. What managing authorities need is a well-crafted Terms of Reference (ToR): the document that attracts the right teams, sets the methodological bar, and defines the conditions for a credible, policy-relevant evaluation. A strong ToR is therefore not a procurement formality - it is the managing authority’s most important contribution to the quality of the evaluation. For more information on ToRs, please click here: [Terms of Reference](02.07a-tor.qmd)
+Managing authorities can implement RCTs in-house including conducting surveys and data analysis. However, implementing RCTs comes with many specificities and challenges. The technical expertise needed can be contracted in. Having the right expert team on board makes all the difference.
 
-The division of responsibilities between the managing authority, the evaluation consultant and/or the data collection firm should be made explicit in procurement. Close collaboration is key for a successfully conducted RCT. Depending on which activities the managing authorities conduct in-house, the evaluation consultant or data collection firm supports or conducts the following activities: designing the survey instrument, translating and piloting the questionnaire, determining the sample, setting up the digital survey platform, recruiting and training enumerators, managing fieldwork, monitoring response rates, implementing quality controls, delivering a clean dataset, and carrying out the statistical analysis once data has been collected.
+What managing authorities need is a well-crafted Terms of Reference (ToR): the document that attracts the right teams, sets the methodological bar, and defines the conditions for a credible, policy-relevant evaluation. A strong ToR is therefore not a procurement formality: it is the managing authority’s most important contribution to the quality of the evaluation. For more on ToRs, see [Writing terms of reference for an RCT](02.07a-tor.qmd).
+
+The division of responsibilities between the managing authority, the evaluation consultant and/or the data collection firm should be made explicit in procurement. Close collaboration is key for a successfully conducted RCT.
+
+Depending on which activities the managing authorities conduct in-house, the evaluation consultant or data collection firm supports or conducts the following activities:
+
+- designing the survey instrument
+- translating and piloting the questionnaire
+- determining the sample
+- setting up the digital survey platform
+- recruiting and training enumerators
+- managing fieldwork
+- monitoring response rates
+- implementing quality controls
+- delivering a clean dataset
+- carrying out the statistical analysis once data has been collected
 
 ::: {.example .romania data-map="romania-ne"}
 [North&#8209;East Romania: primary respondents]{.tag}
@@ -108,15 +135,15 @@ The survey implementation was undertaken by a team of 30 enumerators hired by Ro
 
 Before writing a single question, review existing, validated survey instruments. Using questions that have already been tested in comparable evaluations and surveys saves time, improves data quality, and makes findings comparable with evidence from other interventions and regions. For firm-level surveys, key reference sources include:
 
-- [Community Innovation Survey (CIS)](https://ec.europa.eu/eurostat/web/microdata/collections-research/community-innovation-survey) - the standard EU framework for measuring innovation activity in firms
-- [Firms Adoption of Technology Survey (FAT)](https://microdata.worldbank.org/collections/fat) - World Bank instrument on technology adoption across sectors
-- [World Bank Enterprise Surveys (WBES)](https://espanol.enterprisesurveys.org/en/enterprisesurveys) - firm-level outcomes including investment, productivity, and the business environment
-- [World Management Survey (WMS)](https://worldmanagementsurvey.org/) - management practices across firms and countries
-- [Flash Eurobarometer on SME Digitalisation](https://europa.eu/eurobarometer/surveys/detail/2442) - digital technology adoption and skills across EU member states
-- [ECB Survey on Access to Finance of Enterprises (SAFE)](https://www.ecb.europa.eu/stats/ecb_surveys/safe/html/index.en.html) - financing conditions and constraints for SMEs
+- [Community Innovation Survey (CIS)](https://ec.europa.eu/eurostat/web/microdata/collections-research/community-innovation-survey): the standard EU framework for measuring innovation activity in firms
+- [Firm Adoption of Technology (FAT) Survey](https://microdata.worldbank.org/collections/fat): World Bank instrument on technology adoption across sectors
+- [World Bank Enterprise Surveys (WBES)](https://espanol.enterprisesurveys.org/en/enterprisesurveys): firm-level outcomes including investment, productivity, and the business environment
+- [World Management Survey (WMS)](https://worldmanagementsurvey.org/): management practices across firms and countries
+- [Flash Eurobarometer on SME Digitalisation](https://europa.eu/eurobarometer/surveys/detail/2442): digital technology adoption and skills across EU member states
+- [ECB Survey on Access to Finance of Enterprises (SAFE)](https://www.ecb.europa.eu/stats/ecb_surveys/safe/html/index.en.html): financing conditions and constraints for SMEs
 
 ::: {.takeaway}
-The survey question repository collects questions from the firm-level surveys listed above, organised by topic - from company details and financial performance to innovation, digitalisation, and management practices. Use them as a starting point: pick the questions that match your indicators, consult similar evaluations and underlying survey instruments, and adapt the questions to your intervention.
+The survey question repository collects questions from the firm-level surveys listed above, organised by topic, from company details and financial performance to innovation, digitalisation, and management practices. Use them as a starting point: pick the questions that match your indicators, consult similar evaluations and underlying survey instruments, and adapt the questions to your intervention.
 
 [Browse the survey question repository](08-bank_survey.qmd)
 :::
@@ -125,27 +152,27 @@ The survey question repository collects questions from the firm-level surveys li
 
 A good questionnaire is clear, concise, and purposeful. Every question should map to an indicator in the ToC. Questions included for general interest add respondent burden without adding analytical value and should be removed.
 
-Questions should address only one idea at a time. Double-barrelled questions - which ask about two things simultaneously, such as "Did the grant improve your firm's R&D capacity and export performance?" - make it impossible for respondents to give an accurate answer and should always be avoided. Wording should be neutral: leading questions undermine the reliability of the data.
+Questions should address only one idea at a time. Double-barrelled questions, which ask about two things simultaneously (such as "Did the grant improve your firm's R&D capacity and export performance?"), make it impossible for respondents to give an accurate answer and should always be avoided. Wording should be neutral: leading questions undermine the reliability of the data.
 
-Response scales - such as Likert scales or numerical ratings - should be consistent across the questionnaire and clearly labelled. Questions should flow in a logical sequence, moving from general topics to more specific ones. Sensitive questions - such as those about turnover, profitability, or employment figures - are best placed towards the end, once some rapport has been established.
+Response scales, such as Likert scales or numerical ratings, should be consistent across the questionnaire and clearly labelled. Questions should flow in a logical sequence, moving from general topics to more specific ones. Sensitive questions, such as those about turnover, profitability, or employment figures, are best placed towards the end, once some rapport has been established.
 
-Questions that ask about quantities, values, or periods of time should always specify the unit and reference period explicitly - state the currency (e.g. €), the unit of magnitude (e.g. full-time equivalents, thousands of euros), and the exact time reference (e.g. "in the last financial year, ending [month]") directly in the question text or as a visible instruction above the response field.
+Questions that ask about quantities, values, or periods of time should always specify the unit and reference period explicitly. State the currency (e.g. €), the unit of magnitude (e.g. full-time equivalents, thousands of euros), and the exact time reference (e.g. "in the last financial year, ending [month]") directly in the question text or as a visible instruction above the response field.
 
 Where surveys are conducted in multiple languages, the questionnaire should be professionally translated and then back-translated to verify that meaning has been preserved accurately.
 
 ### Piloting the questionnaire
 
-No questionnaire should go into the field without first being tested. A **pilot survey** - conducted with a small group representative of the target population - reveals problems invisible on paper: ambiguous wording, questions that take too long to answer, response options that do not cover the full range of experiences, and technical glitches in digital forms. The questionnaire should be revised based on pilot findings before full deployment. Skipping the pilot almost always costs more in the long run through lower data quality and analytical workarounds.
+No questionnaire should go into the field without first being tested. A **pilot survey** is conducted with a small group representative of the target population. It reveals problems invisible on paper: ambiguous wording, questions that take too long to answer, response options that do not cover the full range of experiences, and technical glitches in digital forms. The questionnaire should be revised based on pilot findings before full deployment. Skipping the pilot almost always costs more in the long run through lower data quality and analytical workarounds.
 
 ## Minimising attrition
 
-Attrition - firms that cannot be reached or refuse to participate at endline - is one of the most common threats to the validity of an RCT. Even modest attrition becomes a serious problem if it is higher in one group than the other, since differential attrition can bias the impact estimates. Prevention is far easier than correction, and the groundwork must be laid at baseline.
+[Attrition](glossary.qmd#attrition "Glossary definition") (firms that cannot be reached or refuse to participate at endline) is one of the most common threats to the validity of an RCT. Even modest attrition becomes a serious problem if it is higher in one group than the other, since differential attrition can bias the impact estimates. Prevention is far easier than correction, and the groundwork must be laid at baseline.
 
 **Collect robust contact information at baseline.** Record multiple contact points for each firm: the primary respondent's name, direct phone number, and email; a backup contact; and the firm's main address and website. Ask respondents explicitly for permission to follow up at endline and to contact them via alternative channels if the primary contact changes.
 
 **Maintain a tracking database throughout the intervention period.** Do not wait until the endline survey to discover that contact details have gone stale. Update the database periodically using public business registry records, project monitoring data, and any contact made for compliance or monitoring purposes.
 
-**Make re-contact as easy as possible at endline.** Send advance notices before the endline fieldwork begins. Use the same survey mode as the baseline where possible, as familiarity reduces refusal rates. Keep the endline survey as short as the evaluation objectives allow - respondent fatigue is a leading cause of non-response in follow-up rounds.
+**Make re-contact as easy as possible at endline.** Send advance notices before the endline fieldwork begins. Use the same survey mode as the baseline where possible, as familiarity reduces refusal rates. Keep the endline survey as short as the evaluation objectives allow: respondent fatigue is a leading cause of non-response in follow-up rounds.
 
 **Document and report all non-response.** Record the reason for every non-response using standardised codes (firm refused; firm could not be reached; firm closed; firm no longer eligible). This documentation is essential for the attrition analysis in [Step 8](02.08-data_quality.qmd).
 
@@ -153,16 +180,16 @@ Attrition - firms that cannot be reached or refuse to participate at endline - i
 
 For EU managing authorities, compliance with the GDPR is a legal obligation that applies to any data collection exercise involving personal data. Before any survey goes into the field, the following must be in place:
 
-- A clear legal basis for processing personal data - typically the legitimate interest of the managing authority in evaluating public spending, or the explicit consent of respondents
+- A clear legal basis for processing personal data, typically the legitimate interest of the managing authority in evaluating public spending, or the explicit consent of respondents
 - An informed consent process: respondents must be told how their data will be used, how long it will be retained, and who will have access, before they agree to participate. [More information on informed consent](02.07b-consent.qmd)
 - Anonymisation or pseudonymisation of responses wherever possible
 - Appropriate data security measures, including restricted access to identifiable data
 
-Managing authorities should involve their Data Protection Officer early in the design process - not as a final approval step, but as part of initial planning. Data sharing agreements with third-party survey firms or external evaluators must address GDPR requirements explicitly.
+Managing authorities should involve their Data Protection Officer early in the design process: not as a final approval step, but as part of initial planning. Data sharing agreements with third-party survey firms or external evaluators must address GDPR requirements explicitly.
 
 
 ***
 
 ::: {.nav-buttons}
-[← Previous - Step 6: identify available data sources](02.06-data_sources.qmd) | [Next - Step 8: ensure high-quality data →](02.08-data_quality.qmd)
+[← Step 6: identify available data sources](02.06-data_sources.qmd) | [Step 8: ensure high-quality data →](02.08-data_quality.qmd)
 :::

@@ -12,9 +12,9 @@ description-meta: "Learn how to check that the treatment and comparison groups l
 This page explains what balance means, why it matters, how to check it, and what to do if the groups turn out not to be comparable after the lottery.
 :::
 
-A randomised lottery is designed to produce two groups - treatment and comparison - that look alike before the intervention starts. This comparability is the foundation on which the entire evaluation rests. If the groups are similar at baseline, any difference in outcomes at endline can be attributed to the intervention. If they are not, that attribution falls apart.
+A randomised lottery is designed to produce two groups, treatment and comparison, that look alike before the intervention starts. This comparability is the foundation on which the entire evaluation rests. If the groups are similar at baseline, any difference in outcomes at [endline](glossary.qmd#endline-data "Glossary definition") can be attributed to the intervention. If they are not, that attribution falls apart.
 
-This page explains what balance means in practice, how to verify it, and - because no lottery produces perfect balance every time - what to do when the groups turn out to be different on some characteristic.
+This page explains what balance means in practice, how to verify it, and what to do when the groups turn out to be different on some characteristic, because no lottery produces perfect balance every time.
 
 ***
 
@@ -22,20 +22,20 @@ This page explains what balance means in practice, how to verify it, and - becau
 
 The logic of a randomised controlled trial (RCT) is simple: take two groups of similar units, give one group the intervention and withhold it from the other, then compare outcomes. The comparison is only meaningful if the two groups were genuinely similar to begin with. For example, if the treatment group happened to contain more high-performing firms before the intervention started, any difference in outcomes at endline may simply reflect that head start rather than the intervention's effect.
 
-Randomisation is the mechanism that makes comparability likely - but it does not guarantee it, especially with smaller samples. A random draw can, by chance, produce a treatment group that is slightly different (e.g. older, larger, or more export-oriented firms) from the comparison group. With enough units, these chance differences average out. With fewer units, they can be large enough to matter.
+Randomisation is the mechanism that makes comparability likely, but it does not guarantee it, especially with smaller samples. A random draw can, by chance, produce a treatment group that is slightly different (e.g. older, larger, or more export-oriented firms) from the comparison group. With enough units, these chance differences average out. With fewer units, they can be large enough to matter.
 
-This is why the balance check is one of the first things an evaluator does after the baseline survey is complete. It is not a formality - it is a quality control on the randomisation itself.
+This is why the balance check is one of the first things an evaluator does after the [baseline survey](glossary.qmd#baseline-data "Glossary definition") is complete. It is not a formality: it is a quality control on the randomisation itself.
 
 
 ## What a balance check involves
 
-A balance check compares the two groups on a set of characteristics measured at baseline - before the intervention has begun and before either group knows whether they have been selected. For firm-level evaluations, these characteristics typically include:
+A balance check compares the two groups on a set of characteristics measured at baseline, before the intervention has begun and before either group knows whether they have been selected. For firm-level evaluations, these characteristics typically include:
 
 - Firm size (number of employees, in full-time equivalents)
 - Firm age (years since establishment)
 - Revenue or turnover
 - Sector or industry classification
-- Prior R&D or innovation activity
+- Prior research and development (R&D) or innovation activity
 - Export participation
 - The outcome variables themselves, above all the primary outcome, measured before the intervention
 
@@ -66,7 +66,7 @@ For each characteristic, the evaluator calculates the average value in the treat
 </figure>
 ```
 
-The chart above shows what a well-balanced result looks like: the bars for the treatment and comparison groups are nearly equal across all characteristics. Small differences - a few percentage points in any direction - are expected and normal. They are the product of chance, not a flaw in the design.
+The chart above shows what a well-balanced result looks like: the bars for the treatment and comparison groups are nearly equal across all characteristics. Small differences (a few percentage points in any direction) are expected and normal. They are the product of chance, not a flaw in the design.
 
 
 ## How to read the results
@@ -79,7 +79,7 @@ The evaluator will present the balance check as a table showing the average valu
 What the result typically shows
 :::
 ::: {.body}
-In a well-executed randomisation with a reasonably large sample, most characteristics will show no statistically significant difference between the groups. The few that do are usually the result of chance - out of twenty variables tested, you would expect one to appear imbalanced simply because of how probability works, even in a perfectly conducted lottery.
+In a well-executed randomisation with a reasonably large sample, most characteristics will show no statistically significant difference between the groups. The few that do are usually the result of chance: out of twenty variables tested, you would expect one to appear imbalanced simply because of how probability works, even in a perfectly conducted lottery.
 :::
 :::
 ::: {.col-e}
@@ -87,30 +87,30 @@ In a well-executed randomisation with a reasonably large sample, most characteri
 What raises a concern
 :::
 ::: {.body}
-A concern arises when many variables show imbalance simultaneously, or when the primary outcome variable itself is significantly different at baseline. This suggests the randomisation may have been compromised - perhaps because some units were selectively excluded, or because the draw was not conducted as described.
+A concern arises when many variables show imbalance simultaneously, or when the primary outcome variable itself is significantly different at baseline. This suggests the randomisation may have been compromised, perhaps because some units were selectively excluded, or because the draw was not conducted as described.
 :::
 :::
 :::
 
 ::: {.takeaway}
-One or two imbalanced variables in a balance table is almost always chance. Many imbalanced variables - or imbalance on the primary outcome - is a signal worth investigating.
+One or two imbalanced variables in a balance table is almost always chance. Imbalance on many variables, or on the primary outcome, is a signal worth investigating.
 :::
 
 
 ## What to do if the groups are not perfectly balanced
 
-Perfect balance is the goal, not a guarantee. When the balance check reveals a meaningful difference on one or more characteristics, there are two main responses - and importantly, neither involves re-running the lottery.
+Perfect balance is the goal, not a guarantee. When the balance check reveals a meaningful difference on one or more characteristics, there are two main responses. Importantly, neither involves re-running the lottery.
 
-**Control for the imbalanced variable in the analysis.** The most common and appropriate response is to include the imbalanced characteristic as a control variable in the statistical model used to estimate the intervention's impact. This adjusts the comparison to account for the pre-existing difference, producing a more accurate estimate of the intervention's effect. The evaluator handles this - the managing authority simply needs to know that it is standard practice, not a workaround.
+**Control for the imbalanced variable in the analysis.** The most common and appropriate response is to include the imbalanced characteristic as a control variable in the statistical model used to estimate the intervention's impact. This adjusts the comparison to account for the pre-existing difference, producing a more accurate estimate of the intervention's effect. The evaluator handles this. The managing authority simply needs to know that it is standard practice, not a workaround.
 
-**Do not re-randomise.** Once units know their assignment - or once the intervention has begun - re-running the lottery is not an option. It would undermine the integrity of the design and the trust of participants. If a significant imbalance is discovered before the intervention launches and before units have been notified, the evaluation team should be consulted immediately. In rare cases, a new draw may be possible, but this is the exception.
+**Do not re-randomise.** Once units know their assignment, or once the intervention has begun, re-running the lottery is not an option. It would undermine the integrity of the design and the trust of participants. If a significant imbalance is discovered before the intervention launches and before units have been notified, the evaluation team should be consulted immediately. In rare cases, a new draw may be possible, but this is the exception.
 
 ::: {.caution}
-Never drop units from the analysis because they appear to be outliers or because their inclusion makes the results less clean. Dropping units selectively - even for apparently good reasons - can introduce bias and undermines the integrity of the evaluation.
+Never drop units from the analysis because they appear to be outliers or because their inclusion makes the results less clean. Dropping units selectively, even for apparently good reasons, can introduce bias and undermines the integrity of the evaluation.
 :::
 
 ***
 
 ::: {.nav-buttons}
-[← Back to - Step 5: how to randomise](02.05-randomisation.qmd)
+[← Back to Step 5: how to randomise](02.05-randomisation.qmd){.back}
 :::

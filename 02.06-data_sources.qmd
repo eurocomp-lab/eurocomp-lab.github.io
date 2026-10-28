@@ -13,7 +13,7 @@ This page covers the choice between primary and secondary data, how to assess wh
 :::
 
 
-With the Theory of Change (ToC), learning questions and indicators in place, the feasibility of the randomised controlled trial (RCT) confirmed and the randomisation designed, the next question is where the data will come from. This is a strategic decision that must be made before the intervention launches - not an operational detail to be worked out later. Getting it wrong wastes resources, delays the evaluation, or produces data that cannot support the intended analysis.
+With the Theory of Change (ToC), learning questions and indicators in place, the feasibility of the randomised controlled trial (RCT) confirmed and the randomisation designed, the next question is where the data will come from. This is a strategic decision that must be made before the intervention launches, not an operational detail to be worked out later. Getting it wrong wastes resources, delays the evaluation, or produces data that cannot support the intended analysis.
 
 ---
 
@@ -21,11 +21,11 @@ With the Theory of Change (ToC), learning questions and indicators in place, the
 
 For each indicator in your evaluation framework, you must decide whether to rely on **primary data** collected specifically for the evaluation, **secondary data** that already exists in administrative records, or a **combination of both**.
 
-**Primary data** is information collected directly from target respondents - firms, individuals, or organisations - through surveys or interviews. It gives you control over exactly what is measured and can capture outcomes and mechanisms that administrative records do not contain. The trade-off is cost, time, and respondent burden.
+**Primary data** is information collected directly from target respondents (firms, individuals, or organisations) through surveys or interviews. It gives you control over exactly what is measured and can capture outcomes and mechanisms that administrative records do not contain. The trade-off is cost, time, and respondent burden.
 
-**Secondary data** draws on records that already exist - national business registries, tax authority data, customs records, patent office databases, or the intervention's own management information system. It is generally cheaper, covers larger samples, and often provides years of pre-intervention history that is invaluable for establishing baselines. The trade-off is that it may not contain the specific variables you need, and access can take time to negotiate.
+**Secondary data** draws on records that already exist: national business registries, tax authority data, customs records, patent office databases, or the intervention's own management information system. It is generally cheaper, covers larger samples, and often provides years of pre-intervention history that is invaluable for establishing baselines. The trade-off is that it may not contain the specific variables you need, and access can take time to negotiate.
 
-In countries where administrative data sources - such as business registries, tax records, and social security data - are well established and reliable, as is generally the case across the European Union, combining both sources is often the most effective approach: secondary data provides broad coverage and pre-intervention history, while primary survey data captures the outcomes and mechanisms that administrative records cannot.
+Where administrative data sources such as business registries, tax records, and social security data are well established and reliable, as is generally the case across the European Union, combining both sources is often the most effective approach. Secondary data provides broad coverage and pre-intervention history, while primary survey data captures the outcomes and mechanisms that administrative records cannot.
 
 ::: {.example .romania data-map="romania-ne"}
 [North&#8209;East Romania: data sources]{.tag}
@@ -50,13 +50,13 @@ North-East Romania used a combination of primary and secondary data: self-report
 
 ## Assess what you already have
 
-Before commissioning a new survey, take stock of the administrative data you already hold or can access. Project management systems typically record beneficiary characteristics, grant amounts, payment dates, and reported output indicators. National statistical offices, tax authorities, business registries, and customs agencies hold firm-level data on turnover, employment, exports, costs, expenditures and tax payments - often going back many years, which is particularly valuable for establishing pre-intervention baselines.
+Before commissioning a new survey, take stock of the administrative data you already hold or can access. Project management systems typically record beneficiary characteristics, grant amounts, payment dates, and reported [output indicators](glossary.qmd#common-output-indicator "Glossary definition"). National statistical offices, tax authorities, business registries, and customs agencies hold firm-level data on turnover, employment, exports, costs, expenditures and tax payments, often going back many years, which is particularly valuable for establishing pre-intervention baselines.
 
 Two questions determine whether administrative sources can be useful for an evaluation. 
 
-First, do they contain the right outcomes? Administrative records capture variables that may or may not align with the outcomes the evaluation is designed to measure. An innovation intervention that wants to measure R&D expenditure or product novelty will find that some business registries simply do not record these. Before relying on administrative data, map each indicator in your evaluation framework against what each source actually contains, and identify the gaps.
+First, do they contain the right outcomes? Administrative records capture variables that may or may not align with the outcomes the evaluation is designed to measure. An innovation intervention that wants to measure research and development (R&D) expenditure or product novelty will find that some business registries simply do not record these. Before relying on administrative data, map each indicator in your evaluation framework against what each source actually contains, and identify the gaps.
 
-Second, can the administrative data be linked to the companies taking part in the evaluation? If a firm's VAT number or national registration number is collected at application stage, it can serve as a linking key to match intervention records against tax, registry, or customs data - enabling outcome measurement without any additional burden on firms. Where no common identifier exists, linkage may still be possible through name and address matching, but this requires more effort and introduces matching errors.
+Second, can the administrative data be linked to the companies taking part in the evaluation? If a firm's VAT number or national registration number is collected at application stage, it can serve as a linking key to match intervention records against tax, registry, or customs data. This enables outcome measurement without any additional burden on firms. Where no common identifier exists, linkage may still be possible through name and address matching, but this requires more effort and introduces matching errors.
 
 ## Where to find secondary firm-level data
 
@@ -67,9 +67,9 @@ Key sources of secondary firm-level data
 | National business registry | Firm registration, legal form, ownership, sector (NACE), address | Usually public or via national statistical office |
 | Tax authority records | Turnover, VAT declarations, corporate tax filings, payroll | Via data-sharing agreement with tax authority |
 | Social security records | Employment headcount, wage bill, employee characteristics | Via data-sharing agreement with social security body |
-| Orbis (Bureau van Dijk) | Financial statements, ownership, M&A activity - 400m+ firms globally | Commercial licence required |
+| Orbis (Bureau van Dijk) | Financial statements, ownership, M&A activity (400m+ firms globally) | Commercial licence required |
 | National commercial data providers | Private companies aggregating and selling access to firm-level data compiled from business registries, court records, and financial filings | Via Internet |
-| National R&D surveys | R&D expenditure, personnel, outputs - linked to Frascati Manual | Via national statistical office |
+| National R&D surveys | R&D expenditure, personnel, outputs (linked to the Frascati Manual) | Via national statistical office |
 | Project management system | Beneficiary list, grant amounts, disbursement dates, output indicators | Held internally by the managing authority |
 
 
@@ -81,12 +81,20 @@ North-East Romania used two administrative data sources: (i) publicly available 
 
 ## Data-sharing agreements
 
-Access to administrative data rarely happens automatically. Tax records, social security data, and business registry microdata are typically held by separate government bodies and subject to their own access rules. Negotiating access takes time - in some countries, many months - and must be initiated well before the evaluation begins.
+Access to administrative data rarely happens automatically. Tax records, social security data, and business registry microdata are typically held by separate government bodies and subject to their own access rules. Negotiating access takes time (in some countries, many months) and must be initiated well before the evaluation begins.
 
-A data-sharing agreement between the managing authority and the data-holding body should specify: what data will be shared; in what format and at what level of disaggregation; under what conditions it may be used; who is responsible for data security; and how long it will be retained. General Data Protection Regulation compliance must be addressed explicitly in the agreement.
+A data-sharing agreement between the managing authority and the data-holding body should specify:
+
+- what data will be shared
+- in what format and at what level of disaggregation
+- under what conditions it may be used
+- who is responsible for data security
+- how long it will be retained
+
+General Data Protection Regulation compliance must be addressed explicitly in the agreement.
 
 ***
 
 ::: {.nav-buttons}
-[← Previous - Step 5: how to randomise](02.05-randomisation.qmd) | [Next - Step 7: collect data →](02.07-data_collect.qmd)
+[← Step 5: how to randomise](02.05-randomisation.qmd) | [Step 7: collect data →](02.07-data_collect.qmd)
 :::

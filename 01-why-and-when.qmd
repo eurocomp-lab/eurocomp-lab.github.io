@@ -1123,6 +1123,6 @@ Not always. Whether ethics review is legally mandatory depends on the country, t
 ***
 
 ::: {.nav-buttons}
-[← Back to - home page](index.qmd) | [Next - How to design an RCT →](02-how.qmd)
+[← Back to the home page](index.qmd) | [How to design an RCT →](02-how.qmd)
 :::
 

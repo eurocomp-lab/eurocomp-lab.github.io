@@ -1082,3 +1082,21 @@ hr:has(+ .nav-buttons) { display: none; }
   .glossary #quarto-document-content dt { padding-bottom: .25rem; }
   .glossary #quarto-document-content dd { grid-column: 1; padding-top: 0; border-top: 0; }
 }
+
+/* ---------------------------------------------------------------
+   Batch 22 (October 2026): links to the glossary from the step pages
+   (a dotted underline marks a definition rather than a page), and on
+   the glossary the term a link points to is highlighted and clears the
+   top bar.
+   --------------------------------------------------------------- */
+/* (Quarto turns links into full addresses after load, so the match is on part of the address) */
+body:not(.glossary) #quarto-document-content a[href*="glossary.html#"] { text-decoration-style: dotted; text-decoration-thickness: 1.5px; }
+body:not(.glossary) #quarto-document-content a[href*="glossary.html#"]:hover { text-decoration-style: solid; }
+/* a lone "Back to" button on a detail page sits left and outlined, like other back buttons
+   (before, as the only link, it took the filled "next" style on the right) */
+.nav-buttons p a.back { background-color: transparent; color: $rf-blue; border-color: $rf-blue; }
+.nav-buttons p a.back:only-child { margin-left: 0; }
+.nav-buttons p a.back:hover { background-color: $rf-blue; color: #FFFFFF; }
+.glossary #quarto-document-content dt { scroll-margin-top: 5.5rem; }
+.glossary #quarto-document-content :is(dt, dd).is-target { background: $rf-pale; }
+.glossary #quarto-document-content dt.is-target { box-shadow: -.6rem 0 0 $rf-pale; }

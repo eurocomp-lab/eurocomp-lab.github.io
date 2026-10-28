@@ -253,3 +253,27 @@ Treatment group
 World Bank Enterprise Surveys
 :   A World Bank survey programme covering firm-level performance and business conditions. Another validated source of internationally comparable indicators for evaluation design.
 
+```{=html}
+<script>
+/* Each term gets an anchor, so other pages can link straight to it: glossary.html#attrition.
+   The anchor is the term in lower case without the abbreviation in brackets, words joined by hyphens.
+   A term reached through a link is highlighted. */
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll("#quarto-document-content dt").forEach(function (dt) {
+    if (dt.id) return;
+    var slug = dt.textContent.replace(/\([^)]*\)/g, " ").toLowerCase()
+      .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+      .replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+    if (slug && !document.getElementById(slug)) dt.id = slug;
+  });
+  var hash = decodeURIComponent(window.location.hash.slice(1));
+  var target = hash && document.getElementById(hash);
+  if (target && target.tagName === "DT") {
+    target.classList.add("is-target");
+    var dd = target.nextElementSibling;
+    if (dd && dd.tagName === "DD") dd.classList.add("is-target");
+    target.scrollIntoView();
+  }
+});
+</script>
+```

@@ -5,10 +5,10 @@ description-meta: "Follow eight steps to design a credible randomised controlled
 
 ::: {.team-note}
 ## Summary {.unlisted}
-This page covers the internal team to assemble before starting, and eight sequential steps - Theory of Change (ToC), learning questions, indicators, feasibility, randomisation, data sources, data collection, and data quality - for designing a credible randomised controlled trial (RCT).
+This page covers the internal team to assemble before starting, and eight sequential steps for designing a credible randomised controlled trial (RCT): Theory of Change (ToC), learning questions, indicators, feasibility, randomisation, data sources, data collection, and data quality.
 :::
 
-A well-designed RCT does not begin with randomisation - it begins with a clear understanding of what an intervention is trying to achieve and why. The eight steps below set out the preparatory work that makes randomisation meaningful and the results credible. Managing authorities are encouraged to work through them in sequence, ideally before the first call for applications is launched.
+A well-designed RCT does not begin with randomisation. It begins with a clear understanding of what an intervention is trying to achieve and why. The eight steps below set out the preparatory work that makes randomisation meaningful and the results credible. Managing authorities are encouraged to work through them in sequence, ideally before the first call for applications is launched.
 
 The timeline below shows where randomisation sits: everything before the random selection has to be in place
 before the intervention launches, which is what makes the comparison between the two groups valid.
@@ -74,7 +74,7 @@ Identify who inside the managing authority will take on each role before working
 
 ### [Step 1: develop a Theory of Change](02.01-toc.qmd) {.unlisted}
 
-Map the causal logic of your intervention - from inputs to long-term goals - and make the assumptions explicit.
+Map the causal logic of your intervention, from inputs to long-term goals, and make the assumptions explicit.
 :::
 ::: {.card-e}
 
@@ -98,7 +98,7 @@ Tool: [Indicator repository](09-bank_outcomes.qmd)
 
 ### [Step 4: check whether an RCT is feasible](02.04-assess.qmd) {.unlisted}
 
-Check whether the conditions for a valid RCT are in place - oversubscription, timing, legal basis, and political buy-in.
+Check whether the conditions for a valid RCT are in place: oversubscription, timing, legal basis, and political buy-in.
 
 ::: {.sub-steps}
 Also in this step: [Power calculations](02.04a-power.qmd) · [Legal basis for random selection](02.04b-legal.qmd)
@@ -121,14 +121,14 @@ Also in this step: [Balance checks](02.05a-balance.qmd)
 
 ### [Step 6: identify available data sources](02.06-data_sources.qmd) {.unlisted}
 
-Decide whether to rely on primary data, administrative data, or a combination - and map what is already available.
+Decide whether to rely on primary data, administrative data, or a combination, and map what is already available.
 :::
 
 ::: {.card-e}
 
 ### [Step 7: collect data](02.07-data_collect.qmd) {.unlisted}
 
-Design and implement the data collection - surveys, administrative data access, and quality controls.
+Design and implement the data collection: surveys, administrative data access, and quality controls.
 
 ::: {.sub-steps}
 Also in this step: [Terms of reference](02.07a-tor.qmd) · [Informed consent](02.07b-consent.qmd)
@@ -150,7 +150,7 @@ Put in place the checks needed to detect and address data quality problems befor
 
 ## Before you start: assemble your internal evaluation team
 
-The managing authority brings knowledge that no outside expert can replicate - how the intervention works in practice, who the target beneficiaries are, what the political constraints are, and what a meaningful result would look like. External consultants and data collection firms are available to provide methodological and operational support, and many managing authorities will choose to work with them. But whether the RCT is implemented with external support or largely in-house, a core internal team needs to be in place from the start. Without it, key decisions get made by default rather than by design, and the evaluation risks being shaped by what is convenient rather than what matters.
+The managing authority brings knowledge that no outside expert can replicate: how the intervention works in practice, who the target beneficiaries are, what the political constraints are, and what a meaningful result would look like. External consultants and data collection firms are available to provide methodological and operational support, and many managing authorities will choose to work with them. But whether the RCT is implemented with external support or largely in-house, a core internal team needs to be in place from the start. Without it, key decisions get made by default rather than by design, and the evaluation risks being shaped by what is convenient rather than what matters.
 
 Before working through the eight steps, identify who inside the managing authority will take on each of the following roles:
 
@@ -163,7 +163,7 @@ The person who leads the process, coordinates across the other roles, and serves
 ::: {.card-e}
 **A project manager**
 
-Someone with detailed knowledge of the intervention: eligibility criteria, selection process, implementation timeline, and the population of applicants. This is the person who can answer the policy questions that drive the evaluation design - particularly what effect size would be meaningful and what the intervention is realistically expected to achieve.
+Someone with detailed knowledge of the intervention: eligibility criteria, selection process, implementation timeline, and the population of applicants. This is the person who can answer the policy questions that drive the evaluation design, particularly what effect size would be meaningful and what the intervention is realistically expected to achieve.
 :::
 :::
 
@@ -183,11 +183,11 @@ To ensure that data-sharing agreements and General Data Protection Regulation co
 :::
 
 ::: {.soft-panel}
-The internal team does not need to be large - in smaller managing authorities, one or two people may cover several roles. What matters is that the responsibilities are clearly assigned and that the evaluation focal point has the authority to make decisions and the access to intervention information they need.
+The internal team does not need to be large: in smaller managing authorities, one or two people may cover several roles. What matters is that the responsibilities are clearly assigned and that the evaluation focal point has the authority to make decisions and the access to intervention information they need.
 
-Where internal capacity or methodological expertise is limited, external experts can be hired to support - covering evaluation design, data collection, or both.
+Where internal capacity or methodological expertise is limited, external experts can be hired to support evaluation design, data collection, or both.
 :::
 
 ::: {.nav-buttons}
-[← Back to - RCTs: why and when](01-why-and-when.qmd) | [Next - Step 1: develop a Theory of Change →](02.01-toc.qmd)
+[← Back to RCTs: why and when](01-why-and-when.qmd) | [Step 1: develop a Theory of Change →](02.01-toc.qmd)
 :::
