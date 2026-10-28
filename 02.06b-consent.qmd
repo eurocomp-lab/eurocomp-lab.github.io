@@ -41,7 +41,7 @@ A consent form for RCT data collection should cover the following elements.
 
 State clearly who is conducting the research, who the data controller is, and what the evaluation is designed to find out. Name and provide contact details for:
 
-- The Managing Authority (data controller and primary contact)
+- The managing authority (data controller and primary contact)
 - Any research partners with access to the data (e.g. World Bank, university)
 - The Data Protection Officer of each data-processing party
 
@@ -105,7 +105,7 @@ State explicitly that:
 
 ### 8. Participant rights under GDPR
 
-Inform participants of their rights: access to stored data (including a free copy), rectification of inaccurate data, data portability, restriction of processing, and the right to lodge a complaint with the national supervisory authority. Provide the contact details of both the Managing Authority's Data Protection Officer and the relevant national supervisory authority.
+Inform participants of their rights: access to stored data (including a free copy), rectification of inaccurate data, data portability, restriction of processing, and the right to lodge a complaint with the national supervisory authority. Provide the contact details of both the managing authority's Data Protection Officer and the relevant national supervisory authority.
 
 ### 9. Duration of participation and follow-up
 
@@ -131,7 +131,7 @@ Example:
   </div></div>
   <div class="d"><div>
     <h3>Box 2 - Direct institutional access to transactional data <span style="font-weight:400;font-size:0.9em">(optional - important for evaluation quality)</span></h3>
-    <p>Authorises the Managing Authority, acting directly or through the World Bank, to access historical, current, and future firm data from national fiscal and corporate registries - including tax authority, trade registry, and the Ministry of Finance. Valid for up to ten years from form submission.</p>
+    <p>Authorises the managing authority, acting directly or through the World Bank, to access historical, current, and future firm data from national fiscal and corporate registries - including tax authority, trade registry, and the Ministry of Finance. Valid for up to ten years from form submission.</p>
   </div></div>
   <div class="d"><div>
     <h3>Box 3 - Document quality control via secure AI tools <span style="font-weight:400;font-size:0.9em">(optional - important for evaluation quality)</span></h3>
@@ -148,9 +148,9 @@ Box 1 is required. Boxes 2 and 3 are optional but described as important for the
 
 ## Special considerations for EU RCTs
 
-**Ethical approval.** It is recommended that research involving human subjects - including firm-level surveys - apply for ethical approval from an Institutional Review Board (IRB) or equivalent body. Managing Authorities working with a university or international research partner should confirm that ethical approval has been obtained and that the consent form has been reviewed as part of that process.
+**Ethical approval.** It is recommended that research involving human subjects - including firm-level surveys - apply for ethical approval from an Institutional Review Board (IRB) or equivalent body. Managing authorities working with a university or international research partner should confirm that ethical approval has been obtained and that the consent form has been reviewed as part of that process.
 
-**Data transfers to international organisations.** If the research partner is based outside the EU - such as the World Bank - the data transfer must be covered by an appropriate GDPR mechanism. The World Bank processes personal data under its own institutional Privacy Policy, consistent with its mandate as an international organisation established by its member countries. This must be stated in the consent form and in the data-sharing agreement between the Managing Authority and the research partner.
+**Data transfers to international organisations.** If the research partner is based outside the EU - such as the World Bank - the data transfer must be covered by an appropriate GDPR mechanism. The World Bank processes personal data under its own institutional Privacy Policy, consistent with its mandate as an international organisation established by its member countries. This must be stated in the consent form and in the data-sharing agreement between the managing authority and the research partner.
 
 **Control group consent.** Firms in the comparison group are also research subjects - they are surveyed, tracked in administrative data, and their outcomes are used in the analysis. They must receive the same information notice and consent form as treatment group firms. The only difference is that they are not invited to apply for the grant.
 
