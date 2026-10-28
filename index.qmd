@@ -1,6 +1,6 @@
 ---
 title: "Randomised trials for EU-funded interventions"
-description-meta: "Learn how managing authorities can use randomised controlled trials to find out which EU-funded interventions work, with guidance, examples and survey tools."
+description-meta: "Learn how managing authorities and evaluators can use randomised controlled trials (RCTs) for evidence-based policymaking and adaptive learning in cohesion policy, with guidance, examples and survey tools."
 title-block-style: none   # the hero below carries the page title
 body-classes: has-hero
 ---
@@ -31,14 +31,19 @@ This website pools knowledge and resources to help managing authorities and eval
 
 ::: {.team-note}
 ## Summary {.unlisted}
-Whether you are considering an RCT for the first time or already have experience with experimentation, you can find the concepts, examples and practical resources you need to get started.
-This page explains why experimentation matters for policy, how RCTs relate to impact evaluation more broadly, which questions they can answer, and common myths about them. It ends with a guide to the rest of the site.
+This website offers the concepts, examples and practical resources needed to get started with RCTs, both for those considering one for the first time and for those who already have experience with experimentation.
+This page explains what RCTs are, how RCTs fit among other impact evaluation methods, which questions they can answer, and why they matter for cohesion policy. It ends with a guide to the rest of the site.
 :::
+
+## What is an RCT?
+Experimentation, or experimental evaluation, means testing an intervention by assigning eligible participants at random either to receive it (or one version of it) or to a comparison group (also called a control group) that does not receive it, or receives a different version. This is called a randomised controlled trial (RCT). On this website, the words experimentation and RCTs are used interchangeably.
+Randomisation can be used, for example, when there are more eligible applicants than available places, or when an intervention is rolled out in phases and the order in which participants receive it is decided at random. Comparing average outcomes between the groups shows whether the intervention - and not something else going on at the same time - is the reason for the observed changes.
+Who ends up in which group is decided by a random draw. It is not decided by who applied first, who looked most promising, or whom the reviewer favoured. Because assignment is random, the groups are similar on average before the intervention starts, and any remaining differences between them are due only to chance. That is true not just for characteristics that can be measured, but also for those that cannot be observed. So when a difference between the groups shows up later, it can be attributed to the intervention, provided the trial is implemented as planned and outcomes are measured in the same way for both groups.
 
 
 ## Why introduce experimental evaluations?
 
-Innovation in policy making to maximise returns on European cohesion policy investments is crucial for improving Europe’s competitiveness. Innovation is particularly vital for middle-income countries to avoid the middle-income trap by integrating advanced technologies and enhancing productivity. Innovation also drives the efficient use of capital, labour, and energy. This is essential for sustainable development - especially in light of rising debt, ageing populations, and environmental challenges.
+Innovation in policymaking to maximise returns on European cohesion policy investments is crucial for improving Europe’s competitiveness. Innovation is particularly vital for middle-income countries to avoid the middle-income trap by integrating advanced technologies and enhancing productivity. Innovation also drives the efficient use of capital, labour, and energy. This is essential for sustainable development - especially in light of rising debt, ageing populations, and environmental challenges.
 
 The European Union (EU) is one of the world’s largest investors in innovation. Research and innovation received roughly a tenth of its €361 billion cohesion policy budget for 2021-2027. Yet regional disparities in innovation outcomes persist and limit the EU’s competitiveness.
 
@@ -295,7 +300,7 @@ Established labs already supporting experimentation.
 :::
 ::::
 
-### The EU needs more managing authorities leading the change towards experimentation in policy making {.unlisted}
+### The EU needs more managing authorities leading the change towards experimentation in policymaking {.unlisted}
 
 
 ::: {.video-frame}
