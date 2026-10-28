@@ -91,9 +91,9 @@ The primary respondents were CEOs and/or firm owners, with additional input from
 
 ## The role of data collection firms and evaluation consultants
 
-Managing Authorities can implement RCTs in-house including conducting surveys and data analysis. However, implementing RCTs comes with many specificities and challenges. The technical expertise needed can be contracted in. Having the right expert team on board makes all the difference. What Managing Authorities need is a well-crafted Terms of Reference (ToRs): the document that attracts the right teams, sets the methodological bar, and defines the conditions for a credible, policy-relevant evaluation. A strong ToR is therefore not a procurement formality - it is the Managing Authority’s most important contribution to the quality of the evaluation. For more information on ToRs, please click here: [Terms of Reference](02.06a-tor.qmd)
+Managing authorities can implement RCTs in-house including conducting surveys and data analysis. However, implementing RCTs comes with many specificities and challenges. The technical expertise needed can be contracted in. Having the right expert team on board makes all the difference. What managing authorities need is a well-crafted Terms of Reference (ToRs): the document that attracts the right teams, sets the methodological bar, and defines the conditions for a credible, policy-relevant evaluation. A strong ToR is therefore not a procurement formality - it is the managing authority’s most important contribution to the quality of the evaluation. For more information on ToRs, please click here: [Terms of Reference](02.06a-tor.qmd)
 
-The division of responsibilities between the Managing Authority, the evaluation consultant and/or the data collection firm should be made explicit in procurement. Close collaboration is key for a successfully conducted RCT. Depending on which activities the Managing Authorities conduct in-house, the evaluation consultant or data collection firm supports or conducts the following activities: designing the survey instrument, translating and piloting the questionnaire, determining the sample, setting up the digital survey platform, recruiting and training enumerators, managing fieldwork, monitoring response rates, implementing quality controls, delivering a clean dataset, and carrying out the statistical analysis once data has been collected.
+The division of responsibilities between the managing authority, the evaluation consultant and/or the data collection firm should be made explicit in procurement. Close collaboration is key for a successfully conducted RCT. Depending on which activities the managing authorities conduct in-house, the evaluation consultant or data collection firm supports or conducts the following activities: designing the survey instrument, translating and piloting the questionnaire, determining the sample, setting up the digital survey platform, recruiting and training enumerators, managing fieldwork, monitoring response rates, implementing quality controls, delivering a clean dataset, and carrying out the statistical analysis once data has been collected.
 
 ::: {.example .romania data-map="romania-ne"}
 [North&#8209;East Romania: primary respondents]{.tag}
@@ -151,14 +151,14 @@ Attrition - firms that cannot be reached or refuse to participate at endline - i
 
 ## Data protection and GDPR compliance
 
-For EU Managing Authorities, compliance with the GDPR is a legal obligation that applies to any data collection exercise involving personal data. Before any survey goes into the field, the following must be in place:
+For EU managing authorities, compliance with the GDPR is a legal obligation that applies to any data collection exercise involving personal data. Before any survey goes into the field, the following must be in place:
 
-- A clear legal basis for processing personal data - typically the legitimate interest of the Managing Authority in evaluating public spending, or the explicit consent of respondents
+- A clear legal basis for processing personal data - typically the legitimate interest of the managing authority in evaluating public spending, or the explicit consent of respondents
 - An informed consent process: respondents must be told how their data will be used, how long it will be retained, and who will have access, before they agree to participate. [More information on informed consent](02.06b-consent.qmd)
 - Anonymisation or pseudonymisation of responses wherever possible
 - Appropriate data security measures, including restricted access to identifiable data
 
-Managing Authorities should involve their Data Protection Officer early in the design process - not as a final approval step, but as part of initial planning. Data sharing agreements with third-party survey firms or external evaluators must address GDPR requirements explicitly.
+Managing authorities should involve their Data Protection Officer early in the design process - not as a final approval step, but as part of initial planning. Data sharing agreements with third-party survey firms or external evaluators must address GDPR requirements explicitly.
 
 
 ***
