@@ -59,51 +59,7 @@ Most national frameworks were designed around ranking or first-come-first-served
 
 The most common mistake is treating randomisation as something that can be added once the intervention is already running. It cannot. By the time the first grant is awarded, the comparison group must already be defined, the eligibility rules must be locked in, and the baseline data should have been collected. Everything to the left of the lottery in the diagram below has to be in place before the intervention launches - that is precisely what makes the comparison between treatment and comparison group valid.
 
-```{=html}
-<figure class="fig-e">
-<svg viewBox="0 0 680 330" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Timeline showing intervention areas, eligibility, random selection, monitoring and impact measurement across ex-ante and ex-post periods">
-  <rect x="20" y="46" width="300" height="252" rx="6" fill="var(--dg-accent-wash-soft)"/>
-  <text x="170" y="316" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5" font-style="italic">Ex-ante</text>
-  <text x="500" y="316" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5" font-style="italic">Ex-post</text>
-  <line x1="20" y1="300" x2="660" y2="300" stroke="var(--dg-line)" stroke-width="1.5"/>
-  <text x="640" y="316" text-anchor="end" fill="var(--dg-ink-soft)" font-size="11.5">Time</text>
-  <rect x="30" y="20" width="130" height="24" rx="4" fill="var(--dg-ink)"/>
-  <text x="95" y="37" text-anchor="middle" fill="var(--dg-reverse)" font-size="10.5" font-weight="bold">T0: Target areas</text>
-  <rect x="176" y="20" width="130" height="24" rx="4" fill="var(--dg-ink)"/>
-  <text x="241" y="37" text-anchor="middle" fill="var(--dg-reverse)" font-size="11" font-weight="bold">T1: Eligibility</text>
-  <rect x="360" y="20" width="130" height="24" rx="4" fill="var(--dg-ink)"/>
-  <text x="425" y="37" text-anchor="middle" fill="var(--dg-reverse)" font-size="11" font-weight="bold">T2: Monitoring</text>
-  <rect x="520" y="20" width="130" height="24" rx="4" fill="var(--dg-ink)"/>
-  <text x="585" y="37" text-anchor="middle" fill="var(--dg-reverse)" font-size="11" font-weight="bold">T3: Impacts</text>
-  <rect x="30" y="70" width="130" height="56" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="42" y="90" fill="var(--dg-ink)" font-size="10.5" font-weight="bold">1. Secondary data</text>
-  <text x="42" y="104" fill="var(--dg-ink-soft)" font-size="10.5">Identify which areas</text>
-  <text x="42" y="117" fill="var(--dg-ink-soft)" font-size="10.5">and groups need support</text>
-  <rect x="176" y="70" width="130" height="56" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="188" y="90" fill="var(--dg-ink)" font-size="10.5" font-weight="bold">2. Eligibility check</text>
-  <text x="188" y="104" fill="var(--dg-ink-soft)" font-size="10.5">Refine the selection</text>
-  <text x="188" y="117" fill="var(--dg-ink-soft)" font-size="10.5">criteria, collect baseline</text>
-  <rect x="176" y="146" width="130" height="42" rx="5" fill="var(--dg-accent)"/>
-  <text x="241" y="164" text-anchor="middle" fill="var(--dg-ink)" font-size="11" font-weight="bold">3. Random selection</text>
-  <text x="241" y="179" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">within the eligible pool</text>
-  <path d="M306 167 H350" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
-  <path d="M306 167 H330 V232 H350" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
-  <rect x="350" y="148" width="230" height="38" rx="5" fill="var(--dg-accent)"/>
-  <text x="465" y="172" text-anchor="middle" fill="var(--dg-ink)" font-size="12" font-weight="bold">Treatment firms</text>
-  <rect x="350" y="212" width="230" height="42" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="465" y="230" text-anchor="middle" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Pure control group</text>
-  <text x="465" y="245" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="10.5">comparison firms without any support</text>
-  <text x="336" y="120" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11" transform="rotate(-90 336 120)">Outcome</text>
-  <rect x="520" y="70" width="130" height="56" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="532" y="90" fill="var(--dg-ink)" font-size="10.5" font-weight="bold">4. Endline assessment</text>
-  <text x="532" y="104" fill="var(--dg-ink-soft)" font-size="10.5">Measure the gap between</text>
-  <text x="532" y="117" fill="var(--dg-ink-soft)" font-size="10.5">the two groups</text>
-  <path d="M598 167 H620 M598 233 H620 M609 167 V233" stroke="var(--dg-ink)" stroke-width="1.5" fill="none"/>
-  <text x="626" y="204" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Impact</text>
-</svg>
-<figcaption>Note: illustrative timeline of an RCT.</figcaption>
-</figure>
-```
+
 
 :::: {.example .romania data-map="romania-ne"}
 [North&#8209;East Romania: building the eligibility pool]{.tag}
