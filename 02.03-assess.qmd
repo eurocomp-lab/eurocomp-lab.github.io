@@ -15,7 +15,7 @@ This page covers five feasibility conditions that must be in place before commit
 
 By this point you have mapped your programme's causal logic, defined what you want to find out, and chosen the indicators you will use to measure it. The question this step answers is whether you can actually run a randomised evaluation to get those answers - and if so, how to design it.
 
-An RCT is not always possible. Before investing time and resources in a randomised design, a Managing Authority needs to check whether the basic conditions are in place. Once they are, the choice of randomisation method matters: different programme shapes call for different designs. This page covers both.
+An RCT is not always possible. Before investing time and resources in a randomised design, a managing authority needs to check whether the basic conditions are in place. Once they are, the choice of randomisation method matters: different programme shapes call for different designs. This page covers both.
 
 ***
 
@@ -38,7 +38,7 @@ Most national frameworks were designed around ranking or first-come-first-served
 :::
 ::: {.card-e}
 ### 4. Is there political and institutional buy-in? {.unlisted}
-An RCT requires sustained commitment from the Managing Authority and any intermediate bodies involved in delivery. If key stakeholders are not on board, or if political changes could interrupt the evaluation midway, the investment may not be recoverable.
+An RCT requires sustained commitment from the managing authority and any intermediate bodies involved in delivery. If key stakeholders are not on board, or if political changes could interrupt the evaluation midway, the investment may not be recoverable.
 :::
 ::: {.card-e}
 ### 5. Can the outcomes actually be measured? {.unlisted}
@@ -153,7 +153,7 @@ On one hand, eligibility criteria should not be too restrictive to target a larg
 ::: {.example .case data-map="romania-sm"}
 [Romania (South-Muntenia)]{.tag}
 
-In South-Muntenia (Romania), the World Bank found that eligibility criteria for an innovation support programme were quite restrictive, taking into account the firm landscape in this region. The World Bank worked with the Managing Authority to adjust the criteria to target a higher number of firms.
+In South-Muntenia (Romania), the World Bank found that eligibility criteria for an innovation support programme were quite restrictive, taking into account the firm landscape in this region. The World Bank worked with the managing authority to adjust the criteria to target a higher number of firms.
 ::::
 
 </details>
@@ -163,7 +163,7 @@ In South-Muntenia (Romania), the World Bank found that eligibility criteria for 
 
 Programmes that are designed without a prior assessment of beneficiary needs frequently suffer from misalignment: either too few firms apply (under-subscription), or the programme attracts firms that are not its intended target. Both problems are expensive - leading to repeated calls, unused funds, or support that reaches firms that would have done well without it.
 
-A baseline needs assessment - conducted before the programme launches - allows the Managing Authority to understand the regional landscape, calibrate grant sizes and eligibility thresholds, and anticipate demand more accurately. Where uncertainty about demand remains, piloting different programme elements before full-scale rollout can reduce the risk of costly mismatches.
+A baseline needs assessment - conducted before the programme launches - allows the managing authority to understand the regional landscape, calibrate grant sizes and eligibility thresholds, and anticipate demand more accurately. Where uncertainty about demand remains, piloting different programme elements before full-scale rollout can reduce the risk of costly mismatches.
 
 ::: {.example .case data-map="italy"}
 [Italy]{.tag}
@@ -193,7 +193,7 @@ In Romania, the pre-assessment survey was designed to do three jobs simultaneous
 <details class="myth-box">
 <summary>Use the application process to exchange information</summary>
 
-The application process is typically treated as a one-way flow of information: firms submit data to the Managing Authority. In practice, it can also be a vehicle for delivering useful information and tools to firms - raising awareness about a topic (digitalisation, innovation, energy efficiency), helping firms identify investment needs, and providing benchmarks that inform business decisions regardless of whether the firm is selected for support.
+The application process is typically treated as a one-way flow of information: firms submit data to the managing authority. In practice, it can also be a vehicle for delivering useful information and tools to firms - raising awareness about a topic (digitalisation, innovation, energy efficiency), helping firms identify investment needs, and providing benchmarks that inform business decisions regardless of whether the firm is selected for support.
 
 Firms that receive useful information during the application process are more engaged, better prepared to make investment decisions if selected, and more likely to view the experience positively even if they are not funded.
 
@@ -471,7 +471,7 @@ different intensities measures the spillover onto neighbours and competitors.
 
 **Low take-up.** Some firms assigned to the treatment group never use the support - they decline the grant, fail to meet the conditions, or disengage early. Low take-up dilutes the estimated effect: if only half the treatment group actually received the programme, the impact estimate reflects a half-dose. Monitoring take-up actively during implementation - and understanding why firms do not engage - is essential for interpreting what the evaluation ultimately shows.
 
-**Uneven implementation.** The programme is delivered inconsistently across firms - some receive more advisory time, faster disbursements, or better quality support than others. This introduces noise into the treatment and makes the evaluation harder to interpret. Clear delivery protocols, regular monitoring, and a close relationship between the Managing Authority and the delivery team reduce this risk.
+**Uneven implementation.** The programme is delivered inconsistently across firms - some receive more advisory time, faster disbursements, or better quality support than others. This introduces noise into the treatment and makes the evaluation harder to interpret. Clear delivery protocols, regular monitoring, and a close relationship between the managing authority and the delivery team reduce this risk.
 
 ::: {.takeaway}
 None of these problems make an RCT impossible - but all of them must be anticipated at the design stage, not discovered after the endline survey. 
@@ -489,9 +489,9 @@ Because of limited take-up, it is safer to report the intention-to-treat effect,
 
 Before the intervention begins (but latest before data analysis begins), the RCT design must be publicly committed to on a recognised registry. This is called pre-registration, and it is one of the most important quality controls in a rigorous RCT.
 
-Pre-registration means publishing, in advance, the primary outcome, the evaluation questions, the randomisation procedure, and the analysis plan. Once that record is time-stamped and publicly visible, it becomes impossible to claim after the fact that a different learning question or outcome was always the primary focus, or that a subgroup analysis was planned from the beginning when it was actually prompted by the results.  The evaluation team should lead this process, but the Managing Authority should confirm it has been done before approving the inception report.
+Pre-registration means publishing, in advance, the primary outcome, the evaluation questions, the randomisation procedure, and the analysis plan. Once that record is time-stamped and publicly visible, it becomes impossible to claim after the fact that a different learning question or outcome was always the primary focus, or that a subgroup analysis was planned from the beginning when it was actually prompted by the results.  The evaluation team should lead this process, but the managing authority should confirm it has been done before approving the inception report.
 
-For a Managing Authority, pre-registration also serves a protective function. It shields the evaluation team from pressure to adjust the analysis once results are known. And it strengthens the credibility of the findings: when a null result or an inconvenient conclusion is published, pre-registration demonstrates that it reflects reality rather than selective reporting.
+For a managing authority, pre-registration also serves a protective function. It shields the evaluation team from pressure to adjust the analysis once results are known. And it strengthens the credibility of the findings: when a null result or an inconvenient conclusion is published, pre-registration demonstrates that it reflects reality rather than selective reporting.
 
 ::: {.cards}
 ::: {.card-e}
