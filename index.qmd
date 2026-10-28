@@ -157,6 +157,28 @@ Who ends up in which group is decided by a random draw. It is not decided by who
 <figcaption>Note: dot sizes stand for applicants with different characteristics. Because the draw is random, both groups end up with a similar mix on average, so a later difference in their average outcomes can be attributed to the intervention. The comparison group can also receive a different version of the intervention. Bar heights are illustrative.</figcaption>
 </figure>
 ```
+## What is impact evaluation - and where do RCTs fit in?
+
+::: {.gold-panel}
+Impact evaluation answers the question: what causal effect did this intervention have
+on outcomes like employment, skills or firm growth - for whom did it work
+best, and under which conditions?
+:::
+
+An impact evaluation compares what happened after an intervention was introduced with what
+would have happened in its absence: the counterfactual. Unlike monitoring, which tracks whether an intervention is implemented as planned, it tests
+whether the intervention caused a real difference. It is one of several types of evaluation, alongside implementation evaluation, that managing authorities can include in their evaluation plans. See [what impact evaluation is for and
+how it differs from M&E](01-why-and-when.qmd#impact-evaluation).
+
+There is more than one credible way to conduct an impact evaluation, and the right choice depends on the intervention, the available data and the timing.
+Quasi-experimental methods such as matching,
+difference-in-differences, or regression discontinuity design, compare participants to similar
+non-participants constructing the comparison group after the intervention had already ended. That is impact
+evaluation too, and it can be credible. Because the evaluator does not decide who ends up in which group, the comparability of the groups rests on assumptions that need to be stated and discussed. 
+
+Now imagine doing this differently: designing the comparison group by randomly assigning eligible applicants to different groups, rather than picking it afterwards. That is what an RCT does.
+See below [how the methods compare](01-why-and-when.qmd#alternatives) and [why RCTs are usually the stronger
+choice](01-why-and-when.qmd#rct).
 
 ## Why introduce experimental evaluations?
 
@@ -180,28 +202,6 @@ Concretely, getting more out of cohesion policy investments means rethinking how
 {{< video https://youtu.be/p9L2-K7UyP0 title="The case for policy learning and experimentation" aspect-ratio="16x9" >}}
 :::
 
-## What is impact evaluation - and where does experimentation fit in?
-
-::: {.gold-panel}
-Impact evaluation answers the question: what causal effect did this intervention have
-on outcomes like firm survival, employment, or innovation - for whom did it work
-best, and under which conditions?
-:::
-
-An impact evaluation compares what happened after an intervention was introduced with what
-would have happened in its absence: the counterfactual. Unlike monitoring, which tracks whether an intervention is implemented as planned, it tests
-whether the intervention caused a real difference. See [what impact evaluation is for and
-how it differs from M&E](01-why-and-when.qmd#impact-evaluation).
-
-There is more than one credible way to conduct an impact evaluation.
-Methods such as matching,
-difference-in-differences, or regression discontinuity design, compare participants to similar
-non-participants constructing the comparison group after the intervention had already ended. That is impact
-evaluation too, and it can be credible. But because the evaluator did not decide who ended up in which group, there is no guarantee that the two groups are comparable. The credibility of the results therefore rests on assumptions that must be defended separately.
-
-Now imagine doing this differently: designing the comparison group by randomly assigning eligible applicants to different groups, rather than picking it afterwards. That is what an RCT does.
-See below [how the methods compare](01-why-and-when.qmd#alternatives) and [why RCTs are usually the stronger
-choice](01-why-and-when.qmd#rct).
 
 ## RCTs show what works and how effectively
 
