@@ -410,7 +410,7 @@ The key advantage is that everyone eventually receives support, which makes the 
 
 ## Varying the dose: randomised intensities
 
-Rather than randomising which firms receive the programme, you can randomise how much of it they receive. For example, some firms might have all eligible employees participate in a training programme, while others have only half, and others none. Comparing outcomes across these groups reveals not just whether the programme works but how much of it is needed - and whether the benefits spill over to employees who were not directly treated.
+Rather than randomising which firms receive the intervention, you can randomise how much of it they receive. For example, some firms might have all eligible employees participate in a training intervention, while others have only half, and others none. Comparing outcomes across these groups reveals not just whether the intervention works but how much of it is needed - and whether the benefits spill over to employees who were not directly treated.
 
 ```{=html}
 <figure class="fig-e">
