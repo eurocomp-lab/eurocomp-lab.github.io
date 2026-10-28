@@ -15,7 +15,7 @@ This page covers how to move from the Theory of Change (ToC) to measurable indic
 
 Once the ToC is in place, it becomes the blueprint for selecting indicators. Every element of the ToC - inputs, activities, outputs, short- and medium-term outcomes, goals, and assumptions - needs at least one measurable indicator to track whether things are moving as expected.
 
-For managing authorities, some of this work is already done. Some European Union funding programmes (e.g. the European Regional Development Fund) operate within a mandatory performance framework that includes common output and result indicators set by the European Commission. These provide a useful starting point, but they are generally not sufficient for an RCT. Common indicators are designed for monitoring - they tell you what was delivered - but an evaluation also needs to measure what changed as a result, and to do so in a way that allows for comparison with a counterfactual (i.e. what would have happened without the programme).
+For managing authorities, some of this work is already done. Some European Union funding programmes (e.g. the European Regional Development Fund) operate within a mandatory performance framework that includes common output and result indicators set by the European Commission. These provide a useful starting point, but they are generally not sufficient for an RCT. Common indicators are designed for monitoring - they tell you what was delivered - but an evaluation also needs to measure what changed as a result, and to do so in a way that allows for comparison with a counterfactual (i.e. what would have happened without the intervention).
 
 Indicators for evaluation purposes therefore need to go beyond the mandatory monitoring set and capture the intermediate and final outcomes described in the ToC.
 
@@ -29,9 +29,9 @@ Good indicators share five characteristics, often summarised as SMART:
 |-----------|-------------|
 | **Specific** | The indicator measures exactly the construct it is supposed to measure - not a proxy that is merely convenient |
 | **Measurable** | The information can be reliably obtained, ideally in a numerical form that allows for comparison over time and across groups |
-| **Attributable** | The indicator is sensitive to the programme's efforts and not so heavily influenced by external factors that changes cannot be attributed to the intervention |
+| **Attributable** | The indicator is sensitive to the intervention's efforts and not so heavily influenced by external factors that changes cannot be attributed to the intervention |
 | **Realistic** | The data can be obtained within the available time and budget, at a frequency that matches the evaluation timeline |
-| **Targeted** | The indicator reflects outcomes for the specific population the programme is designed to serve |
+| **Targeted** | The indicator reflects outcomes for the specific population the intervention is designed to serve |
 
 ::: {.example .romania data-map="romania-ne"}
 [North&#8209;East Romania: selected indicators]{.tag}
@@ -45,10 +45,10 @@ Good indicators share five characteristics, often summarised as SMART:
 
 ## Choosing indicators: where to start
 
-Indicators rarely need to be built from scratch. Managing authorities should draw on existing, well-tested measures from comparable evaluations before designing new ones. The selection of outcomes and their definitions in this repository was informed by the EuroCOMP Lab evaluations (see [Examples](03-examples.qmd)), policy reports such as the [World Bank's TIDES report](https://www.worldbank.org/en/region/eca/publication/tides-of-change-igniting-productivity-growth-in-europe-and-central-asia), and established indicator manuals such as the [OECD Oslo Manual](https://www.oecd.org/en/publications/2018/10/oslo-manual-2018_g1g9373b.html) for innovation and the [OECD Frascati Manual](https://www.oecd.org/en/publications/2015/10/frascati-manual-2015_g1g57dcb.html) for research and development. Drawing on these sources improves the quality of your data and makes findings easier to compare with evidence from other programmes and regions.
+Indicators rarely need to be built from scratch. Managing authorities should draw on existing, well-tested measures from comparable evaluations before designing new ones. The selection of outcomes and their definitions in this repository was informed by the EuroCOMP Lab evaluations (see [Examples](03-examples.qmd)), policy reports such as the [World Bank's TIDES report](https://www.worldbank.org/en/region/eca/publication/tides-of-change-igniting-productivity-growth-in-europe-and-central-asia), and established indicator manuals such as the [OECD Oslo Manual](https://www.oecd.org/en/publications/2018/10/oslo-manual-2018_g1g9373b.html) for innovation and the [OECD Frascati Manual](https://www.oecd.org/en/publications/2015/10/frascati-manual-2015_g1g57dcb.html) for research and development. Drawing on these sources improves the quality of your data and makes findings easier to compare with evidence from other interventions and regions.
 
 ::: {.takeaway}
-The RCT outcome repository lists outcome indicators by topic, from firm performance and innovation to digitalisation, management practices, and energy efficiency. Each one comes with a plain-language definition and a metric. Use them as a starting point: pick the outcomes that fit your ToC and learning questions, consult similar evaluations and reports, and adapt the outcomes to your programme. 
+The RCT outcome repository lists outcome indicators by topic, from firm performance and innovation to digitalisation, management practices, and energy efficiency. Each one comes with a plain-language definition and a metric. Use them as a starting point: pick the outcomes that fit your ToC and learning questions, consult similar evaluations and reports, and adapt the outcomes to your intervention. 
 
 [Browse the outcome repository](09-bank_outcomes.qmd)
 :::
