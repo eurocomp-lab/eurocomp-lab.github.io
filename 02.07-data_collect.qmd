@@ -164,5 +164,5 @@ Managing authorities should involve their Data Protection Officer early in the d
 ***
 
 ::: {.nav-buttons}
-[← Previous - Step 5: identify available data sources](02.05-data_sources.qmd) | [Next - Step 7: ensure high-quality data →](02.07-data_quality.qmd)
+[← Previous - Step 6: identify available data sources](02.06-data_sources.qmd) | [Next - Step 8: ensure high-quality data →](02.08-data_quality.qmd)
 :::
