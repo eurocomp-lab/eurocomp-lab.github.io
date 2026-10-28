@@ -101,7 +101,7 @@ One or two imbalanced variables in a balance table is almost always chance. Many
 
 Perfect balance is the goal, not a guarantee. When the balance check reveals a meaningful difference on one or more characteristics, there are two main responses - and importantly, neither involves re-running the lottery.
 
-**Control for the imbalanced variable in the analysis.** The most common and appropriate response is to include the imbalanced characteristic as a control variable in the statistical model used to estimate the programme's impact. This adjusts the comparison to account for the pre-existing difference, producing a more accurate estimate of the programme's effect. The evaluator handles this - the Managing Authority simply needs to know that it is standard practice, not a workaround.
+**Control for the imbalanced variable in the analysis.** The most common and appropriate response is to include the imbalanced characteristic as a control variable in the statistical model used to estimate the programme's impact. This adjusts the comparison to account for the pre-existing difference, producing a more accurate estimate of the programme's effect. The evaluator handles this - the managing authority simply needs to know that it is standard practice, not a workaround.
 
 **Do not re-randomise.** Once firms know their assignment - or once the programme has begun - re-running the lottery is not an option. It would undermine the integrity of the design and the trust of participants. If a significant imbalance is discovered before the programme launches and before firms have been notified, the evaluation team should be consulted immediately. In rare cases, a new draw may be possible, but this is the exception.
 
