@@ -1,5 +1,5 @@
 ---
-title: "Glossary of evaluation terms"
+title: "Glossary"
 description-meta: "Look up plain-language definitions of the evaluation terms used on this site, from additionality and attrition to spillover effects and Theory of Change."
 # styles the terms below as a list of terms and definitions (theme-eu-refresh.scss, batch 21)
 body-classes: glossary
@@ -14,7 +14,7 @@ Plain-language definitions of the evaluation terms used throughout this site.
 
 ::: {.team-note}
 **Scope**
-Terms specific to a single case study (programme names, voucher types) are not
+Terms specific to a single case study (names of interventions, voucher types) are not
 repeated here; they are explained on the page where they appear, for example
 [Examples](03-examples.qmd).
 :::
@@ -26,41 +26,41 @@ repeated here; they are explained on the page where they appear, for example
 ## A
 
 Activities
-:   The concrete actions taken to deliver a programme, such as running grant calls, disbursing subsidies or delivering advisory services. What a programme does, as distinct from its inputs or its outputs.
+:   The concrete actions taken to deliver an intervention, such as running grant calls, disbursing subsidies or delivering advisory services. What an intervention does.
 
 Additionality
-:   The share of a programme's activity that would not have happened without it. Firms that would have invested anyway generate little that is truly additional per euro of public money spent.
+:   The share of an intervention's results that would not have happened without it. Firms that would have invested anyway generate little that is truly additional per euro of public money spent.
 
 Assumptions
-:   In a Theory of Change, the conditions that must hold for one step in a programme's causal chain to lead to the next. If an assumption does not hold, for example that firms face a genuine financing constraint, a programme can produce outputs without producing real outcomes.
+:   In a Theory of Change, the conditions that must hold for one step in an intervention's causal chain to lead to the next. If an assumption does not hold, for example that firms face a genuine financing constraint, an intervention can produce outputs without producing the intended results.
 
 Attrition
-:   Participants dropping out of a study, or no longer responding to follow-up data collection. It becomes a risk when dropout is not random: if struggling firms are the ones most likely to disappear, the firms still measured make a programme look better than it is.
+:   Participants dropping out of a study, or no longer responding to follow-up data collection. It becomes a risk when dropout is not random: if struggling firms are the ones most likely to disappear, the firms still measured make an intervention look better than it is.
 
 ## B
 
 Balance
-:   How similar the treatment and comparison groups look on observable characteristics before a programme starts. A successful random assignment should produce balance; large, systematic differences are a warning sign that something went wrong with the draw.
+:   How similar the treatment and comparison groups look on observable characteristics before an intervention starts. A successful random assignment should produce balance; large, systematic differences are a warning sign that something went wrong with the draw.
 
 Baseline data
-:   Data collected from participants before a programme begins, used as the starting point against which later change is measured.
+:   Data collected from participants before an intervention begins, used as the starting point against which later change is measured.
 
 Bin-ranking design
 :   A randomised controlled trial (RCT) design in which applicants are scored and sorted into bins: the highest scorers are funded automatically, the lowest are rejected, and only the middle bin, where expected returns are least certain, is randomised between a treatment and a comparison group. Also called a cutoff design; effective when eligibility criteria are clear and resources are limited.
 
 ## C
 
-Cohesion Policy
-:   The EU's main investment policy for reducing economic and social disparities between regions, delivered mainly through the European Regional Development Fund (ERDF) and the European Social Fund Plus (ESF+).
+Cohesion policy
+:   The EU's main investment policy for reducing economic and social disparities between regions, delivered through the European Regional Development Fund (ERDF), the European Social Fund Plus (ESF+), the Cohesion Fund (CF) and the Just Transition Fund (JTF).
 
-Common output indicator (COI)
-:   A standardised output measure that Managing Authorities report to the European Commission for ERDF and ESF+ programmes, such as the number of firms supported.
+Common output indicator
+:   A standardised output measure that managing authorities report to the European Commission. For the ERDF, the Cohesion Fund and the JTF, common output indicators carry an RCO code, for example RCO01 (enterprises supported). Programmes can also use programme-specific output indicators.
 
-Common result indicator (CRI)
-:   A standardised result measure that ERDF and ESF+ programmes report to the European Commission, corresponding closely to a programme's medium-term outcomes.
+Common result indicator
+:   A standardised result measure that managing authorities report to the European Commission, capturing the change for direct beneficiaries. For the ERDF, the Cohesion Fund and the JTF, common result indicators carry an RCR code. Programmes can also use programme-specific result indicators. In a Theory of Change, results correspond closely to medium-term outcomes.
 
 Community Innovation Survey (CIS)
-:   A recurring EU survey of firm-level innovation activity. One of several validated frameworks Managing Authorities can draw on when defining evaluation indicators.
+:   A recurring EU survey of firm-level innovation activity. One of several validated frameworks managing authorities can draw on when defining evaluation indicators.
 
 Comparison / control group
 :   The group not receiving the intervention, used as a benchmark for what would have happened to the treatment group without it.
@@ -72,21 +72,21 @@ Confounding factors
 :   External characteristics (variables) that can distort the perceived relationship between a policy intervention and its outcomes, leading to incorrect conclusions about the policy's effectiveness.
 
 Contamination
-:   The often unintended exposure of participants in the comparison group to the randomly assigned programme, which can compromise the comparison between the two groups and affect the study's validity.
+:   The often unintended exposure of participants in the comparison group to the randomly assigned intervention, which can compromise the comparison between the two groups and affect the study's validity.
 
 Cost-benefit analysis
-:   Weighing a programme's measured impact against its cost, to judge whether it was a good use of public money and to compare it with alternative investments.
+:   Weighing an intervention's measured impact against its cost, to judge whether it was a good use of public money and to compare it with alternative investments.
 
 Counterfactual outcome
-:   An attempt to mimic the hypothetical outcome in the scenario of what would have happened without the newly introduced change (treatment, programme, implementation approach, investment).
+:   An attempt to mimic the hypothetical outcome in the scenario of what would have happened without the newly introduced change (treatment, intervention, implementation approach, investment).
 
 ## D
 
 Deadweight
-:   Support that funds activity a firm would have carried out anyway. High deadweight, the mirror image of low additionality, means public money is substituting for spending the firm would have made regardless.
+:   Support that pays for activity a beneficiary would have carried out anyway. High deadweight, the mirror image of low additionality, means public money is substituting for spending the beneficiary would have made regardless.
 
 Difference-in-differences (DiD)
-:   A quasi-experimental method that compares the change over time in a treatment group with the change over the same period in a comparison group that had a similar prior trend. Relies on the parallel trends assumption, that both groups would have followed the same trajectory without the programme, which cannot be tested directly.
+:   A quasi-experimental method that compares the change over time in a treatment group with the change over the same period in a comparison group that had a similar prior trend. Relies on the parallel trends assumption, that both groups would have followed the same trajectory without the intervention, which cannot be tested directly.
 
 Digital Economy and Society Index (DESI)
 :   A European Commission index tracking digital performance and adoption. Used as an outcome measure in the [North-East Romania example](01-why-and-when.qmd#running-example) to track firms' digital adoption.
@@ -94,16 +94,16 @@ Digital Economy and Society Index (DESI)
 ## E
 
 Encouragement design
-:   Randomising who receives extra outreach to take up a programme that cannot be denied to anyone, then comparing the whole encouraged group with the whole non-encouraged group. Used when take-up, not access, is the problem.
+:   Randomising who receives extra outreach to take up an intervention that cannot be denied to anyone, then comparing the whole encouraged group with the whole non-encouraged group. Used when take-up, not access, is the problem.
 
 Endline data
-:   Data collected once a programme has run long enough for effects to plausibly appear, used to measure the gap between the treatment and comparison groups.
+:   Data collected once an intervention has run long enough for effects to plausibly appear, used to measure the gap between the treatment and comparison groups.
 
 European Regional Development Fund (ERDF)
-:   An EU Cohesion Policy fund that co-finances regional programmes, including many of the business-support and innovation programmes evaluated on this site.
+:   An EU cohesion policy fund that co-finances regional programmes, including many of the business-support and innovation interventions evaluated on this site.
 
 European Social Fund Plus (ESF+)
-:   An EU Cohesion Policy fund that co-finances programmes on employment, skills and social inclusion.
+:   An EU cohesion policy fund that co-finances programmes on employment, skills and social inclusion.
 
 ## G
 
@@ -113,22 +113,22 @@ Goals
 ## I
 
 Impact evaluation
-:   An assessment of whether, and by how much, a programme caused the changes observed, by comparing participants' outcomes with a credible counterfactual. It serves two purposes: policy learning (what works, for whom, and under what conditions) and accountability (both financial and performance).
+:   An assessment of whether, and by how much, an intervention caused the changes observed, by comparing participants' outcomes with a credible counterfactual. It serves two purposes: policy learning (what works, for whom, and under what conditions) and accountability (both financial and performance).
 
 Implementation problems
-:   A risk to an RCT's validity where the programme itself is delivered unevenly across participating firms, making the treatment experienced by the treatment group less consistent than intended.
+:   A risk to an RCT's validity where the intervention itself is delivered unevenly across participants, making the treatment experienced by the treatment group less consistent than intended.
 
 Innovation activity
 :   All developmental, financial and commercial activities undertaken by a firm that are intended to result in an innovation.
 
 Inputs
-:   In a Theory of Change, the resources invested in a policy: financing, personnel, equipment and training. For ERDF programmes, inputs typically include EU and national co-financing and the administrative capacity of the Managing Authority.
+:   In a Theory of Change, the resources invested in a policy: financing, personnel, equipment and training. For ERDF programmes, inputs typically include EU and national co-financing and the administrative capacity of the managing authority.
 
 Intention-to-treat (ITT) effect
-:   The effect estimated by comparing groups exactly as originally assigned by randomisation, regardless of whether firms assigned to treatment actually took it up. It stays unbiased because assignment was random, but it understates the effect on firms that actually participated.
+:   The effect estimated by comparing groups exactly as originally assigned by randomisation, regardless of whether participants assigned to treatment actually took it up. It stays unbiased because assignment was random, but it understates the effect on those who actually took part.
 
 Intervention logic
-:   The account, already required for ERDF and ESF+ programmes, of how a policy instrument is expected to produce its intended results. A Theory of Change builds on this by adding explicit assumptions and showing which links in the chain are strong or uncertain.
+:   The account, already required for cohesion policy programmes, of how an intervention is expected to produce its intended effects: from needs and objectives, through inputs and activities, to outputs, results and impacts. A Theory of Change builds on this by adding explicit assumptions and showing which links in the chain are strong or uncertain.
 
 ## L
 
@@ -136,27 +136,27 @@ Local average treatment effect (LATE)
 :   The impact estimate produced by a regression discontinuity design. Valid only for units close to the eligibility cut-off, not for the full population of participants.
 
 Lottery
-:   An RCT design that randomly selects who receives a programme, by public or private draw, among firms that already qualify. Works best when eligibility is clear and the programme is oversubscribed.
+:   An RCT design that randomly selects who receives an intervention, by public or private draw, among applicants that already qualify. Works best when eligibility is clear and the intervention is oversubscribed.
 
 ## M
 
-Managing Authority
-:   The national or regional body responsible for managing an ERDF or ESF+ programme, including reporting to the European Commission and, where an impact evaluation is planned, integrating randomisation into the programme's design from the outset.
+Managing authority
+:   The national or regional body responsible for managing a cohesion policy programme, including reporting to the European Commission and, where an impact evaluation is planned, integrating randomisation into the design of an intervention from the outset.
 
 Matching
-:   A quasi-experimental method that pairs participants with non-participants who share similar observable characteristics, to mimic an RCT. Assumes there are no unobserved differences between matched firms that also affect the outcome.
+:   A quasi-experimental method that pairs participants with non-participants who share similar observable characteristics, to mimic an RCT. Assumes there are no unobserved differences between matched participants that also affect the outcome.
 
 Medium-term outcomes
-:   In a Theory of Change, the broader changes that accumulate from short-term outcomes, such as gains in firm-level productivity, tracked through Common Result Indicators (CRIs). Impact evaluation aims to show that a programme actually caused these changes, not just that they occurred.
+:   In a Theory of Change, the broader changes that accumulate from short-term outcomes, such as gains in firm-level productivity, tracked through result indicators (common or programme-specific). Impact evaluation aims to show that an intervention actually caused these changes, not just that they occurred.
 
 Micro-, small- and medium-sized enterprises (MSMEs)
 :   Micro-sized enterprise commonly refers to an enterprise with fewer than 10 employees, small-sized enterprise to an enterprise with fewer than 50 employees and medium-sized enterprise to an enterprise with fewer than 250 employees.
 
-Monitoring and evaluation (M&E)
-:   The ongoing collection of data on inputs, outputs, outcomes and participants to support day-to-day management and descriptive before-and-after comparisons. Unlike impact evaluation, M&E describes what is happening but cannot show that it happened because of the intervention.
+Monitoring
+:   The regular collection of data on inputs, outputs, results and participants to track whether an intervention is implemented as planned and to support day-to-day management. Unlike impact evaluation, monitoring does not show whether the changes observed were caused by the intervention.
 
 Multiple treatment arms
-:   Randomly assigning different versions of a programme, with or without a control group, to learn which design works best rather than only whether the programme works at all.
+:   Randomly assigning different versions of an intervention, with or without a control group, to learn which design works best rather than only whether the intervention works at all.
 
 ## O
 
@@ -164,15 +164,15 @@ Oslo Manual
 :   The OECD/Eurostat standard that defines innovation for statistical purposes, including the product innovation and process innovation definitions used on this site.
 
 Outputs
-:   In a Theory of Change, the direct, countable results of a programme's activities, such as the number of firms supported or grants awarded. What a programme *produces*, tracked through Common Output Indicators (COIs).
+:   The direct, countable deliverables of an intervention's activities, such as the number of firms supported or grants awarded. What an intervention *produces*, tracked through output indicators (common or programme-specific).
 
 ## P
 
 Power calculation
-:   A calculation, made before a programme launches, that combines the expected effect size, the variation between firms, the desired confidence level and the desired statistical power into the minimum sample size an evaluation needs.
+:   A calculation, made before an intervention launches, that combines the expected effect size, the variation between participants, the desired confidence level and the desired statistical power into the minimum sample size an evaluation needs.
 
 Pre-post (before-after) design
-:   A quasi-experimental method that compares participants before and after a programme. It assumes nothing else affected outcomes over the same period, an assumption that rarely holds in practice.
+:   A quasi-experimental method that compares participants before and after an intervention. It assumes nothing else affected outcomes over the same period, an assumption that rarely holds in practice.
 
 Primary data
 :   Information collected directly from firms, individuals or organisations, through surveys or interviews conducted specifically for an evaluation. Gives more control over what is measured than secondary data, but costs more and takes longer to collect.
@@ -186,24 +186,24 @@ Product innovation
 ## Q
 
 Quasi-experimental methods
-:   Methods used to construct a comparison group after a programme has already launched, when randomisation was not built in from the start. They rely on assumptions, some of which cannot be tested, so the credibility of the evaluation depends on the credibility of those assumptions.
+:   Methods that estimate the counterfactual without random assignment, by comparing participants with non-participants selected in another way. They can be planned in advance or applied after an intervention has been rolled out. They rely on assumptions, some of which cannot be tested, so the credibility of the evaluation depends on the credibility of those assumptions.
 
 ## R
 
 Random assignment
-:   A key element of beneficiary selection when RCTs are implemented, creating comparable groups at the programme's onset. It differs from random selection in surveys.
+:   A key element of beneficiary selection when RCTs are implemented, creating comparable groups before the intervention starts. It differs from random selection in surveys.
 
 Randomised controlled trial (RCT)
-:   An impact evaluation design that randomly assigns eligible participants to a treatment group, which receives the programme, and a control group, which does not. Because randomisation makes the two groups alike on average, the control group's outcome shows what would have happened without the programme, without needing further assumptions about outcome trends.
+:   An impact evaluation design that randomly assigns eligible participants to a treatment group, which receives the intervention, and a control group, which does not. Because randomisation makes the two groups alike on average, the control group's outcome shows what would have happened without the intervention, without needing further assumptions about outcome trends.
 
 Randomised intensities
-:   Randomly varying how much of a programme each participant receives, for example 100%, 50% or 0% of eligible employees, to study spillovers within or between firms.
+:   Randomly varying how much of an intervention each participant receives, for example 100%, 50% or 0% of eligible employees, to study spillovers within or between firms.
 
 Randomised phase-in
-:   A design in which everyone eventually receives a programme, in a randomly assigned order; firms still waiting act as the comparison group. Best when budget or capacity cannot cover everyone at once, though it limits how long the comparison can be observed.
+:   A design in which everyone eventually receives an intervention, in a randomly assigned order; participants still waiting act as the comparison group. Best when budget or capacity cannot cover everyone at once, though it limits how long the comparison can be observed.
 
 Regression discontinuity design (RDD)
-:   A quasi-experimental method that compares participants just above an eligibility cut-off with those just below it. Because unobservable characteristics are unlikely to differ sharply at the cut-off, it needs weaker assumptions than other quasi-experimental methods, but it only estimates impact for firms near the cut-off, a local average treatment effect.
+:   A quasi-experimental method that compares participants just above an eligibility cut-off with those just below it. Because unobservable characteristics are unlikely to differ sharply at the cut-off, it needs weaker assumptions than other quasi-experimental methods, but it only estimates impact for participants near the cut-off, a local average treatment effect.
 
 Research and Development (R&D)
 :   Creative and systematic work undertaken to increase the stock of knowledge, including knowledge of humankind, culture and society, and to devise new applications of available knowledge.
@@ -214,28 +214,28 @@ Secondary data
 :   Information that already exists in administrative records, such as business registries, tax data or a programme's own management information system. Cheaper and covers larger samples than primary data, but may not include the specific outcomes an evaluation needs.
 
 Selection bias
-:   Occurs when treatment (programme) assignment is not random, likely creating systematic differences between treatment and comparison groups. For example, firms with higher innovation levels may self-select into a programme offering innovation vouchers, so observed differences may stem from pre-existing characteristics rather than the intervention itself. RCTs mitigate this by randomising participants, so any outcome differences are due to the intervention only.
+:   Occurs when assignment to treatment is not random, likely creating systematic differences between treatment and comparison groups. For example, firms with higher innovation levels may self-select into an intervention offering innovation vouchers, so observed differences may stem from pre-existing characteristics rather than the intervention itself. RCTs mitigate this by randomising participants, so any outcome differences are due to the intervention only.
 
 Short-term outcomes
-:   In a Theory of Change, the immediate changes that follow directly from a programme's outputs, typically within one to two years, such as a firm adopting a new technology or a researcher filing a patent application.
+:   In a Theory of Change, the immediate changes that follow directly from an intervention's outputs, typically within one to two years, such as a firm adopting a new technology or a researcher filing a patent application.
 
 Simple difference
-:   A quasi-experimental method that compares participants with non-participants. It assumes the only difference between the two groups is programme participation, which is often untrue since firms that choose to participate may differ systematically from those that do not.
+:   A quasi-experimental method that compares participants with non-participants. It assumes the only difference between the two groups is participation in the intervention, which is often untrue since those who choose to participate may differ systematically from those who do not.
 
 SMART indicators
 :   Five characteristics of a well-defined evaluation indicator: Specific, Measurable, Attributable, Realistic and Targeted.
 
 Smart Specialisation Strategy
-:   A regional or national strategy that sets innovation priorities based on a region's specific strengths, used to guide where Cohesion Policy innovation funding is targeted.
+:   A regional or national strategy that sets innovation priorities based on a region's specific strengths, used to guide where cohesion policy innovation funding is targeted.
 
 SMEs
 :   Small- and medium-sized enterprises. Small-sized enterprise commonly refers to an enterprise with fewer than 50 employees and medium-sized enterprise to an enterprise with fewer than 250 employees.
 
 Spillover effects
-:   Indirect exposure of the comparison group to a programme's benefits, for example when know-how spreads by word of mouth to non-participating firms. Related to contamination: it understates a programme's measured impact by improving outcomes for firms that were not meant to receive support.
+:   Indirect exposure of the comparison group to an intervention's benefits, for example when know-how spreads by word of mouth to non-participating firms. Related to contamination: it understates an intervention's measured impact by improving outcomes for those who were not meant to receive support.
 
 Statistical power
-:   The likelihood that an evaluation will detect a real programme effect if one actually exists. Higher power requires a larger sample, especially when the expected effect is small or firms vary widely.
+:   The likelihood that an evaluation will detect a real effect of the intervention if one actually exists. Higher power requires a larger sample, especially when the expected effect is small or participants vary widely.
 
 ## T
 
@@ -243,10 +243,10 @@ Technology Readiness Level (TRL)
 :   A 9-point scale used to measure the maturity of a technology from an initial basic idea to a fully functioning system. The TRL scale was originally developed by NASA and adapted by the European Commission for use across all Horizon Europe and ERDF R&D instruments. TRL 1–3 corresponds to basic and applied research; TRL 4–6 to technology development and validation; TRL 7–9 to demonstration and market deployment.
 
 Theory of Change (ToC)
-:   A structured account of how a policy's activities are expected to lead, step by step, to its intended results, including the assumptions that must hold at each step. It builds on a programme's intervention logic and shows what to measure and where the causal chain is most likely to break.
+:   A structured account of how a policy's activities are expected to lead, step by step, to its intended results, including the assumptions that must hold at each step. It builds on the intervention logic and shows what to measure and where the causal chain is most likely to break.
 
 Treatment group
-:   The group receiving the intervention or participating in the programme.
+:   The group receiving the intervention.
 
 ## W
 

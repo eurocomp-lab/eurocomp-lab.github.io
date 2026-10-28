@@ -1100,3 +1100,42 @@ body:not(.glossary) #quarto-document-content a[href*="glossary.html#"]:hover { t
 .glossary #quarto-document-content dt { scroll-margin-top: 5.5rem; }
 .glossary #quarto-document-content :is(dt, dd).is-target { background: $rf-pale; }
 .glossary #quarto-document-content dt.is-target { box-shadow: -.6rem 0 0 $rf-pale; }
+
+/* ---------------------------------------------------------------
+   Batch 23 (October 2026): REGIO feedback. The "On this page"
+   entries are numbered and the sub-entries get a small bullet,
+   so the menu reads as a list. Group labels (parts, example
+   groups) are not counted.
+   --------------------------------------------------------------- */
+#TOC > ul { counter-reset: toc-entry; }
+#TOC > ul > li > a { position: relative; padding-left: 2.05rem; }
+#TOC > ul > li > a::before {
+  counter-increment: toc-entry;
+  content: counter(toc-entry);
+  position: absolute;
+  left: .85rem;
+  top: .22rem;
+  font-size: .72rem;
+  font-weight: 700;
+  line-height: 1.105rem;   // the entry's first line box: .85rem x 1.3
+  font-variant-numeric: tabular-nums;
+  color: $rf-ink-soft;
+}
+#TOC > ul > li > a:hover::before,
+#TOC > ul > li > a:focus-visible::before,
+#TOC > ul > li > a.active::before { color: $rf-blue; }
+/* the glossary menu lists letters: no numbers there */
+.glossary #TOC > ul > li > a { padding-left: .85rem; }
+.glossary #TOC > ul > li > a::before { content: none; }
+#TOC ul ul > li > a { position: relative; padding-left: 2.6rem; }
+#TOC ul ul > li > a::before {
+  content: "";
+  position: absolute;
+  left: 2.1rem;
+  top: calc(.74rem - 2px); // middle of the first line: .22rem + (.8rem x 1.3) / 2
+  width: 4px;
+  height: 4px;
+  border-radius: 50%;
+  background: currentColor;
+  opacity: .6;
+}

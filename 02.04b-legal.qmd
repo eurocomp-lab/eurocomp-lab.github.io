@@ -16,7 +16,7 @@ For a managing authority to use randomisation as part of its beneficiary selecti
 
 Given the strict European regulatory framework, Member States needed assurance that randomisation was permissible under EU cohesion policy funding. The European Commission’s Directorate-General for Regional and Urban Policy (DG REGIO) issued letters confirming that RCTs are allowable under EU cohesion policy rules and emphasising the need for [counterfactual](glossary.qmd#counterfactual-outcome "Glossary definition") approaches to estimate causal impacts. These letters were instrumental in encouraging the cultural change needed to adopt experimental evaluation methods.
 
-The key regulatory anchor is Article 44 of the Common Provisions Regulation (EU) 2021/1060, which requires managing authorities to evaluate the effectiveness of their interventions but does not prescribe the method. This creates space for RCTs as the most rigorous option available.
+The key regulatory anchor is Article 44 of the Common Provisions Regulation (EU) 2021/1060, which requires managing authorities to evaluate the effectiveness of their interventions but does not prescribe the method. This leaves room for RCTs as one of the methods managing authorities can choose.
 
 ---
 

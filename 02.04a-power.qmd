@@ -18,7 +18,7 @@ A power calculation sounds technical. In practice it answers one practical quest
 
 ## The core problem: too few units and you may miss the truth
 
-Imagine an intervention that genuinely improves firm productivity by 8%. If your evaluation includes only thirty firms, the natural variation between those firms (some were already growing fast, some were already struggling) may easily produce an 8% difference between treatment and comparison groups by chance alone. You cannot tell whether the intervention caused the difference or whether chance did. The intervention may work, but your evaluation cannot prove it.
+Imagine an intervention that genuinely improves firm productivity by 8% (the same logic applies to any result, such as employment or school attendance). If your evaluation includes only thirty firms, the natural variation between those firms (some were already growing fast, some were already struggling) may easily produce an 8% difference between treatment and comparison groups by chance alone. You cannot tell whether the intervention caused the difference or whether chance did. The intervention may work, but your evaluation cannot prove it.
 
 Add more firms and the picture becomes clearer. With enough observations, the average outcomes in the two groups settle down and genuine differences become visible. The variation that masks the signal shrinks relative to the size of the groups.
 

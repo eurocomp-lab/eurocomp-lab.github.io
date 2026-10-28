@@ -10,6 +10,8 @@ This page covers the internal team to assemble before starting, and eight sequen
 
 A well-designed RCT does not begin with randomisation. It begins with a clear understanding of what an intervention is trying to achieve and why. The eight steps below set out the preparatory work that makes randomisation meaningful and the results credible. Managing authorities are encouraged to work through them in sequence, ideally before the first call for applications is launched.
 
+Most examples on these pages involve firms, because the EuroCOMP Lab's experiments have so far focused on business support. The same steps apply to any intervention, whether it reaches people, firms, schools, municipalities or other organisations.
+
 The timeline below shows where randomisation sits: everything before the random selection has to be in place
 before the intervention launches, which is what makes the comparison between the two groups valid.
 

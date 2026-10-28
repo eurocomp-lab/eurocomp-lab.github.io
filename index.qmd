@@ -36,7 +36,7 @@ This page explains what RCTs are, how they fit among other impact evaluation met
 :::
 
 ## What is an RCT?
-Experimentation, or experimental evaluation, means testing an intervention by assigning eligible participants at random either to receive it (or one version of it) or to a comparison group (also called a control group) that does not receive it, or receives a different version. This is called a randomised controlled trial (RCT). On this website, the terms "experimentation" and "RCT" are used interchangeably.
+Experimentation, or experimental evaluation, means testing an intervention by assigning eligible participants at random either to receive it (or one version of it) or to a comparison group (also called a control group) that does not receive it, or receives a different version or another intervention. This is called a randomised controlled trial (RCT). On this website, the terms "experimentation" and "RCT" are used interchangeably.
 
 Randomisation can be used, for example, when there are more eligible applicants than available places, or when an intervention is rolled out in phases and the order in which participants receive it is decided at random. Comparing average outcomes between the groups shows whether the intervention – and not something else going on at the same time – is the reason for the observed changes.
 
@@ -208,7 +208,7 @@ an intervention works at all, randomisation must be built in before launch, from
 proposals. To find out which version works better (a grant alone versus a grant plus
 advisory support, for instance), an RCT can still be added after the intervention has started.
 Randomisation then shifts from who gets funded at all to which version each participant
-receives. See [Choosing the right evaluation design](01-why-and-when.qmd#choosing-design) on the [RCTs: why and when](01-why-and-when.qmd) page.
+receives. See [Choosing an evaluation design](01-why-and-when.qmd#choosing-design) on the [RCTs: why and when](01-why-and-when.qmd) page.
 
 ## Why experiment in cohesion policy?
 
@@ -271,7 +271,7 @@ The joint DG REGIO and World Bank initiative behind this site.
 :::
 ::: {.card-e}
 #### [Other partners](research-partners.qmd)
-Research labs that can support your evaluation, and peers already running experiments.
+Research labs that can support an evaluation, and peers already running experiments.
 :::
 ::::
 
@@ -280,4 +280,10 @@ Research labs that can support your evaluation, and peers already running experi
 
 ::: {.video-frame}
 {{< video https://youtu.be/MUuhKap8BlQ title="Taking initiative" aspect-ratio="16x9" >}}
+:::
+
+***
+
+::: {.nav-buttons}
+[RCTs: why and when →](01-why-and-when.qmd)
 :::

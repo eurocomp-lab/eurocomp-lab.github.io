@@ -1,0 +1,16 @@
+<script>
+/* The top menu stays in view (navbar pinned in _quarto.yml). A page opened at an
+   address with a #section can land with that section's heading under the menu,
+   so once the page has loaded it scrolls up just enough to show the heading.
+   Jumps within a page are already offset by Quarto. */
+window.addEventListener("load", function () {
+  var hash = decodeURIComponent(window.location.hash.slice(1));
+  var target = hash && document.getElementById(hash);
+  var bar = document.querySelector("#quarto-header");
+  if (!target || !bar) return;
+  setTimeout(function () {
+    var gap = target.getBoundingClientRect().top - bar.getBoundingClientRect().bottom;
+    if (gap < 16) window.scrollBy(0, gap - 24);
+  }, 60);
+});
+</script>

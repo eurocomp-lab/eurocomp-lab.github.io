@@ -77,7 +77,7 @@ finances and shares the methods and lessons learned.
 
 ## Talk to a peer
 
-Contacts at Managing Authorities and agencies already running experimental evaluations, for
+Contacts at managing authorities and agencies already running experimental evaluations, for
 teams that want to speak to a peer rather than read a page.
 
 ::: {.card-e .peer-contacts}
@@ -111,7 +111,7 @@ Spain
 
 ## Related European Commission initiatives
 
-Experimentation is gaining ground across the European Commission, not only in Cohesion Policy.
+Experimentation is gaining ground across the European Commission, not only in cohesion policy.
 
 :::: {.cards}
 ::: {.card-e}

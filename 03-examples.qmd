@@ -12,7 +12,7 @@ toc-depth: 2
 
 ::: {.team-note}
 ## Summary {.unlisted}
-This page presents examples of public programmes that built experimentation into their design. For each one, it describes the problem the programme set out to address, how the programme and its evaluation were designed, and what it achieved or is expected to show. The aim is to give readers a sense of which kinds of experiments are feasible, and under what conditions they work well. Most examples come from the [EuroCOMP Lab](eurocomp.qmd) and its precursors. Others come from researchers and institutions outside the Lab.
+This page presents examples of public interventions that built experimentation into their design. For each one, it describes the problem the intervention set out to address, how the intervention and its evaluation were designed, and what it achieved or is expected to show. The aim is to give readers a sense of which kinds of experiments are feasible, and under what conditions they work well. Most examples come from the [EuroCOMP Lab](eurocomp.qmd) and its precursors. Others come from researchers and institutions outside the Lab.
 :::
 
 
@@ -75,7 +75,7 @@ particularly in agriculture and the ecological transition.
 
 The Regional Government of Extremadura (JUNTA) and the Extremadura Science and
 Technology Park Foundation (FUNDECYT-PCTEx) created an EU-funded matching grant
-programme for small and medium firms.
+scheme for small and medium firms.
 
 Each cycle awards EUR 3.5 million in grants, up to EUR 250,000 per firm (EUR 138,000 on
 average), financing 35% to 80% of a firm's proposed R&D investment.
@@ -88,11 +88,11 @@ average), financing 35% to 80% of a firm's proposed R&D investment.
 "What is the impact of R&D grants on SMEs' business performance?"
 :::
 
-### The programme
+### The intervention
 
 ```{=html}
 <div class="facts">
-  <div><div class="k">The programme</div><div class="v">Matching grants of up to EUR 250,000 per firm (average EUR 138,000) for R&D projects</div></div>
+  <div><div class="k">The intervention</div><div class="v">Matching grants of up to EUR 250,000 per firm (average EUR 138,000) for R&D projects</div></div>
   <div><div class="k">Where</div><div class="v">Extremadura, Spain; regional government (JUNTA) with FUNDECYT-PCTEx, EU-funded</div></div>
   <div><div class="k">Who is randomised</div><div class="v">Firms: SME applicants, mainly agriculture and ecological transition, scored on 11 criteria</div></div>
   <div><div class="k">The design</div><div class="v">Bin-ranking RCT: the middle bin randomised, 22 funded vs. 34 not funded</div></div>
@@ -116,7 +116,7 @@ average), financing 35% to 80% of a firm's proposed R&D investment.
 </div>
 
 
-### How the programme was tested
+### How the intervention was tested
 
 Extremadura ran an advertising campaign to attract at least 100 applicants. External
 reviewers scored every application on 11 objective criteria and grouped proposals into
@@ -168,7 +168,7 @@ certain characteristics dropping out of the study more than others (selective
 attrition) in follow-up survey responses.
 
 
-### What the programme achieved
+### What the intervention achieved
 
 Three months after receiving the grant, firms in the treatment group reported higher
 planned R&D investment and stronger confidence in their projects than the comparison
@@ -260,11 +260,11 @@ interviews and testing a minimum viable product, ending with a pitch.
 "Can building business capabilities and a more experimental, evidence-based mindset improve business decisions, customer acquisition and firm performance?"
 :::
 
-### The programme
+### The intervention
 
 ```{=html}
 <div class="facts">
-  <div><div class="k">The programme</div><div class="v">Smart Start: seven 3-hour workshops on scientific decision-making, plus individual consultations and feedback from trainers and peers</div></div>
+  <div><div class="k">The intervention</div><div class="v">Smart Start: seven 3-hour workshops on scientific decision-making, plus individual consultations and feedback from trainers and peers</div></div>
   <div><div class="k">Where</div><div class="v">Ostrava, Moravian-Silesian region; Just Transition Programme with MSIC</div></div>
   <div><div class="k">Who is randomised</div><div class="v">Firms: 246 interested entrepreneurs, voucher applicants and others from the region</div></div>
   <div><div class="k">The design</div><div class="v">Simple lottery with unequal shares: 163 invited to the training vs. 83 with no support</div></div>
@@ -291,7 +291,7 @@ interviews and testing a minimum viable product, ending with a pitch.
 </div>
 ```
 
-### How the programme was tested
+### How the intervention was tested
 
 Smart Start was first meant only for firms applying for Just Transition vouchers. When the
 voucher scheme was delayed, the team widened recruitment to entrepreneurs across the
@@ -336,12 +336,12 @@ applicant an equal and transparent chance instead of a subjective selection. Inv
 two in three let more entrepreneurs receive support while keeping a comparison group
 large enough for causal evaluation.
 Limitation: not every invited firm took part, so the study reports both the effect of
-being offered the programme (intention to treat) and the effect on firms that actually
+being offered the intervention (intention to treat) and the effect on firms that actually
 attended.
 :::
 
 Of the 163 invited firms, 81% attended at least one session and about 60% completed
-the programme. About 70% of firms answered the midline survey (120 invited and 52
+the training. About 70% of firms answered the midline survey (120 invited and 52
 comparison firms), and their baseline characteristics remained balanced between the
 two groups.
 
@@ -352,9 +352,9 @@ Implementation brought several challenges:
   weeks; lessons from it shortened later rounds.
 - **Entrepreneurs had little time.** Many found it hard to set aside several hours for
   repeated sessions, and some more advanced voucher applicants saw less value in the
-  programme.
+  training.
 - **Floods.** Severe flooding in September 2024 disrupted the planned start of several
-  groups and forced rapid rescheduling. The programme was nevertheless completed.
+  groups and forced rapid rescheduling. The training was nevertheless completed.
 - **Noisy financial data.** Self-reported sales and profits are noisy for small, young
   firms, so the midline used paper and online questionnaires, incentives for
   non-respondents and direct follow-up by the field team.
@@ -366,10 +366,10 @@ recommendations and testimonials; repeated feedback and practical assignments; a
 personalised feedback from trainers, which entrepreneurs valued most.
 :::
 
-### What the programme achieved
+### What the intervention achieved
 
 At midline, Smart Start had changed how firms went to market and raised their sales,
-and entrepreneurs linked these changes to what they had learned in the programme.
+and entrepreneurs linked these changes to what they had learned in the training.
 
 ::: {.cards .results}
 ::: {.card-e}
@@ -384,9 +384,9 @@ versus 19% of comparison firms.
 ::: {.card-e}
 [+98%]{.num}
 
-**Programme-related reasons for change**
+**Training-related reasons for change**
 
-Invited firms cited 2.10 programme-related reasons for their business changes on
+Invited firms cited 2.10 training-related reasons for their business changes on
 average, versus 1.06 in the comparison group.
 :::
 ::: {.card-e}
@@ -413,12 +413,12 @@ around EUR 250 when scaled through local partners.
 
 ### What happened next
 
-- **Smart Selling** (June 2025 – February 2026): a second programme on turning customer
+- **Smart Selling** (June 2025 – February 2026): a second course on turning customer
   understanding into systematic sales, covering sales funnels, customer acquisition and
   retention, direct selling, objection handling, CRM and sales targets, through six
   one-to-one sessions and a workshop.
 - **Access for the comparison group**: firms left out by the lottery were offered the
-  programme in September–October 2026.
+  training in September–October 2026.
 - **Continued delivery**: MSIC is set to deliver Smart Start to five groups in 2027,
   with financing close to being secured.
 
@@ -469,11 +469,11 @@ exchange between firms.
 "Does light-touch support to SMEs improve firm capabilities and performance?"
 :::
 
-### The programme
+### The intervention
 
 ```{=html}
 <div class="facts">
-  <div><div class="k">The programme</div><div class="v">AI Klub: five hands-on workshops on AI for efficiency, marketing, sales, and finance</div></div>
+  <div><div class="k">The intervention</div><div class="v">AI Klub: five hands-on workshops on AI for efficiency, marketing, sales, and finance</div></div>
   <div><div class="k">Where</div><div class="v">Ústí and Karlovy Vary regions; Just Transition Programme with local partners</div></div>
   <div><div class="k">Who is randomised</div><div class="v">173 interested firms, including innovation voucher recipients</div></div>
   <div><div class="k">The design</div><div class="v">Simple lottery with unequal shares: 117 invited to the workshops vs. 56 with no support</div></div>
@@ -498,7 +498,7 @@ exchange between firms.
 </div>
 ```
 
-### How the programme was tested
+### How the intervention was tested
 
 All voucher recipients, as well as interested firms outside the scheme, were invited to
 express interest. About two in three interested firms were then randomly invited to the
@@ -529,11 +529,11 @@ test further add-on activities later.
   <text x="446" y="130" fill="#2B2724" font-size="12.5" font-weight="bold">56 no support (~1/3)</text>
   <text x="446" y="147" fill="#6B6455" font-size="11">comparison group</text>
 </svg>
-<figcaption>Note: Randomisation was stratified by firm size and region (Ústí or Karlovy Vary); comparison firms were offered priority in a future programme once data collection was complete.</figcaption>
+<figcaption>Note: Randomisation was stratified by firm size and region (Ústí or Karlovy Vary); comparison firms were offered priority in a future round once data collection was complete.</figcaption>
 </figure>
 ```
 
-### What the programme achieved
+### What the intervention achieved
 
 ::: {.cards .results}
 ::: {.card-e}
@@ -612,11 +612,11 @@ support to help pairs plan R&D projects together.
 
 
 
-### The programme
+### The intervention
 
 ```{=html}
 <div class="facts">
-  <div><div class="k">The programme</div><div class="v">Scinergy: matchmaking events, workshops, and ongoing support for firm-scientist pairs</div></div>
+  <div><div class="k">The intervention</div><div class="v">Scinergy: matchmaking events, workshops, and ongoing support for firm-scientist pairs</div></div>
   <div><div class="k">Where</div><div class="v">Croatia; Innovation Centre Nikola Tesla with the Ministry of Science, Education and Youth</div></div>
   <div><div class="k">Who is randomised</div><div class="v">210 eligible firms, from over 250 applications, seeking scientific collaboration</div></div>
   <div><div class="k">The design</div><div class="v">Simple lottery: 100 firms invited to Scinergy vs. 110 not invited</div></div>
@@ -642,7 +642,7 @@ support to help pairs plan R&D projects together.
 ```
 
 
-### How the programme was tested
+### How the intervention was tested
 
 Firms applied between November 2023 and January 2024. In February 2024, eligible firms
 were randomly assigned by lottery to receive matchmaking support or not.
@@ -690,7 +690,7 @@ Limitation: firms may drop out after applying,
 which can reduce statistical power.
 :::
 
-### What the programme achieved
+### What the intervention achieved
 
 ::: {.cards .results}
 ::: {.card-e}
@@ -751,7 +751,7 @@ eligible project costs. The first call had EUR 31 million: EUR 26.35 million fro
 European Regional Development Fund and EUR 4.65 million from the state budget.
 
 The RDA and the World Bank formed a learning partnership, announced publicly at the
-programme's launch. The first call was non-competitive and framed as a pilot to
+launch of the grant scheme. The first call was non-competitive and framed as a pilot to
 generate learning.
 :::
 :::
@@ -762,12 +762,12 @@ generate learning.
 "What is the impact of digitalisation support on Romanian SMEs' performance?"
 :::
 
-### The programme
+### The intervention
 
 ```{=html}
 <div class="facts">
-  <div><div class="k">The programme</div><div class="v">Non-refundable grants of EUR 15,000&ndash;100,000 for digital tools, equipment and services, covering 90% of eligible costs</div></div>
-  <div><div class="k">Where</div><div class="v">North-East Romania; North-East Regional Development Agency (RDA), co-funded by EU Cohesion Policy</div></div>
+  <div><div class="k">The intervention</div><div class="v">Non-refundable grants of EUR 15,000&ndash;100,000 for digital tools, equipment and services, covering 90% of eligible costs</div></div>
+  <div><div class="k">Where</div><div class="v">North-East Romania; North-East Regional Development Agency (RDA), co-funded by EU cohesion policy</div></div>
   <div><div class="k">Who is randomised</div><div class="v">1,038 likely eligible SMEs, identified by a pre-assessment survey from over 1,500 applicants</div></div>
   <div><div class="k">The design</div><div class="v">Lottery among pre-identified applicants, with encouragement to apply: 519 selected and invited to apply vs. 519 not selected</div></div>
   <div><div class="k">Outcomes tracked</div><div class="v">Digital investments, use of digital tools, firm performance</div></div>
@@ -791,7 +791,7 @@ generate learning.
 </div>
 ```
 
-### How the programme was tested
+### How the intervention was tested
 
 Firms first completed a pre-assessment survey that assessed their digital maturity,
 recorded their interest in applying and gave them an automated, simplified check of
@@ -835,7 +835,7 @@ process.
 Limitation: firms may drop out after they apply, which affects statistical power.
 :::
 
-### What the programme achieved
+### What the intervention achieved
 
 The short-term results compare the firms selected in the lottery with the comparison
 group, whether or not they went on to sign a contract, only a few months after
@@ -876,7 +876,7 @@ sustained digital transformation.
 :::
 
 ::: {.takeaway}
-The programme also tested outreach. Before the call, the agency randomly selected 26 of
+Outreach was tested too. Before the call, the agency randomly selected 26 of
 46 towns for in-person information visits. The visited towns produced more
 applications, and the additional applicants were smaller firms
 ([see What do you want to learn?](01-why-and-when.qmd#two-questions)).
@@ -921,8 +921,8 @@ against an EU average of 13.5%.
 ::: {.card-e}
 **What is being tested**
 
-The Bulgarian Small and Medium Enterprises Promotion Agency (BSMEPA) is launching a
-programme that pairs group training in managerial skills with one of three ways of
+The Bulgarian Small and Medium Enterprises Promotion Agency (BSMEPA) is launching an
+intervention that pairs group training in managerial skills with one of three ways of
 delivering further support: one-to-one human-led consulting, a subscription to an
 off-the-shelf AI platform such as ChatGPT Premium, or a customised AI tool that
 proactively nudges managers towards it. The aim is to find out whether AI-led
@@ -937,11 +937,11 @@ alternatives can match costly human consulting at a fraction of the price.
 consulting for small firms?"
 :::
 
-### The programme
+### The intervention
 
 ```{=html}
 <div class="facts">
-  <div><div class="k">The programme</div><div class="v">Group training in managerial skills, then one of three support modes: human-led consulting, an AI subscription, or a customised AI-led consulting tool</div></div>
+  <div><div class="k">The intervention</div><div class="v">Group training in managerial skills, then one of three support modes: human-led consulting, an AI subscription, or a customised AI-led consulting tool</div></div>
   <div><div class="k">Where</div><div class="v">Northern Bulgaria; Bulgarian Small and Medium Enterprises Promotion Agency (BSMEPA)</div></div>
   <div><div class="k">Who is randomised</div><div class="v">600 MSEs (fewer than 50 employees) in retail, agricultural processing, services and manufacturing, stratified by sector, region and owner gender</div></div>
   <div><div class="k">The design</div><div class="v">Four-arm RCT: pure control, training + human consulting, training + AI subscription, training + AI-led consulting tool (150 firms per arm)</div></div>
@@ -966,7 +966,7 @@ consulting for small firms?"
 </div>
 ```
 
-### How the programme is designed
+### How the intervention is designed
 
 The Agency will mobilise applicants directly across northern Bulgaria; up to 450
 eligible firms will be offered business support, with no applicant guaranteed a
@@ -1037,7 +1037,7 @@ practices.
 
 Whether improvements from AI-enabled consulting persist for longer than from
 human-led consulting, since managers keep the ability to self-serve after the
-programme ends.
+support ends.
 :::
 :::
 
@@ -1089,11 +1089,11 @@ scout" for firms that express interest in applying.
 number and quality of Polish Horizon Europe applications?"
 :::
 
-### The programme
+### The intervention
 
 ```{=html}
 <div class="facts">
-  <div><div class="k">The programme</div><div class="v">A three-stage pilot: behavioural outreach messaging, machine-learning targeting with encouragement calls, and AI-tool-plus-technology-scout application support</div></div>
+  <div><div class="k">The intervention</div><div class="v">A three-stage pilot: behavioural outreach messaging, machine-learning targeting with encouragement calls, and AI-tool-plus-technology-scout application support</div></div>
   <div><div class="k">Where</div><div class="v">Poland; Polish Agency for Enterprise Development (PARP)</div></div>
   <div><div class="k">Who is randomised</div><div class="v">~120,000 SMEs reached with outreach messages; ~11,000 Horizon-eligible firms in the targeting stage; up to ~500 interested firms in the support stage</div></div>
   <div><div class="k">The design</div><div class="v">Three nested RCTs: a messaging A/B/C test, ranked-vs-random encouragement calls, and AI-tool-and-scout support (~200 firms) vs. a waitlist</div></div>
@@ -1118,7 +1118,7 @@ number and quality of Polish Horizon Europe applications?"
 </div>
 ```
 
-### How the programme is designed
+### How the intervention is designed
 
 Three experiments are nested inside PARP's own application funnel. First, roughly
 120,000 SMEs are randomly shown one of three outreach messages, from a plain
@@ -1161,7 +1161,7 @@ tool and a technology scout, while the remainder are waitlisted.
 **Why this design.**
 Strength: nesting three experiments inside PARP's own
 application funnel means each stage's estimate is drawn from firms who arrive
-naturally through the programme, not an artificial sample.
+naturally through that funnel, not an artificial sample.
 Limitation: because later
 stages depend on take-up from earlier ones, the sample shrinks at each step, leaving
 less statistical power for the innermost support experiment.
@@ -1243,11 +1243,11 @@ randomly assigned to AI-assisted or standard monitoring.
 and better targeted, without compromising fairness?"
 :::
 
-### The programme
+### The intervention
 
 ```{=html}
 <div class="facts">
-  <div><div class="k">The programme</div><div class="v">An AI decision-support tool, co-developed with UiPath, that benchmarks budgets, flags risks and supports eligibility and quality scoring for grant reviewers</div></div>
+  <div><div class="k">The intervention</div><div class="v">An AI decision-support tool, co-developed with UiPath, that benchmarks budgets, flags risks and supports eligibility and quality scoring for grant reviewers</div></div>
   <div><div class="k">Where</div><div class="v">North-East Romania; Regional Development Agency (RDA), embedded in the 2026 Microenterprise Growth Grant Call (~EUR 30 million)</div></div>
   <div><div class="k">Who is randomised</div><div class="v">~1,000 expressions of interest and ~800 full proposals, reviewed by 30&ndash;40 trained reviewers; ~150 funded projects</div></div>
   <div><div class="k">The design</div><div class="v">Multi-phase RCT: reviewers randomised to AI-assisted or human-only review at each stage; ~150 grants allocated by lottery within score bands; funded projects randomised to AI-assisted or standard monitoring</div></div>
@@ -1272,7 +1272,7 @@ and better targeted, without compromising fairness?"
 </div>
 ```
 
-### How the programme is designed
+### How the intervention is designed
 
 Around 1,000 expressions of interest are expected, each assigned to one of 30–40
 trained reviewers who are randomly given, or not given, access to the AI tool;
@@ -1385,8 +1385,8 @@ research institutes but only EUR 74 million to private firms, and the region hos
 **What is being tested**
 
 The South-Muntenia Regional Development Agency (SM-RDA) is allocating EUR 24.8 million
-in innovation subsidies to SMEs, cross-randomised with a management-training
-programme on change and innovation culture. Grants are assigned through a two-stage
+in innovation subsidies to SMEs, cross-randomised with management
+training on change and innovation culture. Grants are assigned through a two-stage
 design: geographic or sectoral clusters are randomly assigned different shares of
 funded firms, and firms within each cluster are then randomly selected to receive
 funding - allowing the evaluation to separate a firm's own private return from
@@ -1401,11 +1401,11 @@ spillovers onto its neighbours.
 returns, once spillovers to other firms are taken into account?"
 :::
 
-### The programme
+### The intervention
 
 ```{=html}
 <div class="facts">
-  <div><div class="k">The programme</div><div class="v">Innovation subsidy grants (50&ndash;70% co-financed by firms) for R&amp;D projects, cross-randomised with a management-training programme on change and innovation culture</div></div>
+  <div><div class="k">The intervention</div><div class="v">Innovation subsidy grants (50&ndash;70% co-financed by firms) for R&amp;D projects, cross-randomised with management training on change and innovation culture</div></div>
   <div><div class="k">Where</div><div class="v">South-Muntenia, Romania; South-Muntenia Regional Development Agency (SM-RDA), EUR 24.8 million SME innovation grant allocation</div></div>
   <div><div class="k">Who is randomised</div><div class="v">~900 SMEs across 100 geographic or sectoral clusters (~9 firms per cluster), excluding agricultural firms</div></div>
   <div><div class="k">The design</div><div class="v">Two-stage RCT: clusters randomised to 0%, 33%, 66% or 100% funding intensity, then firms randomised to funding within each cluster; management training cross-randomised at firm level</div></div>
@@ -1430,7 +1430,7 @@ returns, once spillovers to other firms are taken into account?"
 </div>
 ```
 
-### How the programme is designed
+### How the intervention is designed
 
 After the call for proposals closes, applicant firms are grouped into roughly 100
 clusters based on geographic or sectoral proximity. Each cluster is then randomly
@@ -1541,7 +1541,7 @@ models of innovation diffusion, an area where experimental evidence remains scar
 
 Energy efficiency is one of the cheapest ways for a firm to cut energy use and costs,
 yet most European SMEs invest little in it. Among the firms that applied to this
-programme, only 22% had invested in energy efficiency in the year before applying, even
+pilot, only 22% had invested in energy efficiency in the year before applying, even
 though 62% already monitored their energy use and almost all planned some form of
 capital investment. Advice on its own was not turning plans into purchases.
 :::
@@ -1554,7 +1554,7 @@ the World Bank ran the EENergy pilot, funded by the EU Single Market Programme.
 On top of the advisory support EEN advisors already provide, the pilot offered a
 reimbursement grant of up to EUR 10,000 for energy-efficiency measures: equipment and
 installations, consultancy, or staff training. The evaluation was designed into the
-programme from the start, before the first call opened.
+pilot from the start, before the first call opened.
 :::
 :::
 
@@ -1567,17 +1567,17 @@ energy use?"
 
 
 
-### The programme
+### The intervention
 
 ```{=html}
 <div class="facts">
   <div><div class="k">Timeline</div><div class="v">Call 1 opened February 2024 (1,406 firms); lottery June 2024; activities from July 2024; Call 2 December 2024 to February 2025 (558 firms); follow-up surveys Q1 2025 and Q1 2026; findings September 2026</div></div>
-  <div><div class="k">The programme</div><div class="v">EENergy: a reimbursement grant of up to EUR 10,000 for equipment, consultancy or training, on top of standard EEN advisory services</div></div>
+  <div><div class="k">The intervention</div><div class="v">EENergy: a reimbursement grant of up to EUR 10,000 for equipment, consultancy or training, on top of standard EEN advisory services</div></div>
   <div><div class="k">Where</div><div class="v">34 European countries; European Commission (DG GROW, EISMEA) and Enterprise Europe Network with the World Bank, funded by the EU Single Market Programme</div></div>
   <div><div class="k">Who is randomised</div><div class="v">1,964 eligible SMEs across two open calls: 54% micro, 36% small, 9% medium-sized; 36% in manufacturing</div></div>
   <div><div class="k">The design</div><div class="v">Simple lottery among eligible applicants, run separately for each call and stratified by consortium and advisor: 986 offered the grant vs. 978 receiving advisory services only</div></div>
   <div><div class="k">Outcomes tracked</div><div class="v">Energy-efficiency and renewable investment, energy use and spending, energy management practices, revenue, profits and employment</div></div>
-  <div><div class="k">Starting point</div><div class="v">Only 22% of applicant firms had invested in energy efficiency in the year before the programme, although 62% already monitored their energy use</div></div>
+  <div><div class="k">Starting point</div><div class="v">Only 22% of applicant firms had invested in energy efficiency in the year before the pilot, although 62% already monitored their energy use</div></div>
 </div>
 ```
 
@@ -1597,11 +1597,11 @@ energy use?"
 </div>
 ```
 
-### How the programme was tested
+### How the intervention was tested
 
 Firms applied in two open calls, from February to May 2024 and from December 2024 to
 February 2025. Applications were screened against the EU definition of an SME and
-against programme requirements, including an energy-efficiency action plan agreed with
+against the pilot's requirements, including an energy-efficiency action plan agreed with
 an EEN advisor and a target of at least 5% lower energy consumption. Eligible firms
 then entered a lottery, run separately for each call and stratified by consortium and
 advisor characteristics, so that funded and unfunded firms came from the same pool and
@@ -1645,7 +1645,7 @@ the grant answered follow-up surveys far more often than the standard group (91%
 against 65%), so the estimates depend on statistical corrections for who responded.
 :::
 
-### What the programme achieved
+### What the intervention achieved
 
 One year on, the grant had changed what firms bought and how they managed energy.
 Total energy-related investment was about EUR 9,700 higher per firm in the grant group,
@@ -1690,7 +1690,7 @@ spending was detectable one year after the grants, and there was no detectable e
 on revenue, profits or employment. Savings did appear for particular groups:
 electricity consumption fell by about 10% among micro and small firms, and electricity
 spending by about 20% among firms in the second call. The practical lesson for
-programme design is to scale a fixed grant to firm size, or to target smaller firms,
+the design of similar grants is to scale a fixed grant to firm size, or to target smaller firms,
 and to justify it on investment and management change rather than on short-run business
 performance.
 :::
@@ -1728,8 +1728,8 @@ tools beyond what regulation or the financial sector requires. The 2022 Digital 
 and Society Index places all three countries in the bottom quartile of EU members for
 business digitalisation.
 
-Current public support programmes in the region largely overlook this: MSMEs account
-for 98% of businesses and two-thirds of employment, yet most programmes still emphasise
+Current public support schemes in the region largely overlook this: MSMEs account
+for 98% of businesses and two-thirds of employment, yet most schemes still emphasise
 technology adoption and financial assistance, leaving the managerial and organisational
 capabilities firms need to make use of new tools unaddressed.
 :::
@@ -1741,7 +1741,7 @@ Bulgaria, Poland and Slovakia, integrating a financial subsidy with technical
 assistance to address both resource and capability constraints.
 
 The financial subsidy provides up to EUR 2,000 per firm towards the cost of adopting
-digital business tools. The technical assistance component adds a 10-week programme of
+digital business tools. The technical assistance component adds 10 weeks of
 diagnostic assessment, group training and one-to-one advisory support.
 :::
 :::
@@ -1753,11 +1753,11 @@ diagnostic assessment, group training and one-to-one advisory support.
 digitalisation outcomes more than a subsidy alone?"
 :::
 
-### The programme
+### The intervention
 
 ```{=html}
 <div class="facts">
-  <div><div class="k">The programme</div><div class="v">A financial subsidy of up to EUR 2,000 per firm, with a subset of firms also receiving a 10-week technical assistance programme</div></div>
+  <div><div class="k">The intervention</div><div class="v">A financial subsidy of up to EUR 2,000 per firm, with a subset of firms also receiving 10 weeks of technical assistance</div></div>
   <div><div class="k">Where</div><div class="v">Bulgaria, Poland and Slovakia; World Bank Digitrans pilot, EU-funded</div></div>
   <div><div class="k">Who is randomised</div><div class="v">629 MSMEs with 5&ndash;35 employees and at least 12 months trading, drawn from over 1,600 applications</div></div>
   <div><div class="k">The design</div><div class="v">Three-arm RCT, stratified by country, firm size and digital sophistication: comparison (209), subsidy only (210), subsidy plus technical assistance (210)</div></div>
@@ -1783,7 +1783,7 @@ digitalisation outcomes more than a subsidy alone?"
 ```
 
 
-### How the programme was tested
+### How the intervention was tested
 
 Firms applied through an open call across Bulgaria, Poland and Slovakia in 2024, and
 those meeting the eligibility criteria completed a baseline interview. Eligible firms
@@ -1842,7 +1842,7 @@ systematic differences between groups at baseline, so later changes can be relia
 attributed to the support received rather than to pre-existing differences.
 :::
 
-### What the programme achieved
+### What the intervention achieved
 
 ::: {.cards .results}
 ::: {.card-e}
@@ -1936,11 +1936,11 @@ management practices and performance?"
 :::
 
 
-### The programme
+### The intervention
 
 ```{=html}
 <div class="facts">
-  <div><div class="k">The programme</div><div class="v">A diagnostic for every firm, followed by individual or group-based management consulting</div></div>
+  <div><div class="k">The intervention</div><div class="v">A diagnostic for every firm, followed by individual or group-based management consulting</div></div>
   <div><div class="k">Where</div><div class="v">Colombia; auto parts manufacturing sector</div></div>
   <div><div class="k">Who is randomised</div><div class="v">159 eligible firms (manufacturers, tier 1/2 suppliers, 2+ years old, 10+ workers), in 53 matched triplets</div></div>
   <div><div class="k">The design</div><div class="v">Three-arm RCT: comparison, individual consulting (~USD 28,950/firm), group consulting (~USD 10,500/firm)</div></div>
@@ -1966,7 +1966,7 @@ management practices and performance?"
 ```
 
 
-### How the programme was tested
+### How the intervention was tested
 
 218 firms applied to Colombia's Programa de Extensionismo Tecnológico. After screening
 for eligibility - established auto parts manufacturers that were tier 1 or 2 suppliers,
@@ -2023,7 +2023,7 @@ arm, the design has less statistical power to detect small effects than a larger
 simple two-arm trial.
 :::
 
-### What the programme achieved
+### What the intervention achieved
 
 ::: {.cards .results}
 ::: {.card-e}
@@ -2040,7 +2040,7 @@ around 9 percentage points on average, relative to a baseline of 56%.
 **Sales and profits rose for group-consulting firms**
 
 Firms receiving group-based consulting saw significant gains in sales, value-added and
-profits; the individual programme's effects on firm performance were smaller and not
+profits; the effects of individual consulting on firm performance were smaller and not
 statistically significant.
 :::
 ::: {.card-e}
@@ -2049,24 +2049,24 @@ statistically significant.
 **Estimated average annual profit increase, group consulting**
 
 At a cost of about USD 10,500 per firm, the estimated profit gains from group
-consulting paid back the programme's cost within about a month.
+consulting paid back its cost within about a month.
 :::
 :::
 
 ::: {.takeaway}
-Group-consulting firms reported far more contact with each other after the programme
+Group-consulting firms reported far more contact with each other after the consulting
 than before it: business links between study firms were almost non-existent at
 baseline, but around half of group participants said they still communicated with
 other group members roughly a year later, and firms whose management practices changed
 the most tended to be grouped with others who also improved the most - evidence that
-peer learning, not just lower delivery cost, contributed to the group programme's
+peer learning, not just lower delivery cost, contributed to group consulting's
 stronger results on firm performance.
 :::
 
 ::: {.caution}
-The group programme's rollout was delayed by more than a year due to a budgetary
+The rollout of group consulting was delayed by more than a year due to a budgetary
 payment delay, and only 68% of group-assigned firms completed the intervention,
-compared with 87% for the individually delivered programme. Delays like this are a
+compared with 87% for individual consulting. Delays like this are a
 practical risk to weigh when comparing the cost-effectiveness of different delivery
 models.
 :::
@@ -2109,7 +2109,7 @@ following Yemen's 2011–12 political crisis.
 **What was done**
 
 The Enterprise Revitalization and Employment Pilot (EREP) tested a
-subsidised-internship model: the programme paid half the cost of a six-month
+subsidised-internship model: the pilot paid half the cost of a six-month
 internship, with the host firm covering the rest, and matched applicants to
 firms based on the firm's stated requirements. Recent graduates in Sanaa and
 Aden applied online and were screened for eligibility before being
@@ -2120,17 +2120,17 @@ considered.
 ### What experimentation sought to answer
 
 ::: {.quote-e}
-"Can a subsidised matchmaking programme help young jobseekers gain their first
+"Can a subsidised matchmaking scheme help young jobseekers gain their first
 work experience, and does that experience translate into better employment
 outcomes afterwards?"
 :::
 
 
-### The programme
+### The intervention
 
 ```{=html}
 <div class="facts">
-  <div><div class="k">The programme</div><div class="v">Enterprise Revitalization and Employment Pilot (EREP), internship component: matching grants covering half the cost of a six-month internship, plus matchmaking between graduates and firms</div></div>
+  <div><div class="k">The intervention</div><div class="v">Enterprise Revitalization and Employment Pilot (EREP), internship component: matching grants covering half the cost of a six-month internship, plus matchmaking between graduates and firms</div></div>
   <div><div class="k">Where</div><div class="v">Republic of Yemen; Sanaa and Aden</div></div>
   <div><div class="k">Who is randomised</div><div class="v">583 eligible youth (Yemeni, Sanaa/Aden residents, graduated within 2 years), to treatment (430) or control (153)</div></div>
   <div><div class="k">The design</div><div class="v">Stratified RCT: treatment group offered matchmaking to internships subsidised at 50% of cost, for up to six months</div></div>
@@ -2156,9 +2156,9 @@ outcomes afterwards?"
 ```
 
 
-### How the programme was tested
+### How the intervention was tested
 
-The programme launched in August 2013 through a project website, media events and
+The pilot launched in August 2013 through a project website, media events and
 campus outreach. Applications ran from October to December 2013, closing with
 3,487 eligible applicants. Of these, 500 were randomly invited to a two-day
 basic skills training - chosen with probability proportional to the demand
@@ -2220,7 +2220,7 @@ effect and a larger effect scaled up for those who actually took up an
 internship.
 :::
 
-### What the programme achieved
+### What the intervention achieved
 
 ::: {.cards .results}
 ::: {.card-e}
@@ -2256,15 +2256,15 @@ constraints were relative to demand for internship positions.
 
 ::: {.takeaway}
 The internship raised employment more for male applicants than for female
-applicants, so the programme did not close the pre-existing gender gap in
+applicants, so the pilot did not close the pre-existing gender gap in
 employment outcomes. Because the evaluation covers only one year of the
-programme rather than the two originally planned, the study had limited
+pilot rather than the two originally planned, the study had limited
 statistical power to say precisely how much smaller the effect was for
 women.
 :::
 
 ::: {.caution}
-Conflict escalated partway through the programme: Houthi forces took control of
+Conflict escalated partway through the pilot: Houthi forces took control of
 Sanaa in September 2014, and the second year of the pilot was cancelled,
 roughly halving the intended sample and reducing statistical power. The
 follow-up survey was also fielded earlier and more narrowly than planned,

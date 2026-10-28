@@ -35,7 +35,7 @@ The page ends with answers to common questions about RCTs. [How to design an RCT
     <span class="part-title">When to use one</span>
     <ul>
       <li><a href="#two-questions">What is the learning question?</a></li>
-      <li><a href="#choosing-design">Choosing the right evaluation design</a></li>
+      <li><a href="#choosing-design">Choosing an evaluation design</a></li>
       <li><a href="#alternatives">What if randomisation is not possible?</a></li>
       <li><a href="#when-not">When an RCT may not be the right choice</a></li>
       <li><a href="#learning-cycle">Learning through RCTs is a continuous process</a></li>
@@ -268,12 +268,12 @@ group without the intervention.
 <figcaption>Note: treatment and comparison groups start at a similar level and diverge after the intervention starts; the gap between them is the impact of the intervention.</figcaption>
 </figure>
 ```
-Because assignment is decided by chance, the two groups are similar on average not only in characteristics that can be measured but also in those that cannot. Take applicants for a grant: randomising who receives the money means that, on average, the two groups are similar in observable characteristics such as size, sector or turnover, and also in unobservable ones such as management quality or motivation. Apart from the luck of the draw, nothing should systematically differ between them. That is why, in a well-implemented RCT, no statistical adjustment for applicant characteristics is needed to obtain a credible estimate.
+Because assignment is decided by chance, the two groups are similar on average, differing systematically only in whether they receive the intervention. Take applicants for a grant: randomising who receives the money means that, on average, the two groups are similar in observable characteristics such as size, sector or turnover, and also in unobservable ones such as management quality or motivation. That is why, in a well-implemented RCT, no statistical adjustment for applicant characteristics is needed to obtain a credible estimate: the difference in average results between the two groups can be interpreted as the causal effect of the intervention.
 
 ::: {.soft-panel}
 **What "random" means here.** Not randomly sampling a sub-population to study, but
 randomly deciding, among eligible applicants, who receives the intervention and who
-does not.
+does not (or who receives another intervention).
 :::
 
 **Strengths and requirements.** The Commission's [Better Regulation toolbox](https://commission.europa.eu/law/law-making-process/better-regulation/better-regulation-guidelines-and-toolbox/better-regulation-toolbox_en) (Tool #68) describes randomised controlled trials as "the benchmark for scientific quantitative methods". Their main strengths are:
@@ -496,7 +496,7 @@ significantly raised sales and profits.
 
 :::
 
-## Choosing the right evaluation design {#choosing-design}
+## Choosing an evaluation design {#choosing-design}
 
 ```{=html}
 <figure class="fig-e">
@@ -1098,7 +1098,7 @@ See [Power calculations](02.04a-power.qmd), part of Step 4, for a walkthrough of
 
 It can be, so it is worth planning for at the design stage. Often, though, results of interest are already captured in administrative registers rather than collected through a survey, so comparison group response rates are not a concern.
 
-If data on results need to be collected through surveys, a group that received nothing may feel less invested in answering than a group that participated. Looking across dozens of studies, [David McKenzie found](https://blogs.worldbank.org/en/impactevaluations/attrition-rates-typically-aren-t-different-control-group-treatment-group-really-and-why) that differential attrition between treatment and comparison groups averages only a few percentage points, widening mainly when the treatment is large and highly visible, such as a sizeable cash grant. Examples on this site show both cases. In [Extremadura](03-examples.qmd#spain), there was no evidence of selective attrition in follow-up survey responses. In the European Commission's [SME energy-efficiency grants](03-examples.qmd#europe-grants-for-sme-energy-efficiency), firms offered a grant of up to EUR 10,000 answered follow-up surveys far more often than the comparison group (91% against 65%), so the estimates rely on statistical corrections for who responded. Sustained follow-up – repeat calls, alternative contact channels, incentives for non-respondents – can help close such gaps, as in [Czechia](03-examples.qmd#czechia-smart-start).
+If data on results need to be collected through surveys, a group that received nothing may feel less invested in answering than a group that participated. Looking across dozens of studies, World Bank economist [David McKenzie found](https://blogs.worldbank.org/en/impactevaluations/attrition-rates-typically-aren-t-different-control-group-treatment-group-really-and-why) that differential attrition between treatment and comparison groups averages only a few percentage points. The gap widens mainly when the treatment is large and highly visible, such as a sizeable cash grant. Examples on this site show both cases. In [Extremadura](03-examples.qmd#spain), there was no evidence of selective attrition in follow-up survey responses. In the European Commission's [SME energy-efficiency grants](03-examples.qmd#europe-grants-for-sme-energy-efficiency), firms offered a grant of up to EUR 10,000 answered follow-up surveys far more often than the comparison group (91% against 65%), so the estimates rely on statistical corrections for who responded. Sustained follow-up – repeat calls, alternative contact channels, incentives for non-respondents – can help close such gaps, as in [Czechia](03-examples.qmd#czechia-smart-start).
 
 </details>
 
