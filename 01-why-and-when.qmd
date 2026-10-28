@@ -5,7 +5,7 @@ description-meta: "Learn what the impact of an intervention is, how randomised c
 
 ::: {.team-note}
 ## Summary {.unlisted}
-This page builds on the [home page](index.qmd), which introduces RCTs as one of several ways to conduct an impact evaluation. Part 1 is about impact evaluation in general: what the impact of an intervention is and what challenges may arise when measuring it. Part 2 compares the two ways of forming a comparison group – random and non-random assignment – and then focuses on RCTs: how random assignment creates a comparison group, illustrated by a running example from North-East Romania, and how it can support transparency and trust. Part 3 covers when to use an RCT: which learning questions it can answer, how to choose an evaluation design, what to do when randomisation is not possible and when an RCT may not be the right choice.
+This page builds on the [home page](index.qmd), which introduces RCTs as one of several ways to conduct an impact evaluation. Part 1 is about impact evaluation in general: what the impact of an intervention is, what needs to be measured and what challenges may arise when measuring it. Part 2 compares the two ways of forming a comparison group – random and non-random assignment – and then focuses on RCTs: how random assignment creates a comparison group, illustrated by a running example from North-East Romania, and how it can support transparency and trust. Part 3 covers when to use an RCT: which learning questions it can answer, how to choose an evaluation design, what to do when randomisation is not possible, when an RCT may not be the right choice and how learning from RCTs builds over time.
 
 The page ends with answers to common questions about RCTs. [How to design an RCT](02-how.qmd) then explains how to plan one step by step.
 :::
@@ -84,7 +84,7 @@ This page explains the main approaches and the role of RCTs among them.
 
 ### From outputs to results
 
-Impact evaluation, if implemented correctly, allows not only to measure what an intervention delivers (measured using output indicators) but also what changes because of it (measured using result indicators).
+Impact evaluation, if implemented correctly, makes it possible to measure not only what an intervention delivers (output indicators) but also what changes because of it (result indicators).
 
 ::: {.cards}
 ::: {.card-e}
@@ -119,15 +119,8 @@ This chain is the foundation of a theory of change, and having thought it throug
 in designing a strong impact evaluation. There is more on this in
 [Step 1: develop a Theory of Change](02.01-toc.qmd).
 
-Making the chain explicit also surfaces the assumptions behind each link, and shows which of them the intervention's impact depends on most. If one of these assumptions does not hold (for example, that firms will take up the support they are offered), the intervention may fall short of its intended impact. One way to reduce this risk is to test, within the same evaluation, alternative ways of addressing that weak link, such as two different outreach approaches, and see which works better.
+Making the chain explicit also surfaces the assumptions behind each link, and shows which of them the intervention's impact depends on most. If one of these assumptions does not hold (for example, that firms will take up the support they are offered), the intervention may fall short of its intended impact. Such weak links can be tested directly, as shown under [How can it be delivered better?](#two-questions)
 
-::: {.example .case #digitrans data-map="digitrans"}
-[Digitrans example]{.tag}
-The Digitrans pilot (see [Examples](03-examples.qmd#digitrans) for more details) tested and compared two alternative ways to increase digital adoption among MSMEs in Bulgaria, Poland and Slovakia. Firms were randomly assigned to either (i) a comparison group receiving no support, (ii) a financial subsidy alone, or (iii) the same subsidy paired with technical assistance.
-
-The pilot found that money alone was not the most effective approach. Firms that also received technical assistance used
-digital tools 2.5 times more intensively than those with the subsidy alone. This is evidence that capability, not just cash, was a constraint to digitalisation.
-:::
 
 ## What does good allocation of public resources look like? {#allocation}
 
@@ -137,6 +130,11 @@ cost. "Attributable" requires knowing what the beneficiaries would have done in 
 That is especially hard when beneficiaries are not assigned at random but are selected by the managing authority. Beneficiaries may differ from those who were not selected; for example, they may be more motivated or have more resources. Most of these traits
 are never recorded in any database or questionnaire. When the beneficiaries later do better on the results of interest than the applicants that were not selected,
 it is impossible to tell how much of that difference is due to the intervention.
+
+::: {.caution}
+**Selection bias** arises when the comparison group differs from the participants in ways that also
+affect results. In that case, the impact estimate is biased.
+:::
 
 Consider an illustrative innovation-grant scheme: EUR 50,000 to each of 100 firms, where
 "success" means launching a new product. Compare two selection rules.
@@ -186,7 +184,7 @@ Raw success counts can be misleading. To assess effectiveness, interventions nee
 Additionality here means the share of results that would not have happened without the intervention. Support that pays for what would have happened anyway is often called deadweight. Top performers would likely have invested anyway, so public funds mostly substitute for money they would have spent regardless – generating little that is truly additional per euro.
 :::
 ::: {.card-e}
-### Selection bias in measurement {.unlisted}
+### Crediting the intervention with existing strengths {.unlisted}
 Comparing funded, stronger firms with unfunded, weaker ones credits the intervention with
 firms' pre-existing quality, not with what the grant did.
 :::
@@ -220,7 +218,7 @@ Random assignment: randomised controlled trials
 :::
 ::: {.body}
 The comparison group is created before the intervention starts, by randomly assigning who receives it.
-Random assignment makes the two groups similar on average.
+Random assignment makes the two groups similar on average and so avoids the selection bias described above.
 :::
 :::
 ::: {.col-e}
@@ -235,16 +233,10 @@ intervention starts (for example, with baseline data and a known selection rule)
 :::
 :::
 
-::: {.caution}
-**Selection bias** arises when the comparison group differs from the participants in ways that also
-affect results. In that case, the impact estimate is biased.
-:::
+## How an RCT creates a comparison group {#rct}
 
-## What is a randomised controlled trial? {#rct}
-
-**Intuition.** The intervention is assigned at random, so one group receives it (the treatment
-group) and one does not (the comparison group). Because the two groups are similar on average
-at the start, the comparison group's results show what would have happened to the treatment
+**Intuition.** As explained on the [home page](index.qmd#what-is-an-rct), the intervention is assigned at random, so the treatment group and the comparison group are similar on average
+at the start. The comparison group's results therefore show what would have happened to the treatment
 group without the intervention.
 
 ```{=html}
@@ -468,10 +460,20 @@ How can it be delivered better?
 :::
 ::: {.body}
 There is already evidence that the intervention works, and implementation may already be under way. The question is which version of the intervention works
-best. Example: the [Digitrans example](#digitrans) compares a grant alone with a grant combined with
+best. Example: the Digitrans pilot below compares a grant alone with a grant combined with
 technical assistance.
 :::
 :::
+:::
+
+Comparing versions is also a way to address weak links in the theory of change. Where impact depends on an assumption that may not hold, for example that firms will take up the support they are offered, alternative ways of addressing it can be tested within the same evaluation.
+
+::: {.example .case #digitrans data-map="digitrans"}
+[Digitrans example]{.tag}
+The Digitrans pilot (see [Examples](03-examples.qmd#digitrans) for more details) tested and compared two alternative ways to increase digital adoption among MSMEs in Bulgaria, Poland and Slovakia. Firms were randomly assigned to either (i) a comparison group receiving no support, (ii) a financial subsidy alone, or (iii) the same subsidy paired with technical assistance.
+
+The pilot found that money alone was not the most effective approach. Firms that also received technical assistance used
+digital tools 2.5 times more intensively than those with the subsidy alone. This is evidence that capability, not just cash, was a constraint to digitalisation.
 :::
 
 ::: {.example .romania data-map="romania-ne"}
