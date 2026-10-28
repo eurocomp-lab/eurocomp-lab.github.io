@@ -20,9 +20,9 @@ This page explains what balance means in practice, how to verify it, and - becau
 
 ## Why comparability matters so much
 
-The logic of a randomised controlled trial (RCT) is simple: take two groups of similar firms, give one group the intervention and withhold it from the other, then compare outcomes. The comparison is only meaningful if the two groups were genuinely similar to begin with. If the treatment group happened to contain more high-performing firms before the intervention started, any difference in outcomes at endline may simply reflect that head start rather than the intervention's effect.
+The logic of a randomised controlled trial (RCT) is simple: take two groups of similar units, give one group the intervention and withhold it from the other, then compare outcomes. The comparison is only meaningful if the two groups were genuinely similar to begin with. For example, if the treatment group happened to contain more high-performing firms before the intervention started, any difference in outcomes at endline may simply reflect that head start rather than the intervention's effect.
 
-Randomisation is the mechanism that makes comparability likely - but it does not guarantee it, especially with smaller samples. A random draw can, by chance, produce a treatment group that is slightly older, larger, or more export-oriented than the comparison group. With enough firms, these chance differences average out. With fewer firms, they can be large enough to matter.
+Randomisation is the mechanism that makes comparability likely - but it does not guarantee it, especially with smaller samples. A random draw can, by chance, produce a treatment group that is slightly different (e.g. older, larger, or more export-oriented firms) than the comparison group. With enough units, these chance differences average out. With fewer units, they can be large enough to matter.
 
 This is why the balance check is one of the first things an evaluator does after the baseline survey is complete. It is not a formality - it is a quality control on the randomisation itself.
 
@@ -37,7 +37,7 @@ A balance check compares the two groups on a set of characteristics measured at 
 - Sector or industry classification
 - Prior R&D or innovation activity
 - Export participation
-- The primary outcome variable itself, measured before the intervention
+- The (primary) outcome variables itself, measured before the intervention
 
 For each characteristic, the evaluator calculates the average value in the treatment group and the average value in the comparison group, and tests whether the difference between them is larger than you would expect by chance from a random draw. 
 
@@ -87,7 +87,7 @@ In a well-executed randomisation with a reasonably large sample, most characteri
 What raises a concern
 :::
 ::: {.body}
-A concern arises when many variables show imbalance simultaneously, or when the primary outcome variable itself is significantly different at baseline. This suggests the randomisation may have been compromised - perhaps because some firms were selectively excluded, or because the draw was not conducted as described.
+A concern arises when many variables show imbalance simultaneously, or when the primary outcome variable itself is significantly different at baseline. This suggests the randomisation may have been compromised - perhaps because some units were selectively excluded, or because the draw was not conducted as described.
 :::
 :::
 :::
@@ -103,10 +103,10 @@ Perfect balance is the goal, not a guarantee. When the balance check reveals a m
 
 **Control for the imbalanced variable in the analysis.** The most common and appropriate response is to include the imbalanced characteristic as a control variable in the statistical model used to estimate the intervention's impact. This adjusts the comparison to account for the pre-existing difference, producing a more accurate estimate of the intervention's effect. The evaluator handles this - the managing authority simply needs to know that it is standard practice, not a workaround.
 
-**Do not re-randomise.** Once firms know their assignment - or once the intervention has begun - re-running the lottery is not an option. It would undermine the integrity of the design and the trust of participants. If a significant imbalance is discovered before the intervention launches and before firms have been notified, the evaluation team should be consulted immediately. In rare cases, a new draw may be possible, but this is the exception.
+**Do not re-randomise.** Once units know their assignment - or once the intervention has begun - re-running the lottery is not an option. It would undermine the integrity of the design and the trust of participants. If a significant imbalance is discovered before the intervention launches and before units have been notified, the evaluation team should be consulted immediately. In rare cases, a new draw may be possible, but this is the exception.
 
 ::: {.caution}
-Never drop firms from the analysis because they appear to be outliers or because their inclusion makes the results less clean. Dropping firms selectively - even for apparently good reasons - can introduce bias and undermines the integrity of the evaluation.
+Never drop units from the analysis because they appear to be outliers or because their inclusion makes the results less clean. Dropping units selectively - even for apparently good reasons - can introduce bias and undermines the integrity of the evaluation.
 :::
 
 ***
