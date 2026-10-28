@@ -70,7 +70,7 @@ Key sources of secondary firm-level data
 | Orbis (Bureau van Dijk) | Financial statements, ownership, M&A activity - 400m+ firms globally | Commercial licence required |
 | National commercial data providers | Private companies aggregating and selling access to firm-level data compiled from business registries, court records, and financial filings | Via Internet |
 | National R&D surveys | R&D expenditure, personnel, outputs - linked to Frascati Manual | Via national statistical office |
-| Programme management system | Beneficiary list, grant amounts, disbursement dates, output indicators | Held internally by the Managing Authority |
+| Programme management system | Beneficiary list, grant amounts, disbursement dates, output indicators | Held internally by the managing authority |
 
 
 ::: {.example .romania data-map="romania-ne"}
@@ -83,7 +83,7 @@ North-East Romania used two administrative data sources: (i) publicly available 
 
 Access to administrative data rarely happens automatically. Tax records, social security data, and business registry microdata are typically held by separate government bodies and subject to their own access rules. Negotiating access takes time - in some countries, many months - and must be initiated well before the evaluation begins.
 
-A data-sharing agreement between the Managing Authority and the data-holding body should specify: what data will be shared; in what format and at what level of disaggregation; under what conditions it may be used; who is responsible for data security; and how long it will be retained. General Data Protection Regulation compliance must be addressed explicitly in the agreement.
+A data-sharing agreement between the managing authority and the data-holding body should specify: what data will be shared; in what format and at what level of disaggregation; under what conditions it may be used; who is responsible for data security; and how long it will be retained. General Data Protection Regulation compliance must be addressed explicitly in the agreement.
 
 ***
 
