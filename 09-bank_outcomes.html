@@ -47,7 +47,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-7b2cb267258f9e3024de39285af5a868.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-92a46192ed3476db75ebfada2a09be4c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -155,17 +155,12 @@ ul.task-list li input[type="checkbox"] {
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-repository">    
         <li>
-    <a class="dropdown-item" href="./04-templates.html">
- <span class="dropdown-text">Overview</span></a>
+    <a class="dropdown-item" href="./09-bank_outcomes.html">
+ <span class="dropdown-text">Indicator repository</span></a>
   </li>  
-        <li><hr class="dropdown-divider"></li>
         <li>
     <a class="dropdown-item" href="./08-bank_survey.html">
  <span class="dropdown-text">Survey question repository</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="./09-bank_outcomes.html">
- <span class="dropdown-text">Indicator repository</span></a>
   </li>  
     </ul>
   </li>
@@ -204,8 +199,9 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#overview" id="toc-overview" class="nav-link active" data-scroll-target="#overview">Overview</a></li>
-  <li><a href="#topics" id="toc-topics" class="nav-link" data-scroll-target="#topics">Topics</a></li>
+  <li><a href="#topics" id="toc-topics" class="nav-link active" data-scroll-target="#topics">Topics</a></li>
+  <li><a href="#how-to-use-the-indicators" id="toc-how-to-use-the-indicators" class="nav-link" data-scroll-target="#how-to-use-the-indicators">How to use the indicators</a></li>
+  <li><a href="#sources" id="toc-sources" class="nav-link" data-scroll-target="#sources">Sources</a></li>
   </ul>
 </nav>
     </div>
@@ -231,61 +227,93 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<section id="overview" class="level2">
-<h2 class="anchored" data-anchor-id="overview">Overview</h2>
-<p>Indicators rarely need to be built from scratch. Managing authorities should draw on existing, well-tested measures from comparable evaluations before designing new ones. The selection of indicators and their definitions in this repository was informed by the EuroCOMP Lab evaluations (see <a href="./03-examples.html">Examples</a>), policy reports such as the <a href="https://www.worldbank.org/en/region/eca/publication/tides-of-change-igniting-productivity-growth-in-europe-and-central-asia">World Bank’s TIDES report</a>, and established indicator manuals such as the <a href="https://www.oecd.org/en/publications/2018/10/oslo-manual-2018_g1g9373b.html">OECD Oslo Manual</a> for innovation and the <a href="https://www.oecd.org/en/publications/2015/10/frascati-manual-2015_g1g57dcb.html">OECD Frascati Manual</a> for research and development. Drawing on these sources improves the quality of your data and makes findings easier to compare with evidence from other interventions and regions.</p>
-<p>This repository provides a curated list of indicators, organised by topic. The indicators are suggestions and a starting point, not a complete or prescribed set: they do not cover every indicator an evaluation may need, and not all of them will suit every evaluation. Select the indicators that match the intervention you are evaluating and the causal chain in your Theory of Change, and adapt the definitions and metrics to your intervention and context. The reports and manuals above give more detail and further indicators, so it is worth consulting them directly when an indicator is central to your evaluation. For each outcome you will find:</p>
-<ul>
-<li>The indicator name and a plain-language definition</li>
-<li>The metric - how to operationalise and measure it</li>
-</ul>
-</section>
+<p>Indicators rarely need to be built from scratch. Managing authorities should draw on existing, well-tested measures from comparable evaluations before designing new ones. This repository provides a curated list of indicators, organised by topic, each with a plain-language definition and a metric that says how to operationalise and measure it.</p>
 <section id="topics" class="level2">
 <h2 class="anchored" data-anchor-id="topics">Topics</h2>
+<div class="cards topics">
+<section id="firm-performance-and-growth" class="level3 unlisted card-e">
+<h3 class="unlisted anchored" data-anchor-id="firm-performance-and-growth"><a href="./09.01-bank_outcomes_performance.html">Firm performance and growth</a></h3>
+<p>Turnover, profits, value added, productivity, wages, exports and firm survival.</p>
+<p>Example: <a href="https://www.worldbank.org/en/region/eca/publication/tides-of-change-igniting-productivity-growth-in-europe-and-central-asia">the TIDES of Change report (World Bank, 2025)</a></p>
+</section>
+<section id="innovation-and-intellectual-property" class="level3 unlisted card-e">
+<h3 class="unlisted anchored" data-anchor-id="innovation-and-intellectual-property"><a href="./09.02-bank_survey_innov.html">Innovation and intellectual property</a></h3>
+<p>Types and novelty of innovation, sales from new products, innovation spending, technology readiness, patents, trademarks and licensing.</p>
+<p>Example: <a href="./03-examples.html#south-muntenia">the returns to innovation subsidies in Romania (South-Muntenia)</a></p>
+</section>
+<section id="rd-activity" class="level3 unlisted card-e">
+<h3 class="unlisted anchored" data-anchor-id="rd-activity"><a href="./09.03-bank_survey_r&amp;d.html">R&amp;D activity</a></h3>
+<p>Whether the firm does R&amp;D, how much it spends and how many staff work on it.</p>
+<p>Example: <a href="./03-examples.html#spain">financial support to innovate in Spain (Extremadura)</a></p>
+</section>
+<section id="digitalisation-and-technology-adoption" class="level3 unlisted card-e">
+<h3 class="unlisted anchored" data-anchor-id="digitalisation-and-technology-adoption"><a href="./09.05-bank_survey_digital.html">Digitalisation and technology adoption</a></h3>
+<p>Technology adoption and spending, online sales, digital investment and skills, and digital maturity.</p>
+<p>Example: <a href="./03-examples.html#romania-north-east-digitalisation">financial support to digitalise in Romania (North-East)</a></p>
+</section>
+<section id="collaboration-and-knowledge-transfer" class="level3 unlisted card-e">
+<h3 class="unlisted anchored" data-anchor-id="collaboration-and-knowledge-transfer"><a href="./09.06-bank_survey_collab.html">Collaboration and knowledge transfer</a></h3>
+<p>Collaboration, partner diversity, links with universities and researchers, and cluster or network membership.</p>
+<p>Example: <a href="./03-examples.html#croatia">matching businesses with scientists in Croatia</a></p>
+</section>
+<section id="employment-and-human-capital" class="level3 unlisted card-e">
+<h3 class="unlisted anchored" data-anchor-id="employment-and-human-capital"><a href="./09.08-bank_survey_employ.html">Employment and human capital</a></h3>
+<p>Jobs, job growth, high-skilled staff, training and wages.</p>
+<p>Example: <a href="./03-examples.html#romania-north-east-digitalisation">financial support to digitalise in Romania (North-East)</a></p>
+</section>
+<section id="business-finance" class="level3 unlisted card-e">
+<h3 class="unlisted anchored" data-anchor-id="business-finance"><a href="./09.09-bank_outcome_finance.html">Business finance</a></h3>
+<p>Access to equity, debt and public finance, and its use for R&amp;D and innovation.</p>
+<p>Example: <a href="https://openknowledge.worldbank.org/server/api/core/bitstreams/28fbd029-9619-5eb8-836a-c1432fe1581b/content">making firms investment-ready in the Western Balkans (2018)</a></p>
+</section>
+<section id="business-support-and-training" class="level3 unlisted card-e">
+<h3 class="unlisted anchored" data-anchor-id="business-support-and-training"><a href="./09.10-bank_outcome_train.html">Business support and training</a></h3>
+<p>Applications to, participation in and type of business support, and formal employee training.</p>
+<p>Example: <a href="./03-examples.html#colombia-scaling-up-management-consulting">scaling up management consulting in Colombia</a></p>
+</section>
+<section id="management-practices" class="level3 unlisted card-e">
+<h3 class="unlisted anchored" data-anchor-id="management-practices"><a href="./09.11-bank_outcome_mgmt.html">Management practices</a></h3>
+<p>An overall management index and its eight dimensions, from problem solving to dealing with underperformance.</p>
+<p>Example: <a href="https://documents1.worldbank.org/curated/en/099513502142528787/pdf/IDU-b17303ed-2bae-41a2-9c52-5d5795945e21.pdf">how management practices differ in the EU-27 (2025)</a></p>
+</section>
+<section id="energy-efficiency" class="level3 unlisted card-e">
+<h3 class="unlisted anchored" data-anchor-id="energy-efficiency"><a href="./09.12-bank_outcome_energy.html">Energy efficiency</a></h3>
+<p>Energy use, cost and mix, on-site renewables, energy management, audits, investment and savings.</p>
+<p>Example: <a href="./03-examples.html#europe-grants-for-sme-energy-efficiency">grants for SME energy efficiency in Europe</a></p>
+</section>
+</div>
+</section>
+<section id="how-to-use-the-indicators" class="level2">
+<h2 class="anchored" data-anchor-id="how-to-use-the-indicators">How to use the indicators</h2>
+<p>The indicators are suggestions and a starting point, not a complete or prescribed set: they do not cover every indicator an evaluation may need, and not all of them will suit every evaluation.</p>
+<ol type="1">
+<li>Open the topic that matches the intervention you are evaluating.</li>
+<li>Select the indicators that match the causal chain in your Theory of Change.</li>
+<li>Adapt the definitions and metrics to your intervention and context.</li>
+<li>Find tested questions to measure them in the <a href="./08-bank_survey.html">survey question repository</a>.</li>
+</ol>
+<p>The reports and manuals below give more detail and further indicators, so it is worth consulting them directly when an indicator is central to your evaluation.</p>
+</section>
+<section id="sources" class="level2">
+<h2 class="anchored" data-anchor-id="sources">Sources</h2>
+<p>The selection of indicators and their definitions in this repository was informed by the EuroCOMP Lab evaluations (see <a href="./03-examples.html">Examples</a>), policy reports such as the <a href="https://www.worldbank.org/en/region/eca/publication/tides-of-change-igniting-productivity-growth-in-europe-and-central-asia">World Bank’s TIDES report</a>, and established indicator manuals such as the <a href="https://www.oecd.org/en/publications/2018/10/oslo-manual-2018_g1g9373b.html">OECD Oslo Manual</a> for innovation and the <a href="https://www.oecd.org/en/publications/2015/10/frascati-manual-2015_g1g57dcb.html">OECD Frascati Manual</a> for research and development. Drawing on these sources improves the quality of your data and makes findings easier to compare with evidence from other interventions and regions.</p>
+<section id="publications-behind-the-examples" class="level3 unlisted">
+<h3 class="unlisted anchored" data-anchor-id="publications-behind-the-examples">Publications behind the examples</h3>
+<div class="refs">
 <ul>
-<li>Topic: <a href="./09.01-bank_outcomes_performance.html">firm performance and growth</a>
-<ul>
-<li>Example: <a href="https://www.worldbank.org/en/region/eca/publication/tides-of-change-igniting-productivity-growth-in-europe-and-central-asia">Iacovone, L., Aviomoh, H., Belacin, M., Bossavie, L., Cusolito, A., de Hoyos, R., Ottaviano, G., Scheifele, F., Torre, I., and Yoshino, Y. 2025. ”TIDES of Change: Igniting Productivity Growth in Europe and Central Asia.” Overview booklet. Washington, DC: World Bank. License: Creative Commons Attribution CC BY 3.0 IGO</a></li>
-</ul></li>
-<li>Topic: <a href="./09.02-bank_survey_innov.html">innovation and intellectual property</a>
-<ul>
-<li>Example: <a href="./03-examples.html#south-muntenia">Romania (South-Muntenia)</a></li>
-</ul></li>
-<li>Topic: <a href="./09.03-bank_survey_r&amp;d.html">R&amp;D activity</a>
-<ul>
-<li>Example: <a href="https://documents1.worldbank.org/curated/en/099062725130024487/pdf/P171223-e6f6ea58-057f-4a96-b15e-2003d3ecd2a3.pdf">Cusolito, A. P., Dalton, P., and Ortega, S. R. 2025. “The Impact of Large Public Grants on Industrial R&amp;D: Evidence from an RCT in Extremadura.” World Bank, Washington, DC.</a></li>
-</ul></li>
-<li>Topic: <a href="./09.05-bank_survey_digital.html">digitalisation and technology adoption</a>
-<ul>
-<li>Example: <a href="https://documents1.worldbank.org/curated/en/099062725130014823/pdf/P171223-aee2b26f-49c8-4bd1-a313-6a8d9d71abc4.pdf">World Bank. 2025. “Thinking Bigger: Digital Transformation in North-East Romania: Short-Term Impacts.” Strengthening Monitoring and Evaluation of Innovation Programs in the EU. World Bank, Washington, DC.</a></li>
-</ul></li>
-<li>Topic: <a href="./09.06-bank_survey_collab.html">collaboration and knowledge transfer</a>
-<ul>
-<li>Example: <a href="https://documents1.worldbank.org/curated/en/099062725130142696/pdf/P171223-e13421d0-c5a3-4085-ac74-1883f089d91e.pdf">Avdeenko, A., Campos, F., Chandy, R., Iacovone, L., and Kala, N. 2025. “Connecting Minds, Creating Innovation: Matchmaking between Business and Science in Croatia.” World Bank, Washington, DC.</a></li>
-</ul></li>
-<li>Topic: <a href="./09.08-bank_survey_employ.html">employment and human capital</a>
-<ul>
-<li>Example: <a href="https://documents1.worldbank.org/curated/en/099062725130014823/pdf/P171223-aee2b26f-49c8-4bd1-a313-6a8d9d71abc4.pdf">World Bank. 2025. “Thinking Bigger: Digital Transformation in North-East Romania: Short-Term Impacts.” Strengthening Monitoring and Evaluation of Innovation Programs in the EU. World Bank, Washington, DC.</a></li>
-</ul></li>
-<li>Topic: <a href="./09.09-bank_outcome_finance.html">business finance</a>
-<ul>
-<li>Example: <a href="https://openknowledge.worldbank.org/server/api/core/bitstreams/28fbd029-9619-5eb8-836a-c1432fe1581b/content">Dautovic, E., Cusolito, A. P., and McKenzie, D. 2018. “Can Government Intervention Make Firms More Investment-Ready?: A Randomized Experiment in the Western Balkans.” Policy Research Working Paper; No.&nbsp;8541. World Bank, Washington, DC.</a></li>
-</ul></li>
-<li>Topic: <a href="./09.10-bank_outcome_train.html">business support and training</a>
-<ul>
-<li>Example: <a href="https://documents1.worldbank.org/curated/en/166671557929384690/pdf/Improving-Management-with-Individual-and-Group-Based-Consulting-Results-from-a-Randomized-Experiment-in-Colombia.pdf">Iacovone, L., Maloney, W., and McKenzie, D. 2022. “Improving Management with Individual and Group-Based Consulting: Results from a Randomized Experiment in Colombia.” The Review of Economic Studies, Review of Economic Studies Ltd, vol.&nbsp;89(1), pages 346-371.</a></li>
-</ul></li>
-<li>Topic: <a href="./09.11-bank_outcome_mgmt.html">management practices</a>
-<ul>
-<li>Example: <a href="https://documents1.worldbank.org/curated/en/099513502142528787/pdf/IDU-b17303ed-2bae-41a2-9c52-5d5795945e21.pdf">Viganola, D. and Diallo, M. Y. 2025. “How Management Practices Differ in the EU-27.” Policy Indicators Briefs. World Bank, Washington, DC.</a></li>
-</ul></li>
-<li>Topic: <a href="./09.12-bank_outcome_energy.html">energy efficiency</a>
-<ul>
-<li>Example: <a href="assets/eenergy-2pager.pdf">Avdeenko, A., Campos, F., Iacovone, L., Kala, N., Nuno, M., Salhab, J., and Martin, R. 2026. “Does Financial Support Improve SME Energy Efficiency? An RCT in Europe.” World Bank, Washington, DC.</a></li>
-</ul></li>
+<li>Avdeenko, A., Campos, F., Chandy, R., Iacovone, L., and Kala, N. 2025. “<a href="https://documents1.worldbank.org/curated/en/099062725130142696/pdf/P171223-e13421d0-c5a3-4085-ac74-1883f089d91e.pdf">Connecting Minds, Creating Innovation: Matchmaking between Business and Science in Croatia</a>.” World Bank, Washington, DC.</li>
+<li>Avdeenko, A., Campos, F., Iacovone, L., Kala, N., Nuno, M., Salhab, J., and Martin, R. 2026. “<a href="assets/eenergy-2pager.pdf">Does Financial Support Improve SME Energy Efficiency? An RCT in Europe</a>.” World Bank, Washington, DC.</li>
+<li>Cusolito, A. P., Dalton, P., and Ortega, S. R. 2025. “<a href="https://documents1.worldbank.org/curated/en/099062725130024487/pdf/P171223-e6f6ea58-057f-4a96-b15e-2003d3ecd2a3.pdf">The Impact of Large Public Grants on Industrial R&amp;D: Evidence from an RCT in Extremadura</a>.” World Bank, Washington, DC.</li>
+<li>Dautovic, E., Cusolito, A. P., and McKenzie, D. 2018. “<a href="https://openknowledge.worldbank.org/server/api/core/bitstreams/28fbd029-9619-5eb8-836a-c1432fe1581b/content">Can Government Intervention Make Firms More Investment-Ready?: A Randomized Experiment in the Western Balkans</a>.” Policy Research Working Paper; No.&nbsp;8541. World Bank, Washington, DC.</li>
+<li>Iacovone, L., Aviomoh, H., Belacin, M., Bossavie, L., Cusolito, A., de Hoyos, R., Ottaviano, G., Scheifele, F., Torre, I., and Yoshino, Y. 2025. “<a href="https://www.worldbank.org/en/region/eca/publication/tides-of-change-igniting-productivity-growth-in-europe-and-central-asia">TIDES of Change: Igniting Productivity Growth in Europe and Central Asia</a>.” Overview booklet. Washington, DC: World Bank. License: Creative Commons Attribution CC BY 3.0 IGO</li>
+<li>Iacovone, L., Maloney, W., and McKenzie, D. 2022. “<a href="https://documents1.worldbank.org/curated/en/166671557929384690/pdf/Improving-Management-with-Individual-and-Group-Based-Consulting-Results-from-a-Randomized-Experiment-in-Colombia.pdf">Improving Management with Individual and Group-Based Consulting: Results from a Randomized Experiment in Colombia</a>.” The Review of Economic Studies, Review of Economic Studies Ltd, vol.&nbsp;89(1), pages 346-371.</li>
+<li>Viganola, D. and Diallo, M. Y. 2025. “<a href="https://documents1.worldbank.org/curated/en/099513502142528787/pdf/IDU-b17303ed-2bae-41a2-9c52-5d5795945e21.pdf">How Management Practices Differ in the EU-27</a>.” Policy Indicators Briefs. World Bank, Washington, DC.</li>
+<li>World Bank. 2025. “<a href="https://documents1.worldbank.org/curated/en/099062725130014823/pdf/P171223-aee2b26f-49c8-4bd1-a313-6a8d9d71abc4.pdf">Thinking Bigger: Digital Transformation in North-East Romania: Short-Term Impacts</a>.” Strengthening Monitoring and Evaluation of Innovation Programs in the EU. World Bank, Washington, DC.</li>
 </ul>
+</div>
 
 
+</section>
 </section>
 
 </main> <!-- /main -->
