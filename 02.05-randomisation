@@ -1,6 +1,6 @@
 ---
-title: "Step 4: check whether an RCT is feasible"
-description-meta: "Check the five conditions a randomised trial needs, choose from five randomisation designs and avoid the problems that most often arise after the lottery."
+title: "Step 5: how to randomise"
+description-meta: "Choose from five randomisation designs and avoid the problems that most often arise after the lottery."
 ---
 
 ```{=html}
@@ -10,8 +10,9 @@ description-meta: "Check the five conditions a randomised trial needs, choose fr
 ::: {.team-note}
 ## Summary {.unlisted}
 
-This page covers five feasibility conditions that must be in place before committing to a randomised controlled trial (RCT), five randomisation designs and when to use each, and the most common problems that arise after the lottery.
 :::
+
+***
 
 ## Five ways to randomise your intervention
 
