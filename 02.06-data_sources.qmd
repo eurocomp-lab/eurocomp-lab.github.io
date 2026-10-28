@@ -1,5 +1,5 @@
 ---
-title: "Step 5: identify available data sources"
+title: "Step 6: identify available data sources"
 description-meta: "Decide where your outcome data will come from: weigh survey and administrative data, find firm-level sources and set up data-sharing agreements early."
 ---
 
