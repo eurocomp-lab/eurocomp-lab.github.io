@@ -9,7 +9,7 @@ description-meta: "Build a Theory of Change that maps how your intervention shou
 
 ::: {.team-note}
 ## Summary {.unlisted}
-This page covers what a Theory of Change (ToC) is, how it relates to the intervention logic required under European Regional Development Fund (ERDF) and European Social Fund Plus (ESF+), each component of the causal chain from inputs to goals with examples, and why building one strengthens both evaluation design and policy lessons.
+This page covers what a Theory of Change (ToC) is, how it relates to the intervention logic required in cohesion policy programmes, each component of the causal chain from inputs to goals with examples, and why building one strengthens both evaluation design and policy lessons.
 :::
 
 
@@ -19,7 +19,7 @@ Before any data is collected and before any evaluation contract is signed, a man
 
 ## What is a ToC - and how does it relate to your intervention logic?
 
-For some European Union funding programmes (e.g. the European Regional Development Fund), participating managing authorities are already required to articulate an intervention logic - a structured account of how a policy instrument is expected to produce its intended results. A ToC builds on this familiar concept and makes it more explicit and evaluation-ready.
+For some European Union funding programmes (e.g. the European Regional Development Fund), managing authorities are already required to articulate an intervention logic - a structured account of how a policy instrument is expected to produce its intended results. A ToC builds on this familiar concept and makes it more explicit and evaluation-ready.
 
 Where an intervention logic maps the pathway from inputs to outputs to results, a ToC adds two important elements: it specifies the assumptions that must hold at each step for the logic to work, and it makes clear which links in the chain are strong and which are uncertain. This is precisely the information a randomised controlled trial (RCT) is designed to test.
 
