@@ -44,7 +44,7 @@ The European Union (EU) is one of the world’s largest investors in innovation.
 
 To keep pace with global competitors, every euro invested needs to yield greater returns. While innovation is a primary goal, the process to achieve it often lacks mechanisms for continuous learning and improvement.
 
-Successful policy development, particularly in innovation, must be accompanied by ongoing adaptation to evolving circumstances.
+Successful policy development must be accompanied by ongoing adaptation to evolving circumstances.
 
 ::: {.gold-panel}
 This is called science-based adaptive delivery: testing, learning, and
@@ -67,14 +67,13 @@ best, and under which conditions?
 :::
 
 An impact evaluation compares what happened after an intervention was introduced with what
-would have happened in its absence: the counterfactual. Unlike monitoring and
-evaluation (M&E), which tracks whether an intervention is implemented as planned, it tests
+would have happened in its absence: the counterfactual. Unlike monitoring, which tracks whether an intervention is implemented as planned, it tests
 whether the intervention caused a real difference. See [what impact evaluation is for and
 how it differs from M&E](01-why-and-when.qmd#impact-evaluation).
 
 There is more than one credible way to conduct an impact evaluation.
-In fact, you may already have evaluated an intervention's impact - perhaps using matching,
-difference-in-differences, or a regression discontinuity, comparing participants to similar
+Methods such as matching,
+difference-in-differences, or regression discontinuity design, compare participants to similar
 non-participants constructing the comparison group after the intervention had already ended. That is impact
 evaluation too, and it can be credible. But because the evaluator did not decide who ended up in which group, there is no guarantee that the two groups are comparable. The credibility of the results therefore rests on assumptions that must be defended separately.
 
@@ -82,9 +81,9 @@ Now imagine doing this differently: designing the comparison group by randomly a
 See below [how the methods compare](01-why-and-when.qmd#alternatives) and [why RCTs are usually the stronger
 choice](01-why-and-when.qmd#rct).
 
-## RCTs show what works and why
+## RCTs show what works and how effectively
 
-An RCT compares what happens to intervention participants against an on-average identical group that does not receive the intervention. That comparison can show whether the cohesion policy intervention - and not something else going on at the same time - is the reason things improved.
+An RCT compares what happens to intervention participants against an on-average identical group that does not receive the intervention. That comparison can show whether the cohesion policy intervention - and not something else going on at the same time - is the reason for the observed changes.
 
 Who ends up in the treatment group (receiving the intervention) and who ends up in the comparison group (receiving no intervention, or a different type of intervention) is decided by a random draw. It is not decided by who applied first, who looked most promising, or whom the reviewer favoured. Because assignment to the intervention is random, the two groups have the same characteristics on average before the intervention. That is true not just for characteristics you can measure, but also for the ones you
 cannot observe. So when a difference between the groups shows up later, it can be attributed to the intervention.
