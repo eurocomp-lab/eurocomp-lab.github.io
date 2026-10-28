@@ -1,25 +1,25 @@
 ---
 title: "How to design a randomised controlled trial"
-description-meta: "Follow seven steps to design a credible randomised controlled trial, from a Theory of Change to high-quality data, and see who to bring onto your team."
+description-meta: "Follow eight steps to design a credible randomised controlled trial, from a Theory of Change to high-quality data, and see who to bring onto your team."
 ---
 
 ::: {.team-note}
 ## Summary {.unlisted}
-This page covers the internal team to assemble before starting, and seven sequential steps - Theory of Change (ToC), learning questions, indicators, feasibility, data sources, data collection, and data quality - for designing a credible randomised controlled trial (RCT).
+This page covers the internal team to assemble before starting, and eight sequential steps - Theory of Change (ToC), learning questions, indicators, feasibility, data sources, data collection, and data quality - for designing a credible randomised controlled trial (RCT).
 :::
 
-A well-designed RCT does not begin with randomisation - it begins with a clear understanding of what an intervention is trying to achieve and why. The seven steps below set out the preparatory work that makes randomisation meaningful and the results credible. Managing authorities are encouraged to work through them in sequence, ideally before the first call for applications is launched.
+A well-designed RCT does not begin with randomisation - it begins with a clear understanding of what an intervention is trying to achieve and why. The eight steps below set out the preparatory work that makes randomisation meaningful and the results credible. Managing authorities are encouraged to work through them in sequence, ideally before the first call for applications is launched.
 
 ---
 
-## Seven steps for designing an RCT successfully
+## Eight steps for designing an RCT successfully
 
 ::: {.cards .steps}
 ::: {.card-e .step-start}
 
 ### [Before you start: assemble your internal evaluation team](#before-you-start-assemble-your-internal-evaluation-team) {.unlisted}
 
-Identify who inside the managing authority will take on each role before working through the seven steps.
+Identify who inside the managing authority will take on each role before working through the eight steps.
 :::
 ::: {.card-e}
 
@@ -47,30 +47,41 @@ Tool: [RCT outcome repository](09-bank_outcomes.qmd)
 
 ::: {.card-e}
 
-### [Step 4: check whether an RCT is feasible](02.03-assess.qmd) {.unlisted}
+### [Step 4: check whether an RCT is feasible](02.04-assess.qmd) {.unlisted}
 
 Check whether the conditions for a valid RCT are in place - oversubscription, timing, legal basis, and political buy-in.
 
 ::: {.sub-steps}
-Also in this step: [Power calculations](02.03a-power.qmd) · [Balance checks](02.03b-balance.qmd) · [Legal basis for random selection](02.03c-legal.qmd) · [Pre-registration](02.03d-pre_register.qmd)
+Also in this step: [Power calculations](02.04a-power.qmd) · [Legal basis for random selection](02.04b-legal.qmd)
 :::
 :::
 
 ::: {.card-e}
 
-### [Step 5: identify available data sources](02.05-data_sources.qmd) {.unlisted}
+### [Step 5: how to randomise](02.05-randomise.qmd) {.unlisted}
+
+XXX
+
+::: {.sub-steps}
+Also in this step: [Balance checks](02.05a-balance.qmd)
+:::
+:::
+
+::: {.card-e}
+
+### [Step 6: identify available data sources](02.06-data_sources.qmd) {.unlisted}
 
 Decide whether to rely on primary data, administrative data, or a combination - and map what is already available.
 :::
 
 ::: {.card-e}
 
-### [Step 6: collect data](02.06-data_collect.qmd) {.unlisted}
+### [Step 7: collect data](02.07-data_collect.qmd) {.unlisted}
 
 Design and implement the data collection - surveys, administrative data access, and quality controls.
 
 ::: {.sub-steps}
-Also in this step: [Terms of reference](02.06a-tor.qmd) · [Informed consent](02.06b-consent.qmd)
+Also in this step: [Terms of reference](02.07a-tor.qmd) · [Informed consent](02.07b-consent.qmd)
 
 Tool: [Survey question repository](08-bank_survey.qmd)
 :::
@@ -78,7 +89,7 @@ Tool: [Survey question repository](08-bank_survey.qmd)
 
 ::: {.card-e}
 
-### [Step 7: ensure high-quality data](02.07-data_quality.qmd) {.unlisted}
+### [Step 8: ensure high-quality data](02.08-data_quality.qmd) {.unlisted}
 
 Put in place the checks needed to detect and address data quality problems before analysis begins.
 :::
@@ -91,7 +102,7 @@ Put in place the checks needed to detect and address data quality problems befor
 
 The managing authority brings knowledge that no outside expert can replicate - how the intervention works in practice, who the target beneficiaries are, what the political constraints are, and what a meaningful result would look like. External consultants and data collection firms are available to provide methodological and operational support, and many managing authorities will choose to work with them. But whether the RCT is implemented with external support or largely in-house, a core internal team needs to be in place from the start. Without it, key decisions get made by default rather than by design, and the evaluation risks being shaped by what is convenient rather than what matters.
 
-Before working through the seven steps, identify who inside the managing authority will take on each of the following roles:
+Before working through the eight steps, identify who inside the managing authority will take on each of the following roles:
 
 ::: {.cards .defs}
 ::: {.card-e}
