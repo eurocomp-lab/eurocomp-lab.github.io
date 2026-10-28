@@ -5,7 +5,7 @@ description-meta: "Find tested survey questions for firm-level evaluations, orga
 
 ## Overview
 
-Before writing a single question, review existing, validated survey instruments. Using questions that have already been tested in comparable evaluations saves time, improves data quality, and makes findings comparable with evidence from other programmes and regions. Key reference sources include:
+Before writing a single question, review existing, validated survey instruments. Using questions that have already been tested in comparable evaluations saves time, improves data quality, and makes findings comparable with evidence from other intervenetions and regions. Key reference sources include:
 
 - [Community Innovation Survey (CIS)](https://ec.europa.eu/eurostat/web/microdata/collections-research/community-innovation-survey) - the standard EU framework for measuring innovation activity in firms
 - [Firms Adoption of Technology Survey (FAT)](https://microdata.worldbank.org/collections/fat) - World Bank instrument on technology adoption across sectors
@@ -14,7 +14,7 @@ Before writing a single question, review existing, validated survey instruments.
 - [Flash Eurobarometer on SME Digitalisation](https://europa.eu/eurobarometer/surveys/detail/2442) - digital technology adoption and skills across EU member states
 - [ECB Survey on Access to Finance of Enterprises (SAFE)](https://www.ecb.europa.eu/stats/ecb_surveys/safe/html/index.en.html) - financing conditions and constraints for SMEs
 
-The survey question repository brings together questions drawn from the resources above, organised by topic. The questions are suggestions and a starting point, not a complete or prescribed questionnaire: they do not cover every topic an evaluation may need, and they do not have to be used exactly as written. The source surveys linked above give more detail and many more questions, so it is worth consulting them directly when a topic is central to your evaluation. Navigate to the theme most relevant to your evaluation, browse the questions and response options (where applicable), and select those that match the indicators in your Theory of Change. Then adapt the wording, response options, units and reference periods to your programme and national context.
+The survey question repository brings together questions drawn from the resources above, organised by topic. The questions are suggestions and a starting point, not a complete or prescribed questionnaire: they do not cover every topic an evaluation may need, and they do not have to be used exactly as written. The source surveys linked above give more detail and many more questions, so it is worth consulting them directly when a topic is central to your evaluation. Navigate to the theme most relevant to your evaluation, browse the questions and response options (where applicable), and select those that match the indicators in your Theory of Change. Then adapt the wording, response options, units and reference periods to your intervention and regional context.
 
 ## Topics
 
