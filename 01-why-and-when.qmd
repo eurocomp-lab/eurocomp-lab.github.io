@@ -1,22 +1,21 @@
 ---
 title: "Why and when to use a randomised controlled trial"
-description-meta: "Learn what impact evaluation is, why a randomised controlled trial usually gives the most credible answer, and when to plan one or use another method."
+description-meta: " Learn what the impact of an intervention is, how randomised controlled trials (RCTs) estimate it and when to plan an RCT or use another evaluation method."
 ---
+
 
 ::: {.team-note}
 ## Summary {.unlisted}
-This page explains in more detail why experimentation is worth doing and when to plan it. It explains what impact evaluation is and why experimentation - running a randomised controlled trial (RCT) - is usually the preferred way to do it, and when to use one: which questions it can answer, why it has to be planned early, and when it is not the right tool.
+A randomised controlled trial (RCT) assigns eligible participants at random either to receive an intervention or to a comparison group, so that differences in later results can be attributed to the intervention ([see the definition on the home page](index.qmd#what-is-an-rct)). This page explains in more detail what the impact of an intervention is, how RCTs estimate it and when to use one: which questions an RCT can answer, why it often has to be planned early and when it may not be the right choice.
 :::
 
 ```{=html}
 <nav class="page-parts" id="page-overview" aria-label="Parts of this page">
   <div class="part-card">
     <span class="part-no">Part 1</span>
-    <span class="part-title">What impact evaluation is</span>
+    <span class="part-title">What impact is</span>
     <ul>
-      <li><a href="#impact-evaluation">What is impact evaluation for?</a></li>
-      <li><a href="#monitoring">Monitoring and evaluation (M&amp;E) vs impact evaluation</a></li>
-      <li><a href="#counterfactual">What exactly is the impact of a programme?</a></li>
+      <li><a href="#counterfactual">What is the real impact of an intervention?</a></li>
       <li><a href="#allocation">What does good allocation of public resources look like?</a></li>
     </ul>
   </div>
@@ -26,18 +25,20 @@ This page explains in more detail why experimentation is worth doing and when to
     <ul>
       <li><a href="#finding-counterfactual">Finding the counterfactual</a></li>
       <li><a href="#rct">What is a randomised controlled trial?</a></li>
-      <li><a href="#legitimacy">Randomisation can improve legitimacy and trust in programmes</a></li>
+      <li><a href="#running-example">Running example: North-East Romania</a></li>
+      <li><a href="#legitimacy">Randomisation can support transparency and trust</a></li>
     </ul>
   </div>
   <div class="part-card">
     <span class="part-no">Part 3</span>
     <span class="part-title">When to use one</span>
     <ul>
-      <li><a href="#two-questions">What do you want to learn?</a></li>
+      <li><a href="#two-questions">What is the learning question?</a></li>
       <li><a href="#choosing-design">Choosing the right evaluation design</a></li>
-      <li><a href="#alternatives">What if you cannot randomise?</a></li>
-      <li><a href="#when-not">When not to run an RCT</a></li>
+      <li><a href="#alternatives">What if randomisation is not possible?</a></li>
+      <li><a href="#when-not">When an RCT may not be the right choice</a></li>
       <li><a href="#learning-cycle">Learning through RCTs is a continuous process</a></li>
+      <li><a href="#common-questions">Common questions about RCTs</a></li>
     </ul>
   </div>
 </nav>
