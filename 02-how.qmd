@@ -8,7 +8,7 @@ description-meta: "Follow seven steps to design a credible randomised controlled
 This page covers the internal team to assemble before starting and seven sequential steps - Theory of Change (ToC), learning questions, indicators, feasibility, data sources, data collection, and data quality - for designing a credible randomised controlled trial (RCT).
 :::
 
-A well-designed RCT does not begin with randomisation - it begins with a clear understanding of what the programme is trying to achieve and why. The seven steps below set out the preparatory work that makes randomisation meaningful and the results credible. Managing authorities are encouraged to work through them in sequence, ideally before the first call for applications is launched.
+A well-designed RCT does not begin with randomisation - it begins with a clear understanding of what an intervention is trying to achieve and why. The seven steps below set out the preparatory work that makes randomisation meaningful and the results credible. Managing authorities are encouraged to work through them in sequence, ideally before the first call for applications is launched.
 
 ---
 
@@ -89,7 +89,7 @@ Put in place the checks needed to detect and address data quality problems befor
 
 ## Before you start: assemble your internal evaluation team
 
-The managing authority brings knowledge that no outside expert can replicate - how the programme works in practice, who the target firms are, what the political constraints are, and what a meaningful result would look like. External consultants and data collection firms are available to provide methodological and operational support, and many managing authorities will choose to work with them. But whether the RCT is implemented with external support or largely in-house, a core internal team needs to be in place from the start. Without it, key decisions get made by default rather than by design, and the evaluation risks being shaped by what is convenient rather than what matters.
+The managing authority brings knowledge that no outside expert can replicate - how the intervention works in practice, who the target firms are, what the political constraints are, and what a meaningful result would look like. External consultants and data collection firms are available to provide methodological and operational support, and many managing authorities will choose to work with them. But whether the RCT is implemented with external support or largely in-house, a core internal team needs to be in place from the start. Without it, key decisions get made by default rather than by design, and the evaluation risks being shaped by what is convenient rather than what matters.
 
 Before working through the seven steps, identify who inside the managing authority will take on each of the following roles:
 
@@ -100,9 +100,9 @@ Before working through the seven steps, identify who inside the managing authori
 The person who leads the process, coordinates across the other roles, and serves as the primary contact for the external evaluation team. Ideally someone with some familiarity with impact evaluation methods, or who has been through the EuroCOMP Lab training.
 :::
 ::: {.card-e}
-**A programme manager**
+**A project manager**
 
-Someone with detailed knowledge of the intervention: eligibility criteria, selection process, implementation timeline, and the population of applicants. This is the person who can answer the policy questions that drive the evaluation design - particularly what effect size would be meaningful and what the programme is realistically expected to achieve.
+Someone with detailed knowledge of the intervention: eligibility criteria, selection process, implementation timeline, and the population of applicants. This is the person who can answer the policy questions that drive the evaluation design - particularly what effect size would be meaningful and what the intervention is realistically expected to achieve.
 :::
 :::
 
@@ -122,7 +122,7 @@ To ensure that data-sharing agreements and General Data Protection Regulation co
 :::
 
 ::: {.soft-panel}
-The internal team does not need to be large - in smaller managing authorities, one or two people may cover several roles. What matters is that the responsibilities are clearly assigned and that the evaluation focal point has the authority to make decisions and the access to programme information they need.
+The internal team does not need to be large - in smaller managing authorities, one or two people may cover several roles. What matters is that the responsibilities are clearly assigned and that the evaluation focal point has the authority to make decisions and the access to intervention information they need.
 
 Where internal capacity or methodological expertise is limited, external experts can be hired to support - covering evaluation design, data collection, or both.
 :::
