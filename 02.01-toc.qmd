@@ -4,7 +4,8 @@ description-meta: "Build a Theory of Change that maps how your intervention shou
 ---
 
 ```{=html}
-<nav class="tracker" aria-label="Seven steps for designing an RCT"><span class="on" aria-current="step">Step 1</span><span><a href="02.02-eval_questions.qmd" title="Step 2: define learning questions">Step 2</a></span><span><a href="02.04-indicators.qmd" title="Step 3: determine relevant indicators">Step 3</a></span><span><a href="02.03-assess.qmd" title="Step 4: check whether an RCT is feasible">Step 4</a></span><span><a href="02.05-data_sources.qmd" title="Step 5: identify available data sources">Step 5</a></span><span><a href="02.06-data_collect.qmd" title="Step 6: collect data">Step 6</a></span><span><a href="02.07-data_quality.qmd" title="Step 7: ensure high-quality data">Step 7</a></span></nav>
+<nav class="tracker" aria-label="Seven steps for designing an RCT"><span class="on" aria-current="step">Step 1</span><span><a href="02.02-eval_questions.qmd" title="Step 2: define learning questions">Step 2</a></span><span><a href="02.03-indicators.qmd" title="Step 3: determine relevant indicators">Step 3</a></span><span><a href="02.04-assess.qmd" title="Step 4: check whether an RCT is feasible">Step 4</a></span><span><a href="02.05-randomisation.qmd" title="Step 5: how to randomise">Step 5</a></span><span><a href="02.06-data_sources.qmd" title="Step 6: identify available data sources">Step 6</a></span><span><a href="02.07-data_collect.qmd" title="Step 7: collect data">Step 7</a></span><span><a href="02.08-data_quality.qmd" title="Step 8: ensure high-quality data">Step 8</a></span>
+</nav>
 ```
 
 ::: {.team-note}
