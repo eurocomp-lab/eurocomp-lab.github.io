@@ -23,7 +23,7 @@ Quality assurance in a randomised controlled trial (RCT) operates at three level
 
 The most effective quality controls are the ones built into the data collection instrument and process before a single interview takes place.
 
-**Programme validation rules into the digital form.** Every digital survey should include mandatory fields for key variables, range checks (flagging implausible values such as negative employment or turnover greater than a plausible ceiling), logical consistency checks (for example, R&D expenditure cannot exceed total costs), and skip logic that prevents respondents from reaching questions that do not apply to them. These rules catch errors at the point of entry, before they enter the dataset.
+**Intervention validation rules into the digital form.** Every digital survey should include mandatory fields for key variables, range checks (flagging implausible values such as negative employment or turnover greater than a plausible ceiling), logical consistency checks (for example, R&D expenditure cannot exceed total costs), and skip logic that prevents respondents from reaching questions that do not apply to them. These rules catch errors at the point of entry, before they enter the dataset.
 
 **Pilot the questionnaire.** As described in Step 6, no questionnaire should go to the field untested. The pilot should specifically assess whether questions produce consistent, interpretable answers - not just whether they are understood. If two respondents from similar firms give very different answers to the same question, the wording may be ambiguous even if both respondents felt they understood it.
 
