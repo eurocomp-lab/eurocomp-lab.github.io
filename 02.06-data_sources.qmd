@@ -88,5 +88,5 @@ A data-sharing agreement between the managing authority and the data-holding bod
 ***
 
 ::: {.nav-buttons}
-[← Previous - Step 5: check whether an RCT is feasible](02.04-assess.qmd) | [Next - Step 8: collect data →](02.08-data_collect.qmd)
+[← Previous - Step 5: how to randomise](02.05-randomisation.qmd) | [Next - Step 7: collect data →](02.07-data_collect.qmd)
 :::
