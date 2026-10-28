@@ -87,7 +87,7 @@ Lessons learned from projects within the EuroCOMP Lab inform about potential way
 
 Standard outreach channels might fail to reach the units that the interventions are designed to serve. Thus, it is important to invest resources in outreach and experimenting with different innovative outreach approaches. Measuring which ones work can significantly expand the eligible pool and improve the quality of applications.
 
-In cohesion policy programmes targeted to firms, standard outreach channels - newsletters, social media posts, agency websites - consistently fail to reach the firms that the interventions are designed to serve. Firms without prior experience of EU funding, smaller firms, and firms in rural or remote areas are systematically less likely to apply, not because they are ineligible but because they do not know the intervention exists or lack the resources to navigate the application process. In this case, effective outreach might require direct, personalised engagement: in-person events, road trips to municipalities, collaboration with mayors and local business associations, and hands-on application support. 
+For interventions targeted to firms, standard outreach channels - newsletters, social media posts, agency websites - consistently fail to reach the firms that the interventions are designed to serve. Firms without prior experience of EU funding, smaller firms, and firms in rural or remote areas are systematically less likely to apply, not because they are ineligible but because they do not know the intervention exists or lack the resources to navigate the application process. In this case, effective outreach might require direct, personalised engagement: in-person events, road trips to municipalities, collaboration with mayors and local business associations, and hands-on application support. 
 
 
 ::: {.example .romania data-map="romania-ne"}
@@ -147,9 +147,9 @@ In Romania, the pre-assessment survey was designed to do three jobs simultaneous
 <details class="myth-box">
 <summary>Use the application process to exchange information</summary>
 
-The application process is typically treated as a one-way flow of information: units submit data to the managing authority. In practice, it can also be a vehicle for delivering useful information and tools to firms - raising awareness about a topic (digitalisation, innovation, energy efficiency), helping firms identify investment needs, and providing benchmarks that inform business decisions regardless of whether the firm is selected for support.
+The application process is usually treated as a one-way flow of information, with applicants submitting data to the managing authority. In practice, it can also deliver useful information and tools back to applicants. Doing so can make applicants more engaged during the process and help selected unit make better decisions about which activities to prioritize. It can also improve the experience of units that are not selected, who are more likely to view the process positively even without being selected.
 
-Firms that receive useful information during the application process are more engaged, better prepared to make investment decisions if selected, and more likely to view the experience positively even if they are not funded.
+For interventions targeted to firms, the application process could be used to raise awareness about a specifc topic (e.g. digitalisation, innovation, energy efficiency) among firms, helping firms identify investment needs, and providing benchmarks that inform business decisions regardless of whether the firm is selected for support. 
 
 ::: {.example .case data-map="croatia"}
 [Croatia]{.tag}
