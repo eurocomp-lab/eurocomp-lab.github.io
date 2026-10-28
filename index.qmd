@@ -271,7 +271,7 @@ The joint DG REGIO and World Bank initiative behind this site.
 :::
 ::: {.card-e}
 #### [Other partners](research-partners.qmd)
-Established labs already supporting experimentation.
+Research labs that can support your evaluation, and peers already running experiments.
 :::
 ::::
 

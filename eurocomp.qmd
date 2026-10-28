@@ -5,11 +5,39 @@ description-meta: "Learn how the EuroCOMP Lab, a joint initiative of the Europea
 
 ::: {.team-note}
 ## Summary {.unlisted}
-This page gives an overview over the European Regional Competitiveness Policy Lab (EuroCOMP Lab).
+The European Regional Competitiveness Policy Lab (EuroCOMP Lab) is a joint initiative of the European Commission's Directorate-General for Regional and Urban Policy (DG REGIO) and the World Bank Group. It embeds rigorous, randomised experimentation in European Union (EU) Member States' investments in competitiveness programmes under Cohesion Policy, so the EU can learn what works, for whom, and why.
 :::
-The EuroCOMP Lab is a joint initiative of the European Commission's Directorate-General for Regional and Urban Policy (DG REGIO) and the World Bank Group. It embeds rigorous, randomised experimentation in European Union (EU) Member States' investments in competitiveness programmes under Cohesion Policy, so the EU can learn what works, for whom, and why.
 
-***
+:::: {.cards .results .glance}
+::: {.card-e}
+[4 years]{.num}
+
+**Programme length**
+
+A partnership of DG REGIO and the World Bank Group.
+:::
+::: {.card-e}
+[27]{.num}
+
+**Member States invited**
+
+With a focus on lagging countries and regions.
+:::
+::: {.card-e}
+[13]{.num}
+
+**Randomised controlled trials**
+
+Policy lessons and insights across both phases.
+:::
+::: {.card-e}
+[4]{.num}
+
+**Workstreams**
+
+From new evidence to measuring competition.
+:::
+::::
 
 ## See it in action
 
@@ -21,17 +49,56 @@ programmes across Europe.
 {{< video https://youtu.be/yeEmFmDABIk title="Introducing the EuroCOMP Lab" aspect-ratio="16x9" >}}
 :::
 
+## What the EuroCOMP Lab does {data-part="Part 1 of 3 · The Lab"}
 
-## The EU must become more competitive
+DG REGIO and the World Bank are expanding their partnership on learning about the competitiveness agenda through the development of the EuroCOMP Lab. Its objective is to embed innovative experimental approaches in Member States' investments in competitiveness programmes, with a focus on regional impacts. This second round of investment in rigorous policy experimentation supports Cohesion Policy's competitiveness agenda, with a focus on new strategic and nimble innovations, as well as further institutional strengthening and cross-regional learning.
 
-To achieve greater productivity and to address a growing competitiveness gap with other leading economies, Europe must undergo a radical transformation. This gap, particularly compared with the United States and China, has been increasingly evident. In 2021, for instance, EU companies have spent about half as much on Research and Innovation (R&I) as a share of Gross Domestic Product (GDP) as US companies. Increased funding alone will not close this gap.
+The EuroCOMP Lab finances three types of activities:
+
+- new (nimble and strategic) randomised controlled trials (RCTs) in competitiveness programmes across Europe
+- improved mechanisms and platforms for learning between networks of researchers, policymakers, and implementers in the EU
+- knowledge generation about what works in the medium to long term, including through the use of administrative data
+
+By embedding innovative experimental approaches in Member States' investments in competitiveness programmes, the project supports institutional strengthening and cross-regional learning, which will be critical for future competitiveness operations in Europe. The work generates innovative and rigorous policy experiments in areas such as green and digital transformation, setting the framework for future coordination and improvement of the policy mix in competitiveness programmes and interventions over time.
+
+The studies designed in this project also contribute to a larger, global body of evidence on how to foster competitive markets, address market failures such as information asymmetries and behavioural biases, and adequately support and target private sector investment. The knowledge gained is intended for use in other regions too, enabling the World Bank to apply findings and lessons learned to enhance the effectiveness and impact of its operations globally.
+
+## Building on earlier work
+
+An important first step towards embedding experimentation within Cohesion Policy funds was made through the cooperation between DG REGIO and the World Bank.
+
+An open call for interested Managing Authorities in EU Member States working on the competitiveness agenda drew a strong response. The Strengthening of Monitoring and Evaluation of EU Innovation Programmes project, informally known as 'Smart M&E', then provided technical assistance for designing and setting up five innovative policy experiments in four Member States. This was possible thanks to considerable investment in building local and institutional capacities.
+
+DG REGIO also supported policy experimentation on mechanisms to increase digitalisation among small and medium-sized enterprises (SMEs) in three further Member States, under the 'Digitrans' project. Together, these projects initiated an ambitious, strategic agenda that is helping Managing Authorities learn through policy experiments about the impact of competitiveness programmes.
+
+The [Examples](03-examples.qmd) page describes several of these experiments.
+
+## How it works
+
+The programme runs for four years. All EU Member States are invited to take part, with a focus on lagging countries and regions.
+
+Work with Member States includes technical assistance for better programming: reviewing theories of change, bringing good global practices to the EU, and supporting the design of outreach, targeting, and actionable, informative monitoring systems. The project works closely with external researchers, with a clear emphasis on capacity building, leveraging the existing evaluation network developed by DG REGIO, and offering on-demand support to regional authorities on introducing experimental learning into policymaking.
+
+The World Bank focuses on analytical and advisory work, while implementation remains the responsibility of Member States. Wherever possible, impacts are assessed at sub-regional level, for example comparing capital cities with other regions, reflecting a clear mandate of DG REGIO's focus under Cohesion Policy.
+
+## The programme's four workstreams
+
+The project follows a programmatic approach, given the complexity of the task and the need to sequence support to Member States. The work is organised into four workstreams. Across both phases, the first three will generate policy lessons and insights from 13 RCTs:
+
+- **Workstream 1** generates new rigorous evidence on how to design Cohesion Policy programmes more effectively and efficiently.
+- **Workstream 2** fosters new connections and improved mechanisms and platforms for learning between networks of researchers, policymakers, and implementers in the EU.
+- **Workstream 3** follows up on the medium- to long-term impacts of ongoing RCTs under the Smart M&E and Digitrans projects.
+- **Workstream 4** aims to enhance the understanding and measurement of competition levels, providing insights to support evidence-based decision-making. By identifying key influencing factors and analysing barriers to market competition, it focuses on the case study of EU public procurement.
+
+## The EU must become more competitive {data-part="Part 2 of 3 · Why it matters"}
+
+To achieve greater productivity and to address a growing competitiveness gap with other leading economies, Europe must undergo a radical transformation. This gap, particularly compared with the United States and China, has been increasingly evident. In 2021, for instance, EU companies spent about half as much on Research and Innovation (R&I) as a share of Gross Domestic Product (GDP) as US companies. Increased funding alone will not close this gap.
 
 For the past two decades, the EU's top three investors in R&I have consistently been automotive companies, which mirrors the early 2000s in the US. While top investors in the US have recently shifted to the tech sector, EU companies continue to cite regulatory burden as an obstacle to investing in this sector.
 
 Recent EU reports point to the need for a significant acceleration in technological and scientific innovation: enhancing commercialisation, and removing obstacles that hinder the growth, competitiveness, and financing of innovative companies. They highlight the need for policies that are better tailored to regional needs, implemented more quickly, simplified, and more strongly linked to performance.
 
 Alongside the EU's shrinking workforce, stagnant productivity growth, and rising public debt, its GDP growth is otherwise predicted to stall by 2050. This could force Europe to abandon key goals such as decarbonisation, digitalisation, or defence, leaving many regions struggling to progress further towards high-income status.
-
 
 ## Why more funding for Cohesion Policy alone is not enough
 
@@ -53,7 +120,6 @@ A prime example of this challenge is the EU's inefficient use of funds, reflecte
 
 For the EU to compete globally, it must ensure that the funding invested by Member States reaches those in need while yielding substantial returns. This implies continuous policy improvements and their agile adaptation to changing circumstances. Evidence-based decision-making is essential for enhancing competition, economic growth, and social cohesion in the EU, with areas such as bureaucratic simplification and more effective public procurement serving as key examples.
 
-
 ## Knowledge about Cohesion Policy's impact is limited
 
 Despite large investments, little is known about the (causal) impacts of Cohesion Policy programmes and implementation approaches. Despite its long history of investments to improve regional competitiveness, and of Cohesion Policy evaluations, the EU's methodological toolkit for policy evaluation is dominated by qualitative and ex-post evaluations completed long after investments have been made. Recent systematic reviews point to the need for more objective evaluations of the considerable public investments made into the EU's Cohesion Policy.
@@ -64,43 +130,13 @@ Only about 3% of the 2,940 EU evaluations to date provide insights into the retu
 
 In this context, it is difficult to incorporate lessons from past programmes and investments to improve the effectiveness of future ones. Interviews with Managing Authority representatives reveal that evaluations are often perceived as a formal, costly obligation with unclear benefits.
 
-
 ## Increasing competitiveness through learning what works
 
 Increasing competitiveness in the EU requires improving the effectiveness of investments under Cohesion Policy through learning what works better. The challenges faced by lagging regions require policy experimentation, trial-and-error, learning, and course-correcting when it matters most.
 
 Experimental policy learning that relies on RCTs and other rigorous evaluation methods, followed by adequate stock-taking of what works, can help fill the current learning and policy innovation gap in Cohesion Policy's competitiveness programmes. In the same way that companies invest in Research and Development (R&D) to identify the most successful products to scale up, evaluations can help identify novel interventions and the conditions under which the returns to current investments can be maximised.
 
-
-## Building on earlier work
-
-An important first step towards embedding experimentation within the Cohesion Funds was made through the cooperation between DG REGIO and the World Bank.
-
-After a strong response to an open call for interested Managing Authorities in EU Member States working on the competitiveness agenda, the Strengthening of Monitoring and Evaluation of EU Innovation Programmes project, informally known as 'Smart M&E', provided technical assistance for designing and setting up five innovative policy experiments in four Member States. This was possible thanks to considerable investment in building local and institutional capacities.
-
-DG REGIO also supported policy experimentation on mechanisms to increase digitalisation among small and medium-sized enterprises (SMEs) in three further Member States, under the 'Digitrans' project. Together, these projects initiated an ambitious, strategic agenda that is helping Managing Authorities learn through policy experiments about the impact of competitiveness programmes.
-
-## What the EuroCOMP Lab does
-
-To continue strengthening this vision, DG REGIO and the World Bank are expanding their partnership on learning about the competitiveness agenda through the development of the EuroCOMP Lab. Its objective is to embed innovative experimental approaches in Member States' investments in competitiveness programmes, with a focus on regional impacts. This second round of investment in rigorous policy experimentation supports Cohesion Policy's competitiveness agenda, with a focus on new strategic and nimble innovations, as well as further institutional strengthening and cross-regional learning.
-
-The EuroCOMP Lab finances three types of activities:
-
-- new (nimble and strategic) randomised controlled trials (RCTs) in competitiveness programmes across Europe
-- improved mechanisms and platforms for learning between networks of researchers, policymakers, and implementers in the EU
-- knowledge generation about what works in the medium to long term, including through the use of administrative data
-
-By embedding innovative experimental approaches in Member States' investments in competitiveness programmes, the project supports institutional strengthening and cross-regional learning, which will be critical for future competitiveness operations in Europe. The work generates innovative and rigorous policy experiments in areas such as green and digital transformation, setting the framework for future coordination and improvement of the policy mix in competitiveness programmes and interventions over time.
-
-The studies designed in this project also contribute to a larger, global body of evidence on how to foster competitive markets, address market failures such as information asymmetries and behavioural biases, and adequately support and target private sector investment. The knowledge gained is intended for use in other regions too, enabling the World Bank to apply findings and lessons learned to enhance the effectiveness and impact of its operations globally.
-
-See here highlights from an event bringing together Managing Authorities, researchers, representatives from the European Commission and the World Bank to explore how experimentation can transform programmes on jobs, skills, and competitiveness: 
-
-::: {.video-frame}
-{{< video https://www.youtube.com/watch?v=ipRSNDSP4XQ title="Enhancing Cohesion Policy's impact for jobs, skills, and competitiveness - Berlin highlights" aspect-ratio="16x9" >}}
-:::
-
-## EuroCOMP Lab at EURegionsWeek 2026
+## EuroCOMP Lab at EURegionsWeek 2026 {data-part="Part 3 of 3 · Events"}
  
 Few places bring Europe's regional policy community together at this scale. EURegionsWeek 2026 gathered nearly 5,000 participants in Brussels, from policymakers and Managing Authorities to researchers and EU institutions, all asking: how can regional policy deliver more impact?
  
@@ -154,20 +190,10 @@ The timing matters: as Europe shapes the 2028–2034 budget, the decisions taken
 <p class="event-caption">EuroCOMP Lab workshop, European Week of Regions and Cities, Brussels, 12–14 October 2026. Photos: Louis David.</p>
 ```
 
-## How it works
+## Highlights from Berlin
 
-The programme runs for four years. All EU Member States are invited to take part, with a focus on lagging countries and regions.
+An event in Berlin brought together Managing Authorities, researchers, and representatives of the European Commission and the World Bank to explore how experimentation can transform programmes on jobs, skills, and competitiveness.
 
-Work with Member States includes technical assistance for better programming: reviewing theories of change, bringing good global practices to the EU, and supporting the design of outreach, targeting, and actionable, informative monitoring systems. The project works closely with external researchers, with a clear emphasis on capacity building, leveraging the existing evaluation network developed by DG REGIO, and offering on-demand support to regional authorities on introducing experimental learning into policymaking.
-
-The World Bank focuses on analytical and advisory work, while implementation remains the responsibility of Member States. Wherever possible, impacts are assessed at sub-regional level, for example comparing capital cities with other regions, reflecting a clear mandate of DG REGIO's focus under Cohesion Policy.
-
-## The programme's four workstreams
-
-The project follows a programmatic approach, given the complexity of the task and the need to sequence support to Member States. The work is organised into four workstreams. Across both phases, the first three will generate policy lessons and insights from 13 RCTs:
-
-- **Workstream 1** generates new rigorous evidence on how to design Cohesion Policy programmes more effectively and efficiently.
-- **Workstream 2** fosters new connections and improved mechanisms and platforms for learning between networks of researchers, policymakers, and implementers in the EU.
-- **Workstream 3** follows up on the medium- to long-term impacts of ongoing RCTs under the Smart M&E and Digitrans projects.
-- **Workstream 4** aims to enhance the understanding and measurement of competition levels, providing insights to support evidence-based decision-making. By identifying key influencing factors and analysing barriers to market competition, it focuses on the case study of EU public procurement.
-
+::: {.video-frame}
+{{< video https://www.youtube.com/watch?v=ipRSNDSP4XQ title="Enhancing Cohesion Policy's impact for jobs, skills, and competitiveness - Berlin highlights" aspect-ratio="16x9" >}}
+:::

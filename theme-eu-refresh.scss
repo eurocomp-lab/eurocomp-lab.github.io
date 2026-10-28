@@ -998,3 +998,87 @@ hr:has(+ .nav-buttons) { display: none; }
 #quarto-document-content .topic-nav > p:first-child a::before { content: "\2190\00a0"; }
 #quarto-document-content .topic-nav > p:first-child a:hover { text-decoration: underline; }
 #quarto-document-content .topic-nav > p + p { color: $rf-ink-soft; }
+
+/* ---------------------------------------------------------------
+   Batch 21 (October 2026): the About pages. Four key figures on the
+   EuroCOMP Lab page, the peer contacts grouped by country, and the
+   glossary as a list of terms and definitions with an A-Z bar.
+   --------------------------------------------------------------- */
+/* EuroCOMP Lab: the Lab at a glance, in one row (two on phones) */
+#quarto-document-content .cards.glance {
+  grid-template-columns: repeat(4, minmax(0, 1fr));
+  gap: .75rem;
+  margin: 1.5rem 0 2.5rem;
+}
+#quarto-document-content .cards.glance > .card-e { padding: .9rem 1rem 1rem; }
+#quarto-document-content .cards.glance > .card-e > p { margin: 0; }
+#quarto-document-content .cards.glance .num { display: block; margin-bottom: .3rem; }
+#quarto-document-content .cards.glance > .card-e > p:nth-child(2) { color: $rf-ink; font-size: .95rem; line-height: 1.35; }
+#quarto-document-content .cards.glance > .card-e > p:nth-child(3) { margin-top: .3rem; font-size: .85rem; line-height: 1.45; }
+@media (max-width: 767.98px) {
+  #quarto-document-content .cards.glance { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+}
+
+/* Research partners: one row per country, its organisations beside it (under it on phones) */
+#quarto-document-content .peer-contacts dl {
+  display: grid;
+  grid-template-columns: 7.5rem minmax(0, 1fr);
+  column-gap: .9rem;
+  margin: 0;
+}
+#quarto-document-content .peer-contacts dt {
+  grid-column: 1;
+  font-size: .74rem;
+  font-weight: 700;
+  letter-spacing: .08em;
+  line-height: 2;
+  text-transform: uppercase;
+  color: $rf-blue;
+}
+#quarto-document-content .peer-contacts dd { grid-column: 2; margin: 0 0 .3rem; font-size: .92rem; line-height: 1.5; color: $rf-ink-soft; }
+#quarto-document-content .peer-contacts dd p { margin: 0; }
+#quarto-document-content .peer-contacts dt:not(:first-child),
+#quarto-document-content .peer-contacts dt:not(:first-child) + dd { margin-top: .55rem; }
+@media (max-width: 575.98px) {
+  #quarto-document-content .peer-contacts dl { grid-template-columns: minmax(0, 1fr); }
+  #quarto-document-content .peer-contacts dd { grid-column: 1; }
+  #quarto-document-content .peer-contacts dt:not(:first-child) + dd { margin-top: 0; }   // the label sits right above its organisations
+}
+
+/* Glossary (body-classes: glossary): the A-Z bar, then each term beside its definition */
+.glossary #quarto-document-content .az { margin: 1.75rem 0 .5rem; max-width: 50rem; }
+/* all 26 letters in one row (two rows of 13 on phones) */
+.glossary #quarto-document-content .az > p { display: grid; grid-template-columns: repeat(26, minmax(0, 1fr)); gap: .25rem; margin: 0; }
+.glossary #quarto-document-content .az :is(a, .off) {
+  display: grid;
+  place-items: center;
+  height: 2.1rem;
+  border-radius: 6px;
+  font-size: .92rem;
+  font-weight: 700;
+  text-decoration: none;
+}
+.glossary #quarto-document-content .az a { background: $rf-pale; color: $rf-blue; }
+.glossary #quarto-document-content .az a:hover { background: $rf-blue; color: #FFFFFF; }
+.glossary #quarto-document-content .az .off { color: #8A929C; }   // letters with no terms yet
+.glossary #quarto-document-content section.level2 > h2 { margin-top: 2.75rem; color: $rf-blue; }
+.glossary #quarto-document-content dl {
+  display: grid;
+  grid-template-columns: 13rem minmax(0, 1fr);
+  margin: 0;
+  max-width: 50rem;
+}
+.glossary #quarto-document-content :is(dt, dd) {
+  margin: 0;
+  padding: .8rem 0 .85rem;
+  border-top: 1px solid $rf-rule;
+}
+.glossary #quarto-document-content dt { grid-column: 1; padding-right: 1.25rem; font-weight: 700; line-height: 1.45; color: $rf-ink; }
+.glossary #quarto-document-content dd { grid-column: 2; line-height: 1.6; }
+.glossary #quarto-document-content dd p { margin: 0; }
+@media (max-width: 767.98px) {
+  .glossary #quarto-document-content .az > p { grid-template-columns: repeat(13, minmax(0, 1fr)); }
+  .glossary #quarto-document-content dl { grid-template-columns: minmax(0, 1fr); }
+  .glossary #quarto-document-content dt { padding-bottom: .25rem; }
+  .glossary #quarto-document-content dd { grid-column: 1; padding-top: 0; border-top: 0; }
+}
