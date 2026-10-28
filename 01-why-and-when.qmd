@@ -1,8 +1,7 @@
 ---
 title: "Why and when to use a randomised controlled trial"
-description-meta: " Learn what the impact of an intervention is, how randomised controlled trials (RCTs) estimate it and when to plan an RCT or use another evaluation method."
+description-meta: "Learn what the impact of an intervention is, how randomised controlled trials (RCTs) estimate it and when to plan an RCT or use another evaluation method."
 ---
-
 
 ::: {.team-note}
 ## Summary {.unlisted}
@@ -44,161 +43,25 @@ A randomised controlled trial (RCT) assigns eligible participants at random eith
 </nav>
 ```
 
-::: {.example .romania data-map="romania-ne"}
-[The running example: North&#8209;East Romania]{.tag}
+## What is the real impact of an intervention? {#counterfactual data-part="Part 1 of 3 · What impact is"}
 
-Throughout this site, we come back to one programme developed as part of the [EuroCOMP
-Lab](eurocomp.qmd) to show these ideas in practice: a digitalisation grant scheme for
-micro, small and medium enterprises (MSMEs) in North-East Romania, run by the Regional
-Development Agency with World Bank support.
+**Definition.** Impact is what happens after an intervention is introduced, minus what would
+have happened in its absence: the counterfactual.
 
-```{=html}
-<div class="facts">
-  <div><div class="k">The programme</div><div class="v">EU-funded grants of EUR 15,000&ndash;100,000 for digital tools, equipment, and services</div></div>
-  <div><div class="k">Where</div><div class="v">North-East Romania; run by the regional development agency with World Bank support</div></div>
-  <div><div class="k">Who is randomised</div><div class="v">Firms: 1,038 eligible MSMEs, pre-screened via an online application survey</div></div>
-  <div><div class="k">The design</div><div class="v">Lottery into a treatment group (grants) and a comparison group (no grants): 519 vs. 519, drawn before a notary</div></div>
-  <div><div class="k">Outcomes tracked</div><div class="v">Digital adoption (DESI score), revenues, profits, employment, productivity</div></div>
-  <div><div class="k">Starting point</div><div class="v">Average DESI score of 4.3 out of 12; 67% of firms name lack of finance as their main obstacle</div></div>
-</div>
-```
-
-## Key steps
-
-```{=html}
-<div class="flow">
-  <div>Application survey</div>
-  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
-  <div>Lottery (randomisation)</div>
-  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
-  <div>Digitalisation grants</div>
-  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
-  <div>Follow-up surveys</div>
-  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
-  <div>Analysis</div>
-</div>
-```
-This site returns to this running example at each step: [what impact means here](#counterfactual),
-[how the lottery created a comparison group](#rct), [how the draw was made
-transparent](#legitimacy), and [how outreach was tested](#two-questions) to illustrate the concepts covered.
-
-[Read the full example, including its short-term results](03-examples.qmd#romania-north-east-digitalisation).
-
-:::
-
-## What is impact evaluation for? {#impact-evaluation data-part="Part 1 of 3 · What impact evaluation is"}
-
-```{=html}
-<figure class="fig-e">
-<svg class="fig-wide" viewBox="0 0 660 250" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Impact evaluation splits into policy learning and accountability; accountability splits into financial accountability and performance and impact accountability">
-  <rect x="200" y="14" width="260" height="34" rx="5" fill="var(--dg-ink)"/>
-  <text x="330" y="36" text-anchor="middle" fill="var(--dg-reverse)" font-size="14" font-weight="bold">Impact evaluation</text>
-
-  <path d="M330 48 V72 H170 V96" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
-  <path d="M330 48 V72 H490 V96" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
-
-  <rect x="60" y="96" width="220" height="34" rx="5" fill="var(--dg-accent)"/>
-  <text x="170" y="118" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5" font-weight="bold">Policy learning</text>
-
-  <path d="M170 130 V176" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
-
-  <rect x="380" y="96" width="220" height="34" rx="5" fill="var(--dg-accent)"/>
-  <text x="490" y="118" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5" font-weight="bold">Accountability</text>
-
-  <path d="M490 130 V152 H414 V176" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
-  <path d="M490 130 V152 H566 V176" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
-
-  <rect x="60" y="176" width="220" height="52" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="170" y="197" text-anchor="middle" fill="var(--dg-ink)" font-size="12">What works, for whom,</text>
-  <text x="170" y="213" text-anchor="middle" fill="var(--dg-ink)" font-size="12">under what conditions</text>
-
-  <rect x="344" y="176" width="140" height="52" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="414" y="197" text-anchor="middle" fill="var(--dg-ink)" font-size="12">Financial</text>
-  <text x="414" y="213" text-anchor="middle" fill="var(--dg-ink)" font-size="12">accountability</text>
-
-  <rect x="496" y="176" width="140" height="52" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="566" y="197" text-anchor="middle" fill="var(--dg-ink)" font-size="12">Performance</text>
-  <text x="566" y="213" text-anchor="middle" fill="var(--dg-ink)" font-size="12">and impact</text>
-</svg>
-<svg class="fig-phone" viewBox="0 0 360 316" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Impact evaluation splits into policy learning and accountability; accountability splits into financial accountability and performance and impact accountability">
-  <rect x="10" y="10" width="340" height="40" rx="5" fill="var(--dg-ink)"/>
-  <text x="180" y="35" text-anchor="middle" fill="var(--dg-reverse)" font-size="15" font-weight="bold">Impact evaluation</text>
-  <path d="M24 50 V196 M24 84 H36 M24 196 H36" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
-
-  <rect x="36" y="66" width="314" height="36" rx="5" fill="var(--dg-accent)"/>
-  <text x="193" y="89" text-anchor="middle" fill="var(--dg-ink)" font-size="14" font-weight="bold">Policy learning</text>
-  <path d="M52 102 V134 H64" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
-  <rect x="64" y="116" width="286" height="36" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="207" y="138" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5">What works, for whom, under what conditions</text>
-
-  <rect x="36" y="178" width="314" height="36" rx="5" fill="var(--dg-accent)"/>
-  <text x="193" y="201" text-anchor="middle" fill="var(--dg-ink)" font-size="14" font-weight="bold">Accountability</text>
-  <path d="M52 214 V292 M52 246 H64 M52 292 H64" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
-  <rect x="64" y="228" width="286" height="36" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="207" y="250" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5">Financial accountability</text>
-  <rect x="64" y="274" width="286" height="36" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="207" y="296" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5">Performance and impact</text>
-</svg>
-<figcaption>Note: policy learning feeds back into programme design, helping develop more effective policies. Accountability refers to both: what the money was spent on and what impact the money achieved to ensure efficient use of public funds.</figcaption>
-</figure>
-```
-
-## Monitoring and evaluation (M&E) vs impact evaluation {#monitoring}
-
-::: {.compare}
-::: {.col-e}
-::: {.col-head}
-M&E
-:::
-::: {.body}
-Collect data on inputs, outputs, outcomes and participants to
-
-- Improve day-to-day management and decisions
-- Make descriptive before and after comparisons
-:::
-::: {.verdict}
-Describes what is happening, but not whether it is because of the intervention.
-:::
-:::
-::: {.col-e}
-::: {.col-head}
-Impact evaluation
-:::
-::: {.body}
-Collect data on participants and comparison groups to
-
-- Find the causal impact of a programme
-- Find the most effective way to deliver a programme
-- Support cost-benefit analysis
-:::
-::: {.verdict}
-Determines impact in a way that can only be attributed to the programme, by
-establishing what would have happened without it.
-:::
-:::
-:::
-
-Monitoring and impact evaluation are complements, not alternatives. An impact evaluation should not go ahead without solid monitoring data: who applied, who was selected, who was contracted, and what they invested in. Without that, you cannot tell whether a programme had no effect or was simply never implemented as planned.
-
-## What exactly is the impact of a programme? {#counterfactual}
-
-**Definition.** Impact is what happens after a programme is introduced, minus what would
-have happened in its absence, the counterfactual.
-
-**The dilemma.** The counterfactual is a "what if" and is unknown to us. Ideally, we would observe the same applicant twice, once with the programme and once without
-it, and compare. That is impossible: each applicant either takes part or does not. Every
+**The dilemma.** The counterfactual is a "what if" and cannot be observed. Ideally, the same applicant would be observed twice, once with the intervention and once without
+it, and the two compared. That is impossible: each applicant either takes part or does not. Every
 impact evaluation method is a way of approximating that missing second observation.
 
-**The solution.** Find a way to construct the counterfactual so impact can be measured.
-This can be done in different ways. The page shows different methods of constructing the counterfactual and explains why RCTs are considered the gold standard. 
+**The solution.** Impact evaluation methods differ in how they estimate the counterfactual.
+This page explains the main approaches and the role of RCTs among them.
 
 ```{=html}
 <figure class="fig-e">
-<svg viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Line chart showing actual outcomes rising faster than the counterfactual after an intervention, with the gap labelled impact">
+<svg viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Line chart showing actual results rising faster than the counterfactual after an intervention, with the gap labelled impact">
   <line x1="80" y1="250" x2="620" y2="250" stroke="var(--dg-line)" stroke-width="1.5"/>
   <line x1="80" y1="30" x2="80" y2="250" stroke="var(--dg-line)" stroke-width="1.5"/>
   <text x="350" y="278" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12">Time</text>
-  <text x="62" y="140" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12" transform="rotate(-90 62 140)">Outcome</text>
+  <text x="62" y="140" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12" transform="rotate(-90 62 140)">Result</text>
 
   <line x1="300" y1="30" x2="300" y2="250" stroke="var(--dg-ink-soft)" stroke-width="1.5" stroke-dasharray="5 4"/>
   <text x="300" y="22" text-anchor="middle" fill="var(--dg-ink)" font-size="12" font-weight="bold">Intervention</text>
@@ -213,77 +76,28 @@ This can be done in different ways. The page shows different methods of construc
   <text x="500" y="40" fill="var(--dg-ink)" font-size="12" font-weight="bold">Actual</text>
   <text x="500" y="145" fill="var(--dg-ink-soft)" font-size="12">Counterfactual</text>
 </svg>
-<figcaption>Note: impact is the causal effect of the programme: the gap between what happened with it and what would have happened in its absence.</figcaption>
+<figcaption>Note: impact is the causal effect of the intervention: the gap between what happened with it and what would have happened in its absence.</figcaption>
 </figure>
 ```
 
-### Impact is measured using outcomes
+### From outputs to results
 
-When evaluating projects, often only outputs are assessed, because they are the easiest
-thing to count. Measuring impact means moving from counting outputs to measuring outcomes.
+Impact evaluation looks beyond what an intervention delivers to what changes because of it. In cohesion policy, these two levels are tracked with output and result indicators.
 
 ::: {.cards}
 ::: {.card-e}
 #### Outputs
-What a programme delivers.
-For example, grants disbursed, firms enrolled, training sessions run.
+What an intervention delivers.
+For example, grants disbursed, participants enrolled, training sessions run.
 :::
 ::: {.card-e}
-#### Outcomes
+#### Results
 What changes because of it.
-For example, growth, jobs, innovation, resilience.
+For example, employment, skills, energy savings, firm growth.
 :::
 :::
 
-
-
-::: {.example .romania data-map="romania-ne"}
-[The impact in the North&#8209;East Romania programme]{.tag}
-
-For North-East Romania, the impact is the gap between treatment and comparison firms on
-four tracked outcomes: digital adoption, revenue, employment, and productivity.
-
-```{=html}
-<figure class="fig-e">
-<svg class="fig-wide" viewBox="0 0 620 142" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Four outcomes tracked for North-East Romania: digital adoption, revenue, employment and productivity">
-  <rect x="10" y="10" width="294" height="56" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
-  <text x="26" y="32" fill="#2B2724" font-size="12.5" font-weight="bold">Digital adoption</text>
-  <text x="26" y="50" fill="#6B6455" font-size="10.5">Measured with the DESI framework</text>
-
-  <rect x="316" y="10" width="294" height="56" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
-  <text x="332" y="32" fill="#2B2724" font-size="12.5" font-weight="bold">Revenue</text>
-  <text x="332" y="50" fill="#6B6455" font-size="10.5">Turnover and growth over the period</text>
-
-  <rect x="10" y="76" width="294" height="56" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
-  <text x="26" y="98" fill="#2B2724" font-size="12.5" font-weight="bold">Employment</text>
-  <text x="26" y="116" fill="#6B6455" font-size="10.5">Headcount and job creation</text>
-
-  <rect x="316" y="76" width="294" height="56" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
-  <text x="332" y="98" fill="#2B2724" font-size="12.5" font-weight="bold">Productivity</text>
-  <text x="332" y="116" fill="#6B6455" font-size="10.5">Output relative to inputs</text>
-</svg>
-<svg class="fig-phone" viewBox="0 0 300 226" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Four outcomes tracked for North-East Romania: digital adoption, revenue, employment and productivity">
-  <rect x="1" y="1" width="298" height="50" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
-  <text x="15" y="22" fill="#2B2724" font-size="12.5" font-weight="bold">Digital adoption</text>
-  <text x="15" y="39" fill="#6B6455" font-size="10.5">Measured with the DESI framework</text>
-
-  <rect x="1" y="59" width="298" height="50" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
-  <text x="15" y="80" fill="#2B2724" font-size="12.5" font-weight="bold">Revenue</text>
-  <text x="15" y="97" fill="#6B6455" font-size="10.5">Turnover and growth over the period</text>
-
-  <rect x="1" y="117" width="298" height="50" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
-  <text x="15" y="138" fill="#2B2724" font-size="12.5" font-weight="bold">Employment</text>
-  <text x="15" y="155" fill="#6B6455" font-size="10.5">Headcount and job creation</text>
-
-  <rect x="1" y="175" width="298" height="50" rx="5" fill="#FFFDF7" stroke="#E4DCC6"/>
-  <text x="15" y="196" fill="#2B2724" font-size="12.5" font-weight="bold">Productivity</text>
-  <text x="15" y="213" fill="#6B6455" font-size="10.5">Output relative to inputs</text>
-</svg>
-</figure>
-```
-:::
-
-Before implementation, map out how a programme's activities are expected to change the problem you are addressing. That shows, in advance, why each step should lead to the next. That causal logic, the how and why behind each step, explains a programme's reason for existing. It also tells you what you need to measure in order to test whether the
+Before implementation, it helps to map out how an intervention's activities are expected to change the problem it addresses. This shows, in advance, why each step should lead to the next. That causal logic – the how and why behind each step – explains the intervention's reason for existing. It also shows what needs to be measured to test whether the
 expected change is actually happening.
 
 ```{=html}
@@ -294,34 +108,34 @@ expected change is actually happening.
   <span class="flow-arrow" aria-hidden="true">&rarr;</span>
   <div class="step"><b>Outputs</b></div>
   <span class="flow-arrow" aria-hidden="true">&rarr;</span>
-  <div class="on"><b>Outcomes</b></div>
+  <div class="on"><b>Results</b></div>
 </div>
 ```
 
-But which outcomes should one look at exactly? A programme can change many things, and not all of them can or should be measured. To know which outcomes to look at, and when to expect them to change, start by spelling out how the programme is supposed to work: how its inputs and activities lead to outputs, and how those outputs are expected to lead to outcomes.
+But which results should be looked at exactly? An intervention can change many things, and not all of them can or should be measured. To know which results to look at, and when to expect them to change, the starting point is to spell out how the intervention is supposed to work: how its inputs and activities lead to outputs, and how those outputs are expected to lead to results.
 
 This chain is the foundation of a theory of change, and having thought it through helps
 in designing a strong impact evaluation. There is more on this in
-[Step 1: develop a Theory of Change](02.01-toc.qmd). 
+[Step 1: develop a Theory of Change](02.01-toc.qmd).
 
-Making the chain explicit also surfaces the assumptions behind each link, and shows which of them the programme's impact depends on most. If one of these assumptions does not hold (for example, that firms will take up the support they are offered), the programme may fall short of its intended impact. One way to reduce this risk is to test, within the same evaluation, alternative ways of addressing that weak link, such as two different outreach approaches, and see which works better.
+Making the chain explicit also surfaces the assumptions behind each link, and shows which of them the intervention's impact depends on most. If one of these assumptions does not hold (for example, that firms will take up the support they are offered), the intervention may fall short of its intended impact. One way to reduce this risk is to test, within the same evaluation, alternative ways of addressing that weak link, such as two different outreach approaches, and see which works better.
 
 ::: {.example .case #digitrans data-map="digitrans"}
 [Digitrans example]{.tag}
 The Digitrans pilot (see [Examples](03-examples.qmd#digitrans) for more details) tested and compared two alternative ways to increase digital adoption among MSMEs in Bulgaria, Poland and Slovakia. Firms were randomly assigned to either (i) a comparison group receiving no support, (ii) a financial subsidy alone, or (iii) the same subsidy paired with technical assistance.
 
 The pilot found that money alone was not the most effective approach. Firms that also received technical assistance used
-digital tools 2.5 times more intensively than those with the subsidy alone. This is evidence that capability, not just cash, was a constraint to digitalisation. 
+digital tools 2.5 times more intensively than those with the subsidy alone. This is evidence that capability, not just cash, was a constraint to digitalisation.
 :::
 
 ## What does good allocation of public resources look like? {#allocation}
 
-Return on public investment is the benefit attributable to a programme divided by its
-cost. "Attributable" requires knowing what the programme beneficiaries would have done in the absence of the programme (the counterfactual).
+Return on public investment is the benefit attributable to an intervention divided by its
+cost. "Attributable" requires knowing what the beneficiaries would have done in the absence of the intervention (the counterfactual).
 
-That is especially hard when beneficiaries are not assigned to programmes at random but are selected by the Managing Authority. Beneficiaries may differ from those that were not selected, e.g. they may be more motivated or have more resources. Most of these traits
-are never recorded in any database or questionnaire. When the beneficiaries later do better on the outcomes of interest than the applicants that were not selected,
-it is impossible to tell how much of that difference is due to the programme.
+That is especially hard when beneficiaries are not assigned at random but are selected by the managing authority. Beneficiaries may differ from those who were not selected; for example, they may be more motivated or have more resources. Most of these traits
+are never recorded in any database or questionnaire. When the beneficiaries later do better on the results of interest than the applicants that were not selected,
+it is impossible to tell how much of that difference is due to the intervention.
 
 Consider an illustrative innovation-grant scheme: EUR 50,000 to each of 100 firms, where
 "success" means launching a new product. Compare two selection rules.
@@ -341,7 +155,7 @@ Succeeded because of the grant: **15**
 Additionality rate: **19%**
 :::
 ::: {.verdict}
-Strategy A looks stronger at the first glance as it is associated with 80 successes but only 15 of these succeeded because of the grant.
+Strategy A looks stronger at first glance, as it is associated with 80 successes, but only 15 of these succeeded because of the grant.
 :::
 :::
 ::: {.col-e}
@@ -358,21 +172,21 @@ Succeeded because of the grant: **35**
 Additionality rate: **64%**
 :::
 ::: {.verdict}
-Strategy B causes 35 successes and thus is more impactful than A. 
+Strategy B causes 35 successes and thus has more impact than A.
 :::
 :::
 :::
 
-Raw success counts can be misleading. Programmes need to be judged on impact, not on raw success to evaluate their effectiveness.
+Raw success counts can be misleading. To assess effectiveness, interventions need to be judged on their impact rather than on raw success counts.
 
 ::: {.cards}
 ::: {.card-e}
-### Deadweight: low additionality {.unlisted}
-Additionality is the share of activity that would not have happened without the programme. Top performers would likely have invested anyway, so public funds mostly substitute for money they would have spent regardless - generating little that is truly additional per euro.
+### Paying for what would have happened anyway {.unlisted}
+Additionality here means the share of results that would not have happened without the intervention; support that pays for what would have happened anyway is often called deadweight. Top performers would likely have invested anyway, so public funds mostly substitute for money they would have spent regardless – generating little that is truly additional per euro.
 :::
 ::: {.card-e}
 ### Selection bias in measurement {.unlisted}
-Comparing funded, stronger firms with unfunded, weaker ones credits the programme with
+Comparing funded, stronger firms with unfunded, weaker ones credits the intervention with
 firms' pre-existing quality, not with what the grant did.
 :::
 ::: {.card-e}
@@ -384,7 +198,7 @@ that could not otherwise get funded.
 ### Can experts spot the marginal firm? {.unlisted}
 Evidence suggests not reliably. In a business plan competition in Nigeria, judges' scores
 did not predict which firms would survive or grow three years later (McKenzie & Sansone,
-2019; see [Common myths](index.qmd#common-myths-about-rcts)).
+2019; see [Common questions about RCTs](#common-questions)).
 :::
 :::
 
@@ -392,62 +206,56 @@ did not predict which firms would survive or grow three years later (McKenzie & 
 
 ## Finding the counterfactual  {#finding-counterfactual data-part="Part 2 of 3 · Why an RCT"}
 
-As [defined above](#counterfactual), the counterfactual is what would have happened to programme participants without the programme. It can never be observed directly, so it has to be estimated.
+As [defined above](#counterfactual), the counterfactual is what would have happened to participants without the intervention. It can never be observed directly, so it has to be estimated.
 
-**Strategy.** Find a group of firms that on average look like treated firms would have
-looked in the absence of the programme. This group is the comparison group.
+**Strategy.** Find a group that, on average, looks like the participants would have looked without the intervention. This group is the comparison group.
 
-There are two ways of estimating the counterfactual:
+Comparison groups can be formed in two ways, depending on how participants are assigned to the intervention:
 
 ::: {.compare}
 ::: {.col-e}
 ::: {.col-head}
-Ex-ante: Randomised controlled trials
+Random assignment: randomised controlled trials
 :::
 ::: {.body}
-Create the comparison group up front, by randomly assigning who receives the programme.
-Randomisation is what guarantees the two groups look the same on average.
+The comparison group is created before the intervention starts, by randomly assigning who receives it.
+Random assignment makes the two groups similar on average.
 :::
 :::
 ::: {.col-e}
 ::: {.col-head}
-Ex-post: quasi-experimental designs
+Non-random assignment: quasi-experimental methods
 :::
 ::: {.body}
-Look for a suitable comparison group after the programme has already been rolled out,
-using natural variation in who received the programme and who did not.
+Participants are selected in another way, for example through applications, scores or eligibility rules,
+and the comparison group is drawn from those who did not take part. It can be identified before the
+intervention starts (for example, with baseline data and a known selection rule) or after it has been rolled out.
 :::
 :::
 :::
 
 ::: {.caution}
-**Selection bias** is the risk that the comparison group does not actually look like the
-treatment group on average. If that assumption is wrong, the impact estimate is biased.
-:::
-
-::: {.example .romania data-map="romania-ne"}
-[North&#8209;East Romania: the counterfactual]{.tag}
-In North-East Romania, the counterfactual is the group of eligible firms that were not
-drawn in the lottery. [How the lottery created it](#rct).
+**Selection bias** arises when the comparison group differs from the participants in ways that also
+affect results. In that case, the impact estimate is biased.
 :::
 
 ## What is a randomised controlled trial? {#rct}
 
-**Intuition.** Randomly assign the programme so one group receives it (the treatment
-group) and one does not (the comparison group). Because the two groups start
-out the same, the comparison group's outcome shows what would have happened to the treatment
-group without the programme.
+**Intuition.** The intervention is assigned at random, so one group receives it (the treatment
+group) and one does not (the comparison group). Because the two groups are similar on average
+at the start, the comparison group's results show what would have happened to the treatment
+group without the intervention.
 
 ```{=html}
 <figure class="fig-e">
-<svg viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Treatment and comparison groups start at the same outcome level and diverge after the programme, with the gap labelled impact">
+<svg viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Treatment and comparison groups start at a similar level and diverge after the intervention starts, with the gap labelled impact">
   <line x1="80" y1="250" x2="620" y2="250" stroke="var(--dg-line)" stroke-width="1.5"/>
   <line x1="80" y1="30" x2="80" y2="250" stroke="var(--dg-line)" stroke-width="1.5"/>
   <text x="350" y="278" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12">Time</text>
-  <text x="62" y="140" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12" transform="rotate(-90 62 140)">Outcome</text>
+  <text x="62" y="140" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12" transform="rotate(-90 62 140)">Result</text>
 
   <line x1="300" y1="30" x2="300" y2="250" stroke="var(--dg-ink-soft)" stroke-width="1.5" stroke-dasharray="5 4"/>
-  <text x="300" y="22" text-anchor="middle" fill="var(--dg-ink)" font-size="12" font-weight="bold">Programme starts</text>
+  <text x="300" y="22" text-anchor="middle" fill="var(--dg-ink)" font-size="12" font-weight="bold">Intervention starts</text>
   <text x="190" y="270" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5">Pre</text>
   <text x="450" y="270" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5">Post</text>
 
@@ -456,7 +264,7 @@ group without the programme.
   <polyline points="300,190 390,182 480,174 570,166" fill="none" stroke="var(--dg-ink)" stroke-width="2.5"/>
 
   <circle cx="110" cy="200" r="5" fill="var(--dg-ink)"/>
-  <text x="122" y="184" fill="var(--dg-ink-soft)" font-size="11.5">Same starting point</text>
+  <text x="122" y="184" fill="var(--dg-ink-soft)" font-size="11.5">Similar starting point</text>
 
   <path d="M588 85 H596 M588 166 H596 M592 85 V166" stroke="var(--dg-ink)" stroke-width="1.5" fill="none"/>
   <text x="604" y="129" fill="var(--dg-ink)" font-size="13" font-weight="bold">Impact</text>
@@ -464,34 +272,66 @@ group without the programme.
   <text x="480" y="72" fill="var(--dg-ink)" font-size="12" font-weight="bold">Treatment group</text>
   <text x="480" y="200" fill="var(--dg-ink-soft)" font-size="12">Comparison group</text>
 </svg>
-<figcaption>Note: treatment and comparison groups start at the same outcome level and diverge after the programme, with the divergence being the impact of a programme.</figcaption>
+<figcaption>Note: treatment and comparison groups start at a similar level and diverge after the intervention starts; the gap between them is the impact of the intervention.</figcaption>
 </figure>
 ```
-Because assignment is decided by chance, the two groups are alike on average not only in characteristics you can measure, but also in those you cannot. Take the example of firms applying for a grant: randomising who receives the money means that, on average, the two groups look the same on observable characteristics such as size, sector or turnover, and also on unobservable ones such as management quality or motivation. Nothing should systematically differ between them except that some applicants were lucky in the draw and others were not. That is why no statistical adjustment for firm characteristics is needed to get a credible estimate.
+Because assignment is decided by chance, the two groups are similar on average not only in characteristics that can be measured but also in those that cannot. Take applicants for a grant: randomising who receives the money means that, on average, the two groups are similar in observable characteristics such as size, sector or turnover, and also in unobservable ones such as management quality or motivation. Apart from the luck of the draw, nothing should systematically differ between them. That is why, in a well-implemented RCT, no statistical adjustment for applicant characteristics is needed to obtain a credible estimate.
 
 ::: {.soft-panel}
 **What "random" means here.** Not randomly sampling a sub-population to study, but
-randomly deciding, among qualifying applicants, who receives the programme and who
+randomly deciding, among eligible applicants, who receives the intervention and who
 does not.
 :::
 
-**Advantage.** RCTs are considered the gold standard of quantitative impact evaluation
-because:
+**Strengths and requirements.** The Commission's [Better Regulation toolbox](https://commission.europa.eu/law/law-making-process/better-regulation/better-regulation-guidelines-and-toolbox/better-regulation-toolbox_en) (Tool #68) describes randomised controlled trials as "the benchmark for scientific quantitative methods". Their main strengths are:
 
-- No assumptions about outcome levels or trends between groups are necessary, as long as randomisation is implemented correctly
-- They deliver strong evidence
-- They are easy to interpret
+- No assumptions about levels or trends between groups are needed, as long as randomisation is implemented correctly
+- The estimate is simple to calculate and to explain: it is the difference in average results between the groups
+
+RCTs also have requirements. Random assignment has to be built into the selection process, usually before the intervention starts. Enough eligible participants are needed to detect an effect, and the assignment has to be respected during implementation. [When an RCT may not be the right choice](#when-not) discusses these limits.
 
 
-::: {.example .romania data-map="romania-ne"}
-[North&#8209;East Romania: the lottery and its comparison group]{.tag}
+::: {.example .romania #running-example data-map="romania-ne"}
+[Running example: North&#8209;East Romania]{.tag}
+
+Throughout this site, one intervention supported by the [EuroCOMP Lab](eurocomp.qmd)
+illustrates these ideas in practice: a digitalisation grant scheme for micro, small and
+medium enterprises (MSMEs) in North-East Romania, run by the Regional Development Agency
+with World Bank support.
+
+<div class="facts">
+  <div><div class="k">The intervention</div><div class="v">EU-funded grants of EUR 15,000&ndash;100,000 for digital tools, equipment and services</div></div>
+  <div><div class="k">Where</div><div class="v">North-East Romania; run by the regional development agency with World Bank support</div></div>
+  <div><div class="k">Who is randomised</div><div class="v">Firms: 1,038 eligible MSMEs, pre-screened via an online application survey</div></div>
+  <div><div class="k">The design</div><div class="v">Lottery into a treatment group (grants) and a comparison group (no grants): 519 vs. 519, drawn before a notary</div></div>
+  <div><div class="k">Results tracked</div><div class="v">Digital adoption (DESI score), revenues, profits, employment, productivity</div></div>
+  <div><div class="k">Starting point</div><div class="v">Average DESI score of 4.3 out of 12; 67% of firms name lack of finance as their main obstacle</div></div>
+</div>
+```
+
+**Key steps**
+
+```{=html}
+<div class="flow">
+  <div>Application survey</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Lottery (randomisation)</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Digitalisation grants</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Follow-up surveys</div>
+  <span class="flow-arrow" aria-hidden="true">&rarr;</span>
+  <div>Analysis</div>
+</div>
+```
 
 Firms first completed an online pre-assessment survey. The 1,038 firms that met the
 pre-set eligibility criteria all qualified. Because demand exceeded the budget, a public
 lottery decided which 519 would be invited to apply formally; the other 519 formed the
-comparison group.
+comparison group: they show what would have happened to the invited firms without the
+offer of a grant.
 
-Before any grants were awarded, the two groups were statistically identical:
+Before any grants were awarded, the two groups were similar on average:
 
 | | Not selected | Selected |
 |---|---|---|
@@ -501,7 +341,7 @@ Before any grants were awarded, the two groups were statistically identical:
 | Share in urban areas | 84% | 84% |
 
 
-Because the groups started out the same, the difference between them over time is the
+Because the groups were similar at the start, the difference between them over time is the
 impact of being invited to apply for the grant.
 
 ### The randomisation design {.unlisted}
@@ -559,27 +399,31 @@ impact of being invited to apply for the grant.
 <figcaption>Note: among eligible firms, which firms were invited to apply for a grant was randomly assigned.</figcaption>
 </figure>
 ```
+
+Later sections return to this example: [how the draw was made transparent](#legitimacy)
+and [how outreach was tested](#two-questions).
+[Read the full example, including its short-term findings](03-examples.qmd#romania-north-east-digitalisation).
 :::
 
-## Randomisation can improve legitimacy and trust in programmes {#legitimacy}
+## Randomisation can support transparency and trust {#legitimacy}
 
-Randomly selecting beneficiaries among eligible applicants is fair. When more applications are eligible than there is budget to fund, a lottery is a transparent way to decide who gets in. It treats every eligible applicant the same rather than relying on favouritism or timing.
+When more applications are eligible than the budget can fund, a lottery among eligible applicants is a transparent way to decide who receives support. It gives every eligible applicant the same chance, and the selection rule can be explained and verified in advance.
 
 Illustration:
 ```{=html}
 <div class="funnel">
   <figure>
-    <figcaption>Firms that apply</figcaption>
-    <div class="n">24 firms apply</div>
+    <figcaption>Applicants</figcaption>
+    <div class="n">24 apply</div>
     <div class="dots"><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span></div>
   </figure>
   <figure>
-    <figcaption>Firms that are eligible</figcaption>
+    <figcaption>Eligible applicants</figcaption>
     <div class="n">10 meet the threshold</div>
     <div class="dots"><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
   </figure>
   <figure>
-    <figcaption>Firms selected</figcaption>
+    <figcaption>Selected applicants</figcaption>
     <div class="n">4 are randomly selected</div>
     <div class="dots"><span class="b"></span><span class="a"></span><span class="a"></span><span class="b"></span><span class="a"></span><span class="b"></span><span class="a"></span><span class="a"></span><span class="b"></span><span class="a"></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span><span></span></div>
   </figure>
@@ -598,40 +442,40 @@ check that each firm met the formal criteria and that the requested funds were j
 
 [↑ Back to the overview](#page-overview){.back-to-cases}
 
-## What do you want to learn? {#two-questions data-part="Part 3 of 3 · When to use one"}
+## What is the learning question? {#two-questions data-part="Part 3 of 3 · When to use one"}
 
-Whether you have sufficient evidence that your programme works, or you are still working
-out who it reaches and how to design it, there is a case for experimentation. The starting
-question is whether the programme is working as well as it could be.
+Whether or not there is already good evidence that an intervention works, there can be a
+case for experimentation. The starting question is whether the intervention is working as
+well as it could be.
 
 ::: {.compare}
 ::: {.col-e}
 ::: {.col-head}
-Does the programme cause an effect at all?
+Does the intervention have an effect at all?
 :::
 ::: {.body}
-You do not yet know whether the programme works, or you are still working out
-who it reaches and how it should be designed before it starts. This requires finding a
-credible comparison group before the programme launches. Example: in North-East Romania,
-a lottery decided which eligible firms were invited to apply for a digitalisation grant,
-and the others formed the comparison group ([see above](#rct)).
+It is not yet known whether the intervention works, or who it reaches and how it should be
+designed. Answering this requires a credible comparison group, which for an RCT means
+randomising before the intervention launches. Example: in North-East Romania, a lottery
+decided which eligible firms were invited to apply for a digitalisation grant, and the
+others formed the comparison group ([see above](#running-example)).
 :::
 :::
 ::: {.col-e}
 ::: {.col-head}
-How do you deliver it better?
+How can it be delivered better?
 :::
 ::: {.body}
-You already know the programme works. The programme's implementation may already be ongoing. What you want to know is which version of the programme works
-best. Example: The [Digitrans example](#digitrans) compares whether a grant alone versus a grant combined with
-technical assistance performs best.
+There is already evidence that the intervention works, and implementation may already be under way. The question is which version of the intervention works
+best. Example: the [Digitrans example](#digitrans) compares a grant alone with a grant combined with
+technical assistance.
 :::
 :::
 :::
 
 ::: {.example .romania data-map="romania-ne"}
 [North&#8209;East Romania: testing outreach]{.tag}
-In fact, the North-East Romania programme asked both questions. It used an experiment to find out if the programme is effective and a second experiment to study how to best conduct outreach.
+The North-East Romania intervention asked both questions. It used one experiment to find out whether the grants were effective and a second to study how best to conduct outreach.
 Before the digitalisation call, the regional development agency randomly selected 26 of 46
 towns for in-person information visits, in which a consultant explained the call and
 helped firms complete the pre-assessment survey. The visited towns produced 110
@@ -652,25 +496,25 @@ significantly raised sales and profits.
 
 ```{=html}
 <figure class="fig-e">
-<svg class="fig-wide" viewBox="0 0 900 490" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Two decision paths from one question, what do you want to learn. To learn whether the programme causes an effect at all: if you can plan the evaluation from the outset and there is excess demand, run an RCT that compares the programme with no programme; without excess demand, use a phase-in RCT or quasi-experimental methods; if you cannot plan from the outset, use quasi-experimental methods. To learn how to deliver it better: every eligible firm gets the programme and an RCT compares one version with another, which can start once the programme is running.">
+<svg class="fig-wide" viewBox="0 0 900 490" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Two decision paths from one question: what is the learning question? To learn whether the intervention has an effect at all: if the evaluation can be planned from the outset and there is excess demand, an RCT can compare the intervention with no intervention, and quasi-experimental methods planned in advance are an alternative; without excess demand, a phase-in RCT or quasi-experimental methods; if the evaluation cannot be planned from the outset, quasi-experimental methods. To learn how to deliver it better: every eligible participant receives the intervention and an RCT compares one version with another, which can start once the intervention is running.">
   <rect x="330" y="10" width="240" height="44" rx="5" fill="var(--dg-ink)"/>
-  <text x="450" y="38" text-anchor="middle" fill="var(--dg-reverse)" font-size="16" font-weight="bold">What do you want to learn?</text>
+  <text x="450" y="38" text-anchor="middle" fill="var(--dg-reverse)" font-size="16" font-weight="bold">What is the learning question?</text>
   <path d="M450 54 V72 H225 V90 M450 72 H675 V90" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
 
   <rect x="10" y="90" width="430" height="46" rx="5" fill="var(--dg-ink)"/>
-  <text x="225" y="119" text-anchor="middle" fill="var(--dg-reverse)" font-size="15" font-weight="bold">Does the programme cause an effect at all?</text>
+  <text x="225" y="119" text-anchor="middle" fill="var(--dg-reverse)" font-size="15" font-weight="bold">Does the intervention have an effect at all?</text>
   <rect x="460" y="90" width="430" height="46" rx="5" fill="var(--dg-ink)"/>
-  <text x="675" y="119" text-anchor="middle" fill="var(--dg-reverse)" font-size="15" font-weight="bold">How do you deliver it better?</text>
+  <text x="675" y="119" text-anchor="middle" fill="var(--dg-reverse)" font-size="15" font-weight="bold">How can it be delivered better?</text>
 
   <rect x="10" y="158" width="430" height="46" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="225" y="186" text-anchor="middle" fill="var(--dg-ink)" font-size="14" font-weight="bold">Can you plan an evaluation from the outset?</text>
+  <text x="225" y="186" text-anchor="middle" fill="var(--dg-ink)" font-size="14" font-weight="bold">Can the evaluation be planned from the outset?</text>
   <path d="M225 204 V222 H112 V246 M225 222 H337 V246" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
   <text x="119" y="240" fill="var(--dg-ink-soft)" font-size="12.5" font-weight="bold">Yes</text>
   <text x="344" y="240" fill="var(--dg-ink-soft)" font-size="12.5" font-weight="bold">No</text>
 
   <rect x="10" y="246" width="205" height="86" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
   <text x="112" y="272" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5" font-weight="bold">Is there excess demand</text>
-  <text x="112" y="290" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5" font-weight="bold">that lets you randomise</text>
+  <text x="112" y="290" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5" font-weight="bold">that allows randomising</text>
   <text x="112" y="308" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5" font-weight="bold">participation?</text>
 
   <rect x="235" y="246" width="205" height="86" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
@@ -685,9 +529,9 @@ significantly raised sales and profits.
 
   <rect x="10" y="380" width="205" height="56" rx="5" fill="var(--dg-accent)"/>
   <text x="112" y="404" text-anchor="middle" fill="var(--dg-ink)" font-size="16" font-weight="bold">RCT</text>
-  <text x="112" y="423" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5">(programme vs no programme)</text>
-  <text x="10" y="458" fill="var(--dg-ink-soft)" font-size="12">No assumptions about outcome levels</text>
-  <text x="10" y="473" fill="var(--dg-ink-soft)" font-size="12">or trends between groups are needed.</text>
+  <text x="112" y="423" text-anchor="middle" fill="var(--dg-ink)" font-size="12">(intervention vs no intervention)</text>
+  <text x="10" y="458" fill="var(--dg-ink-soft)" font-size="12">Quasi-experimental methods planned in advance</text>
+  <text x="10" y="473" fill="var(--dg-ink-soft)" font-size="12">(for example, a scoring cut-off) are an alternative.</text>
 
   <rect x="235" y="380" width="205" height="56" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
   <text x="337" y="404" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5" font-weight="bold">Phase-in RCT</text>
@@ -695,9 +539,9 @@ significantly raised sales and profits.
 
   <rect x="460" y="158" width="430" height="134" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
   <text x="482" y="182" fill="var(--dg-ink-soft)" font-size="11" font-weight="bold" letter-spacing="1.4">HOW IT WORKS</text>
-  <text x="482" y="207" fill="var(--dg-ink)" font-size="14">Every eligible firm gets the programme, so</text>
-  <text x="482" y="226" fill="var(--dg-ink)" font-size="14">nobody is held back. Randomise which version</text>
-  <text x="482" y="245" fill="var(--dg-ink)" font-size="14">of the programme each firm gets.</text>
+  <text x="482" y="207" fill="var(--dg-ink)" font-size="14">Every eligible participant receives the</text>
+  <text x="482" y="226" fill="var(--dg-ink)" font-size="14">intervention, so nobody is held back. Which</text>
+  <text x="482" y="245" fill="var(--dg-ink)" font-size="14">version each participant receives is randomised.</text>
   <text x="482" y="273" fill="var(--dg-ink-soft)" font-size="13">For example: grant alone vs grant plus technical assistance</text>
 
   <path d="M675 292 V316" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
@@ -709,33 +553,34 @@ significantly raised sales and profits.
   <text x="675" y="420" text-anchor="middle" fill="var(--dg-ink)" font-size="13">The RCT does not need to be planned at the design stage.</text>
   <text x="675" y="439" text-anchor="middle" fill="var(--dg-ink)" font-size="13">It can be added once implementation is already under way.</text>
 </svg>
-<svg class="fig-phone" viewBox="0 0 360 817" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Two decision paths from one question, what do you want to learn. To learn whether the programme causes an effect at all: if you can plan the evaluation from the outset and there is excess demand, run an RCT that compares the programme with no programme; without excess demand, use a phase-in RCT or quasi-experimental methods; if you cannot plan from the outset, use quasi-experimental methods. To learn how to deliver it better: every eligible firm gets the programme and an RCT compares one version with another, which can start once the programme is running.">
+<svg class="fig-phone" viewBox="0 0 360 817" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Two decision paths from one question: what is the learning question? To learn whether the intervention has an effect at all: if the evaluation can be planned from the outset and there is excess demand, an RCT can compare the intervention with no intervention, and quasi-experimental methods planned in advance are an alternative; without excess demand, a phase-in RCT or quasi-experimental methods; if the evaluation cannot be planned from the outset, quasi-experimental methods. To learn how to deliver it better: every eligible participant receives the intervention and an RCT compares one version with another, which can start once the intervention is running.">
   <rect x="10" y="10" width="340" height="40" rx="5" fill="var(--dg-ink)"/>
-  <text x="180" y="35" text-anchor="middle" fill="var(--dg-reverse)" font-size="15" font-weight="bold">What do you want to learn?</text>
+  <text x="180" y="35" text-anchor="middle" fill="var(--dg-reverse)" font-size="15" font-weight="bold">What is the learning question?</text>
   <path d="M24 50 V510 M24 86 H36 M24 510 H36" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
 
   <rect x="36" y="66" width="314" height="40" rx="5" fill="var(--dg-ink)"/>
-  <text x="193" y="91" text-anchor="middle" fill="var(--dg-reverse)" font-size="13" font-weight="bold">Does the programme cause an effect at all?</text>
+  <text x="193" y="91" text-anchor="middle" fill="var(--dg-reverse)" font-size="13" font-weight="bold">Does the intervention have an effect at all?</text>
 
   <rect x="36" y="118" width="314" height="40" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="193" y="143" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Can you plan an evaluation from the outset?</text>
+  <text x="193" y="143" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Can the evaluation be planned from the outset?</text>
 
   <path d="M52 158 V422 M52 191 H82 M52 422 H82" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
   <text x="56" y="186" fill="var(--dg-ink-soft)" font-size="12" font-weight="bold">Yes</text>
   <text x="58" y="417" fill="var(--dg-ink-soft)" font-size="12" font-weight="bold">No</text>
 
   <rect x="82" y="168" width="268" height="46" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="96" y="187" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Is there excess demand that lets</text>
-  <text x="96" y="204" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">you randomise participation?</text>
+  <text x="96" y="187" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Is there excess demand that</text>
+  <text x="96" y="204" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">allows randomising participation?</text>
 
   <path d="M100 214 V346 M100 244 H130 M100 346 H130" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
   <text x="104" y="239" fill="var(--dg-ink-soft)" font-size="12" font-weight="bold">Yes</text>
   <text x="106" y="341" fill="var(--dg-ink-soft)" font-size="12" font-weight="bold">No</text>
 
   <rect x="130" y="224" width="220" height="40" rx="5" fill="var(--dg-accent)"/>
-  <text x="144" y="249" fill="var(--dg-ink)" font-size="13" font-weight="bold">RCT <tspan font-weight="normal" font-size="11.5">(programme vs no programme)</tspan></text>
-  <text x="130" y="282" fill="var(--dg-ink-soft)" font-size="11">No assumptions about outcome levels</text>
-  <text x="130" y="296" fill="var(--dg-ink-soft)" font-size="11">or trends between groups are needed.</text>
+  <text x="144" y="249" fill="var(--dg-ink)" font-size="13" font-weight="bold">RCT <tspan font-weight="normal" font-size="10.5">(intervention vs none)</tspan></text>
+  <text x="130" y="280" fill="var(--dg-ink-soft)" font-size="11">Quasi-experimental methods</text>
+  <text x="130" y="294" fill="var(--dg-ink-soft)" font-size="11">planned in advance are an</text>
+  <text x="130" y="308" fill="var(--dg-ink-soft)" font-size="11">alternative.</text>
 
   <rect x="130" y="326" width="220" height="42" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
   <text x="144" y="343" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Phase-in RCT</text>
@@ -747,13 +592,13 @@ significantly raised sales and profits.
   <text x="96" y="445" fill="var(--dg-ink-soft)" font-size="11.5">Regression discontinuity</text>
 
   <rect x="36" y="490" width="314" height="40" rx="5" fill="var(--dg-ink)"/>
-  <text x="193" y="515" text-anchor="middle" fill="var(--dg-reverse)" font-size="13" font-weight="bold">How do you deliver it better?</text>
+  <text x="193" y="515" text-anchor="middle" fill="var(--dg-reverse)" font-size="13" font-weight="bold">How can it be delivered better?</text>
 
   <rect x="36" y="542" width="314" height="137" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
   <text x="52" y="563" fill="var(--dg-ink-soft)" font-size="10.5" font-weight="bold" letter-spacing="1.3">HOW IT WORKS</text>
-  <text x="52" y="584" fill="var(--dg-ink)" font-size="12.5">Every eligible firm gets the programme,</text>
-  <text x="52" y="601" fill="var(--dg-ink)" font-size="12.5">so nobody is held back. Randomise which</text>
-  <text x="52" y="618" fill="var(--dg-ink)" font-size="12.5">version of the programme each firm gets.</text>
+  <text x="52" y="584" fill="var(--dg-ink)" font-size="12.5">Every eligible participant receives the</text>
+  <text x="52" y="601" fill="var(--dg-ink)" font-size="12.5">intervention, so nobody is held back. Which</text>
+  <text x="52" y="618" fill="var(--dg-ink)" font-size="12.5">version each receives is randomised.</text>
   <text x="52" y="644" fill="var(--dg-ink-soft)" font-size="11.5">For example: grant alone vs</text>
   <text x="52" y="659" fill="var(--dg-ink-soft)" font-size="11.5">grant plus technical assistance</text>
 
@@ -766,114 +611,23 @@ significantly raised sales and profits.
   <text x="193" y="783" text-anchor="middle" fill="var(--dg-ink)" font-size="12">the design stage. It can be added once</text>
   <text x="193" y="799" text-anchor="middle" fill="var(--dg-ink)" font-size="12">implementation is already under way.</text>
 </svg>
-<figcaption>Note: the first path needs a comparison group fixed before launch. If there is no excess demand, an RCT may still be possible with another design, for
-example a randomised phase-in, where every eligible firm is served but in a random order. Page How to design an RCT explains different ways to
-randomise. The second path does not need a comparison group fixed from the outset, because nobody is excluded from the programme itself - only which version of it they get is randomised.</figcaption>
+<figcaption>Note: for an RCT, the first path needs a comparison group fixed before launch. If there is no excess demand, an RCT may still be possible with another design, for
+example a randomised phase-in, where every eligible participant is served but in a random order. Even when an evaluation can be planned from the outset, quasi-experimental methods can be the right choice, depending on the context. The page How to design an RCT explains different ways to
+randomise. The second path does not need a comparison group fixed from the outset, because nobody is excluded from the intervention itself – only which version each participant receives is randomised.</figcaption>
 </figure>
 ```
 
-Within the quasi-experimental branch, here is how the three methods compare:
+## What if randomisation is not possible? {#alternatives}
 
-```{=html}
-<figure class="fig-e">
-<svg class="fig-wide" viewBox="0 0 660 390" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Choosing between the quasi-experimental methods: take the first row that fits. Entry decided by a score and a cut-off: regression discontinuity, assuming no manipulation around the cut-off. Before-and-after data for both groups: difference-in-differences, assuming both groups would have trended the same. Otherwise, non-participants who look like participants: matching, assuming no unobserved differences.">
-  <rect x="10" y="10" width="360" height="70" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="26" y="41" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Is entry decided by a score and a cut-off, with no</text>
-  <text x="26" y="58" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">manipulation of who falls just above or below it?</text>
-  <path d="M370 45 H420" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
-  <text x="381" y="39" fill="var(--dg-ink-soft)" font-size="11" font-weight="bold">Yes</text>
-  <rect x="420" y="20" width="230" height="50" rx="5" fill="var(--dg-accent)"/>
-  <text x="535" y="50" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">Regression discontinuity</text>
-  <text x="535" y="88" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="10.5"><tspan font-weight="bold">Assumes:</tspan> no manipulation of who falls</text>
-  <text x="535" y="101" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="10.5">just above or below the cut-off.</text>
+To find out whether an intervention has an effect at all, an RCT generally has to be built in at the design stage, before the intervention launches. The comparison group, sample size and data to collect all depend on those early decisions. When randomisation is not possible,
+quasi-experimental methods can estimate the counterfactual instead. They can be planned in advance or applied after an intervention has been rolled out. This section introduces the most common ones; the Commission's [Better Regulation toolbox](https://commission.europa.eu/law/law-making-process/better-regulation/better-regulation-guidelines-and-toolbox/better-regulation-toolbox_en) (Tool #68) also covers further methods, such as instrumental variables and synthetic controls.
 
-  <path d="M190 80 V120" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
-  <text x="198" y="104" fill="var(--dg-ink-soft)" font-size="11" font-weight="bold">No</text>
-
-  <rect x="10" y="120" width="360" height="70" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="26" y="151" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Do you have before-and-after data for a group that</text>
-  <text x="26" y="168" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">got the programme and a group that did not?</text>
-  <path d="M370 155 H420" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
-  <text x="381" y="149" fill="var(--dg-ink-soft)" font-size="11" font-weight="bold">Yes</text>
-  <rect x="420" y="130" width="230" height="50" rx="5" fill="var(--dg-accent)"/>
-  <text x="535" y="160" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">Difference-in-differences</text>
-  <text x="535" y="198" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="10.5"><tspan font-weight="bold">Assumes:</tspan> both groups would have trended</text>
-  <text x="535" y="211" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="10.5">the same without the programme.</text>
-
-  <path d="M190 190 V230" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
-  <text x="198" y="214" fill="var(--dg-ink-soft)" font-size="11" font-weight="bold">No</text>
-
-  <rect x="10" y="230" width="360" height="70" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="26" y="253" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">None of the above - but you can still find</text>
-  <text x="26" y="269" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">non-participants who look like your participants</text>
-  <text x="26" y="285" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">on the traits that matter?</text>
-  <path d="M370 265 H420" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
-  <text x="381" y="259" fill="var(--dg-ink-soft)" font-size="11" font-weight="bold">Yes</text>
-  <rect x="420" y="240" width="230" height="50" rx="5" fill="var(--dg-accent)"/>
-  <text x="535" y="270" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">Matching</text>
-  <text x="535" y="308" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="10.5"><tspan font-weight="bold">Assumes:</tspan> no unobserved differences</text>
-  <text x="535" y="321" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="10.5">between matched groups.</text>
-
-  <rect x="10" y="336" width="640" height="46" rx="5" fill="var(--dg-accent-wash)"/>
-  <text x="330" y="355" text-anchor="middle" fill="var(--dg-ink)" font-size="11.5">Matching is the one design that asks nothing of the programme's rules</text>
-  <text x="330" y="371" text-anchor="middle" fill="var(--dg-ink)" font-size="11.5">and thus leans hardest on its assumption.</text>
-</svg>
-<svg class="fig-phone" viewBox="0 0 360 592" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Choosing between the quasi-experimental methods: take the first row that fits. Entry decided by a score and a cut-off: regression discontinuity, assuming no manipulation around the cut-off. Before-and-after data for both groups: difference-in-differences, assuming both groups would have trended the same. Otherwise, non-participants who look like participants: matching, assuming no unobserved differences.">
-  <rect x="10" y="10" width="340" height="70" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="24" y="32" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Is entry decided by a score and a cut-off,</text>
-  <text x="24" y="49" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">with no manipulation of who falls just</text>
-  <text x="24" y="66" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">above or below it?</text>
-  <path d="M30 80 V178 M30 103 H60" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
-  <text x="34" y="98" fill="var(--dg-ink-soft)" font-size="11" font-weight="bold">Yes</text>
-  <rect x="60" y="88" width="290" height="32" rx="5" fill="var(--dg-accent)"/>
-  <text x="74" y="109" fill="var(--dg-ink)" font-size="13" font-weight="bold">Regression discontinuity</text>
-  <text x="60" y="137" fill="var(--dg-ink-soft)" font-size="11"><tspan font-weight="bold">Assumes:</tspan> no manipulation of who falls just</text>
-  <text x="60" y="151" fill="var(--dg-ink-soft)" font-size="11">above or below the cut-off.</text>
-  <text x="36" y="172" fill="var(--dg-ink-soft)" font-size="11" font-weight="bold">No</text>
-
-  <rect x="10" y="178" width="340" height="70" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="24" y="200" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Do you have before-and-after data for a</text>
-  <text x="24" y="217" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">group that got the programme and a group</text>
-  <text x="24" y="234" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">that did not?</text>
-  <path d="M30 248 V346 M30 271 H60" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
-  <text x="34" y="266" fill="var(--dg-ink-soft)" font-size="11" font-weight="bold">Yes</text>
-  <rect x="60" y="256" width="290" height="32" rx="5" fill="var(--dg-accent)"/>
-  <text x="74" y="277" fill="var(--dg-ink)" font-size="13" font-weight="bold">Difference-in-differences</text>
-  <text x="60" y="305" fill="var(--dg-ink-soft)" font-size="11"><tspan font-weight="bold">Assumes:</tspan> both groups would have trended</text>
-  <text x="60" y="319" fill="var(--dg-ink-soft)" font-size="11">the same without the programme.</text>
-  <text x="36" y="340" fill="var(--dg-ink-soft)" font-size="11" font-weight="bold">No</text>
-
-  <rect x="10" y="346" width="340" height="70" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="24" y="368" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">None of the above - but you can still find</text>
-  <text x="24" y="385" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">non-participants who look like your</text>
-  <text x="24" y="402" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">participants on the traits that matter?</text>
-  <path d="M30 416 V439 H60" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
-  <text x="34" y="434" fill="var(--dg-ink-soft)" font-size="11" font-weight="bold">Yes</text>
-  <rect x="60" y="424" width="290" height="32" rx="5" fill="var(--dg-accent)"/>
-  <text x="74" y="445" fill="var(--dg-ink)" font-size="13" font-weight="bold">Matching</text>
-  <text x="60" y="473" fill="var(--dg-ink-soft)" font-size="11"><tspan font-weight="bold">Assumes:</tspan> no unobserved differences</text>
-  <text x="60" y="487" fill="var(--dg-ink-soft)" font-size="11">between matched groups.</text>
-
-  <rect x="10" y="508" width="340" height="74" rx="5" fill="var(--dg-accent-wash)"/>
-  <text x="180" y="531" text-anchor="middle" fill="var(--dg-ink)" font-size="12">Matching is the one design that asks</text>
-  <text x="180" y="548" text-anchor="middle" fill="var(--dg-ink)" font-size="12">nothing of the programme's rules and thus</text>
-  <text x="180" y="565" text-anchor="middle" fill="var(--dg-ink)" font-size="12">leans hardest on its assumption.</text>
-</svg>
-<figcaption>Note: take the first row that fits. A "no" sends you to the next question; "yes" gives you the design and the assumption it asks you to make.</figcaption>
-</figure>
-```
-
-## What if you cannot randomise? {#alternatives}
-
-For the question of whether a programme has an effect at all, an RCT only works if randomisation is built in from day one, integrated at design stage before the programme launches (ex-ante), not added afterwards. The comparison group, sample size, and data to collect all depend on those early decisions. When early randomisation for this question is not possible,
-quasi-experimental methods are the alternative as these are usually conducted after a programme (ex-post). This section provides an overview of the most common quasi-experimental methods. 
-
-However, if what you want to know is how best to run a programme that is already launched, rather than whether it works at all, this constraint does not bind in the same way ([see above](#two-questions)). 
+However, if the question is how best to run an intervention that has already been launched, rather than whether it works at all, this constraint does not apply in the same way ([see above](#two-questions)).
 
 ::: {.caution}
 Quasi-experimental methods always rely on assumptions, some stronger than others. If those
 assumptions do not hold, the impact estimate is biased. Many of these assumptions are not
-testable. The credibility of the evaluation depends on the credibility of the assumptions made.
+testable directly, so they need to be stated and discussed. The credibility of the evaluation depends on the credibility of the assumptions made.
 :::
 
 ::::: {.myths-grid .methods}
@@ -883,22 +637,22 @@ testable. The credibility of the evaluation depends on the credibility of the as
 
 ::: {.method}
 Method
-: Compare programme participants before and after the programme.
+: Compare participants before and after the intervention.
 
 Identifying assumption
-: In the absence of the programme, participants would have had the same measured outcomes
+: In the absence of the intervention, participants would have had the same measured results
 as before. That means no other factors or events, for example economic shocks, affect the
-outcome besides the programme. This is a strong assumption that rarely holds in practice.
+result besides the intervention. This is a strong assumption that rarely holds in practice.
 
 ::: {.eg}
 For example, sales might rise after a grant simply because the whole regional economy is
-recovering at the same time, not because of the programme.
+recovering at the same time, not because of the intervention.
 :::
 :::
 
 ```{=html}
 <figure class="fig-e">
-<svg viewBox="0 0 660 260" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Pre-post design assumes a flat comparison line, so the whole rise is attributed to the programme">
+<svg viewBox="0 0 660 260" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Pre-post design assumes a flat comparison line, so the whole rise is attributed to the intervention">
   <line x1="80" y1="215" x2="620" y2="215" stroke="var(--dg-line)" stroke-width="1.5"/>
   <line x1="80" y1="25" x2="80" y2="215" stroke="var(--dg-line)" stroke-width="1.5"/>
   <text x="350" y="243" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12">Time</text>
@@ -914,7 +668,7 @@ recovering at the same time, not because of the programme.
   <text x="604" y="120" fill="var(--dg-ink)" font-size="12" font-weight="bold">Pre-post</text>
   <text x="604" y="136" fill="var(--dg-ink)" font-size="12" font-weight="bold">impact</text>
 </svg>
-<figcaption>Note: a before-and-after comparison assumes that, without the programme, outcomes would have stayed flat. Any change in the meantime is counted as impact.</figcaption>
+<figcaption>Note: a before-and-after comparison assumes that, without the intervention, results would have stayed flat. Any change in the meantime is counted as impact.</figcaption>
 </figure>
 ```
 
@@ -925,11 +679,11 @@ recovering at the same time, not because of the programme.
 
 ::: {.method}
 Method
-: Compare programme participants with non-participants.
+: Compare participants with non-participants.
 
 Identifying assumption
-: There is no difference between participants and non-participants besides programme
-participation. The reason for participation must be unrelated to outcomes. Again, this is
+: There is no difference between participants and non-participants besides participation
+in the intervention. The reason for participation must be unrelated to results. Again, this is
 unlikely to hold in practice.
 
 ::: {.eg}
@@ -940,10 +694,10 @@ those that do not, so they might grow faster regardless of the grant.
 
 ```{=html}
 <figure class="fig-e">
-<svg viewBox="0 0 660 250" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Participants show higher outcomes than non-participants. The gap, the simple difference, mixes the programme effect with an unobserved difference that was there all along, for example firm quality">
+<svg viewBox="0 0 660 250" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Participants show higher results than non-participants. The gap, the simple difference, mixes the effect of the intervention with an unobserved difference that was there all along, for example firm quality">
   <line x1="90" y1="205" x2="600" y2="205" stroke="var(--dg-line)" stroke-width="1.5"/>
   <line x1="90" y1="25" x2="90" y2="205" stroke="var(--dg-line)" stroke-width="1.5"/>
-  <text x="72" y="115" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12" transform="rotate(-90 72 115)">Outcome</text>
+  <text x="72" y="115" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12" transform="rotate(-90 72 115)">Result</text>
 
   <rect x="180" y="130" width="110" height="75" fill="var(--dg-accent-dark)"/>
   <rect x="180" y="95" width="110" height="35" fill="var(--dg-accent)" fill-opacity="0.4"/>
@@ -956,7 +710,7 @@ those that do not, so they might grow faster regardless of the grant.
   <line x1="290" y1="60" x2="568" y2="60" stroke="var(--dg-ink-soft)" stroke-width="1" stroke-dasharray="5 4"/>
   <line x1="290" y1="130" x2="440" y2="130" stroke="var(--dg-ink-soft)" stroke-width="1.5" stroke-dasharray="5 4"/>
 
-  <text x="300" y="82" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Programme effect</text>
+  <text x="300" y="82" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Intervention effect</text>
   <text x="300" y="109" fill="var(--dg-ink-soft)" font-size="11.5">Unobserved difference,</text>
   <text x="300" y="123" fill="var(--dg-ink-soft)" font-size="11.5">for example firm quality</text>
 
@@ -964,7 +718,7 @@ those that do not, so they might grow faster regardless of the grant.
   <text x="588" y="90" fill="var(--dg-ink)" font-size="12" font-weight="bold">Simple</text>
   <text x="588" y="106" fill="var(--dg-ink)" font-size="12" font-weight="bold">difference</text>
 </svg>
-<figcaption>Note: the measured gap mixes the programme effect with differences that were there all along.</figcaption>
+<figcaption>Note: the measured gap mixes the effect of the intervention with differences that were there all along.</figcaption>
 </figure>
 ```
 
@@ -984,7 +738,7 @@ parallel trends assumption, and it cannot be tested.
 
 ::: {.eg}
 For example, if grant recipients are concentrated in areas hit harder by a regional
-downturn than the comparison firms, their trends could diverge even without the programme.
+downturn than the comparison firms, their trends could diverge even without the intervention.
 :::
 :::
 
@@ -1028,11 +782,11 @@ similar non-participants, where closer matches count more.
 
 Identifying assumption
 : There are no differences between participants and matched non-participants in
-unobserved characteristics that affect the outcome.
+unobserved characteristics that affect the result.
 
 ::: {.eg}
 For example, two firms matched on size and sector might still differ in the owner's
-ambition or management quality, both of which would likely affect outcomes.
+ambition or management quality, both of which would likely affect results.
 :::
 :::
 
@@ -1045,13 +799,13 @@ ambition or management quality, both of which would likely affect outcomes.
 Method
 : Compare participants who were just eligible with those who were just ineligible. This
 does not measure impact for all participants, only for those at the cut-off, which is why
-the result is called a local average treatment effect. The advantage is that unobservable
+the estimate is called a local average treatment effect. The advantage is that unobservable
 characteristics stop being a concern.
 
 Identifying assumption
 : This design assumes that
 
-    - the programme is administered following pre-defined cut-off rules
+    - the intervention is administered following pre-defined cut-off rules
     - the criteria determining who falls above or below are not manipulated
     - a large number of units sit around the cut-off
     - nothing else changes suddenly at the cut-off
@@ -1065,11 +819,11 @@ are no longer comparable to those just above.
 
 ```{=html}
 <figure class="fig-e">
-<svg viewBox="0 0 660 260" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Outcomes jump discontinuously at the eligibility cutoff">
+<svg viewBox="0 0 660 260" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Results jump discontinuously at the eligibility cut-off">
   <line x1="80" y1="215" x2="620" y2="215" stroke="var(--dg-line)" stroke-width="1.5"/>
   <line x1="80" y1="25" x2="80" y2="215" stroke="var(--dg-line)" stroke-width="1.5"/>
   <text x="350" y="243" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12">Cut-off variable</text>
-  <text x="62" y="120" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12" transform="rotate(-90 62 120)">Outcome</text>
+  <text x="62" y="120" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12" transform="rotate(-90 62 120)">Result</text>
 
   <line x1="350" y1="25" x2="350" y2="215" stroke="var(--dg-ink-soft)" stroke-width="1.5" stroke-dasharray="5 4"/>
   <text x="350" y="18" text-anchor="middle" fill="var(--dg-ink)" font-size="12" font-weight="bold">Cut-off</text>
@@ -1097,7 +851,7 @@ are no longer comparable to those just above.
 
 :::::
 
-## When not to run an RCT {#when-not}
+## When an RCT may not be the right choice {#when-not}
 
 ::: {.cards}
 ::: {.card-e}
@@ -1111,40 +865,41 @@ or cost per service. Monitoring and feedback data are easier and do not need a c
 [02]{.num}
 
 ### Not yet {.unlisted}
-The theory of change is not clear, or implementation is unlikely to work because the
-markets to serve do not exist.
+The theory of change is not clear, or implementation is unlikely to work because key
+conditions, such as functioning markets or delivery capacity, are not yet in place.
 :::
 ::: {.card-e}
 [03]{.num}
 
 ### Statistically not feasible {.unlisted}
-Too few units or too little money. Large indirect or spillover effects you cannot measure. (Spillovers alone are not a
+Too few units or too little money. Large indirect or spillover effects that cannot be measured. (Spillovers alone are not a
 reason to drop an RCT: if expected, they can be designed for and measured; see
-[Step 4: check whether an RCT is feasible](02.03-assess.qmd).)
-Setting too chaotic, for example disaster relief. Treatment assigned at too high a level,
-for example national policy.
+[Step 4: check whether an RCT is feasible](02.04-assess.qmd).)
+Support that has to reach all eligible recipients at once, for example emergency aid after a natural
+disaster. Treatment assigned at too high a level, for example to whole NUTS 2 regions, which are
+difficult to randomise.
 :::
 ::: {.card-e}
 [04]{.num}
 
 ### Maybe not worth it for learning {.unlisted}
 The answer is already known from credible existing studies, or there is no generalisable
-"why" because the programme is one-off with little scale or replication potential.
+"why" because the intervention is one-off with little scale or replication potential.
 :::
 :::
 
-If an RCT is the right tool in principle, [Step 4: check whether an RCT is feasible](02.03-assess.qmd) checks whether it is
+If an RCT is the right tool in principle, [Step 4: check whether an RCT is feasible](02.04-assess.qmd) checks whether it is
 feasible in practice: oversubscription, timing, legal basis, institutional buy-in and
-measurable outcomes.
+measurable results.
 
 ## Learning through RCTs is a continuous process {#learning-cycle}
 
 Every RCT raises new questions along with the ones it answers, each round building
-on the last. That is how we expand our knowledge of what works, for whom, and under what
-conditions, and use it to design better programmes. Exchange within a community of practice
-matters, so we can learn from each other, not just from our own results. 
+on the last. That is how we expand our knowledge of what works, for whom and under what
+conditions, and use it to design better interventions. Exchange within a community of practice
+matters, so we can learn from each other, not just from our own findings.
 
-But before adopting what worked elsewhere, questions of external validity need to be considered, as what worked in one place may not necessarily work in another. One needs to ask: are the conditions comparable, i.e. is the target group similar and are the conditions essential to that result actually in place in my setting? 
+But before adopting what worked elsewhere, questions of external validity need to be considered, as what worked in one place may not necessarily work in another. The key question is whether the conditions are comparable: is the target group similar, and are the conditions essential to that effect actually in place in the new setting?
 
 ```{=html}
 <figure class="fig-e">
@@ -1195,31 +950,31 @@ But before adopting what worked elsewhere, questions of external validity need t
   <rect x="10" y="212" width="290" height="40" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
   <text x="155" y="237" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5" font-weight="bold">Adjust and invest</text>
 </svg>
-<figcaption>Note: testing new policies and learning from previous programmes are integral for designing effective and efficient policies.</figcaption>
+<figcaption>Note: testing new policies and learning from previous interventions are integral to designing effective and efficient policies.</figcaption>
 </figure>
 ```
 
 ::: {.cards}
 ::: {.card-e}
 [Review]{.num}
-Before considering how to embed an RCT, review a programme's [theory of change](02.01-toc.qmd), identify risks and the [learning questions](02.02-eval_questions.qmd) this round should answer, and the [outcomes](09-bank_outcomes.qmd) most likely to change.
+Before considering how to embed an RCT, review the intervention's [theory of change](02.01-toc.qmd), identify risks and the [learning questions](02.02-eval_questions.qmd) this round should answer, and the [results](09-bank_outcomes.qmd) most likely to change.
 Review lessons from other [settings and countries](03-examples.qmd) and adapt them.
-Identify baseline needs of potential beneficiaries in your region.
+Identify baseline needs of potential beneficiaries in the region.
 :::
 ::: {.card-e}
 [Design]{.num}
-Choose a credible comparison group and set the [sample size](02.03a-power.qmd) needed to detect a meaningful effect.
-Turn the outcomes identified in Review into [measurable indicators](02.04-indicators.qmd) using [primary and secondary data](02.05-data_sources.qmd), and set out the [data collection](02.06-data_collect.qmd) plan, budget, and timeline in a [Terms of Reference](02.06a-tor.qmd).
+Choose a credible comparison group and set the [sample size](02.04a-power.qmd) needed to detect a meaningful effect.
+Turn the results identified in Review into [measurable indicators](02.03-indicators.qmd) using [primary and secondary data](02.06-data_sources.qmd), and set out the [data collection](02.07-data_collect.qmd) plan, budget and timeline in [terms of reference](02.07a-tor.qmd).
 :::
 ::: {.card-e}
 [Test]{.num}
-Test different programme designs and delivery modes to identify what works best.
-Assess for whom the programme works best. Address take-up challenges. Learn about mechanisms, unintended effects, and crowding out.
+Test different intervention designs and delivery modes to identify what works best.
+Assess for whom the intervention works best. Address take-up challenges. Learn about mechanisms, unintended effects and crowding out.
 :::
 ::: {.card-e}
 [Invest]{.num}
 Get a quantitative and credible impact estimate that can guide future investments.
-Conduct cost-benefit analyses to avoid wasting money and to inform programme decisions.
+Conduct cost-benefit analyses to avoid wasting money and to inform funding decisions.
 Scale up based on evidence.
 :::
 :::
@@ -1240,122 +995,122 @@ Scale up based on evidence.
 
 ***
 
-### Common myths about RCTs
+## Common questions about RCTs {#common-questions}
 :::: {.myths-grid}
 
 <details class="myth-box">
-<summary>RCTs are too scientific for anyone but academics</summary>
+<summary>Are RCTs only for academics?</summary>
 
-RCTs are the easiest rigorous evaluation method to interpret and implement, not the hardest. Randomisation is, at its core, just like flipping a coin: who lands in the treatment and who lands in the comparison group is solely a matter of chance and unrelated to any characteristics of the applicant. This ensures that the treatment and comparison groups are, on average, identical in the absence of the intervention. Because of this, the impact estimate does not rest on assumptions that have to be separately defended - it is simply the difference in average outcomes between the two groups after the intervention runs.
+No. The basic idea is simple: who receives the intervention is decided by chance, like a coin toss, so the treatment and comparison groups are similar on average. The impact estimate is then the difference in average results between the two groups, which is straightforward to explain to non-specialists.
 
-Quasi-experimental methods - e.g. difference-in-differences, matching, regression discontinuity - can seem less academic because they do not need to be embedded at the design stage; they work with what is already there. But the estimates they produce rely on assumptions that are hard to verify. Properly checking whether their key assumption holds - that trends really were parallel, that matched groups did not differ on anything unobserved, that the cut-off was clean - requires robustness checks beyond a standard regression. An RCT needs none of that: if assignment was random, the treatment and comparison groups are comparable by construction, and the average difference between them is the estimate.
-
-So RCTs may look more academic but are, in practice, more transparent and easier to defend. They are also straightforward to implement and not necessarily more costly to run (see below).
+Designing and running an RCT does require careful planning and some technical support, for example for sample size calculations and for running the random draw – as do other rigorous evaluation methods, which in turn need their assumptions checked. With that support in place, RCTs are transparent and relatively easy to communicate.
 
 </details>
 
 <details class="myth-box">
-<summary>Random assignment is not allowed under European rules and contradicts the principle of selecting on merit</summary>
+<summary>Is random assignment allowed under EU rules, and does it contradict selection on merit?</summary>
 
-Random assignment is not only allowed but is, in many cases, the fairer way to select. The Directorate-General for Regional and Urban Policy (DG REGIO) has formally confirmed that randomisation is permissible under EU cohesion policy rules (for more information, see [A legal basis for random selection](02.03c-legal.qmd)).
+Random assignment is allowed and can be a fair way to select among equally eligible applicants. The Directorate-General for Regional and Urban Policy (DG REGIO) has formally confirmed that randomisation is permissible under EU cohesion policy rules (for more information, see [A legal basis for random selection](02.04b-legal.qmd)).
 
 Random assignment does not replace selection on merit but can supplement it. To illustrate this, imagine a two-stage process in which all applicants are first assessed against the call's eligibility and quality criteria as usual. In the second stage, only those who pass enter the draw. Expert panels still decide who is eligible, but they do not rank or choose among equally eligible applicants. Interventions can also be designed to fund the strongest applicants outright and randomise only within a middle band of scores, as was done in [Extremadura](03-examples.qmd#spain).
 
-Randomisation is already used to select intervention beneficiaries across Europe. managing authorities and agencies in Spain, Czechia, Croatia and Romania have used random assignment to allocate EU-funded support, as has the European Commission itself for SME energy-efficiency grants across 34 countries, and interventions in Bulgaria and Poland are preparing to do the same (see [Examples](03-examples.qmd)). The use of randomisation is not limited to cohesion policy. In France, where policy experimentation has had a constitutional basis since 2003, the Ministry of Labour randomised intensive job counselling for young graduates across 235 local labour markets, with nearly 30,000 job seekers in the evaluation sample [(Crépon et al., 2013)](https://doi.org/10.1093/qje/qjt001). In Spain, the Inclusion Policy Lab of the Ministry of Inclusion, Social Security and Migration has funded 32 randomised evaluations of social inclusion interventions linked to the national minimum income scheme.
+Randomisation is already used to select beneficiaries across Europe. Managing authorities and agencies in Spain, Czechia, Croatia and Romania have used random assignment to allocate EU-funded support, as has the European Commission itself for SME energy-efficiency grants across 34 countries, and interventions in Bulgaria and Poland are preparing to do the same (see [Examples](03-examples.qmd)).
 
 </details>
 
 <details class="myth-box">
-<summary>RCTs are the gold standard for evaluation</summary>
+<summary>Why are RCTs often called the gold standard?</summary>
 
-For establishing whether an intervention caused a change in outcomes, RCTs are the gold standard. Their design minimises bias and establishes clear cause-and-effect relationships because the estimate does not depend on an assumption that has to be separately defended: no parallel trends to argue for, no unobserved characteristics to control for, no instrument to justify. Every other rigorous method earns its credibility by convincingly defending an assumption that cannot be directly tested, while a well-designed and executed RCT does not need to make that argument.
+Because the comparison group is created by random assignment, the estimate does not depend on assumptions about how the groups would otherwise have evolved, such as parallel trends or the absence of unobserved differences. The Commission's [Better Regulation toolbox](https://commission.europa.eu/law/law-making-process/better-regulation/better-regulation-guidelines-and-toolbox/better-regulation-toolbox_en) (Tool #68) accordingly describes randomised controlled trials as "the benchmark for scientific quantitative methods".
 
-</details>
-
-<details class="myth-box">
-<summary>RCTs are more expensive than other rigorous methods</summary>
-
-Randomisation is an allocation rule. It tells you who is assigned to an intervention and who is not, but says nothing about how you measure outcomes afterwards. Measuring outcomes (for example, profits, business survival) requires data, which costs money and takes time - not just for RCTs but for whichever evaluation method is used. Other rigorous methods often skip a baseline survey, which RCTs generally plan from design stage. That may look like a saving at first glance, but it makes it harder to assess the credibility of the assumptions those methods rely on. With a large enough sample, RCTs technically do not need a baseline survey either, though collecting one is best practice. Where outcomes are already recorded in administrative registers, the cost of an RCT is the same as that of any other rigorous evaluation: legal/GDPR clearance to access and link the registers, and analytical time.
-
-RCTs do come with additional staffing costs. Unlike a method applied retrospectively to data that already exists, randomisation must be run and monitored while the intervention is ongoing - so the managing authority needs staff assigned to it on an ongoing basis.
+This does not make an RCT the right choice in every case. It has to be feasible, ethical and well implemented, and some questions are better answered with other methods (see [When an RCT may not be the right choice](#when-not)).
 
 </details>
 
 <details class="myth-box">
-<summary>RCTs tell you an intervention works but never why</summary>
+<summary>Are RCTs more expensive than other rigorous methods?</summary>
 
-If well-designed, RCTs are among the strongest tools available for showing why an intervention works. When an intervention has several components, a multi-arm design lets you disentangle their separate contributions: instead of one treatment group and one comparison group, you randomise across several treatment arms that receive different components or combinations of components (for example, a grant alone versus a grant combined with business advisory support) and compare outcomes across arms rather than against a single comparison group.
+Randomisation is an allocation rule. It determines who is assigned to an intervention and who is not, but says nothing about how results are measured afterwards. Measuring results (for example, employment, energy savings or firm turnover) requires data, which costs money and takes time – not just for RCTs but for whichever evaluation method is used. RCTs usually plan a baseline survey from the design stage; with a large enough sample they do not strictly need one, though collecting one is good practice. Where results are already recorded in administrative registers, the cost of an RCT is similar to that of any other rigorous evaluation: legal and GDPR clearance to access and link the registers, and analytical time.
 
-</details>
-
-<details class="myth-box">
-<summary>You can only identify what you randomised</summary>
-
-This is true, which is why it matters to get the learning questions you care about right at the design stage. Randomisation gives a clean estimate of the effect of whatever was randomised - most commonly, being assigned to (or offered) an intervention. To cleanly separate the effect of one component from another, those components need to be randomised separately too, for example through a multi-arm design.
+RCTs do come with additional staffing costs. Unlike a method applied retrospectively to data that already exists, randomisation must be run and monitored while the intervention is ongoing, so the managing authority needs staff assigned to it on an ongoing basis.
 
 </details>
 
 <details class="myth-box">
-<summary>RCTs are only valid inside the study population</summary>
+<summary>Can RCTs show why an intervention works?</summary>
 
-Every empirical method faces the same question of whether findings hold up beyond the sample they were estimated on, so external validity is not a defect unique to randomisation. A single RCT cannot tell you whether an intervention will work everywhere, but it can tell you a lot about the conditions under which it worked in that case. When designing a new intervention elsewhere, you can assess how similar those conditions are and judge how far the original findings are likely to apply. The more similar RCTs are run across different countries or regions, the more confidently general conclusions can be drawn.
-
-</details>
-
-<details class="myth-box">
-<summary>RCTs take too long to be useful within a programming period</summary>
-
-A staggered or phased rollout combined with an RCT can be a source of continuous learning. Early waves of participants already generate short-term outcomes while later waves are still being enrolled, so a managing authority can see early signals - take-up, engagement, first movements in outcomes - well before the intervention is fully rolled out, and adjust design or targeting for later waves accordingly. Long-term outcomes can, by construction, only be observed after a few years, which may come too late to change the current programming period. But similar interventions are likely to follow, in the same region or elsewhere in the EU, so knowing whether an intervention achieved its intended effect still helps allocate future funding more efficiently.
+Only to the extent that the design allows. A standard RCT shows whether an intervention made a difference, not through which channels. Specific pathways can be tested with a multi-arm design: participants are randomised across several treatment arms that receive different components or combinations of components (for example, a grant alone versus a grant combined with business advisory support), and results are compared across arms. Data on intermediate results and qualitative methods, such as interviews with participants, can help explain the mechanisms behind an estimated effect.
 
 </details>
 
 <details class="myth-box">
-<summary>RCTs assume everyone responds the same way</summary>
+<summary>What exactly does an RCT measure?</summary>
 
-The effects an RCT most commonly measures - the average treatment effect, or the intention-to-treat effect - compare average outcomes between the treatment and comparison groups. Neither assumes every member of these groups responds identically, only that the average difference is a meaningful summary of the intervention's impact. Heterogeneous treatment effect analysis by subgroup is feasible with a large enough sample and cheap to do well with EU administrative data: business and tax registers already record the characteristics on which one may suspect heterogeneity (for example, firm size, sector, region) needed to check whether an intervention works differently for different types of firms.
-
-</details>
-
-<details class="myth-box">
-<summary>Randomisation means no further analysis is needed</summary>
-
-If sample sizes are large enough and treatment is assigned randomly, the treatment and comparison groups will show, on average, identical characteristics - not that every participant has an identical match in the other group, only that characteristics balance on average. In practice, participants do not always stay in the group they were originally assigned to. This happens when randomisation is on assignment to an intervention rather than on take-up: the assigned and non-assigned groups still look the same, but the group that actually participates no longer looks the same as those who do not. In this case, what is reported is the intention-to-treat effect - the average effect of being assigned to the intervention, rather than of participating in it. Good practice is to check balance between the treatment and comparison groups on observable characteristics at baseline, before the intervention starts.
+The effect of whatever was randomised – most commonly, being assigned to (or offered) an intervention. That is why it matters to get the learning questions right at the design stage. To separate the effect of one component from another, those components need to be randomised separately too, for example through a multi-arm design.
 
 </details>
 
 <details class="myth-box">
-<summary>RCTs can only be run on a big sample</summary>
+<summary>Do RCT findings apply beyond the study population?</summary>
 
-Detecting a given effect with confidence needs enough observations in each group - the smaller the expected effect, the bigger the sample must be. This is why one should conduct power calculations at the design stage.
-
-A power calculation needs a few inputs: the smallest effect that would still be meaningful to detect, how much the outcome already varies across firms before the intervention runs, expectations about intervention take-up (as this affects the treatment group's sample size), how much observation loss to expect over time, and whether assignment happens at the level of the applicant or of a group they belong to - assigning by group rather than by firm generally needs a larger total sample to reach the same precision.
-
-See [How to conduct an RCT](02-how.qmd) for a walkthrough of turning these inputs into an actual sample size calculation.
+Every empirical method faces the question of whether findings hold beyond the sample they were estimated on, so external validity is not a concern unique to randomisation. A single RCT cannot show whether an intervention will work everywhere, but it can show a lot about the conditions under which it worked in that case. When a similar intervention is designed elsewhere, it is possible to assess how similar those conditions are and judge how far the original findings are likely to apply. The more similar RCTs are run across different regions and countries, the more confidently general conclusions can be drawn.
 
 </details>
 
 <details class="myth-box">
-<summary>It is difficult to get responses from the comparison group</summary>
+<summary>Can RCTs deliver findings within a programming period?</summary>
 
-This concern is valid and worth considering at design stage, but it is often a smaller challenge than expected. Often, outcomes of interest are already captured in administrative registers rather than collected through a survey, so comparison group response rates are not a concern at all.
-
-If outcome data needs to be collected through surveys, a group that received nothing may feel less invested in answering than a group that participated. But the evidence suggests the gap is usually smaller than expected: looking across dozens of studies, David McKenzie found that differential attrition between treatment and comparison groups averages only a few percentage points, widening mainly when the treatment is large and highly visible (for example, a sizeable cash grant) rather than for lower-value interventions. Where a gap does open up in an early round, sustained follow-up - repeat calls, alternative contact channels, incentives - has been shown to close much of it later.
+A staggered or phased roll-out combined with an RCT can be a source of continuous learning. Early waves of participants already generate short-term results while later waves are still being enrolled, so a managing authority can see early signals – take-up, engagement, first movements in results – well before the intervention is fully rolled out, and adjust design or targeting for later waves accordingly. Long-term results can, by construction, only be observed after a few years, which may come too late to change the current programming period. But similar interventions are likely to follow, in the same region or elsewhere in the EU, so knowing whether an intervention achieved its intended effect still helps allocate future funding more efficiently.
 
 </details>
 
 <details class="myth-box">
-<summary>RCTs are unethical because they deny help to a comparison group</summary>
+<summary>Do RCTs assume everyone responds the same way?</summary>
 
-This common misconception gets the ethics backwards. Where limited budgets already mean fewer applicants can be funded than apply, someone is turned away regardless of the evaluation method - the budget already decides that. Randomisation only decides how the budget is allocated. Executed well, it is a well-documented, defensible allocation rule that gives every equally eligible applicant the same fair chance to access funds. Other ways of assigning applicants - case-officer discretion, queue position - are no fairer, less transparent, and not necessarily more accurate. If there is empirical, causal evidence that a particular group of applicants should be prioritised, that evidence should be used; if there is not, these alternatives are no fairer than random assignment. In a business plan competition in Nigeria, for instance, expert judges' scores had no relationship with which businesses went on to survive, hire staff, or turn a profit three years later, and machine-learning models trained on the same applications did barely better [(McKenzie & Sansone, 2019)](https://doi.org/10.1016/j.jdeveco.2019.07.002).
-
-Nor does a comparison group have to mean receiving nothing at all: RCTs can compare two different versions of an intervention, so every participant receives some form of support and the question becomes which version works better. What matters is that participants are properly informed about the study, their rights, and how any data on them is processed and stored - which is why RCTs are typically reviewed beforehand by a research ethics committee (an Institutional Review Board, or IRB, in some countries), which is also the body participants can turn to with complaints.
+No. The effects an RCT most commonly measures – the average treatment effect or the intention-to-treat effect – compare average results between the treatment and comparison groups. Neither assumes that every member of these groups responds identically, only that the average difference is a meaningful summary of the intervention's impact. With a large enough sample, effects can also be analysed by subgroup. Administrative registers often already record the characteristics on which effects may differ (for example, size, sector or region), which makes it relatively cheap to check whether an intervention works differently for different groups.
 
 </details>
 
 <details class="myth-box">
-<summary>RCTs require ethical clearance</summary>
+<summary>Is further analysis needed after randomisation?</summary>
 
-Whether ethics review is legally mandatory depends on the country, the institution running the study, the type of intervention, and whether personal data is involved - it is not a universal legal requirement. For example, an RCT studying an intervention's effect on firms using administrative data as outcomes does not require ethical clearance. Seeking one anyway is still recommended: a research ethics committee (an Institutional Review Board) is what ensures participants are properly informed, that data handling complies with GDPR, and that there is a body participants can turn to with complaints.
+Yes. If sample sizes are large enough and treatment is assigned randomly, the treatment and comparison groups will be similar on average – not that every participant has an identical match in the other group, only that characteristics balance on average. Good practice is to check this balance on observable characteristics at baseline, before the intervention starts. In practice, participants also do not always stay in the group they were originally assigned to. This happens when randomisation is on assignment to an intervention rather than on take-up: the assigned and non-assigned groups remain comparable, but those who actually participate may differ from those who do not. In this case, what is reported is the intention-to-treat effect – the average effect of being assigned to the intervention, rather than of participating in it.
+
+</details>
+
+<details class="myth-box">
+<summary>How large does the sample need to be?</summary>
+
+Detecting a given effect with confidence needs enough observations in each group – the smaller the expected effect, the larger the sample must be. This is why power calculations are carried out at the design stage.
+
+A power calculation needs a few inputs: the smallest effect that would still be meaningful to detect, how much the result already varies across participants before the intervention runs, expected take-up of the intervention (as this affects the effective size of the treatment group), how much loss of observations to expect over time and whether assignment happens at the level of the individual applicant or of a group they belong to. Assigning by group generally needs a larger total sample to reach the same precision.
+
+See [Step 4: sample size](02.04a-power.qmd) for a walkthrough of turning these inputs into an actual sample size calculation.
+
+</details>
+
+<details class="myth-box">
+<summary>Is it difficult to get responses from the comparison group?</summary>
+
+It can be, so it is worth planning for at the design stage. Often, though, results of interest are already captured in administrative registers rather than collected through a survey, so comparison group response rates are not a concern.
+
+If data on results need to be collected through surveys, a group that received nothing may feel less invested in answering than a group that participated. Looking across dozens of studies, David McKenzie found that differential attrition between treatment and comparison groups averages only a few percentage points, widening mainly when the treatment is large and highly visible, such as a sizeable cash grant. Examples on this site show both cases. In [Extremadura](03-examples.qmd#spain), there was no evidence of selective attrition in follow-up survey responses. In the European Commission's [SME energy-efficiency grants](03-examples.qmd#europe-grants-for-sme-energy-efficiency), firms offered a grant of up to EUR 10,000 answered follow-up surveys far more often than the comparison group (91% against 65%), so the estimates rely on statistical corrections for who responded. Sustained follow-up – repeat calls, alternative contact channels, incentives for non-respondents – can help close such gaps, as in [Czechia](03-examples.qmd#czechia-smart-start).
+
+</details>
+
+<details class="myth-box">
+<summary>Is it unethical to have a comparison group?</summary>
+
+Not necessarily. Where the budget does not allow all eligible applicants to be funded, some are turned away whatever the evaluation method; randomisation only determines how the available funds are allocated, giving every equally eligible applicant the same chance. Where funds would allow a wider roll-out, starting with part of the eligible population can still be justified if the aim is to learn whether the intervention works before scaling it up – for example through a phased roll-out in which the comparison group receives support later. Other ways of choosing among equally eligible applicants are not necessarily more accurate: in a business plan competition in Nigeria, expert judges' scores had no relationship with which businesses went on to survive, hire staff or turn a profit three years later [(McKenzie & Sansone, 2019)](https://doi.org/10.1016/j.jdeveco.2019.07.002).
+
+Nor does a comparison group have to mean receiving nothing at all: RCTs can compare two different versions of an intervention, so every participant receives some form of support and the question becomes which version works better. What matters is that participants are properly informed about the study, their rights and how any data on them are processed and stored – which is why RCTs are often reviewed beforehand by a research ethics committee (an Institutional Review Board, or IRB, in some countries), which is also the body participants can turn to with complaints.
+
+</details>
+
+<details class="myth-box">
+<summary>Do RCTs require ethical clearance?</summary>
+
+Not always. Whether ethics review is legally mandatory depends on the country, the institution running the study, the type of intervention and whether personal data are involved. For example, an RCT studying an intervention's effect on firms using administrative data to measure results does not require ethical clearance. Seeking it anyway is still recommended: a research ethics committee helps ensure that participants are properly informed, that data handling complies with GDPR and that there is a body participants can turn to with complaints.
 
 </details>
 
@@ -1366,3 +1121,4 @@ Whether ethics review is legally mandatory depends on the country, the instituti
 ::: {.nav-buttons}
 [← Back to - home page](index.qmd) | [Next - How to design an RCT →](02-how.qmd)
 :::
+
