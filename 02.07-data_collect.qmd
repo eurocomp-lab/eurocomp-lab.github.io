@@ -106,7 +106,7 @@ The survey implementation was undertaken by a team of 30 enumerators hired by Ro
 
 ### Start with what already exists
 
-Before writing a single question, review existing, validated survey instruments. Using questions that have already been tested in comparable evaluations and surveys saves time, improves data quality, and makes findings comparable with evidence from other interventions and regions. Key reference sources include:
+Before writing a single question, review existing, validated survey instruments. Using questions that have already been tested in comparable evaluations and surveys saves time, improves data quality, and makes findings comparable with evidence from other interventions and regions. For firm-level surveys, key reference sources include:
 
 - [Community Innovation Survey (CIS)](https://ec.europa.eu/eurostat/web/microdata/collections-research/community-innovation-survey) - the standard EU framework for measuring innovation activity in firms
 - [Firms Adoption of Technology Survey (FAT)](https://microdata.worldbank.org/collections/fat) - World Bank instrument on technology adoption across sectors
@@ -116,7 +116,7 @@ Before writing a single question, review existing, validated survey instruments.
 - [ECB Survey on Access to Finance of Enterprises (SAFE)](https://www.ecb.europa.eu/stats/ecb_surveys/safe/html/index.en.html) - financing conditions and constraints for SMEs
 
 ::: {.takeaway}
-The survey question repository collects questions from the surveys listed above, organised by topic - from company details and financial performance to innovation, digitalisation, and management practices. Use them as a starting point: pick the questions that match your indicators, consult similar evaluations and underlying survey instruments, and adapt the questions to your intervention.
+The survey question repository collects questions from the firm-level surveys listed above, organised by topic - from company details and financial performance to innovation, digitalisation, and management practices. Use them as a starting point: pick the questions that match your indicators, consult similar evaluations and underlying survey instruments, and adapt the questions to your intervention.
 
 [Browse the survey question repository](08-bank_survey.qmd)
 :::
