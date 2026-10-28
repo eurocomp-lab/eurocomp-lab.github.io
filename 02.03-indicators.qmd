@@ -10,7 +10,7 @@ description-meta: "Turn your Theory of Change into measurable indicators, test t
 ::: {.team-note}
 ## Summary {.unlisted}
 
-This page covers how to move from the Theory of Change (ToC) to measurable indicators, what makes a good indicator using the SMART criteria, and where to find validated measures — including the randomised controlled trial (RCT) outcome repository.
+This page covers how to move from the Theory of Change (ToC) to measurable indicators, what makes a good indicator using the SMART criteria, and where to find validated measures — including the randomised controlled trial (RCT) indicator repository.
 :::
 
 Once the ToC is in place, it becomes the blueprint for selecting indicators. Every element of the ToC - inputs, activities, outputs, short- and medium-term outcomes, goals, and assumptions - needs at least one measurable indicator to track whether things are moving as expected.
