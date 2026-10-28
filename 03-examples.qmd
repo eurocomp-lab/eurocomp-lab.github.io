@@ -1,6 +1,6 @@
 ---
-title: "Examples of RCTs in public programmes"
-description-meta: "Explore randomised trials built into public programmes in Spain, Croatia, Czechia, Romania and beyond: the problem, the design and the results so far."
+title: "Examples of RCTs in public interventions"
+description-meta: "Explore randomised trials built into public interventions in Spain, Croatia, Czechia, Romania and beyond: the problem, the design and the results so far."
 toc-depth: 2
 ---
 
