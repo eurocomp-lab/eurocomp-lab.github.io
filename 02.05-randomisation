@@ -253,7 +253,7 @@ Compliance is rarely perfect in either direction: some encouraged firms will nev
 
 ## Did randomisation lead to comparable firms in treatment and comparison group?
 
-Once the lottery has been conducted and the baseline survey fielded, the first analytical task is to check whether the draw actually produced two comparable groups. Even a well-designed lottery can, by chance, produce a treatment group that differs from the comparison group on firm age, size, sector, or prior performance. A balance check compares the two groups on a set of baseline characteristics and tests whether any differences are larger than chance would produce. If the groups look similar before the intervention starts, the evaluation is on solid ground. If they do not, the analysis will need to account for the imbalance. [More details on balance checks and what to do if groups are not comparable](02.03b-balance.qmd)
+Once the lottery has been conducted and the baseline survey fielded, the first analytical task is to check whether the draw actually produced two comparable groups. Even a well-designed lottery can, by chance, produce a treatment group that differs from the comparison group on firm age, size, sector, or prior performance. A balance check compares the two groups on a set of baseline characteristics and tests whether any differences are larger than chance would produce. If the groups look similar before the intervention starts, the evaluation is on solid ground. If they do not, the analysis will need to account for the imbalance. [More details on balance checks and what to do if groups are not comparable](02.05a-balance.qmd)
 
 
 ## What are potential challenges?
@@ -317,3 +317,12 @@ Registry for International Development Impact Evaluations, hosted by 3ie.
 
 The evaluation was pre-registered in the [AEA RCT Registry](https://www.socialscienceregistry.org/trials/15592/history/256867) on 18 March 2025, prior to follow-up data collection.
 ::::
+
+***
+
+::: {.nav-buttons}
+[← Previous - Step 4: check whether an RCT is feasible](02.04-assess.qmd) | [Next - Step 6: identify available data sources →](02.06-data_sources.qmd)
+:::
+
+
+
