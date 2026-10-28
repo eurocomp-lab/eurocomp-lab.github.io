@@ -12,13 +12,13 @@ description-meta: "Find out how many firms your trial needs to detect an effect,
 This page explains what a power calculation is, what goes into it, and what a managing authority needs to know to have a useful conversation with an evaluator about sample size.
 :::
 
-A power calculation sounds technical. In practice it answers one practical question: **do you have enough firms to detect whether the programme works?** This page explains what drives that number, how to think about it without needing to do the maths yourself, and what to do if the answer turns out to be no.
+A power calculation sounds technical. In practice it answers one practical question: **do you have enough firms to detect whether the intervention works?** This page explains what drives that number, how to think about it without needing to do the maths yourself, and what to do if the answer turns out to be no.
 
 ***
 
 ## The core problem: too few firms and you may miss the truth
 
-Imagine a programme that genuinely improves firm productivity by 8%. If your evaluation includes only thirty firms, the natural variation between those firms - some were already growing fast, some were already struggling - may easily produce an 8% difference between treatment and comparison groups by chance alone. You cannot tell whether the programme caused the difference or whether chance did. The programme may work, but your evaluation cannot prove it.
+Imagine an intervention that genuinely improves firm productivity by 8%. If your evaluation includes only thirty firms, the natural variation between those firms - some were already growing fast, some were already struggling - may easily produce an 8% difference between treatment and comparison groups by chance alone. You cannot tell whether the intervention caused the difference or whether chance did. The intervention may work, but your evaluation cannot prove it.
 
 Add more firms and the picture becomes clearer. With enough observations, the average outcomes in the two groups settle down and genuine differences become visible. The variation that masks the signal shrinks relative to the size of the groups.
 
@@ -38,7 +38,7 @@ Too few firms
 </span><span></span><span></span>
 </div>
 ```
-Real impacts may go undetected: ordinary differences between firms drown out the programme's effect.
+Real impacts may go undetected: ordinary differences between firms drown out the intervention's effect.
 :::
 :::
 ::: {.col-e}
@@ -77,7 +77,7 @@ The number of firms you need depends on two things that pull in opposite directi
 The size of the effect you want to detect
 :::
 ::: {.body}
-A programme that doubles firm turnover is easy to spot even in a small group. A programme that increases turnover by 5% requires a much larger group to detect reliably.
+An intervention that doubles firm turnover is easy to spot even in a small group. An intervention that increases turnover by 5% requires a much larger group to detect reliably.
 
 **Small expected effect → more firms needed.**
 **Large expected effect → fewer firms needed.**
@@ -88,7 +88,7 @@ A programme that doubles firm turnover is easy to spot even in a small group. A 
 How much firms vary from each other
 :::
 ::: {.body}
-If all firms in the target population are very similar - same size, same sector, similar starting performance - a small sample is enough to pick up a difference. If firms vary enormously, you need more of them to be confident that a difference reflects the programme rather than the mix of firms you happened to include.
+If all firms in the target population are very similar - same size, same sector, similar starting performance - a small sample is enough to pick up a difference. If firms vary enormously, you need more of them to be confident that a difference reflects the intervention rather than the mix of firms you happened to include.
 
 **High variation → more firms needed.**
 **Low variation → fewer firms needed.**
@@ -103,7 +103,7 @@ Think of trying to hear a quiet voice in a noisy room. A louder voice needs no p
 
 ## The four ingredients a power calculation combines
 
-A power calculation takes four inputs and returns a single number: the minimum sample size the evaluation needs. The evaluator handles the calculation; the managing authority needs to understand what the inputs mean so that the conversation about sample size is grounded in the programme's actual context.
+A power calculation takes four inputs and returns a single number: the minimum sample size the evaluation needs. The evaluator handles the calculation; the managing authority needs to understand what the inputs mean so that the conversation about sample size is grounded in the intervention's actual context.
 
 ```{=html}
 <figure class="fig-e">
@@ -132,13 +132,13 @@ A power calculation takes four inputs and returns a single number: the minimum s
 
 Here is what each ingredient means in plain language:
 
-**Expected effect.** What is the smallest improvement in your primary outcome that would be meaningful enough to be worth detecting? This is a policy judgement, not a statistical one. If a 5% increase in firm R&D spending would be considered a success, that is your expected effect. If only a 25% increase would change how the programme is designed in the next round, use that. Evidence from similar programmes in other regions or member states can help anchor this number. The smaller the effect you want to reliably detect, the more firms you will need.
+**Expected effect.** What is the smallest improvement in your primary outcome that would be meaningful enough to be worth detecting? This is a policy judgement, not a statistical one. If a 5% increase in firm R&D spending would be considered a success, that is your expected effect. If only a 25% increase would change how the intervention is designed in the next round, use that. Evidence from similar interventions in other regions or member states can help anchor this number. The smaller the effect you want to reliably detect, the more firms you will need.
 
-**Variation between firms.** How much do firms in your target population differ from each other on the outcome of interest, even before the programme starts? This is usually estimated from existing data - a prior round of the programme, national statistics, or a comparable survey. The evaluator will handle this, but it is worth knowing that the more heterogeneous your target population, the larger the required sample.
+**Variation between firms.** How much do firms in your target population differ from each other on the outcome of interest, even before the intervention starts? This is usually estimated from existing data - a prior round of the intervention, national statistics, or a comparable survey. The evaluator will handle this, but it is worth knowing that the more heterogeneous your target population, the larger the required sample.
 
-**Confidence level.** How willing are you to risk concluding that the programme worked when it actually did not? The standard is a 5% risk - meaning the evaluation is designed so that a false positive would only arise by chance in 1 out of 20 identical studies. This does not normally need to be changed.
+**Confidence level.** How willing are you to risk concluding that the intervention worked when it actually did not? The standard is a 5% risk - meaning the evaluation is designed so that a false positive would only arise by chance in 1 out of 20 identical studies. This does not normally need to be changed.
 
-**Statistical power.** How willing are you to risk missing a real effect? The standard is 80% - meaning the evaluation has an 80% chance of detecting a genuine effect if one exists, and a 20% chance of missing it. For evaluations where a null result would have major consequences - for example, if it would be used to cancel a programme - 90% power is preferable, but requires a larger sample.
+**Statistical power.** How willing are you to risk missing a real effect? The standard is 80% - meaning the evaluation has an 80% chance of detecting a genuine effect if one exists, and a 20% chance of missing it. For evaluations where a null result would have major consequences - for example, if it would be used to cancel an intervention - 90% power is preferable, but requires a larger sample.
 
 
 
@@ -197,15 +197,15 @@ If the power calculation reveals that your eligible pool is too small, there are
   </div></div>
   <div class="d"><div>
     <h3>Expand eligibility</h3>
-    <p>Lowering the eligibility threshold adds more firms to the pool. Be careful not to expand so broadly that the evaluation no longer answers the original question - the expanded population should still be the one the programme is designed to serve.</p>
+    <p>Lowering the eligibility threshold adds more firms to the pool. Be careful not to expand so broadly that the evaluation no longer answers the original question - the expanded population should still be the one the intervention is designed to serve.</p>
   </div></div>
   <div class="d"><div>
     <h3>Combine regions or cohorts</h3>
-    <p>If a single region or programme round does not produce enough firms, pooling two regions running similar programmes - or two consecutive cohorts - into a single evaluation can reach the required sample without changing the design.</p>
+    <p>If a single region or intervention round does not produce enough firms, pooling two regions running similar interventions - or two consecutive cohorts - into a single evaluation can reach the required sample without changing the design.</p>
   </div></div>
   <div class="d"><div>
     <h3>Run a phase-in</h3>
-    <p>Rather than running the programme to all eligible firms at once, stagger rollout across waves. Each wave that is still waiting acts as the comparison group for the waves already receiving support - doubling the effective sample without needing more firms overall.</p>
+    <p>Rather than running the intervention to all eligible firms at once, stagger rollout across waves. Each wave that is still waiting acts as the comparison group for the waves already receiving support - doubling the effective sample without needing more firms overall.</p>
   </div></div>
   <div class="d"><div>
     <h3>Focus on where effects are largest</h3>
@@ -224,10 +224,10 @@ If the power calculation reveals that your eligible pool is too small, there are
 
 The power calculation is usually the evaluator's job - not the managing authority's. But the managing authority is the only party that can answer the policy question that drives the most important input: what effect would be large enough to matter?
 
-A managing authority that can say "we would consider the programme successful if it increased firm R&D spending by at least 15%" gives the evaluator something concrete to work with. A managing authority that leaves that question open will get a power calculation based on assumptions it may not recognise or agree with - and may end up with a required sample that is either impossibly large or so small that meaningful effects cannot be detected.
+A managing authority that can say "we would consider the intervention successful if it increased firm R&D spending by at least 15%" gives the evaluator something concrete to work with. A managing authority that leaves that question open will get a power calculation based on assumptions it may not recognise or agree with - and may end up with a required sample that is either impossibly large or so small that meaningful effects cannot be detected.
 
 ::: {.takeaway}
-The conversation about sample size is one of the most important early conversations between the managing authority and the evaluation team. Have it before the programme design is finalised - not after the eligible pool is already fixed.
+The conversation about sample size is one of the most important early conversations between the managing authority and the evaluation team. Have it before the intervention design is finalised - not after the eligible pool is already fixed.
 :::
 
 ***
