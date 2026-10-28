@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Register your evaluation design publicly before the lottery, so results cannot be reported selectively, and compare three registries that accept trials.">
+<meta name="description" content="Find out how many units your trial needs to detect an effect, what drives that number and what to discuss with your evaluator about sample size.">
 
-<title>Pre-registration of an RCT – EuroCOMP Lab</title>
+<title>Power calculations: how many units you need – EuroCOMP Lab</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -120,24 +120,24 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">Step 2: define learning questions</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./02.04-indicators.html">
- <span class="dropdown-text">Step 3: determine relevant indicators</span></a>
+    <a class="dropdown-item" href="./02.04-indicators.qmd">
+ <span class="dropdown-text"></span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./02.03-assess.html">
- <span class="dropdown-text">Step 4: check whether an RCT is feasible</span></a>
+    <a class="dropdown-item" href="./02.03-assess.qmd">
+ <span class="dropdown-text"></span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./02.05-data_sources.html">
- <span class="dropdown-text">Step 5: identify available data sources</span></a>
+    <a class="dropdown-item" href="./02.05-data_sources.qmd">
+ <span class="dropdown-text"></span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./02.06-data_collect.html">
- <span class="dropdown-text">Step 6: collect data</span></a>
+    <a class="dropdown-item" href="./02.06-data_collect.qmd">
+ <span class="dropdown-text"></span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./02.07-data_quality.html">
- <span class="dropdown-text">Step 7: ensure high-quality data</span></a>
+    <a class="dropdown-item" href="./02.07-data_quality.qmd">
+ <span class="dropdown-text"></span></a>
   </li>  
     </ul>
   </li>
@@ -161,7 +161,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
         <li>
     <a class="dropdown-item" href="./09-bank_outcomes.html">
- <span class="dropdown-text">RCT outcome repository</span></a>
+ <span class="dropdown-text">Indicator repository</span></a>
   </li>  
     </ul>
   </li>
@@ -200,7 +200,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#pre-register-the-evaluation-design-before-the-lottery" id="toc-pre-register-the-evaluation-design-before-the-lottery" class="nav-link active" data-scroll-target="#pre-register-the-evaluation-design-before-the-lottery">Pre-register the evaluation design before the lottery</a></li>
+  <li><a href="#the-core-problem-too-few-units-and-you-may-miss-the-truth" id="toc-the-core-problem-too-few-units-and-you-may-miss-the-truth" class="nav-link active" data-scroll-target="#the-core-problem-too-few-units-and-you-may-miss-the-truth">The core problem: too few units and you may miss the truth</a></li>
+  <li><a href="#what-drives-the-required-sample-size" id="toc-what-drives-the-required-sample-size" class="nav-link" data-scroll-target="#what-drives-the-required-sample-size">What drives the required sample size?</a></li>
+  <li><a href="#the-four-ingredients-a-power-calculation-combines" id="toc-the-four-ingredients-a-power-calculation-combines" class="nav-link" data-scroll-target="#the-four-ingredients-a-power-calculation-combines">The four ingredients a power calculation combines</a></li>
+  <li><a href="#always-randomise-more-units-than-you-need-at-endline" id="toc-always-randomise-more-units-than-you-need-at-endline" class="nav-link" data-scroll-target="#always-randomise-more-units-than-you-need-at-endline">Always randomise more units than you need at endline</a></li>
+  <li><a href="#what-if-there-are-not-enough-unit" id="toc-what-if-there-are-not-enough-unit" class="nav-link" data-scroll-target="#what-if-there-are-not-enough-unit">What if there are not enough unit?</a></li>
+  <li><a href="#a-practical-note-for-managing-authorities" id="toc-a-practical-note-for-managing-authorities" class="nav-link" data-scroll-target="#a-practical-note-for-managing-authorities">A practical note for managing authorities</a></li>
+  <li><a href="#tools-for-power-calculations" id="toc-tools-for-power-calculations" class="nav-link" data-scroll-target="#tools-for-power-calculations">Tools for power calculations</a></li>
   </ul>
 </nav>
     </div>
@@ -209,7 +215,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Pre-registration of an RCT</h1>
+<h1 class="title">Power calculations: how many units you need</h1>
 </div>
 
 
@@ -226,34 +232,203 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<nav class="tracker" aria-label="Seven steps for designing an RCT"><span><a href="./02.01-toc.html" title="Step 1: develop a Theory of Change">Step 1</a></span><span><a href="./02.02-eval_questions.html" title="Step 2: define learning questions">Step 2</a></span><span><a href="./02.04-indicators.html" title="Step 3: determine relevant indicators">Step 3</a></span><span class="on"><a href="./02.03-assess.html" title="Step 4: check whether an RCT is feasible">Step 4</a></span><span><a href="./02.05-data_sources.html" title="Step 5: identify available data sources">Step 5</a></span><span><a href="./02.06-data_collect.html" title="Step 6: collect data">Step 6</a></span><span><a href="./02.07-data_quality.html" title="Step 7: ensure high-quality data">Step 7</a></span></nav>
-<section id="pre-register-the-evaluation-design-before-the-lottery" class="level2">
-<h2 class="anchored" data-anchor-id="pre-register-the-evaluation-design-before-the-lottery">Pre-register the evaluation design before the lottery</h2>
-<p>Before the lottery takes place – and before any data is collected – the evaluation design must be publicly committed to on a recognised registry. This is called pre-registration, and it is one of the most important quality controls in a rigorous RCT.</p>
-<p>Pre-registration means publishing, in advance, the primary outcome, the evaluation questions, the randomisation procedure, and the analysis plan. Once that record is time-stamped and publicly visible, it becomes impossible to claim after the fact that a different outcome was always the primary focus, or that a subgroup analysis was planned from the beginning when it was actually prompted by the results.</p>
-<p>For a Managing Authority, pre-registration also serves a protective function. It shields the evaluation team from pressure – internal or political – to adjust the analysis once results are known. And it strengthens the credibility of the findings: when a null result or an inconvenient conclusion is published, pre-registration demonstrates that it reflects reality rather than selective reporting.</p>
-<p>Pre-registration should be completed before the baseline survey is fielded. The evaluation team will lead this process, but the Managing Authority should confirm it has been done before approving the inception report.</p>
-<div class="cards">
-<section id="aea-rct-registry" class="level3 unlisted card-e">
-<h3 class="unlisted anchored" data-anchor-id="aea-rct-registry">AEA RCT Registry</h3>
-<p>The most widely used registry for economic and policy evaluations. Free to register. <a href="https://www.socialscienceregistry.org">socialscienceregistry.org →</a></p>
+<nav class="tracker" aria-label="Seven steps for designing an RCT"><span><a href="./02.01-toc.html" title="Step 1: develop a Theory of Change">Step 1</a></span><span><a href="./02.02-eval_questions.html" title="Step 2: define learning questions">Step 2</a></span><span><a href="./02.03-indicators.html" title="Step 3: determine relevant indicators">Step 3</a></span><span class="on"><a href="./02.04-assess.html" title="Step 4: check whether an RCT is feasible">Step 4</a></span><span><a href="./02.05-randomisation.html" title="Step 5: how to randomise">Step 5</a></span><span><a href="./02.06-data_sources.html" title="Step 6: identify available data sources">Step 6</a></span><span><a href="./02.07-data_collect.html" title="Step 7: collect data">Step 7</a></span><span><a href="./02.08-data_quality.html" title="Step 8: ensure high-quality data">Step 8</a></span></nav>
+<section id="summary" class="level2 unlisted team-note">
+<h2 class="unlisted anchored" data-anchor-id="summary">Summary</h2>
+<p>This page explains what a power calculation is, what goes into it, and what a managing authority needs to know to have a useful conversation with an evaluator about sample size.</p>
 </section>
-<section id="open-science-framework" class="level3 unlisted card-e">
-<h3 class="unlisted anchored" data-anchor-id="open-science-framework">Open Science Framework</h3>
-<p>Broader registry covering multiple disciplines; supports pre-registration and open data. <a href="https://osf.io/prereg/">osf.io/prereg →</a></p>
-</section>
-<section id="ridie" class="level3 unlisted card-e">
-<h3 class="unlisted anchored" data-anchor-id="ridie">RIDIE</h3>
-<p>Registry for International Development Impact Evaluations, hosted by 3ie. <a href="https://ridie.3ieimpact.org">ridie.3ieimpact.org →</a></p>
-</section>
+<p>A power calculation sounds technical. In practice it answers one practical question: <strong>do you have enough unit to detect whether the intervention works?</strong> This page explains what drives that number, how to think about it without needing to do the maths yourself, and what to do if the answer turns out to be no.</p>
+<hr>
+<section id="the-core-problem-too-few-units-and-you-may-miss-the-truth" class="level2">
+<h2 class="anchored" data-anchor-id="the-core-problem-too-few-units-and-you-may-miss-the-truth">The core problem: too few units and you may miss the truth</h2>
+<p>Imagine an intervention that genuinely improves firm productivity by 8%. If your evaluation includes only thirty firms, the natural variation between those firms - some were already growing fast, some were already struggling - may easily produce an 8% difference between treatment and comparison groups by chance alone. You cannot tell whether the intervention caused the difference or whether chance did. The intervention may work, but your evaluation cannot prove it.</p>
+<p>Add more firms and the picture becomes clearer. With enough observations, the average outcomes in the two groups settle down and genuine differences become visible. The variation that masks the signal shrinks relative to the size of the groups.</p>
+<div class="compare">
+<div class="col-e">
+<div class="col-head">
+<p>Too few units</p>
 </div>
+<div class="body">
+<div class="dots" style="grid-template-columns:repeat(8,1fr);max-width:190px;margin-bottom:.8rem">
+<span class="a"></span><span></span><span></span><span class="a"></span><span></span>
+<span></span><span></span><span></span>
+<span></span><span></span><span class="a"></span><span></span><span></span><span>
+</span><span class="a"></span><span></span>
+<span></span><span class="a"></span><span></span><span></span><span></span><span>
+</span><span></span><span></span>
+</div>
+<p>Real impacts may go undetected: ordinary differences between units drown out the intervention’s effect.</p>
+</div>
+</div>
+<div class="col-e">
+<div class="col-head">
+<p>Enough units</p>
+</div>
+<div class="body">
+<div class="dots" style="grid-template-columns:repeat(8,1fr);max-width:190px;margin-bottom:.8rem">
+<span class="a"></span><span class="a"></span><span class="a"></span><span class="a">
+</span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span>
+<span class="a"></span><span class="a"></span><span class="a"></span><span class="a">
+</span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span>
+<span class="a"></span><span class="a"></span><span class="a"></span><span class="a">
+</span><span class="a"></span><span class="a"></span><span class="a"></span><span class="a"></span>
+</div>
+<p>Real impacts become measurable: averages settle and the difference stands out.</p>
+</div>
+</div>
+</div>
+<div class="takeaway">
+<p>More units do not make the lottery fairer - they make its answer visible.</p>
+</div>
+</section>
+<section id="what-drives-the-required-sample-size" class="level2">
+<h2 class="anchored" data-anchor-id="what-drives-the-required-sample-size">What drives the required sample size?</h2>
+<p>The number of units you need depends on two things that pull in opposite directions.</p>
+<div class="compare">
+<div class="col-e">
+<div class="col-head">
+<p>The size of the effect you want to detect</p>
+</div>
+<div class="body">
+<p>An intervention that doubles firm turnover is easy to spot even in a small group. An intervention that increases turnover by 5% requires a much larger group to detect reliably.</p>
+<p><strong>Small expected effect → more units needed.</strong> <strong>Large expected effect → fewer units needed.</strong></p>
+</div>
+</div>
+<div class="col-e">
+<div class="col-head">
+<p>How much units vary from each other</p>
+</div>
+<div class="body">
+<p>If all units in the target population are very similar in characteristics (e.g.&nbsp;same firm size, same sector, similar starting performance), a small sample is enough to pick up a difference. If units vary enormously, you need more of them to be confident that a difference reflects the intervention rather than the mix of units you happened to include.</p>
+<p><strong>High variation → more units needed.</strong> <strong>Low variation → fewer units needed.</strong></p>
+</div>
+</div>
+</div>
+<div class="gold-panel">
+<p>Think of trying to hear a quiet voice in a noisy room. A louder voice needs no particular conditions to be heard. A quieter voice needs a quieter room - or more people listening carefully. More units are the equivalent of reducing the noise.</p>
+</div>
+</section>
+<section id="the-four-ingredients-a-power-calculation-combines" class="level2">
+<h2 class="anchored" data-anchor-id="the-four-ingredients-a-power-calculation-combines">The four ingredients a power calculation combines</h2>
+<p>A power calculation takes four inputs and returns a single number: the minimum sample size the evaluation needs. The evaluator handles the calculation; the managing authority needs to understand what the inputs mean so that the conversation about sample size is grounded in the intervention’s actual context.</p>
+<figure class="fig-e figure">
+<svg viewbox="0 0 680 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Expected effect, variation, confidence level and statistical power feed a power calculation, which returns the required sample size">
+  <rect x="20" y="20" width="200" height="42" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="120" y="46" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Expected effect</text>
+  <rect x="20" y="86" width="200" height="42" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="120" y="105" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Variation</text>
+  <text x="120" y="120" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="10.5">(standard deviation)</text>
+  <rect x="20" y="152" width="200" height="42" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="120" y="178" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Confidence level</text>
+  <rect x="20" y="218" width="200" height="42" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="120" y="244" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Statistical power</text>
+  <path d="M220 41 H250 V140 M220 107 H250 M220 173 H250 M220 239 H250 V140 M250 140 H272" stroke="var(--dg-line)" stroke-width="1.5" fill="none"></path>
+  <rect x="272" y="110" width="176" height="60" rx="5" fill="var(--dg-accent)"></rect>
+  <text x="360" y="135" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">POWER CALCULATION</text>
+  <text x="360" y="153" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">standard software does the math</text>
+  <path d="M448 140 H478" stroke="var(--dg-line)" stroke-width="1.5"></path>
+  <rect x="478" y="106" width="182" height="68" rx="5" fill="var(--dg-ink)"></rect>
+  <text x="569" y="131" text-anchor="middle" fill="var(--dg-reverse)" font-size="12.5" font-weight="bold">Required sample size</text>
+  <text x="569" y="150" text-anchor="middle" fill="var(--dg-reverse)" font-size="10.5">the minimum number of firms</text>
+  <text x="569" y="164" text-anchor="middle" fill="var(--dg-reverse)" font-size="10.5">the study needs</text>
+</svg>
+</figure>
+<p>Here is what each ingredient means in plain language:</p>
+<p><strong>Expected effect.</strong> What is the smallest improvement in your primary outcome that would be meaningful enough to be worth detecting? This is a policy judgement, not a statistical one. If a 5% increase in firm R&amp;D spending would be considered a success, that is your expected effect. If only a 25% increase would change how the intervention is designed in the next round, use that. Evidence from similar interventions in other regions or member states can help anchor this number. The smaller the effect you want to reliably detect, the more units you will need.</p>
+<p><strong>Variation between units.</strong> How much do units in your target population differ from each other on the outcome of interest, even before the intervention starts? This is usually estimated from existing data - a prior round of the intervention, national statistics, or a comparable survey. The evaluator will handle this, but it is worth knowing that the more heterogeneous your target population, the larger the required sample.</p>
+<p><strong>Confidence level.</strong> How willing are you to risk concluding that the intervention worked when it actually did not? The standard is a 5% risk - meaning the evaluation is designed so that a false positive would only arise by chance in 1 out of 20 identical studies. This does not normally need to be changed.</p>
+<p><strong>Statistical power.</strong> How willing are you to risk missing a real effect? The standard is 80% - meaning the evaluation has an 80% chance of detecting a genuine effect if one exists, and a 20% chance of missing it. For evaluations where a null result would have major consequences - for example, if it would be used to cancel an intervention - 90% power is preferable, but requires a larger sample.</p>
 <div class="example romania" data-map="romania-ne">
-<p><span class="tag">North‑East Romania: preregister the evaluation design</span></p>
-<p>The evaluation was pre-registered in the <a href="https://www.socialscienceregistry.org/trials/15592/history/256867">AEA RCT Registry</a> on 18 March 2025, prior to follow-up data collection.</p>
+<p><span class="tag">North‑East Romania: Was 1,038 companies enough for North‑East Romania?</span> Once the power calculation is run, you compare the result against the size of your eligible pool. If your pool exceeds the required sample, you are ready to randomise. If it falls short, you need to grow the pool before the draw.</p>
+<p>In North-East Romania, the evaluation team ran the power calculation before the draw and confirmed that the pool of 1,038 firms was large enough to detect the effects they expected - which is why the draw proceeded with 519 firms in each group.</p>
+<figure class="fig-e figure">
+<svg viewbox="0 0 680 190" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="The pool of 1,038 firms is checked against the required sample produced by the power calculation">
+  <rect x="20" y="56" width="190" height="72" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="115" y="88" text-anchor="middle" fill="var(--dg-ink)" font-size="21" font-weight="bold">1,038</text>
+  <text x="115" y="110" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5">firms in the pool</text>
+  <text x="278" y="97" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">checked</text>
+  <text x="278" y="113" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">against</text>
+  <path d="M338 92 H366" stroke="var(--dg-line)" stroke-width="1.5"></path>
+  <rect x="366" y="56" width="294" height="72" rx="6" fill="var(--dg-accent-wash)"></rect>
+  <text x="513" y="84" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Required sample</text>
+  <text x="513" y="103" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="10.5">expected effect → power calculation → minimum firms</text>
+</svg>
+</figure>
+<div class="case-band"><b>North-East Romania</b><span>✓ 1,038 eligible firms formed the randomised pool</span></div>
+</div>
+</section>
+<section id="always-randomise-more-units-than-you-need-at-endline" class="level2">
+<h2 class="anchored" data-anchor-id="always-randomise-more-units-than-you-need-at-endline">Always randomise more units than you need at endline</h2>
+<p>The power calculation tells you how many units you need to observe at the end of the evaluation - at the endline survey. But not every unit randomised at baseline will still be reachable by then. For example, firms will have closed, relocated, or simply stopped responding. This is called attrition, and it is one of the most common threats to the validity of an RCT.</p>
+<p>The practical implication is straightforward: always recruit more units into the randomised pool than the power calculation requires, to leave a buffer for expected drop-out. If you need 400 units at endline and expect that roughly one in five will be unreachable by then, you need to randomise at least 500 units. The evaluation team will advise on the right buffer based on comparable studies, the expected follow-up period, and the availability of administrative data. In the EU, for firm-level intervention, adminstrative data can often be used to track firms and observe evaluation outcomes of firms that drop out of interventions.</p>
+<div class="caution">
+<p>Attrition is not just a power problem. If units drop out at different rates in the treatment and comparison groups - for example, if struggling firms in the comparison group are more likely to close - the two groups stop being comparable and the impact estimate becomes biased.</p>
+</div>
+</section>
+<section id="what-if-there-are-not-enough-unit" class="level2">
+<h2 class="anchored" data-anchor-id="what-if-there-are-not-enough-unit">What if there are not enough unit?</h2>
+<p>If the power calculation reveals that your eligible pool is too small, there are six practical fixes. The right combination depends on what is driving the shortfall.</p>
+<div class="designs">
+  <div class="d"><div>
+    <h3 class="anchored">Increase outreach</h3>
+    <p>More applicants mean a larger eligible pool. North-East Romania ran outreach events in more than 20 cities before the application window opened, specifically to ensure the pool would be large enough.</p>
+  </div></div>
+  <div class="d"><div>
+    <h3 class="anchored">Expand eligibility</h3>
+    <p>Lowering the eligibility threshold adds more units to the pool. Be careful not to expand so broadly that the evaluation no longer answers the original question - the expanded population should still be the one the intervention is designed to serve.</p>
+  </div></div>
+  <div class="d"><div>
+    <h3 class="anchored">Combine regions or cohorts</h3>
+    <p>If a single region or intervention round does not produce enough units, pooling two regions running similar interventions - or two consecutive cohorts - into a single evaluation can reach the required sample without changing the design.</p>
+  </div></div>
+  <div class="d"><div>
+    <h3 class="anchored">Run a phase-in</h3>
+    <p>Rather than running the intervention to all eligible units at once, stagger rollout across waves. Each wave that is still waiting acts as the comparison group for the waves already receiving support - doubling the effective sample without needing more units overall.</p>
+  </div></div>
+  <div class="d"><div>
+    <h3 class="anchored">Focus on where effects are largest</h3>
+    <p>If the expected effect is larger among a specific subgroup (e.g. younger firms, firms in a particular sector, firms with no prior R&amp;D experience), narrowing the focus raises the detectable effect and reduces the required sample. This only makes sense if the narrowed population remains policy-relevant.</p>
+  </div></div>
+  <div class="d"><div>
+    <h3 class="anchored">Invest in a strong baseline</h3>
+    <p>Collecting good baseline data on the primary outcome - before the intervention - and using it in the analysis significantly reduces the sample size needed. The evaluator can explain how much this helps in your specific context; the reduction is often substantial.</p>
+  </div></div>
+</div>
+<hr>
+</section>
+<section id="a-practical-note-for-managing-authorities" class="level2">
+<h2 class="anchored" data-anchor-id="a-practical-note-for-managing-authorities">A practical note for managing authorities</h2>
+<p>The power calculation is usually the evaluator’s job - not the managing authority’s. But the managing authority is the only party that can answer the policy question that drives the most important input: what effect would be large enough to matter?</p>
+<p>A managing authority that can say “we would consider the intervention successful if it increased firm R&amp;D spending by at least 15%” gives the evaluator something concrete to work with. A managing authority that leaves that question open will get a power calculation based on assumptions it may not recognise or agree with - and may end up with a required sample that is either impossibly large or so small that meaningful effects cannot be detected.</p>
+<div class="takeaway">
+<p>The conversation about sample size is one of the most important early conversations between the managing authority and the evaluation team. Have it before the intervention design is finalised - not after the eligible pool is already fixed.</p>
+</div>
+<hr>
+</section>
+<section id="tools-for-power-calculations" class="level2">
+<h2 class="anchored" data-anchor-id="tools-for-power-calculations">Tools for power calculations</h2>
+<p>The evaluator will run the power calculation, but free tools are available if you want to explore the numbers yourself or check the evaluator’s assumptions.</p>
+<div class="cards">
+<section id="idée-power-calculator" class="level3 unlisted card-e">
+<h3 class="unlisted anchored" data-anchor-id="idée-power-calculator">IDÉE Power Calculator</h3>
+<p>Web-based, no software required, designed for non-specialists. A good starting point. <a href="https://www.idee-education.fr/en/power-calculator/">idee-education.fr</a></p>
+</section>
+<section id="egap-power-guide" class="level3 unlisted card-e">
+<h3 class="unlisted anchored" data-anchor-id="egap-power-guide">EGAP Power Guide</h3>
+<p>A plain-language explanation of power concepts with an interactive calculator. <a href="https://egap.org/resource/10-things-to-know-about-statistical-power/">egap.org</a></p>
+</section>
+<section id="world-bank-dime-wiki" class="level3 unlisted card-e">
+<h3 class="unlisted anchored" data-anchor-id="world-bank-dime-wiki">World Bank DIME Wiki</h3>
+<p>Step-by-step guidance with worked examples drawn from real evaluations. <a href="https://dimewiki.worldbank.org/Power_Calculations">dimewiki.worldbank.org</a></p>
+</section>
+<section id="gpower" class="level3 unlisted card-e">
+<h3 class="unlisted anchored" data-anchor-id="gpower">G*Power</h3>
+<p>Free software covering a wide range of experimental designs <a href="https://www.psychologie.hhu.de/arbeitsgruppen/allgemeine-psychologie-und-arbeitspsychologie/gpower">psychologie.hhu.de</a></p>
+</section>
 </div>
 <hr>
 <div class="nav-buttons">
-<p><a href="./02.03-assess.html">← Back to - Step 4: check whether an RCT is feasible</a></p>
+<p><a href="./02.04-assess.html">← Back to - Step 4: check whether an RCT is feasible</a></p>
 </div>
 
 

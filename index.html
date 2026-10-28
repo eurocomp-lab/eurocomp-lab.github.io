@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Learn how Managing Authorities can use randomised controlled trials to find out which EU-funded programmes work, with guidance, examples and survey tools.">
+<meta name="description" content="Learn how managing authorities and evaluators can use randomised controlled trials (RCTs) for evidence-based policymaking and adaptive learning in cohesion policy, with guidance, examples and survey tools.">
 
-<title>Randomised trials for EU-funded programmes – EuroCOMP Lab</title>
+<title>Randomised trials for EU-funded interventions – EuroCOMP Lab</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -120,24 +120,24 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">Step 2: define learning questions</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./02.04-indicators.html">
- <span class="dropdown-text">Step 3: determine relevant indicators</span></a>
+    <a class="dropdown-item" href="./02.04-indicators.qmd">
+ <span class="dropdown-text"></span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./02.03-assess.html">
- <span class="dropdown-text">Step 4: check whether an RCT is feasible</span></a>
+    <a class="dropdown-item" href="./02.03-assess.qmd">
+ <span class="dropdown-text"></span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./02.05-data_sources.html">
- <span class="dropdown-text">Step 5: identify available data sources</span></a>
+    <a class="dropdown-item" href="./02.05-data_sources.qmd">
+ <span class="dropdown-text"></span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./02.06-data_collect.html">
- <span class="dropdown-text">Step 6: collect data</span></a>
+    <a class="dropdown-item" href="./02.06-data_collect.qmd">
+ <span class="dropdown-text"></span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./02.07-data_quality.html">
- <span class="dropdown-text">Step 7: ensure high-quality data</span></a>
+    <a class="dropdown-item" href="./02.07-data_quality.qmd">
+ <span class="dropdown-text"></span></a>
   </li>  
     </ul>
   </li>
@@ -161,7 +161,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
         <li>
     <a class="dropdown-item" href="./09-bank_outcomes.html">
- <span class="dropdown-text">RCT outcome repository</span></a>
+ <span class="dropdown-text">Indicator repository</span></a>
   </li>  
     </ul>
   </li>
@@ -200,15 +200,13 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#why-introduce-experimental-evaluations" id="toc-why-introduce-experimental-evaluations" class="nav-link active" data-scroll-target="#why-introduce-experimental-evaluations">Why introduce experimental evaluations?</a>
+  <li><a href="#what-is-an-rct" id="toc-what-is-an-rct" class="nav-link active" data-scroll-target="#what-is-an-rct">What is an RCT?</a></li>
+  <li><a href="#what-is-impact-evaluation-and-where-do-rcts-fit-in" id="toc-what-is-impact-evaluation-and-where-do-rcts-fit-in" class="nav-link" data-scroll-target="#what-is-impact-evaluation-and-where-do-rcts-fit-in">What is impact evaluation – and where do RCTs fit in?</a></li>
+  <li><a href="#what-questions-can-an-rct-answer" id="toc-what-questions-can-an-rct-answer" class="nav-link" data-scroll-target="#what-questions-can-an-rct-answer">What questions can an RCT answer?</a></li>
+  <li><a href="#why-experiment-in-cohesion-policy" id="toc-why-experiment-in-cohesion-policy" class="nav-link" data-scroll-target="#why-experiment-in-cohesion-policy">Why experiment in cohesion policy?</a>
   <ul class="collapse">
   <li><a href="#hear-from-european-commission-representatives-on-why-experimentation-matters" id="toc-hear-from-european-commission-representatives-on-why-experimentation-matters" class="nav-link" data-scroll-target="#hear-from-european-commission-representatives-on-why-experimentation-matters">Hear from European Commission representatives on why experimentation matters</a></li>
-  </ul></li>
-  <li><a href="#what-is-impact-evaluation---and-where-does-experimentation-fit-in" id="toc-what-is-impact-evaluation---and-where-does-experimentation-fit-in" class="nav-link" data-scroll-target="#what-is-impact-evaluation---and-where-does-experimentation-fit-in">What is impact evaluation - and where does experimentation fit in?</a></li>
-  <li><a href="#rcts-show-what-works-and-why" id="toc-rcts-show-what-works-and-why" class="nav-link" data-scroll-target="#rcts-show-what-works-and-why">RCTs show what works and why</a>
-  <ul class="collapse">
-  <li><a href="#hear-from-managing-authorities-who-already-use-experimentation" id="toc-hear-from-managing-authorities-who-already-use-experimentation" class="nav-link" data-scroll-target="#hear-from-managing-authorities-who-already-use-experimentation">Hear from Managing Authorities who already use experimentation</a></li>
-  <li><a href="#common-myths-about-rcts" id="toc-common-myths-about-rcts" class="nav-link" data-scroll-target="#common-myths-about-rcts">Common myths about RCTs</a></li>
+  <li><a href="#hear-from-managing-authorities-who-already-use-experimentation" id="toc-hear-from-managing-authorities-who-already-use-experimentation" class="nav-link" data-scroll-target="#hear-from-managing-authorities-who-already-use-experimentation">Hear from managing authorities who already use experimentation</a></li>
   </ul></li>
   <li><a href="#how-to-start" id="toc-how-to-start" class="nav-link" data-scroll-target="#how-to-start">How to start</a>
   <ul class="collapse">
@@ -219,7 +217,7 @@ ul.task-list li input[type="checkbox"] {
 </nav>
     </div>
 <!-- main -->
-<main class="content page-columns page-full" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7">Randomised trials for EU-funded programmes</h1></header>
+<main class="content page-columns page-full" id="quarto-document-content"><header id="title-block-header" class="quarto-title-block"><h1 class="title display-7">Randomised trials for EU-funded interventions</h1></header>
 
 <header id="title-block-header">
 
@@ -232,14 +230,14 @@ ul.task-list li input[type="checkbox"] {
 <div class="hero-inner">
 <section id="join-a-growing-community-of-practice-for-experimental-evaluation-in-europe" class="level1 hero-copy">
 <h1>Join a growing community of practice for experimental evaluation in Europe</h1>
-<p>This website pools knowledge and resources to help Managing Authorities use randomised controlled trials (RCTs) to learn what works in policy programmes.</p>
+<p>This website pools knowledge and resources to help managing authorities and evaluators use randomised controlled trials (RCTs) to learn what works in cohesion policy interventions.</p>
 <div class="hero-actions">
 <p><a href="./01-why-and-when.html" class="hero-btn primary">Why and when to use an RCT</a> <a href="./03-examples.html" class="hero-btn">See examples</a></p>
 </div>
 </section>
 <div class="hero-draw" role="figure" aria-labelledby="hero-draw-caption">
   <img src="assets/hero/random-draw.svg" alt="Forty eligible firms of different sizes are split by a random draw into two groups of twenty, each with a similar mix of small, medium and large firms.">
-  <div class="hero-draw-caption"><span id="hero-draw-caption">A random draw splits eligible applicants into two groups with a similar mix of firms. Any difference that appears later can be credited to the programme.</span><button type="button" class="draw-again" hidden="">Run the draw again</button></div>
+  <div class="hero-draw-caption"><span id="hero-draw-caption">A random draw splits eligible applicants into two groups with a similar mix of firms. Any difference that appears later can be credited to the intervention.</span><button type="button" class="draw-again" hidden="">Run the draw again</button></div>
   <span class="visually-hidden" aria-live="polite"></span>
 </div>
 <script src="assets/hero/random-draw.js" defer=""></script>
@@ -247,169 +245,179 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <section id="summary" class="level2 unlisted team-note">
 <h2 class="unlisted anchored" data-anchor-id="summary">Summary</h2>
-<p>Whether you are considering an RCT for the first time or already have experience with experimentation, you can find the concepts, examples and practical resources you need to get started. This page explains why experimentation matters for policy, how RCTs relate to impact evaluation more broadly, which questions they can answer, and common myths about them. It ends with a guide to the rest of the site.</p>
+<p>This website offers the concepts, examples and practical resources needed to get started with RCTs, both for those considering one for the first time and for those who already have experience with experimentation. This page explains what RCTs are, how they fit among other impact evaluation methods, which questions they can answer and why they matter for cohesion policy. It ends with a guide to the rest of the site.</p>
 </section>
-<section id="why-introduce-experimental-evaluations" class="level2">
-<h2 class="anchored" data-anchor-id="why-introduce-experimental-evaluations">Why introduce experimental evaluations?</h2>
-<p>Innovation in policy making to maximise returns on European Cohesion Policy investments is crucial for improving Europe’s competitiveness. Innovation is particularly vital for middle-income countries to avoid the middle-income trap by integrating advanced technologies and enhancing productivity. Innovation also drives the efficient use of capital, labour, and energy. This is essential for sustainable development - especially in light of rising debt, ageing populations, and environmental challenges.</p>
-<p>The European Union (EU) is one of the world’s largest investors in innovation. Research and innovation received roughly a tenth of its €361 billion Cohesion Policy budget for 2021-2027. Yet regional disparities in innovation outcomes persist and limit the EU’s competitiveness.</p>
-<p>To keep pace with global competitors, every euro invested needs to yield greater returns. While innovation is a primary goal, the process to achieve it often lacks mechanisms for continuous learning and improvement.</p>
-<p>Successful policy development, particularly in innovation, must be accompanied by ongoing adaptation to evolving circumstances.</p>
+<section id="what-is-an-rct" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-an-rct">What is an RCT?</h2>
+<p>Experimentation, or experimental evaluation, means testing an intervention by assigning eligible participants at random either to receive it (or one version of it) or to a comparison group (also called a control group) that does not receive it, or receives a different version. This is called a randomised controlled trial (RCT). On this website, the terms “experimentation” and “RCT” are used interchangeably.</p>
+<p>Randomisation can be used, for example, when there are more eligible applicants than available places, or when an intervention is rolled out in phases and the order in which participants receive it is decided at random. Comparing average outcomes between the groups shows whether the intervention – and not something else going on at the same time – is the reason for the observed changes.</p>
+<p>Who ends up in which group is decided by a random draw. It is not decided by who applied first, who looked most promising or whom the reviewer favoured. Because assignment is random, the groups are similar on average before the intervention starts, and any remaining differences between them are due only to chance. That is true not just for characteristics that can be measured, but also for those that cannot be observed. So when a difference between the groups shows up later, it can be attributed to the intervention, provided the trial is implemented as planned and outcomes are measured in the same way for both groups.</p>
+<figure class="fig-e figure">
+<svg class="fig-wide" viewbox="0 0 660 262" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Eligible applicants with a mix of characteristics are split by a random draw into an intervention group and a comparison group with a similar mix on average. Later, the difference between the two groups' average outcomes is the effect of the intervention.">
+  <!-- column headers -->
+  <rect x="10" y="14" width="150" height="34" rx="5" fill="var(--dg-ink)"></rect>
+  <text x="85" y="36" text-anchor="middle" fill="var(--dg-reverse)" font-size="13.5" font-weight="bold">Eligible applicants</text>
+  <rect x="215" y="14" width="180" height="34" rx="5" fill="var(--dg-ink)"></rect>
+  <text x="305" y="36" text-anchor="middle" fill="var(--dg-reverse)" font-size="13.5" font-weight="bold">Random draw</text>
+  <rect x="435" y="14" width="215" height="34" rx="5" fill="var(--dg-ink)"></rect>
+  <text x="542" y="36" text-anchor="middle" fill="var(--dg-reverse)" font-size="13.5" font-weight="bold">Outcomes</text>
+
+  <!-- pool: 16 applicants, 6 small, 6 medium, 4 large -->
+  <rect x="10" y="64" width="150" height="184" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <g fill="var(--dg-rule)" stroke="var(--dg-line)" stroke-width="1.5">
+    <circle cx="40" cy="98" r="9"></circle><circle cx="70" cy="98" r="4.5"></circle><circle cx="100" cy="98" r="6.5"></circle><circle cx="130" cy="98" r="4.5"></circle>
+    <circle cx="40" cy="132" r="6.5"></circle><circle cx="70" cy="132" r="9"></circle><circle cx="100" cy="132" r="4.5"></circle><circle cx="130" cy="132" r="6.5"></circle>
+    <circle cx="40" cy="166" r="4.5"></circle><circle cx="70" cy="166" r="6.5"></circle><circle cx="100" cy="166" r="9"></circle><circle cx="130" cy="166" r="4.5"></circle>
+    <circle cx="40" cy="200" r="6.5"></circle><circle cx="70" cy="200" r="4.5"></circle><circle cx="100" cy="200" r="6.5"></circle><circle cx="130" cy="200" r="9"></circle>
+  </g>
+  <text x="85" y="236" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11">a mix of applicants</text>
+
+  <!-- the draw splits the pool -->
+  <path d="M160 156 H188 V103 H209 M188 156 V209 H209" stroke="var(--dg-line)" stroke-width="1.5" fill="none"></path>
+  <path d="M215 103 L207 99 V107 Z M215 209 L207 205 V213 Z" fill="var(--dg-line)"></path>
+
+  <!-- intervention group: 3 small, 3 medium, 2 large -->
+  <rect x="215" y="64" width="180" height="78" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="305" y="84" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Intervention group</text>
+  <g fill="var(--dg-accent)" stroke="var(--dg-ink)" stroke-width="1.2">
+    <circle cx="235" cy="108" r="6.5"></circle><circle cx="255" cy="108" r="4.5"></circle><circle cx="275" cy="108" r="9"></circle><circle cx="295" cy="108" r="4.5"></circle>
+    <circle cx="315" cy="108" r="6.5"></circle><circle cx="335" cy="108" r="9"></circle><circle cx="355" cy="108" r="4.5"></circle><circle cx="375" cy="108" r="6.5"></circle>
+  </g>
+  <text x="305" y="133" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11">receives the intervention</text>
+
+  <text x="305" y="160" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11" font-style="italic">≈ similar mix on average</text>
+
+  <!-- comparison group: 3 small, 3 medium, 2 large -->
+  <rect x="215" y="170" width="180" height="78" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="305" y="190" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Comparison group</text>
+  <g fill="var(--dg-panel)" stroke="var(--dg-ink)" stroke-width="1.5">
+    <circle cx="235" cy="214" r="4.5"></circle><circle cx="255" cy="214" r="6.5"></circle><circle cx="275" cy="214" r="6.5"></circle><circle cx="295" cy="214" r="9"></circle>
+    <circle cx="315" cy="214" r="4.5"></circle><circle cx="335" cy="214" r="9"></circle><circle cx="355" cy="214" r="6.5"></circle><circle cx="375" cy="214" r="4.5"></circle>
+  </g>
+  <text x="305" y="239" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11">does not receive it</text>
+
+  <!-- both groups are followed over time -->
+  <path d="M395 103 H415 V156 H429 M395 209 H415 V156" stroke="var(--dg-line)" stroke-width="1.5" fill="none"></path>
+  <path d="M435 156 L427 152 V160 Z" fill="var(--dg-line)"></path>
+
+  <!-- outcomes -->
+  <rect x="435" y="64" width="215" height="184" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="542" y="86" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Average outcome</text>
+  <rect x="455" y="112" width="34" height="110" fill="var(--dg-accent)" stroke="var(--dg-ink)" stroke-width="1.2"></rect>
+  <rect x="518" y="152" width="34" height="70" fill="var(--dg-panel)" stroke="var(--dg-ink)" stroke-width="1.5"></rect>
+  <path d="M447 222 H640" stroke="var(--dg-line)" stroke-width="1.5"></path>
+  <text x="472" y="238" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="10.5">Intervention</text>
+  <text x="535" y="238" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="10.5">Comparison</text>
+  <path d="M489 112 H565 M552 152 H565" stroke="var(--dg-line)" stroke-width="1" stroke-dasharray="3 3"></path>
+  <path d="M565 112 V152 M561 112 H569 M561 152 H569" stroke="var(--dg-ink)" stroke-width="1.5" fill="none"></path>
+  <text x="574" y="129" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Effect of the</text>
+  <text x="574" y="143" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">intervention</text>
+</svg>
+<svg class="fig-phone" viewbox="0 0 360 578" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Eligible applicants with a mix of characteristics are split by a random draw into an intervention group and a comparison group with a similar mix on average. Later, the difference between the two groups' average outcomes is the effect of the intervention.">
+  <rect x="10" y="10" width="340" height="34" rx="5" fill="var(--dg-ink)"></rect>
+  <text x="180" y="32" text-anchor="middle" fill="var(--dg-reverse)" font-size="14" font-weight="bold">Eligible applicants</text>
+  <rect x="10" y="54" width="340" height="96" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <g fill="var(--dg-rule)" stroke="var(--dg-line)" stroke-width="1.5">
+    <circle cx="54" cy="80" r="9"></circle><circle cx="90" cy="80" r="4.5"></circle><circle cx="126" cy="80" r="6.5"></circle><circle cx="162" cy="80" r="4.5"></circle>
+    <circle cx="198" cy="80" r="6.5"></circle><circle cx="234" cy="80" r="9"></circle><circle cx="270" cy="80" r="4.5"></circle><circle cx="306" cy="80" r="6.5"></circle>
+    <circle cx="54" cy="112" r="4.5"></circle><circle cx="90" cy="112" r="6.5"></circle><circle cx="126" cy="112" r="9"></circle><circle cx="162" cy="112" r="4.5"></circle>
+    <circle cx="198" cy="112" r="6.5"></circle><circle cx="234" cy="112" r="4.5"></circle><circle cx="270" cy="112" r="6.5"></circle><circle cx="306" cy="112" r="9"></circle>
+  </g>
+  <text x="180" y="140" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5">a mix of applicants</text>
+  <path d="M180 150 V160" stroke="var(--dg-line)" stroke-width="1.5"></path>
+  <path d="M180 166 L176 158 H184 Z" fill="var(--dg-line)"></path>
+
+  <rect x="10" y="166" width="340" height="34" rx="5" fill="var(--dg-ink)"></rect>
+  <text x="180" y="188" text-anchor="middle" fill="var(--dg-reverse)" font-size="14" font-weight="bold">Random draw</text>
+  <path d="M180 200 V208 H92 V214 M180 208 H268 V214" stroke="var(--dg-line)" stroke-width="1.5" fill="none"></path>
+
+  <rect x="10" y="214" width="165" height="112" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="92" y="234" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Intervention group</text>
+  <g fill="var(--dg-accent)" stroke="var(--dg-ink)" stroke-width="1.2">
+    <circle cx="53" cy="260" r="6.5"></circle><circle cx="79" cy="260" r="4.5"></circle><circle cx="105" cy="260" r="9"></circle><circle cx="131" cy="260" r="4.5"></circle>
+    <circle cx="53" cy="288" r="6.5"></circle><circle cx="79" cy="288" r="9"></circle><circle cx="105" cy="288" r="4.5"></circle><circle cx="131" cy="288" r="6.5"></circle>
+  </g>
+  <text x="92" y="316" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11">receives the intervention</text>
+
+  <rect x="185" y="214" width="165" height="112" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="267" y="234" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Comparison group</text>
+  <g fill="var(--dg-panel)" stroke="var(--dg-ink)" stroke-width="1.5">
+    <circle cx="228" cy="260" r="4.5"></circle><circle cx="254" cy="260" r="6.5"></circle><circle cx="280" cy="260" r="6.5"></circle><circle cx="306" cy="260" r="9"></circle>
+    <circle cx="228" cy="288" r="4.5"></circle><circle cx="254" cy="288" r="9"></circle><circle cx="280" cy="288" r="6.5"></circle><circle cx="306" cy="288" r="4.5"></circle>
+  </g>
+  <text x="267" y="316" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11">does not receive it</text>
+
+  <text x="180" y="346" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5" font-style="italic">≈ similar mix on average</text>
+  <path d="M180 354 V364" stroke="var(--dg-line)" stroke-width="1.5"></path>
+  <path d="M180 370 L176 362 H184 Z" fill="var(--dg-line)"></path>
+
+  <rect x="10" y="370" width="340" height="34" rx="5" fill="var(--dg-ink)"></rect>
+  <text x="180" y="392" text-anchor="middle" fill="var(--dg-reverse)" font-size="14" font-weight="bold">Outcomes</text>
+  <rect x="10" y="414" width="340" height="156" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="180" y="436" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Average outcome</text>
+  <rect x="80" y="456" width="44" height="88" fill="var(--dg-accent)" stroke="var(--dg-ink)" stroke-width="1.2"></rect>
+  <rect x="160" y="500" width="44" height="44" fill="var(--dg-panel)" stroke="var(--dg-ink)" stroke-width="1.5"></rect>
+  <path d="M30 544 H330" stroke="var(--dg-line)" stroke-width="1.5"></path>
+  <text x="102" y="560" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11">Intervention</text>
+  <text x="182" y="560" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11">Comparison</text>
+  <path d="M124 456 H226 M204 500 H226" stroke="var(--dg-line)" stroke-width="1" stroke-dasharray="3 3"></path>
+  <path d="M226 456 V500 M222 456 H230 M222 500 H230" stroke="var(--dg-ink)" stroke-width="1.5" fill="none"></path>
+  <text x="238" y="474" fill="var(--dg-ink)" font-size="12" font-weight="bold">Effect of the</text>
+  <text x="238" y="489" fill="var(--dg-ink)" font-size="12" font-weight="bold">intervention</text>
+</svg>
+<figcaption>Note: dot sizes stand for applicants with different characteristics. Because the draw is random, both groups end up with a similar mix on average, so a later difference in their average outcomes can be attributed to the intervention. The comparison group can also receive a different version of the intervention. Bar heights are illustrative.</figcaption>
+</figure>
+</section>
+<section id="what-is-impact-evaluation-and-where-do-rcts-fit-in" class="level2">
+<h2 class="anchored" data-anchor-id="what-is-impact-evaluation-and-where-do-rcts-fit-in">What is impact evaluation – and where do RCTs fit in?</h2>
 <div class="gold-panel">
-<p>This is called science-based adaptive delivery: testing, learning, and adjusting as you go.</p>
+<p>Impact evaluation answers the question: what causal effect did this intervention have on outcomes such as employment, skills or firm growth – for whom did it work best, and under which conditions?</p>
 </div>
-<p>Concretely, getting more out of Cohesion Policy investments means rethinking how to identify the beneficiaries who benefit most from public support. How can one know whether funded beneficiaries would have performed just as well without public funding? Or would other recipients have benefited more and generated even greater returns on public investments? Experimentation can help answer these questions.</p>
-<section id="hear-from-european-commission-representatives-on-why-experimentation-matters" class="level3">
-<h3 class="anchored" data-anchor-id="hear-from-european-commission-representatives-on-why-experimentation-matters">Hear from European Commission representatives on why experimentation matters</h3>
-<div class="video-frame">
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/3EOMStzWK30" title="The case for policy learning and experimentation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-</div>
+<p>An impact evaluation compares what happened after an intervention was introduced with what would have happened in its absence: the counterfactual. Unlike monitoring, which tracks whether an intervention is implemented as planned, it tests whether the intervention caused a real difference. It is one of several types of evaluation, alongside implementation evaluation, that managing authorities can include in their evaluation plans.</p>
+<p>There is more than one credible way to conduct an impact evaluation, and the right choice depends on the intervention, the available data and the timing. Quasi-experimental methods, such as matching, difference-in-differences or regression discontinuity design, compare participants with similar non-participants. Because the evaluator does not decide who ends up in which group, the comparability of the groups rests on assumptions that need to be stated and discussed.</p>
+<p>In an RCT, the comparison group is created by random assignment before the intervention starts, so the comparability of the groups does not depend on such assumptions. The Commission’s <a href="https://commission.europa.eu/law/law-making-process/better-regulation/better-regulation-guidelines-and-toolbox/better-regulation-toolbox_en">Better Regulation toolbox</a> (Tool #68) describes randomised controlled trials as “the benchmark for scientific quantitative methods”, with quasi-experimental methods as the option when randomised trials are not possible. As an RCT requires random assignment to the intervention, it has to be planned before or during implementation. See more on <a href="./01-why-and-when.html#alternatives">how RCTs differ from quasi-experimental methods</a> and <a href="./01-why-and-when.html#rct">when an RCT is the right choice</a> on the <a href="./01-why-and-when.html">RCTs: why and when</a> page.</p>
 </section>
-</section>
-<section id="what-is-impact-evaluation---and-where-does-experimentation-fit-in" class="level2">
-<h2 class="anchored" data-anchor-id="what-is-impact-evaluation---and-where-does-experimentation-fit-in">What is impact evaluation - and where does experimentation fit in?</h2>
-<div class="gold-panel">
-<p>Impact evaluation answers the question: what causal effect did this programme have on outcomes like firm survival, employment, or innovation - for whom did it work best, and under which conditions?</p>
-</div>
-<p>An impact evaluation compares what happened after a programme was introduced with what would have happened in its absence: the counterfactual. Unlike monitoring and evaluation (M&amp;E), which tracks whether a programme is implemented as planned, it tests whether the programme caused a real difference. See <a href="./01-why-and-when.html#impact-evaluation">what impact evaluation is for and how it differs from M&amp;E</a>.</p>
-<p>There is more than one credible way to conduct an impact evaluation. In fact, you may already have evaluated a programme’s impact - perhaps using matching, difference-in-differences, or a regression discontinuity, comparing participants to similar non-participants constructing the comparison group after the programme had already ended. That is impact evaluation too, and it can be credible. But because the comparison group is built after implementation, its credibility rests on assumptions that have to be separately defended.</p>
-<p>Now imagine doing this differently: designing the comparison group by randomly assigning eligible applicants to different groups, rather than picking it afterwards. That is what an RCT does. See <a href="./01-why-and-when.html#alternatives">how the methods compare</a> and <a href="./01-why-and-when.html#rct">why RCTs are usually the stronger choice</a>.</p>
-</section>
-<section id="rcts-show-what-works-and-why" class="level2">
-<h2 class="anchored" data-anchor-id="rcts-show-what-works-and-why">RCTs show what works and why</h2>
-<p>A RCT compares what happens to programme participants against an on-average identical group that does not receive the programme. That comparison can show whether the Cohesion Policy programme - and not something else going on at the same time - is the reason things improved.</p>
-<p>Who ends up in the treatment group and who ends up in the comparison group is decided by a random draw. It is not decided by who applied first, who looked most promising, or whom the reviewer favoured. Because assignment to the programme is random, the two groups look the same on average before the programme. That is true not just for characteristics you can measure, but also for the ones you cannot observe. So when a difference between the groups shows up later, it can be attributed to the programme.</p>
+<section id="what-questions-can-an-rct-answer" class="level2">
+<h2 class="anchored" data-anchor-id="what-questions-can-an-rct-answer">What questions can an RCT answer?</h2>
 <p>An RCT can answer several kinds of questions, depending on how it is designed:</p>
 <div class="cards">
-<section id="how-effective-is-a-given-programme" class="level3 unlisted card-e">
-<h3 class="unlisted anchored" data-anchor-id="how-effective-is-a-given-programme">How effective is a given programme?</h3>
-<p>Whether the programme works, and for whom it works best.</p>
+<section id="how-effective-is-a-given-intervention" class="level3 unlisted card-e">
+<h3 class="unlisted anchored" data-anchor-id="how-effective-is-a-given-intervention">How effective is a given intervention?</h3>
+<p>Whether the intervention works, and for whom it works best.</p>
 </section>
-<section id="which-version-of-a-programme-is-most-effective" class="level3 unlisted card-e">
-<h3 class="unlisted anchored" data-anchor-id="which-version-of-a-programme-is-most-effective">Which version of a programme is most effective?</h3>
-<p>How different versions of a programme compare - which parts of a programme work, which do not, and how they work together.</p>
+<section id="which-version-of-an-intervention-is-most-effective" class="level3 unlisted card-e">
+<h3 class="unlisted anchored" data-anchor-id="which-version-of-an-intervention-is-most-effective">Which version of an intervention is most effective?</h3>
+<p>How different versions of an intervention compare – which parts of an intervention work, which do not and how they work together.</p>
 </section>
-<section id="how-should-a-programme-be-delivered" class="level3 unlisted card-e">
-<h3 class="unlisted anchored" data-anchor-id="how-should-a-programme-be-delivered">How should a programme be delivered?</h3>
+<section id="how-should-an-intervention-be-delivered" class="level3 unlisted card-e">
+<h3 class="unlisted anchored" data-anchor-id="how-should-an-intervention-be-delivered">How should an intervention be delivered?</h3>
 <p>How different delivery mechanisms change results, including how to target beneficiaries accurately and increase take-up.</p>
 </section>
 <section id="is-it-worth-the-cost" class="level3 unlisted card-e">
 <h3 class="unlisted anchored" data-anchor-id="is-it-worth-the-cost">Is it worth the cost?</h3>
-<p>How cost-effective the programme is, and how it compares to other programmes.</p>
+<p>How cost-effective the intervention is, and how it compares to other interventions.</p>
 </section>
 </div>
-<p>The question you want answered decides when the RCT has to be planned. To find out whether a programme works at all, randomisation must be built in before launch, from the call for proposals. To find out which version works better (a grant alone versus a grant plus advisory support, for instance), an RCT can still be added after the programme has started. Randomisation then shifts from who gets funded at all to which version each participant receives. See <a href="./01-why-and-when.html#choosing-design">Choosing the right evaluation design</a>.</p>
-<section id="hear-from-managing-authorities-who-already-use-experimentation" class="level3">
-<h3 class="anchored" data-anchor-id="hear-from-managing-authorities-who-already-use-experimentation">Hear from Managing Authorities who already use experimentation</h3>
+<p>The question one wants answered decides when, how and for whom the RCT has to be planned. To find out whether an intervention works at all, randomisation must be built in before launch, from the call for proposals. To find out which version works better (a grant alone versus a grant plus advisory support, for instance), an RCT can still be added after the intervention has started. Randomisation then shifts from who gets funded at all to which version each participant receives. See <a href="./01-why-and-when.html#choosing-design">Choosing the right evaluation design</a> on the <a href="./01-why-and-when.html">RCTs: why and when</a> page.</p>
+</section>
+<section id="why-experiment-in-cohesion-policy" class="level2">
+<h2 class="anchored" data-anchor-id="why-experiment-in-cohesion-policy">Why experiment in cohesion policy?</h2>
+<p>Cohesion policy supports all EU regions, investing in areas ranging from innovation and the green transition to transport, social inclusion and local development. To design and adjust these interventions well, managing authorities need robust evidence on what they achieve, for whom and under which conditions.</p>
+<p>Experimentation is one way to obtain such evidence. Because an RCT creates the comparison group by random assignment, it provides robust causal evidence on whether an intervention made a difference.</p>
+<p>Experimentation also supports evidence-based policymaking and adaptive learning. Testing different versions of an intervention, or rolling it out in phases, lets managing authorities learn while delivery is under way and adjust the design, targeting or delivery of later rounds. Findings from one region can inform similar interventions in other regions and in future programming periods.</p>
+<div class="gold-panel">
+<p>Experimentation allows for testing, learning and adjusting during delivery.</p>
+</div>
+<section id="hear-from-european-commission-representatives-on-why-experimentation-matters" class="level3">
+<h3 class="anchored" data-anchor-id="hear-from-european-commission-representatives-on-why-experimentation-matters">Hear from European Commission representatives on why experimentation matters</h3>
 <div class="video-frame">
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/CP88LYKlzW0" title="Trying something new" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/p9L2-K7UyP0" title="The case for policy learning and experimentation" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 </div>
 </section>
-<section id="do-you-think-you-already-know-which-programme-works-and-whom-to-fund" class="level3 statement unlisted">
-<h3 class="statement unlisted anchored" data-anchor-id="do-you-think-you-already-know-which-programme-works-and-whom-to-fund">Do you think you already know which programme works and whom to fund?</h3>
-<p>Every euro you commit is a euro you cannot spend elsewhere. To ensure resources are spent efficiently, ask yourself:</p>
-<ul>
-<li><p>Would the beneficiaries have succeeded without your agency’s support?</p></li>
-<li><p>Would someone else have gained more from the same euro?</p></li>
-</ul>
-<p>If you cannot answer both with confidence, consider testing it. <a href="./01-why-and-when.html#allocation">See why funding the strongest applicants may be less impactful than funding marginal ones</a>.</p>
-</section>
-<section id="common-myths-about-rcts" class="level3">
-<h3 class="anchored" data-anchor-id="common-myths-about-rcts">Common myths about RCTs</h3>
-<div class="myths-grid">
-<details class="myth-box">
-<summary>
-RCTs are too scientific for anyone but academics
-</summary>
-<p>RCTs are the easiest rigorous evaluation method to interpret and implement, not the hardest. Randomisation is, at its core, just like flipping a coin: who lands in the treatment and who lands in the comparison group is solely a matter of chance and unrelated to any characteristics of the applicant. This ensures that the treatment and comparison groups are, on average, identical in the absence of the programme. Because of this, the impact estimate does not rest on assumptions that have to be separately defended - it is simply the difference in average outcomes between the two groups after the programme runs.</p>
-<p>Quasi-experimental methods - difference-in-differences, matching, regression discontinuity - can seem less academic because they do not need to be embedded at the design stage; they work with what is already there. But the estimates they produce rely on assumptions that are hard to verify. Properly checking whether their key assumption holds - that trends really were parallel, that matched groups did not differ on anything unobserved, that the cut-off was clean - requires robustness checks beyond a standard regression. An RCT needs none of that: if assignment was random, the treatment and comparison groups are comparable by construction, and the average difference between them is the estimate.</p>
-<p>So RCTs may look more academic but are, in practice, more transparent and easier to defend. They are also straightforward to implement and not necessarily more costly to run (see below).</p>
-</details>
-<details class="myth-box">
-<summary>
-Random assignment is not allowed under European rules and contradicts the principle of selecting on merit
-</summary>
-<p>Random assignment is not only allowed but is, in many cases, the fairer way to select. The Directorate-General for Regional and Urban Policy (DG REGIO) has formally confirmed that randomisation is permissible under EU Cohesion Policy rules (for more information, see <a href="./02.03c-legal.html">A legal basis for random selection</a>).</p>
-<p>Random assignment does not replace selection on merit but can supplement it. To illustrate this, imagine a two-stage process in which all applicants are first assessed against the call’s eligibility and quality criteria as usual. In the second stage, only those who pass enter the draw. Expert panels still decide who is eligible, but they do not rank or choose among equally eligible applicants. Programmes can also be designed to fund the strongest applicants outright and randomise only within a middle band of scores, as was done in <a href="./03-examples.html#spain">Extremadura</a>.</p>
-<p>Randomisation is already used to select programme beneficiaries across Europe. Managing Authorities and agencies in Spain, Czechia, Croatia and Romania have used random assignment to allocate EU-funded support, as has the European Commission itself for SME energy-efficiency grants across 34 countries, and programmes in Bulgaria and Poland are preparing to do the same (see <a href="./03-examples.html">Examples</a>). The use of randomisation is not limited to Cohesion Policy. In France, where policy experimentation has had a constitutional basis since 2003, the Ministry of Labour randomised intensive job counselling for young graduates across 235 local labour markets, with nearly 30,000 job seekers in the evaluation sample <a href="https://doi.org/10.1093/qje/qjt001">(Crépon et al., 2013)</a>. In Spain, the Inclusion Policy Lab of the Ministry of Inclusion, Social Security and Migration has funded 32 randomised evaluations of social inclusion programmes linked to the national minimum income scheme.</p>
-</details>
-<details class="myth-box">
-<summary>
-RCTs are the gold standard for evaluation
-</summary>
-<p>For establishing whether a programme caused a change in outcomes, RCTs are the gold standard. Their design minimises bias and establishes clear cause-and-effect relationships because the estimate does not depend on an assumption that has to be separately defended: no parallel trends to argue for, no unobserved characteristics to control for, no instrument to justify. Every other rigorous method earns its credibility by convincingly defending an assumption that cannot be directly tested, while a well-designed and executed RCT does not need to make that argument.</p>
-</details>
-<details class="myth-box">
-<summary>
-RCTs are more expensive than other rigorous methods
-</summary>
-<p>Randomisation is an allocation rule. It tells you who is assigned to a programme and who is not, but says nothing about how you measure outcomes afterwards. Measuring outcomes (for example, profits, business survival) requires data, which costs money and takes time - not just for RCTs but for whichever evaluation method is used. Other rigorous methods often skip a baseline survey, which RCTs generally plan from design stage. That may look like a saving at first glance, but it makes it harder to assess the credibility of the assumptions those methods rely on. With a large enough sample, RCTs technically do not need a baseline survey either, though collecting one is best practice. Where outcomes are already recorded in administrative registers, the cost of an RCT is the same as that of any other rigorous evaluation: legal/GDPR clearance to access and link the registers, and analytical time.</p>
-<p>RCTs do come with additional staffing costs. Unlike a method applied retrospectively to data that already exists, randomisation must be run and monitored while the programme is ongoing - so the Managing Authority needs staff assigned to it on an ongoing basis.</p>
-</details>
-<details class="myth-box">
-<summary>
-RCTs tell you a programme works but never why
-</summary>
-<p>If well-designed, RCTs are among the strongest tools available for showing why a programme works. When a programme has several components, a multi-arm design lets you disentangle their separate contributions: instead of one treatment group and one comparison group, you randomise across several treatment arms that receive different components or combinations of components (for example, a grant alone versus a grant combined with business advisory support) and compare outcomes across arms rather than against a single comparison group.</p>
-</details>
-<details class="myth-box">
-<summary>
-You can only identify what you randomised
-</summary>
-<p>This is true, which is why it matters to get the learning questions you care about right at the design stage. Randomisation gives a clean estimate of the effect of whatever was randomised - most commonly, being assigned to (or offered) a programme. To cleanly separate the effect of one component from another, those components need to be randomised separately too, for example through a multi-arm design.</p>
-</details>
-<details class="myth-box">
-<summary>
-RCTs are only valid inside the study population
-</summary>
-<p>Every empirical method faces the same question of whether findings hold up beyond the sample they were estimated on, so external validity is not a defect unique to randomisation. A single RCT cannot tell you whether a programme will work everywhere, but it can tell you a lot about the conditions under which it worked in that case. When designing a new programme elsewhere, you can assess how similar those conditions are and judge how far the original findings are likely to apply. The more similar RCTs are run across different countries or regions, the more confidently general conclusions can be drawn.</p>
-</details>
-<details class="myth-box">
-<summary>
-RCTs take too long to be useful within a programming period
-</summary>
-<p>A staggered or phased rollout combined with an RCT can be a source of continuous learning. Early waves of participants already generate short-term outcomes while later waves are still being enrolled, so a Managing Authority can see early signals - take-up, engagement, first movements in outcomes - well before the programme is fully rolled out, and adjust design or targeting for later waves accordingly. Long-term outcomes can, by construction, only be observed after a few years, which may come too late to change the current programming period. But similar programmes are likely to follow, in the same region or elsewhere in the EU, so knowing whether a programme achieved its intended effect still helps allocate future funding more efficiently.</p>
-</details>
-<details class="myth-box">
-<summary>
-RCTs assume everyone responds the same way
-</summary>
-<p>The effects an RCT most commonly measures - the average treatment effect, or the intention-to-treat effect - compare average outcomes between the treatment and comparison groups. Neither assumes every member of these groups responds identically, only that the average difference is a meaningful summary of the programme’s impact. Heterogeneous treatment effect analysis by subgroup is feasible with a large enough sample and cheap to do well with EU administrative data: business and tax registers already record the characteristics on which one may suspect heterogeneity (for example, firm size, sector, region) needed to check whether a programme works differently for different types of firms.</p>
-</details>
-<details class="myth-box">
-<summary>
-Randomisation means no further analysis is needed
-</summary>
-<p>If sample sizes are large enough and treatment is assigned randomly, the treatment and comparison groups will show, on average, identical characteristics - not that every participant has an identical match in the other group, only that characteristics balance on average. In practice, participants do not always stay in the group they were originally assigned to. This happens when randomisation is on assignment to a programme rather than on take-up: the assigned and non-assigned groups still look the same, but the group that actually participates no longer looks the same as those who do not. In this case, what is reported is the intention-to-treat effect - the average effect of being assigned to the programme, rather than of participating in it. Good practice is to check balance between the treatment and comparison groups on observable characteristics at baseline, before the programme starts.</p>
-</details>
-<details class="myth-box">
-<summary>
-RCTs can only be run on a big sample
-</summary>
-<p>Detecting a given effect with confidence needs enough observations in each group - the smaller the expected effect, the bigger the sample must be. This is why one should conduct power calculations at the design stage.</p>
-<p>A power calculation needs a few inputs: the smallest effect that would still be meaningful to detect, how much the outcome already varies across firms before the programme runs, expectations about programme take-up (as this affects the treatment group’s sample size), how much observation loss to expect over time, and whether assignment happens at the level of the applicant or of a group they belong to - assigning by group rather than by firm generally needs a larger total sample to reach the same precision.</p>
-<p>See <a href="./02-how.html">How to conduct an RCT</a> for a walkthrough of turning these inputs into an actual sample size calculation.</p>
-</details>
-<details class="myth-box">
-<summary>
-It is difficult to get responses from the comparison group
-</summary>
-<p>This concern is valid and worth considering at design stage, but it is often a smaller challenge than expected. Often, outcomes of interest are already captured in administrative registers rather than collected through a survey, so comparison group response rates are not a concern at all.</p>
-<p>If outcome data needs to be collected through surveys, a group that received nothing may feel less invested in answering than a group that participated. But the evidence suggests the gap is usually smaller than expected: looking across dozens of studies, David McKenzie found that differential attrition between treatment and comparison groups averages only a few percentage points, widening mainly when the treatment is large and highly visible (for example, a sizeable cash grant) rather than for lower-value interventions. Where a gap does open up in an early round, sustained follow-up - repeat calls, alternative contact channels, incentives - has been shown to close much of it later.</p>
-</details>
-<details class="myth-box">
-<summary>
-RCTs are unethical because they deny help to a comparison group
-</summary>
-<p>This common misconception gets the ethics backwards. Where limited budgets already mean fewer applicants can be funded than apply, someone is turned away regardless of the evaluation method - the budget already decides that. Randomisation only decides how the budget is allocated. Executed well, it is a well-documented, defensible allocation rule that gives every equally eligible applicant the same fair chance to access funds. Other ways of assigning applicants - case-officer discretion, queue position - are no fairer, less transparent, and not necessarily more accurate. If there is empirical, causal evidence that a particular group of applicants should be prioritised, that evidence should be used; if there is not, these alternatives are no fairer than random assignment. In a business plan competition in Nigeria, for instance, expert judges’ scores had no relationship with which businesses went on to survive, hire staff, or turn a profit three years later, and machine-learning models trained on the same applications did barely better <a href="https://doi.org/10.1016/j.jdeveco.2019.07.002">(McKenzie &amp; Sansone, 2019)</a>.</p>
-<p>Nor does a comparison group have to mean receiving nothing at all: RCTs can compare two different versions of a programme, so every participant receives some form of support and the question becomes which version works better. What matters is that participants are properly informed about the study, their rights, and how any data on them is processed and stored - which is why RCTs are typically reviewed beforehand by a research ethics committee (an Institutional Review Board, or IRB, in some countries), which is also the body participants can turn to with complaints.</p>
-</details>
-<details class="myth-box">
-<summary>
-RCTs require ethical clearance
-</summary>
-<p>Whether ethics review is legally mandatory depends on the country, the institution running the study, and whether personal data is involved - it is not a universal legal requirement. For example, an RCT studying a programme’s effect on firms using administrative data as outcomes does not require ethical clearance. Seeking one anyway is still recommended: a research ethics committee (an Institutional Review Board) is what ensures participants are properly informed, that data handling complies with GDPR, and that there is a body participants can turn to with complaints.</p>
-</details>
+<section id="hear-from-managing-authorities-who-already-use-experimentation" class="level3">
+<h3 class="anchored" data-anchor-id="hear-from-managing-authorities-who-already-use-experimentation">Hear from managing authorities who already use experimentation</h3>
+<div class="video-frame">
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/QeEbeteG05g" title="Trying something new" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 </div>
 <hr>
 </section>
@@ -421,19 +429,19 @@ RCTs require ethical clearance
 <div class="cards">
 <section id="rcts-why-and-when" class="level4 card-e">
 <h4 class="anchored" data-anchor-id="rcts-why-and-when"><a href="./01-why-and-when.html">RCTs: why and when</a></h4>
-<p>Why an RCT is the most credible way to measure a programme’s impact, how it compares with other evaluation methods, when to use one, and when to plan it.</p>
+<p>What RCTs can and cannot show, how they compare with other evaluation methods, when to use and plan one, and common questions about RCTs.</p>
 </section>
 <section id="how-to-design-an-rct" class="level4 card-e">
 <h4 class="anchored" data-anchor-id="how-to-design-an-rct"><a href="./02-how.html">How to design an RCT</a></h4>
-<p>This page explains how to plan an RCT, walking you through the process in seven steps: from thinking through the causal logic of your intervention, through choosing the right design for your experiment, to ensuring high-quality data is collected.</p>
+<p>How to plan an RCT in seven steps: from the causal logic of the intervention, through choosing the right design, to ensuring high-quality data is collected.</p>
 </section>
 <section id="examples" class="level4 card-e">
 <h4 class="anchored" data-anchor-id="examples"><a href="./03-examples.html">Examples</a></h4>
-<p>Experiences from projects already partnering with the EuroCOMP Lab and from beyond.</p>
+<p>Experiences from projects partnering with the EuroCOMP Lab and beyond.</p>
 </section>
 <section id="repository" class="level4 card-e">
 <h4 class="anchored" data-anchor-id="repository"><a href="./04-templates.html">Repository</a></h4>
-<p>Repository for outcomes and survey questions organised by topic.</p>
+<p>Outcome indicators and survey questions, organised by topic.</p>
 </section>
 </div>
 </section>
@@ -450,10 +458,10 @@ RCTs require ethical clearance
 </section>
 </div>
 </section>
-<section id="the-eu-needs-more-managing-authorities-leading-the-change-towards-experimentation-in-policy-making" class="level3 unlisted">
-<h3 class="unlisted anchored" data-anchor-id="the-eu-needs-more-managing-authorities-leading-the-change-towards-experimentation-in-policy-making">The EU needs more Managing Authorities leading the change towards experimentation in policy making</h3>
+<section id="the-eu-needs-more-managing-authorities-leading-the-change-towards-experimentation-in-policymaking" class="level3 unlisted">
+<h3 class="unlisted anchored" data-anchor-id="the-eu-needs-more-managing-authorities-leading-the-change-towards-experimentation-in-policymaking">The EU needs more managing authorities leading the change towards experimentation in policymaking</h3>
 <div class="video-frame">
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/E8xUEw-YUDQ" title="Trying something new" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/MUuhKap8BlQ" title="Taking iniative" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 </div>
 
 

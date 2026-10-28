@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Learn how to check that the treatment and comparison groups look alike after the lottery, how to read the results and what to do if they differ.">
+<meta name="description" content="Plan survey rounds, choose a collection method, design and pilot the questionnaire, limit attrition and meet data protection rules when surveying firms.">
 
-<title>Balance checks: are the groups comparable? – EuroCOMP Lab</title>
+<title>Step 7: collect data – EuroCOMP Lab</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -120,24 +120,24 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">Step 2: define learning questions</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./02.04-indicators.html">
- <span class="dropdown-text">Step 3: determine relevant indicators</span></a>
+    <a class="dropdown-item" href="./02.04-indicators.qmd">
+ <span class="dropdown-text"></span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./02.03-assess.html">
- <span class="dropdown-text">Step 4: check whether an RCT is feasible</span></a>
+    <a class="dropdown-item" href="./02.03-assess.qmd">
+ <span class="dropdown-text"></span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./02.05-data_sources.html">
- <span class="dropdown-text">Step 5: identify available data sources</span></a>
+    <a class="dropdown-item" href="./02.05-data_sources.qmd">
+ <span class="dropdown-text"></span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./02.06-data_collect.html">
- <span class="dropdown-text">Step 6: collect data</span></a>
+    <a class="dropdown-item" href="./02.06-data_collect.qmd">
+ <span class="dropdown-text"></span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./02.07-data_quality.html">
- <span class="dropdown-text">Step 7: ensure high-quality data</span></a>
+    <a class="dropdown-item" href="./02.07-data_quality.qmd">
+ <span class="dropdown-text"></span></a>
   </li>  
     </ul>
   </li>
@@ -161,7 +161,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
         <li>
     <a class="dropdown-item" href="./09-bank_outcomes.html">
- <span class="dropdown-text">RCT outcome repository</span></a>
+ <span class="dropdown-text">Indicator repository</span></a>
   </li>  
     </ul>
   </li>
@@ -200,10 +200,20 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#why-comparability-matters-so-much" id="toc-why-comparability-matters-so-much" class="nav-link active" data-scroll-target="#why-comparability-matters-so-much">Why comparability matters so much</a></li>
-  <li><a href="#what-a-balance-check-involves" id="toc-what-a-balance-check-involves" class="nav-link" data-scroll-target="#what-a-balance-check-involves">What a balance check involves</a></li>
-  <li><a href="#how-to-read-the-results" id="toc-how-to-read-the-results" class="nav-link" data-scroll-target="#how-to-read-the-results">How to read the results</a></li>
-  <li><a href="#what-to-do-if-the-groups-are-not-perfectly-balanced" id="toc-what-to-do-if-the-groups-are-not-perfectly-balanced" class="nav-link" data-scroll-target="#what-to-do-if-the-groups-are-not-perfectly-balanced">What to do if the groups are not perfectly balanced</a></li>
+  <li><a href="#plan-the-data-collection-rounds" id="toc-plan-the-data-collection-rounds" class="nav-link active" data-scroll-target="#plan-the-data-collection-rounds">Plan the data collection rounds</a></li>
+  <li><a href="#why-surveys" id="toc-why-surveys" class="nav-link" data-scroll-target="#why-surveys">Why surveys?</a></li>
+  <li><a href="#paper-vs.-electronic-surveys" id="toc-paper-vs.-electronic-surveys" class="nav-link" data-scroll-target="#paper-vs.-electronic-surveys">Paper vs.&nbsp;electronic surveys</a></li>
+  <li><a href="#choose-a-collection-method" id="toc-choose-a-collection-method" class="nav-link" data-scroll-target="#choose-a-collection-method">Choose a collection method</a></li>
+  <li><a href="#who-to-collect-from-and-when" id="toc-who-to-collect-from-and-when" class="nav-link" data-scroll-target="#who-to-collect-from-and-when">Who to collect from, and when</a></li>
+  <li><a href="#the-role-of-data-collection-firms-and-evaluation-consultants" id="toc-the-role-of-data-collection-firms-and-evaluation-consultants" class="nav-link" data-scroll-target="#the-role-of-data-collection-firms-and-evaluation-consultants">The role of data collection firms and evaluation consultants</a></li>
+  <li><a href="#designing-the-questionnaire" id="toc-designing-the-questionnaire" class="nav-link" data-scroll-target="#designing-the-questionnaire">Designing the questionnaire</a>
+  <ul class="collapse">
+  <li><a href="#start-with-what-already-exists" id="toc-start-with-what-already-exists" class="nav-link" data-scroll-target="#start-with-what-already-exists">Start with what already exists</a></li>
+  <li><a href="#questionnaire-design" id="toc-questionnaire-design" class="nav-link" data-scroll-target="#questionnaire-design">Questionnaire design</a></li>
+  <li><a href="#piloting-the-questionnaire" id="toc-piloting-the-questionnaire" class="nav-link" data-scroll-target="#piloting-the-questionnaire">Piloting the questionnaire</a></li>
+  </ul></li>
+  <li><a href="#minimising-attrition" id="toc-minimising-attrition" class="nav-link" data-scroll-target="#minimising-attrition">Minimising attrition</a></li>
+  <li><a href="#data-protection-and-gdpr-compliance" id="toc-data-protection-and-gdpr-compliance" class="nav-link" data-scroll-target="#data-protection-and-gdpr-compliance">Data protection and GDPR compliance</a></li>
   </ul>
 </nav>
     </div>
@@ -212,7 +222,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Balance checks: are the groups comparable?</h1>
+<h1 class="title">Step 7: collect data</h1>
 </div>
 
 
@@ -229,93 +239,122 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<nav class="tracker" aria-label="Seven steps for designing an RCT"><span><a href="./02.01-toc.html" title="Step 1: develop a Theory of Change">Step 1</a></span><span><a href="./02.02-eval_questions.html" title="Step 2: define learning questions">Step 2</a></span><span><a href="./02.04-indicators.html" title="Step 3: determine relevant indicators">Step 3</a></span><span class="on"><a href="./02.03-assess.html" title="Step 4: check whether an RCT is feasible">Step 4</a></span><span><a href="./02.05-data_sources.html" title="Step 5: identify available data sources">Step 5</a></span><span><a href="./02.06-data_collect.html" title="Step 6: collect data">Step 6</a></span><span><a href="./02.07-data_quality.html" title="Step 7: ensure high-quality data">Step 7</a></span></nav>
+<nav class="tracker" aria-label="Seven steps for designing an RCT"><span><a href="./02.01-toc.html" title="Step 1: develop a Theory of Change">Step 1</a></span><span><a href="./02.02-eval_questions.html" title="Step 2: define learning questions">Step 2</a></span><span><a href="./02.03-indicators.html" title="Step 3: determine relevant indicators">Step 3</a></span><span><a href="./02.04-assess.html" title="Step 4: check whether an RCT is feasible">Step 4</a></span><span><a href="./02.05-randomisation.html" title="Step 5: how to randomise">Step 5</a></span><span><a href="./02.06-data_sources.html" title="Step 6: identify available data sources">Step 6</a></span><span class="on" aria-current="step">Step 7</span><span><a href="./02.08-data_quality.html" title="Step 8: ensure high-quality data">Step 8</a></span></nav>
 <section id="summary" class="level2 unlisted team-note">
 <h2 class="unlisted anchored" data-anchor-id="summary">Summary</h2>
-<p>This page explains what balance means, why it matters, how to check it, and what to do if the groups turn out not to be comparable after the lottery.</p>
+<p>This page covers when and how many data collection rounds to plan, why surveys are used and which method to choose, who to collect from, the role of external data collection firms, how to design and pilot the questionnaire, how to minimise attrition, and General Data Protection Regulation (GDPR) compliance requirements.</p>
 </section>
-<p>A randomised lottery is designed to produce two groups - treatment and comparison - that look alike before the programme starts. This comparability is the foundation on which the entire evaluation rests. If the groups are similar at baseline, any difference in outcomes at endline can be attributed to the programme. If they are not, that attribution falls apart.</p>
-<p>This page explains what balance means in practice, how to verify it, and - because no lottery produces perfect balance every time - what to do when the groups turn out to be different on some characteristic.</p>
+<p>Step 5 determined where the data will come from. This step is about how and when to collect it. For most randomised controlled trials (RCT) evaluations of competitiveness interventions, this means planning at least one round of primary survey data collection - a baseline before the intervention - while also coordinating access to the administrative data sources identified in Step 5. Whether a primary endline survey is also needed depends on the availability of administrative data, as described below.</p>
 <hr>
-<section id="why-comparability-matters-so-much" class="level2">
-<h2 class="anchored" data-anchor-id="why-comparability-matters-so-much">Why comparability matters so much</h2>
-<p>The logic of a randomised controlled trial (RCT) is simple: take two groups of similar firms, give one group the programme and withhold it from the other, then compare outcomes. The comparison is only meaningful if the two groups were genuinely similar to begin with. If the treatment group happened to contain more high-performing firms before the programme started, any difference in outcomes at endline may simply reflect that head start rather than the programme’s effect.</p>
-<p>Randomisation is the mechanism that makes comparability likely - but it does not guarantee it, especially with smaller samples. A random draw can, by chance, produce a treatment group that is slightly older, larger, or more export-oriented than the comparison group. With enough firms, these chance differences average out. With fewer firms, they can be large enough to matter.</p>
-<p>This is why the balance check is one of the first things an evaluator does after the baseline survey is complete. It is not a formality - it is a quality control on the randomisation itself.</p>
+<section id="plan-the-data-collection-rounds" class="level2">
+<h2 class="anchored" data-anchor-id="plan-the-data-collection-rounds">Plan the data collection rounds</h2>
+<p>An RCT evaluation requires data at multiple points in time. The exact rounds depend on the Theory of Change (ToC) and the data sources available, but the standard structure is:</p>
+<p><strong>Baseline survey:</strong> conducted before the intervention begins and might be used as the basis for randomisation companies into treatment and comparison groups. It captures pre-treatment characteristics, enables balance checks after randomisation, and provides the benchmark against which post-intervention outcomes are compared. It must be completed before randomisation is revealed. A baseline primary survey is almost always needed, since administrative data rarely contains the intermediate outcomes and mechanism variables required by the evaluation.</p>
+<div class="example romania" data-map="romania-ne">
+<p><span class="tag">North‑East Romania: baseline survey</span></p>
+<p>A baseline survey (pre-application data) was administered: the primary objective of the baseline survey was to conduct an initial evaluation of the business’s digital tool requirements and help determine their intervention eligibility. The survey questions covered topics such as location, sector, financial considerations (e.g.&nbsp;profits, capital, assets, liabilities), and legal prerequisites. The survey required approximately an hour to complete and was completed online by each firm between June and the end of September 2023.</p>
+</div>
+<p><strong>Follow-up data collection:</strong> measures outcomes after the intervention, at a point when effects are realistically expected to have materialised. In the European Union (EU) context, a dedicated endline survey is not always necessary. Business registries, tax records, social security data, and customs records - consistently available across member states - can cover many of the core outcome variables (turnover, employment, exports, productivity) without placing any additional burden on firms. Where administrative data provides sufficient coverage, it should be the primary endline source. A primary endline survey becomes necessary only when the evaluation requires outcomes or mechanisms that administrative records do not contain - for example, management practices, innovation behaviour, digital technology adoption, or respondent-reported perceptions of the intervention.</p>
+<div class="example romania" data-map="romania-ne">
+<p><span class="tag">North‑East Romania: follow-up data collection</span></p>
+<p>A follow-up survey was administered: the 1,038 firms surveyed at baseline were contacted for a follow-up survey conducted between March and May 2025. Interviews took approximately 60 minutes to complete and covered nine key topics i) general administrative details about the business; ii) background information on the business manager; iii) an overview of the business; iv) details on products/services, market presence, revenue, and customers; v) the use of telecommunications and internet across business locations; vi) relevant digital indicators for the business; vii) methods and processes used for routine business operations; viii) key factors influencing technology adoption, such as investments and management decisions; and ix) financial information for the business in 2024.</p>
+</div>
+<p><strong>Midline survey (optional):</strong> where the ToC includes important intermediate outcomes worth tracking before the final endline - for example, changes in management practices or technology adoption as precursors to longer-term productivity effects - a midline round may be warranted. Include a midline only if it is required to answer a specific evaluation question, not as a routine addition.</p>
+<p><strong>Administrative data timing:</strong> access to administrative records should be requested and negotiated well in advance of the baseline. These sources typically come with a reporting lag of one to two years, which must be factored into the evaluation timeline. The advantage is coverage: administrative data tracks all firms in the sample, including those who do not respond to surveys, making it a more complete picture of outcomes than a survey endline alone.</p>
+<p>In the EU, the consistent availability of firm-level administrative data - tax records, business registries, social security data - means that a primary endline survey can often be avoided. Prioritise administrative data for core financial and employment outcomes; reserve primary survey rounds for the outcomes and mechanisms that only firms themselves can report on.</p>
 </section>
-<section id="what-a-balance-check-involves" class="level2">
-<h2 class="anchored" data-anchor-id="what-a-balance-check-involves">What a balance check involves</h2>
-<p>A balance check compares the two groups on a set of characteristics measured at baseline - before the programme has begun and before either group knows whether they have been selected. For firm-level evaluations, these characteristics typically include:</p>
+<section id="why-surveys" class="level2">
+<h2 class="anchored" data-anchor-id="why-surveys">Why surveys?</h2>
+<p>Surveys are the most widely used tool for collecting primary data in impact evaluations of public support interventions. They make it possible to gather structured, comparable information directly from the firms, individuals, or organisations that an intervention is designed to benefit - capturing precisely the outcomes and mechanisms that administrative records do not contain.</p>
+<p>A particular strength of surveys is their scalability. Rather than collecting information from every single beneficiary or firm in a target population, a well-designed survey can be conducted on a carefully selected subset - a sample - and, provided that sample is representative, the findings can be generalised with confidence to the full population.</p>
+<p>For evaluations including competitiveness and innovation outcomes - such as changes in firm-level Research and Developemnt (R&amp;D) investment, technology adoption, or management practices - surveys are often the only way to capture the intermediate outcomes that sit between a grant payment and a long-term productivity gain visible in national statistics. They are also essential for understanding why an intervention worked or did not, by measuring the mechanisms that link the intervention’s activities to its results.</p>
+</section>
+<section id="paper-vs.-electronic-surveys" class="level2">
+<h2 class="anchored" data-anchor-id="paper-vs.-electronic-surveys">Paper vs.&nbsp;electronic surveys</h2>
+<p>While paper-based surveys remain in use in some contexts, electronic surveys are the clear standard for evaluations today and should be the default choice. Digital surveys offer built-in data validation - mandatory fields, range checks, and logical skip patterns - catching errors at the point of entry rather than during analysis. They eliminate manual transcription entirely, are faster to deploy, easier to monitor in real time, and simpler to adapt if pilot testing reveals problems.</p>
+</section>
+<section id="choose-a-collection-method" class="level2">
+<h2 class="anchored" data-anchor-id="choose-a-collection-method">Choose a collection method</h2>
+<p>There is no single best method. The right choice depends on who the respondents are, what the questions require, and the available budget. Three methods are in common use:</p>
+<p><strong>Computer-Assisted Telephone Interviewing (CATI)</strong> involves trained interviewers conducting structured surveys over the phone. CATI reaches a broad range of respondents quickly and is well-suited when response rates need to be actively managed - interviewers can follow up with non-respondents and clarify questions in real time. It is also practical when beneficiary contact details are already held in project management systems. Surveys must be kept short enough to hold respondents’ attention on the phone.</p>
+<p><strong>Computer-Assisted Personal Interviewing (CAPI)</strong> takes the form of face-to-face interviews conducted with a tablet or laptop loaded with survey software. The personal interaction tends to produce more nuanced and accurate answers, particularly on sensitive topics such as firm finances or employment decisions. CAPI is best reserved for complex questionnaires and small, geographically concentrated samples - it is the most expensive method and carries a risk that the interviewer’s presence influences responses.</p>
+<p><strong>Web surveys</strong> are sent to respondents via email or embedded in an online platform, inviting them to complete the survey at their own pace. They are the least expensive method and can be deployed quickly to large samples, making them well-suited to digitally comfortable populations such as SMEs and technology firms. Response rates for unsolicited web surveys are often low, so active follow-up is essential.</p>
+<p>In practice, methods can be combined: begin with a web survey, follow up with CATI for non-respondents, and use CAPI selectively for subgroups where richer detail is needed.</p>
+<div class="example romania" data-map="romania-ne">
+<p><span class="tag">North‑East Romania: primary respondents</span></p>
+<p>Data in North-East Romania was collected using a web survey (baseline survey) and involved CAPI and CATI methods for the follow-up survey, depending on respondents’ availability.</p>
+</div>
+</section>
+<section id="who-to-collect-from-and-when" class="level2">
+<h2 class="anchored" data-anchor-id="who-to-collect-from-and-when">Who to collect from, and when</h2>
+<p><strong>Choosing the right respondent.</strong> For firm-level surveys, the ideal respondent is a senior decision-maker - a Chief Executive Officers (CEOs), Chief Financial Officer (CFO), or equivalent - who has oversight of the firm’s strategic and financial decisions. The respondent should ideally be the same person at baseline and endline to ensure that differences reflect real changes rather than differences between respondents. Where the intervention targets a specific group within the firm - such as R&amp;D personnel - those individuals may be more appropriate for certain questions.</p>
+<div class="example romania" data-map="romania-ne">
+<p><span class="tag">North‑East Romania: primary respondents</span></p>
+<p>The primary respondents were CEOs and/or firm owners, with additional input from senior representatives of relevant departments when necessary.</p>
+</div>
+<p><strong>Timing within the calendar.</strong> Surveys targeting firm employees are best conducted during standard working hours. August is a poor time to survey firms in most European countries due to summer holidays; the end of the financial year is also problematic, as finance teams are occupied with closing accounts. Be mindful of survey fatigue - beneficiaries who are contacted repeatedly for monitoring and reporting purposes may become less willing to participate over time.</p>
+</section>
+<section id="the-role-of-data-collection-firms-and-evaluation-consultants" class="level2">
+<h2 class="anchored" data-anchor-id="the-role-of-data-collection-firms-and-evaluation-consultants">The role of data collection firms and evaluation consultants</h2>
+<p>Managing authorities can implement RCTs in-house including conducting surveys and data analysis. However, implementing RCTs comes with many specificities and challenges. The technical expertise needed can be contracted in. Having the right expert team on board makes all the difference. What managing authorities need is a well-crafted Terms of Reference (ToRs): the document that attracts the right teams, sets the methodological bar, and defines the conditions for a credible, policy-relevant evaluation. A strong ToR is therefore not a procurement formality - it is the managing authority’s most important contribution to the quality of the evaluation. For more information on ToRs, please click here: <a href="./02.07a-tor.html">Terms of Reference</a></p>
+<p>The division of responsibilities between the managing authority, the evaluation consultant and/or the data collection firm should be made explicit in procurement. Close collaboration is key for a successfully conducted RCT. Depending on which activities the managing authorities conduct in-house, the evaluation consultant or data collection firm supports or conducts the following activities: designing the survey instrument, translating and piloting the questionnaire, determining the sample, setting up the digital survey platform, recruiting and training enumerators, managing fieldwork, monitoring response rates, implementing quality controls, delivering a clean dataset, and carrying out the statistical analysis once data has been collected.</p>
+<div class="example romania" data-map="romania-ne">
+<p><span class="tag">North‑East Romania: primary respondents</span></p>
+<p>The survey implementation was undertaken by a team of 30 enumerators hired by Romanian-based data collection firms.</p>
+</div>
+</section>
+<section id="designing-the-questionnaire" class="level2">
+<h2 class="anchored" data-anchor-id="designing-the-questionnaire">Designing the questionnaire</h2>
+<section id="start-with-what-already-exists" class="level3">
+<h3 class="anchored" data-anchor-id="start-with-what-already-exists">Start with what already exists</h3>
+<p>Before writing a single question, review existing, validated survey instruments. Using questions that have already been tested in comparable evaluations and surveys saves time, improves data quality, and makes findings comparable with evidence from other interventions and regions. For firm-level surveys, key reference sources include:</p>
 <ul>
-<li>Firm size (number of employees, in full-time equivalents)</li>
-<li>Firm age (years since establishment)</li>
-<li>Revenue or turnover</li>
-<li>Sector or industry classification</li>
-<li>Prior R&amp;D or innovation activity</li>
-<li>Export participation</li>
-<li>The primary outcome variable itself, measured before the intervention</li>
+<li><a href="https://ec.europa.eu/eurostat/web/microdata/collections-research/community-innovation-survey">Community Innovation Survey (CIS)</a> - the standard EU framework for measuring innovation activity in firms</li>
+<li><a href="https://microdata.worldbank.org/collections/fat">Firms Adoption of Technology Survey (FAT)</a> - World Bank instrument on technology adoption across sectors</li>
+<li><a href="https://espanol.enterprisesurveys.org/en/enterprisesurveys">World Bank Enterprise Surveys (WBES)</a> - firm-level outcomes including investment, productivity, and the business environment</li>
+<li><a href="https://worldmanagementsurvey.org/">World Management Survey (WMS)</a> - management practices across firms and countries</li>
+<li><a href="https://europa.eu/eurobarometer/surveys/detail/2442">Flash Eurobarometer on SME Digitalisation</a> - digital technology adoption and skills across EU member states</li>
+<li><a href="https://www.ecb.europa.eu/stats/ecb_surveys/safe/html/index.en.html">ECB Survey on Access to Finance of Enterprises (SAFE)</a> - financing conditions and constraints for SMEs</li>
 </ul>
-<p>For each characteristic, the evaluator calculates the average value in the treatment group and the average value in the comparison group, and tests whether the difference between them is larger than you would expect by chance from a random draw.</p>
-<figure class="fig-e figure">
-<svg viewbox="0 0 680 320" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Illustrative balance check: treatment and comparison bars of near-equal length for firm age, revenue, employees and sector mix">
-  <text x="20" y="26" fill="var(--dg-ink-soft)" font-size="10.5" letter-spacing="1.5" font-weight="bold">ILLUSTRATIVE, NOT REAL DATA</text>
-  <text x="20" y="66" fill="var(--dg-ink)" font-size="12" font-weight="bold">Firm age</text>
-  <rect x="150" y="52" width="300" height="14" fill="var(--dg-ink)"></rect>
-  <rect x="150" y="70" width="290" height="14" fill="var(--dg-accent)"></rect>
-  <text x="20" y="130" fill="var(--dg-ink)" font-size="12" font-weight="bold">Revenue</text>
-  <rect x="150" y="116" width="340" height="14" fill="var(--dg-ink)"></rect>
-  <rect x="150" y="134" width="352" height="14" fill="var(--dg-accent)"></rect>
-  <text x="20" y="194" fill="var(--dg-ink)" font-size="12" font-weight="bold">Employees</text>
-  <rect x="150" y="180" width="260" height="14" fill="var(--dg-ink)"></rect>
-  <rect x="150" y="198" width="268" height="14" fill="var(--dg-accent)"></rect>
-  <text x="20" y="258" fill="var(--dg-ink)" font-size="12" font-weight="bold">Sector mix</text>
-  <rect x="150" y="244" width="310" height="14" fill="var(--dg-ink)"></rect>
-  <rect x="150" y="262" width="302" height="14" fill="var(--dg-accent)"></rect>
-  <rect x="150" y="296" width="11" height="11" fill="var(--dg-ink)"></rect>
-  <text x="168" y="306" fill="var(--dg-ink-soft)" font-size="11.5">Treatment</text>
-  <rect x="260" y="296" width="11" height="11" fill="var(--dg-accent)"></rect>
-  <text x="278" y="306" fill="var(--dg-ink-soft)" font-size="11.5">Comparison</text>
-</svg>
-<figcaption>Note: illustrative comparison of variables between firms in the treatment and comparison group. </figcaption>
-</figure>
-<p>The chart above shows what a well-balanced result looks like: the bars for the treatment and comparison groups are nearly equal across all characteristics. Small differences - a few percentage points in any direction - are expected and normal. They are the product of chance, not a flaw in the design.</p>
-</section>
-<section id="how-to-read-the-results" class="level2">
-<h2 class="anchored" data-anchor-id="how-to-read-the-results">How to read the results</h2>
-<p>The evaluator will present the balance check as a table showing the average value of each characteristic in each group, the difference between them, and a statistical test of whether that difference is larger than chance would produce. The result of that test is usually expressed as a p-value.</p>
-<div class="compare">
-<div class="col-e">
-<div class="col-head">
-<p>What the result typically shows</p>
-</div>
-<div class="body">
-<p>In a well-executed randomisation with a reasonably large sample, most characteristics will show no statistically significant difference between the groups. The few that do are usually the result of chance - out of twenty variables tested, you would expect one to appear imbalanced simply because of how probability works, even in a perfectly conducted lottery.</p>
-</div>
-</div>
-<div class="col-e">
-<div class="col-head">
-<p>What raises a concern</p>
-</div>
-<div class="body">
-<p>A concern arises when many variables show imbalance simultaneously, or when the primary outcome variable itself is significantly different at baseline. This suggests the randomisation may have been compromised - perhaps because some firms were selectively excluded, or because the draw was not conducted as described.</p>
-</div>
-</div>
-</div>
 <div class="takeaway">
-<p>One or two imbalanced variables in a balance table is almost always chance. Many imbalanced variables - or imbalance on the primary outcome - is a signal worth investigating.</p>
+<p>The survey question repository collects questions from the firm-level surveys listed above, organised by topic - from company details and financial performance to innovation, digitalisation, and management practices. Use them as a starting point: pick the questions that match your indicators, consult similar evaluations and underlying survey instruments, and adapt the questions to your intervention.</p>
+<p><a href="./08-bank_survey.html">Browse the survey question repository</a></p>
 </div>
 </section>
-<section id="what-to-do-if-the-groups-are-not-perfectly-balanced" class="level2">
-<h2 class="anchored" data-anchor-id="what-to-do-if-the-groups-are-not-perfectly-balanced">What to do if the groups are not perfectly balanced</h2>
-<p>Perfect balance is the goal, not a guarantee. When the balance check reveals a meaningful difference on one or more characteristics, there are two main responses - and importantly, neither involves re-running the lottery.</p>
-<p><strong>Control for the imbalanced variable in the analysis.</strong> The most common and appropriate response is to include the imbalanced characteristic as a control variable in the statistical model used to estimate the programme’s impact. This adjusts the comparison to account for the pre-existing difference, producing a more accurate estimate of the programme’s effect. The evaluator handles this - the Managing Authority simply needs to know that it is standard practice, not a workaround.</p>
-<p><strong>Do not re-randomise.</strong> Once firms know their assignment - or once the programme has begun - re-running the lottery is not an option. It would undermine the integrity of the design and the trust of participants. If a significant imbalance is discovered before the programme launches and before firms have been notified, the evaluation team should be consulted immediately. In rare cases, a new draw may be possible, but this is the exception.</p>
-<div class="caution">
-<p>Never drop firms from the analysis because they appear to be outliers or because their inclusion makes the results less clean. Dropping firms selectively - even for apparently good reasons - can introduce bias and undermines the integrity of the evaluation.</p>
-</div>
+<section id="questionnaire-design" class="level3">
+<h3 class="anchored" data-anchor-id="questionnaire-design">Questionnaire design</h3>
+<p>A good questionnaire is clear, concise, and purposeful. Every question should map to an indicator in the ToC. Questions included for general interest add respondent burden without adding analytical value and should be removed.</p>
+<p>Questions should address only one idea at a time. Double-barrelled questions - which ask about two things simultaneously, such as “Did the grant improve your firm’s R&amp;D capacity and export performance?” - make it impossible for respondents to give an accurate answer and should always be avoided. Wording should be neutral: leading questions undermine the reliability of the data.</p>
+<p>Response scales - such as Likert scales or numerical ratings - should be consistent across the questionnaire and clearly labelled. Questions should flow in a logical sequence, moving from general topics to more specific ones. Sensitive questions - such as those about turnover, profitability, or employment figures - are best placed towards the end, once some rapport has been established.</p>
+<p>Questions that ask about quantities, values, or periods of time should always specify the unit and reference period explicitly - state the currency (e.g.&nbsp;€), the unit of magnitude (e.g.&nbsp;full-time equivalents, thousands of euros), and the exact time reference (e.g.&nbsp;“in the last financial year, ending [month]”) directly in the question text or as a visible instruction above the response field.</p>
+<p>Where surveys are conducted in multiple languages, the questionnaire should be professionally translated and then back-translated to verify that meaning has been preserved accurately.</p>
+</section>
+<section id="piloting-the-questionnaire" class="level3">
+<h3 class="anchored" data-anchor-id="piloting-the-questionnaire">Piloting the questionnaire</h3>
+<p>No questionnaire should go into the field without first being tested. A <strong>pilot survey</strong> - conducted with a small group representative of the target population - reveals problems invisible on paper: ambiguous wording, questions that take too long to answer, response options that do not cover the full range of experiences, and technical glitches in digital forms. The questionnaire should be revised based on pilot findings before full deployment. Skipping the pilot almost always costs more in the long run through lower data quality and analytical workarounds.</p>
+</section>
+</section>
+<section id="minimising-attrition" class="level2">
+<h2 class="anchored" data-anchor-id="minimising-attrition">Minimising attrition</h2>
+<p>Attrition - firms that cannot be reached or refuse to participate at endline - is one of the most common threats to the validity of an RCT. Even modest attrition becomes a serious problem if it is higher in one group than the other, since differential attrition can bias the impact estimates. Prevention is far easier than correction, and the groundwork must be laid at baseline.</p>
+<p><strong>Collect robust contact information at baseline.</strong> Record multiple contact points for each firm: the primary respondent’s name, direct phone number, and email; a backup contact; and the firm’s main address and website. Ask respondents explicitly for permission to follow up at endline and to contact them via alternative channels if the primary contact changes.</p>
+<p><strong>Maintain a tracking database throughout the intervention period.</strong> Do not wait until the endline survey to discover that contact details have gone stale. Update the database periodically using public business registry records, project monitoring data, and any contact made for compliance or monitoring purposes.</p>
+<p><strong>Make re-contact as easy as possible at endline.</strong> Send advance notices before the endline fieldwork begins. Use the same survey mode as the baseline where possible, as familiarity reduces refusal rates. Keep the endline survey as short as the evaluation objectives allow - respondent fatigue is a leading cause of non-response in follow-up rounds.</p>
+<p><strong>Document and report all non-response.</strong> Record the reason for every non-response using standardised codes (firm refused; firm could not be reached; firm closed; firm no longer eligible).</p>
+</section>
+<section id="data-protection-and-gdpr-compliance" class="level2">
+<h2 class="anchored" data-anchor-id="data-protection-and-gdpr-compliance">Data protection and GDPR compliance</h2>
+<p>For EU managing authorities, compliance with the GDPR is a legal obligation that applies to any data collection exercise involving personal data. Before any survey goes into the field, the following must be in place:</p>
+<ul>
+<li>A clear legal basis for processing personal data - typically the legitimate interest of the managing authority in evaluating public spending, or the explicit consent of respondents</li>
+<li>An informed consent process: respondents must be told how their data will be used, how long it will be retained, and who will have access, before they agree to participate. <a href="./02.07b-consent.html">More information on informed consent</a></li>
+<li>Anonymisation or pseudonymisation of responses wherever possible</li>
+<li>Appropriate data security measures, including restricted access to identifiable data</li>
+</ul>
+<p>Managing authorities should involve their Data Protection Officer early in the design process - not as a final approval step, but as part of initial planning. Data sharing agreements with third-party survey firms or external evaluators must address GDPR requirements explicitly.</p>
 <hr>
 <div class="nav-buttons">
-<p><a href="./02.03-assess.html">← Back to - Step 4: check whether an RCT is feasible</a></p>
+<p><a href="./02.06-data_sources.html">← Previous - Step 6: identify available data sources</a> | <a href="./02.08-data_quality.html">Next - Step 8: ensure high-quality data →</a></p>
 </div>
 
 

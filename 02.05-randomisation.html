@@ -6,9 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="description" content="Check the five conditions a randomised trial needs, choose from five randomisation designs and avoid the problems that most often arise after the lottery.">
+<meta name="description" content="Choose from five randomisation designs and avoid the problems that most often arise after the lottery.">
 
-<title>Step 4: check whether an RCT is feasible – EuroCOMP Lab</title>
+<title>Step 5: how to randomise – EuroCOMP Lab</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -120,24 +120,24 @@ ul.task-list li input[type="checkbox"] {
  <span class="dropdown-text">Step 2: define learning questions</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./02.04-indicators.html">
- <span class="dropdown-text">Step 3: determine relevant indicators</span></a>
+    <a class="dropdown-item" href="./02.04-indicators.qmd">
+ <span class="dropdown-text"></span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./02.03-assess.html">
- <span class="dropdown-text">Step 4: check whether an RCT is feasible</span></a>
+    <a class="dropdown-item" href="./02.03-assess.qmd">
+ <span class="dropdown-text"></span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./02.05-data_sources.html">
- <span class="dropdown-text">Step 5: identify available data sources</span></a>
+    <a class="dropdown-item" href="./02.05-data_sources.qmd">
+ <span class="dropdown-text"></span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./02.06-data_collect.html">
- <span class="dropdown-text">Step 6: collect data</span></a>
+    <a class="dropdown-item" href="./02.06-data_collect.qmd">
+ <span class="dropdown-text"></span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="./02.07-data_quality.html">
- <span class="dropdown-text">Step 7: ensure high-quality data</span></a>
+    <a class="dropdown-item" href="./02.07-data_quality.qmd">
+ <span class="dropdown-text"></span></a>
   </li>  
     </ul>
   </li>
@@ -161,7 +161,7 @@ ul.task-list li input[type="checkbox"] {
   </li>  
         <li>
     <a class="dropdown-item" href="./09-bank_outcomes.html">
- <span class="dropdown-text">RCT outcome repository</span></a>
+ <span class="dropdown-text">Indicator repository</span></a>
   </li>  
     </ul>
   </li>
@@ -200,17 +200,14 @@ ul.task-list li input[type="checkbox"] {
     <h2 id="toc-title">On this page</h2>
    
   <ul>
-  <li><a href="#five-conditions-for-a-feasible-rct" id="toc-five-conditions-for-a-feasible-rct" class="nav-link active" data-scroll-target="#five-conditions-for-a-feasible-rct">Five conditions for a feasible RCT</a></li>
-  <li><a href="#randomisation-must-be-designed-in-from-the-start" id="toc-randomisation-must-be-designed-in-from-the-start" class="nav-link" data-scroll-target="#randomisation-must-be-designed-in-from-the-start">Randomisation must be designed in from the start</a></li>
-  <li><a href="#do-you-have-enough-firms" id="toc-do-you-have-enough-firms" class="nav-link" data-scroll-target="#do-you-have-enough-firms">Do you have enough firms?</a></li>
-  <li><a href="#five-ways-to-randomise-your-programme" id="toc-five-ways-to-randomise-your-programme" class="nav-link" data-scroll-target="#five-ways-to-randomise-your-programme">Five ways to randomise your programme</a></li>
+  <li><a href="#five-ways-to-randomise-your-intervention" id="toc-five-ways-to-randomise-your-intervention" class="nav-link active" data-scroll-target="#five-ways-to-randomise-your-intervention">Five ways to randomise your intervention</a></li>
   <li><a href="#public-or-private-lottery" id="toc-public-or-private-lottery" class="nav-link" data-scroll-target="#public-or-private-lottery">Public or private lottery?</a></li>
   <li><a href="#randomising-only-part-of-the-pool-a-lottery-around-a-cutoff" id="toc-randomising-only-part-of-the-pool-a-lottery-around-a-cutoff" class="nav-link" data-scroll-target="#randomising-only-part-of-the-pool-a-lottery-around-a-cutoff">Randomising only part of the pool: a lottery around a cutoff</a></li>
-  <li><a href="#testing-programme-versions-multiple-treatment-arms" id="toc-testing-programme-versions-multiple-treatment-arms" class="nav-link" data-scroll-target="#testing-programme-versions-multiple-treatment-arms">Testing programme versions: multiple treatment arms</a></li>
+  <li><a href="#testing-intervention-versions-multiple-treatment-arms" id="toc-testing-intervention-versions-multiple-treatment-arms" class="nav-link" data-scroll-target="#testing-intervention-versions-multiple-treatment-arms">Testing intervention versions: multiple treatment arms</a></li>
   <li><a href="#when-you-cannot-fund-everyone-at-once-randomised-phase-in" id="toc-when-you-cannot-fund-everyone-at-once-randomised-phase-in" class="nav-link" data-scroll-target="#when-you-cannot-fund-everyone-at-once-randomised-phase-in">When you cannot fund everyone at once: randomised phase-in</a></li>
   <li><a href="#varying-the-dose-randomised-intensities" id="toc-varying-the-dose-randomised-intensities" class="nav-link" data-scroll-target="#varying-the-dose-randomised-intensities">Varying the dose: randomised intensities</a></li>
   <li><a href="#when-take-up-is-low-encouragement-design" id="toc-when-take-up-is-low-encouragement-design" class="nav-link" data-scroll-target="#when-take-up-is-low-encouragement-design">When take-up is low: encouragement design</a></li>
-  <li><a href="#did-randomisation-lead-to-comparable-firms-in-treatment-and-comparison-group" id="toc-did-randomisation-lead-to-comparable-firms-in-treatment-and-comparison-group" class="nav-link" data-scroll-target="#did-randomisation-lead-to-comparable-firms-in-treatment-and-comparison-group">Did randomisation lead to comparable firms in treatment and comparison group?</a></li>
+  <li><a href="#did-randomisation-lead-to-comparable-units-in-treatment-and-comparison-group" id="toc-did-randomisation-lead-to-comparable-units-in-treatment-and-comparison-group" class="nav-link" data-scroll-target="#did-randomisation-lead-to-comparable-units-in-treatment-and-comparison-group">Did randomisation lead to comparable units in treatment and comparison group?</a></li>
   <li><a href="#what-are-potential-challenges" id="toc-what-are-potential-challenges" class="nav-link" data-scroll-target="#what-are-potential-challenges">What are potential challenges?</a></li>
   <li><a href="#pre-register-the-rct-design-before-the-intervention-begins" id="toc-pre-register-the-rct-design-before-the-intervention-begins" class="nav-link" data-scroll-target="#pre-register-the-rct-design-before-the-intervention-begins">Pre-register the RCT design before the intervention begins</a></li>
   </ul>
@@ -221,7 +218,7 @@ ul.task-list li input[type="checkbox"] {
 
 <header id="title-block-header" class="quarto-title-block default">
 <div class="quarto-title">
-<h1 class="title">Step 4: check whether an RCT is feasible</h1>
+<h1 class="title">Step 5: how to randomise</h1>
 </div>
 
 
@@ -238,199 +235,46 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<nav class="tracker" aria-label="Seven steps for designing an RCT"><span><a href="./02.01-toc.html" title="Step 1: develop a Theory of Change">Step 1</a></span><span><a href="./02.02-eval_questions.html" title="Step 2: define learning questions">Step 2</a></span><span><a href="./02.04-indicators.html" title="Step 3: determine relevant indicators">Step 3</a></span><span class="on" aria-current="step">Step 4</span><span><a href="./02.05-data_sources.html" title="Step 5: identify available data sources">Step 5</a></span><span><a href="./02.06-data_collect.html" title="Step 6: collect data">Step 6</a></span><span><a href="./02.07-data_quality.html" title="Step 7: ensure high-quality data">Step 7</a></span></nav>
+<nav class="tracker" aria-label="Seven steps for designing an RCT"><span><a href="./02.01-toc.html" title="Step 1: develop a Theory of Change">Step 1</a></span><span><a href="./02.02-eval_questions.html" title="Step 2: define learning questions">Step 2</a></span><span><a href="./02.03-indicators.html" title="Step 3: determine relevant indicators">Step 3</a></span><span><a href="./02.04-assess.html" title="Step 4: check whether an RCT is feasible">Step 4</a></span><a href="./02.04-assess.html" title="Step 4: check whether an RCT is feasible"><span class="on" aria-current="step">Step 5</span></a><span><a href="./02.06-data_sources.html" title="Step 6: identify available data sources">Step 6</a></span><span><a href="./02.07-data_collect.html" title="Step 7: collect data">Step 7</a></span><span><a href="./02.08-data_quality.html" title="Step 8: ensure high-quality data">Step 8</a></span></nav>
 <section id="summary" class="level2 unlisted team-note">
 <h2 class="unlisted anchored" data-anchor-id="summary">Summary</h2>
-<p>This page covers five feasibility conditions that must be in place before committing to a randomised controlled trial (RCT), five randomisation designs and when to use each, and the most common problems that arise after the lottery.</p>
 </section>
-<p>By this point you have mapped your programme’s causal logic, defined what you want to find out, and chosen the indicators you will use to measure it. The question this step answers is whether you can actually run a randomised evaluation to get those answers - and if so, how to design it.</p>
-<p>An RCT is not always possible. Before investing time and resources in a randomised design, a Managing Authority needs to check whether the basic conditions are in place. Once they are, the choice of randomisation method matters: different programme shapes call for different designs. This page covers both.</p>
 <hr>
-<section id="five-conditions-for-a-feasible-rct" class="level2">
-<h2 class="anchored" data-anchor-id="five-conditions-for-a-feasible-rct">Five conditions for a feasible RCT</h2>
-<p>Work through these five questions before committing to a randomised design. If the answer to the first three is not yes, an RCT is unlikely to be feasible and you should explore alternative approaches with your evaluation team.</p>
-<div class="cards">
-<section id="is-the-programme-oversubscribed" class="level3 unlisted card-e">
-<h3 class="unlisted anchored" data-anchor-id="is-the-programme-oversubscribed">1. Is the programme oversubscribed?</h3>
-<p>An RCT requires more eligible applicants than available funding slots. If you can support everyone who qualifies, there is no basis for a lottery - and no credible comparison group. Oversubscription is the single most important precondition.</p>
-</section>
-<section id="is-there-enough-time" class="level3 unlisted card-e">
-<h3 class="unlisted anchored" data-anchor-id="is-there-enough-time">2. Is there enough time?</h3>
-<p>Randomisation must happen before the first grant is awarded. If the programme has already launched, it is too late. Planning must ideally begin at the programme design stage.</p>
-</section>
-<section id="is-there-a-legal-basis" class="level3 unlisted card-e">
-<h3 class="unlisted anchored" data-anchor-id="is-there-a-legal-basis">3. Is there a legal basis?</h3>
-<p>Most national frameworks were designed around ranking or first-come-first-served selection and say nothing about random assignment. Explicit permission - either in existing regulations or through a programme-specific instrument - must be confirmed before proceeding.</p>
-</section>
-<section id="is-there-political-and-institutional-buy-in" class="level3 unlisted card-e">
-<h3 class="unlisted anchored" data-anchor-id="is-there-political-and-institutional-buy-in">4. Is there political and institutional buy-in?</h3>
-<p>An RCT requires sustained commitment from the Managing Authority and any intermediate bodies involved in delivery. If key stakeholders are not on board, or if political changes could interrupt the evaluation midway, the investment may not be recoverable.</p>
-</section>
-<section id="can-the-outcomes-actually-be-measured" class="level3 unlisted card-e">
-<h3 class="unlisted anchored" data-anchor-id="can-the-outcomes-actually-be-measured">5. Can the outcomes actually be measured?</h3>
-<p>The indicators selected in <a href="./02.04-indicators.html">Step 3</a> must be observable - through administrative records, a survey, or both. If the primary outcome cannot be reliably measured for both treatment and comparison firms, the evaluation will not produce credible results even if the design is sound.</p>
-</section>
-</div>
-<div class="soft-panel">
-<p><strong>Is randomisation permitted under your national legal framework?</strong></p>
-<p>Before designing the lottery or scoring mechanism, confirm that your national legal framework - and the specific legislation governing your programme - either explicitly permits randomisation as a selection method or is flexible enough to accommodate it.</p>
-<p>Most national frameworks were designed around ranking or first-come-first-served selection and say nothing about random assignment. A clear legal basis is the precondition for experimental evaluation to happen at all. <a href="./02.03c-legal.html">See the legal framework page</a> for country examples, key legal elements, and practical steps.</p>
-</div>
-</section>
-<section id="randomisation-must-be-designed-in-from-the-start" class="level2">
-<h2 class="anchored" data-anchor-id="randomisation-must-be-designed-in-from-the-start">Randomisation must be designed in from the start</h2>
-<p>The most common mistake is treating randomisation as something that can be added once the programme is already running. It cannot. By the time the first grant is awarded, the comparison group must already be defined, the eligibility rules must be locked in, and the baseline data should have been collected. Everything to the left of the lottery in the diagram below has to be in place before the programme launches - that is precisely what makes the comparison between treatment and comparison firms valid.</p>
-<figure class="fig-e figure">
-<svg viewbox="0 0 680 330" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Timeline showing programme areas, eligibility, random selection, monitoring and impact measurement across ex-ante and ex-post periods">
-  <rect x="20" y="46" width="300" height="252" rx="6" fill="var(--dg-accent-wash-soft)"></rect>
-  <text x="170" y="316" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5" font-style="italic">Ex-ante</text>
-  <text x="500" y="316" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5" font-style="italic">Ex-post</text>
-  <line x1="20" y1="300" x2="660" y2="300" stroke="var(--dg-line)" stroke-width="1.5"></line>
-  <text x="640" y="316" text-anchor="end" fill="var(--dg-ink-soft)" font-size="11.5">Time</text>
-  <rect x="30" y="20" width="130" height="24" rx="4" fill="var(--dg-ink)"></rect>
-  <text x="95" y="37" text-anchor="middle" fill="var(--dg-reverse)" font-size="10.5" font-weight="bold">T0: Target areas</text>
-  <rect x="176" y="20" width="130" height="24" rx="4" fill="var(--dg-ink)"></rect>
-  <text x="241" y="37" text-anchor="middle" fill="var(--dg-reverse)" font-size="11" font-weight="bold">T1: Eligibility</text>
-  <rect x="360" y="20" width="130" height="24" rx="4" fill="var(--dg-ink)"></rect>
-  <text x="425" y="37" text-anchor="middle" fill="var(--dg-reverse)" font-size="11" font-weight="bold">T2: Monitoring</text>
-  <rect x="520" y="20" width="130" height="24" rx="4" fill="var(--dg-ink)"></rect>
-  <text x="585" y="37" text-anchor="middle" fill="var(--dg-reverse)" font-size="11" font-weight="bold">T3: Impacts</text>
-  <rect x="30" y="70" width="130" height="56" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
-  <text x="42" y="90" fill="var(--dg-ink)" font-size="10.5" font-weight="bold">1. Secondary data</text>
-  <text x="42" y="104" fill="var(--dg-ink-soft)" font-size="10.5">Identify which areas</text>
-  <text x="42" y="117" fill="var(--dg-ink-soft)" font-size="10.5">and groups need support</text>
-  <rect x="176" y="70" width="130" height="56" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
-  <text x="188" y="90" fill="var(--dg-ink)" font-size="10.5" font-weight="bold">2. Eligibility check</text>
-  <text x="188" y="104" fill="var(--dg-ink-soft)" font-size="10.5">Refine the selection</text>
-  <text x="188" y="117" fill="var(--dg-ink-soft)" font-size="10.5">criteria, collect baseline</text>
-  <rect x="176" y="146" width="130" height="42" rx="5" fill="var(--dg-accent)"></rect>
-  <text x="241" y="164" text-anchor="middle" fill="var(--dg-ink)" font-size="11" font-weight="bold">3. Random selection</text>
-  <text x="241" y="179" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">within the eligible pool</text>
-  <path d="M306 167 H350" stroke="var(--dg-line)" stroke-width="1.5" fill="none"></path>
-  <path d="M306 167 H330 V232 H350" stroke="var(--dg-line)" stroke-width="1.5" fill="none"></path>
-  <rect x="350" y="148" width="230" height="38" rx="5" fill="var(--dg-accent)"></rect>
-  <text x="465" y="172" text-anchor="middle" fill="var(--dg-ink)" font-size="12" font-weight="bold">Treatment firms</text>
-  <rect x="350" y="212" width="230" height="42" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
-  <text x="465" y="230" text-anchor="middle" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Pure control group</text>
-  <text x="465" y="245" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="10.5">comparison firms without any support</text>
-  <text x="336" y="120" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11" transform="rotate(-90 336 120)">Outcome</text>
-  <rect x="520" y="70" width="130" height="56" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
-  <text x="532" y="90" fill="var(--dg-ink)" font-size="10.5" font-weight="bold">4. Endline assessment</text>
-  <text x="532" y="104" fill="var(--dg-ink-soft)" font-size="10.5">Measure the gap between</text>
-  <text x="532" y="117" fill="var(--dg-ink-soft)" font-size="10.5">the two groups</text>
-  <path d="M598 167 H620 M598 233 H620 M609 167 V233" stroke="var(--dg-ink)" stroke-width="1.5" fill="none"></path>
-  <text x="626" y="204" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Impact</text>
-</svg>
-<figcaption>Note: illustrative timeline of an RCT.</figcaption>
-</figure>
-<div class="example romania" data-map="romania-ne">
-<p><span class="tag">North‑East Romania: building the eligibility pool</span></p>
-<div class="flow">
-  <div>Outreach<br><span style="font-weight:400;color:#6B6455">Social media, radio, and events in 20+ cities</span></div>
-  <div>Online applications<br><span style="font-weight:400;color:#6B6455">About one hour to complete</span></div>
-  <div>Automatic screening<br><span style="font-weight:400;color:#6B6455">Stops as soon as a criterion fails</span></div>
-  <div style="background:#F2C94C;border-color:#F2C94C">1,038 eligible MSMEs<br><span style="font-weight:400">Screened from over 1,500 applicants by September 2023</span></div>
-</div>
-<p>North-East Romania combined three steps that are usually separate - application, eligibility check, and baseline data collection - into a single online survey. This meant that by the time the eligibility pool was confirmed, the baseline data was already in hand. In October 2023, 519 of the 1,038 eligible firms were randomly selected to receive a grant. The other 519 became the comparison group.</p>
-</div>
-</section>
-<section id="do-you-have-enough-firms" class="level2">
-<h2 class="anchored" data-anchor-id="do-you-have-enough-firms">Do you have enough firms?</h2>
-<p>To detect the impact of a programme, you need enough firms in both the treatment and comparison groups. Too few firms and even a real effect may be invisible - ordinary variation between firms drowns out the signal. The technical term for this is statistical power, but the practical question is simple: is your eligible pool large enough?</p>
-<p>The answer depends on how large an effect you expect, how much firms vary on the outcome of interest, and how confident you want to be in the result. An evaluator will run a power calculation to translate these inputs into a minimum required sample. <a href="./02.03a-power.html">More details on power calculations</a></p>
-<p>Lessons learned from projects within the EuroCOMP Lab inform about potential ways for reaching large enough numbers.</p>
-<div class="myths-grid">
-<details class="myth-box">
-<summary>
-Invest heavily in outreach - especially to reach new beneficiaries
-</summary>
-<p>Standard outreach channels - newsletters, social media posts, agency websites - consistently fail to reach the firms that EU programmes are designed to serve. Firms without prior experience of EU funding, smaller firms, and firms in rural or remote areas are systematically less likely to apply, not because they are ineligible but because they do not know the programme exists or lack the resources to navigate the application process.</p>
-<p>Effective outreach requires direct, personalised engagement: in-person events, road trips to municipalities, collaboration with mayors and local business associations, and hands-on application support. Experimenting with different outreach approaches - and measuring which ones work - can significantly expand the eligible pool and improve the quality of applications.</p>
-<div class="example romania" data-map="romania-ne">
-<p><span class="tag">North‑East Romania</span></p>
-<p>In North-East Romania, the World Bank randomised outreach activities across 46 cities, selecting 26 for road-trips where a consultant explained the call and helped firms complete the pre-assessment survey. Cities that received road-trips produced 110 applications compared to 71 in cities that did not - a 55% increase. Applications from road-trip cities also came from significantly smaller firms (12.6 employees on average, compared to 19.6 in comparison cities). Compared to previous calls, the total number of applicants tripled and the number of eligible firms more than doubled. This small experiment demonstrated both the effectiveness of in-person mobilisation and the value of embedding experimentation into programme implementation.</p>
-</div>
-</details>
-<details class="myth-box">
-<summary>
-Eligibility criteria should remain broad enough
-</summary>
-<p>On one hand, eligibility criteria should not be too restrictive to target a large enough number of firms. On the other hand, eligibility criteria should remain specific enough to identify firms with the highest potential to benefit. Eligibility criteria should be linked to the programme’s Theory of Change to avoid that wrong firms enter the pool.</p>
-<div class="example case" data-map="romania-sm">
-<p><span class="tag">Romania (South-Muntenia)</span></p>
-<p>In South-Muntenia (Romania), the World Bank found that eligibility criteria for an innovation support programme were quite restrictive, taking into account the firm landscape in this region. The World Bank worked with the Managing Authority to adjust the criteria to target a higher number of firms.</p>
-</div>
-</details>
-<details class="myth-box">
-<summary>
-Base programme design on evidence of need
-</summary>
-<p>Programmes that are designed without a prior assessment of beneficiary needs frequently suffer from misalignment: either too few firms apply (under-subscription), or the programme attracts firms that are not its intended target. Both problems are expensive - leading to repeated calls, unused funds, or support that reaches firms that would have done well without it.</p>
-<p>A baseline needs assessment - conducted before the programme launches - allows the Managing Authority to understand the regional landscape, calibrate grant sizes and eligibility thresholds, and anticipate demand more accurately. Where uncertainty about demand remains, piloting different programme elements before full-scale rollout can reduce the risk of costly mismatches.</p>
-<div class="example case" data-map="italy">
-<p><span class="tag">Italy</span></p>
-<p>In Italy, a minibond programme pre-identified 289 eligible firms, of which only 30 applied - a hit rate of 10.3%. Of the 19 firms that ultimately issued a minibond, most had access to alternative financing and may not have needed the programme at all. A prior needs assessment could have revealed that the programme’s terms were less attractive than alternative instruments already available in the region - including zero-interest loans and non-repayable grants from earlier programmes - and that the design needed to be adjusted accordingly before launch.</p>
-</div>
-</details>
-<details class="myth-box">
-<summary>
-Simplify the application process
-</summary>
-<p>Complex, document-heavy application processes disproportionately burden firms that are least familiar with EU funding - the very firms that programmes are often designed to reach. When compliance requirements are similar regardless of grant size, small firms face the same administrative burden as large ones, often pushing them to hire consultants and creating a market for intermediaries that adds cost without adding value.</p>
-<p>Application requirements should be proportionate to the amount of funding requested. Processes should be fully digital, integrated with existing administrative databases wherever possible, and capable of providing real-time eligibility feedback so that firms can assess their likelihood of success before investing significant time in an application.</p>
-<div class="example romania" data-map="romania-ne">
-<p><span class="tag">North‑East Romania</span></p>
-<p>In Romania, the pre-assessment survey was designed to do three jobs simultaneously: collect baseline data for the evaluation, assess firm eligibility in real time, and provide firms with enough information to decide whether to proceed - all within approximately 40 minutes. Survey responses were automatically cross-referenced with official firm data, enabling instant verification of core eligibility criteria. Firms that did not meet the requirements were informed immediately, saving them from investing further time in a formal application that would have been rejected. Eligible firms received individualised benchmark reports comparing their digitalisation levels to similar firms in their region, providing added value to participants regardless of their eventual selection outcome.</p>
-</div>
-</details>
-<details class="myth-box">
-<summary>
-Use the application process to exchange information
-</summary>
-<p>The application process is typically treated as a one-way flow of information: firms submit data to the Managing Authority. In practice, it can also be a vehicle for delivering useful information and tools to firms - raising awareness about a topic (digitalisation, innovation, energy efficiency), helping firms identify investment needs, and providing benchmarks that inform business decisions regardless of whether the firm is selected for support.</p>
-<p>Firms that receive useful information during the application process are more engaged, better prepared to make investment decisions if selected, and more likely to view the experience positively even if they are not funded.</p>
-<div class="example case" data-map="croatia">
-<p><span class="tag">Croatia</span></p>
-<p>In the Scinergy pilot in Croatia, the World Bank supported an extensive outreach and information campaign that included a dedicated project website, a LinkedIn campaign with paid promotions, appearances in television and online media, presentations at industry events and scientific institutions, and webinars targeting thousands of firms. The campaign was structured around a business-science matchmaking concept, providing firms with substantive information about how to collaborate with research institutions - not just how to apply for a grant. The initiative attracted widespread media coverage and generated strong interest in applications well before the call officially opened.</p>
-</div>
-</details>
-</div>
-</section>
-<section id="five-ways-to-randomise-your-programme" class="level2">
-<h2 class="anchored" data-anchor-id="five-ways-to-randomise-your-programme">Five ways to randomise your programme</h2>
-<p>Not every programme fits the same shape. The right design depends on your programme’s structure, budget, and the learning questions you would like to answer. Here are five approaches in common use.</p>
+<section id="five-ways-to-randomise-your-intervention" class="level2">
+<h2 class="anchored" data-anchor-id="five-ways-to-randomise-your-intervention">Five ways to randomise your intervention</h2>
+<p>Not every intervention fits the same shape. The right design depends on your intervention’s structure, budget, and the learning questions you would like to answer. Here are five approaches in common use.</p>
 <div class="designs">
   <div class="d"><div>
     <h3 class="anchored">Lottery</h3>
-    <p><span class="lab">How:</span> randomly select which eligible firms receive the programme, by a documented public or private draw.</p>
-    <p><span class="lab">Best when:</span> eligibility is clear, the programme is oversubscribed, and a single treatment is being tested.</p>
+    <p><span class="lab">How:</span> randomly select which eligible units receive the intervention, by a documented public or private draw.</p>
+    <p><span class="lab">Best when:</span> eligibility is clear, the intervention is oversubscribed, and a single treatment is being tested.</p>
   </div></div>
   <div class="d"><div>
     <h3 class="anchored">Multiple treatment arms</h3>
-    <p><span class="lab">How:</span> randomly assign firms to different versions of the programme - for example, grant only vs. grant plus advisory support - with or without a comparison group receiving nothing.</p>
-    <p><span class="lab">Best when:</span> you want to know which design element drives results, not just whether the programme works at all.</p>
+    <p><span class="lab">How:</span> randomly assign units to different versions of the intervention - for example, grant only vs. grant plus advisory support - with or without a comparison group receiving nothing.</p>
+    <p><span class="lab">Best when:</span> you want to know which design element drives results, not just whether the intervention works at all.</p>
   </div></div>
   <div class="d"><div>
     <h3 class="anchored">Randomised phase-in</h3>
-    <p><span class="lab">How:</span> everyone receives the programme eventually, but in a randomly assigned order. Firms still waiting serve as the comparison group in the meantime.</p>
-    <p><span class="lab">Best when:</span> budget or capacity limits mean you cannot reach all eligible firms at once, and withholding support permanently would be unacceptable.</p>
+    <p><span class="lab">How:</span> everyone receives the intervention eventually, but in a randomly assigned order. Units still waiting serve as the comparison group in the meantime.</p>
+    <p><span class="lab">Best when:</span> budget or capacity limits mean you cannot reach all eligible units at once, and withholding support permanently would be unacceptable.</p>
   </div></div>
   <div class="d"><div>
     <h3 class="anchored">Randomised intensities</h3>
-    <p><span class="lab">How:</span> vary the dose of the programme across firms - for example, 100%, 50%, or 0% of eligible employees receive training.</p>
-    <p><span class="lab">Best when:</span> you suspect that knowledge or behaviour spreads between treated and untreated workers within the same firm, and you want to measure that spread.</p>
+    <p><span class="lab">How:</span> vary the dose of the intervention across units - for example, 100%, 50%, or 0% of eligible employees receive training.</p>
+    <p><span class="lab">Best when:</span> you suspect that knowledge or behaviour spreads between treated and untreated members within the same unit, and you want to measure that spread.</p>
   </div></div>
   <div class="d"><div>
     <h3 class="anchored">Encouragement design</h3>
-    <p><span class="lab">How:</span> randomise who receives extra outreach or information encouraging take-up, rather than randomising access to the programme itself.</p>
-    <p><span class="lab">Best when:</span> the programme cannot legally be denied to anyone who qualifies - for example, an open voucher scheme - but take-up is voluntary and varies.</p>
+    <p><span class="lab">How:</span> randomise who receives extra outreach or information encouraging take-up, rather than randomising access to the intervention itself.</p>
+    <p><span class="lab">Best when:</span> the intervention cannot legally be denied to anyone who qualifies - for example, an open voucher scheme - but take-up is voluntary and varies.</p>
   </div></div>
 </div>
 <div class="example romania" data-map="romania-ne">
 <p><span class="tag">North‑East Romania used a lottery</span></p>
 <p>North-East Romania used a simple lottery. The 1,038 eligible firms were split into two equal groups of 519 by a random draw. The treatment group was invited to apply for a grant of between €15,000 and €100,000 to invest in equipment, software, or services. The firms in the comparison group were not invited to apply and thus, received no grant. Both groups were surveyed in the same way throughout the evaluation period.</p>
 <figure class="fig-e figure">
-<svg viewbox="0 0 680 240" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="1038 eligible firms enter a random draw and are split into a treatment group receiving grants and a comparison group receiving none">
+<svg viewbox="0 0 680 240" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="1,038 eligible firms enter a random draw and are split into a treatment group receiving grants and a comparison group receiving none">
   <rect x="10" y="87" width="150" height="66" rx="6" fill="#FFFDF7" stroke="#E4DCC6"></rect>
   <text x="85" y="116" text-anchor="middle" fill="#2B2724" font-size="20" font-weight="bold">1,038</text>
   <text x="85" y="135" text-anchor="middle" fill="#6B6455" font-size="11.5">eligible firms</text>
@@ -463,8 +307,8 @@ Use the application process to exchange information
 </div>
 <div class="body">
 <p>The draw takes place in front of an audience - for example, pulling firm names from a hat at a public event, or livestreaming the computerised draw.</p>
-<p><strong>Advantage:</strong> maximises transparency and public trust. Firms can see for themselves that the process was fair.</p>
-<p><strong>Disadvantage:</strong> once comparison firms know they did not receive support, they may change their behaviour - working harder to find alternative funding, for example - which can reduce the measured difference between the groups.</p>
+<p><strong>Advantage:</strong> maximises transparency and public trust. Units can see for themselves that the process was fair.</p>
+<p><strong>Disadvantage:</strong> once comparison units know they did not receive support, they may change their behaviour - working harder to find alternative funding, for example - which can reduce the measured difference between the groups.</p>
 </div>
 </div>
 <div class="col-e">
@@ -473,7 +317,7 @@ Use the application process to exchange information
 </div>
 <div class="body">
 <p>The draw is conducted internally by the evaluation team, with full documentation but without public observation.</p>
-<p><strong>Advantage:</strong> comparison firms do not immediately know the outcome, which reduces the risk of behavioural reactions that narrow the gap between groups.</p>
+<p><strong>Advantage:</strong> comparison units do not immediately know the outcome, which reduces the risk of behavioural reactions that narrow the gap between groups.</p>
 <p><strong>Disadvantage:</strong> the process is less visibly fair, which can make it harder to defend if challenged.</p>
 </div>
 </div>
@@ -484,8 +328,8 @@ Use the application process to exchange information
 </section>
 <section id="randomising-only-part-of-the-pool-a-lottery-around-a-cutoff" class="level2">
 <h2 class="anchored" data-anchor-id="randomising-only-part-of-the-pool-a-lottery-around-a-cutoff">Randomising only part of the pool: a lottery around a cutoff</h2>
-<p>In some programmes, it is not practical or desirable to randomise the entire eligible pool. A common alternative is to score all applicants on eligibility criteria, fund the top scorers outright, reject the clear non-qualifiers outright, and randomise only the firms in the middle - those whose scores are close enough together that the difference is not meaningful.</p>
-<p>This approach reduces the pool that is randomised, focuses the evaluation on the firms where the decision is genuinely uncertain, and is easier to justify publicly than a lottery across the full range of applicants.</p>
+<p>In some interventions, it is not practical or desirable to randomise the entire eligible pool. A common alternative is to score all applicants on eligibility criteria, fund the top scorers outright, reject the clear non-qualifiers outright, and randomise only the units in the middle - those whose scores are close enough together that the difference is not meaningful.</p>
+<p>This approach reduces the pool that is randomised, focuses the evaluation on the units where the decision is genuinely uncertain, and is easier to justify publicly than a lottery across the full range of applicants.</p>
 <figure class="fig-e figure">
 <svg viewbox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Firms scored from 100 down to 45; the top band is accepted outright, the bottom rejected, and the middle band randomised">
   <text x="20" y="24" fill="#6B6455" font-size="11.5" font-weight="bold">Score</text>
@@ -514,13 +358,13 @@ Use the application process to exchange information
 <p>Keep the scoring process rules-based. Subjective assessment - even by expert panels - has been shown to introduce systematic bias. A structured scoring rubric, applied consistently, is fairer and more defensible than discretionary judgment.</p>
 </div>
 </section>
-<section id="testing-programme-versions-multiple-treatment-arms" class="level2">
-<h2 class="anchored" data-anchor-id="testing-programme-versions-multiple-treatment-arms">Testing programme versions: multiple treatment arms</h2>
-<p>A standard RCT compares one version of the programme against a comparison group. But sometimes the real question is not whether the programme works, but which design works best - grant only versus grant plus mentoring, for example, or light-touch advisory versus intensive coaching.</p>
-<p>Multiple treatment arms allow you to test these versions against each other and against a comparison group in a single evaluation. Each group of firms is randomly assigned to a different version, and outcomes are compared across all groups at endline.</p>
+<section id="testing-intervention-versions-multiple-treatment-arms" class="level2">
+<h2 class="anchored" data-anchor-id="testing-intervention-versions-multiple-treatment-arms">Testing intervention versions: multiple treatment arms</h2>
+<p>A standard RCT compares one version of the intervention against a comparison group. But sometimes the real question is not whether the intervention works, but which design works best - grant only versus grant plus mentoring, for example, or light-touch advisory versus intensive coaching.</p>
+<p>Multiple treatment arms allow you to test these versions against each other and against a comparison group in a single evaluation. Each group of units is randomly assigned to a different version, and outcomes are compared across all groups at endline.</p>
 <p>The trade-off is sample size: more arms means more groups, and the available pool must be large enough to power comparisons between each pair.</p>
 <figure class="fig-e figure">
-<svg viewbox="0 0 660 240" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Bar chart comparing outcomes across a comparison group and three programme versions">
+<svg viewbox="0 0 660 240" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Bar chart comparing outcomes across a comparison group and three intervention versions">
   <line x1="90" y1="190" x2="620" y2="190" stroke="var(--dg-line)" stroke-width="1.5"></line>
   <text x="72" y="100" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5" transform="rotate(-90 72 100)">Outcome</text>
   <rect x="120" y="120" width="90" height="70" fill="var(--dg-ink)"></rect>
@@ -542,7 +386,7 @@ Use the application process to exchange information
 </section>
 <section id="when-you-cannot-fund-everyone-at-once-randomised-phase-in" class="level2">
 <h2 class="anchored" data-anchor-id="when-you-cannot-fund-everyone-at-once-randomised-phase-in">When you cannot fund everyone at once: randomised phase-in</h2>
-<p>In many programmes, budget or implementation capacity means it is not possible to reach all eligible firms in a single wave. A randomised phase-in turns this constraint into an advantage: firms are randomly assigned to waves, and those still waiting to receive the programme serve as the comparison group for the firms already being treated.</p>
+<p>In many interventions, budget or implementation capacity means it is not possible to reach all eligible units in a single wave. A randomised phase-in turns this constraint into an advantage: units are randomly assigned to waves, and those still waiting to receive the intervention serve as the comparison group for the units already being treated.</p>
 <p>The key advantage is that everyone eventually receives support, which makes the approach easier to justify politically and ethically. The key limitation is that there is no comparison group once the last wave has been treated, which means long-term impacts - those that take several years to emerge - cannot be measured.</p>
 <figure class="fig-e figure">
 <svg viewbox="0 0 660 200" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Staggered rollout: wave one treated first, wave two later, wave three last, each acting as comparison until treated">
@@ -567,9 +411,9 @@ Use the application process to exchange information
 </section>
 <section id="varying-the-dose-randomised-intensities" class="level2">
 <h2 class="anchored" data-anchor-id="varying-the-dose-randomised-intensities">Varying the dose: randomised intensities</h2>
-<p>Rather than randomising which firms receive the programme, you can randomise how much of it they receive. For example, some firms might have all eligible employees participate in a training programme, while others have only half, and others none. Comparing outcomes across these groups reveals not just whether the programme works but how much of it is needed - and whether the benefits spill over to employees who were not directly treated.</p>
+<p>Rather than randomising which units receive the intervention, you can randomise how much of it they receive. For example, some firms might have all eligible employees participate in a training intervention, while others have only half, and others none. Comparing outcomes across these groups reveals not just whether the intervention works but how much of it is needed - and whether the benefits spill over to employees who were not directly treated.</p>
 <figure class="fig-e figure">
-<svg viewbox="0 0 660 210" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Three firms receive the programme at 100%, 50% and 0% of eligible employees">
+<svg viewbox="0 0 660 210" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Three firms receive the intervention at 100%, 50% and 0% of eligible employees">
   <line x1="120" y1="165" x2="600" y2="165" stroke="var(--dg-line)" stroke-width="1.5"></line>
   <rect x="150" y="35" width="110" height="130" fill="var(--dg-accent)"></rect>
   <text x="205" y="106" text-anchor="middle" fill="var(--dg-ink)" font-size="15" font-weight="bold">100%</text>
@@ -580,39 +424,39 @@ Use the application process to exchange information
   <rect x="450" y="140" width="110" height="25" fill="var(--dg-muted)"></rect>
   <text x="505" y="132" text-anchor="middle" fill="var(--dg-ink)" font-size="15" font-weight="bold">0%</text>
   <text x="505" y="185" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12">Firm C</text>
-  <text x="120" y="22" fill="var(--dg-ink-soft)" font-size="11.5">Share of eligible employees within each firm who receive the programme</text>
+  <text x="120" y="22" fill="var(--dg-ink-soft)" font-size="11.5">Share of eligible employees within each firm who receive the intervention</text>
 </svg>
 <figcaption>Note: randomised intensities.</figcaption>
 </figure>
 </section>
 <section id="when-take-up-is-low-encouragement-design" class="level2">
 <h2 class="anchored" data-anchor-id="when-take-up-is-low-encouragement-design">When take-up is low: encouragement design</h2>
-<p>Some programmes cannot be denied to anyone who qualifies - an open advisory service or a voucher scheme, for example. In these cases, it is not possible to assign firms to a comparison group that is formally excluded from support. The encouragement design offers an alternative: rather than randomising access, randomise who receives extra outreach, information, or a targeted invitation to use the programme.</p>
-<p>Firms who receive the encouragement are then compared with those who do not. Because encouraged firms are more likely to take up the programme than non-encouraged firms, the comparison still produces an estimate of the programme’s effect - even if both groups technically had access.</p>
-<p>The main limitation is that the estimate reflects the effect of the encouragement itself as much as the programme. If untargeted outreach - a news story, a social media post - reaches both groups, the comparison is diluted.</p>
+<p>Some interventions cannot be denied to anyone who qualifies - an open advisory service or a voucher scheme, for example. In these cases, it is not possible to assign units to a comparison group that is formally excluded from support. The encouragement design offers an alternative: rather than randomising access, randomise who receives extra outreach, information, or a targeted invitation to use the intervention.</p>
+<p>Units who receive the encouragement are then compared with those who do not. Because encouraged units are more likely to take up the intervention than non-encouraged units, the comparison still produces an estimate of the intervention’s effect - even if both groups technically had access.</p>
+<p>The main limitation is that the estimate reflects the effect of the encouragement itself as much as the intervention. If untargeted outreach - a news story, a social media post - reaches both groups, the comparison is diluted.</p>
 <div class="caution">
-<p>Compliance is rarely perfect in either direction: some encouraged firms will never take up the programme, and some non-encouraged firms will find it and engage anyway. The right approach is to compare the whole encouraged group with the whole non-encouraged group, regardless of what individual firms actually did. Your evaluation team will handle this in the analysis.</p>
+<p>Compliance is rarely perfect in either direction: some encouraged units will never take up the intervention, and some non-encouraged units will find it and engage anyway. The right approach is to compare the whole encouraged group with the whole non-encouraged group, regardless of what individual units actually did. Your evaluation team will handle this in the analysis.</p>
 </div>
 </section>
-<section id="did-randomisation-lead-to-comparable-firms-in-treatment-and-comparison-group" class="level2">
-<h2 class="anchored" data-anchor-id="did-randomisation-lead-to-comparable-firms-in-treatment-and-comparison-group">Did randomisation lead to comparable firms in treatment and comparison group?</h2>
-<p>Once the lottery has been conducted and the baseline survey fielded, the first analytical task is to check whether the draw actually produced two comparable groups. Even a well-designed lottery can, by chance, produce a treatment group that differs from the comparison group on firm age, size, sector, or prior performance. A balance check compares the two groups on a set of baseline characteristics and tests whether any differences are larger than chance would produce. If the groups look similar before the programme starts, the evaluation is on solid ground. If they do not, the analysis will need to account for the imbalance. <a href="./02.03b-balance.html">More details on balance checks and what to do if groups are not comparable</a></p>
+<section id="did-randomisation-lead-to-comparable-units-in-treatment-and-comparison-group" class="level2">
+<h2 class="anchored" data-anchor-id="did-randomisation-lead-to-comparable-units-in-treatment-and-comparison-group">Did randomisation lead to comparable units in treatment and comparison group?</h2>
+<p>Once the lottery has been conducted and the baseline survey fielded, the first analytical task is to check whether the draw actually produced two comparable groups. Even a well-designed lottery can, by chance, produce a treatment group that differs from the comparison group (e.g.&nbsp;on firm age, size, sector, or prior performance). A balance check compares the two groups on a set of baseline characteristics and tests whether any differences are larger than chance would produce. If the groups look similar before the intervention starts, the evaluation is on solid ground. If they do not, the analysis will need to account for the imbalance. <a href="./02.05a-balance.html">More details on balance checks and what to do if groups are not comparable</a></p>
 </section>
 <section id="what-are-potential-challenges" class="level2">
 <h2 class="anchored" data-anchor-id="what-are-potential-challenges">What are potential challenges?</h2>
 <p>Even a well-designed RCT must survive contact with reality. These are the four most common problems - and what can be done about each.</p>
-<p><strong>Attrition.</strong> Firms drop out between the baseline and the endline - because they closed, relocated, or simply refused to participate in a survey again. If drop-out is higher in one group than the other, the two groups are no longer comparable and the impact estimate may be biased. Prevention is far easier than correction: collect multiple contact details at baseline, keep them updated during the programme, and keep the endline survey as short as possible.</p>
-<p><strong>Spillovers.</strong> Comparison firms benefit from the programme indirectly - a treated supplier passes on improved products, or a treated neighbour shares what they learned in a training session. When this happens, the gap between the groups narrows and the evaluation underestimates the true effect. Spillovers are most likely in concentrated sectors or geographically tight clusters. Where the risk is high, randomising at a higher level - by region or sector cohort rather than by individual firm - can contain it. If spillovers are anticipated, the RCT can be designed in a manner accounting for them.</p>
+<p><strong>Attrition.</strong> Units drop out between the baseline and the endline, e.g.&nbsp;because firms closed, relocated, or simply refused to participate in a survey again. If drop-out is higher in one group than the other, the two groups are no longer comparable and the impact estimate may be biased. Prevention is far easier than correction: collect multiple contact details at baseline, keep them updated during the intervention, and keep the endline survey as short as possible.</p>
+<p><strong>Spillovers.</strong> Comparison units benefit from the intervention indirectly - a treated supplier passes on improved products, or a treated neighbour shares what they learned in a training session. When this happens, the gap between the groups narrows and the evaluation underestimates the true effect. Spillovers are most likely in concentrated sectors or geographically tight clusters. Where the risk is high, randomising at a higher level - by region or sector cohort rather than by individual untis - can contain it. If spillovers are anticipated, the RCT can be designed in a manner accounting for them.</p>
 <div class="example case" data-map="romania-sm">
 <p><span class="tag">Romania (South-Muntenia): designing for spillovers</span> South-Muntenia built spillovers into the design. About 900 applicant SMEs are grouped into roughly 100 geographic or sector clusters. Each cluster is randomly assigned a funding intensity of 0%, 33%, 66% or 100%, and firms within each cluster are then randomly selected for funding up to that share. Comparing funded and unfunded firms within a cluster measures each firm’s own return; comparing clusters with different intensities measures the spillover onto neighbours and competitors. <a href="./03-examples.html#south-muntenia">Read the full example</a>.</p>
 </div>
-<p><strong>Low take-up.</strong> Some firms assigned to the treatment group never use the support - they decline the grant, fail to meet the conditions, or disengage early. Low take-up dilutes the estimated effect: if only half the treatment group actually received the programme, the impact estimate reflects a half-dose. Monitoring take-up actively during implementation - and understanding why firms do not engage - is essential for interpreting what the evaluation ultimately shows.</p>
-<p><strong>Uneven implementation.</strong> The programme is delivered inconsistently across firms - some receive more advisory time, faster disbursements, or better quality support than others. This introduces noise into the treatment and makes the evaluation harder to interpret. Clear delivery protocols, regular monitoring, and a close relationship between the Managing Authority and the delivery team reduce this risk.</p>
+<p><strong>Low take-up.</strong> Some units assigned to the treatment group never use the support - they decline the grant, fail to meet the conditions, or disengage early. Low take-up dilutes the estimated effect: if only half the treatment group actually received the intervention, the impact estimate reflects a half-dose. Monitoring take-up actively during implementation - and understanding why units do not engage - is essential for interpreting what the evaluation ultimately shows.</p>
+<p><strong>Uneven implementation.</strong> The intervention is delivered inconsistently across units, e.g.&nbsp;some firms receive more advisory time, faster disbursements, or better quality support than others. This introduces noise into the treatment and makes the evaluation harder to interpret. Clear delivery protocols, regular monitoring, and a close relationship between the managing authority and the delivery team reduce this risk.</p>
 <div class="takeaway">
 <p>None of these problems make an RCT impossible - but all of them must be anticipated at the design stage, not discovered after the endline survey.</p>
 </div>
 <div class="example romania" data-map="romania-ne">
-<p><span class="tag">North‑East Romania: the programme did not achieve full take-up</span></p>
+<p><span class="tag">North‑East Romania: the intervention did not achieve full take-up</span></p>
 <p>Of the 519 firms selected by lottery, only 393 (75.7%) went on to submit a full funding proposal, and 333 (64.2%) were eventually contracted.</p>
 <p>Because of limited take-up, it is safer to report the intention-to-treat effect, comparing everyone as originally assigned, even though it understates the effect on the firms that actually took up the grant.</p>
 </div>
@@ -620,8 +464,8 @@ Use the application process to exchange information
 <section id="pre-register-the-rct-design-before-the-intervention-begins" class="level2">
 <h2 class="anchored" data-anchor-id="pre-register-the-rct-design-before-the-intervention-begins">Pre-register the RCT design before the intervention begins</h2>
 <p>Before the intervention begins (but latest before data analysis begins), the RCT design must be publicly committed to on a recognised registry. This is called pre-registration, and it is one of the most important quality controls in a rigorous RCT.</p>
-<p>Pre-registration means publishing, in advance, the primary outcome, the evaluation questions, the randomisation procedure, and the analysis plan. Once that record is time-stamped and publicly visible, it becomes impossible to claim after the fact that a different learning question or outcome was always the primary focus, or that a subgroup analysis was planned from the beginning when it was actually prompted by the results. The evaluation team should lead this process, but the Managing Authority should confirm it has been done before approving the inception report.</p>
-<p>For a Managing Authority, pre-registration also serves a protective function. It shields the evaluation team from pressure to adjust the analysis once results are known. And it strengthens the credibility of the findings: when a null result or an inconvenient conclusion is published, pre-registration demonstrates that it reflects reality rather than selective reporting.</p>
+<p>Pre-registration means publishing, in advance, the primary outcome, the evaluation questions, the randomisation procedure, and the analysis plan. Once that record is time-stamped and publicly visible, it becomes impossible to claim after the fact that a different learning question or outcome was always the primary focus, or that a subgroup analysis was planned from the beginning when it was actually prompted by the results. The evaluation team should lead this process, but the managing authority should confirm it has been done before approving the inception report.</p>
+<p>For a managing authority, pre-registration also serves a protective function. It shields the evaluation team from pressure to adjust the analysis once results are known. And it strengthens the credibility of the findings: when a null result or an inconvenient conclusion is published, pre-registration demonstrates that it reflects reality rather than selective reporting.</p>
 <div class="cards">
 <section id="aea-rct-registry" class="level3 unlisted card-e">
 <h3 class="unlisted anchored" data-anchor-id="aea-rct-registry">AEA RCT Registry</h3>
@@ -638,7 +482,7 @@ Use the application process to exchange information
 </div>
 <hr>
 <div class="nav-buttons">
-<p><a href="./02.04-indicators.html">← Previous - Step 3: determine relevant indicators</a> | <a href="./02.05-data_sources.html">Next - Step 5: identify available data sources →</a></p>
+<p><a href="./02.04-assess.html">← Previous - Step 4: check whether an RCT is feasible</a> | <a href="./02.06-data_sources.html">Next - Step 6: identify available data sources →</a></p>
 </div>
 
 
