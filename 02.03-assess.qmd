@@ -42,7 +42,7 @@ An RCT requires sustained commitment from the managing authority and any interme
 :::
 ::: {.card-e}
 ### 5. Can the outcomes actually be measured? {.unlisted}
-The indicators selected in [Step 3](02.04-indicators.qmd) must be observable - through administrative records, a survey, or both. If the primary outcome cannot be reliably measured for both treatment and comparison firms, the evaluation will not produce credible results even if the design is sound.
+The indicators selected in [Step 3](02.04-indicators.qmd) must be observable - through administrative records, a survey, or both. If the primary outcome cannot be reliably measured for both treatment and comparison groups, the evaluation will not produce credible results even if the design is sound.
 :::
 :::
 
@@ -57,7 +57,7 @@ Most national frameworks were designed around ranking or first-come-first-served
 
 ## Randomisation must be designed in from the start
 
-The most common mistake is treating randomisation as something that can be added once the intervention is already running. It cannot. By the time the first grant is awarded, the comparison group must already be defined, the eligibility rules must be locked in, and the baseline data should have been collected. Everything to the left of the lottery in the diagram below has to be in place before the intervention launches - that is precisely what makes the comparison between treatment and comparison firms valid.
+The most common mistake is treating randomisation as something that can be added once the intervention is already running. It cannot. By the time the first grant is awarded, the comparison group must already be defined, the eligibility rules must be locked in, and the baseline data should have been collected. Everything to the left of the lottery in the diagram below has to be in place before the intervention launches - that is precisely what makes the comparison between treatment and comparison group valid.
 
 ```{=html}
 <figure class="fig-e">
