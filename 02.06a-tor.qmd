@@ -12,9 +12,9 @@ description-meta: "Hire an evaluator and data collection firm: procurement from 
 This page covers the procurement process - Expression of Interest (EoI), proposal evaluation, and inception - and what the Terms of Reference (ToR) must contain: programme background, learning questions, scope of work, methodology, deliverables, budget, data access, required qualifications, and common mistakes to avoid.
 :::
 
-Managing Authorities bring deep knowledge of their programmes to the table; the technical expertise needed to evaluate them rigorously can be contracted in. While this homepage provides the tools and guidance to get started, implementing randomised controlled trials (RCTs) comes with many specificities and challenges - and having the right expert team on board makes all the difference. What Managing Authorities need is a well-crafted ToR: the document that attracts the right teams, sets the methodological bar, and defines the conditions for a credible, policy-relevant evaluation. A strong ToR is therefore not a procurement formality - it is the Managing Authority's most important contribution to the quality of the evaluation.
+Managing authorities bring deep knowledge of their programmes to the table; the technical expertise needed to evaluate them rigorously can be contracted in. While this homepage provides the tools and guidance to get started, implementing randomised controlled trials (RCTs) comes with many specificities and challenges - and having the right expert team on board makes all the difference. What managing authorities need is a well-crafted ToR: the document that attracts the right teams, sets the methodological bar, and defines the conditions for a credible, policy-relevant evaluation. A strong ToR is therefore not a procurement formality - it is the managing authority's most important contribution to the quality of the evaluation.
 
-In principle, a ToR can cover the entire evaluation - including evaluation design, Theory of Change (ToC) development, and selection of the methodological approach - leaving these decisions to the consultant. However, since this website focuses specifically on RCTs as the evaluation design of choice, it is assumed that Managing Authorities have already completed the preparatory steps covered on the previous pages: the ToC is in place, the evaluation questions are defined, the indicators are determined, the feasibility of an RCT has been confirmed, and the available data sources have been mapped. The ToR therefore focuses on two specific functions: preparing and implementing data collection, and conducting the statistical analysis. These can be covered by a single ToR commissioning one consultant or team, or split across two separate ToRs - one for an evaluation consultant responsible for analysis, and one for the data collection firm responsible for fieldwork. 
+In principle, a ToR can cover the entire evaluation - including evaluation design, Theory of Change (ToC) development, and selection of the methodological approach - leaving these decisions to the consultant. However, since this website focuses specifically on RCTs as the evaluation design of choice, it is assumed that managing authorities have already completed the preparatory steps covered on the previous pages: the ToC is in place, the evaluation questions are defined, the indicators are determined, the feasibility of an RCT has been confirmed, and the available data sources have been mapped. The ToR therefore focuses on two specific functions: preparing and implementing data collection, and conducting the statistical analysis. These can be covered by a single ToR commissioning one consultant or team, or split across two separate ToRs - one for an evaluation consultant responsible for analysis, and one for the data collection firm responsible for fieldwork. 
 
 ## Part 1: the procurement process
 
@@ -22,7 +22,7 @@ In principle, a ToR can cover the entire evaluation - including evaluation desig
 
 For technically complex evaluations, it is strongly recommended to begin with an EoI rather than going directly to a full ToR. An EoI is a short, non-binding call that invites qualified organisations to signal their interest and demonstrate their eligibility before the full competition begins.
 
-The EoI serves three purposes. First, it maps the market - the pool of RCT-capable evaluation teams is narrower than the general consulting market, and an EoI quickly identifies who is actually available and qualified. Second, it allows the Managing Authority to shortlist candidates who are then invited to submit full proposals in a restricted procedure, which is more efficient for both sides. Third, EoI responses often reveal market realities - realistic timelines, typical costs, data access constraints - that can be incorporated into the final ToR.
+The EoI serves three purposes. First, it maps the market - the pool of RCT-capable evaluation teams is narrower than the general consulting market, and an EoI quickly identifies who is actually available and qualified. Second, it allows the managing authority to shortlist candidates who are then invited to submit full proposals in a restricted procedure, which is more efficient for both sides. Third, EoI responses often reveal market realities - realistic timelines, typical costs, data access constraints - that can be incorporated into the final ToR.
 
 An EoI should contain:
 
@@ -32,11 +32,11 @@ An EoI should contain:
 - What to submit: a short letter (maximum 3-5 pages), CVs of key staff, two to three examples of comparable prior evaluations
 - Submission deadline and contact point
 
-The EoI should be open for a minimum of two to three weeks and published through the national procurement portal and the Managing Authority's website. Shortlisted candidates - typically three to six - are then invited to submit full proposals in response to the complete ToR.
+The EoI should be open for a minimum of two to three weeks and published through the national procurement portal and the managing authority's website. Shortlisted candidates - typically three to six - are then invited to submit full proposals in response to the complete ToR.
 
 ### Step 2: issue the ToR and evaluate proposals
 
-With shortlisted candidates identified, the Managing Authority issues the full ToR. Proposals are evaluated against pre-defined, published criteria. For an RCT evaluation, technical quality should be weighted heavily:
+With shortlisted candidates identified, the managing authority issues the full ToR. Proposals are evaluated against pre-defined, published criteria. For an RCT evaluation, technical quality should be weighted heavily:
 
 | Criterion | Suggested weight |
 |---|---|
@@ -74,12 +74,12 @@ This section gives the consultant the context needed to design the data collecti
 - Implementation timeline and any prior rounds
 - Relevant regulatory obligations (e.g. applicable state aid rules)
 
-Include the completed ToC, covering inputs, activities, outputs, short- and medium-term outcomes, goals, and assumptions. The ToC has been developed by the Managing Authority and is provided to the consultant as a fixed reference point for designing the measurement framework and survey instruments.
+Include the completed ToC, covering inputs, activities, outputs, short- and medium-term outcomes, goals, and assumptions. The ToC has been developed by the managing authority and is provided to the consultant as a fixed reference point for designing the measurement framework and survey instruments.
 
 
 ### 2. Learning questions
 
-List the primary and secondary learning questions explicitly. These have been defined by the Managing Authority and are provided to the consultant as the analytical framework that the data collection and analysis must address. State the intended use of the findings.
+List the primary and secondary learning questions explicitly. These have been defined by the managing authority and are provided to the consultant as the analytical framework that the data collection and analysis must address. State the intended use of the findings.
 
 ### 3. Scope of work
 
@@ -98,7 +98,7 @@ The consultant's responsibilities cover two functions: data collection and analy
 - Clean and merge survey and administrative data
 - Conduct impact analysis and heterogeneity analysis
 - Produce draft and final evaluation reports and a non-technical documents (e.g. a policy brief)
-- Present findings to the Managing Authority and relevant stakeholders
+- Present findings to the managing authority and relevant stakeholders
 
 ### 4. Methodology
 
@@ -112,7 +112,7 @@ The methodology section is the technical core of the ToR. It should specify the 
 
 **Pre-registration:** Require pre-registration on a recognised public registry - such as the [AEA RCT Registry](https://www.socialscienceregistry.org/) - before any data is collected. The pre-registration record must include the research question, randomisation procedure, primary and secondary outcomes, and analysis plan.
 
-**Data sources:** Specify which administrative datasets will be provided by the Managing Authority and which the consultant must access independently. If primary survey data is needed, clarify whether survey fieldwork is in scope or covered by a separate data collection contract.
+**Data sources:** Specify which administrative datasets will be provided by the managing authority and which the consultant must access independently. If primary survey data is needed, clarify whether survey fieldwork is in scope or covered by a separate data collection contract.
 
 
 ### 5. Deliverables and timeline
@@ -173,7 +173,7 @@ Specify clearly whether the budget is inclusive or exclusive of Value Added Tax,
 
 ### 7. Data access and GDPR
 
-Specify which datasets the Managing Authority will provide, in what format and timeline. The ToR must address General Data Protection Regulation (GDPR) compliance - lawful basis for processing, pseudonymisation, data security requirements, and retention obligations - and require a data processing agreement to be signed before any data transfer.
+Specify which datasets the managing authority will provide, in what format and timeline. The ToR must address General Data Protection Regulation (GDPR) compliance - lawful basis for processing, pseudonymisation, data security requirements, and retention obligations - and require a data processing agreement to be signed before any data transfer.
 
 
 ### 8. Qualifications required
