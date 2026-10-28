@@ -4,7 +4,7 @@ description-meta: "Plan survey rounds, choose a collection method, design and pi
 ---
 
 ```{=html}
-<nav class="tracker" aria-label="Seven steps for designing an RCT"><span><a href="02.01-toc.qmd" title="Step 1: develop a Theory of Change">Step 1</a></span><span><a href="02.02-eval_questions.qmd" title="Step 2: define learning questions">Step 2</a></span><span><a href="02.03-indicators.qmd" title="Step 3: determine relevant indicators">Step 3</a></span><span><a href="02.04-assess.qmd" title="Step 4: check whether an RCT is feasible">Step 4</a></span><span><a href="02.05-randomisation.qmd" title="Step 5: how to randomise">Step 5</a></span><span><a href="02.06-data_sources.qmd" title="Step 6: identify available data sources">Step 6</a></span><span class="on" aria-current="step">Step 7</span><span><a href="02.08-data_quality.qmd" title="Step 8: ensure high-quality data">Step 8</a></span></nav>
+<nav class="tracker" aria-label="Eight steps for designing an RCT"><span><a href="02.01-toc.qmd" title="Step 1: develop a Theory of Change">Step 1</a></span><span><a href="02.02-eval_questions.qmd" title="Step 2: define learning questions">Step 2</a></span><span><a href="02.03-indicators.qmd" title="Step 3: determine relevant indicators">Step 3</a></span><span><a href="02.04-assess.qmd" title="Step 4: check whether an RCT is feasible">Step 4</a></span><span><a href="02.05-randomisation.qmd" title="Step 5: how to randomise">Step 5</a></span><span><a href="02.06-data_sources.qmd" title="Step 6: identify available data sources">Step 6</a></span><span class="on" aria-current="step">Step 7</span><span><a href="02.08-data_quality.qmd" title="Step 8: ensure high-quality data">Step 8</a></span></nav>
 ```
 
 ::: {.team-note}
@@ -13,7 +13,7 @@ This page covers when and how many data collection rounds to plan, why surveys a
 :::
 
 
-Step 5 determined where the data will come from. This step is about how and when to collect it. For most randomised controlled trials (RCT) evaluations of competitiveness interventions, this means planning at least one round of primary survey data collection - a baseline before the intervention - while also coordinating access to the administrative data sources identified in Step 5. Whether a primary endline survey is also needed depends on the availability of administrative data, as described below.
+Step 6 determined where the data will come from. This step is about how and when to collect it. For most randomised controlled trials (RCT) evaluations of competitiveness interventions, this means planning at least one round of primary survey data collection - a baseline before the intervention - while also coordinating access to the administrative data sources identified in Step 6. Whether a primary endline survey is also needed depends on the availability of administrative data, as described below.
 
 ---
 
@@ -50,7 +50,7 @@ Surveys are the most widely used tool for collecting primary data in impact eval
 
 A particular strength of surveys is their scalability. Rather than collecting information from every single beneficiary or firm in a target population, a well-designed survey can be conducted on a carefully selected subset - a sample - and, provided that sample is representative, the findings can be generalised with confidence to the full population.
 
-For evaluations including competitiveness and innovation outcomes - such as changes in firm-level Research and Developemnt (R&D) investment, technology adoption, or management practices - surveys are often the only way to capture the intermediate outcomes that sit between a grant payment and a long-term productivity gain visible in national statistics. They are also essential for understanding why an intervention worked or did not, by measuring the mechanisms that link the intervention's activities to its results.
+For evaluations including competitiveness and innovation outcomes - such as changes in firm-level Research and Development (R&D) investment, technology adoption, or management practices - surveys are often the only way to capture the intermediate outcomes that sit between a grant payment and a long-term productivity gain visible in national statistics. They are also essential for understanding why an intervention worked or did not, by measuring the mechanisms that link the intervention's activities to its results.
 
 
 ## Paper vs. electronic surveys

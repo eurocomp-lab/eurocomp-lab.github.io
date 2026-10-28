@@ -4,7 +4,7 @@ description-meta: "Write the questions your evaluation must answer: what makes a
 ---
 
 ```{=html}
-<nav class="tracker" aria-label="Seven steps for designing an RCT"><span><a href="02.01-toc.qmd" title="Step 1: develop a Theory of Change">Step 1</a></span><span class="on" aria-current="step">Step 2</span><span><a href="02.03-indicators.qmd" title="Step 3: determine relevant indicators">Step 3</a></span><span><a href="02.04-assess.qmd" title="Step 4: check whether an RCT is feasible">Step 4</a></span><span><a href="02.05-randomisation.qmd" title="Step 5: how to randomise">Step 5</a></span><span><a href="02.06-data_sources.qmd" title="Step 6: identify available data sources">Step 6</a></span><span><a href="02.07-data_collect.qmd" title="Step 7: collect data">Step 7</a></span><span><a href="02.08-data_quality.qmd" title="Step 8: ensure high-quality data">Step 8</a></span></nav>
+<nav class="tracker" aria-label="Eight steps for designing an RCT"><span><a href="02.01-toc.qmd" title="Step 1: develop a Theory of Change">Step 1</a></span><span class="on" aria-current="step">Step 2</span><span><a href="02.03-indicators.qmd" title="Step 3: determine relevant indicators">Step 3</a></span><span><a href="02.04-assess.qmd" title="Step 4: check whether an RCT is feasible">Step 4</a></span><span><a href="02.05-randomisation.qmd" title="Step 5: how to randomise">Step 5</a></span><span><a href="02.06-data_sources.qmd" title="Step 6: identify available data sources">Step 6</a></span><span><a href="02.07-data_collect.qmd" title="Step 7: collect data">Step 7</a></span><span><a href="02.08-data_quality.qmd" title="Step 8: ensure high-quality data">Step 8</a></span></nav>
 ```
 
 ::: {.team-note}
@@ -18,7 +18,7 @@ This page covers why learning questions must come first, what makes a good learn
 
 The ToC developed in Step 1 sets out the causal logic of the intervention. Evaluation questions translate that logic into a concrete analytical agenda: they specify which links in the causal chain will be tested, which outcomes will be measured, and what the evaluation can credibly claim to have shown at the end.
 
-Getting this step right matters more than it might appear. Vague or poorly scoped evaluation questions lead to data collection that is too broad, analysis that is unfocused, and findings that cannot be clearly attributed to the intervention. Conversely, well-formulated questions make every subsequent decision easier - they tell you which indicators to select (Step 3), which data sources to prioritise (Step 5), and what the evaluation team will need to deliver.
+Getting this step right matters more than it might appear. Vague or poorly scoped evaluation questions lead to data collection that is too broad, analysis that is unfocused, and findings that cannot be clearly attributed to the intervention. Conversely, well-formulated questions make every subsequent decision easier - they tell you which indicators to select (Step 3), which data sources to prioritise (Step 6), and what the evaluation team will need to deliver.
 
 
 
@@ -32,7 +32,7 @@ A well-formulated learning question has four characteristics:
 
 **Answerable.** The question must be answerable with the data and methods available. An evaluation that asks about 10-year productivity effects but only has a two-year window will not be able to answer its own primary question. Scope questions to what the evaluation can credibly deliver.
 
-**Decided in advance.** Evaluation questions must be set before data collection begins - not after. Questions formulated after seeing the data are prone to selective reporting and undermine the credibility of the findings. Pre-registration on a public registry (see [Step 4](02.03-assess.qmd)) locks in the questions publicly before any results are observed.
+**Decided in advance.** Evaluation questions must be set before data collection begins - not after. Questions formulated after seeing the data are prone to selective reporting and undermine the credibility of the findings. Pre-registration on a public registry (see [Step 5](02.05-randomisation.qmd#pre-register-the-rct-design-before-the-intervention-begins)) locks in the questions publicly before any results are observed.
 
 
 

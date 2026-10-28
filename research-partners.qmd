@@ -97,8 +97,12 @@ teams that want to speak to a peer rather than read a page.
 ::: {.card-e .peer-contacts}
 - **Bulgaria:** [[Bulgarian Small and Medium Enterprises Promotion Agency (BSMEPA)](https://sme.government.bg/) · [k.toncheva@sme.government.bg](mailto:k.toncheva@sme.government.bg)]{.peer-org}
 - **Croatia:** [[Innovation Centre Nikola Tesla (ICENT)](https://icent.fer.unizg.hr/en/) · [info@icent.hr](mailto:info@icent.hr)]{.peer-org}
-- **Czechia:** [[Moravian-Silesian Region](https://www.msk.cz/index-en.html)]{.peer-org} · [posta@msk.cz](mailto:posta@msk.cz)]{.peer-org}, [[Moravian-Silesian Innovation Centre (MSIC)](https://ms-ic.cz/en/)]{.peer-org} · [info@ms-ic.cz](mailto:info@ms-ic.cz)]{.peer-org} 
-- **Czechia:** [[Ústí Region](https://www.kr-ustecky.cz/)]{.peer-org} · [epodatelna@kr-ustecky.cz](mailto:epodatelna@kr-ustecky.cz)]{.peer-org}, [[Innovation Center of the Ústí Region (ICUK)](https://icuk.cz/en/)]{.peer-org} · [office@icuk.cz](mailto:office@icuk.cz)]{.peer-org}, [[Karlovy Vary Region](https://www.kr-karlovarsky.cz/)]{.peer-org} · [epodatelna@kr-karlovarsky.cz](mailto:epodatelna@kr-karlovarsky.cz)]{.peer-org}, [[Regional Innovation Center of the Karlovy Vary Region (KIC KK)](https://kickk.cz/)]{.peer-org} · [reception@kickk.cz](mailto:reception@kickk.cz)]{.peer-org}
+- **Czechia:** [[Moravian-Silesian Region](https://www.msk.cz/index-en.html) · [posta@msk.cz](mailto:posta@msk.cz)]{.peer-org}
+- **Czechia:** [[Moravian-Silesian Innovation Centre (MSIC)](https://ms-ic.cz/en/) · [info@ms-ic.cz](mailto:info@ms-ic.cz)]{.peer-org}
+- **Czechia:** [[Ústí Region](https://www.kr-ustecky.cz/) · [epodatelna@kr-ustecky.cz](mailto:epodatelna@kr-ustecky.cz)]{.peer-org}
+- **Czechia:** [[Innovation Center of the Ústí Region (ICUK)](https://icuk.cz/en/) · [office@icuk.cz](mailto:office@icuk.cz)]{.peer-org}
+- **Czechia:** [[Karlovy Vary Region](https://www.kr-karlovarsky.cz/) · [epodatelna@kr-karlovarsky.cz](mailto:epodatelna@kr-karlovarsky.cz)]{.peer-org}
+- **Czechia:** [[Regional Innovation Center of the Karlovy Vary Region (KIC KK)](https://kickk.cz/) · [reception@kickk.cz](mailto:reception@kickk.cz)]{.peer-org}
 - **Poland:** [[Polish Agency for Enterprise Development (PARP)](https://www.parp.gov.pl/) · [biuro@parp.gov.pl](mailto:biuro@parp.gov.pl)]{.peer-org}
 - **Romania:** [[North-East Regional Development Agency](https://www.adrnordest.ro/en/homepage/) · [adrnordest@adrnordest.ro](mailto:adrnordest@adrnordest.ro)]{.peer-org}
 - **Romania:** [[South-Muntenia Regional Development Agency](https://www.adrmuntenia.ro/) · [office@adrmuntenia.ro](mailto:office@adrmuntenia.ro)]{.peer-org}

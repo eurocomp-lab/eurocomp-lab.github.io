@@ -33,12 +33,12 @@ website:
           - text: "---"
           - href: 02.01-toc.qmd
           - href: 02.02-eval_questions.qmd
-          # Step 3 precedes Step 4, matching the page titles
-          - href: 02.04-indicators.qmd
-          - href: 02.03-assess.qmd
-          - href: 02.05-data_sources.qmd
-          - href: 02.06-data_collect.qmd
-          - href: 02.07-data_quality.qmd
+          - href: 02.03-indicators.qmd
+          - href: 02.04-assess.qmd
+          - href: 02.05-randomisation.qmd
+          - href: 02.06-data_sources.qmd
+          - href: 02.07-data_collect.qmd
+          - href: 02.08-data_quality.qmd
       - href: 03-examples.qmd
         text: Examples
       - text: Repository

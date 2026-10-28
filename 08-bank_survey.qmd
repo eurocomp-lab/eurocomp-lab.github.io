@@ -5,7 +5,7 @@ description-meta: "Find tested survey questions for firm-level evaluations, orga
 
 ## Overview
 
-Before writing a single question, review existing, validated survey instruments. Using questions that have already been tested in comparable evaluations saves time, improves data quality, and makes findings comparable with evidence from other intervenetions and regions. Key reference sources include:
+Before writing a single question, review existing, validated survey instruments. Using questions that have already been tested in comparable evaluations saves time, improves data quality, and makes findings comparable with evidence from other interventions and regions. Key reference sources include:
 
 - [Community Innovation Survey (CIS)](https://ec.europa.eu/eurostat/web/microdata/collections-research/community-innovation-survey) - the standard EU framework for measuring innovation activity in firms
 - [Firms Adoption of Technology Survey (FAT)](https://microdata.worldbank.org/collections/fat) - World Bank instrument on technology adoption across sectors

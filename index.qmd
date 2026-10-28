@@ -250,7 +250,7 @@ What RCTs can and cannot show, how they compare with other evaluation methods, w
 :::
 ::: {.card-e}
 #### [How to design an RCT](02-how.qmd)
-How to plan an RCT in seven steps: from the causal logic of the intervention, through choosing the right design, to ensuring high-quality data is collected.
+How to plan an RCT in eight steps: from the causal logic of the intervention, through choosing the right design, to ensuring high-quality data is collected.
 :::
 ::: {.card-e}
 #### [Examples](03-examples.qmd)

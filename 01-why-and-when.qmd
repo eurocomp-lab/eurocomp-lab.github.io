@@ -25,7 +25,7 @@ The page ends with answers to common questions about RCTs. [How to design an RCT
     <span class="part-title">Why an RCT</span>
     <ul>
       <li><a href="#finding-counterfactual">Finding the counterfactual</a></li>
-      <li><a href="#rct">What is a randomised controlled trial?</a></li>
+      <li><a href="#rct">How an RCT creates a comparison group</a></li>
       <li><a href="#running-example">Running example: North-East Romania</a></li>
       <li><a href="#legitimacy">Randomisation can support transparency and trust</a></li>
     </ul>

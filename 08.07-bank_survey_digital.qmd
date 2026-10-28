@@ -64,7 +64,7 @@ description-meta: "Ask firms which digital tools they use, from hardware and sof
 
 **Which software technologies is the business currently using?**
 
-- Office software such as Microsof Office, Microsof Office for Mac or Google Workspace (or G Suite)
+- Office software such as Microsoft Office, Microsoft Office for Mac or Google Workspace (or G Suite)
 - Customer Relationship Management (CRM) software such as Salesforce or HubSpot CRM.
 - Enterprise Resource Planning (ERP) software such as SAP or Sage.
 - Social media management such as Hootsuite or Buffer.
@@ -89,7 +89,7 @@ description-meta: "Ask firms which digital tools they use, from hardware and sof
   - What is the business website link?
 - Functional online shop
   - What is the online shop link?
-- Onlines sales via e-commerce platform
+- Online sales via e-commerce platform
 - Whatsapp
 - Google My Business
 - Others
@@ -105,7 +105,7 @@ description-meta: "Ask firms which digital tools they use, from hardware and sof
 - TikTok
 - Business website
 - Functional online shop
-- Onlines sales via e-commerce platform
+- Online sales via e-commerce platform
 - Whatsapp
 - Google My Business
 - Others

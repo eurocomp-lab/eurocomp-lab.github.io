@@ -4,18 +4,18 @@ description-meta: "Check the five conditions a randomised trial needs."
 ---
 
 ```{=html}
-<nav class="tracker" aria-label="Seven steps for designing an RCT"><span><a href="02.01-toc.qmd" title="Step 1: develop a Theory of Change">Step 1</a></span><span><a href="02.02-eval_questions.qmd" title="Step 2: define learning questions">Step 2</a></span><span><a href="02.03-indicators.qmd" title="Step 3: determine relevant indicators">Step 3</a></span><span class="on" aria-current="step">Step 4</span><span><a href="02.05-randomisation.qmd" title="Step 5: how to randomise">Step 5</a></span><span><a href="02.06-data_sources.qmd" title="Step 6: identify available data sources">Step 6</a></span><span><a href="02.07-data_collect.qmd" title="Step 7: collect data">Step 7</a></span><span><a href="02.08-data_quality.qmd" title="Step 8: ensure high-quality data">Step 8</a></span></nav>
+<nav class="tracker" aria-label="Eight steps for designing an RCT"><span><a href="02.01-toc.qmd" title="Step 1: develop a Theory of Change">Step 1</a></span><span><a href="02.02-eval_questions.qmd" title="Step 2: define learning questions">Step 2</a></span><span><a href="02.03-indicators.qmd" title="Step 3: determine relevant indicators">Step 3</a></span><span class="on" aria-current="step">Step 4</span><span><a href="02.05-randomisation.qmd" title="Step 5: how to randomise">Step 5</a></span><span><a href="02.06-data_sources.qmd" title="Step 6: identify available data sources">Step 6</a></span><span><a href="02.07-data_collect.qmd" title="Step 7: collect data">Step 7</a></span><span><a href="02.08-data_quality.qmd" title="Step 8: ensure high-quality data">Step 8</a></span></nav>
 ```
 
 ::: {.team-note}
 ## Summary {.unlisted}
 
-This page covers five feasibility conditions that must be in place before committing to a randomised controlled trial (RCT), five randomisation designs and when to use each, and the most common problems that arise after the lottery.
+This page covers five feasibility conditions that must be in place before committing to a randomised controlled trial (RCT), why randomisation must be designed in from the start, and how to reach enough units for a credible evaluation.
 :::
 
-By this point you have mapped your intervention's causal logic, defined what you want to find out, and chosen the indicators you will use to measure it. The question this step answers is whether you can actually run a randomised evaluation to get those answers - and if so, how to design it.
+By this point you have mapped your intervention's causal logic, defined what you want to find out, and chosen the indicators you will use to measure it. The question this step answers is whether you can actually run a randomised evaluation to get those answers. How to design it follows in [Step 5](02.05-randomisation.qmd).
 
-An RCT is not always possible. Before investing time and resources in a randomised design, a managing authority needs to check whether the basic conditions are in place. Once they are, the choice of randomisation method matters: different intervention shapes call for different designs. This page covers both.
+An RCT is not always possible. Before investing time and resources in a randomised design, a managing authority needs to check whether the basic conditions are in place, and whether enough units will take part.
 
 ***
 
@@ -149,7 +149,7 @@ In Romania, the pre-assessment survey was designed to do three jobs simultaneous
 
 The application process is usually treated as a one-way flow of information, with applicants submitting data to the managing authority. In practice, it can also deliver useful information and tools back to applicants. Doing so can make applicants more engaged during the process and help selected unit make better decisions about which activities to prioritize. It can also improve the experience of units that are not selected, who are more likely to view the process positively even without being selected.
 
-For interventions targeted to firms, the application process could be used to raise awareness about a specifc topic (e.g. digitalisation, innovation, energy efficiency) among firms, helping firms identify investment needs, and providing benchmarks that inform business decisions regardless of whether the firm is selected for support. 
+For interventions targeted to firms, the application process could be used to raise awareness about a specific topic (e.g. digitalisation, innovation, energy efficiency) among firms, helping firms identify investment needs, and providing benchmarks that inform business decisions regardless of whether the firm is selected for support. 
 
 ::: {.example .case data-map="croatia"}
 [Croatia]{.tag}

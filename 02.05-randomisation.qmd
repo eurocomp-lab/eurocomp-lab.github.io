@@ -4,12 +4,15 @@ description-meta: "Choose from five randomisation designs and avoid the problems
 ---
 
 ```{=html}
-<nav class="tracker" aria-label="Seven steps for designing an RCT"><span><a href="02.01-toc.qmd" title="Step 1: develop a Theory of Change">Step 1</a></span><span><a href="02.02-eval_questions.qmd" title="Step 2: define learning questions">Step 2</a></span><span><a href="02.03-indicators.qmd" title="Step 3: determine relevant indicators">Step 3</a></span><span><a href="02.04-assess.qmd" title="Step 4: check whether an RCT is feasible">Step 4</span><span class="on" aria-current="step">Step 5</a></span><span><a href="02.06-data_sources.qmd" title="Step 6: identify available data sources">Step 6</a></span><span><a href="02.07-data_collect.qmd" title="Step 7: collect data">Step 7</a></span><span><a href="02.08-data_quality.qmd" title="Step 8: ensure high-quality data">Step 8</a></span></nav>
+<nav class="tracker" aria-label="Eight steps for designing an RCT"><span><a href="02.01-toc.qmd" title="Step 1: develop a Theory of Change">Step 1</a></span><span><a href="02.02-eval_questions.qmd" title="Step 2: define learning questions">Step 2</a></span><span><a href="02.03-indicators.qmd" title="Step 3: determine relevant indicators">Step 3</a></span><span><a href="02.04-assess.qmd" title="Step 4: check whether an RCT is feasible">Step 4</a></span><span class="on" aria-current="step">Step 5</span><span><a href="02.06-data_sources.qmd" title="Step 6: identify available data sources">Step 6</a></span><span><a href="02.07-data_collect.qmd" title="Step 7: collect data">Step 7</a></span><span><a href="02.08-data_quality.qmd" title="Step 8: ensure high-quality data">Step 8</a></span></nav>
 ```
 
 ::: {.team-note}
 ## Summary {.unlisted}
 
+This page covers five randomisation designs and when to use each, whether to run the draw in public or in
+private, how to check that the groups are comparable, the most common problems after the lottery, and how
+to pre-register the design.
 :::
 
 ***
@@ -262,7 +265,7 @@ Even a well-designed RCT must survive contact with reality. These are the four m
 
 **Attrition.** Units drop out between the baseline and the endline, e.g. because firms closed, relocated, or simply refused to participate in a survey again. If drop-out is higher in one group than the other, the two groups are no longer comparable and the impact estimate may be biased. Prevention is far easier than correction: collect multiple contact details at baseline, keep them updated during the intervention, and keep the endline survey as short as possible.
 
-**Spillovers.** Comparison units benefit from the intervention indirectly - a treated supplier passes on improved products, or a treated neighbour shares what they learned in a training session. When this happens, the gap between the groups narrows and the evaluation underestimates the true effect. Spillovers are most likely in concentrated sectors or geographically tight clusters. Where the risk is high, randomising at a higher level - by region or sector cohort rather than by individual untis - can contain it. If spillovers are anticipated, the RCT can be designed in a manner accounting for them.
+**Spillovers.** Comparison units benefit from the intervention indirectly - a treated supplier passes on improved products, or a treated neighbour shares what they learned in a training session. When this happens, the gap between the groups narrows and the evaluation underestimates the true effect. Spillovers are most likely in concentrated sectors or geographically tight clusters. Where the risk is high, randomising at a higher level - by region or sector cohort rather than by individual units - can contain it. If spillovers are anticipated, the RCT can be designed in a manner accounting for them.
 
 ::: {.example .case data-map="romania-sm"}
 [Romania (South-Muntenia): designing for spillovers]{.tag}
