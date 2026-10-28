@@ -16,7 +16,7 @@ Data collection for an RCT involves collecting personal and firm-level data from
 
 The GDPR is the central legal reference for any collection of personal data in the EU, and its requirements should be consulted carefully when designing the consent form and the wider data-handling arrangements. This page offers practical guidance, not legal advice. The applicable legal bases and national rules depend on the programme and the member state, so involve your Data Protection Officer from the start and consider bringing in legal consultants to review the consent form and any data-sharing agreements.
 
-This page covers what informed consent means in the context of firm-level RCTs under EU Cohesion Policy, what a consent form must contain, how to structure it, and what special considerations apply when evaluation data is collected alongside a programme application.
+This page covers what informed consent means in the context of firm-level RCTs under EU cohesion policy, what a consent form must contain, how to structure it, and what special considerations apply when evaluation data is collected alongside a programme application.
 
 ---
 
