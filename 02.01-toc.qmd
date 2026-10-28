@@ -13,13 +13,13 @@ This page covers what a Theory of Change (ToC) is, how it relates to the interve
 :::
 
 
-Before any data is collected and before any evaluation contract is signed, a Managing Authority needs to be clear about what the programme is trying to achieve, how progress towards that goal will be measured, and what data will be needed to do so. A ToC makes this logic explicit and evaluation-ready.
+Before any data is collected and before any evaluation contract is signed, a managing authority needs to be clear about what the programme is trying to achieve, how progress towards that goal will be measured, and what data will be needed to do so. A ToC makes this logic explicit and evaluation-ready.
 
 ---
 
 ## What is a ToC - and how does it relate to your intervention logic?
 
-For some European Union funding programmes (e.g. the European Regional Development Fund), participating Managing Authorities are already required to articulate an intervention logic - a structured account of how a policy instrument is expected to produce its intended results. A ToC builds on this familiar concept and makes it more explicit and evaluation-ready.
+For some European Union funding programmes (e.g. the European Regional Development Fund), participating managing authorities are already required to articulate an intervention logic - a structured account of how a policy instrument is expected to produce its intended results. A ToC builds on this familiar concept and makes it more explicit and evaluation-ready.
 
 Where an intervention logic maps the pathway from inputs to outputs to results, a ToC adds two important elements: it specifies the assumptions that must hold at each step for the logic to work, and it makes clear which links in the chain are strong and which are uncertain. This is precisely the information a randomised controlled trial (RCT) is designed to test.
 
@@ -88,7 +88,7 @@ A ToC follows a causal chain from resources invested to long-term change achieve
 ```
 
 
-**Inputs** are the resources, efforts, and actions invested in a policy. For ERDF programmes, inputs typically include ERDF co-financing, national co-financing, and the administrative capacity of the Managing Authority and intermediate bodies.
+**Inputs** are the resources, efforts, and actions invested in a policy. For ERDF programmes, inputs typically include ERDF co-financing, national co-financing, and the administrative capacity of the managing authority and intermediate bodies.
 
 ::: {.example .romania data-map="romania-ne"}
 [North&#8209;East Romania: inputs]{.tag}
@@ -107,7 +107,7 @@ A ToC follows a causal chain from resources invested to long-term change achieve
 - Call for proposals to deliver digitalisation grants
 :::
 
-**Outputs** are represent the direct and immediate results of the activities conducted within a policy. They are tangible and observable products or deliverables that demonstrate the completion of specific tasks. For ERDF programmes, these correspond closely to the common output indicators that Managing Authorities are already required to report to the European Commission.
+**Outputs** are represent the direct and immediate results of the activities conducted within a policy. They are tangible and observable products or deliverables that demonstrate the completion of specific tasks. For ERDF programmes, these correspond closely to the common output indicators that managing authorities are already required to report to the European Commission.
 
 ::: {.example .romania data-map="romania-ne"}
 [North&#8209;East Romania: outputs]{.tag}
@@ -159,12 +159,12 @@ A ToC follows a causal chain from resources invested to long-term change achieve
 
 Developing a ToC is well worth the effort for two important reasons. First, it sharpens the design of your evaluation. By mapping out the causal logic of an intervention, a ToC generates clear research questions and helps teams identify which outcomes to measure and what data to collect. It can be built collaboratively - by starting from the desired final outcomes and working backwards through the chain of events needed to get there - and this process is particularly useful in a programme partnership context, where multiple stakeholders may have different views on how the policy is supposed to work. It also prompts a credibility check: is there actually evidence, from comparable programmes in other regions or member states, to support each step in the logic?
 
-Second, a ToC produces richer and more transferable policy lessons. Measuring the right intermediate outcomes reveals not just whether an intervention worked, but how and why it worked. Opening this "black box" transforms evaluation results from a simple pass/fail verdict into actionable insight that can inform the next programming period. The knowledge gained also travels better - findings grounded in a clear causal logic are more readily applied by other Managing Authorities facing similar challenges in different regional contexts.
+Second, a ToC produces richer and more transferable policy lessons. Measuring the right intermediate outcomes reveals not just whether an intervention worked, but how and why it worked. Opening this "black box" transforms evaluation results from a simple pass/fail verdict into actionable insight that can inform the next programming period. The knowledge gained also travels better - findings grounded in a clear causal logic are more readily applied by other managing authorities facing similar challenges in different regional contexts.
 
 :::: {.example .romania data-map="romania-ne"}
 [North&#8209;East Romania: why investing time]{.tag}
 
-In Romania, the World Bank supported the Managing Authority in developing a ToC and in applying systematic methods to quantify the Managing Authority's own expectations about programme impacts before the call launched. This exercise revealed gaps between what the programme was designed to achieve and what its indicators actually measured - allowing the design to be adjusted before implementation rather than after the evaluation.
+In Romania, the World Bank supported the managing authority in developing a ToC and in applying systematic methods to quantify the managing authority's own expectations about programme impacts before the call launched. This exercise revealed gaps between what the programme was designed to achieve and what its indicators actually measured - allowing the design to be adjusted before implementation rather than after the evaluation.
 ::::
 
 ***
