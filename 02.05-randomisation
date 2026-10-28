@@ -1,3 +1,17 @@
+---
+title: "Step 4: check whether an RCT is feasible"
+description-meta: "Check the five conditions a randomised trial needs, choose from five randomisation designs and avoid the problems that most often arise after the lottery."
+---
+
+```{=html}
+<nav class="tracker" aria-label="Seven steps for designing an RCT"><span><a href="02.01-toc.qmd" title="Step 1: develop a Theory of Change">Step 1</a></span><span><a href="02.02-eval_questions.qmd" title="Step 2: define learning questions">Step 2</a></span><span><a href="02.04-indicators.qmd" title="Step 3: determine relevant indicators">Step 3</a></span><span class="on" aria-current="step">Step 4</span><span><a href="02.05-data_sources.qmd" title="Step 5: identify available data sources">Step 5</a></span><span><a href="02.06-data_collect.qmd" title="Step 6: collect data">Step 6</a></span><span><a href="02.07-data_quality.qmd" title="Step 7: ensure high-quality data">Step 7</a></span></nav>
+```
+
+::: {.team-note}
+## Summary {.unlisted}
+
+This page covers five feasibility conditions that must be in place before committing to a randomised controlled trial (RCT), five randomisation designs and when to use each, and the most common problems that arise after the lottery.
+:::
 
 ## Five ways to randomise your intervention
 
