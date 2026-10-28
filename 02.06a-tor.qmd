@@ -9,10 +9,10 @@ description-meta: "Hire an evaluator and data collection firm: procurement from 
 
 ::: {.team-note}
 ## Summary {.unlisted}
-This page covers the procurement process - Expression of Interest (EoI), proposal evaluation, and inception - and what the Terms of Reference (ToR) must contain: programme background, learning questions, scope of work, methodology, deliverables, budget, data access, required qualifications, and common mistakes to avoid.
+This page covers the procurement process - Expression of Interest (EoI), proposal evaluation, and inception - and what the Terms of Reference (ToR) must contain: intervention background, learning questions, scope of work, methodology, deliverables, budget, data access, required qualifications, and common mistakes to avoid.
 :::
 
-Managing authorities bring deep knowledge of their programmes to the table; the technical expertise needed to evaluate them rigorously can be contracted in. While this homepage provides the tools and guidance to get started, implementing randomised controlled trials (RCTs) comes with many specificities and challenges - and having the right expert team on board makes all the difference. What managing authorities need is a well-crafted ToR: the document that attracts the right teams, sets the methodological bar, and defines the conditions for a credible, policy-relevant evaluation. A strong ToR is therefore not a procurement formality - it is the managing authority's most important contribution to the quality of the evaluation.
+Managing authorities bring deep knowledge of their interventions to the table; the technical expertise needed to evaluate them rigorously can be contracted in. While this homepage provides the tools and guidance to get started, implementing randomised controlled trials (RCTs) comes with many specificities and challenges - and having the right expert team on board makes all the difference. What managing authorities need is a well-crafted ToR: the document that attracts the right teams, sets the methodological bar, and defines the conditions for a credible, policy-relevant evaluation. A strong ToR is therefore not a procurement formality - it is the managing authority's most important contribution to the quality of the evaluation.
 
 In principle, a ToR can cover the entire evaluation - including evaluation design, Theory of Change (ToC) development, and selection of the methodological approach - leaving these decisions to the consultant. However, since this website focuses specifically on RCTs as the evaluation design of choice, it is assumed that managing authorities have already completed the preparatory steps covered on the previous pages: the ToC is in place, the evaluation questions are defined, the indicators are determined, the feasibility of an RCT has been confirmed, and the available data sources have been mapped. The ToR therefore focuses on two specific functions: preparing and implementing data collection, and conducting the statistical analysis. These can be covered by a single ToR commissioning one consultant or team, or split across two separate ToRs - one for an evaluation consultant responsible for analysis, and one for the data collection firm responsible for fieldwork. 
 
@@ -26,7 +26,7 @@ The EoI serves three purposes. First, it maps the market - the pool of RCT-capab
 
 An EoI should contain:
 
-- A brief description of the programme and the intended evaluation approach
+- A brief description of the intervention and the intended evaluation approach
 - The estimated budget range and timeline
 - Shortlisting criteria: relevant experience, team qualifications, organisational capacity
 - What to submit: a short letter (maximum 3-5 pages), CVs of key staff, two to three examples of comparable prior evaluations
@@ -63,11 +63,11 @@ Key questions to assess at inception review:
 
 ## Part 2: what the ToR must contain
 
-### 1. Background, programme description, and ToC
+### 1. Background, intervention description, and ToC
 
 This section gives the consultant the context needed to design the data collection instruments and analysis plan. Include:
 
-- Name and objectives of the programme and funding instrument
+- Name and objectives of the intervention and funding instrument
 - Description of the intervention: what firms receive, how much, under what conditions
 - Eligibility criteria and selection methodology
 - Total budget, value of individual awards, and number of expected beneficiaries
@@ -108,7 +108,7 @@ The methodology section is the technical core of the ToR. It should specify the 
 
 **Sample size and power:** Require a formal power analysis during the inception phase. The consultant must specify and justify the minimum detectable effect, required statistical power, significance level , expected take-up and attrition rates, and baseline variance of the primary outcome.
 
-**Estimation:** The main analysis should compare all firms offered the support with all firms in the comparison group, whether or not the offered firms actually took the support up. This keeps the comparison fair and shows the effect of offering the programme. If some firms did not take up the support, the consultant should also estimate the effect on the firms that actually received it. 
+**Estimation:** The main analysis should compare all firms offered the support with all firms in the comparison group, whether or not the offered firms actually took the support up. This keeps the comparison fair and shows the effect of offering the intervention. If some firms did not take up the support, the consultant should also estimate the effect on the firms that actually received it. 
 
 **Pre-registration:** Require pre-registration on a recognised public registry - such as the [AEA RCT Registry](https://www.socialscienceregistry.org/) - before any data is collected. The pre-registration record must include the research question, randomisation procedure, primary and secondary outcomes, and analysis plan.
 
@@ -129,7 +129,7 @@ The methodology section is the technical core of the ToR. It should specify the 
 
 ### 6. Budget
 
-**Why a precise estimate is difficult.** The cost of an RCT depends on many design choices specific to each programme. The table below shows the main variables that define the budget and how each one affects it.
+**Why a precise estimate is difficult.** The cost of an RCT depends on many design choices specific to each intervention. The table below shows the main variables that define the budget and how each one affects it.
 
 | Variable | How it affects the budget |
 |---|---|
@@ -146,7 +146,7 @@ The methodology section is the technical core of the ToR. It should specify the 
 
 **Indicative orders of magnitude.** International benchmarks give a sense of scale. In a sample of impact evaluations supported by the World Bank's Strategic Impact Evaluation Fund, costs ranged from about USD 130,000 to USD 2.8 million, with an average of around USD 1 million. A review of 89 impact evaluations funded by 3ie found an average budget of about USD 344,000, and about USD 374,000 for RCTs. In both cases, new data collection was the largest single cost, typically 60–65% of the total. Most of these evaluations took place in low- and middle-income countries. Fieldwork and staff costs in the EU are generally higher, although good administrative data can reduce the need for primary surveys.
 
-As a rough guide for EU competitiveness programmes:
+As a rough guide for EU competitiveness interventions:
 
 | Scope | Indicative range |
 |---|---|
