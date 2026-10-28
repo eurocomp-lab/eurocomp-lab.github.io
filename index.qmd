@@ -32,13 +32,15 @@ This website pools knowledge and resources to help managing authorities and eval
 ::: {.team-note}
 ## Summary {.unlisted}
 This website offers the concepts, examples and practical resources needed to get started with RCTs, both for those considering one for the first time and for those who already have experience with experimentation.
-This page explains what RCTs are, how RCTs fit among other impact evaluation methods, which questions they can answer, and why they matter for cohesion policy. It ends with a guide to the rest of the site.
+This page explains what RCTs are, how they fit among other impact evaluation methods, which questions they can answer and why they matter for cohesion policy. It ends with a guide to the rest of the site.
 :::
 
 ## What is an RCT?
-Experimentation, or experimental evaluation, means testing an intervention by assigning eligible participants at random either to receive it (or one version of it) or to a comparison group (also called a control group) that does not receive it, or receives a different version. This is called a randomised controlled trial (RCT). On this website, the words experimentation and RCTs are used interchangeably.
-Randomisation can be used, for example, when there are more eligible applicants than available places, or when an intervention is rolled out in phases and the order in which participants receive it is decided at random. Comparing average outcomes between the groups shows whether the intervention - and not something else going on at the same time - is the reason for the observed changes.
-Who ends up in which group is decided by a random draw. It is not decided by who applied first, who looked most promising, or whom the reviewer favoured. Because assignment is random, the groups are similar on average before the intervention starts, and any remaining differences between them are due only to chance. That is true not just for characteristics that can be measured, but also for those that cannot be observed. So when a difference between the groups shows up later, it can be attributed to the intervention, provided the trial is implemented as planned and outcomes are measured in the same way for both groups.
+Experimentation, or experimental evaluation, means testing an intervention by assigning eligible participants at random either to receive it (or one version of it) or to a comparison group (also called a control group) that does not receive it, or receives a different version. This is called a randomised controlled trial (RCT). On this website, the terms "experimentation" and "RCT" are used interchangeably.
+
+Randomisation can be used, for example, when there are more eligible applicants than available places, or when an intervention is rolled out in phases and the order in which participants receive it is decided at random. Comparing average outcomes between the groups shows whether the intervention – and not something else going on at the same time – is the reason for the observed changes.
+
+Who ends up in which group is decided by a random draw. It is not decided by who applied first, who looked most promising or whom the reviewer favoured. Because assignment is random, the groups are similar on average before the intervention starts, and any remaining differences between them are due only to chance. That is true not just for characteristics that can be measured, but also for those that cannot be observed. So when a difference between the groups shows up later, it can be attributed to the intervention, provided the trial is implemented as planned and outcomes are measured in the same way for both groups.
 
 ```{=html}
 <figure class="fig-e">
@@ -157,25 +159,26 @@ Who ends up in which group is decided by a random draw. It is not decided by who
 <figcaption>Note: dot sizes stand for applicants with different characteristics. Because the draw is random, both groups end up with a similar mix on average, so a later difference in their average outcomes can be attributed to the intervention. The comparison group can also receive a different version of the intervention. Bar heights are illustrative.</figcaption>
 </figure>
 ```
-## What is impact evaluation - and where do RCTs fit in?
+
+## What is impact evaluation – and where do RCTs fit in?
 
 ::: {.gold-panel}
 Impact evaluation answers the question: what causal effect did this intervention have
-on outcomes like employment, skills or firm growth - for whom did it work
+on outcomes such as employment, skills or firm growth – for whom did it work
 best, and under which conditions?
 :::
 
 An impact evaluation compares what happened after an intervention was introduced with what
 would have happened in its absence: the counterfactual. Unlike monitoring, which tracks whether an intervention is implemented as planned, it tests
 whether the intervention caused a real difference. It is one of several types of evaluation, alongside implementation evaluation, that managing authorities can include in their evaluation plans. See [what impact evaluation is for and
-how it differs from M&E](01-why-and-when.qmd#impact-evaluation).
+how it differs from monitoring](01-why-and-when.qmd#impact-evaluation).
 
 There is more than one credible way to conduct an impact evaluation, and the right choice depends on the intervention, the available data and the timing.
-Quasi-experimental methods such as matching,
-difference-in-differences, or regression discontinuity design, compare participants to similar
-non-participants constructing the comparison group after the intervention had already ended. Because the evaluator does not decide who ends up in which group, the comparability of the groups rests on assumptions that need to be stated and discussed. 
+Quasi-experimental methods, such as matching,
+difference-in-differences or regression discontinuity design, compare participants with similar
+non-participants. Because the evaluator does not decide who ends up in which group, the comparability of the groups rests on assumptions that need to be stated and discussed.
 
-In an RCT, the comparison group is created by random assignment before the intervention starts, so the comparability of the groups does not depend on such assumptions. The Commission's [Better Regulation toolbox](https://commission.europa.eu/law/law-making-process/better-regulation/better-regulation-guidelines-and-toolbox/better-regulation-toolbox_en) (Tool #68) describes randomised controlled trials as "the benchmark for scientific quantitative methods", with quasi-experimental methods as the option when randomised trials are not possible. As an RCT requires random assignment to the intervention, it has to be planned before or during implementation. See more on [how it is different from quasi-experimental methods](01-why-and-when.qmd#alternatives) and [when an RCT is the right choice](01-why-and-when.qmd#rct) on the [RCTs: why and when](01-why-and-when.qmd) page.
+In an RCT, the comparison group is created by random assignment before the intervention starts, so the comparability of the groups does not depend on such assumptions. The Commission's [Better Regulation toolbox](https://commission.europa.eu/law/law-making-process/better-regulation/better-regulation-guidelines-and-toolbox/better-regulation-toolbox_en) (Tool #68) describes randomised controlled trials as "the benchmark for scientific quantitative methods", with quasi-experimental methods as the option when randomised trials are not possible. As an RCT requires random assignment to the intervention, it has to be planned before or during implementation. See more on [how RCTs differ from quasi-experimental methods](01-why-and-when.qmd#alternatives) and [when an RCT is the right choice](01-why-and-when.qmd#rct) on the [RCTs: why and when](01-why-and-when.qmd) page.
 
 ## What questions can an RCT answer?
 
@@ -188,7 +191,7 @@ Whether the intervention works, and for whom it works best.
 :::
 ::: {.card-e}
 ### Which version of an intervention is most effective? {.unlisted}
-How different versions of an intervention compare - which parts of an intervention work, which do not, and
+How different versions of an intervention compare – which parts of an intervention work, which do not and
 how they work together.
 :::
 ::: {.card-e}
@@ -201,18 +204,18 @@ accurately and increase take-up.
 How cost-effective the intervention is, and how it compares to other interventions.
 :::
 :::
-The question one wants answered decides when, how, and for whom the RCT has to be planned. To find out whether
+The question one wants answered decides when, how and for whom the RCT has to be planned. To find out whether
 an intervention works at all, randomisation must be built in before launch, from the call for
 proposals. To find out which version works better (a grant alone versus a grant plus
 advisory support, for instance), an RCT can still be added after the intervention has started.
 Randomisation then shifts from who gets funded at all to which version each participant
-receives. See below [Choosing the right evaluation design](01-why-and-when.qmd#choosing-design).
+receives. See [Choosing the right evaluation design](01-why-and-when.qmd#choosing-design) on the [RCTs: why and when](01-why-and-when.qmd) page.
 
 ## Why experiment in cohesion policy?
 
 Cohesion policy supports all EU regions, investing in areas ranging from innovation and the green transition to transport, social inclusion and local development. To design and adjust these interventions well, managing authorities need robust evidence on what they achieve, for whom and under which conditions.
 
-Experimentation is one way to obtain such evidence. Because an RCT creates the comparison group by random assignment, it provides robust causal evidence on whether an intervention made a difference. 
+Experimentation is one way to obtain such evidence. Because an RCT creates the comparison group by random assignment, it provides robust causal evidence on whether an intervention made a difference.
 
 Experimentation also supports evidence-based policymaking and adaptive learning. Testing different versions of an intervention, or rolling it out in phases, lets managing authorities learn while delivery is under way and adjust the design, targeting or delivery of later rounds. Findings from one region can inform similar interventions in other regions and in future programming periods.
 
@@ -244,8 +247,6 @@ Experimentation allows for testing, learning and adjusting during delivery.
 :::: {.cards}
 ::: {.card-e}
 #### [RCTs: why and when](01-why-and-when.qmd)
-::: {.card-e}
-#### [RCTs: why and when](01-why-and-when.qmd)
 What RCTs can and cannot show, how they compare with other evaluation methods, when to use and plan one, and common questions about RCTs.
 :::
 ::: {.card-e}
@@ -254,11 +255,11 @@ How to plan an RCT in seven steps: from the causal logic of the intervention, th
 :::
 ::: {.card-e}
 #### [Examples](03-examples.qmd)
-Experiences from projects already partnering with the EuroCOMP Lab and from beyond.
+Experiences from projects partnering with the EuroCOMP Lab and beyond.
 :::
 ::: {.card-e}
 #### [Repository](04-templates.qmd)
-Repository for outcomes and survey questions organised by topic.
+Outcome indicators and survey questions, organised by topic.
 :::
 ::::
 
@@ -279,5 +280,5 @@ Established labs already supporting experimentation.
 
 
 ::: {.video-frame}
-{{< video https://youtu.be/MUuhKap8BlQ title="The case for policy learning and experimentation" aspect-ratio="16x9" >}}
+{{< video https://youtu.be/MUuhKap8BlQ title="Taking iniative" aspect-ratio="16x9" >}}
 :::
