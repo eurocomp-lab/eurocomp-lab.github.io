@@ -76,7 +76,7 @@ North-East Romania combined three steps that are usually separate - application,
 
 To detect the impact of an intervention, you need enough firms in both the treatment and comparison groups. Too few firms and even a real effect may be invisible - ordinary variation between firms drowns out the signal. The technical term for this is statistical power, but the practical question is simple: is your eligible pool large enough?
 
-The answer depends on how large an effect you expect, how much firms vary on the outcome of interest, and how confident you want to be in the result. An evaluator will run a power calculation to translate these inputs into a minimum required sample. [More details on power calculations](02.03a-power.qmd)
+The answer depends on how large an effect you expect, how much firms vary on the outcome of interest, and how confident you want to be in the result. An evaluator will run a power calculation to translate these inputs into a minimum required sample. [More details on power calculations](02.04a-power.qmd)
 
 Lessons learned from projects within the EuroCOMP Lab inform about potential ways for reaching large enough numbers.
 
@@ -165,6 +165,6 @@ In the Scinergy pilot in Croatia, the World Bank supported an extensive outreach
 ***
 
 ::: {.nav-buttons}
-[← Previous - Step 3: determine relevant indicators](02.03-indicators.qmd) | [Next - Step 5: identify available data sources →](02.05-data_sources.qmd)
+[← Previous - Step 3: determine relevant indicators](02.03-indicators.qmd) | [Next - Step 5: how to randomise →](02.05-randomisation.qmd)
 :::
 
