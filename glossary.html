@@ -47,7 +47,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-03d1d2c03f15f6b5b1aa0210c54bd62b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-200485c8621b1d615e99a33238095f2e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -594,6 +594,28 @@ The group receiving the intervention or participating in the programme.
 A World Bank survey programme covering firm-level performance and business conditions. Another validated source of internationally comparable indicators for evaluation design.
 </dd>
 </dl>
+<script>
+/* Each term gets an anchor, so other pages can link straight to it: glossary.html#attrition.
+   The anchor is the term in lower case without the abbreviation in brackets, words joined by hyphens.
+   A term reached through a link is highlighted. */
+document.addEventListener("DOMContentLoaded", function () {
+  document.querySelectorAll("#quarto-document-content dt").forEach(function (dt) {
+    if (dt.id) return;
+    var slug = dt.textContent.replace(/\([^)]*\)/g, " ").toLowerCase()
+      .normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+      .replace(/[^a-z0-9]+/g, "-").replace(/^-+|-+$/g, "");
+    if (slug && !document.getElementById(slug)) dt.id = slug;
+  });
+  var hash = decodeURIComponent(window.location.hash.slice(1));
+  var target = hash && document.getElementById(hash);
+  if (target && target.tagName === "DT") {
+    target.classList.add("is-target");
+    var dd = target.nextElementSibling;
+    if (dd && dd.tagName === "DD") dd.classList.add("is-target");
+    target.scrollIntoView();
+  }
+});
+</script>
 
 
 </section>
