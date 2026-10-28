@@ -22,23 +22,23 @@ Not every intervention fits the same shape. The right design depends on your int
 <div class="designs">
   <div class="d"><div>
     <h3>Lottery</h3>
-    <p><span class="lab">How:</span> randomly select which eligible firms receive the intervention, by a documented public or private draw.</p>
+    <p><span class="lab">How:</span> randomly select which eligible units receive the intervention, by a documented public or private draw.</p>
     <p><span class="lab">Best when:</span> eligibility is clear, the intervention is oversubscribed, and a single treatment is being tested.</p>
   </div></div>
   <div class="d"><div>
     <h3>Multiple treatment arms</h3>
-    <p><span class="lab">How:</span> randomly assign firms to different versions of the intervention - for example, grant only vs. grant plus advisory support - with or without a comparison group receiving nothing.</p>
+    <p><span class="lab">How:</span> randomly assign units to different versions of the intervention - for example, grant only vs. grant plus advisory support - with or without a comparison group receiving nothing.</p>
     <p><span class="lab">Best when:</span> you want to know which design element drives results, not just whether the intervention works at all.</p>
   </div></div>
   <div class="d"><div>
     <h3>Randomised phase-in</h3>
-    <p><span class="lab">How:</span> everyone receives the intervention eventually, but in a randomly assigned order. Firms still waiting serve as the comparison group in the meantime.</p>
-    <p><span class="lab">Best when:</span> budget or capacity limits mean you cannot reach all eligible firms at once, and withholding support permanently would be unacceptable.</p>
+    <p><span class="lab">How:</span> everyone receives the intervention eventually, but in a randomly assigned order. Units still waiting serve as the comparison group in the meantime.</p>
+    <p><span class="lab">Best when:</span> budget or capacity limits mean you cannot reach all eligible units at once, and withholding support permanently would be unacceptable.</p>
   </div></div>
   <div class="d"><div>
     <h3>Randomised intensities</h3>
-    <p><span class="lab">How:</span> vary the dose of the intervention across firms - for example, 100%, 50%, or 0% of eligible employees receive training.</p>
-    <p><span class="lab">Best when:</span> you suspect that knowledge or behaviour spreads between treated and untreated workers within the same firm, and you want to measure that spread.</p>
+    <p><span class="lab">How:</span> vary the dose of the intervention across units - for example, 100%, 50%, or 0% of eligible employees receive training.</p>
+    <p><span class="lab">Best when:</span> you suspect that knowledge or behaviour spreads between treated and untreated members within the same unit, and you want to measure that spread.</p>
   </div></div>
   <div class="d"><div>
     <h3>Encouragement design</h3>
@@ -55,7 +55,7 @@ North-East Romania used a simple lottery. The 1,038 eligible firms were split in
 
 ```{=html}
 <figure class="fig-e">
-<svg viewBox="0 0 680 240" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="1038 eligible firms enter a random draw and are split into a treatment group receiving grants and a comparison group receiving none">
+<svg viewBox="0 0 680 240" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="1,038 eligible firms enter a random draw and are split into a treatment group receiving grants and a comparison group receiving none">
   <rect x="10" y="87" width="150" height="66" rx="6" fill="#FFFDF7" stroke="#E4DCC6"/>
   <text x="85" y="116" text-anchor="middle" fill="#2B2724" font-size="20" font-weight="bold">1,038</text>
   <text x="85" y="135" text-anchor="middle" fill="#6B6455" font-size="11.5">eligible firms</text>
@@ -92,9 +92,9 @@ Public lottery
 ::: {.body}
 The draw takes place in front of an audience - for example, pulling firm names from a hat at a public event, or livestreaming the computerised draw.
 
-**Advantage:** maximises transparency and public trust. Firms can see for themselves that the process was fair.
+**Advantage:** maximises transparency and public trust. Units can see for themselves that the process was fair.
 
-**Disadvantage:** once comparison firms know they did not receive support, they may change their behaviour - working harder to find alternative funding, for example - which can reduce the measured difference between the groups.
+**Disadvantage:** once comparison units know they did not receive support, they may change their behaviour - working harder to find alternative funding, for example - which can reduce the measured difference between the groups.
 :::
 :::
 ::: {.col-e}
@@ -104,7 +104,7 @@ Private lottery
 ::: {.body}
 The draw is conducted internally by the evaluation team, with full documentation but without public observation.
 
-**Advantage:** comparison firms do not immediately know the outcome, which reduces the risk of behavioural reactions that narrow the gap between groups.
+**Advantage:** comparison units do not immediately know the outcome, which reduces the risk of behavioural reactions that narrow the gap between groups.
 
 **Disadvantage:** the process is less visibly fair, which can make it harder to defend if challenged.
 :::
@@ -118,9 +118,9 @@ In practice, most RCT evaluations run the draw as a secure, documented, computer
 
 ## Randomising only part of the pool: a lottery around a cutoff
 
-In some interventions, it is not practical or desirable to randomise the entire eligible pool. A common alternative is to score all applicants on eligibility criteria, fund the top scorers outright, reject the clear non-qualifiers outright, and randomise only the firms in the middle - those whose scores are close enough together that the difference is not meaningful.
+In some interventions, it is not practical or desirable to randomise the entire eligible pool. A common alternative is to score all applicants on eligibility criteria, fund the top scorers outright, reject the clear non-qualifiers outright, and randomise only the units in the middle - those whose scores are close enough together that the difference is not meaningful.
 
-This approach reduces the pool that is randomised, focuses the evaluation on the firms where the decision is genuinely uncertain, and is easier to justify publicly than a lottery across the full range of applicants.
+This approach reduces the pool that is randomised, focuses the evaluation on the units where the decision is genuinely uncertain, and is easier to justify publicly than a lottery across the full range of applicants.
 
 ```{=html}
 <figure class="fig-e">
@@ -158,7 +158,7 @@ Keep the scoring process rules-based. Subjective assessment - even by expert pan
 
 A standard RCT compares one version of the intervention against a comparison group. But sometimes the real question is not whether the intervention works, but which design works best - grant only versus grant plus mentoring, for example, or light-touch advisory versus intensive coaching.
 
-Multiple treatment arms allow you to test these versions against each other and against a comparison group in a single evaluation. Each group of firms is randomly assigned to a different version, and outcomes are compared across all groups at endline.
+Multiple treatment arms allow you to test these versions against each other and against a comparison group in a single evaluation. Each group of units is randomly assigned to a different version, and outcomes are compared across all groups at endline.
 
 The trade-off is sample size: more arms means more groups, and the available pool must be large enough to power comparisons between each pair.
 
@@ -187,7 +187,7 @@ The trade-off is sample size: more arms means more groups, and the available poo
 
 ## When you cannot fund everyone at once: randomised phase-in
 
-In many interventions, budget or implementation capacity means it is not possible to reach all eligible firms in a single wave. A randomised phase-in turns this constraint into an advantage: firms are randomly assigned to waves, and those still waiting to receive the intervention serve as the comparison group for the firms already being treated.
+In many interventions, budget or implementation capacity means it is not possible to reach all eligible units in a single wave. A randomised phase-in turns this constraint into an advantage: units are randomly assigned to waves, and those still waiting to receive the intervention serve as the comparison group for the units already being treated.
 
 The key advantage is that everyone eventually receives support, which makes the approach easier to justify politically and ethically. The key limitation is that there is no comparison group once the last wave has been treated, which means long-term impacts - those that take several years to emerge - cannot be measured.
 
@@ -216,7 +216,7 @@ The key advantage is that everyone eventually receives support, which makes the 
 
 ## Varying the dose: randomised intensities
 
-Rather than randomising which firms receive the intervention, you can randomise how much of it they receive. For example, some firms might have all eligible employees participate in a training intervention, while others have only half, and others none. Comparing outcomes across these groups reveals not just whether the intervention works but how much of it is needed - and whether the benefits spill over to employees who were not directly treated.
+Rather than randomising which units receive the intervention, you can randomise how much of it they receive. For example, some firms might have all eligible employees participate in a training intervention, while others have only half, and others none. Comparing outcomes across these groups reveals not just whether the intervention works but how much of it is needed - and whether the benefits spill over to employees who were not directly treated.
 
 ```{=html}
 <figure class="fig-e">
@@ -240,44 +240,38 @@ Rather than randomising which firms receive the intervention, you can randomise 
 
 ## When take-up is low: encouragement design
 
-Some interventions cannot be denied to anyone who qualifies - an open advisory service or a voucher scheme, for example. In these cases, it is not possible to assign firms to a comparison group that is formally excluded from support. The encouragement design offers an alternative: rather than randomising access, randomise who receives extra outreach, information, or a targeted invitation to use the intervention.
+Some interventions cannot be denied to anyone who qualifies - an open advisory service or a voucher scheme, for example. In these cases, it is not possible to assign units to a comparison group that is formally excluded from support. The encouragement design offers an alternative: rather than randomising access, randomise who receives extra outreach, information, or a targeted invitation to use the intervention.
 
-Firms who receive the encouragement are then compared with those who do not. Because encouraged firms are more likely to take up the intervention than non-encouraged firms, the comparison still produces an estimate of the intervention's effect - even if both groups technically had access.
+Units who receive the encouragement are then compared with those who do not. Because encouraged units are more likely to take up the intervention than non-encouraged units, the comparison still produces an estimate of the intervention's effect - even if both groups technically had access.
 
 The main limitation is that the estimate reflects the effect of the encouragement itself as much as the intervention. If untargeted outreach - a news story, a social media post - reaches both groups, the comparison is diluted.
 
 ::: {.caution}
-Compliance is rarely perfect in either direction: some encouraged firms will never take up the intervention, and some non-encouraged firms will find it and engage anyway. The right approach is to compare the whole encouraged group with the whole non-encouraged group, regardless of what individual firms actually did. Your evaluation team will handle this in the analysis.
+Compliance is rarely perfect in either direction: some encouraged units will never take up the intervention, and some non-encouraged units will find it and engage anyway. The right approach is to compare the whole encouraged group with the whole non-encouraged group, regardless of what individual units actually did. Your evaluation team will handle this in the analysis.
 :::
 
 
-## Did randomisation lead to comparable firms in treatment and comparison group?
+## Did randomisation lead to comparable units in treatment and comparison group?
 
-Once the lottery has been conducted and the baseline survey fielded, the first analytical task is to check whether the draw actually produced two comparable groups. Even a well-designed lottery can, by chance, produce a treatment group that differs from the comparison group on firm age, size, sector, or prior performance. A balance check compares the two groups on a set of baseline characteristics and tests whether any differences are larger than chance would produce. If the groups look similar before the intervention starts, the evaluation is on solid ground. If they do not, the analysis will need to account for the imbalance. [More details on balance checks and what to do if groups are not comparable](02.05a-balance.qmd)
+Once the lottery has been conducted and the baseline survey fielded, the first analytical task is to check whether the draw actually produced two comparable groups. Even a well-designed lottery can, by chance, produce a treatment group that differs from the comparison group (e.g. on firm age, size, sector, or prior performance). A balance check compares the two groups on a set of baseline characteristics and tests whether any differences are larger than chance would produce. If the groups look similar before the intervention starts, the evaluation is on solid ground. If they do not, the analysis will need to account for the imbalance. [More details on balance checks and what to do if groups are not comparable](02.05a-balance.qmd)
 
 
 ## What are potential challenges?
 
 Even a well-designed RCT must survive contact with reality. These are the four most common problems - and what can be done about each.
 
-**Attrition.** Firms drop out between the baseline and the endline - because they closed, relocated, or simply refused to participate in a survey again. If drop-out is higher in one group than the other, the two groups are no longer comparable and the impact estimate may be biased. Prevention is far easier than correction: collect multiple contact details at baseline, keep them updated during the intervention, and keep the endline survey as short as possible.
+**Attrition.** Units drop out between the baseline and the endline, e.g. because firms closed, relocated, or simply refused to participate in a survey again. If drop-out is higher in one group than the other, the two groups are no longer comparable and the impact estimate may be biased. Prevention is far easier than correction: collect multiple contact details at baseline, keep them updated during the intervention, and keep the endline survey as short as possible.
 
-**Spillovers.** Comparison firms benefit from the intervention indirectly - a treated supplier passes on improved products, or a treated neighbour shares what they learned in a training session. When this happens, the gap between the groups narrows and the evaluation underestimates the true effect. Spillovers are most likely in concentrated sectors or geographically tight clusters. Where the risk is high, randomising at a higher level - by region or sector cohort rather than by individual firm - can contain it. If spillovers are anticipated, the RCT can be designed in a manner accounting for them.
+**Spillovers.** Comparison units benefit from the intervention indirectly - a treated supplier passes on improved products, or a treated neighbour shares what they learned in a training session. When this happens, the gap between the groups narrows and the evaluation underestimates the true effect. Spillovers are most likely in concentrated sectors or geographically tight clusters. Where the risk is high, randomising at a higher level - by region or sector cohort rather than by individual untis - can contain it. If spillovers are anticipated, the RCT can be designed in a manner accounting for them.
 
 ::: {.example .case data-map="romania-sm"}
 [Romania (South-Muntenia): designing for spillovers]{.tag}
-South-Muntenia built spillovers into the design.
-About 900 applicant SMEs are grouped into roughly 100 geographic or sector clusters. Each
-cluster is randomly assigned a funding intensity of 0%, 33%, 66% or 100%, and firms within
-each cluster are then randomly selected for funding up to that share. Comparing funded and
-unfunded firms within a cluster measures each firm's own return; comparing clusters with
-different intensities measures the spillover onto neighbours and competitors.
-[Read the full example](03-examples.qmd#south-muntenia).
+South-Muntenia built spillovers into the design. About 900 applicant SMEs are grouped into roughly 100 geographic or sector clusters. Each cluster is randomly assigned a funding intensity of 0%, 33%, 66% or 100%, and firms within each cluster are then randomly selected for funding up to that share. Comparing funded and unfunded firms within a cluster measures each firm's own return; comparing clusters with different intensities measures the spillover onto neighbours and competitors. [Read the full example](03-examples.qmd#south-muntenia).
 :::
 
-**Low take-up.** Some firms assigned to the treatment group never use the support - they decline the grant, fail to meet the conditions, or disengage early. Low take-up dilutes the estimated effect: if only half the treatment group actually received the intervention, the impact estimate reflects a half-dose. Monitoring take-up actively during implementation - and understanding why firms do not engage - is essential for interpreting what the evaluation ultimately shows.
+**Low take-up.** Some units assigned to the treatment group never use the support - they decline the grant, fail to meet the conditions, or disengage early. Low take-up dilutes the estimated effect: if only half the treatment group actually received the intervention, the impact estimate reflects a half-dose. Monitoring take-up actively during implementation - and understanding why units do not engage - is essential for interpreting what the evaluation ultimately shows.
 
-**Uneven implementation.** The intervention is delivered inconsistently across firms - some receive more advisory time, faster disbursements, or better quality support than others. This introduces noise into the treatment and makes the evaluation harder to interpret. Clear delivery protocols, regular monitoring, and a close relationship between the managing authority and the delivery team reduce this risk.
+**Uneven implementation.** The intervention is delivered inconsistently across units, e.g. some firms receive more advisory time, faster disbursements, or better quality support than others. This introduces noise into the treatment and makes the evaluation harder to interpret. Clear delivery protocols, regular monitoring, and a close relationship between the managing authority and the delivery team reduce this risk.
 
 ::: {.takeaway}
 None of these problems make an RCT impossible - but all of them must be anticipated at the design stage, not discovered after the endline survey. 
