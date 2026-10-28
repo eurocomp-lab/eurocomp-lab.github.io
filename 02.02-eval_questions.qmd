@@ -29,7 +29,7 @@ A well-formulated learning question has four characteristics:
 
 **Specific.** It names the intervention, the target population, the outcome of interest, and the time horizon. Generic questions such as "did the intervention work?" are not answerable. A specific question might be: *does receiving an R&D grant increase a firm's total R&D expenditure within two years of the award?*
 
-**Causal.** For an RCT, the central question is always about causation - not correlation. The question should be framed in terms of the *effect* of the intervention, not merely whether outcomes changed. This means the question implicitly requires a comparison: between supported firms and comparable firms that did not receive support.
+**Causal.** For an RCT, the central question is always about causation - not correlation. The question should be framed in terms of the *effect* of the intervention, not merely whether outcomes changed. This means the question implicitly requires a comparison: between supported units and comparable units that did not receive support.
 
 **Answerable.** The question must be answerable with the data and methods available. An evaluation that asks about 10-year productivity effects but only has a two-year window will not be able to answer its own primary question. Scope questions to what the evaluation can credibly deliver.
 
@@ -49,7 +49,7 @@ A well-structured evaluation typically includes a primary question and a set of 
 Does receiving a digitalisation grant increases business performance (e.g. sales) and productivity?
 :::
 
-**Heterogeneity questions** ask whether effects differ across subgroups - for example, by firm size, age, sector, or prior innovation experience. These questions are important for understanding *for whom* the intervention works best and informing targeting decisions in future programming rounds.
+**Heterogeneity questions** ask whether effects differ across subgroups. These questions are important for understanding *for whom* the intervention works best and informing targeting decisions in future programming rounds.
 
 ::: {.example .romania data-map="romania-ne"}
 [North&#8209;East Romania: heterogeneity question]{.tag}
