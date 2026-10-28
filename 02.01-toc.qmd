@@ -19,7 +19,7 @@ Before any data is collected and before any evaluation contract is signed, a man
 
 ## What is a ToC - and how does it relate to your intervention logic?
 
-For some European Union funding programmes (e.g. the European Regional Development Fund), managing authorities are already required to articulate an intervention logic - a structured account of how a policy instrument is expected to produce its intended results. A ToC builds on this familiar concept and makes it more explicit and evaluation-ready.
+In cohesion policy programmes, managing authorities are already required to articulate an intervention logic - a structured account of how a policy instrument is expected to produce its intended results. A ToC builds on this familiar concept and makes it more explicit and evaluation-ready.
 
 Where an intervention logic maps the pathway from inputs to outputs to results, a ToC adds two important elements: it specifies the assumptions that must hold at each step for the logic to work, and it makes clear which links in the chain are strong and which are uncertain. This is precisely the information a randomised controlled trial (RCT) is designed to test.
 
@@ -88,7 +88,7 @@ A ToC follows a causal chain from resources invested to long-term change achieve
 ```
 
 
-**Inputs** are the resources, efforts, and actions invested in a policy. For ERDF interventions, inputs typically include ERDF co-financing, national co-financing, and the administrative capacity of the managing authority and intermediate bodies.
+**Inputs** are the resources, efforts, and actions invested in a policy. For cohesion policy programmes, inputs might include co-financing from the European Union, national co-financing, and the administrative capacity of the managing authority and intermediate bodies.
 
 ::: {.example .romania data-map="romania-ne"}
 [North&#8209;East Romania: inputs]{.tag}
@@ -107,7 +107,7 @@ A ToC follows a causal chain from resources invested to long-term change achieve
 - Call for proposals to deliver digitalisation grants
 :::
 
-**Outputs** are represent the direct and immediate results of the activities conducted within a policy. They are tangible and observable products or deliverables that demonstrate the completion of specific tasks. For ERDF interventions, these correspond closely to the common output indicators that managing authorities are already required to report to the European Commission.
+**Outputs** are represent the direct and immediate results of the activities conducted within a policy. They are tangible and observable products or deliverables that demonstrate the completion of specific tasks. For cohesion policy programmes, these correspond closely to the output indicators that managing authorities are already required to report to the European Commission.
 
 ::: {.example .romania data-map="romania-ne"}
 [North&#8209;East Romania: outputs]{.tag}
@@ -124,7 +124,7 @@ A ToC follows a causal chain from resources invested to long-term change achieve
 - Digital solution is operationalised, used by employees, customers and  others in the supply chain.​​
 :::
 
-**Medium-term outcomes** are the intermediate changes that occur due to sustained efforts and progress from short-term outcomes. These outcomes indicate progress towards the overall goal and often involve shifts in social norms, policies, or organisational practices. These correspond closely to the common result indicators that ERDF and ESF+ programmes report on, though impact evaluations typically aim to go further by establishing a credible causal link between the intervention and the result.
+**Medium-term outcomes** are the intermediate changes that occur due to sustained efforts and progress from short-term outcomes. These outcomes indicate progress towards the overall goal and often involve shifts in social norms, policies, or organisational practices. These correspond closely to the result indicators that cohesion policy programmes report on, though impact evaluations typically aim to go further by establishing a credible causal link between the intervention and the result.
 
 ::: {.example .romania data-map="romania-ne"}
 [North&#8209;East Romania: medium-term outcomes]{.tag}
