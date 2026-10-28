@@ -206,7 +206,7 @@ ul.task-list li input[type="checkbox"] {
   </ul></li>
   <li><a href="#allocation" id="toc-allocation" class="nav-link" data-scroll-target="#allocation">What does good allocation of public resources look like?</a></li>
   <li><a href="#finding-counterfactual" id="toc-finding-counterfactual" class="nav-link" data-scroll-target="#finding-counterfactual">Finding the counterfactual</a></li>
-  <li><a href="#rct" id="toc-rct" class="nav-link" data-scroll-target="#rct">What is a randomised controlled trial?</a></li>
+  <li><a href="#rct" id="toc-rct" class="nav-link" data-scroll-target="#rct">How an RCT creates a comparison group</a></li>
   <li><a href="#legitimacy" id="toc-legitimacy" class="nav-link" data-scroll-target="#legitimacy">Randomisation can support transparency and trust</a></li>
   <li><a href="#two-questions" id="toc-two-questions" class="nav-link" data-scroll-target="#two-questions">What is the learning question?</a></li>
   <li><a href="#choosing-design" id="toc-choosing-design" class="nav-link" data-scroll-target="#choosing-design">Choosing the right evaluation design</a></li>
@@ -241,7 +241,7 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="summary" class="level2 unlisted team-note">
 <h2 class="unlisted anchored" data-anchor-id="summary">Summary</h2>
-<p>This page builds on the <a href="./index.html">home page</a>, which introduces RCTs as one of several ways to conduct an impact evaluation. Part 1 is about impact evaluation in general: what the impact of an intervention is and what challenges may arise when measuring it. Part 2 compares the two ways of forming a comparison group – random and non-random assignment – and then focuses on RCTs: how random assignment creates a comparison group, illustrated by a running example from North-East Romania, and how it can support transparency and trust. Part 3 covers when to use an RCT: which learning questions it can answer, how to choose an evaluation design, what to do when randomisation is not possible and when an RCT may not be the right choice.</p>
+<p>This page builds on the <a href="./index.html">home page</a>, which introduces RCTs as one of several ways to conduct an impact evaluation. Part 1 is about impact evaluation in general: what the impact of an intervention is, what needs to be measured and what challenges may arise when measuring it. Part 2 compares the two ways of forming a comparison group – random and non-random assignment – and then focuses on RCTs: how random assignment creates a comparison group, illustrated by a running example from North-East Romania, and how it can support transparency and trust. Part 3 covers when to use an RCT: which learning questions it can answer, how to choose an evaluation design, what to do when randomisation is not possible, when an RCT may not be the right choice and how learning from RCTs builds over time.</p>
 <p>The page ends with answers to common questions about RCTs. <a href="./02-how.html">How to design an RCT</a> then explains how to plan one step by step.</p>
 </section>
 <nav class="page-parts" id="page-overview" aria-label="Parts of this page">
@@ -305,7 +305,7 @@ ul.task-list li input[type="checkbox"] {
 </figure>
 <section id="from-outputs-to-results" class="level3">
 <h3 class="anchored" data-anchor-id="from-outputs-to-results">From outputs to results</h3>
-<p>Impact evaluation, if implemented correctly, allows not only to measure what an intervention delivers (measured using output indicators) but also what changes because of it (measured using result indicators).</p>
+<p>Impact evaluation, if implemented correctly, makes it possible to measure not only what an intervention delivers (output indicators) but also what changes because of it (result indicators).</p>
 <div class="cards">
 <section id="outputs" class="level4 card-e">
 <h4 class="anchored" data-anchor-id="outputs">Outputs</h4>
@@ -328,17 +328,16 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <p>But which results should be looked at exactly? An intervention can change many things, and not all of them can or should be measured. To know which results to look at, and when to expect them to change, the starting point is to spell out how the intervention is supposed to work: how its inputs and activities lead to outputs, and how those outputs are expected to lead to results.</p>
 <p>This chain is the foundation of a theory of change, and having thought it through helps in designing a strong impact evaluation. There is more on this in <a href="./02.01-toc.html">Step 1: develop a Theory of Change</a>.</p>
-<p>Making the chain explicit also surfaces the assumptions behind each link, and shows which of them the intervention’s impact depends on most. If one of these assumptions does not hold (for example, that firms will take up the support they are offered), the intervention may fall short of its intended impact. One way to reduce this risk is to test, within the same evaluation, alternative ways of addressing that weak link, such as two different outreach approaches, and see which works better.</p>
-<div id="digitrans" class="example case" data-map="digitrans">
-<p><span class="tag">Digitrans example</span> The Digitrans pilot (see <a href="./03-examples.html#digitrans">Examples</a> for more details) tested and compared two alternative ways to increase digital adoption among MSMEs in Bulgaria, Poland and Slovakia. Firms were randomly assigned to either (i) a comparison group receiving no support, (ii) a financial subsidy alone, or (iii) the same subsidy paired with technical assistance.</p>
-<p>The pilot found that money alone was not the most effective approach. Firms that also received technical assistance used digital tools 2.5 times more intensively than those with the subsidy alone. This is evidence that capability, not just cash, was a constraint to digitalisation.</p>
-</div>
+<p>Making the chain explicit also surfaces the assumptions behind each link, and shows which of them the intervention’s impact depends on most. If one of these assumptions does not hold (for example, that firms will take up the support they are offered), the intervention may fall short of its intended impact. Such weak links can be tested directly, as shown under <a href="#two-questions">How can it be delivered better?</a></p>
 </section>
 </section>
 <section id="allocation" class="level2">
 <h2 class="anchored" data-anchor-id="allocation">What does good allocation of public resources look like?</h2>
 <p>Return on public investment is the benefit attributable to an intervention divided by its cost. “Attributable” requires knowing what the beneficiaries would have done in the absence of the intervention (the counterfactual).</p>
 <p>That is especially hard when beneficiaries are not assigned at random but are selected by the managing authority. Beneficiaries may differ from those who were not selected; for example, they may be more motivated or have more resources. Most of these traits are never recorded in any database or questionnaire. When the beneficiaries later do better on the results of interest than the applicants that were not selected, it is impossible to tell how much of that difference is due to the intervention.</p>
+<div class="caution">
+<p><strong>Selection bias</strong> arises when the comparison group differs from the participants in ways that also affect results. In that case, the impact estimate is biased.</p>
+</div>
 <p>Consider an illustrative innovation-grant scheme: EUR 50,000 to each of 100 firms, where “success” means launching a new product. Compare two selection rules.</p>
 <div class="compare strategy">
 <div class="col-e">
@@ -376,8 +375,8 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="unlisted anchored" data-anchor-id="paying-for-what-would-have-happened-anyway">Paying for what would have happened anyway</h3>
 <p>Additionality here means the share of results that would not have happened without the intervention. Support that pays for what would have happened anyway is often called deadweight. Top performers would likely have invested anyway, so public funds mostly substitute for money they would have spent regardless – generating little that is truly additional per euro.</p>
 </section>
-<section id="selection-bias-in-measurement" class="level3 unlisted card-e">
-<h3 class="unlisted anchored" data-anchor-id="selection-bias-in-measurement">Selection bias in measurement</h3>
+<section id="crediting-the-intervention-with-existing-strengths" class="level3 unlisted card-e">
+<h3 class="unlisted anchored" data-anchor-id="crediting-the-intervention-with-existing-strengths">Crediting the intervention with existing strengths</h3>
 <p>Comparing funded, stronger firms with unfunded, weaker ones credits the intervention with firms’ pre-existing quality, not with what the grant did.</p>
 </section>
 <section id="where-the-grant-buys-most" class="level3 unlisted card-e">
@@ -402,7 +401,7 @@ ul.task-list li input[type="checkbox"] {
 <p>Random assignment: randomised controlled trials</p>
 </div>
 <div class="body">
-<p>The comparison group is created before the intervention starts, by randomly assigning who receives it. Random assignment makes the two groups similar on average.</p>
+<p>The comparison group is created before the intervention starts, by randomly assigning who receives it. Random assignment makes the two groups similar on average and so avoids the selection bias described above.</p>
 </div>
 </div>
 <div class="col-e">
@@ -414,13 +413,10 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </div>
 </div>
-<div class="caution">
-<p><strong>Selection bias</strong> arises when the comparison group differs from the participants in ways that also affect results. In that case, the impact estimate is biased.</p>
-</div>
 </section>
 <section id="rct" class="level2">
-<h2 class="anchored" data-anchor-id="rct">What is a randomised controlled trial?</h2>
-<p><strong>Intuition.</strong> The intervention is assigned at random, so one group receives it (the treatment group) and one does not (the comparison group). Because the two groups are similar on average at the start, the comparison group’s results show what would have happened to the treatment group without the intervention.</p>
+<h2 class="anchored" data-anchor-id="rct">How an RCT creates a comparison group</h2>
+<p><strong>Intuition.</strong> As explained on the <a href="./index.html#what-is-an-rct">home page</a>, the intervention is assigned at random, so the treatment group and the comparison group are similar on average at the start. The comparison group’s results therefore show what would have happened to the treatment group without the intervention.</p>
 <figure class="fig-e figure">
 <svg viewbox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Treatment and comparison groups start at a similar level and diverge after the intervention starts, with the gap labelled impact">
   <line x1="80" y1="250" x2="620" y2="250" stroke="var(--dg-line)" stroke-width="1.5"></line>
@@ -662,9 +658,14 @@ Average DESI score of 4.3 out of 12; 67% of firms name lack of finance as their 
 <p>How can it be delivered better?</p>
 </div>
 <div class="body">
-<p>There is already evidence that the intervention works, and implementation may already be under way. The question is which version of the intervention works best. Example: the <a href="#digitrans">Digitrans example</a> compares a grant alone with a grant combined with technical assistance.</p>
+<p>There is already evidence that the intervention works, and implementation may already be under way. The question is which version of the intervention works best. Example: the Digitrans pilot below compares a grant alone with a grant combined with technical assistance.</p>
 </div>
 </div>
+</div>
+<p>Comparing versions is also a way to address weak links in the theory of change. Where impact depends on an assumption that may not hold, for example that firms will take up the support they are offered, alternative ways of addressing it can be tested within the same evaluation.</p>
+<div id="digitrans" class="example case" data-map="digitrans">
+<p><span class="tag">Digitrans example</span> The Digitrans pilot (see <a href="./03-examples.html#digitrans">Examples</a> for more details) tested and compared two alternative ways to increase digital adoption among MSMEs in Bulgaria, Poland and Slovakia. Firms were randomly assigned to either (i) a comparison group receiving no support, (ii) a financial subsidy alone, or (iii) the same subsidy paired with technical assistance.</p>
+<p>The pilot found that money alone was not the most effective approach. Firms that also received technical assistance used digital tools 2.5 times more intensively than those with the subsidy alone. This is evidence that capability, not just cash, was a constraint to digitalisation.</p>
 </div>
 <div class="example romania" data-map="romania-ne">
 <p><span class="tag">North‑East Romania: testing outreach</span> The North-East Romania intervention asked both questions. It used one experiment to find out whether the grants were effective and a second to study how best to conduct outreach. Before the digitalisation call, the regional development agency randomly selected 26 of 46 towns for in-person information visits, in which a consultant explained the call and helped firms complete the pre-assessment survey. The visited towns produced 110 applications against 71 in the towns that did not receive in-person visits (55% more). The additional applicants in towns with in-person visits were smaller firms (12.6 employees on average, compared with 19.6).</p>
