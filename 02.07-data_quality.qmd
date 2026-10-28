@@ -50,7 +50,7 @@ Once fieldwork is complete, the dataset must be cleaned and validated before ana
 
 **Check balance between treatment and control groups.** The first analytical task after baseline data collection is to verify that randomisation produced comparable treatment and control groups. Run balance checks across all key baseline characteristics including firm size, age, sector, turnover, and the primary outcomes at baseline. A significant imbalance on any of these variables should be investigated: it may indicate a flaw in the randomisation procedure, or it may be a chance occurrence that needs to be controlled for in the analysis.
 
-**Document all cleaning decisions.** Every decision made during data cleaning - how missing values are handled, how outliers are treated, how variables are recoded - must be recorded in a cleaning log. This log is part of the evaluation's audit trail and should be shared with the Managing Authority alongside the final dataset.
+**Document all cleaning decisions.** Every decision made during data cleaning - how missing values are handled, how outliers are treated, how variables are recoded - must be recorded in a cleaning log. This log is part of the evaluation's audit trail and should be shared with the managing authority alongside the final dataset.
 
 **Validate against external sources.** Where possible, key variables from the primary survey should be cross-checked against administrative data. For example, self-reported employment figures can be compared against social security records; self-reported turnover can be compared against VAT declarations. Large discrepancies between survey and administrative data are a signal of measurement error that needs to be understood before it affects the analysis.
 
