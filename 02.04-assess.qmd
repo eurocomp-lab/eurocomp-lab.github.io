@@ -1,6 +1,6 @@
 ---
 title: "Step 4: check whether an RCT is feasible"
-description-meta: "Check the five conditions a randomised trial needs, choose from five randomisation designs and avoid the problems that most often arise after the lottery."
+description-meta: "Check the five conditions a randomised trial needs."
 ---
 
 ```{=html}
