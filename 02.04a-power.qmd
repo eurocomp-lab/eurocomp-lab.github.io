@@ -1,6 +1,6 @@
 ---
-title: "Power calculations: how many firms you need"
-description-meta: "Find out how many firms your trial needs to detect an effect, what drives that number and what to discuss with your evaluator about sample size."
+title: "Power calculations: how many units you need"
+description-meta: "Find out how many units your trial needs to detect an effect, what drives that number and what to discuss with your evaluator about sample size."
 ---
 
 ```{=html}
