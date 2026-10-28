@@ -36,7 +36,7 @@ Formulate the specific questions the evaluation is designed to answer, grounded 
 
 ::: {.card-e}
 
-### [Step 3: determine relevant indicators](02.04-indicators.qmd) {.unlisted}
+### [Step 3: determine relevant indicators](02.03-indicators.qmd) {.unlisted}
 
 Select the outcome indicators that will be used to measure change across each level of the ToC.
 
