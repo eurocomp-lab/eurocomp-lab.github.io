@@ -31,7 +31,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
@@ -47,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-200485c8621b1d615e99a33238095f2e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-d8c81eda1e1dceff6089a50399cbe040.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -208,7 +207,7 @@ ul.task-list li input[type="checkbox"] {
   <li><a href="#rct" id="toc-rct" class="nav-link" data-scroll-target="#rct">How an RCT creates a comparison group</a></li>
   <li><a href="#legitimacy" id="toc-legitimacy" class="nav-link" data-scroll-target="#legitimacy">Randomisation can support transparency and trust</a></li>
   <li><a href="#two-questions" id="toc-two-questions" class="nav-link" data-scroll-target="#two-questions">What is the learning question?</a></li>
-  <li><a href="#choosing-design" id="toc-choosing-design" class="nav-link" data-scroll-target="#choosing-design">Choosing the right evaluation design</a></li>
+  <li><a href="#choosing-design" id="toc-choosing-design" class="nav-link" data-scroll-target="#choosing-design">Choosing an evaluation design</a></li>
   <li><a href="#alternatives" id="toc-alternatives" class="nav-link" data-scroll-target="#alternatives">What if randomisation is not possible?</a></li>
   <li><a href="#when-not" id="toc-when-not" class="nav-link" data-scroll-target="#when-not">When an RCT may not be the right choice</a></li>
   <li><a href="#learning-cycle" id="toc-learning-cycle" class="nav-link" data-scroll-target="#learning-cycle">Learning through RCTs is a continuous process</a></li>
@@ -267,7 +266,7 @@ ul.task-list li input[type="checkbox"] {
     <span class="part-title">When to use one</span>
     <ul>
       <li><a href="#two-questions">What is the learning question?</a></li>
-      <li><a href="#choosing-design">Choosing the right evaluation design</a></li>
+      <li><a href="#choosing-design">Choosing an evaluation design</a></li>
       <li><a href="#alternatives">What if randomisation is not possible?</a></li>
       <li><a href="#when-not">When an RCT may not be the right choice</a></li>
       <li><a href="#learning-cycle">Learning through RCTs is a continuous process</a></li>
@@ -443,9 +442,9 @@ ul.task-list li input[type="checkbox"] {
 </svg>
 <figcaption>Note: treatment and comparison groups start at a similar level and diverge after the intervention starts; the gap between them is the impact of the intervention.</figcaption>
 </figure>
-<p>Because assignment is decided by chance, the two groups are similar on average not only in characteristics that can be measured but also in those that cannot. Take applicants for a grant: randomising who receives the money means that, on average, the two groups are similar in observable characteristics such as size, sector or turnover, and also in unobservable ones such as management quality or motivation. Apart from the luck of the draw, nothing should systematically differ between them. That is why, in a well-implemented RCT, no statistical adjustment for applicant characteristics is needed to obtain a credible estimate.</p>
+<p>Because assignment is decided by chance, the two groups are similar on average, differing systematically only in whether they receive the intervention. Take applicants for a grant: randomising who receives the money means that, on average, the two groups are similar in observable characteristics such as size, sector or turnover, and also in unobservable ones such as management quality or motivation. That is why, in a well-implemented RCT, no statistical adjustment for applicant characteristics is needed to obtain a credible estimate: the difference in average results between the two groups can be interpreted as the causal effect of the intervention.</p>
 <div class="soft-panel">
-<p><strong>What “random” means here.</strong> Not randomly sampling a sub-population to study, but randomly deciding, among eligible applicants, who receives the intervention and who does not.</p>
+<p><strong>What “random” means here.</strong> Not randomly sampling a sub-population to study, but randomly deciding, among eligible applicants, who receives the intervention and who does not (or who receives another intervention).</p>
 </div>
 <p><strong>Strengths and requirements.</strong> The Commission’s <a href="https://commission.europa.eu/law/law-making-process/better-regulation/better-regulation-guidelines-and-toolbox/better-regulation-toolbox_en">Better Regulation toolbox</a> (Tool #68) describes randomised controlled trials as “the benchmark for scientific quantitative methods”. Their main strengths are:</p>
 <ul>
@@ -629,7 +628,7 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </section>
 <section id="choosing-design" class="level2">
-<h2 class="anchored" data-anchor-id="choosing-design">Choosing the right evaluation design</h2>
+<h2 class="anchored" data-anchor-id="choosing-design">Choosing an evaluation design</h2>
 <figure class="fig-e figure">
 <svg class="fig-wide" viewbox="0 0 900 490" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Two decision paths from one question: what is the learning question? To learn whether the intervention has an effect at all: if the evaluation can be planned from the outset and there is excess demand, an RCT can compare the intervention with no intervention, and quasi-experimental methods planned in advance are an alternative; without excess demand, a phase-in RCT or quasi-experimental methods; if the evaluation cannot be planned from the outset, quasi-experimental methods. To learn how to deliver it better: every eligible participant receives the intervention and an RCT compares one version with another, which can start once the intervention is running.">
   <rect x="330" y="10" width="240" height="44" rx="5" fill="var(--dg-ink)"></rect>
@@ -1159,7 +1158,7 @@ How large does the sample need to be?
 Is it difficult to get responses from the comparison group?
 </summary>
 <p>It can be, so it is worth planning for at the design stage. Often, though, results of interest are already captured in administrative registers rather than collected through a survey, so comparison group response rates are not a concern.</p>
-<p>If data on results need to be collected through surveys, a group that received nothing may feel less invested in answering than a group that participated. Looking across dozens of studies, <a href="https://blogs.worldbank.org/en/impactevaluations/attrition-rates-typically-aren-t-different-control-group-treatment-group-really-and-why">David McKenzie found</a> that differential attrition between treatment and comparison groups averages only a few percentage points, widening mainly when the treatment is large and highly visible, such as a sizeable cash grant. Examples on this site show both cases. In <a href="./03-examples.html#spain">Extremadura</a>, there was no evidence of selective attrition in follow-up survey responses. In the European Commission’s <a href="./03-examples.html#europe-grants-for-sme-energy-efficiency">SME energy-efficiency grants</a>, firms offered a grant of up to EUR 10,000 answered follow-up surveys far more often than the comparison group (91% against 65%), so the estimates rely on statistical corrections for who responded. Sustained follow-up – repeat calls, alternative contact channels, incentives for non-respondents – can help close such gaps, as in <a href="./03-examples.html#czechia-smart-start">Czechia</a>.</p>
+<p>If data on results need to be collected through surveys, a group that received nothing may feel less invested in answering than a group that participated. Looking across dozens of studies, World Bank economist <a href="https://blogs.worldbank.org/en/impactevaluations/attrition-rates-typically-aren-t-different-control-group-treatment-group-really-and-why">David McKenzie found</a> that differential attrition between treatment and comparison groups averages only a few percentage points. The gap widens mainly when the treatment is large and highly visible, such as a sizeable cash grant. Examples on this site show both cases. In <a href="./03-examples.html#spain">Extremadura</a>, there was no evidence of selective attrition in follow-up survey responses. In the European Commission’s <a href="./03-examples.html#europe-grants-for-sme-energy-efficiency">SME energy-efficiency grants</a>, firms offered a grant of up to EUR 10,000 answered follow-up surveys far more often than the comparison group (91% against 65%), so the estimates rely on statistical corrections for who responded. Sustained follow-up – repeat calls, alternative contact channels, incentives for non-respondents – can help close such gaps, as in <a href="./03-examples.html#czechia-smart-start">Czechia</a>.</p>
 </details>
 <details class="myth-box">
 <summary>
@@ -1280,6 +1279,22 @@ document.addEventListener("DOMContentLoaded", function () {
       last = g;
     }
   });
+});
+</script>
+<script>
+/* The top menu stays in view (navbar pinned in _quarto.yml). A page opened at an
+   address with a #section can land with that section's heading under the menu,
+   so once the page has loaded it scrolls up just enough to show the heading.
+   Jumps within a page are already offset by Quarto. */
+window.addEventListener("load", function () {
+  var hash = decodeURIComponent(window.location.hash.slice(1));
+  var target = hash && document.getElementById(hash);
+  var bar = document.querySelector("#quarto-header");
+  if (!target || !bar) return;
+  setTimeout(function () {
+    var gap = target.getBoundingClientRect().top - bar.getBoundingClientRect().bottom;
+    if (gap < 16) window.scrollBy(0, gap - 24);
+  }, 60);
 });
 </script>
 <script id="quarto-html-after-body" type="application/javascript">

@@ -31,7 +31,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
@@ -47,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-200485c8621b1d615e99a33238095f2e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-d8c81eda1e1dceff6089a50399cbe040.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -237,7 +236,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <p>For a managing authority to use randomisation as part of its beneficiary selection process, the legal framework governing that intervention must either explicitly permit it or be flexible enough to accommodate it without ambiguity. Most national frameworks were designed around two conventional selection methods (ranking proposals by score, or first-come-first-served) and say nothing about <a href="./glossary.html#random-assignment" title="Glossary definition">random assignment</a>. A clear legal basis is the precondition for experimental evaluation to happen at all.</p>
 <p>Given the strict European regulatory framework, Member States needed assurance that randomisation was permissible under EU cohesion policy funding. The European Commission’s Directorate-General for Regional and Urban Policy (DG REGIO) issued letters confirming that RCTs are allowable under EU cohesion policy rules and emphasising the need for <a href="./glossary.html#counterfactual-outcome" title="Glossary definition">counterfactual</a> approaches to estimate causal impacts. These letters were instrumental in encouraging the cultural change needed to adopt experimental evaluation methods.</p>
-<p>The key regulatory anchor is Article 44 of the Common Provisions Regulation (EU) 2021/1060, which requires managing authorities to evaluate the effectiveness of their interventions but does not prescribe the method. This creates space for RCTs as the most rigorous option available.</p>
+<p>The key regulatory anchor is Article 44 of the Common Provisions Regulation (EU) 2021/1060, which requires managing authorities to evaluate the effectiveness of their interventions but does not prescribe the method. This leaves room for RCTs as one of the methods managing authorities can choose.</p>
 <hr>
 <section id="key-elements-any-legal-framework-must-address" class="level2">
 <h2 class="anchored" data-anchor-id="key-elements-any-legal-framework-must-address">Key elements any legal framework must address</h2>
@@ -369,6 +368,22 @@ document.addEventListener("DOMContentLoaded", function () {
       last = g;
     }
   });
+});
+</script>
+<script>
+/* The top menu stays in view (navbar pinned in _quarto.yml). A page opened at an
+   address with a #section can land with that section's heading under the menu,
+   so once the page has loaded it scrolls up just enough to show the heading.
+   Jumps within a page are already offset by Quarto. */
+window.addEventListener("load", function () {
+  var hash = decodeURIComponent(window.location.hash.slice(1));
+  var target = hash && document.getElementById(hash);
+  var bar = document.querySelector("#quarto-header");
+  if (!target || !bar) return;
+  setTimeout(function () {
+    var gap = target.getBoundingClientRect().top - bar.getBoundingClientRect().bottom;
+    if (gap < 16) window.scrollBy(0, gap - 24);
+  }, 60);
 });
 </script>
 <script id="quarto-html-after-body" type="application/javascript">

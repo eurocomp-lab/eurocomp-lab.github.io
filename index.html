@@ -31,7 +31,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
@@ -47,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-50cc82fb895acf438d541e01f1c2030c.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-89ea7f78a8ff0f23e298c3602a270e14.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -248,7 +247,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="what-is-an-rct" class="level2">
 <h2 class="anchored" data-anchor-id="what-is-an-rct">What is an RCT?</h2>
-<p>Experimentation, or experimental evaluation, means testing an intervention by assigning eligible participants at random either to receive it (or one version of it) or to a comparison group (also called a control group) that does not receive it, or receives a different version. This is called a randomised controlled trial (RCT). On this website, the terms “experimentation” and “RCT” are used interchangeably.</p>
+<p>Experimentation, or experimental evaluation, means testing an intervention by assigning eligible participants at random either to receive it (or one version of it) or to a comparison group (also called a control group) that does not receive it, or receives a different version or another intervention. This is called a randomised controlled trial (RCT). On this website, the terms “experimentation” and “RCT” are used interchangeably.</p>
 <p>Randomisation can be used, for example, when there are more eligible applicants than available places, or when an intervention is rolled out in phases and the order in which participants receive it is decided at random. Comparing average outcomes between the groups shows whether the intervention – and not something else going on at the same time – is the reason for the observed changes.</p>
 <p>Who ends up in which group is decided by a random draw. It is not decided by who applied first, who looked most promising or whom the reviewer favoured. Because assignment is random, the groups are similar on average before the intervention starts, and any remaining differences between them are due only to chance. That is true not just for characteristics that can be measured, but also for those that cannot be observed. So when a difference between the groups shows up later, it can be attributed to the intervention, provided the trial is implemented as planned and outcomes are measured in the same way for both groups.</p>
 <figure class="fig-e figure">
@@ -397,7 +396,7 @@ ul.task-list li input[type="checkbox"] {
 <p>How cost-effective the intervention is, and how it compares to other interventions.</p>
 </section>
 </div>
-<p>The question one wants answered decides when, how and for whom the RCT has to be planned. To find out whether an intervention works at all, randomisation must be built in before launch, from the call for proposals. To find out which version works better (a grant alone versus a grant plus advisory support, for instance), an RCT can still be added after the intervention has started. Randomisation then shifts from who gets funded at all to which version each participant receives. See <a href="./01-why-and-when.html#choosing-design">Choosing the right evaluation design</a> on the <a href="./01-why-and-when.html">RCTs: why and when</a> page.</p>
+<p>The question one wants answered decides when, how and for whom the RCT has to be planned. To find out whether an intervention works at all, randomisation must be built in before launch, from the call for proposals. To find out which version works better (a grant alone versus a grant plus advisory support, for instance), an RCT can still be added after the intervention has started. Randomisation then shifts from who gets funded at all to which version each participant receives. See <a href="./01-why-and-when.html#choosing-design">Choosing an evaluation design</a> on the <a href="./01-why-and-when.html">RCTs: why and when</a> page.</p>
 </section>
 <section id="why-experiment-in-cohesion-policy" class="level2">
 <h2 class="anchored" data-anchor-id="why-experiment-in-cohesion-policy">Why experiment in cohesion policy?</h2>
@@ -453,7 +452,7 @@ ul.task-list li input[type="checkbox"] {
 </section>
 <section id="other-partners" class="level4 card-e">
 <h4 class="anchored" data-anchor-id="other-partners"><a href="./research-partners.html">Other partners</a></h4>
-<p>Research labs that can support your evaluation, and peers already running experiments.</p>
+<p>Research labs that can support an evaluation, and peers already running experiments.</p>
 </section>
 </div>
 </section>
@@ -461,6 +460,10 @@ ul.task-list li input[type="checkbox"] {
 <h3 class="unlisted anchored" data-anchor-id="the-eu-needs-more-managing-authorities-leading-the-change-towards-experimentation-in-policymaking">The EU needs more managing authorities leading the change towards experimentation in policymaking</h3>
 <div class="video-frame">
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/MUuhKap8BlQ" title="Taking initiative" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</div>
+<hr>
+<div class="nav-buttons">
+<p><a href="./01-why-and-when.html">RCTs: why and when →</a></p>
 </div>
 
 
@@ -564,6 +567,22 @@ document.addEventListener("DOMContentLoaded", function () {
       last = g;
     }
   });
+});
+</script>
+<script>
+/* The top menu stays in view (navbar pinned in _quarto.yml). A page opened at an
+   address with a #section can land with that section's heading under the menu,
+   so once the page has loaded it scrolls up just enough to show the heading.
+   Jumps within a page are already offset by Quarto. */
+window.addEventListener("load", function () {
+  var hash = decodeURIComponent(window.location.hash.slice(1));
+  var target = hash && document.getElementById(hash);
+  var bar = document.querySelector("#quarto-header");
+  if (!target || !bar) return;
+  setTimeout(function () {
+    var gap = target.getBoundingClientRect().top - bar.getBoundingClientRect().bottom;
+    if (gap < 16) window.scrollBy(0, gap - 24);
+  }, 60);
 });
 </script>
 <script id="quarto-html-after-body" type="application/javascript">

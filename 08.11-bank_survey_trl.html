@@ -31,7 +31,6 @@ ul.task-list li input[type="checkbox"] {
 
 
 <script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
 <script src="site_libs/clipboard/clipboard.min.js"></script>
 <script src="site_libs/quarto-search/autocomplete.umd.js"></script>
 <script src="site_libs/quarto-search/fuse.min.js"></script>
@@ -47,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-200485c8621b1d615e99a33238095f2e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-d8c81eda1e1dceff6089a50399cbe040.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -237,7 +236,7 @@ ul.task-list li input[type="checkbox"] {
 </ul>
 <hr>
 <p><strong>What is the target TRL your firm aims to reach for this technology within the next [two / three] years?</strong> <em>(Select from the same TRL 1-9 scale above)</em></p>
-<p><strong>A note on TRL for Managing Authorities:</strong> The TRL scale was originally developed by NASA and adapted by the European Commission for use across all Horizon Europe and ERDF R&amp;D instruments. TRL 1-3 corresponds to basic and applied research; TRL 4-6 to technology development and validation; TRL 7-9 to demonstration and market deployment. Many EU grant schemes specify a minimum entry TRL (e.g.&nbsp;TRL 4 or above) and a target exit TRL, making TRL advancement a natural primary outcome for R&amp;D support evaluations. Self-reported TRL should ideally be validated against objective evidence (e.g.&nbsp;prototype documentation, test reports) where possible.</p>
+<p><strong>A note on TRL for managing authorities:</strong> The TRL scale was originally developed by NASA and adapted by the European Commission for use across all Horizon Europe and ERDF R&amp;D instruments. TRL 1-3 corresponds to basic and applied research; TRL 4-6 to technology development and validation; TRL 7-9 to demonstration and market deployment. Many EU grant schemes specify a minimum entry TRL (e.g.&nbsp;TRL 4 or above) and a target exit TRL, making TRL advancement a natural primary outcome for R&amp;D support evaluations. Self-reported TRL should ideally be validated against objective evidence (e.g.&nbsp;prototype documentation, test reports) where possible.</p>
 
 
 
@@ -338,6 +337,22 @@ document.addEventListener("DOMContentLoaded", function () {
       last = g;
     }
   });
+});
+</script>
+<script>
+/* The top menu stays in view (navbar pinned in _quarto.yml). A page opened at an
+   address with a #section can land with that section's heading under the menu,
+   so once the page has loaded it scrolls up just enough to show the heading.
+   Jumps within a page are already offset by Quarto. */
+window.addEventListener("load", function () {
+  var hash = decodeURIComponent(window.location.hash.slice(1));
+  var target = hash && document.getElementById(hash);
+  var bar = document.querySelector("#quarto-header");
+  if (!target || !bar) return;
+  setTimeout(function () {
+    var gap = target.getBoundingClientRect().top - bar.getBoundingClientRect().bottom;
+    if (gap < 16) window.scrollBy(0, gap - 24);
+  }, 60);
 });
 </script>
 <script id="quarto-html-after-body" type="application/javascript">
