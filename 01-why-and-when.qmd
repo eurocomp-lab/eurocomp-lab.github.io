@@ -5,7 +5,9 @@ description-meta: "Learn what the impact of an intervention is, how randomised c
 
 ::: {.team-note}
 ## Summary {.unlisted}
-A randomised controlled trial (RCT) assigns eligible participants at random either to receive an intervention or to a comparison group, so that differences in later results can be attributed to the intervention ([see the definition on the home page](index.qmd#what-is-an-rct)). This page explains in more detail what the impact of an intervention is, how RCTs estimate it and when to use one: which questions an RCT can answer, why it often has to be planned early and when it may not be the right choice.
+This page builds on the [home page](index.qmd), which introduces RCTs as one of several ways to conduct an impact evaluation. Part 1 is about impact evaluation in general: what the impact of an intervention is and what challenges may arise when measuring it. Part 2 compares the two ways of forming a comparison group – random and non-random assignment – and then focuses on RCTs: how random assignment creates a comparison group, illustrated by a running example from North-East Romania, and how it can support transparency and trust. Part 3 covers when to use an RCT: which learning questions it can answer, how to choose an evaluation design, what to do when randomisation is not possible and when an RCT may not be the right choice.
+
+The page ends with answers to common questions about RCTs. [How to design an RCT](02-how.qmd) then explains how to plan one step by step.
 :::
 
 ```{=html}
@@ -82,7 +84,7 @@ This page explains the main approaches and the role of RCTs among them.
 
 ### From outputs to results
 
-Impact evaluation looks beyond what an intervention delivers to what changes because of it. In cohesion policy, these two levels are tracked with output and result indicators.
+Impact evaluation, if implemented correctly, allows not only to measure what an intervention delivers (measured using output indicators) but also what changes because of it (measured using result indicators).
 
 ::: {.cards}
 ::: {.card-e}
@@ -97,8 +99,7 @@ For example, employment, skills, energy savings, firm growth.
 :::
 :::
 
-Before implementation, it helps to map out how an intervention's activities are expected to change the problem it addresses. This shows, in advance, why each step should lead to the next. That causal logic – the how and why behind each step – explains the intervention's reason for existing. It also shows what needs to be measured to test whether the
-expected change is actually happening.
+Before implementation, the activities of an intervention can be mapped against the change they are expected to bring about. This mapping shows, in advance, why each step should lead to the next. That causal logic – the how and why behind each step – explains the intervention's reason for existing. The mapping also shows what needs to be measured to test whether the expected change is actually happening.
 
 ```{=html}
 <div class="chain">
@@ -182,7 +183,7 @@ Raw success counts can be misleading. To assess effectiveness, interventions nee
 ::: {.cards}
 ::: {.card-e}
 ### Paying for what would have happened anyway {.unlisted}
-Additionality here means the share of results that would not have happened without the intervention; support that pays for what would have happened anyway is often called deadweight. Top performers would likely have invested anyway, so public funds mostly substitute for money they would have spent regardless – generating little that is truly additional per euro.
+Additionality here means the share of results that would not have happened without the intervention. Support that pays for what would have happened anyway is often called deadweight. Top performers would likely have invested anyway, so public funds mostly substitute for money they would have spent regardless – generating little that is truly additional per euro.
 :::
 ::: {.card-e}
 ### Selection bias in measurement {.unlisted}
