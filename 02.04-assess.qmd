@@ -51,7 +51,7 @@ The indicators selected in [Step 3](02.04-indicators.qmd) must be observable - t
 
 Before designing the lottery or scoring mechanism, confirm that your national legal framework - and the specific legislation governing your intervention - either explicitly permits randomisation as a selection method or is flexible enough to accommodate it.
 
-Most national frameworks were designed around ranking or first-come-first-served selection and say nothing about random assignment. A clear legal basis is the precondition for experimental evaluation to happen at all. [See the legal framework page](02.03c-legal.qmd) for country examples, key legal elements, and practical steps.
+Most national frameworks were designed around ranking or first-come-first-served selection and say nothing about random assignment. A clear legal basis is the precondition for experimental evaluation to happen at all. [See the legal framework page](02.04b-legal.qmd) for country examples, key legal elements, and practical steps.
 :::
 
 
