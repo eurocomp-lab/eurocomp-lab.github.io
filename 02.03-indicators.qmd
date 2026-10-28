@@ -56,6 +56,6 @@ The RCT outcome repository lists outcome indicators by topic, from firm performa
 ---
 
 ::: {.nav-buttons}
-[← Previous - Step 2: define learning questions](02.02-eval_questions.qmd) | [Next - Step 4: check whether an RCT is feasible →](02.03-assess.qmd)
+[← Previous - Step 2: define learning questions](02.02-eval_questions.qmd) | [Next - Step 4: check whether an RCT is feasible →](02.04-assess.qmd)
 :::
 
