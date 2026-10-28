@@ -262,5 +262,5 @@ Free software covering a wide range of experimental designs
 ***
 
 ::: {.nav-buttons}
-[← Back to - Step 4: check whether an RCT is feasible](02.03-assess.qmd)
+[← Back to - Step 4: check whether an RCT is feasible](02.04-assess.qmd)
 :::
