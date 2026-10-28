@@ -14,9 +14,9 @@ This page explains what informed consent means in the context of a European Unio
 
 Data collection for an RCT involves collecting personal and firm-level data from participants who have a right to know what that data will be used for, who will have access to it, and what their choices are. Informed consent is the mechanism through which those rights are exercised. Getting it right is a legal requirement under GDPR and a precondition for ethical evaluation practice.
 
-The GDPR is the central legal reference for any collection of personal data in the EU, and its requirements should be consulted carefully when designing the consent form and the wider data-handling arrangements. This page offers practical guidance, not legal advice. The applicable legal bases and national rules depend on the programme and the member state, so involve your Data Protection Officer from the start and consider bringing in legal consultants to review the consent form and any data-sharing agreements.
+The GDPR is the central legal reference for any collection of personal data in the EU, and its requirements should be consulted carefully when designing the consent form and the wider data-handling arrangements. This page offers practical guidance, not legal advice. The applicable legal bases and national rules depend on the intervention and the member state, so involve your Data Protection Officer from the start and consider bringing in legal consultants to review the consent form and any data-sharing agreements.
 
-This page covers what informed consent means in the context of firm-level RCTs under EU cohesion policy, what a consent form must contain, how to structure it, and what special considerations apply when evaluation data is collected alongside a programme application.
+This page covers what informed consent means in the context of firm-level RCTs under EU cohesion policy, what a consent form must contain, how to structure it, and what special considerations apply when evaluation data is collected alongside an intervention application.
 
 ---
 
@@ -24,12 +24,12 @@ This page covers what informed consent means in the context of firm-level RCTs u
 
 Informed consent is a participant's freely given, specific, informed, and unambiguous agreement to the processing of their data for a defined purpose. In the context of an RCT, it covers two distinct activities that must be kept clearly separate:
 
-**Programme participation** - applying for a grant, entering an eligibility process, and being subject to randomised selection. This is governed by the legal basis for the programme, not by consent. Firms cannot meaningfully consent to or refuse the administrative processing that is required to run the programme.
+**Intervention participation** - applying for a grant, entering an eligibility process, and being subject to randomised selection. This is governed by the legal basis for the intervention, not by consent. Firms cannot meaningfully consent to or refuse the administrative processing that is required to run the intervention.
 
-**Evaluation data collection** - providing information for research purposes beyond what is required for the programme: extended administrative data tracking, AI-assisted data quality checks, or follow-up interviews. This is where genuine informed consent applies. Firms must be able to choose whether to participate in each optional activity without any consequence for their programme eligibility.
+**Evaluation data collection** - providing information for research purposes beyond what is required for the intervention: extended administrative data tracking, AI-assisted data quality checks, or follow-up interviews. This is where genuine informed consent applies. Firms must be able to choose whether to participate in each optional activity without any consequence for their intervention eligibility.
 
 ::: {.caution}
-Never bundle consent to evaluation data collection with consent to programme participation. A firm that must tick a consent box to submit its application is not giving free consent - it is being coerced. Under the GDPR, consent is not freely given if participation in a programme is conditional on agreeing to data processing that is not necessary for that programme.
+Never bundle consent to evaluation data collection with consent to intervention participation. A firm that must tick a consent box to submit its application is not giving free consent - it is being coerced. Under the GDPR, consent is not freely given if participation in an intervention is conditional on agreeing to data processing that is not necessary for that intervention.
 :::
 
 
@@ -61,7 +61,7 @@ Describe each category of data that will be collected, clearly distinguishing be
 ::: {.card-e}
 **Mandatory data**
 
-Required for programme administration and collected under a legal basis other than consent.
+Required for intervention administration and collected under a legal basis other than consent.
 :::
 ::: {.card-e}
 **Optional data**
@@ -99,7 +99,7 @@ Explain how the data will be protected and confirm that no individual firm or pe
 State explicitly that:
 
 - Participation in optional data collection activities is voluntary
-- Declining or withdrawing consent carries no penalty and does not affect programme eligibility
+- Declining or withdrawing consent carries no penalty and does not affect intervention eligibility
 - Withdrawal of consent can be exercised at any time, in writing, and does not affect the lawfulness of processing that already took place
 - Upon withdrawal, the participant may also request deletion of their data
 
@@ -126,7 +126,7 @@ Example:
 ```{=html}
 <div class="designs">
   <div class="d"><div>
-    <h3>Box 1 - Randomised programme participation <span style="font-weight:400;font-size:0.9em">(required)</span></h3>
+    <h3>Box 1 - Randomised intervention participation <span style="font-weight:400;font-size:0.9em">(required)</span></h3>
     <p>Covers participation in the evaluation study, acknowledgement of the randomised selection methodology, data sharing with the World Bank for monitoring and research, and consent to be contacted for follow-up questions for up to six years. This box is required to proceed with the application.</p>
   </div></div>
   <div class="d"><div>
@@ -141,7 +141,7 @@ Example:
 ```
 
 ::: {.takeaway}
-Box 1 is required. Boxes 2 and 3 are optional but described as important for the quality of the evaluation. Firms must be able to tick Box 1 without ticking Boxes 2 or 3, and the programme must function correctly regardless of which optional boxes are selected.
+Box 1 is required. Boxes 2 and 3 are optional but described as important for the quality of the evaluation. Firms must be able to tick Box 1 without ticking Boxes 2 or 3, and the intervention must function correctly regardless of which optional boxes are selected.
 :::
 
 ***
@@ -156,7 +156,7 @@ Box 1 is required. Boxes 2 and 3 are optional but described as important for the
 
 **Plain language.** The consent form will be read by firm owners and managers, not lawyers. Legal citations are required for completeness but must be accompanied by plain-language explanations. 
 
-**Multilingual forms.** Where the programme operates in a non-English-speaking member state, the consent form should be available in the local language. 
+**Multilingual forms.** Where the intervention operates in a non-English-speaking member state, the consent form should be available in the local language. 
 
 ## Resources
 
