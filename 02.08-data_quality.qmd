@@ -68,6 +68,6 @@ Where administrative data quality is uncertain, the evaluation should include a 
 ***
 
 ::: {.nav-buttons}
-[← Previous - Step 6: collect data](02.06-data_collect.qmd) | [Next - Examples →](03-examples.qmd)
+[← Previous - Step 7: collect data](02.07-data_collect.qmd) | [Next - Examples →](03-examples.qmd)
 :::
 
