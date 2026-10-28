@@ -1,5 +1,5 @@
 ---
-title: "Step 6: collect data"
+title: "Step 7: collect data"
 description-meta: "Plan survey rounds, choose a collection method, design and pilot the questionnaire, limit attrition and meet data protection rules when surveying firms."
 ---
 
