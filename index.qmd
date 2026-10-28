@@ -170,8 +170,7 @@ best, and under which conditions?
 
 An impact evaluation compares what happened after an intervention was introduced with what
 would have happened in its absence: the counterfactual. Unlike monitoring, which tracks whether an intervention is implemented as planned, it tests
-whether the intervention caused a real difference. It is one of several types of evaluation, alongside implementation evaluation, that managing authorities can include in their evaluation plans. See [what impact evaluation is for and
-how it differs from monitoring](01-why-and-when.qmd#impact-evaluation).
+whether the intervention caused a real difference. It is one of several types of evaluation, alongside implementation evaluation, that managing authorities can include in their evaluation plans. 
 
 There is more than one credible way to conduct an impact evaluation, and the right choice depends on the intervention, the available data and the timing.
 Quasi-experimental methods, such as matching,
