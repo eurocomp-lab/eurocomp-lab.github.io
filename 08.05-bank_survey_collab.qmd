@@ -3,6 +3,12 @@ title: "Survey questions: collaboration"
 description-meta: "Ask firms who they co-operate with and where, which sources of knowledge they use and what holds collaboration back, using tested survey questions."
 ---
 
+::: {.topic-nav}
+[Survey question repository](08-bank_survey.qmd)
+
+Matching indicators: [collaboration and knowledge transfer](09.06-bank_survey_collab.qmd)
+:::
+
 **In [year], did your enterprise co-operate with other enterprises or organisations on the following activities?** 
 Co-operation occurs when two or more participants agree to take responsibility for a task or series of tasks and information is shared between the parties to facilitate the agreement.
 

@@ -3,6 +3,12 @@ title: "Outcome indicators: collaboration"
 description-meta: "Measure collaboration and knowledge transfer with outcome indicators for partnerships, partner diversity, links with universities and network membership."
 ---
 
+::: {.topic-nav}
+[Indicator repository](09-bank_outcomes.qmd)
+
+Matching survey questions: [collaboration](08.05-bank_survey_collab.qmd)
+:::
+
 **Collaboration incidence**
 
 - **Definition:** whether the firm cooperates with other firms or organisations on innovation or business activities

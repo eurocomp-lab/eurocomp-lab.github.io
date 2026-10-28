@@ -3,6 +3,10 @@ title: "Survey questions: competition"
 description-meta: "Ask firms about their main market, how many competitors they face, how competition has changed and whether they can raise prices, using tested questions."
 ---
 
+::: {.topic-nav}
+[Survey question repository](08-bank_survey.qmd)
+:::
+
 **In [year], which of the following was the main market in which this establishment sold its main product [or offered its main service]?**
 
 - Local - main product [or service] sold mostly in same area where establishment is located

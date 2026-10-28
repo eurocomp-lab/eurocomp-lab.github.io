@@ -3,31 +3,89 @@ title: "Survey question repository"
 description-meta: "Find tested survey questions for firm-level evaluations, organised by topic and drawn from the Community Innovation Survey, World Bank surveys and others."
 ---
 
-## Overview
-
-Before writing a single question, review existing, validated survey instruments. Using questions that have already been tested in comparable evaluations saves time, improves data quality, and makes findings comparable with evidence from other interventions and regions. Key reference sources include:
-
-- [Community Innovation Survey (CIS)](https://ec.europa.eu/eurostat/web/microdata/collections-research/community-innovation-survey) - the standard EU framework for measuring innovation activity in firms
-- [Firms Adoption of Technology Survey (FAT)](https://microdata.worldbank.org/collections/fat) - World Bank instrument on technology adoption across sectors
-- [World Bank Enterprise Surveys (WBES)](https://espanol.enterprisesurveys.org/en/enterprisesurveys) - firm-level outcomes including investment, productivity, and the business environment
-- [World Management Survey (WMS)](https://worldmanagementsurvey.org/) - management practices across firms and countries
-- [Flash Eurobarometer on SME Digitalisation](https://europa.eu/eurobarometer/surveys/detail/2442) - digital technology adoption and skills across EU member states
-- [ECB Survey on Access to Finance of Enterprises (SAFE)](https://www.ecb.europa.eu/stats/ecb_surveys/safe/html/index.en.html) - financing conditions and constraints for SMEs
-
-The survey question repository brings together questions drawn from the resources above, organised by topic. The questions are suggestions and a starting point, not a complete or prescribed questionnaire: they do not cover every topic an evaluation may need, and they do not have to be used exactly as written. The source surveys linked above give more detail and many more questions, so it is worth consulting them directly when a topic is central to your evaluation. Navigate to the theme most relevant to your evaluation, browse the questions and response options (where applicable), and select those that match the indicators in your Theory of Change. Then adapt the wording, response options, units and reference periods to your intervention and regional context.
+Before writing a single question, review existing, validated survey instruments. Using questions that have already been tested in comparable evaluations saves time, improves data quality, and makes findings comparable with evidence from other interventions and regions. This repository brings together questions drawn from established surveys (see [Sources](#sources)), organised by topic.
 
 ## Topics
 
-- Topic: [company details](08.01-bank_survey_company.qmd)
-- Topic: [respondent details](08.02-bank_survey_respondent.qmd)
-- Topic: [company structure and ownership](08.03-bank_survey_ownership.qmd)
-- Topic: [company financial performance](08.04-bank_survey_performance.qmd)
-- Topic: [collaboration](08.05-bank_survey_collab.qmd)
-- Topic: [digitalisation and technology adoption](08.07-bank_survey_digital.qmd)
-- Topic: [innovation, R&D activities, and intellectual property](08.08-bank_survey_innov.qmd)
-- Topic: [technology readiness level](08.11-bank_survey_trl.qmd)
-- Topic: [energy efficiency](08.12-bank_survey_energy.qmd)
-- Topic: [business finance](08.13-bank_survey_finance.qmd)
-- Topic: [business support and training](08.14-bank_survey_train.qmd)
-- Topic: [management practices](08.15-bank_survey_mgmt.qmd)
-- Topic: [competition](08.16-bank_survey_comp.qmd)
+### Firm and respondent profile {.unlisted}
+
+:::: {.cards .topics}
+::: {.card-e}
+#### [Company details](08.01-bank_survey_company.qmd)
+Name, registration number, sector, products, customers, year founded, location, website and social media.
+:::
+::: {.card-e}
+#### [Respondent details](08.02-bank_survey_respondent.qmd)
+Name, role, contact details, how they heard of the programme, gender, year of birth and education.
+:::
+::: {.card-e}
+#### [Company structure and ownership](08.03-bank_survey_ownership.qmd)
+Group membership, ownership structure, foreign ownership, boards and number of sites.
+:::
+::: {.card-e}
+#### [Company financial performance](08.04-bank_survey_performance.qmd)
+Employees, turnover, wages, investment, exports, profit, costs, debt, equity and assets.
+:::
+::::
+
+### Thematic modules {.unlisted}
+
+:::: {.cards .topics}
+::: {.card-e}
+#### [Collaboration](08.05-bank_survey_collab.qmd)
+Co-operation partners and where they are, sources of knowledge, clusters and associations, and barriers to collaboration.
+:::
+::: {.card-e}
+#### [Digitalisation and technology adoption](08.07-bank_survey_digital.qmd)
+Technologies and digital tools in use, online sales, investment, skills training, generative AI, and what drives or blocks adoption.
+:::
+::: {.card-e}
+#### [Innovation, R&D and intellectual property](08.08-bank_survey_innov.qmd)
+Product and process innovation, R&D and innovation spending and staff, barriers, public support, intellectual property and licensing.
+:::
+::: {.card-e}
+#### [Technology readiness level](08.11-bank_survey_trl.qmd)
+Where the firm's main technology sits on the nine-level TRL scale, and the level it aims to reach.
+:::
+::: {.card-e}
+#### [Energy efficiency](08.12-bank_survey_energy.qmd)
+Energy use and costs, renewable energy, energy management, audits and certificates, efficiency investments and savings.
+:::
+::: {.card-e}
+#### [Business finance](08.13-bank_survey_finance.qmd)
+Equity and debt finance, public financial support, and whether each was used for R&D or innovation.
+:::
+::: {.card-e}
+#### [Business support and training](08.14-bank_survey_train.qmd)
+Applications to and participation in business support programmes, and formal training for staff.
+:::
+::: {.card-e}
+#### [Management practices](08.15-bank_survey_mgmt.qmd)
+Problem solving, performance monitoring, targets, manager bonuses, promotion and dealing with underperformance.
+:::
+::: {.card-e}
+#### [Competition](08.16-bank_survey_comp.qmd)
+Main market, number of competitors, changes in competition and the ability to raise prices.
+:::
+::::
+
+## How to use the questions
+
+The questions are suggestions and a starting point, not a complete or prescribed questionnaire: they do not cover every topic an evaluation may need, and they do not have to be used exactly as written.
+
+1. Open the topic most relevant to your evaluation, and browse the questions and response options (where applicable).
+2. Select the questions that match the indicators in your Theory of Change. The [indicator repository](09-bank_outcomes.qmd) helps define them.
+3. Adapt the wording, response options, units and reference periods to your intervention and regional context.
+
+The source surveys below give more detail and many more questions, so it is worth consulting them directly when a topic is central to your evaluation.
+
+## Sources
+
+Key reference sources include:
+
+- [Community Innovation Survey (CIS)](https://ec.europa.eu/eurostat/web/microdata/collections-research/community-innovation-survey): the standard EU framework for measuring innovation activity in firms
+- [Firm Adoption of Technology (FAT) Survey](https://microdata.worldbank.org/collections/fat): World Bank instrument on technology adoption across sectors
+- [World Bank Enterprise Surveys (WBES)](https://espanol.enterprisesurveys.org/en/enterprisesurveys): firm-level outcomes including investment, productivity, and the business environment
+- [World Management Survey (WMS)](https://worldmanagementsurvey.org/): management practices across firms and countries
+- [Flash Eurobarometer on SME Digitalisation](https://europa.eu/eurobarometer/surveys/detail/2442): digital technology adoption and skills across EU member states
+- [ECB Survey on Access to Finance of Enterprises (SAFE)](https://www.ecb.europa.eu/stats/ecb_surveys/safe/html/index.en.html): financing conditions and constraints for SMEs

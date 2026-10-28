@@ -3,6 +3,12 @@ title: "Outcome indicators: digitalisation and technology"
 description-meta: "Measure digitalisation with outcome indicators for technology use, online sales, digital investment, digital skills and digital maturity."
 ---
 
+::: {.topic-nav}
+[Indicator repository](09-bank_outcomes.qmd)
+
+Matching survey questions: [digitalisation and technology adoption](08.07-bank_survey_digital.qmd)
+:::
+
 **Digital technology adoption**
 
 - **Definition:** whether and which digital technologies the firm uses (cloud, artificial intelligence, Internet of Things, big data, etc.)

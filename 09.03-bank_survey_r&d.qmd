@@ -3,6 +3,12 @@ title: "Outcome indicators: R&D activity"
 description-meta: "Measure research and development with outcome indicators for R&D engagement, spending and staff, each with a plain-language definition and metric."
 ---
 
+::: {.topic-nav}
+[Indicator repository](09-bank_outcomes.qmd)
+
+Matching survey questions: [innovation, R&D and intellectual property](08.08-bank_survey_innov.qmd)
+:::
+
 **Research & Development (R&D) engagement**
 
 - **Definition:** whether the firm conducts research and experimental development activities

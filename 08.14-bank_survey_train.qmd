@@ -3,6 +3,12 @@ title: "Survey questions: business support and training"
 description-meta: "Ask firms whether they applied for or joined business support programmes, and whether they train their staff, using tested survey questions."
 ---
 
+::: {.topic-nav}
+[Survey question repository](08-bank_survey.qmd)
+
+Matching indicators: [business support and training](09.10-bank_outcome_train.qmd), [employment and human capital](09.08-bank_survey_employ.qmd)
+:::
+
 **In [year], did your enterprise apply for any business support programme?**
 
 - Yes

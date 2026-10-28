@@ -3,6 +3,11 @@ title: "Survey questions: innovation, R&D and IP"
 description-meta: "Ask firms about new products and processes, R&D, intellectual property and the barriers to innovation, using tested survey questions."
 ---
 
+::: {.topic-nav}
+[Survey question repository](08-bank_survey.qmd)
+
+Matching indicators: [innovation and intellectual property](09.02-bank_survey_innov.qmd), [R&D activity](09.03-bank_survey_r&d.qmd)
+:::
 
 ## Product innovation
 
@@ -166,12 +171,12 @@ R&D contracted out:  Your enterprise contracted-out R&D to other enterprises (in
 
 ***
 
-**How many full-time equivalent staff were engaged in R&D or innovation-related  activities in your company in [year]**
+**How many full-time equivalent staff were engaged in R&D or innovation-related activities in your company in [year]?**
 *(Open numeric field)*
 
 ***
 
-**Has your enterprise an R&D department or a unit equivalent to it?**
+**Does your enterprise have an R&D department or an equivalent unit?**
 
 - Yes
 - No

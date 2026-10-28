@@ -3,6 +3,10 @@ title: "Survey questions: company details"
 description-meta: "Ask firms for their name, registration number, sector, products, main customers, location and website, using tested survey questions."
 ---
 
+::: {.topic-nav}
+[Survey question repository](08-bank_survey.qmd)
+:::
+
 **What is the name of your company?**
 *(Open text field)*
 

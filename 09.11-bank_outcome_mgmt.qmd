@@ -3,6 +3,12 @@ title: "Outcome indicators: management practices"
 description-meta: "Measure management practices with an overall index and indicators for problem solving, monitoring, targets, bonuses, promotion and underperformance."
 ---
 
+::: {.topic-nav}
+[Indicator repository](09-bank_outcomes.qmd)
+
+Matching survey questions: [management practices](08.15-bank_survey_mgmt.qmd)
+:::
+
 **Management practices index**
 
 - **Definition:** composite index summarising a firm's management quality across eight dimensions - problem-solving, performance monitoring, target-setting, target achievability, target communication, manager incentives, non-manager promotion, and underperformance management

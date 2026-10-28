@@ -3,9 +3,15 @@ title: "Survey questions: energy efficiency"
 description-meta: "Ask firms about energy use and costs, renewable energy, energy management, audits and efficiency investments, using tested survey questions."
 ---
 
+::: {.topic-nav}
+[Survey question repository](08-bank_survey.qmd)
+
+Matching indicators: [energy efficiency](09.12-bank_outcome_energy.qmd)
+:::
+
 ## Energy consumption
 
-**What was your establishment's total energy consumption [year]?**
+**What was your establishment's total energy consumption in [year]?**
 *(All sources combined - electricity, gas, oil, solid fuels, renewables. Report in kWh. If in other units, please convert to kWh. Best approximations are accepted. Open numeric field - kWh)*
 
 ***
@@ -52,7 +58,7 @@ description-meta: "Ask firms about energy use and costs, renewable energy, energ
 - Yes
 - No
 
-**If yes: How much did you produce? **
+**If yes: how much did you produce?**
 *(open numeric field - kWh)*
 
 ***
@@ -140,7 +146,7 @@ description-meta: "Ask firms about energy use and costs, renewable energy, energ
 
 ## Energy reduction performance
 
-**1By what percentage has your establishment reduced its total energy consumption compared to the previous year (or a comparable reference period)?**
+**By what percentage has your establishment reduced its total energy consumption compared to the previous year (or a comparable reference period)?**
 *(Open numeric field - %. Report the net reduction as a positive number. Best approximations are accepted.)*
 
 ***

@@ -3,9 +3,15 @@ title: "Outcome indicators: energy efficiency"
 description-meta: "Measure energy efficiency with outcome indicators for energy use and cost, energy mix, on-site renewables, audits, investment and savings."
 ---
 
+::: {.topic-nav}
+[Indicator repository](09-bank_outcomes.qmd)
+
+Matching survey questions: [energy efficiency](08.12-bank_survey_energy.qmd)
+:::
+
 **Total energy consumption**
 
-- **Definition:** total energy used by the firm across all sources — electricity, gas, oil, solid fuels, and renewables — in the reference year
+- **Definition:** total energy used by the firm across all sources (electricity, gas, oil, solid fuels, and renewables) in the reference year
 - **Metric:** total energy consumption in kWh; % change from baseline to endline
 
 ---
@@ -27,14 +33,14 @@ description-meta: "Measure energy efficiency with outcome indicators for energy 
 **Energy source mix**
 
 - **Definition:** the range of energy sources used by the firm, capturing the degree of diversification and shift towards non-fossil fuels
-- **Metric:** binary indicator per energy source (natural gas / oil / solid fuels / solar PV / other renewables / grid only); number of energy sources used
+- **Metric:** binary indicator per energy source (natural gas / oil / solid fuels / solar photovoltaic (PV) / other renewables / grid only); number of energy sources used
 
 ---
 
 **On-site renewable energy production**
 
-- **Definition:** whether the firm generates electricity from on-site renewable sources — primarily solar PV — and the scale of that generation
-- **Metric:** binary indicator for solar PV installation (yes/no); installed capacity in kWp; total renewable electricity generated in kWh; % of total energy consumption met by on-site renewables
+- **Definition:** whether the firm generates electricity from on-site renewable sources (primarily solar PV), and the scale of that generation
+- **Metric:** binary indicator for solar PV installation (yes/no); installed capacity in kilowatt-peak (kWp); total renewable electricity generated in kWh; % of total energy consumption met by on-site renewables
 
 ---
 
@@ -76,7 +82,7 @@ description-meta: "Measure energy efficiency with outcome indicators for energy 
 **Energy efficiency investment**
 
 - **Definition:** whether the firm invested in activities aimed at reducing energy consumption or improving energy efficiency in the reference year, and the type and scale of those investments
-- **Metric:** binary indicator (yes/no); total expenditure on energy efficiency investments in €; binary indicator per investment type (renewables / storage / lighting / HVAC / building fabric / smart controls / EVs / machinery / equipment / audit / training); number of investment types undertaken
+- **Metric:** binary indicator (yes/no); total expenditure on energy efficiency investments in €; binary indicator per investment type (renewables / storage / lighting / heating, ventilation and cooling (HVAC) / building fabric / smart controls / electric vehicles (EVs) / machinery / equipment / audit / training); number of investment types undertaken
 
 ---
 

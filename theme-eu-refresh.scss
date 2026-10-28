@@ -929,3 +929,72 @@ hr:has(+ .nav-buttons) { display: none; }
 #quarto-document-content .card-e ul { padding-left: 1.15rem; margin-bottom: 0; }
 #quarto-document-content .card-e li { font-size: .92rem; line-height: 1.5; color: $rf-ink-soft; }
 #quarto-document-content .card-e li + li { margin-top: .4rem; }
+
+/* ---------------------------------------------------------------
+   Batch 20 (October 2026): the repository pages. The topics as
+   cards (in two groups on the survey page) with what each covers,
+   and on the indicator page an example at the foot of each card;
+   the example citations in full at the end; and on each topic page
+   a bar under the title with the way back and the matching topics
+   in the other repository.
+   --------------------------------------------------------------- */
+#quarto-document-content .cards.topics {
+  grid-template-columns: repeat(auto-fill, minmax(13.5rem, 1fr));
+  gap: .75rem;
+  margin: 1rem 0 1.5rem;
+}
+#quarto-document-content .cards.topics > .card-e {
+  display: flex;
+  flex-direction: column;
+  padding: .95rem 1.05rem 1rem;
+}
+#quarto-document-content .cards.topics > .card-e > :is(h3, h4) { margin: 0 0 .4rem; }
+#quarto-document-content .cards.topics .anchorjs-link { display: none; }   // a heading anchor would sit over the card's link
+#quarto-document-content .cards.topics > .card-e > p { margin: 0; font-size: .9rem; line-height: 1.45; }
+#quarto-document-content .cards.topics > .card-e > p:not(:last-child) { margin-bottom: .75rem; }
+/* the example: a second line, kept at the foot of the card */
+#quarto-document-content .cards.topics > .card-e > p + p {
+  margin-top: auto;
+  padding-top: .55rem;
+  border-top: 1px solid $rf-rule;
+  font-size: .82rem;
+}
+/* group labels over the cards (survey page) */
+#quarto-document-content section:has(> .cards.topics) > h3 {
+  max-width: none;
+  margin: .75rem 0 0;
+  padding-bottom: .3rem;
+  border-bottom: 2px solid $rf-blue;
+  font-size: .72rem;
+  font-weight: 700;
+  line-height: 1.4;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: $rf-blue;
+}
+#quarto-document-content section:has(> .cards.topics) > h3 .anchorjs-link { display: none; }
+
+/* full references, smaller than the text */
+#quarto-document-content .refs { max-width: 40rem; }
+#quarto-document-content .refs li { font-size: .88rem; line-height: 1.5; color: $rf-ink-soft; }
+#quarto-document-content .refs li + li { margin-top: .45rem; }
+
+/* topic pages: the way back, and the matching topics in the other repository */
+#quarto-document-content .topic-nav {
+  display: flex;
+  flex-wrap: wrap;
+  align-items: baseline;
+  justify-content: space-between;
+  gap: .3rem 1.5rem;
+  max-width: 40rem;
+  margin: 0 0 2.25rem;
+  padding: .55rem .9rem;
+  background: $rf-pale;
+  border-radius: 6px;
+  font-size: .88rem;
+}
+#quarto-document-content .topic-nav p { margin: 0; line-height: 1.45; }
+#quarto-document-content .topic-nav > p:first-child a { font-weight: 600; text-decoration: none; }
+#quarto-document-content .topic-nav > p:first-child a::before { content: "\2190\00a0"; }
+#quarto-document-content .topic-nav > p:first-child a:hover { text-decoration: underline; }
+#quarto-document-content .topic-nav > p + p { color: $rf-ink-soft; }

@@ -3,6 +3,12 @@ title: "Survey questions: business finance"
 description-meta: "Ask firms whether they sought equity or debt finance, whether they got it, and whether it paid for R&D or innovation, using tested survey questions."
 ---
 
+::: {.topic-nav}
+[Survey question repository](08-bank_survey.qmd)
+
+Matching indicators: [business finance](09.09-bank_outcome_finance.qmd)
+:::
+
 **In [year], did your enterprise try to obtain equity finance (finance provided in exchange for a share in the ownership of the enterprise)?**
 
 - Yes

@@ -257,8 +257,8 @@ How to plan an RCT in eight steps: from the causal logic of the intervention, th
 Experiences from projects partnering with the EuroCOMP Lab and beyond.
 :::
 ::: {.card-e}
-#### [Repository](04-templates.qmd)
-Outcome indicators and survey questions, organised by topic.
+#### [Repository](09-bank_outcomes.qmd)
+[Outcome indicators](09-bank_outcomes.qmd) and [survey questions](08-bank_survey.qmd), organised by topic.
 :::
 ::::
 

@@ -3,6 +3,12 @@ title: "Outcome indicators: business finance"
 description-meta: "Measure access to finance with outcome indicators for equity, debt and public support, and whether each one goes to R&D and innovation."
 ---
 
+::: {.topic-nav}
+[Indicator repository](09-bank_outcomes.qmd)
+
+Matching survey questions: [business finance](08.13-bank_survey_finance.qmd)
+:::
+
 **Access to equity finance**
 
 - **Definition:** whether the firm sought and successfully obtained equity finance (external capital in exchange for ownership share) in the reference year

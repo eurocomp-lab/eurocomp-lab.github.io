@@ -3,6 +3,12 @@ title: "Survey questions: digitalisation and technology"
 description-meta: "Ask firms which digital tools they use, from hardware and software to online sales, digital marketing and e-payments, using tested survey questions."
 ---
 
+::: {.topic-nav}
+[Survey question repository](08-bank_survey.qmd)
+
+Matching indicators: [digitalisation and technology adoption](09.05-bank_survey_digital.qmd)
+:::
+
 **Which of the following digital technologies does your company currently use?**
 *(Select all that apply)*
 
@@ -79,8 +85,8 @@ description-meta: "Ask firms which digital tools they use, from hardware and sof
   - What is the Facebook link?
 - Instagram
   - What is the Instagram link?
-- Youtube
-  - What is the Youtube link?
+- YouTube
+  - What is the YouTube link?
 - Twitter
   - What is the Twitter link?
 - TikTok
@@ -90,7 +96,7 @@ description-meta: "Ask firms which digital tools they use, from hardware and sof
 - Functional online shop
   - What is the online shop link?
 - Online sales via e-commerce platform
-- Whatsapp
+- WhatsApp
 - Google My Business
 - Others
 
@@ -100,13 +106,13 @@ description-meta: "Ask firms which digital tools they use, from hardware and sof
 
 - Facebook
 - Instagram
-- Youtube
+- YouTube
 - Twitter
 - TikTok
 - Business website
 - Functional online shop
 - Online sales via e-commerce platform
-- Whatsapp
+- WhatsApp
 - Google My Business
 - Others
 
@@ -263,7 +269,7 @@ description-meta: "Ask firms which digital tools they use, from hardware and sof
 
 ***
 
-**Did your company provide digital skills training to employees in  [year]?**
+**Did your company provide digital skills training to employees in [year]?**
 
 - Yes, to most or all employees
 - Yes, to some employees

@@ -3,6 +3,12 @@ title: "Survey questions: management practices"
 description-meta: "Ask firms how they solve problems, monitor performance, set targets and reward or promote staff, using tested survey questions on management practices."
 ---
 
+::: {.topic-nav}
+[Survey question repository](08-bank_survey.qmd)
+
+Matching indicators: [management practices](09.11-bank_outcome_mgmt.qmd)
+:::
+
 **ASK IF MANUFACTURING: over [year], what best describes what happened at this establishment when a problem in the production process arose?**
 
 **ASK IF SERVICES: over [year], what best describes what happened at this establishment when a problem in the provision of services arose?**
@@ -16,7 +22,7 @@ description-meta: "Ask firms how they solve problems, monitor performance, set t
 
 **Over [year], did this establishment monitor any performance indicators?**
 
-- Yes 1
+- Yes
 - No 
 
 ***

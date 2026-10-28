@@ -23,9 +23,8 @@ website:
     left:
       - href: 01-why-and-when.qmd
         text: "RCTs: why and when"
-      # Dropdowns show one level of pages. Deeper pages (the Step 4 and
-      # Step 6 detail pages, the repository topics) are linked from their
-      # parent page.
+      # Dropdowns show one level of pages. Deeper pages (the step detail
+      # pages, the repository topics) are linked from their parent page.
       - text: "How to design an RCT"
         menu:
           - href: 02-how.qmd
@@ -43,11 +42,8 @@ website:
         text: Examples
       - text: Repository
         menu:
-          - href: 04-templates.qmd
-            text: Overview
-          - text: "---"
-          - href: 08-bank_survey.qmd
           - href: 09-bank_outcomes.qmd
+          - href: 08-bank_survey.qmd
       - text: About
         menu:
           - href: eurocomp.qmd

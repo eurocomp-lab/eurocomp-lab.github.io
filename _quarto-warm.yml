@@ -16,8 +16,8 @@ website:
         text: How to design an RCT
       - href: 03-examples.qmd
         text: Examples
-      - href: 04-templates.qmd
-        text: Templates
+      - href: 09-bank_outcomes.qmd
+        text: Repository
   page-footer:
     center: "Draft site. Structure and content still under review by the team."
 

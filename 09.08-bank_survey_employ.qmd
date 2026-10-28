@@ -3,6 +3,12 @@ title: "Outcome indicators: employment and human capital"
 description-meta: "Measure employment with outcome indicators for jobs, job growth, high-skilled staff, training and wages, each with a definition and metric."
 ---
 
+::: {.topic-nav}
+[Indicator repository](09-bank_outcomes.qmd)
+
+Matching survey questions: [company financial performance](08.04-bank_survey_performance.qmd), [business support and training](08.14-bank_survey_train.qmd)
+:::
+
 **Employment**
 
 - **Definition:** total number of people employed by the firm at a given point in time, reflecting the firm's size and capacity

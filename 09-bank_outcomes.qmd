@@ -1,37 +1,102 @@
 ---
 title: "Indicator repository"
 description-meta: "Find indicators for evaluating business support, each with a plain-language definition and a metric, drawn from World Bank and OECD sources."
+aliases:
+  # the old "Survey questions and outcome indicators" overview (04-templates), retired in October 2026
+  - 04-templates.html
 ---
 
-## Overview
-
-Indicators rarely need to be built from scratch. Managing authorities should draw on existing, well-tested measures from comparable evaluations before designing new ones. The selection of indicators and their definitions in this repository was informed by the EuroCOMP Lab evaluations (see [Examples](03-examples.qmd)), policy reports such as the [World Bank's TIDES report](https://www.worldbank.org/en/region/eca/publication/tides-of-change-igniting-productivity-growth-in-europe-and-central-asia), and established indicator manuals such as the [OECD Oslo Manual](https://www.oecd.org/en/publications/2018/10/oslo-manual-2018_g1g9373b.html) for innovation and the [OECD Frascati Manual](https://www.oecd.org/en/publications/2015/10/frascati-manual-2015_g1g57dcb.html) for research and development. Drawing on these sources improves the quality of your data and makes findings easier to compare with evidence from other interventions and regions.
-
-This repository provides a curated list of indicators, organised by topic. The indicators are suggestions and a starting point, not a complete or prescribed set: they do not cover every indicator an evaluation may need, and not all of them will suit every evaluation. Select the indicators that match the intervention you are evaluating and the causal chain in your Theory of Change, and adapt the definitions and metrics to your intervention and context. The reports and manuals above give more detail and further indicators, so it is worth consulting them directly when an indicator is central to your evaluation. For each outcome you will find:
-
-- The indicator name and a plain-language definition
-- The metric - how to operationalise and measure it
-
+Indicators rarely need to be built from scratch. Managing authorities should draw on existing, well-tested measures from comparable evaluations before designing new ones. This repository provides a curated list of indicators, organised by topic, each with a plain-language definition and a metric that says how to operationalise and measure it.
 
 ## Topics
 
-- Topic: [firm performance and growth](09.01-bank_outcomes_performance.qmd)
-  - Example: [Iacovone, L., Aviomoh, H., Belacin, M., Bossavie, L., Cusolito, A., de Hoyos, R., Ottaviano, G., Scheifele, F., Torre, I., and Yoshino, Y. 2025. &rdquo;TIDES of Change: Igniting Productivity Growth in Europe and Central Asia.&rdquo; Overview booklet. Washington, DC: World Bank. License: Creative Commons Attribution CC BY 3.0 IGO](https://www.worldbank.org/en/region/eca/publication/tides-of-change-igniting-productivity-growth-in-europe-and-central-asia)
-- Topic: [innovation and intellectual property](09.02-bank_survey_innov.qmd)
-    - Example: [Romania (South-Muntenia)](03-examples.qmd#south-muntenia)
-- Topic: [R&D activity](09.03-bank_survey_r&d.qmd)
-  - Example: [Cusolito, A. P., Dalton, P., and Ortega, S. R. 2025. &ldquo;The Impact of Large Public Grants on Industrial R&D: Evidence from an RCT in Extremadura.&rdquo; World Bank, Washington, DC.](https://documents1.worldbank.org/curated/en/099062725130024487/pdf/P171223-e6f6ea58-057f-4a96-b15e-2003d3ecd2a3.pdf)
-- Topic: [digitalisation and technology adoption](09.05-bank_survey_digital.qmd)
-  - Example: [World Bank. 2025. &ldquo;Thinking Bigger: Digital Transformation in North-East Romania: Short-Term Impacts.&rdquo; Strengthening Monitoring and Evaluation of Innovation Programs in the EU. World Bank, Washington, DC.](https://documents1.worldbank.org/curated/en/099062725130014823/pdf/P171223-aee2b26f-49c8-4bd1-a313-6a8d9d71abc4.pdf)
-- Topic: [collaboration and knowledge transfer](09.06-bank_survey_collab.qmd)
-  - Example: [Avdeenko, A., Campos, F., Chandy, R., Iacovone, L., and Kala, N. 2025. &ldquo;Connecting Minds, Creating Innovation: Matchmaking between Business and Science in Croatia.&rdquo; World Bank, Washington, DC.](https://documents1.worldbank.org/curated/en/099062725130142696/pdf/P171223-e13421d0-c5a3-4085-ac74-1883f089d91e.pdf)
-- Topic: [employment and human capital](09.08-bank_survey_employ.qmd)
-  - Example: [World Bank. 2025. &ldquo;Thinking Bigger: Digital Transformation in North-East Romania: Short-Term Impacts.&rdquo; Strengthening Monitoring and Evaluation of Innovation Programs in the EU. World Bank, Washington, DC.](https://documents1.worldbank.org/curated/en/099062725130014823/pdf/P171223-aee2b26f-49c8-4bd1-a313-6a8d9d71abc4.pdf)
-- Topic: [business finance](09.09-bank_outcome_finance.qmd)
-  - Example: [Dautovic, E., Cusolito, A. P., and McKenzie, D. 2018. &ldquo;Can Government Intervention Make Firms More Investment-Ready?: A Randomized Experiment in the Western Balkans.&rdquo; Policy Research Working Paper; No. 8541. World Bank, Washington, DC.](https://openknowledge.worldbank.org/server/api/core/bitstreams/28fbd029-9619-5eb8-836a-c1432fe1581b/content)
-- Topic: [business support and training](09.10-bank_outcome_train.qmd)
-  - Example: [Iacovone, L., Maloney, W., and McKenzie, D. 2022. &ldquo;Improving Management with Individual and Group-Based Consulting: Results from a Randomized Experiment in Colombia.&rdquo; The Review of Economic Studies, Review of Economic Studies Ltd, vol. 89(1), pages 346-371.](https://documents1.worldbank.org/curated/en/166671557929384690/pdf/Improving-Management-with-Individual-and-Group-Based-Consulting-Results-from-a-Randomized-Experiment-in-Colombia.pdf)
-- Topic: [management practices](09.11-bank_outcome_mgmt.qmd)
-  - Example: [Viganola, D. and Diallo, M. Y. 2025. &ldquo;How Management Practices Differ in the EU-27.&rdquo; Policy Indicators Briefs. World Bank, Washington, DC.](https://documents1.worldbank.org/curated/en/099513502142528787/pdf/IDU-b17303ed-2bae-41a2-9c52-5d5795945e21.pdf)
-- Topic: [energy efficiency](09.12-bank_outcome_energy.qmd)
-  - Example: [Avdeenko, A., Campos, F., Iacovone, L., Kala, N., Nuno, M., Salhab, J., and Martin, R. 2026. &ldquo;Does Financial Support Improve SME Energy Efficiency? An RCT in Europe.&rdquo; World Bank, Washington, DC.](assets/eenergy-2pager.pdf)
+:::: {.cards .topics}
+::: {.card-e}
+### [Firm performance and growth](09.01-bank_outcomes_performance.qmd) {.unlisted}
+Turnover, profits, value added, productivity, wages, exports and firm survival.
+
+Example: [the TIDES of Change report (World Bank, 2025)](https://www.worldbank.org/en/region/eca/publication/tides-of-change-igniting-productivity-growth-in-europe-and-central-asia)
+:::
+::: {.card-e}
+### [Innovation and intellectual property](09.02-bank_survey_innov.qmd) {.unlisted}
+Types and novelty of innovation, sales from new products, innovation spending, technology readiness, patents, trademarks and licensing.
+
+Example: [the returns to innovation subsidies in Romania (South-Muntenia)](03-examples.qmd#south-muntenia)
+:::
+::: {.card-e}
+### [R&D activity](09.03-bank_survey_r&d.qmd) {.unlisted}
+Whether the firm does R&D, how much it spends and how many staff work on it.
+
+Example: [financial support to innovate in Spain (Extremadura)](03-examples.qmd#spain)
+:::
+::: {.card-e}
+### [Digitalisation and technology adoption](09.05-bank_survey_digital.qmd) {.unlisted}
+Technology adoption and spending, online sales, digital investment and skills, and digital maturity.
+
+Example: [financial support to digitalise in Romania (North-East)](03-examples.qmd#romania-north-east-digitalisation)
+:::
+::: {.card-e}
+### [Collaboration and knowledge transfer](09.06-bank_survey_collab.qmd) {.unlisted}
+Collaboration, partner diversity, links with universities and researchers, and cluster or network membership.
+
+Example: [matching businesses with scientists in Croatia](03-examples.qmd#croatia)
+:::
+::: {.card-e}
+### [Employment and human capital](09.08-bank_survey_employ.qmd) {.unlisted}
+Jobs, job growth, high-skilled staff, training and wages.
+
+Example: [financial support to digitalise in Romania (North-East)](03-examples.qmd#romania-north-east-digitalisation)
+:::
+::: {.card-e}
+### [Business finance](09.09-bank_outcome_finance.qmd) {.unlisted}
+Access to equity, debt and public finance, and its use for R&D and innovation.
+
+Example: [making firms investment-ready in the Western Balkans (2018)](https://openknowledge.worldbank.org/server/api/core/bitstreams/28fbd029-9619-5eb8-836a-c1432fe1581b/content)
+:::
+::: {.card-e}
+### [Business support and training](09.10-bank_outcome_train.qmd) {.unlisted}
+Applications to, participation in and type of business support, and formal employee training.
+
+Example: [scaling up management consulting in Colombia](03-examples.qmd#colombia-scaling-up-management-consulting)
+:::
+::: {.card-e}
+### [Management practices](09.11-bank_outcome_mgmt.qmd) {.unlisted}
+An overall management index and its eight dimensions, from problem solving to dealing with underperformance.
+
+Example: [how management practices differ in the EU-27 (2025)](https://documents1.worldbank.org/curated/en/099513502142528787/pdf/IDU-b17303ed-2bae-41a2-9c52-5d5795945e21.pdf)
+:::
+::: {.card-e}
+### [Energy efficiency](09.12-bank_outcome_energy.qmd) {.unlisted}
+Energy use, cost and mix, on-site renewables, energy management, audits, investment and savings.
+
+Example: [grants for SME energy efficiency in Europe](03-examples.qmd#europe-grants-for-sme-energy-efficiency)
+:::
+::::
+
+## How to use the indicators
+
+The indicators are suggestions and a starting point, not a complete or prescribed set: they do not cover every indicator an evaluation may need, and not all of them will suit every evaluation.
+
+1. Open the topic that matches the intervention you are evaluating.
+2. Select the indicators that match the causal chain in your Theory of Change.
+3. Adapt the definitions and metrics to your intervention and context.
+4. Find tested questions to measure them in the [survey question repository](08-bank_survey.qmd).
+
+The reports and manuals below give more detail and further indicators, so it is worth consulting them directly when an indicator is central to your evaluation.
+
+## Sources
+
+The selection of indicators and their definitions in this repository was informed by the EuroCOMP Lab evaluations (see [Examples](03-examples.qmd)), policy reports such as the [World Bank's TIDES report](https://www.worldbank.org/en/region/eca/publication/tides-of-change-igniting-productivity-growth-in-europe-and-central-asia), and established indicator manuals such as the [OECD Oslo Manual](https://www.oecd.org/en/publications/2018/10/oslo-manual-2018_g1g9373b.html) for innovation and the [OECD Frascati Manual](https://www.oecd.org/en/publications/2015/10/frascati-manual-2015_g1g57dcb.html) for research and development. Drawing on these sources improves the quality of your data and makes findings easier to compare with evidence from other interventions and regions.
+
+### Publications behind the examples {.unlisted}
+
+::: {.refs}
+- Avdeenko, A., Campos, F., Chandy, R., Iacovone, L., and Kala, N. 2025. &ldquo;[Connecting Minds, Creating Innovation: Matchmaking between Business and Science in Croatia](https://documents1.worldbank.org/curated/en/099062725130142696/pdf/P171223-e13421d0-c5a3-4085-ac74-1883f089d91e.pdf).&rdquo; World Bank, Washington, DC.
+- Avdeenko, A., Campos, F., Iacovone, L., Kala, N., Nuno, M., Salhab, J., and Martin, R. 2026. &ldquo;[Does Financial Support Improve SME Energy Efficiency? An RCT in Europe](assets/eenergy-2pager.pdf).&rdquo; World Bank, Washington, DC.
+- Cusolito, A. P., Dalton, P., and Ortega, S. R. 2025. &ldquo;[The Impact of Large Public Grants on Industrial R&D: Evidence from an RCT in Extremadura](https://documents1.worldbank.org/curated/en/099062725130024487/pdf/P171223-e6f6ea58-057f-4a96-b15e-2003d3ecd2a3.pdf).&rdquo; World Bank, Washington, DC.
+- Dautovic, E., Cusolito, A. P., and McKenzie, D. 2018. &ldquo;[Can Government Intervention Make Firms More Investment-Ready?: A Randomized Experiment in the Western Balkans](https://openknowledge.worldbank.org/server/api/core/bitstreams/28fbd029-9619-5eb8-836a-c1432fe1581b/content).&rdquo; Policy Research Working Paper; No. 8541. World Bank, Washington, DC.
+- Iacovone, L., Aviomoh, H., Belacin, M., Bossavie, L., Cusolito, A., de Hoyos, R., Ottaviano, G., Scheifele, F., Torre, I., and Yoshino, Y. 2025. &ldquo;[TIDES of Change: Igniting Productivity Growth in Europe and Central Asia](https://www.worldbank.org/en/region/eca/publication/tides-of-change-igniting-productivity-growth-in-europe-and-central-asia).&rdquo; Overview booklet. Washington, DC: World Bank. License: Creative Commons Attribution CC BY 3.0 IGO
+- Iacovone, L., Maloney, W., and McKenzie, D. 2022. &ldquo;[Improving Management with Individual and Group-Based Consulting: Results from a Randomized Experiment in Colombia](https://documents1.worldbank.org/curated/en/166671557929384690/pdf/Improving-Management-with-Individual-and-Group-Based-Consulting-Results-from-a-Randomized-Experiment-in-Colombia.pdf).&rdquo; The Review of Economic Studies, Review of Economic Studies Ltd, vol. 89(1), pages 346-371.
+- Viganola, D. and Diallo, M. Y. 2025. &ldquo;[How Management Practices Differ in the EU-27](https://documents1.worldbank.org/curated/en/099513502142528787/pdf/IDU-b17303ed-2bae-41a2-9c52-5d5795945e21.pdf).&rdquo; Policy Indicators Briefs. World Bank, Washington, DC.
+- World Bank. 2025. &ldquo;[Thinking Bigger: Digital Transformation in North-East Romania: Short-Term Impacts](https://documents1.worldbank.org/curated/en/099062725130014823/pdf/P171223-aee2b26f-49c8-4bd1-a313-6a8d9d71abc4.pdf).&rdquo; Strengthening Monitoring and Evaluation of Innovation Programs in the EU. World Bank, Washington, DC.
+:::

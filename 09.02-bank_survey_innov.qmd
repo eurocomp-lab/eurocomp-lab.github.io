@@ -3,6 +3,12 @@ title: "Outcome indicators: innovation and IP"
 description-meta: "Measure innovation with outcome indicators for new products and processes, innovation spending, technology readiness, patents, trademarks and licensing."
 ---
 
+::: {.topic-nav}
+[Indicator repository](09-bank_outcomes.qmd)
+
+Matching survey questions: [innovation, R&D and intellectual property](08.08-bank_survey_innov.qmd), [technology readiness level](08.11-bank_survey_trl.qmd)
+:::
+
 **Innovation activity**
 
 - **Definition:** whether the firm engaged in any innovation activity during the evaluation period, including product, process, or organisational innovation
@@ -54,7 +60,7 @@ description-meta: "Measure innovation with outcome indicators for new products a
 
 **Technology Readiness Level (TRL)**
 
-- **Definition:** the maturity of the firm's main technology or product under development, assessed against the European Commission's nine-point TRL scale — from basic principles observed (TRL 1) to a fully proven operational system (TRL 9)
+- **Definition:** the maturity of the firm's main technology or product under development, assessed against the European Commission's nine-point TRL scale, from basic principles observed (TRL 1) to a fully proven operational system (TRL 9)
 - **Metric:** current TRL score (1–9); TRL advancement (number of levels gained from baseline to endline)
 
 ***

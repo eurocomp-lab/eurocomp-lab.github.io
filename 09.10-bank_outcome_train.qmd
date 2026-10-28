@@ -3,6 +3,12 @@ title: "Outcome indicators: business support and training"
 description-meta: "Measure take-up of business support with outcome indicators for applications, participation, programme type and formal employee training."
 ---
 
+::: {.topic-nav}
+[Indicator repository](09-bank_outcomes.qmd)
+
+Matching survey questions: [business support and training](08.14-bank_survey_train.qmd)
+:::
+
 **Application for business support programmes**
 
 - **Definition:** whether the firm applied for any business support programme in the reference year

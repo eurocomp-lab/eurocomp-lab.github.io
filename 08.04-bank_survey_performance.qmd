@@ -3,6 +3,12 @@ title: "Survey questions: company financial performance"
 description-meta: "Ask firms about employees, turnover, wages, investment, exports, profit, debt and assets, and how they rate their finances, using tested survey questions."
 ---
 
+::: {.topic-nav}
+[Survey question repository](08-bank_survey.qmd)
+
+Matching indicators: [firm performance and growth](09.01-bank_outcomes_performance.qmd), [employment and human capital](09.08-bank_survey_employ.qmd)
+:::
+
 **How many full-time paid employees work in the business as of the end of [year]?**
 *(Open numeric field)*
 
@@ -38,7 +44,7 @@ description-meta: "Ask firms about employees, turnover, wages, investment, expor
 
 ***
 
-**What was your company's total annual profit or loss in [year]**
+**What was your company's total annual profit or loss in [year]?**
 *(Open numeric field, in [currency]*
 *Enter positive number for profits and negative number for losses*
 
@@ -58,7 +64,7 @@ description-meta: "Ask firms about employees, turnover, wages, investment, expor
 
 ***
 
-**What was your company's operating costs in [year]?**
+**What were your company's operating costs in [year]?**
 *(Open numeric field, in [currency])*
 
 ***
@@ -68,5 +74,5 @@ description-meta: "Ask firms about employees, turnover, wages, investment, expor
 
 ***
 
-**What was your company's total assets (balance sheet total) in [year]?**
+**What were your company's total assets (balance sheet total) in [year]?**
 *(Open numeric field, in [currency])*
