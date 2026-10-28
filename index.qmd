@@ -244,12 +244,13 @@ Experimentation allows for testing, learning and adjusting during delivery.
 :::: {.cards}
 ::: {.card-e}
 #### [RCTs: why and when](01-why-and-when.qmd)
-Why an RCT is the most credible way to measure an intervention's impact, how it compares with
-other evaluation methods, when to use one, and when to plan it.
+::: {.card-e}
+#### [RCTs: why and when](01-why-and-when.qmd)
+What RCTs can and cannot show, how they compare with other evaluation methods, when to use and plan one, and common questions about RCTs.
 :::
 ::: {.card-e}
 #### [How to design an RCT](02-how.qmd)
-This page explains how to plan an RCT, walking you through the process in seven steps: from thinking through the causal logic of your intervention, through choosing the right design for your experiment, to ensuring high-quality data is collected.
+How to plan an RCT in seven steps: from the causal logic of the intervention, through choosing the right design, to ensuring high-quality data is collected.
 :::
 ::: {.card-e}
 #### [Examples](03-examples.qmd)
