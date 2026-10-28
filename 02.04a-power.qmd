@@ -12,11 +12,11 @@ description-meta: "Find out how many units your trial needs to detect an effect,
 This page explains what a power calculation is, what goes into it, and what a managing authority needs to know to have a useful conversation with an evaluator about sample size.
 :::
 
-A power calculation sounds technical. In practice it answers one practical question: **do you have enough firms to detect whether the intervention works?** This page explains what drives that number, how to think about it without needing to do the maths yourself, and what to do if the answer turns out to be no.
+A power calculation sounds technical. In practice it answers one practical question: **do you have enough unit to detect whether the intervention works?** This page explains what drives that number, how to think about it without needing to do the maths yourself, and what to do if the answer turns out to be no.
 
 ***
 
-## The core problem: too few firms and you may miss the truth
+## The core problem: too few units and you may miss the truth
 
 Imagine an intervention that genuinely improves firm productivity by 8%. If your evaluation includes only thirty firms, the natural variation between those firms - some were already growing fast, some were already struggling - may easily produce an 8% difference between treatment and comparison groups by chance alone. You cannot tell whether the intervention caused the difference or whether chance did. The intervention may work, but your evaluation cannot prove it.
 
@@ -25,7 +25,7 @@ Add more firms and the picture becomes clearer. With enough observations, the av
 ::: {.compare}
 ::: {.col-e}
 ::: {.col-head}
-Too few firms
+Too few units
 :::
 ::: {.body}
 ```{=html}
@@ -38,12 +38,12 @@ Too few firms
 </span><span></span><span></span>
 </div>
 ```
-Real impacts may go undetected: ordinary differences between firms drown out the intervention's effect.
+Real impacts may go undetected: ordinary differences between units drown out the intervention's effect.
 :::
 :::
 ::: {.col-e}
 ::: {.col-head}
-Enough firms
+Enough units
 :::
 ::: {.body}
 ```{=html}
@@ -62,14 +62,14 @@ Real impacts become measurable: averages settle and the difference stands out.
 :::
 
 ::: {.takeaway}
-More firms do not make the lottery fairer - they make its answer visible.
+More units do not make the lottery fairer - they make its answer visible.
 :::
 
 
 
 ## What drives the required sample size?
 
-The number of firms you need depends on two things that pull in opposite directions.
+The number of units you need depends on two things that pull in opposite directions.
 
 ::: {.compare}
 ::: {.col-e}
@@ -79,25 +79,25 @@ The size of the effect you want to detect
 ::: {.body}
 An intervention that doubles firm turnover is easy to spot even in a small group. An intervention that increases turnover by 5% requires a much larger group to detect reliably.
 
-**Small expected effect → more firms needed.**
-**Large expected effect → fewer firms needed.**
+**Small expected effect → more units needed.**
+**Large expected effect → fewer units needed.**
 :::
 :::
 ::: {.col-e}
 ::: {.col-head}
-How much firms vary from each other
+How much units vary from each other
 :::
 ::: {.body}
-If all firms in the target population are very similar - same size, same sector, similar starting performance - a small sample is enough to pick up a difference. If firms vary enormously, you need more of them to be confident that a difference reflects the intervention rather than the mix of firms you happened to include.
+If all units in the target population are very similar in characteristics (e.g. same firm size, same sector, similar starting performance), a small sample is enough to pick up a difference. If units vary enormously, you need more of them to be confident that a difference reflects the intervention rather than the mix of units you happened to include.
 
-**High variation → more firms needed.**
-**Low variation → fewer firms needed.**
+**High variation → more units needed.**
+**Low variation → fewer units needed.**
 :::
 :::
 :::
 
 ::: {.gold-panel}
-Think of trying to hear a quiet voice in a noisy room. A louder voice needs no particular conditions to be heard. A quieter voice needs a quieter room - or more people listening carefully. More firms are the equivalent of reducing the noise.
+Think of trying to hear a quiet voice in a noisy room. A louder voice needs no particular conditions to be heard. A quieter voice needs a quieter room - or more people listening carefully. More units are the equivalent of reducing the noise.
 :::
 
 
@@ -132,9 +132,9 @@ A power calculation takes four inputs and returns a single number: the minimum s
 
 Here is what each ingredient means in plain language:
 
-**Expected effect.** What is the smallest improvement in your primary outcome that would be meaningful enough to be worth detecting? This is a policy judgement, not a statistical one. If a 5% increase in firm R&D spending would be considered a success, that is your expected effect. If only a 25% increase would change how the intervention is designed in the next round, use that. Evidence from similar interventions in other regions or member states can help anchor this number. The smaller the effect you want to reliably detect, the more firms you will need.
+**Expected effect.** What is the smallest improvement in your primary outcome that would be meaningful enough to be worth detecting? This is a policy judgement, not a statistical one. If a 5% increase in firm R&D spending would be considered a success, that is your expected effect. If only a 25% increase would change how the intervention is designed in the next round, use that. Evidence from similar interventions in other regions or member states can help anchor this number. The smaller the effect you want to reliably detect, the more units you will need.
 
-**Variation between firms.** How much do firms in your target population differ from each other on the outcome of interest, even before the intervention starts? This is usually estimated from existing data - a prior round of the intervention, national statistics, or a comparable survey. The evaluator will handle this, but it is worth knowing that the more heterogeneous your target population, the larger the required sample.
+**Variation between units.** How much do units in your target population differ from each other on the outcome of interest, even before the intervention starts? This is usually estimated from existing data - a prior round of the intervention, national statistics, or a comparable survey. The evaluator will handle this, but it is worth knowing that the more heterogeneous your target population, the larger the required sample.
 
 **Confidence level.** How willing are you to risk concluding that the intervention worked when it actually did not? The standard is a 5% risk - meaning the evaluation is designed so that a false positive would only arise by chance in 1 out of 20 identical studies. This does not normally need to be changed.
 
@@ -150,7 +150,7 @@ In North-East Romania, the evaluation team ran the power calculation before the 
 
 ```{=html}
 <figure class="fig-e">
-<svg viewBox="0 0 680 190" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="The pool of 1038 firms is checked against the required sample produced by the power calculation">
+<svg viewBox="0 0 680 190" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="The pool of 1,038 firms is checked against the required sample produced by the power calculation">
   <rect x="20" y="56" width="190" height="72" rx="6" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
   <text x="115" y="88" text-anchor="middle" fill="var(--dg-ink)" font-size="21" font-weight="bold">1,038</text>
   <text x="115" y="110" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5">firms in the pool</text>
@@ -171,21 +171,19 @@ In North-East Romania, the evaluation team ran the power calculation before the 
 :::
 
 
-## Always randomise more firms than you need at endline
+## Always randomise more units than you need at endline
 
-The power calculation tells you how many firms you need to observe at the *end* of the evaluation - at the endline survey. But not every firm randomised at baseline will still be reachable by then. Some will have closed, relocated, or simply stopped responding. This is called attrition, and it is one of the most common threats to the validity of an RCT.
+The power calculation tells you how many units you need to observe at the end of the evaluation - at the endline survey. But not every unit randomised at baseline will still be reachable by then. For example, firms will have closed, relocated, or simply stopped responding. This is called attrition, and it is one of the most common threats to the validity of an RCT.
 
-The practical implication is straightforward: always recruit more firms into the randomised pool than the power calculation requires, to leave a buffer for expected drop-out. If you need 400 firms at endline and expect that roughly one in five will be unreachable by then, you need to randomise at least 500 firms at baseline.
-
-The evaluation team will advise on the right buffer based on comparable studies, the expected follow-up period, and the availability of administrative data - which, in the EU, can often be used to track firms that drop out of surveys.
+The practical implication is straightforward: always recruit more units into the randomised pool than the power calculation requires, to leave a buffer for expected drop-out. If you need 400 units at endline and expect that roughly one in five will be unreachable by then, you need to randomise at least 500 units. The evaluation team will advise on the right buffer based on comparable studies, the expected follow-up period, and the availability of administrative data. In the EU, for firm-level intervention, adminstrative data can often be used to track firms and observe evaluation outcomes of firms that drop out of interventions. 
 
 ::: {.caution}
-Attrition is not just a power problem. If firms drop out at different rates in the treatment and comparison groups - for example, if struggling firms in the comparison group are more likely to close - the two groups stop being comparable and the impact estimate becomes biased. Step 7 covers how to detect and address this.
+Attrition is not just a power problem. If units drop out at different rates in the treatment and comparison groups - for example, if struggling firms in the comparison group are more likely to close - the two groups stop being comparable and the impact estimate becomes biased.
 :::
 
 
 
-## What if there are not enough firms?
+## What if there are not enough unit?
 
 If the power calculation reveals that your eligible pool is too small, there are six practical fixes. The right combination depends on what is driving the shortfall.
 
@@ -197,19 +195,19 @@ If the power calculation reveals that your eligible pool is too small, there are
   </div></div>
   <div class="d"><div>
     <h3>Expand eligibility</h3>
-    <p>Lowering the eligibility threshold adds more firms to the pool. Be careful not to expand so broadly that the evaluation no longer answers the original question - the expanded population should still be the one the intervention is designed to serve.</p>
+    <p>Lowering the eligibility threshold adds more units to the pool. Be careful not to expand so broadly that the evaluation no longer answers the original question - the expanded population should still be the one the intervention is designed to serve.</p>
   </div></div>
   <div class="d"><div>
     <h3>Combine regions or cohorts</h3>
-    <p>If a single region or intervention round does not produce enough firms, pooling two regions running similar interventions - or two consecutive cohorts - into a single evaluation can reach the required sample without changing the design.</p>
+    <p>If a single region or intervention round does not produce enough units, pooling two regions running similar interventions - or two consecutive cohorts - into a single evaluation can reach the required sample without changing the design.</p>
   </div></div>
   <div class="d"><div>
     <h3>Run a phase-in</h3>
-    <p>Rather than running the intervention to all eligible firms at once, stagger rollout across waves. Each wave that is still waiting acts as the comparison group for the waves already receiving support - doubling the effective sample without needing more firms overall.</p>
+    <p>Rather than running the intervention to all eligible units at once, stagger rollout across waves. Each wave that is still waiting acts as the comparison group for the waves already receiving support - doubling the effective sample without needing more units overall.</p>
   </div></div>
   <div class="d"><div>
     <h3>Focus on where effects are largest</h3>
-    <p>If the expected effect is larger among a specific subgroup - younger firms, firms in a particular sector, firms with no prior R&D experience - narrowing the focus raises the detectable effect and reduces the required sample. This only makes sense if the narrowed population remains policy-relevant.</p>
+    <p>If the expected effect is larger among a specific subgroup (e.g. younger firms, firms in a particular sector, firms with no prior R&D experience), narrowing the focus raises the detectable effect and reduces the required sample. This only makes sense if the narrowed population remains policy-relevant.</p>
   </div></div>
   <div class="d"><div>
     <h3>Invest in a strong baseline</h3>
