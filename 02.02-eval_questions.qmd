@@ -85,7 +85,7 @@ Evaluation questions must be scoped to what the evaluation can credibly deliver.
 
 **Over-ambition.** An evaluation that promises to answer questions about long-term productivity effects, regional spillovers, and mechanisms simultaneously may not be powered to answer any of them well. Prioritise the primary question and be selective about secondary questions.
 
-**Attribution.** Learning questions should be scoped to what can be attributed to the intervention, not to broader trends. If a question asks whether firms in the region became more innovative, the answer will reflect macroeconomic conditions and parallel policies as much as the intervention itself. A well-scoped causal question asks about the *difference* between treated and comparison firms, not about levels.
+**Attribution.** Learning questions should be scoped to what can be attributed to the intervention, not to broader trends. If a question asks whether firms in the region became more innovative, the answer will reflect macroeconomic conditions and parallel policies as much as the intervention itself. A well-scoped causal question asks about the *difference* between treatment and comparison group, not about levels.
 
 
 ::: {.nav-buttons}
