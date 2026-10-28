@@ -9,7 +9,7 @@ description-meta: "Find out how many firms your trial needs to detect an effect,
 
 ::: {.team-note}
 ## Summary {.unlisted}
-This page explains what a power calculation is, what goes into it, and what a Managing Authority needs to know to have a useful conversation with an evaluator about sample size.
+This page explains what a power calculation is, what goes into it, and what a managing authority needs to know to have a useful conversation with an evaluator about sample size.
 :::
 
 A power calculation sounds technical. In practice it answers one practical question: **do you have enough firms to detect whether the programme works?** This page explains what drives that number, how to think about it without needing to do the maths yourself, and what to do if the answer turns out to be no.
@@ -103,7 +103,7 @@ Think of trying to hear a quiet voice in a noisy room. A louder voice needs no p
 
 ## The four ingredients a power calculation combines
 
-A power calculation takes four inputs and returns a single number: the minimum sample size the evaluation needs. The evaluator handles the calculation; the Managing Authority needs to understand what the inputs mean so that the conversation about sample size is grounded in the programme's actual context.
+A power calculation takes four inputs and returns a single number: the minimum sample size the evaluation needs. The evaluator handles the calculation; the managing authority needs to understand what the inputs mean so that the conversation about sample size is grounded in the programme's actual context.
 
 ```{=html}
 <figure class="fig-e">
@@ -220,14 +220,14 @@ If the power calculation reveals that your eligible pool is too small, there are
 
 ***
 
-## A practical note for Managing Authorities
+## A practical note for managing authorities
 
-The power calculation is usually the evaluator's job - not the Managing Authority's. But the Managing Authority is the only party that can answer the policy question that drives the most important input: what effect would be large enough to matter?
+The power calculation is usually the evaluator's job - not the managing authority's. But the managing authority is the only party that can answer the policy question that drives the most important input: what effect would be large enough to matter?
 
-A Managing Authority that can say "we would consider the programme successful if it increased firm R&D spending by at least 15%" gives the evaluator something concrete to work with. A Managing Authority that leaves that question open will get a power calculation based on assumptions it may not recognise or agree with - and may end up with a required sample that is either impossibly large or so small that meaningful effects cannot be detected.
+A managing authority that can say "we would consider the programme successful if it increased firm R&D spending by at least 15%" gives the evaluator something concrete to work with. A managing authority that leaves that question open will get a power calculation based on assumptions it may not recognise or agree with - and may end up with a required sample that is either impossibly large or so small that meaningful effects cannot be detected.
 
 ::: {.takeaway}
-The conversation about sample size is one of the most important early conversations between the Managing Authority and the evaluation team. Have it before the programme design is finalised - not after the eligible pool is already fixed.
+The conversation about sample size is one of the most important early conversations between the managing authority and the evaluation team. Have it before the programme design is finalised - not after the eligible pool is already fixed.
 :::
 
 ***
