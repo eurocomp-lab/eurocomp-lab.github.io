@@ -5,7 +5,7 @@ description-meta: "Follow seven steps to design a credible randomised controlled
 
 ::: {.team-note}
 ## Summary {.unlisted}
-This page covers the internal team to assemble before starting and seven sequential steps - Theory of Change (ToC), learning questions, indicators, feasibility, data sources, data collection, and data quality - for designing a credible randomised controlled trial (RCT).
+This page covers the internal team to assemble before starting, and seven sequential steps - Theory of Change (ToC), learning questions, indicators, feasibility, data sources, data collection, and data quality - for designing a credible randomised controlled trial (RCT).
 :::
 
 A well-designed RCT does not begin with randomisation - it begins with a clear understanding of what an intervention is trying to achieve and why. The seven steps below set out the preparatory work that makes randomisation meaningful and the results credible. Managing authorities are encouraged to work through them in sequence, ideally before the first call for applications is launched.
