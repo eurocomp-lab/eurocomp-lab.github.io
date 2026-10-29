@@ -899,8 +899,7 @@ Too few units or too little money. Large indirect or spillover effects that cann
 reason to drop an RCT: if expected, they can be designed for and measured; see
 [Step 5: how to randomise](02.05-randomisation.qmd#what-are-potential-challenges).)
 Support that has to reach all eligible recipients at once, for example emergency aid after a natural
-disaster. Treatment assigned at too high a level, for example to whole NUTS 2 regions, which are
-difficult to randomise.
+disaster. Treatment assigned at too high a level, for example regional policy.
 :::
 ::: {.card-e}
 [04]{.num}
@@ -1002,20 +1001,6 @@ Scale up based on evidence.
 :::
 :::
 
-```{=html}
-<div class="further-reading">
-  <span class="fr-label">Further reading: North-East Romania</span>
-  <div class="fr-entry">
-  <span class="fr-cite">World Bank. 2025. &ldquo;Thinking Bigger: Digital Transformation in North-East Romania: Short-Term Impacts.&rdquo; Strengthening Monitoring and Evaluation of Innovation Programs in the EU. World Bank, Washington, DC.</span>
-  <a href="https://documents1.worldbank.org/curated/en/099062725130014823/pdf/P171223-aee2b26f-49c8-4bd1-a313-6a8d9d71abc4.pdf">Read the report &rarr;</a>
-  </div>
-  <div class="fr-entry">
-  <span class="fr-cite">Anderson, S. J., Avdeenko, A., Espinosa-Balbuena, J., Chandy, R., Iacovone, L., and Marć, Ł. M. 2026. &ldquo;Digital Adoption Grants and Spillovers: Evidence from a Large-Scale Randomized Field Experiment.&rdquo; Working paper.</span>
-  <a href="https://www.dropbox.com/scl/fi/oui5tiwrq05w2ub4uyi72/Smart_IE_Romania.pdf?rlkey=gi8a8x324y2aju9hoir241tk7&amp;st=8jqbnc1g&amp;dl=0">Read the paper &rarr;</a>
-  </div>
-</div>
-```
-
 ***
 
 ## Common questions about RCTs {#common-questions}
@@ -1044,9 +1029,9 @@ Randomisation is already used to select beneficiaries across Europe. Managing au
 <details class="myth-box">
 <summary>Why are RCTs often called the gold standard?</summary>
 
-Because the comparison group is created by random assignment, the estimate does not depend on assumptions about how the groups would otherwise have evolved, such as parallel trends or the absence of unobserved differences. The Commission's [Better Regulation toolbox](https://commission.europa.eu/law/law-making-process/better-regulation/better-regulation-guidelines-and-toolbox/better-regulation-toolbox_en) (Tool #68) accordingly describes randomised controlled trials as "the benchmark for scientific quantitative methods".
+Because they provide robust causal evidence. Random assignment makes the treatment and comparison groups similar on average, in characteristics that can be measured as well as in those that cannot, so a difference in results between the groups can be attributed to the intervention rather than to pre-existing differences. No assumptions about how the groups would otherwise have evolved, such as parallel trends, are needed, as long as randomisation is implemented correctly. And the estimate is simple to calculate and to explain: it is the difference in average results between the groups. The Commission's [Better Regulation toolbox](https://commission.europa.eu/law/law-making-process/better-regulation/better-regulation-guidelines-and-toolbox/better-regulation-toolbox_en) (Tool #68) accordingly describes randomised controlled trials as "the benchmark for scientific quantitative methods".
 
-This does not make an RCT the right choice in every case. It has to be feasible, ethical and well implemented, and some questions are better answered with other methods (see [When an RCT may not be the right choice](#when-not)).
+This does not make an RCT the right choice in every case. It has to be feasible, ethical and well implemented, and some questions are better answered with other methods.
 
 </details>
 
