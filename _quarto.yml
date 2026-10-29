@@ -63,7 +63,7 @@ format:
     theme: [cosmo, theme-eu.scss, theme-eu-refresh.scss]
     toc: true
     toc-title: "On this page"
-    toc-depth: 3
+    toc-depth: 2        # 'On this page' lists the main sections only, no bulleted sub-entries (team, 29 October)
     anchor-sections: true
     link-external-newwindow: false
     date-format: "D MMMM YYYY"
