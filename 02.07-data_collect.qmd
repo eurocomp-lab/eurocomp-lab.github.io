@@ -19,19 +19,21 @@ Step 6 determined where the data will come from. This step is about how and when
 
 ## Plan the data collection rounds
 
-An RCT evaluation requires data at multiple points in time. The exact rounds depend on the Theory of Change (ToC) and the data sources available, but the standard structure is:
+An RCT evaluation requires data at multiple points in time. The exact rounds depend on the Theory of Change (ToC) and the data sources available.
 
-**Baseline survey:** conducted before the intervention begins and might be used as the basis for randomising participants into treatment and comparison groups. It captures pre-treatment characteristics, enables [balance checks](glossary.qmd#balance "Glossary definition") after randomisation, and provides the benchmark against which post-intervention results are compared. It must be completed before randomisation is revealed. A baseline primary survey is almost always needed, since administrative data rarely contains the intermediate results and mechanism variables required by the evaluation.
+**Baseline survey:** conducted before the intervention begins and might be used as the basis for randomising units into treatment and comparison groups. It captures pre-treatment characteristics, enables [balance checks](glossary.qmd#balance "Glossary definition") after randomisation, and provides the benchmark against which post-intervention results are compared. It must be completed before randomisation is revealed. A baseline primary survey is almost always needed, since administrative data rarely contains the intermediate results and mechanism variables required by the evaluation.
 
 ::: {.example .romania data-map="romania-ne"}
 [North&#8209;East Romania: baseline survey]{.tag}
 
-A baseline survey (pre-application data) was administered: the primary objective of the baseline survey was to conduct an initial evaluation of the business's digital tool requirements and help determine their intervention eligibility. The survey questions covered topics such as location, sector, financial considerations (e.g. profits, capital, assets, liabilities), and legal prerequisites. The survey required approximately an hour to complete and was completed online by each firm between June and the end of September 2023.
+A baseline survey (pre-application data) was administered: the primary objective of the baseline survey was to conduct an initial evaluation of the business's digital tool requirements and help determine their intervention eligibility. The survey questions covered topics such as firm location, sector, financial considerations (e.g. profits, capital, assets, liabilities), and legal prerequisites. The survey required approximately an hour to complete and was completed online by each firm between June and the end of September 2023.
 :::
 
-**Follow-up data collection:** measures results after the intervention, at a point when effects are realistically expected to have materialised. In the European Union (EU) context, a dedicated endline survey is not always necessary. Business registries, tax records, social security data, and customs records, consistently available across member states, can cover many of the core result indicators without placing any additional burden on participants. For firms, these include turnover, employment, exports and productivity; for people, employment and earnings. Where administrative data provides sufficient coverage, it should be the primary endline source.
+**Midline survey (optional):** where the ToC includes important intermediate results worth tracking before the final endline (for example, changes in management practices or technology adoption as precursors to longer-term productivity effects), a midline round may be warranted. Include a midline only if it is required to answer a specific evaluation question, not as a routine addition.
 
-A primary endline survey becomes necessary only when the evaluation requires results or mechanisms that administrative records do not contain: for example, management practices, innovation behaviour, digital technology adoption, or respondent-reported perceptions of the intervention.
+**Follow-up data collection:** measures results after the intervention, at a point when effects are realistically expected to have materialised. In the European Union (EU) context, a dedicated follow-up survey is not always necessary. Administrative data consistently available across member states, can cover many of the core results indicators without placing any additional burden on participants. For firms, these include turnover, employment, exports and productivity; for people, employment and earnings. Where administrative data provides sufficient time, unit, and indicator coverage, it should be the main data source for follow-up.
+
+A primary endline survey becomes necessary when the evaluation requires results or mechanisms that administrative records do not contain: for example, management practices, innovation behaviour, digital technology adoption, or respondent-reported perceptions of the intervention.
 
 ::: {.example .romania data-map="romania-ne"}
 [North&#8209;East Romania: follow-up data collection]{.tag}
@@ -49,18 +51,16 @@ A follow-up survey was administered: the 1,038 firms surveyed at baseline were c
 9. financial information for the business in 2024
 :::
 
-**Midline survey (optional):** where the ToC includes important intermediate results worth tracking before the final endline (for example, changes in management practices or technology adoption as precursors to longer-term productivity effects), a midline round may be warranted. Include a midline only if it is required to answer a specific evaluation question, not as a routine addition.
 
-**Administrative data timing:** access to administrative records should be requested and negotiated well in advance of the baseline. These sources typically come with a reporting lag of one to two years, which must be factored into the evaluation timeline. The advantage is coverage: administrative data tracks all units in the sample, including those who do not respond to surveys, making it a more complete picture of results than a survey endline alone.
+**Administrative data timing:** access to administrative records should be requested and negotiated well in advance of the baseline. These sources typically come with a reporting lag of one to two years, which must be factored into the evaluation timeline. The advantage is coverage: administrative data tracks all units in the sample, including those who do not respond to surveys, making it a more complete picture of results than a survey endline alone. 
 
-In the EU, the consistent availability of administrative data (tax records, business registries, social security data) means that a primary endline survey can often be avoided. Prioritise administrative data for core financial and employment results; reserve primary survey rounds for the results and mechanisms that only participants themselves can report on.
-
+In the EU, the consistent availability of administrative data means that a primary follow-up survey can often be avoided. Prioritise administrative data for core financial and employment results; reserve primary survey rounds for the results and mechanisms that only participants themselves can report on.
 
 ## Why surveys?
 
-Surveys are the most widely used tool for collecting primary data in impact evaluations of public support interventions. They make it possible to gather structured, comparable information directly from the firms, individuals, or organisations that an intervention is designed to benefit, capturing precisely the results and mechanisms that administrative records do not contain.
+Surveys are the most widely used tool for collecting primary data in impact evaluations of public support interventions. They make it possible to gather structured, comparable information directly from the units that an intervention is designed to benefit, capturing precisely the results and mechanisms that administrative records do not contain.
 
-A particular strength of surveys is their scalability. Rather than collecting information from every single beneficiary in a target population, a well-designed survey can be conducted on a carefully selected subset: a sample. Provided that sample is representative, the findings can be generalised with confidence to the full population.
+A particular strength of surveys is their scalability. Rather than collecting information from every single unit in a target population, a well-designed survey can be conducted on a carefully selected subset: a sample. Provided that sample is representative, the findings can be generalised with confidence to the full population.
 
 Evaluations of business support often measure competitiveness and innovation results, such as changes in firm-level Research and Development (R&D) investment, technology adoption, or management practices. For these, surveys are often the only way to capture the intermediate results that sit between a grant payment and a long-term productivity gain visible in national statistics. They are also essential for understanding why an intervention worked or did not, by measuring the mechanisms that link the intervention's activities to its results.
 
