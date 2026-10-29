@@ -20,8 +20,8 @@ This website pools knowledge and resources to help managing authorities and eval
 
 ```{=html}
 <div class="hero-draw" role="figure" aria-labelledby="hero-draw-caption">
-  <img src="assets/hero/random-draw.svg" alt="Forty eligible firms of different sizes are split by a random draw into two groups of twenty, each with a similar mix of small, medium and large firms.">
-  <div class="hero-draw-caption"><span id="hero-draw-caption">A random draw splits eligible applicants into two groups with a similar mix of firms. Any difference that appears later can be credited to the intervention.</span><button type="button" class="draw-again" hidden>Run the draw again</button></div>
+  <img src="assets/hero/random-draw.svg" alt="Forty eligible applicants with different characteristics, shown as dots of three sizes, are split by a random draw into two groups of twenty, each with a similar mix of characteristics.">
+  <div class="hero-draw-caption"><span id="hero-draw-caption">A random draw splits eligible applicants into two groups that are similar on average. Any difference that appears later can be attributed to the intervention.</span><button type="button" class="draw-again" hidden>Run the draw again</button></div>
   <span class="visually-hidden" aria-live="polite"></span>
 </div>
 <script src="assets/hero/random-draw.js" defer></script>
@@ -174,8 +174,8 @@ whether the intervention caused a real difference. It is one of several types of
 
 **There is more than one credible way to conduct an impact evaluation**, and the right choice depends on the intervention, the available data and the timing.
 Quasi-experimental methods, such as matching,
-difference-in-differences or regression discontinuity design, compare participants with similar
-non-participants. Because the evaluator does not decide who ends up in which group, the comparability of the groups rests on assumptions that need to be stated and discussed.
+difference-in-differences or regression discontinuity design, compare participants with
+non-participants. Because participation is not decided by chance, the two groups may differ in ways that also affect results, so the credibility of the estimate rests on assumptions that need to be stated and discussed.
 
 In an RCT, the comparison group is created by random assignment before the intervention starts, so the comparability of the groups does not depend on such assumptions. The Commission's [Better Regulation toolbox](https://commission.europa.eu/law/law-making-process/better-regulation/better-regulation-guidelines-and-toolbox/better-regulation-toolbox_en) (Tool #68) describes randomised controlled trials as "the benchmark for scientific quantitative methods", with quasi-experimental methods as the option when randomised trials are not possible. As an RCT requires random assignment to the intervention, it has to be planned before or during implementation. See more on [how RCTs differ from quasi-experimental methods](01-why-and-when.qmd#alternatives) and [when an RCT is the right choice](01-why-and-when.qmd#two-questions) on the [RCTs: why and when](01-why-and-when.qmd) page.
 
@@ -216,7 +216,7 @@ Cohesion policy supports all EU regions, investing in areas ranging from innovat
 
 Experimentation is one way to obtain such evidence. Because an RCT creates the comparison group by random assignment, **it provides robust causal evidence on whether an intervention made a difference**.
 
-Experimentation also supports evidence-based policymaking and adaptive learning. Testing different versions of an intervention, or rolling it out in phases, lets managing authorities learn while delivery is under way and adjust the design, targeting or delivery of later rounds. Findings from one region can inform similar interventions in other regions and in future programming periods.
+**Experimentation also supports evidence-based policymaking and adaptive learning.** Testing different versions of an intervention, or rolling it out in phases, lets managing authorities learn while delivery is under way and adjust the design, targeting or delivery of later rounds. Findings from one region can inform similar interventions in other regions and in future programming periods.
 
 ::: {.gold-panel}
 Experimentation allows for testing, learning and adjusting during delivery.
@@ -239,14 +239,14 @@ Experimentation allows for testing, learning and adjusting during delivery.
 
 
 ***
-## How to start {.band}
+## How to start 
 
 ### Explore the site
 
 :::: {.cards}
 ::: {.card-e}
 #### [RCTs: why and when](01-why-and-when.qmd)
-What RCTs can and cannot show, how they compare with other evaluation methods, when to use and plan one, and common questions about RCTs.
+What the impact of an intervention is, how RCTs and other methods form a comparison group, when to use an RCT and answers to common questions.
 :::
 ::: {.card-e}
 #### [How to design an RCT](02-how.qmd)
