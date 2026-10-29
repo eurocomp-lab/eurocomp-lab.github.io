@@ -70,7 +70,7 @@ Key questions to assess at inception review:
 This section gives the consultant the context needed to design the data collection instruments and analysis plan. Include:
 
 - Name and objectives of the intervention and funding instrument
-- Description of the intervention: what firms receive, how much, under what conditions
+- Description of the intervention: what participants receive, how much, under what conditions
 - Eligibility criteria and selection methodology
 - Total budget, value of individual awards, and number of expected beneficiaries
 - Implementation timeline and any prior rounds
@@ -106,13 +106,13 @@ The consultant's responsibilities cover two functions: data collection and analy
 
 The methodology section is the technical core of the ToR. It should specify the evaluation design clearly enough that a qualified evaluator can assess whether the approach is appropriate, without being so prescriptive that it prevents the consultant from bringing their own expertise to bear.
 
-**Design:** Specify that the evaluation will use an RCT, and define the unit of randomisation (typically the firm), the level of randomisation (individual or cluster), and whether there are [multiple treatment arms](glossary.qmd#multiple-treatment-arms "Glossary definition").
+**Design:** Specify that the evaluation will use an RCT, and define the unit of randomisation (for business support, typically the firm), the level of randomisation (individual or cluster), and whether there are [multiple treatment arms](glossary.qmd#multiple-treatment-arms "Glossary definition").
 
-**Sample size and power:** Require a formal power analysis during the inception phase. The consultant must specify and justify the minimum detectable effect, required statistical power, significance level , expected take-up and attrition rates, and baseline variance of the primary outcome.
+**Sample size and power:** Require a formal power analysis during the inception phase. The consultant must specify and justify the minimum detectable effect, required statistical power, significance level, expected take-up and attrition rates, and baseline variance of the main result indicator.
 
-**Estimation:** The main analysis should compare all firms offered the support with all firms in the comparison group, whether or not the offered firms actually took the support up. This keeps the comparison fair and shows the effect of offering the intervention. If some firms did not take up the support, the consultant should also estimate the effect on the firms that actually received it. 
+**Estimation:** The main analysis should compare all units offered the support with all units in the comparison group, whether or not the units offered actually took the support up. This keeps the comparison fair and shows the effect of offering the intervention. If some of them did not take it up, the consultant should also estimate the effect on those that actually received it. 
 
-**Pre-registration:** Require pre-registration on a recognised public registry, such as the [American Economic Association (AEA) RCT Registry](https://www.socialscienceregistry.org/), before any data is collected. The pre-registration record must include the research question, randomisation procedure, primary and secondary outcomes, and analysis plan.
+**Pre-registration:** Require pre-registration on a recognised public registry, such as the [American Economic Association (AEA) RCT Registry](https://www.socialscienceregistry.org/), before any data is collected. The pre-registration record must include the research question, randomisation procedure, main and secondary result indicators, and analysis plan.
 
 **Data sources:** Specify which administrative datasets will be provided by the managing authority and which the consultant must access independently. If primary survey data is needed, clarify whether survey fieldwork is in scope or covered by a separate data collection contract.
 
@@ -135,14 +135,14 @@ The methodology section is the technical core of the ToR. It should specify the 
 
 | Variable | How it affects the budget |
 |---|---|
-| **Sample size** | More firms mean higher survey costs, because each additional interview adds fieldwork cost. |
-| **Design complexity** | Each additional treatment arm or planned subgroup comparison requires more firms. Randomising in clusters, such as regions or sectors, rather than individual firms also requires a larger sample to detect the same effect. |
+| **Sample size** | More participants mean higher survey costs, because each additional interview adds fieldwork cost. |
+| **Design complexity** | Each additional treatment arm or planned subgroup comparison requires more participants. Randomising in clusters, such as regions or sectors, rather than individual units also requires a larger sample to detect the same effect. |
 | **Number of survey rounds** | Each round adds a full fieldwork cycle: updating the questionnaire, training enumerators, conducting interviews, and cleaning data. Because data collection is usually the largest cost item, adding a midline or a second follow-up raises the total considerably. |
 | **Data collection mode** | Web surveys are the cheapest per interview, telephone interviews (CATI) cost more because of interviewer time, and face-to-face interviews (CAPI) cost the most because of travel and enumerator time. Cheaper modes may need extra follow-up to keep response rates up. |
-| **Questionnaire length and languages** | Longer questionnaires increase interviewer time per firm for CATI and CAPI, and can lower response rates. Each additional language adds translation, back-translation, and piloting costs. |
+| **Questionnaire length and languages** | Longer questionnaires increase interviewer time per interview for CATI and CAPI, and can lower response rates. Each additional language adds translation, back-translation, and piloting costs. |
 | **Geographic spread** | A widely dispersed sample increases travel time and costs for face-to-face interviews. It makes little difference for web or telephone surveys. |
 | **Use of administrative data** | Lowers costs where tax, registry, or social security records can replace survey rounds, especially the follow-up. Some costs remain for negotiating access, data-sharing agreements, linking and cleaning the data, and sometimes access fees. |
-| **Duration of the evaluation** | A longer evaluation means more months of research team time and project management, and more effort to keep track of firms between rounds. RCTs often run several years from design to final report. |
+| **Duration of the evaluation** | A longer evaluation means more months of research team time and project management, and more effort to keep track of participants between rounds. RCTs often run several years from design to final report. |
 | **Team composition and national labour costs** | Senior researchers cost more per day than junior staff, and fees for enumerators and consultants vary widely across countries. |
 | **Reporting and dissemination** | Workshops, translated reports, policy briefs, and presentations add relatively modest costs, mainly staff time and travel. |
 
@@ -184,7 +184,7 @@ For a full RCT evaluation, require:
 
 - an advanced degree in economics, statistics, or a related quantitative field
 - demonstrated experience designing and implementing experimental impact evaluations (with publicly available outputs as evidence)
-- experience with firm-level data
+- experience with data on the target population (for business support, firm-level data)
 - familiarity with EU cohesion policy and state aid rules
 
 Where a team is required, specify the expected composition and qualifications for each role.

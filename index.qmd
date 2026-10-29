@@ -38,20 +38,20 @@ This page explains what RCTs are, how they fit among other impact evaluation met
 ## What is an RCT?
 Experimentation, or experimental evaluation, means **testing an intervention by assigning eligible participants at random** either to receive it (or one version of it) or to a comparison group (also called a control group) that does not receive it, or receives a different version or another intervention. This is called a **randomised controlled trial (RCT)**. On this website, the terms "experimentation" and "RCT" are used interchangeably.
 
-Randomisation can be used, for example, when there are more eligible applicants than available places, or when an intervention is rolled out in phases and the order in which participants receive it is decided at random. Comparing average outcomes between the groups shows whether the intervention – and not something else going on at the same time – is the reason for the observed changes.
+Randomisation can be used, for example, when there are more eligible applicants than available places, or when an intervention is rolled out in phases and the order in which participants receive it is decided at random. Comparing average results between the groups shows whether the intervention – and not something else going on at the same time – is the reason for the observed changes.
 
-**Who ends up in which group is decided by a random draw.** It is not decided by who applied first, who looked most promising or whom the reviewer favoured. Because assignment is random, the groups are similar on average before the intervention starts, and any remaining differences between them are due only to chance. That is true not just for characteristics that can be measured, but also for those that cannot be observed. So **when a difference between the groups shows up later, it can be attributed to the intervention**, provided the trial is implemented as planned and outcomes are measured in the same way for both groups.
+**Who ends up in which group is decided by a random draw.** It is not decided by who applied first, who looked most promising or whom the reviewer favoured. Because assignment is random, the groups are similar on average before the intervention starts, and any remaining differences between them are due only to chance. That is true not just for characteristics that can be measured, but also for those that cannot be observed. So **when a difference between the groups shows up later, it can be attributed to the intervention**, provided the trial is implemented as planned and results are measured in the same way for both groups.
 
 ```{=html}
 <figure class="fig-e">
-<svg class="fig-wide" viewBox="0 0 660 262" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Eligible applicants with a mix of characteristics are split by a random draw into an intervention group and a comparison group with a similar mix on average. Later, the difference between the two groups' average outcomes is the effect of the intervention.">
+<svg class="fig-wide" viewBox="0 0 660 262" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Eligible applicants with a mix of characteristics are split by a random draw into an intervention group and a comparison group with a similar mix on average. Later, the difference between the two groups' average results is the effect of the intervention.">
   <!-- column headers -->
   <rect x="10" y="14" width="150" height="34" rx="5" fill="var(--dg-ink)"/>
   <text x="85" y="36" text-anchor="middle" fill="var(--dg-reverse)" font-size="13.5" font-weight="bold">Eligible applicants</text>
   <rect x="215" y="14" width="180" height="34" rx="5" fill="var(--dg-ink)"/>
   <text x="305" y="36" text-anchor="middle" fill="var(--dg-reverse)" font-size="13.5" font-weight="bold">Random draw</text>
   <rect x="435" y="14" width="215" height="34" rx="5" fill="var(--dg-ink)"/>
-  <text x="542" y="36" text-anchor="middle" fill="var(--dg-reverse)" font-size="13.5" font-weight="bold">Outcomes</text>
+  <text x="542" y="36" text-anchor="middle" fill="var(--dg-reverse)" font-size="13.5" font-weight="bold">Results</text>
 
   <!-- pool: 16 applicants, 6 small, 6 medium, 4 large -->
   <rect x="10" y="64" width="150" height="184" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
@@ -91,9 +91,9 @@ Randomisation can be used, for example, when there are more eligible applicants 
   <path d="M395 103 H415 V156 H429 M395 209 H415 V156" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
   <path d="M435 156 L427 152 V160 Z" fill="var(--dg-line)"/>
 
-  <!-- outcomes -->
+  <!-- results -->
   <rect x="435" y="64" width="215" height="184" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="542" y="86" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Average outcome</text>
+  <text x="542" y="86" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Average result</text>
   <rect x="455" y="112" width="34" height="110" fill="var(--dg-accent)" stroke="var(--dg-ink)" stroke-width="1.2"/>
   <rect x="518" y="152" width="34" height="70" fill="var(--dg-panel)" stroke="var(--dg-ink)" stroke-width="1.5"/>
   <path d="M447 222 H640" stroke="var(--dg-line)" stroke-width="1.5"/>
@@ -104,7 +104,7 @@ Randomisation can be used, for example, when there are more eligible applicants 
   <text x="574" y="129" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Effect of the</text>
   <text x="574" y="143" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">intervention</text>
 </svg>
-<svg class="fig-phone" viewBox="0 0 360 578" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Eligible applicants with a mix of characteristics are split by a random draw into an intervention group and a comparison group with a similar mix on average. Later, the difference between the two groups' average outcomes is the effect of the intervention.">
+<svg class="fig-phone" viewBox="0 0 360 578" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Eligible applicants with a mix of characteristics are split by a random draw into an intervention group and a comparison group with a similar mix on average. Later, the difference between the two groups' average results is the effect of the intervention.">
   <rect x="10" y="10" width="340" height="34" rx="5" fill="var(--dg-ink)"/>
   <text x="180" y="32" text-anchor="middle" fill="var(--dg-reverse)" font-size="14" font-weight="bold">Eligible applicants</text>
   <rect x="10" y="54" width="340" height="96" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
@@ -143,9 +143,9 @@ Randomisation can be used, for example, when there are more eligible applicants 
   <path d="M180 370 L176 362 H184 Z" fill="var(--dg-line)"/>
 
   <rect x="10" y="370" width="340" height="34" rx="5" fill="var(--dg-ink)"/>
-  <text x="180" y="392" text-anchor="middle" fill="var(--dg-reverse)" font-size="14" font-weight="bold">Outcomes</text>
+  <text x="180" y="392" text-anchor="middle" fill="var(--dg-reverse)" font-size="14" font-weight="bold">Results</text>
   <rect x="10" y="414" width="340" height="156" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="180" y="436" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Average outcome</text>
+  <text x="180" y="436" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Average result</text>
   <rect x="80" y="456" width="44" height="88" fill="var(--dg-accent)" stroke="var(--dg-ink)" stroke-width="1.2"/>
   <rect x="160" y="500" width="44" height="44" fill="var(--dg-panel)" stroke="var(--dg-ink)" stroke-width="1.5"/>
   <path d="M30 544 H330" stroke="var(--dg-line)" stroke-width="1.5"/>
@@ -156,7 +156,7 @@ Randomisation can be used, for example, when there are more eligible applicants 
   <text x="238" y="474" fill="var(--dg-ink)" font-size="12" font-weight="bold">Effect of the</text>
   <text x="238" y="489" fill="var(--dg-ink)" font-size="12" font-weight="bold">intervention</text>
 </svg>
-<figcaption>Note: dot sizes stand for applicants with different characteristics. Because the draw is random, both groups end up with a similar mix on average, so a later difference in their average outcomes can be attributed to the intervention. The comparison group can also receive a different version of the intervention. Bar heights are illustrative.</figcaption>
+<figcaption>Note: dot sizes stand for applicants with different characteristics. Because the draw is random, both groups end up with a similar mix on average, so a later difference in their average results can be attributed to the intervention. The comparison group can also receive a different version of the intervention. Bar heights are illustrative.</figcaption>
 </figure>
 ```
 
@@ -164,7 +164,7 @@ Randomisation can be used, for example, when there are more eligible applicants 
 
 ::: {.gold-panel}
 Impact evaluation answers the question: what causal effect did this intervention have
-on outcomes such as employment, skills or firm growth – for whom did it work
+on results such as employment, skills or firm growth – for whom did it work
 best, and under which conditions?
 :::
 
@@ -258,7 +258,7 @@ Experiences from projects partnering with the EuroCOMP Lab and beyond.
 :::
 ::: {.card-e}
 #### [Repository](09-bank_outcomes.qmd)
-[Outcome indicators](09-bank_outcomes.qmd) and [survey questions](08-bank_survey.qmd), organised by topic.
+[Indicators](09-bank_outcomes.qmd) and [survey questions](08-bank_survey.qmd), organised by topic.
 :::
 ::::
 

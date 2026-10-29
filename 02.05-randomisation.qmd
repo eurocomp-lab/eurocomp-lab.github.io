@@ -96,7 +96,7 @@ Once you have decided to use a lottery, a second design choice arises: should th
 Public lottery
 :::
 ::: {.body}
-The draw takes place in front of an audience: for example, pulling firm names from a hat at a public event, or livestreaming the computerised draw.
+The draw takes place in front of an audience: for example, pulling applicants' names from a hat at a public event, or livestreaming the computerised draw.
 
 **Advantage:** maximises transparency and public trust. Units can see for themselves that the process was fair.
 
@@ -110,7 +110,7 @@ Private lottery
 ::: {.body}
 The draw is conducted internally by the evaluation team, with full documentation but without public observation.
 
-**Advantage:** comparison units do not immediately know the outcome, which reduces the risk of behavioural reactions that narrow the gap between groups.
+**Advantage:** comparison units do not immediately learn that they were not selected, which reduces the risk of behavioural reactions that narrow the gap between groups.
 
 **Disadvantage:** the process is less visibly fair, which can make it harder to defend if challenged.
 :::
@@ -130,7 +130,7 @@ This approach reduces the pool that is randomised, focuses the evaluation on the
 
 ```{=html}
 <figure class="fig-e">
-<svg viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Firms scored from 100 down to 45; the top band is accepted outright, the bottom rejected, and the middle band randomised">
+<svg viewBox="0 0 660 300" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Applicants scored from 100 down to 45; the top band is accepted outright, the bottom rejected, and the middle band randomised">
   <text x="20" y="24" fill="#6B6455" font-size="11.5" font-weight="bold">Score</text>
   <rect x="90" y="34" width="280" height="56" rx="5" fill="#F2C94C"/>
   <text x="230" y="60" text-anchor="middle" fill="#2B2724" font-size="13" font-weight="bold">Accept all</text>
@@ -164,15 +164,15 @@ Keep the scoring process rules-based. Subjective assessment, even by expert pane
 
 A standard RCT compares one version of the intervention against a comparison group. But sometimes the real question is not whether the intervention works, but which design works best: grant only versus grant plus mentoring, for example, or light-touch advisory versus intensive coaching.
 
-Multiple treatment arms allow you to test these versions against each other and against a comparison group in a single evaluation. Each group of units is randomly assigned to a different version, and outcomes are compared across all groups at endline.
+Multiple treatment arms allow you to test these versions against each other and against a comparison group in a single evaluation. Each group of units is randomly assigned to a different version, and results are compared across all groups at endline.
 
 The trade-off is sample size: more arms means more groups, and the available pool must be large enough to power comparisons between each pair.
 
 ```{=html}
 <figure class="fig-e">
-<svg viewBox="0 0 660 240" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Bar chart comparing outcomes across a comparison group and three intervention versions">
+<svg viewBox="0 0 660 240" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Bar chart comparing results across a comparison group and three intervention versions">
   <line x1="90" y1="190" x2="620" y2="190" stroke="var(--dg-line)" stroke-width="1.5"/>
-  <text x="72" y="100" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5" transform="rotate(-90 72 100)">Outcome</text>
+  <text x="72" y="100" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5" transform="rotate(-90 72 100)">Result</text>
   <rect x="120" y="120" width="90" height="70" fill="var(--dg-ink)"/>
   <text x="165" y="112" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">2.0</text>
   <text x="165" y="210" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5">Comparison</text>
@@ -222,7 +222,7 @@ The key advantage is that everyone eventually receives support, which makes the 
 
 ## Varying the dose: randomised intensities
 
-Rather than randomising which units receive the intervention, you can randomise how much of it they receive. For example, some firms might have all eligible employees participate in a training intervention, while others have only half, and others none. Comparing outcomes across these groups reveals not just whether the intervention works but how much of it is needed, and whether the benefits spill over to employees who were not directly treated.
+Rather than randomising which units receive the intervention, you can randomise how much of it they receive. For example, some firms might have all eligible employees participate in a training intervention, while others have only half, and others none. Comparing results across these groups reveals not just whether the intervention works but how much of it is needed, and whether the benefits spill over to employees who were not directly treated.
 
 ```{=html}
 <figure class="fig-e">
@@ -295,9 +295,9 @@ Because of limited take-up, it is safer to report the [intention-to-treat effect
 
 Before the intervention begins (and at the latest before any data analysis begins), the RCT design must be publicly committed to on a recognised registry. This is called pre-registration, and it is one of the most important quality controls in a rigorous RCT.
 
-Pre-registration means publishing, in advance, the primary outcome, the evaluation questions, the randomisation procedure, and the analysis plan. Once that record is time-stamped and publicly visible, no one can claim after the fact that a different learning question or outcome was always the primary focus. Nor can anyone claim that a subgroup analysis was planned from the beginning when it was actually prompted by the results. The evaluation team should lead this process, but the managing authority should confirm it has been done before approving the inception report.
+Pre-registration means publishing, in advance, the main result indicator (registries call it the primary outcome), the evaluation questions, the randomisation procedure, and the analysis plan. Once that record is time-stamped and publicly visible, no one can claim after the fact that a different learning question or indicator was always the main focus. Nor can anyone claim that a subgroup analysis was planned from the beginning when it was actually prompted by the findings. The evaluation team should lead this process, but the managing authority should confirm it has been done before approving the inception report.
 
-For a managing authority, pre-registration also serves a protective function. It shields the evaluation team from pressure to adjust the analysis once results are known. And it strengthens the credibility of the findings: when a null result or an inconvenient conclusion is published, pre-registration demonstrates that it reflects reality rather than selective reporting.
+For a managing authority, pre-registration also serves a protective function. It shields the evaluation team from pressure to adjust the analysis once the findings are known. And it strengthens the credibility of the findings: when a null result or an inconvenient conclusion is published, pre-registration demonstrates that it reflects reality rather than selective reporting.
 
 ::: {.cards}
 ::: {.card-e}

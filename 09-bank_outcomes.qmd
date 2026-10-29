@@ -8,6 +8,8 @@ aliases:
 
 Indicators rarely need to be built from scratch. Managing authorities should draw on existing, well-tested measures from comparable evaluations before designing new ones. This repository provides a curated list of indicators, organised by topic, each with a plain-language definition and a metric that says how to operationalise and measure it.
 
+The topic pages use the term "outcome indicators", which is common in evaluation practice. In cohesion policy terms, most are result indicators: they measure the change for those supported, not what the intervention delivers.
+
 ## Topics
 
 :::: {.cards .topics}

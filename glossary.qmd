@@ -69,7 +69,7 @@ Confidence level
 :   How certain an evaluation needs to be that a measured effect is not simply due to chance. One of the inputs to a power calculation.
 
 Confounding factors
-:   External characteristics (variables) that can distort the perceived relationship between a policy intervention and its outcomes, leading to incorrect conclusions about the policy's effectiveness.
+:   External characteristics (variables) that can distort the perceived relationship between a policy intervention and its results, leading to incorrect conclusions about the policy's effectiveness.
 
 Contamination
 :   The often unintended exposure of participants in the comparison group to the randomly assigned intervention, which can compromise the comparison between the two groups and affect the study's validity.
@@ -77,8 +77,8 @@ Contamination
 Cost-benefit analysis
 :   Weighing an intervention's measured impact against its cost, to judge whether it was a good use of public money and to compare it with alternative investments.
 
-Counterfactual outcome
-:   An attempt to mimic the hypothetical outcome in the scenario of what would have happened without the newly introduced change (treatment, intervention, implementation approach, investment).
+Counterfactual
+:   What would have happened without the newly introduced change (treatment, intervention, implementation approach, investment). It cannot be observed directly, so impact evaluation estimates it, for example with a comparison group.
 
 ## D
 
@@ -89,7 +89,7 @@ Difference-in-differences (DiD)
 :   A quasi-experimental method that compares the change over time in a treatment group with the change over the same period in a comparison group that had a similar prior trend. Relies on the parallel trends assumption, that both groups would have followed the same trajectory without the intervention, which cannot be tested directly.
 
 Digital Economy and Society Index (DESI)
-:   A European Commission index tracking digital performance and adoption. Used as an outcome measure in the [North-East Romania example](01-why-and-when.qmd#running-example) to track firms' digital adoption.
+:   A European Commission index tracking digital performance and adoption. Used in the [North-East Romania example](01-why-and-when.qmd#running-example) to track firms' digital adoption.
 
 ## E
 
@@ -113,7 +113,7 @@ Goals
 ## I
 
 Impact evaluation
-:   An assessment of whether, and by how much, an intervention caused the changes observed, by comparing participants' outcomes with a credible counterfactual. It serves two purposes: policy learning (what works, for whom, and under what conditions) and accountability (both financial and performance).
+:   An assessment of whether, and by how much, an intervention caused the changes observed, by comparing participants' results with a credible counterfactual. It serves two purposes: policy learning (what works, for whom, and under what conditions) and accountability (both financial and performance).
 
 Implementation problems
 :   A risk to an RCT's validity where the intervention itself is delivered unevenly across participants, making the treatment experienced by the treatment group less consistent than intended.
@@ -144,7 +144,7 @@ Managing authority
 :   The national or regional body responsible for managing a cohesion policy programme, including reporting to the European Commission and, where an impact evaluation is planned, integrating randomisation into the design of an intervention from the outset.
 
 Matching
-:   A quasi-experimental method that pairs participants with non-participants who share similar observable characteristics, to mimic an RCT. Assumes there are no unobserved differences between matched participants that also affect the outcome.
+:   A quasi-experimental method that pairs participants with non-participants who share similar observable characteristics, to mimic an RCT. Assumes there are no unobserved differences between matched participants that also affect the results.
 
 Medium-term outcomes
 :   In a Theory of Change, the broader changes that accumulate from short-term outcomes, such as gains in firm-level productivity, tracked through result indicators (common or programme-specific). Impact evaluation aims to show that an intervention actually caused these changes, not just that they occurred.
@@ -172,7 +172,7 @@ Power calculation
 :   A calculation, made before an intervention launches, that combines the expected effect size, the variation between participants, the desired confidence level and the desired statistical power into the minimum sample size an evaluation needs.
 
 Pre-post (before-after) design
-:   A quasi-experimental method that compares participants before and after an intervention. It assumes nothing else affected outcomes over the same period, an assumption that rarely holds in practice.
+:   A quasi-experimental method that compares participants before and after an intervention. It assumes nothing else affected the results over the same period, an assumption that rarely holds in practice.
 
 Primary data
 :   Information collected directly from firms, individuals or organisations, through surveys or interviews conducted specifically for an evaluation. Gives more control over what is measured than secondary data, but costs more and takes longer to collect.
@@ -194,7 +194,7 @@ Random assignment
 :   A key element of beneficiary selection when RCTs are implemented, creating comparable groups before the intervention starts. It differs from random selection in surveys.
 
 Randomised controlled trial (RCT)
-:   An impact evaluation design that randomly assigns eligible participants to a treatment group, which receives the intervention, and a control group, which does not. Because randomisation makes the two groups alike on average, the control group's outcome shows what would have happened without the intervention, without needing further assumptions about outcome trends.
+:   An impact evaluation design that randomly assigns eligible participants to a treatment group, which receives the intervention, and a control group, which does not. Because randomisation makes the two groups alike on average, the control group's results show what would have happened without the intervention, without needing further assumptions about how results would have evolved.
 
 Randomised intensities
 :   Randomly varying how much of an intervention each participant receives, for example 100%, 50% or 0% of eligible employees, to study spillovers within or between firms.
@@ -211,10 +211,10 @@ Research and Development (R&D)
 ## S
 
 Secondary data
-:   Information that already exists in administrative records, such as business registries, tax data or a programme's own management information system. Cheaper and covers larger samples than primary data, but may not include the specific outcomes an evaluation needs.
+:   Information that already exists in administrative records, such as business registries, tax data or a programme's own management information system. Cheaper and covers larger samples than primary data, but may not cover the specific result indicators an evaluation needs.
 
 Selection bias
-:   Occurs when assignment to treatment is not random, likely creating systematic differences between treatment and comparison groups. For example, firms with higher innovation levels may self-select into an intervention offering innovation vouchers, so observed differences may stem from pre-existing characteristics rather than the intervention itself. RCTs mitigate this by randomising participants, so any outcome differences are due to the intervention only.
+:   Occurs when assignment to treatment is not random, likely creating systematic differences between treatment and comparison groups. For example, firms with higher innovation levels may self-select into an intervention offering innovation vouchers, so observed differences may stem from pre-existing characteristics rather than the intervention itself. RCTs mitigate this by randomising participants, so later differences in results can be attributed to the intervention.
 
 Short-term outcomes
 :   In a Theory of Change, the immediate changes that follow directly from an intervention's outputs, typically within one to two years, such as a firm adopting a new technology or a researcher filing a patent application.
@@ -232,7 +232,7 @@ SMEs
 :   Small- and medium-sized enterprises. Small-sized enterprise commonly refers to an enterprise with fewer than 50 employees and medium-sized enterprise to an enterprise with fewer than 250 employees.
 
 Spillover effects
-:   Indirect exposure of the comparison group to an intervention's benefits, for example when know-how spreads by word of mouth to non-participating firms. Related to contamination: it understates an intervention's measured impact by improving outcomes for those who were not meant to receive support.
+:   Indirect exposure of the comparison group to an intervention's benefits, for example when know-how spreads by word of mouth to non-participating firms. Related to contamination: it understates an intervention's measured impact by improving results for those who were not meant to receive support.
 
 Statistical power
 :   The likelihood that an evaluation will detect a real effect of the intervention if one actually exists. Higher power requires a larger sample, especially when the expected effect is small or participants vary widely.

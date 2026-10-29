@@ -1,6 +1,6 @@
 ---
 title: "Step 6: identify available data sources"
-description-meta: "Decide where your outcome data will come from: weigh survey and administrative data, find firm-level sources and set up data-sharing agreements early."
+description-meta: "Decide where your evaluation data will come from: weigh survey and administrative data, find firm-level sources and set up data-sharing agreements early."
 ---
 
 ```{=html}
@@ -9,7 +9,7 @@ description-meta: "Decide where your outcome data will come from: weigh survey a
 
 ::: {.team-note}
 ## Summary {.unlisted}
-This page covers the choice between primary and secondary data, how to assess what administrative sources already exist and whether they contain the right outcomes, where to find secondary firm-level data, and how to set up data-sharing agreements.
+This page covers the choice between primary and secondary data, how to assess what administrative sources already exist and whether they cover the right result indicators, where to find secondary firm-level data, and how to set up data-sharing agreements.
 :::
 
 
@@ -21,11 +21,11 @@ With the Theory of Change (ToC), learning questions and indicators in place, the
 
 For each indicator in your evaluation framework, you must decide whether to rely on **primary data** collected specifically for the evaluation, **secondary data** that already exists in administrative records, or a **combination of both**.
 
-**Primary data** is information collected directly from target respondents (firms, individuals, or organisations) through surveys or interviews. It gives you control over exactly what is measured and can capture outcomes and mechanisms that administrative records do not contain. The trade-off is cost, time, and respondent burden.
+**Primary data** is information collected directly from target respondents (firms, individuals, or organisations) through surveys or interviews. It gives you control over exactly what is measured and can capture results and mechanisms that administrative records do not contain. The trade-off is cost, time, and respondent burden.
 
-**Secondary data** draws on records that already exist: national business registries, tax authority data, customs records, patent office databases, or the intervention's own management information system. It is generally cheaper, covers larger samples, and often provides years of pre-intervention history that is invaluable for establishing baselines. The trade-off is that it may not contain the specific variables you need, and access can take time to negotiate.
+**Secondary data** draws on records that already exist: national business registries, tax authority data, social security and employment records, customs records, patent office databases, or the intervention's own management information system. It is generally cheaper, covers larger samples, and often provides years of pre-intervention history that is invaluable for establishing baselines. The trade-off is that it may not contain the specific variables you need, and access can take time to negotiate.
 
-Where administrative data sources such as business registries, tax records, and social security data are well established and reliable, as is generally the case across the European Union, combining both sources is often the most effective approach. Secondary data provides broad coverage and pre-intervention history, while primary survey data captures the outcomes and mechanisms that administrative records cannot.
+Where administrative data sources such as business registries, tax records, and social security data are well established and reliable, as is generally the case across the European Union, combining both sources is often the most effective approach. Secondary data provides broad coverage and pre-intervention history, while primary survey data captures the results and mechanisms that administrative records cannot.
 
 ::: {.example .romania data-map="romania-ne"}
 [North&#8209;East Romania: data sources]{.tag}
@@ -41,7 +41,7 @@ North-East Romania used a combination of primary and secondary data: self-report
 | Sample size | Smaller | Larger |
 | Timeliness | Collected when needed | Often published with a delay |
 | Cost | More expensive | Cheaper |
-| Relevance | Tailored precisely to the outcome of interest | General purpose |
+| Relevance | Tailored precisely to the result of interest | General purpose |
 | Pre-intervention history | Limited | History of pre-intervention data available |
 | Depth | Richer understanding of mechanisms | Less granular |
 | Long-term impacts | Harder to capture | Measuring longer-term impacts is possible |
@@ -50,13 +50,13 @@ North-East Romania used a combination of primary and secondary data: self-report
 
 ## Assess what you already have
 
-Before commissioning a new survey, take stock of the administrative data you already hold or can access. Project management systems typically record beneficiary characteristics, grant amounts, payment dates, and reported [output indicators](glossary.qmd#common-output-indicator "Glossary definition"). National statistical offices, tax authorities, business registries, and customs agencies hold firm-level data on turnover, employment, exports, costs, expenditures and tax payments, often going back many years, which is particularly valuable for establishing pre-intervention baselines.
+Before commissioning a new survey, take stock of the administrative data you already hold or can access. Project management systems typically record beneficiary characteristics, grant amounts, payment dates, and reported [output indicators](glossary.qmd#common-output-indicator "Glossary definition"). For firms, national statistical offices, tax authorities, business registries, and customs agencies hold data on turnover, employment, exports, costs, expenditures and tax payments, often going back many years, which is particularly valuable for establishing pre-intervention baselines. For people, social security, public employment service and education records can play the same role.
 
 Two questions determine whether administrative sources can be useful for an evaluation. 
 
-First, do they contain the right outcomes? Administrative records capture variables that may or may not align with the outcomes the evaluation is designed to measure. An innovation intervention that wants to measure research and development (R&D) expenditure or product novelty will find that some business registries simply do not record these. Before relying on administrative data, map each indicator in your evaluation framework against what each source actually contains, and identify the gaps.
+First, do they cover the right result indicators? Administrative records capture variables that may or may not align with the results the evaluation is designed to measure. An innovation intervention that wants to measure research and development (R&D) expenditure or product novelty will find that some business registries simply do not record these. Before relying on administrative data, map each indicator in your evaluation framework against what each source actually contains, and identify the gaps.
 
-Second, can the administrative data be linked to the companies taking part in the evaluation? If a firm's VAT number or national registration number is collected at application stage, it can serve as a linking key to match intervention records against tax, registry, or customs data. This enables outcome measurement without any additional burden on firms. Where no common identifier exists, linkage may still be possible through name and address matching, but this requires more effort and introduces matching errors.
+Second, can the administrative data be linked to the participants in the evaluation? If official identification numbers are collected at application stage, they can serve as a linking key to match intervention records against tax, registry, social security or customs data. For firms, that means the VAT or national registration number; for people, the national identification number, where national law allows its use. This makes it possible to measure results without any additional burden on participants. Where no common identifier exists, linkage may still be possible through name and address matching, but this requires more effort and introduces matching errors.
 
 ## Where to find secondary firm-level data
 

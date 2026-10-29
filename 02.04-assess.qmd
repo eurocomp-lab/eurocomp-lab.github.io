@@ -41,8 +41,8 @@ Most national frameworks were designed around ranking or first-come-first-served
 An RCT requires sustained commitment from the managing authority and any intermediate bodies involved in delivery. If key stakeholders are not on board, or if political changes could interrupt the evaluation midway, the investment may not be recoverable.
 :::
 ::: {.card-e}
-### 5. Can the outcomes actually be measured? {.unlisted}
-The indicators selected in [Step 3](02.03-indicators.qmd) must be observable through administrative records, a survey, or both. If the primary outcome cannot be reliably measured for both treatment and comparison groups, the evaluation will not produce credible results even if the design is sound.
+### 5. Can the results actually be measured? {.unlisted}
+The indicators selected in [Step 3](02.03-indicators.qmd) must be observable through administrative records, a survey, or both. If the main result indicator cannot be reliably measured for both treatment and comparison groups, the evaluation will not produce credible findings even if the design is sound.
 :::
 :::
 
@@ -76,7 +76,7 @@ North-East Romania combined three steps that are usually separate (application, 
 
 To detect the impact of an intervention, you need enough units in both the treatment and comparison groups. Too few units and even a real effect may be invisible: ordinary variation between units drowns out the signal. The technical term for this is [statistical power](glossary.qmd#statistical-power "Glossary definition"), but the practical question is simple: is your eligible pool large enough?
 
-The answer depends on how large an effect you expect, how much units vary on the outcome of interest, and how confident you want to be in the result. An evaluator will run a power calculation to translate these inputs into a minimum required sample. [More details on power calculations](02.04a-power.qmd)
+The answer depends on how large an effect you expect, how much units vary on the main result indicator, and how confident you want to be in the findings. An evaluator will run a power calculation to translate these inputs into a minimum required sample. [More details on power calculations](02.04a-power.qmd)
 
 Lessons from EuroCOMP Lab projects point to several ways of reaching large enough numbers.
 
@@ -140,7 +140,7 @@ Application requirements should be proportionate to the amount of funding reques
 
 In Romania, the pre-assessment survey was designed to do three jobs at once, in approximately 40 minutes. It collected baseline data for the evaluation, assessed firm eligibility in real time, and gave firms enough information to decide whether to proceed. Survey responses were automatically cross-referenced with official firm data, enabling instant verification of core eligibility criteria. Firms that did not meet the requirements were informed immediately, saving them from investing further time in a formal application that would have been rejected.
 
-Eligible firms received individualised benchmark reports comparing their digitalisation levels to similar firms in their region, providing added value to participants regardless of their eventual selection outcome.
+Eligible firms received individualised benchmark reports comparing their digitalisation levels to similar firms in their region, providing added value to participants whether or not they were eventually selected.
 ::::
 
 </details>

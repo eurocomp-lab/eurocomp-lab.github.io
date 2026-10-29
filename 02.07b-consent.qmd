@@ -22,12 +22,12 @@ The GDPR is the central legal reference for any collection of personal data in t
 
 Informed consent is a participant's freely given, specific, informed, and unambiguous agreement to the processing of their data for a defined purpose. In the context of an RCT, it covers two distinct activities that must be kept clearly separate:
 
-**Intervention participation:** applying for a grant, entering an eligibility process, and being subject to randomised selection. This is governed by the legal basis for the intervention, not by consent. Firms cannot meaningfully consent to or refuse the administrative processing that is required to run the intervention.
+**Intervention participation:** applying for a grant, entering an eligibility process, and being subject to randomised selection. This is governed by the legal basis for the intervention, not by consent. Applicants cannot meaningfully consent to or refuse the administrative processing that is required to run the intervention.
 
-**Evaluation data collection:** providing information for research purposes beyond what is required for the intervention: extended administrative data tracking, AI-assisted data quality checks, or follow-up interviews. This is where genuine informed consent applies. Firms must be able to choose whether to participate in each optional activity without any consequence for their intervention eligibility.
+**Evaluation data collection:** providing information for research purposes beyond what is required for the intervention: extended administrative data tracking, AI-assisted data quality checks, or follow-up interviews. This is where genuine informed consent applies. Participants must be able to choose whether to take part in each optional activity without any consequence for their intervention eligibility.
 
 ::: {.caution}
-Never bundle consent to evaluation data collection with consent to intervention participation. A firm that must tick a consent box to submit its application is not giving free consent: it is being coerced. Under the GDPR, consent is not freely given if participation in an intervention is conditional on agreeing to data processing that is not necessary for that intervention.
+Never bundle consent to evaluation data collection with consent to intervention participation. Applicants who must tick a consent box to submit an application are not giving free consent: they are being coerced. Under the GDPR, consent is not freely given if participation in an intervention is conditional on agreeing to data processing that is not necessary for that intervention.
 :::
 
 
@@ -72,7 +72,7 @@ For each optional category, explain what it is, why it is useful to the research
 
 ### 3. The randomisation
 
-Explain clearly that the evaluation uses a randomised design: all eligible firms have an equal chance of being assigned to the treatment group (invited to apply for the grant) or the comparison group (not invited). Participants must understand this before they enter the process. The explanation should be plain and non-technical.
+Explain clearly that the evaluation uses a randomised design: all eligible applicants have an equal chance of being assigned to the treatment group (offered the support) or the comparison group (not offered it). Participants must understand this before they enter the process. The explanation should be plain and non-technical.
 
 ::: {.example .case data-map="romania-sm"}
 [Romania (South-Muntenia)]{.tag}
@@ -111,7 +111,7 @@ State how long the initial form will take and whether participants may be contac
 
 ### 10. Signature and confirmation
 
-The form must be signed by an authorised representative of the firm: founder, owner, Chief Executive Officer, or other legal representative. Record the representative's first name, last name, and obtain a signature (electronic or physical). Confirm that the choices were made freely and without coercion.
+The form must be signed by the participant or, for a firm, by an authorised representative: founder, owner, Chief Executive Officer, or other legal representative. Record the signatory's first and last name, and obtain a signature (electronic or physical). Confirm that the choices were made freely and without coercion.
 
 ***
 
@@ -139,7 +139,7 @@ Example:
 ```
 
 ::: {.takeaway}
-Box 1 is required. Boxes 2 and 3 are optional but described as important for the quality of the evaluation. Firms must be able to tick Box 1 without ticking Boxes 2 or 3, and the intervention must function correctly regardless of which optional boxes are selected.
+Box 1 is required. Boxes 2 and 3 are optional but described as important for the quality of the evaluation. Participants must be able to tick Box 1 without ticking Boxes 2 or 3, and the intervention must function correctly regardless of which optional boxes are selected.
 :::
 
 ***
@@ -150,9 +150,9 @@ Box 1 is required. Boxes 2 and 3 are optional but described as important for the
 
 **Data transfers to international organisations.** If the research partner is based outside the EU, such as the World Bank, the data transfer must be covered by an appropriate GDPR mechanism. The World Bank processes personal data under its own institutional Privacy Policy, consistent with its mandate as an international organisation established by its member countries. This must be stated in the consent form and in the data-sharing agreement between the managing authority and the research partner.
 
-**Control group consent.** Firms in the comparison group are also research subjects: they are surveyed, tracked in administrative data, and their outcomes are used in the analysis. They must receive the same information notice and consent form as treatment group firms. The only difference is that they are not invited to apply for the grant.
+**Control group consent.** Participants in the comparison group are also research subjects: they are surveyed, tracked in administrative data, and their data are used in the analysis. They must receive the same information notice and consent form as the treatment group. The only difference is that they are not offered the support.
 
-**Plain language.** The consent form will be read by firm owners and managers, not lawyers. Legal citations are required for completeness but must be accompanied by plain-language explanations. 
+**Plain language.** The consent form will be read by participants (for firms, owners and managers), not lawyers. Legal citations are required for completeness but must be accompanied by plain-language explanations. 
 
 **Multilingual forms.** Where the intervention operates in a non-English-speaking member state, the consent form should be available in the local language. 
 

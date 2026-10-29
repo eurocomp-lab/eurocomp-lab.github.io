@@ -15,9 +15,11 @@ This page covers how to move from the Theory of Change (ToC) to measurable indic
 
 Once the ToC is in place, it becomes the blueprint for selecting indicators. Every element of the ToC (inputs, activities, outputs, short- and medium-term outcomes, goals, and assumptions) needs at least one measurable indicator to track whether things are moving as expected.
 
-For managing authorities, some of this work is already done. Some cohesion policy programmes operate within a mandatory performance framework that includes output and result indicators set by the European Commission. These provide a useful starting point, but they are generally not sufficient for an RCT. These indicators are designed for monitoring: they tell you what was delivered. An evaluation also needs to measure what changed as a result, in a way that allows comparison with a [counterfactual](glossary.qmd#counterfactual-outcome "Glossary definition") (what would have happened without the intervention).
+For managing authorities, some of this work is already done. Some cohesion policy programmes operate within a mandatory performance framework that includes output and result indicators set by the European Commission. These provide a useful starting point, but they are generally not sufficient for an RCT. These indicators are designed for monitoring: they show what was delivered and what changed for beneficiaries, but not whether the intervention caused that change. An evaluation therefore measures change in a way that allows comparison with a [counterfactual](glossary.qmd#counterfactual "Glossary definition") (what would have happened without the intervention).
 
-Indicators for evaluation purposes therefore need to go beyond the mandatory monitoring set and capture the intermediate and final outcomes described in the ToC.
+Indicators for evaluation purposes therefore need to go beyond the mandatory monitoring set and capture the intermediate and long-term changes described in the ToC.
+
+The indicator that measures the result named in the primary question ([Step 2](02.02-eval_questions.qmd)) is the **main result indicator** (evaluators and trial registries usually call it the primary outcome). The sample size, the data collection and the analysis plan are built around it.
 
 ---
 
@@ -31,7 +33,7 @@ Good indicators share five characteristics, often summarised as SMART:
 | **Measurable** | The information can be reliably obtained, ideally in a numerical form that allows for comparison over time and across groups |
 | **Attributable** | The indicator is sensitive to the intervention's efforts and not so heavily influenced by external factors that changes cannot be attributed to the intervention |
 | **Realistic** | The data can be obtained within the available time and budget, at a frequency that matches the evaluation timeline |
-| **Targeted** | The indicator reflects outcomes for the specific population the intervention is designed to serve |
+| **Targeted** | The indicator reflects results for the specific population the intervention is designed to serve |
 
 ::: {.example .romania data-map="romania-ne"}
 [North&#8209;East Romania: selected indicators]{.tag}

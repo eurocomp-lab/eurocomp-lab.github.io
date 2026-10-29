@@ -8,7 +8,7 @@ description-meta: "Follow eight steps to design a credible randomised controlled
 This page covers the internal team to assemble before starting, and eight sequential steps for designing a credible randomised controlled trial (RCT): Theory of Change (ToC), learning questions, indicators, feasibility, randomisation, data sources, data collection, and data quality.
 :::
 
-A well-designed RCT does not begin with randomisation. It begins with a clear understanding of what an intervention is trying to achieve and why. The eight steps below set out the preparatory work that makes randomisation meaningful and the results credible. They are numbered in a logical order, but their work overlaps in practice, and most of it is done before the first call for applications is launched.
+A well-designed RCT does not begin with randomisation. It begins with a clear understanding of what an intervention is trying to achieve and why. The eight steps below set out the preparatory work that makes randomisation meaningful and the findings credible. They are numbered in a logical order, but their work overlaps in practice, and most of it is done before the first call for applications is launched.
 
 Most examples on these pages involve firms, because the EuroCOMP Lab's experiments have so far focused on business support. The same steps apply to any intervention, whether it reaches people, firms, schools, municipalities or other organisations.
 
@@ -201,7 +201,7 @@ Formulate the specific questions the evaluation is designed to answer, grounded 
 
 ### [Step 3: determine relevant indicators](02.03-indicators.qmd) {.unlisted}
 
-Select the outcome indicators that will be used to measure change across each level of the ToC.
+Select the indicators that will be used to measure change at each level of the ToC.
 
 ::: {.sub-steps}
 Tool: [Indicator repository](09-bank_outcomes.qmd)
