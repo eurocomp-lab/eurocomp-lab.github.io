@@ -59,14 +59,14 @@ A ToC follows a causal chain from resources invested to long-term change achieve
 
   <rect x="358" y="15" width="80" height="38" rx="4" fill="var(--dg-ink)"/>
   <text x="398" y="29" text-anchor="middle" fill="var(--dg-reverse)" font-size="9.5" font-weight="bold">SHORT-TERM</text>
-  <text x="398" y="43" text-anchor="middle" fill="var(--dg-reverse)" font-size="9.5" font-weight="bold">OUTCOMES</text>
+  <text x="398" y="43" text-anchor="middle" fill="var(--dg-reverse)" font-size="9.5" font-weight="bold">RESULTS</text>
 
   <rect x="474" y="15" width="80" height="38" rx="4" fill="var(--dg-ink)"/>
   <text x="514" y="29" text-anchor="middle" fill="var(--dg-reverse)" font-size="9.5" font-weight="bold">MEDIUM-TERM</text>
-  <text x="514" y="43" text-anchor="middle" fill="var(--dg-reverse)" font-size="9.5" font-weight="bold">OUTCOMES</text>
+  <text x="514" y="43" text-anchor="middle" fill="var(--dg-reverse)" font-size="9.5" font-weight="bold">RESULTS</text>
 
   <rect x="590" y="15" width="80" height="38" rx="4" fill="var(--dg-ink)"/>
-  <text x="630" y="38" text-anchor="middle" fill="var(--dg-reverse)" font-size="10.5" font-weight="bold">GOALS</text>
+  <text x="630" y="38" text-anchor="middle" fill="var(--dg-reverse)" font-size="10.5" font-weight="bold">IMPACTS</text>
 
   <!-- Assumption boxes, centred below each arrow -->
   <rect x="68"  y="88" width="80" height="30" rx="4" fill="var(--dg-accent-wash)" stroke="var(--dg-rule)"/>
@@ -116,28 +116,28 @@ A ToC follows a causal chain from resources invested to long-term change achieve
 - Digitalisation grants are awarded to selected companies
 :::
 
-**Short-term outcomes** refer to the immediate changes that occur as a direct result of the outputs. These outcomes are often related to changes in knowledge, attitudes, skills, and behaviours among the target population. Although short-term outcomes are not the intervention's ultimate goals, they play a crucial role in achieving the larger objectives.
+**Short-term results** refer to the immediate changes that occur as a direct result of the outputs. These outcomes are often related to changes in knowledge, attitudes, skills, and behaviours among the target population. Although short-term outcomes are not the intervention's ultimate goals, they play a crucial role in achieving the larger objectives.
 
 ::: {.example .romania data-map="romania-ne"}
-[North&#8209;East Romania: short-term outcomes]{.tag}
+[North&#8209;East Romania: short-term results]{.tag}
 
 - Digital solution procured, installed, configured and tested 
 - Digital solution is operationalised, used by employees, customers and  others in the supply chain.​​
 :::
 
-**Medium-term outcomes** are the intermediate changes that occur due to sustained efforts and progress from short-term outcomes. These outcomes indicate progress towards the overall goal and often involve shifts in social norms, policies, or organisational practices. These correspond closely to the [result indicators](glossary.qmd#common-result-indicator "Glossary definition") that cohesion policy programmes report on, though impact evaluations typically aim to go further by establishing a credible causal link between the intervention and the result.
+**Medium-term results** are the intermediate changes that occur due to sustained efforts and progress from short-term outcomes. These outcomes indicate progress towards the overall goal and often involve shifts in social norms, policies, or organisational practices. These correspond closely to the [result indicators](glossary.qmd#common-result-indicator "Glossary definition") that cohesion policy programmes report on, though impact evaluations typically aim to go further by establishing a credible causal link between the intervention and the result.
 
 ::: {.example .romania data-map="romania-ne"}
-[North&#8209;East Romania: medium-term outcomes]{.tag}
+[North&#8209;East Romania: medium-term results]{.tag}
 
 - Companies achieve advanced digital transformation
 - Improved time management and business efficiency
 :::
 
-**Goals** are a policy’s broad, long-term aspirations or objectives. They describe the ultimate impact or change that the policy aims to achieve. Goals are usually overarching and may require significant time and effort to accomplish.
+**Impacts** are a policy’s broad, long-term aspirations or objectives. They describe the ultimate impact or change that the policy aims to achieve. Goals are usually overarching and may require significant time and effort to accomplish.
 
 ::: {.example .romania data-map="romania-ne"}
-[North&#8209;East Romania: goals]{.tag}
+[North&#8209;East Romania: impacts]{.tag}
 
 - Increase in sales, employment, productivity (Total Factor Productivity) and profitability
 - Higher resilience to economic shocks, due to the business versatility ensured though the digital solutions 
