@@ -56,8 +56,7 @@ website:
 
   page-footer:
     border: true
-    left: "EuroCOMP Lab, powered by the World Bank Group"
-    right: "Draft site, under review by the team"
+
 
 format:
   html:
