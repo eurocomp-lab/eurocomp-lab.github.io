@@ -9,7 +9,7 @@ description-meta: "Decide where your evaluation data will come from: weigh surve
 
 ::: {.team-note}
 ## Summary {.unlisted}
-This page covers the choice between primary and secondary data, how to assess what administrative sources already exist and whether they cover the right indicators, where to find secondary firm-level data, and how to set up data-sharing agreements.
+This page covers the choice between primary and secondary data, how to assess what administrative sources already exist and whether they cover the right indicators, where to find secondary (firm-level) data, and how to set up data-sharing agreements.
 :::
 
 
@@ -21,11 +21,11 @@ With the Theory of Change (ToC), learning questions and indicators in place, the
 
 For each indicator in your evaluation framework, you must decide whether to rely on **primary data** collected specifically for the evaluation, **secondary data** that already exists in administrative records, or a **combination of both**.
 
-**Primary data** is information collected directly from target respondents (firms, individuals, or organisations) through surveys or interviews. It gives you control over exactly what is measured and can capture results and mechanisms that administrative records do not contain. The trade-off is cost, time, and respondent burden.
+**Primary data** is information collected directly from target units (e.g. firms, individuals, organisations) through surveys or interviews. It gives you control over exactly what is measured and can capture results and mechanisms that administrative records do not contain. The trade-off is cost, time, and respondent burden.
 
-**Secondary data** draws on records that already exist: national business registries, tax authority data, social security and employment records, customs records, patent office databases, or the intervention's own management information system. It is generally cheaper, covers larger samples, and often provides years of pre-intervention history that is invaluable for establishing baselines. The trade-off is that it may not contain the specific variables you need, and access can take time to negotiate.
+**Secondary data** draws on records that already exist: censuses on the household level, national business registries, tax authority data, social security and employment records, customs records, patent office databases, or the intervention's own project management system on the firm level. It is generally cheaper, covers larger samples, and often provides years of pre-intervention history that is invaluable for establishing baselines. The trade-off is that it may not contain the specific indicators you would like to measure, and access can take time to negotiate.
 
-Where administrative data sources such as business registries, tax records, and social security data are well established and reliable, as is generally the case across the European Union, combining both sources is often the most effective approach. Secondary data provides broad coverage and pre-intervention history, while primary survey data captures the results and mechanisms that administrative records cannot.
+Where administrative data sources are well established and reliable, as is generally the case for firm-level administrative data (e.g. national business registries) across the European Union, combining both sources is often the most effective approach. Secondary data provides broad coverage and pre-intervention history, while primary survey data captures the results and mechanisms that administrative records cannot.
 
 ::: {.example .romania data-map="romania-ne"}
 [North&#8209;East Romania: data sources]{.tag}
@@ -54,13 +54,11 @@ Before commissioning a new survey, take stock of the administrative data you alr
 
 Two questions determine whether administrative sources can be useful for an evaluation. 
 
-First, do they cover the right result indicators? Administrative records capture variables that may or may not align with the results the evaluation is designed to measure. An innovation intervention that wants to measure research and development (R&D) expenditure or product novelty will find that some business registries simply do not record these. Before relying on administrative data, map each indicator in your evaluation framework against what each source actually contains, and identify the gaps.
+First, do they cover the right indicators? Administrative records capture variables that may or may not align with the results the evaluation is designed to measure. An innovation intervention that wants to measure research and development (R&D) expenditure or product novelty will find that some business registries simply do not record these. Before relying on administrative data, map each indicator in your evaluation framework against what each source actually contains, and identify the gaps.
 
 Second, can the administrative data be linked to the participants in the evaluation? If official identification numbers are collected at application stage, they can serve as a linking key to match intervention records against tax, registry, social security or customs data. For firms, that means the VAT or national registration number; for people, the national identification number, where national law allows its use. This makes it possible to measure results without any additional burden on participants. Where no common identifier exists, linkage may still be possible through name and address matching, but this requires more effort and introduces matching errors.
 
 ## Where to find secondary firm-level data
-
-Key sources of secondary firm-level data
 
 | Source | What it contains | Access |
 |---|---|---|
@@ -81,7 +79,7 @@ North-East Romania used two administrative data sources: (i) publicly available 
 
 ## Data-sharing agreements
 
-Access to administrative data rarely happens automatically. Tax records, social security data, and business registry microdata are typically held by separate government bodies and subject to their own access rules. Negotiating access takes time (in some countries, many months) and must be initiated well before the evaluation begins.
+Access to administrative data rarely happens automatically. Relevant microdata are typically held by separate government bodies and subject to their own access rules. Negotiating access takes time (in some countries, many months) and must be initiated well before the evaluation begins.
 
 A data-sharing agreement between the managing authority and the data-holding body should specify:
 
