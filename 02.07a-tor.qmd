@@ -76,7 +76,7 @@ This section gives the consultant the context needed to design the data collecti
 - Implementation timeline and any prior rounds
 - Relevant regulatory obligations (e.g. applicable state aid rules)
 
-Include the completed ToC, covering inputs, activities, outputs, short- and medium-term outcomes, goals, and assumptions. The ToC has been developed by the managing authority and is provided to the consultant as a fixed reference point for designing the measurement framework and survey instruments.
+Include the completed ToC, covering inputs, activities, outputs, short- and medium-term results, impacts, and assumptions. The ToC has been developed by the managing authority and is provided to the consultant as a fixed reference point for designing the measurement framework and survey instruments.
 
 
 ### 2. Learning questions
