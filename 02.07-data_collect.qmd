@@ -13,7 +13,7 @@ This page covers when and how many data collection rounds to plan, why surveys a
 :::
 
 
-Step 6 determined where the data will come from. This step is about how and when to collect it. For most randomised controlled trial (RCT) evaluations of competitiveness interventions, this means planning at least one round of primary survey data collection: a baseline before the intervention. It also means coordinating access to the administrative data sources identified in Step 6. Whether a primary [endline survey](glossary.qmd#endline-data "Glossary definition") is also needed depends on the availability of administrative data, as described below.
+Step 6 determined where the data will come from. This step is about how and when to collect it. For most randomised controlled trial (RCT) evaluations of competitiveness interventions, this means planning at least one round of primary survey data collection: a baseline before the intervention. It also means coordinating access to the administrative data sources identified in Step 6. Whether a primary follow-up survey (midline/[endline survey](glossary.qmd#endline-data "Glossary definition")) is also needed depends on the availability of administrative data, as described below.
 
 ---
 
