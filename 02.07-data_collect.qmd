@@ -162,17 +162,17 @@ Where surveys are conducted in multiple languages, the questionnaire should be p
 
 ### Piloting the questionnaire
 
-No questionnaire should go into the field without first being tested. A **pilot survey** is conducted with a small group representative of the target population. It reveals problems invisible on paper: ambiguous wording, questions that take too long to answer, response options that do not cover the full range of experiences, and technical glitches in digital forms. The questionnaire should be revised based on pilot findings before full deployment. Skipping the pilot almost always costs more in the long run through lower data quality and analytical workarounds.
+No questionnaire should go into the field without first being tested. A pilot survey is conducted with a small group representative of the target population. It reveals problems invisible on paper: ambiguous wording, questions that take too long to answer, response options that do not cover the full range of experiences, and technical glitches in digital forms. The questionnaire should be revised based on pilot findings before full deployment. Skipping the pilot almost always costs more in the long run through lower data quality and analytical workarounds.
 
 ## Minimising attrition
 
-[Attrition](glossary.qmd#attrition "Glossary definition") (participants who cannot be reached or refuse to take part at endline) is one of the most common threats to the validity of an RCT. Even modest attrition becomes a serious problem if it is higher in one group than the other, since differential attrition can bias the impact estimates. Prevention is far easier than correction, and the groundwork must be laid at baseline.
+[Attrition](glossary.qmd#attrition "Glossary definition") (units that cannot be reached or refuse to take part at follow-up) is one of the most common threats to the validity of an RCT. Even modest attrition becomes a serious problem if it is higher in one group than the other, since differential attrition can bias the impact estimates. Prevention is far easier than correction, and the groundwork must be laid at baseline.
 
-**Collect robust contact information at baseline.** Record multiple contact points for each participant: the primary respondent's name, direct phone number, and email; a backup contact; and a postal address (for firms, also the website). Ask respondents explicitly for permission to follow up at endline and to contact them via alternative channels if the primary contact changes.
+**Collect robust contact information at baseline.** Record multiple contact points for each participant: the primary respondent's name, direct phone number, and email; a backup contact; and a postal address (for firms, also the website). Ask respondents explicitly for permission to follow up at in subsequent survey rounds and to contact them via alternative channels if the primary contact changes.
 
-**Maintain a tracking database throughout the intervention period.** Do not wait until the endline survey to discover that contact details have gone stale. Update the database periodically using public registries, project monitoring data, and any contact made for compliance or monitoring purposes.
+**Maintain a tracking database throughout the intervention period.** Do not wait until the follow-up survey to discover that contact details have gone stale. Update the database periodically using public registries, project monitoring data, and any contact made for compliance or monitoring purposes.
 
-**Make re-contact as easy as possible at endline.** Send advance notices before the endline fieldwork begins. Use the same survey mode as the baseline where possible, as familiarity reduces refusal rates. Keep the endline survey as short as the evaluation objectives allow: respondent fatigue is a leading cause of non-response in follow-up rounds.
+**Make re-contact as easy as possible at follow-up.** Send advance notices before the follow-up fieldwork begins. Use the same survey mode as the baseline where possible, as familiarity reduces refusal rates. Keep the follow-up survey as short as the evaluation objectives allow: respondent fatigue is a leading cause of non-response in follow-up rounds.
 
 **Document and report all non-response.** Record the reason for every non-response using standardised codes (refused; could not be reached; closed or moved away; no longer eligible). This documentation is essential for the attrition analysis in [Step 8](02.08-data_quality.qmd).
 
@@ -185,8 +185,7 @@ For EU managing authorities, compliance with the GDPR is a legal obligation that
 - Anonymisation or pseudonymisation of responses wherever possible
 - Appropriate data security measures, including restricted access to identifiable data
 
-Managing authorities should involve their Data Protection Officer early in the design process: not as a final approval step, but as part of initial planning. Data sharing agreements with third-party survey firms or external evaluators must address GDPR requirements explicitly.
-
+Managing authorities should involve their Data Protection Officer or the responsible person within the organization early in the design process: not as a final approval step, but as part of initial planning. Data sharing agreements with third-party survey firms or external evaluators must address GDPR requirements explicitly.
 
 ***
 
