@@ -90,7 +90,7 @@ State the retention period for each category of data. For extended administrativ
 
 ### 6. Confidentiality and anonymisation
 
-Explain how the data will be protected and confirm that no individual firm or person can be identified from published results. Publications, reports, and academic studies must present findings exclusively in aggregate, anonymised, or statistical form.
+Explain how the data will be protected and confirm that no individual unit (e.g. firm or person) can be identified from published results. Publications, reports, and academic studies must present findings exclusively in aggregate, anonymised, or statistical form.
 
 ### 7. Voluntary participation and the right to withdraw
 
@@ -129,7 +129,7 @@ Example:
   </div></div>
   <div class="d"><div>
     <h3>Box 2: Direct institutional access to transactional data <span style="font-weight:400;font-size:0.9em">(optional, but important for evaluation quality)</span></h3>
-    <p>Authorises the managing authority, acting directly or through the World Bank, to access historical, current, and future firm data from national fiscal and corporate registries, including tax authority, trade registry, and the Ministry of Finance. Valid for up to ten years from form submission.</p>
+    <p>Authorises the managing authority (and its partners) to access historical, current, and future firm data from national fiscal and corporate registries, including tax authority, trade registry, and the Ministry of Finance. Valid for up to ten years from form submission.</p>
   </div></div>
   <div class="d"><div>
     <h3>Box 3: Document quality control via secure AI tools <span style="font-weight:400;font-size:0.9em">(optional, but important for evaluation quality)</span></h3>
