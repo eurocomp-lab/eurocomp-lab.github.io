@@ -12,9 +12,9 @@ description-meta: "Draft a consent form for trial surveys: what it must contain,
 This page explains what informed consent means in a European Union (EU) randomised controlled trial (RCT) and what a consent form must contain. It also covers how to handle the distinction between mandatory and voluntary participation, and how to ensure General Data Protection Regulation (GDPR) compliance throughout.
 :::
 
-Data collection for an RCT involves collecting personal and firm-level data from participants who have a right to know what that data will be used for, who will have access to it, and what their choices are. Informed consent is the mechanism through which those rights are exercised. Getting it right is a legal requirement under GDPR and a precondition for ethical evaluation practice.
+Data collection for an RCT often involves collecting sensible data from participants who have a right to know what that data will be used for, who will have access to it, and what their choices are. Informed consent is the mechanism through which those rights are exercised. Getting it right is a legal requirement under GDPR and a precondition for ethical evaluation practice.
 
-The GDPR is the central legal reference for any collection of personal data in the EU, and its requirements should be consulted carefully when designing the consent form and the wider data-handling arrangements. This page offers practical guidance, not legal advice. The applicable legal bases and national rules depend on the intervention and the member state, so involve your Data Protection Officer from the start and consider bringing in legal consultants to review the consent form and any data-sharing agreements.
+The GDPR is the central legal reference for any collection of personal data in the EU, and its requirements should be consulted carefully when designing the consent form and the wider data-handling arrangements. This page offers practical guidance, not legal advice. The applicable legal bases and national rules depend on the intervention and the member state, so involve your Data Protection Officer or another responbible person from the start and consider bringing in legal consultants to review the consent form and any data-sharing agreements.
 
 ---
 
@@ -45,10 +45,10 @@ State clearly who is conducting the research, who the data controller is, and wh
 
 The purpose statement should be broad enough to cover the full range of anticipated uses, including future policy reports and academic publications, without being so vague that participants cannot understand what they are agreeing to.
 
-::: {.example .case data-map="romania-sm"}
-[Romania (South-Muntenia)]{.tag}
+::: {.example}
+[Illustrarive example]{.tag}
 
-"This survey is being conducted by the [...] Regional Development Agency and the World Bank. The goal of the evaluation study is to assess the effectiveness of innovation grants on the creation of successful innovation projects by small and medium-sized enterprises (SMEs) and SMEs' business outcomes and competitiveness."
+"This survey is being conducted by the [NAME OF AGENCY] and it's [NAME OF PARTNER(S)]. The goal of the evaluation study is to assess the effectiveness of innovation grants on the creation of successful innovation projects by small and medium-sized enterprises (SMEs) and SMEs' business outcomes and competitiveness."
 ::::
 
 ### 2. What data will be collected and why
@@ -74,8 +74,8 @@ For each optional category, explain what it is, why it is useful to the research
 
 Explain clearly that the evaluation uses a randomised design: all eligible applicants have an equal chance of being assigned to the treatment group (offered the support) or the comparison group (not offered it). Participants must understand this before they enter the process. The explanation should be plain and non-technical.
 
-::: {.example .case data-map="romania-sm"}
-[Romania (South-Muntenia)]{.tag}
+::: {.example}
+[Illustrarive example]{.tag}
 
 "To achieve a rigorous and unbiased evaluation, the selection of eligible firms invited to submit a formal application is randomised. Information from this form will be used to establish a baseline list of eligible firms. A random sample will then be assigned to the treatment group (invited to fill out the formal application) and the remaining firms will be assigned to the control group (not invited to formally apply)."
 ::::
@@ -125,7 +125,7 @@ Example:
 <div class="designs">
   <div class="d"><div>
     <h3>Box 1: Randomised intervention participation <span style="font-weight:400;font-size:0.9em">(required)</span></h3>
-    <p>Covers participation in the evaluation study, acknowledgement of the randomised selection methodology, data sharing with the World Bank for monitoring and research, and consent to be contacted for follow-up questions for up to six years. This box is required to proceed with the application.</p>
+    <p>Covers participation in the evaluation study, acknowledgement of the randomised selection methodology, data sharing with partners (e.g. for monitoring and research purposes), and consent to be contacted for follow-up questions for up to six years. This box is required to proceed with the application.</p>
   </div></div>
   <div class="d"><div>
     <h3>Box 2: Direct institutional access to transactional data <span style="font-weight:400;font-size:0.9em">(optional, but important for evaluation quality)</span></h3>
@@ -148,7 +148,7 @@ Box 1 is required. Boxes 2 and 3 are optional but described as important for the
 
 **Ethical approval.** For research involving human subjects, including firm-level surveys, it is recommended to seek ethical approval from an Institutional Review Board (IRB) or equivalent body. Managing authorities working with a university or international research partner should confirm that ethical approval has been obtained and that the consent form has been reviewed as part of that process.
 
-**Data transfers to international organisations.** If the research partner is based outside the EU, such as the World Bank, the data transfer must be covered by an appropriate GDPR mechanism. The World Bank processes personal data under its own institutional Privacy Policy, consistent with its mandate as an international organisation established by its member countries. This must be stated in the consent form and in the data-sharing agreement between the managing authority and the research partner.
+**Data transfers to international organisations.** If the research partner is based outside the EU, the data transfer must be covered by an appropriate GDPR mechanism. Each partner might process personal data under its own institutional Privacy Policy. This must be stated in the consent form and in the data-sharing agreement between the managing authority and the research partner.
 
 **Control group consent.** Participants in the comparison group are also research subjects: they are surveyed, tracked in administrative data, and their data are used in the analysis. They must receive the same information notice and consent form as the treatment group. The only difference is that they are not offered the support.
 
