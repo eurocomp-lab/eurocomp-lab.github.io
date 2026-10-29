@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-d8c81eda1e1dceff6089a50399cbe040.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-6e1cf781ef92bf99f19e65ecf5f23993.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -229,51 +229,164 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="unlisted anchored" data-anchor-id="summary">Summary</h2>
 <p>This page covers the internal team to assemble before starting, and eight sequential steps for designing a credible randomised controlled trial (RCT): Theory of Change (ToC), learning questions, indicators, feasibility, randomisation, data sources, data collection, and data quality.</p>
 </section>
-<p>A well-designed RCT does not begin with randomisation. It begins with a clear understanding of what an intervention is trying to achieve and why. The eight steps below set out the preparatory work that makes randomisation meaningful and the results credible. Managing authorities are encouraged to work through them in sequence, ideally before the first call for applications is launched.</p>
+<p>A well-designed RCT does not begin with randomisation. It begins with a clear understanding of what an intervention is trying to achieve and why. The eight steps below set out the preparatory work that makes randomisation meaningful and the results credible. They are numbered in a logical order, but their work overlaps in practice, and most of it is done before the first call for applications is launched.</p>
 <p>Most examples on these pages involve firms, because the EuroCOMP Lab’s experiments have so far focused on business support. The same steps apply to any intervention, whether it reaches people, firms, schools, municipalities or other organisations.</p>
-<p>The timeline below shows where randomisation sits: everything before the random selection has to be in place before the intervention launches, which is what makes the comparison between the two groups valid.</p>
-<figure class="fig-e figure">
-<svg viewbox="0 0 680 330" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Timeline showing target areas, eligibility, random selection, monitoring and impact measurement across ex-ante and ex-post periods">
-  <rect x="20" y="46" width="300" height="252" rx="6" fill="var(--dg-accent-wash-soft)"></rect>
-  <text x="170" y="316" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5" font-style="italic">Ex-ante</text>
-  <text x="500" y="316" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11.5" font-style="italic">Ex-post</text>
-  <line x1="20" y1="300" x2="660" y2="300" stroke="var(--dg-line)" stroke-width="1.5"></line>
-  <text x="640" y="316" text-anchor="end" fill="var(--dg-ink-soft)" font-size="11.5">Time</text>
-  <rect x="30" y="20" width="130" height="24" rx="4" fill="var(--dg-ink)"></rect>
-  <text x="95" y="37" text-anchor="middle" fill="var(--dg-reverse)" font-size="10.5" font-weight="bold">T0: Target areas</text>
-  <rect x="176" y="20" width="130" height="24" rx="4" fill="var(--dg-ink)"></rect>
-  <text x="241" y="37" text-anchor="middle" fill="var(--dg-reverse)" font-size="11" font-weight="bold">T1: Eligibility</text>
-  <rect x="360" y="20" width="130" height="24" rx="4" fill="var(--dg-ink)"></rect>
-  <text x="425" y="37" text-anchor="middle" fill="var(--dg-reverse)" font-size="11" font-weight="bold">T2: Monitoring</text>
-  <rect x="520" y="20" width="130" height="24" rx="4" fill="var(--dg-ink)"></rect>
-  <text x="585" y="37" text-anchor="middle" fill="var(--dg-reverse)" font-size="11" font-weight="bold">T3: Impacts</text>
-  <rect x="30" y="70" width="130" height="56" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
-  <text x="42" y="90" fill="var(--dg-ink)" font-size="10.5" font-weight="bold">1. Secondary data</text>
-  <text x="42" y="104" fill="var(--dg-ink-soft)" font-size="10.5">Identify which areas</text>
-  <text x="42" y="117" fill="var(--dg-ink-soft)" font-size="10.5">and groups need support</text>
-  <rect x="176" y="70" width="130" height="56" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
-  <text x="188" y="90" fill="var(--dg-ink)" font-size="10.5" font-weight="bold">2. Eligibility check</text>
-  <text x="188" y="104" fill="var(--dg-ink-soft)" font-size="10.5">Refine the selection</text>
-  <text x="188" y="117" fill="var(--dg-ink-soft)" font-size="10.5">criteria, collect baseline</text>
-  <rect x="176" y="146" width="130" height="42" rx="5" fill="var(--dg-accent)"></rect>
-  <text x="241" y="164" text-anchor="middle" fill="var(--dg-ink)" font-size="11" font-weight="bold">3. Random selection</text>
-  <text x="241" y="179" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">within the eligible pool</text>
-  <path d="M306 167 H350" stroke="var(--dg-line)" stroke-width="1.5" fill="none"></path>
-  <path d="M306 167 H330 V232 H350" stroke="var(--dg-line)" stroke-width="1.5" fill="none"></path>
-  <rect x="350" y="148" width="230" height="38" rx="5" fill="var(--dg-accent)"></rect>
-  <text x="465" y="172" text-anchor="middle" fill="var(--dg-ink)" font-size="12" font-weight="bold">Treatment firms</text>
-  <rect x="350" y="212" width="230" height="42" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
-  <text x="465" y="230" text-anchor="middle" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Pure control group</text>
-  <text x="465" y="245" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="10.5">comparison firms without any support</text>
-  <text x="336" y="120" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="11" transform="rotate(-90 336 120)">Outcome</text>
-  <rect x="520" y="70" width="130" height="56" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
-  <text x="532" y="90" fill="var(--dg-ink)" font-size="10.5" font-weight="bold">4. Endline assessment</text>
-  <text x="532" y="104" fill="var(--dg-ink-soft)" font-size="10.5">Measure the gap between</text>
-  <text x="532" y="117" fill="var(--dg-ink-soft)" font-size="10.5">the two groups</text>
-  <path d="M598 167 H620 M598 233 H620 M609 167 V233" stroke="var(--dg-ink)" stroke-width="1.5" fill="none"></path>
-  <text x="626" y="204" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Impact</text>
+<p>The timeline below shows when the work of each step usually happens. Everything up to the random draw has to be in place before the intervention starts, which is what makes the comparison between the two groups valid.</p>
+<figure class="fig-e fig-timeline figure">
+<svg class="fig-wide" viewbox="0 0 720 472" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Indicative timeline of an RCT in five phases. Design, before the call: Theory of Change, learning questions, indicators, sample size and legal basis, the randomisation design and its pre-registration, the data sources and data-sharing agreements, and the terms of reference for data collection. Applications and eligibility: the selection rule is set out in the call, and baseline data are collected, often with the application. Baseline and random draw: the draw and a balance check, with the incoming data checked. Delivery of the intervention: the assignment is kept. Follow-up and analysis: follow-up surveys, data from registers and checks of the follow-up data.">
+  <rect x="10" y="64" width="701" height="46" fill="var(--dg-accent-wash-soft)"></rect>
+  <rect x="10" y="156" width="701" height="46" fill="var(--dg-accent-wash-soft)"></rect>
+  <rect x="10" y="248" width="701" height="46" fill="var(--dg-accent-wash-soft)"></rect>
+  <rect x="10" y="340" width="701" height="46" fill="var(--dg-accent-wash-soft)"></rect>
+  <rect x="168" y="10" width="105" height="44" rx="5" fill="var(--dg-ink)"></rect>
+  <text x="220.5" y="28" text-anchor="middle" fill="var(--dg-reverse)" font-size="12" font-weight="bold">Design</text>
+  <text x="220.5" y="44" text-anchor="middle" fill="var(--dg-reverse)" font-size="10.5">before the call</text>
+  <rect x="277" y="10" width="105" height="44" rx="5" fill="var(--dg-ink)"></rect>
+  <text x="329.5" y="28" text-anchor="middle" fill="var(--dg-reverse)" font-size="12" font-weight="bold">Applications</text>
+  <text x="329.5" y="44" text-anchor="middle" fill="var(--dg-reverse)" font-size="10.5">and eligibility</text>
+  <rect x="386" y="10" width="105" height="44" rx="5" fill="var(--dg-ink)"></rect>
+  <text x="438.5" y="28" text-anchor="middle" fill="var(--dg-reverse)" font-size="12" font-weight="bold">Baseline</text>
+  <text x="438.5" y="44" text-anchor="middle" fill="var(--dg-reverse)" font-size="10.5">and random draw</text>
+  <rect x="495" y="10" width="105" height="44" rx="5" fill="var(--dg-ink)"></rect>
+  <text x="547.5" y="28" text-anchor="middle" fill="var(--dg-reverse)" font-size="12" font-weight="bold">Delivery</text>
+  <text x="547.5" y="44" text-anchor="middle" fill="var(--dg-reverse)" font-size="10.5">of the intervention</text>
+  <rect x="604" y="10" width="105" height="44" rx="5" fill="var(--dg-ink)"></rect>
+  <text x="656.5" y="28" text-anchor="middle" fill="var(--dg-reverse)" font-size="12" font-weight="bold">Follow-up</text>
+  <text x="656.5" y="44" text-anchor="middle" fill="var(--dg-reverse)" font-size="10.5">and analysis</text>
+  <path d="M275 64 V440" stroke="var(--dg-line)" stroke-width="1.5" stroke-dasharray="4 4"></path>
+  <text x="275" y="456" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="10.5" font-style="italic">Call opens</text>
+  <path d="M493 64 V440" stroke="var(--dg-line)" stroke-width="1.5" stroke-dasharray="4 4"></path>
+  <text x="493" y="456" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="10.5" font-style="italic">Intervention starts</text>
+  <path d="M166 440 H707" stroke="var(--dg-line)" stroke-width="1.5"></path>
+  <path d="M711 440 l-8 -4 v8 z" fill="var(--dg-line)"></path>
+  <text x="711" y="456" text-anchor="end" fill="var(--dg-ink-soft)" font-size="10.5">Time</text>
+  <text x="18" y="84" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Step 1</text>
+  <text x="18" y="99" fill="var(--dg-ink-soft)" font-size="11">Theory of Change</text>
+  <text x="18" y="130" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Step 2</text>
+  <text x="18" y="145" fill="var(--dg-ink-soft)" font-size="11">Learning questions</text>
+  <text x="18" y="176" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Step 3</text>
+  <text x="18" y="191" fill="var(--dg-ink-soft)" font-size="11">Indicators</text>
+  <text x="18" y="222" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Step 4</text>
+  <text x="18" y="237" fill="var(--dg-ink-soft)" font-size="11">Feasibility</text>
+  <text x="18" y="268" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Step 5</text>
+  <text x="18" y="283" fill="var(--dg-ink-soft)" font-size="11">Randomisation</text>
+  <text x="18" y="314" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Step 6</text>
+  <text x="18" y="329" fill="var(--dg-ink-soft)" font-size="11">Data sources</text>
+  <text x="18" y="360" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Step 7</text>
+  <text x="18" y="375" fill="var(--dg-ink-soft)" font-size="11">Data collection</text>
+  <text x="18" y="406" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Step 8</text>
+  <text x="18" y="421" fill="var(--dg-ink-soft)" font-size="11">Data quality</text>
+  <rect x="170" y="70" width="101" height="34" rx="4" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="220.5" y="84" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">Map the causal</text>
+  <text x="220.5" y="97" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">chain</text>
+  <rect x="170" y="116" width="101" height="34" rx="4" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="220.5" y="130" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">Agree the</text>
+  <text x="220.5" y="143" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">questions</text>
+  <rect x="170" y="162" width="101" height="34" rx="4" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="220.5" y="176" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">Choose</text>
+  <text x="220.5" y="189" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">indicators</text>
+  <rect x="170" y="208" width="101" height="34" rx="4" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="220.5" y="222" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">Sample size,</text>
+  <text x="220.5" y="235" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">legal basis</text>
+  <rect x="279" y="208" width="101" height="34" rx="4" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="329.5" y="222" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">Selection rule</text>
+  <text x="329.5" y="235" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">in the call</text>
+  <rect x="170" y="254" width="101" height="34" rx="4" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="220.5" y="268" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">Choose design,</text>
+  <text x="220.5" y="281" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">pre-register</text>
+  <rect x="388" y="254" width="101" height="34" rx="4" fill="var(--dg-accent)" stroke="var(--dg-accent)"></rect>
+  <text x="438.5" y="268" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5" font-weight="bold">Random draw,</text>
+  <text x="438.5" y="281" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5" font-weight="bold">balance check</text>
+  <rect x="497" y="254" width="101" height="34" rx="4" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="547.5" y="268" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">Keep to the</text>
+  <text x="547.5" y="281" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">assignment</text>
+  <rect x="170" y="300" width="101" height="34" rx="4" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="220.5" y="314" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">Map data, sign</text>
+  <text x="220.5" y="327" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">agreements</text>
+  <rect x="606" y="300" width="101" height="34" rx="4" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="656.5" y="314" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">Data from</text>
+  <text x="656.5" y="327" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">registers</text>
+  <rect x="170" y="346" width="101" height="34" rx="4" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="220.5" y="360" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">Terms of</text>
+  <text x="220.5" y="373" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">reference</text>
+  <rect x="279" y="346" width="210" height="34" rx="4" fill="var(--dg-accent-wash)" stroke="var(--dg-line)"></rect>
+  <text x="384.0" y="360" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">Baseline data, often collected</text>
+  <text x="384.0" y="373" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">with the application</text>
+  <rect x="606" y="346" width="101" height="34" rx="4" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="656.5" y="360" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">Follow-up</text>
+  <text x="656.5" y="373" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">surveys</text>
+  <rect x="279" y="392" width="210" height="34" rx="4" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="384.0" y="413.0" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">Check the data as it comes in</text>
+  <rect x="606" y="392" width="101" height="34" rx="4" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="656.5" y="406" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">Check follow-up</text>
+  <text x="656.5" y="419" text-anchor="middle" fill="var(--dg-ink)" font-size="10.5">data</text>
 </svg>
-<figcaption>Note: illustrative timeline of an RCT.</figcaption>
+<svg class="fig-phone" viewbox="0 0 360 732" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Indicative timeline of an RCT in five phases. Design, before the call: Theory of Change, learning questions, indicators, sample size and legal basis, the randomisation design and its pre-registration, the data sources and data-sharing agreements, and the terms of reference for data collection. Applications and eligibility: the selection rule is set out in the call, and baseline data are collected, often with the application. Baseline and random draw: the draw and a balance check, with the incoming data checked. Delivery of the intervention: the assignment is kept. Follow-up and analysis: follow-up surveys, data from registers and checks of the follow-up data.">
+  <rect x="10" y="10" width="340" height="30" rx="5" fill="var(--dg-ink)"></rect>
+  <text x="22" y="30" fill="var(--dg-reverse)" font-size="13" font-weight="bold">Design <tspan font-weight="normal" font-size="12">before the call</tspan></text>
+  <rect x="10" y="46" width="340" height="24" rx="4" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="20" y="62" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Step 1</text>
+  <text x="72" y="62" fill="var(--dg-ink)" font-size="11.5">Map the causal chain</text>
+  <rect x="10" y="76" width="340" height="24" rx="4" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="20" y="92" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Step 2</text>
+  <text x="72" y="92" fill="var(--dg-ink)" font-size="11.5">Agree the learning questions</text>
+  <rect x="10" y="106" width="340" height="24" rx="4" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="20" y="122" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Step 3</text>
+  <text x="72" y="122" fill="var(--dg-ink)" font-size="11.5">Choose indicators</text>
+  <rect x="10" y="136" width="340" height="24" rx="4" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="20" y="152" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Step 4</text>
+  <text x="72" y="152" fill="var(--dg-ink)" font-size="11.5">Sample size, legal basis</text>
+  <rect x="10" y="166" width="340" height="24" rx="4" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="20" y="182" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Step 5</text>
+  <text x="72" y="182" fill="var(--dg-ink)" font-size="11.5">Choose the design, pre-register</text>
+  <rect x="10" y="196" width="340" height="24" rx="4" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="20" y="212" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Step 6</text>
+  <text x="72" y="212" fill="var(--dg-ink)" font-size="11.5">Map data, sign data-sharing agreements</text>
+  <rect x="10" y="226" width="340" height="24" rx="4" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="20" y="242" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Step 7</text>
+  <text x="72" y="242" fill="var(--dg-ink)" font-size="11.5">Terms of reference for data collection</text>
+  <path d="M180.0 254 V268" stroke="var(--dg-line)" stroke-width="1.5"></path>
+  <path d="M176.0 266 L180.0 274 L184.0 266 Z" fill="var(--dg-line)"></path>
+  <rect x="10" y="278" width="340" height="30" rx="5" fill="var(--dg-ink)"></rect>
+  <text x="22" y="298" fill="var(--dg-reverse)" font-size="13" font-weight="bold">Applications <tspan font-weight="normal" font-size="12">and eligibility</tspan></text>
+  <rect x="10" y="314" width="340" height="24" rx="4" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="20" y="330" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Step 4</text>
+  <text x="72" y="330" fill="var(--dg-ink)" font-size="11.5">Selection rule set out in the call</text>
+  <rect x="10" y="344" width="340" height="24" rx="4" fill="var(--dg-accent-wash)" stroke="var(--dg-line)"></rect>
+  <text x="20" y="360" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Step 7</text>
+  <text x="72" y="360" fill="var(--dg-ink)" font-size="11.5">Baseline data, often with the application</text>
+  <path d="M180.0 372 V386" stroke="var(--dg-line)" stroke-width="1.5"></path>
+  <path d="M176.0 384 L180.0 392 L184.0 384 Z" fill="var(--dg-line)"></path>
+  <rect x="10" y="396" width="340" height="30" rx="5" fill="var(--dg-ink)"></rect>
+  <text x="22" y="416" fill="var(--dg-reverse)" font-size="13" font-weight="bold">Baseline <tspan font-weight="normal" font-size="12">and random draw</tspan></text>
+  <rect x="10" y="432" width="340" height="24" rx="4" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="20" y="448" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Step 8</text>
+  <text x="72" y="448" fill="var(--dg-ink)" font-size="11.5">Check the data as it comes in</text>
+  <rect x="10" y="462" width="340" height="24" rx="4" fill="var(--dg-accent)" stroke="var(--dg-accent)"></rect>
+  <text x="20" y="478" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Step 5</text>
+  <text x="72" y="478" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Random draw, balance check</text>
+  <path d="M180.0 490 V504" stroke="var(--dg-line)" stroke-width="1.5"></path>
+  <path d="M176.0 502 L180.0 510 L184.0 502 Z" fill="var(--dg-line)"></path>
+  <rect x="10" y="514" width="340" height="30" rx="5" fill="var(--dg-ink)"></rect>
+  <text x="22" y="534" fill="var(--dg-reverse)" font-size="13" font-weight="bold">Delivery <tspan font-weight="normal" font-size="12">of the intervention</tspan></text>
+  <rect x="10" y="550" width="340" height="24" rx="4" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="20" y="566" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Step 5</text>
+  <text x="72" y="566" fill="var(--dg-ink)" font-size="11.5">Keep to the assignment</text>
+  <path d="M180.0 578 V592" stroke="var(--dg-line)" stroke-width="1.5"></path>
+  <path d="M176.0 590 L180.0 598 L184.0 590 Z" fill="var(--dg-line)"></path>
+  <rect x="10" y="602" width="340" height="30" rx="5" fill="var(--dg-ink)"></rect>
+  <text x="22" y="622" fill="var(--dg-reverse)" font-size="13" font-weight="bold">Follow-up <tspan font-weight="normal" font-size="12">and analysis</tspan></text>
+  <rect x="10" y="638" width="340" height="24" rx="4" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="20" y="654" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Step 7</text>
+  <text x="72" y="654" fill="var(--dg-ink)" font-size="11.5">Follow-up surveys</text>
+  <rect x="10" y="668" width="340" height="24" rx="4" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="20" y="684" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Step 6</text>
+  <text x="72" y="684" fill="var(--dg-ink)" font-size="11.5">Data from registers</text>
+  <rect x="10" y="698" width="340" height="24" rx="4" fill="var(--dg-panel)" stroke="var(--dg-rule)"></rect>
+  <text x="20" y="714" fill="var(--dg-ink)" font-size="11.5" font-weight="bold">Step 8</text>
+  <text x="72" y="714" fill="var(--dg-ink)" font-size="11.5">Check follow-up data</text>
+</svg>
+<figcaption>Note: indicative; how long each phase lasts depends on the intervention. The steps are numbered in a logical order, but their work overlaps: baseline data, for example, are collected before the random draw, often through the application form, as in North-East Romania.</figcaption>
 </figure>
 <hr>
 <section id="eight-steps-for-designing-an-rct-successfully" class="level2">
