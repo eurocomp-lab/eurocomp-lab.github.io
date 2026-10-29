@@ -81,15 +81,29 @@ North-East Romania used two administrative data sources: (i) publicly available 
 
 Access to administrative data rarely happens automatically. Relevant microdata are typically held by separate government bodies and subject to their own access rules. Negotiating access takes time (in some countries, many months) and must be initiated well before the evaluation begins.
 
-A data-sharing agreement between the managing authority and the data-holding body should specify:
+**Preparing the request.**
 
-- what data will be shared
-- in what format and at what level of disaggregation
-- under what conditions it may be used
-- who is responsible for data security
-- how long it will be retained
+- **Send an official letter.** An official request from the managing authority, signed at an appropriate level of seniority, often carries more weight with a data-holding body than informal contact. It also creates a record of the request.
+- **Be specific about which data you need.** List the variables, the units (for example, all firms in the evaluation sample), the years, and the level of detail. Requests for "all available data" are hard to approve and tend to be slowed down or refused.
+- **Explain why you need it.** Link each requested item to an indicator in your Theory of Change and to the evaluation question it helps answer. This shows that the request is limited to what is necessary and helps the data holder justify its decision.
+- **Plan for several rounds of negotiation.** Expect questions, requests for clarification, and revisions to the scope, the access conditions, or the legal basis. Build this time into the evaluation timeline, and involve your Data Protection Officer and, where helpful, legal advisers from the start.
 
-General Data Protection Regulation compliance must be addressed explicitly in the agreement.
+**What the agreement should cover.** A data-sharing agreement between the managing authority and the data-holding body sets out the rights and responsibilities of each side. Good practice is to include the following, with the technical details in annexes that can be updated without rewriting the agreement:
+
+- **Parties and roles.** Who provides the data, who receives it, and who is responsible for decisions on how it is used. Name a contact person on each side.
+- **Purpose and legal basis.** The specific evaluation purpose for which the data may be used, and the legal basis for sharing it. The data should not be used for any other purpose without written agreement.
+- **Description of the data.** The datasets, variables, time period, and units covered, the format, and the identifiers used to link records (for example, a tax or registration number). Specify whether the data is pseudonymised or anonymised.
+- **Access arrangements.** How the data will be provided: transferred to the evaluation team, or accessed in a secure environment. State how often it will be updated, which matters if you need data for several years after the intervention.
+- **Authorised users and confidentiality.** Only named members of the evaluation team may access identifiable data, on a need-to-know basis, and all of them are bound by confidentiality. Re-identifying individuals or firms, and linking the data to other sources for unrelated purposes, should be prohibited.
+- **Data security.** Minimum safeguards such as encryption, pseudonymisation, multi-factor authentication, restricted access with access logs, secure storage, and regular backups. The data holder may ask for the right to verify that these safeguards are in place.
+- **Third parties and transfers.** Whether consultants, data collection firms, or research partners may receive the data. This should require prior approval by the data holder and the same obligations as the original recipient. Any transfer outside the EU, for example to an international research partner, should be stated and covered by an appropriate legal mechanism.
+- **Requests from individuals.** What happens if a person or firm asks to see, correct, or delete their data: who is notified, and how quickly.
+- **Security incidents.** The recipient must notify the data holder promptly, within a defined time limit, of any loss, unauthorised access, or disclosure, and cooperate in the response.
+- **Duration, retention, and deletion.** The period for which the agreement and access are valid, which should cover the full evaluation including follow-up rounds. At the end, the data must be returned or securely destroyed, with written confirmation. Confidentiality and security obligations should continue after the agreement ends.
+- **Publication and outputs.** Results must be published only in aggregate or anonymised form. The data holder may ask to review outputs before publication, to check that no unit can be identified.
+- **Termination and changes.** The conditions under which either side may end the agreement, for example in the event of a breach, and how amendments are agreed in writing.
+
+General Data Protection Regulation compliance must be addressed explicitly in the agreement. Draft the agreement together with the data holder's own legal and data protection teams, as many institutions have their own templates and requirements.
 
 ***
 
