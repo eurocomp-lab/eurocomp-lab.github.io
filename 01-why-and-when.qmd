@@ -17,7 +17,7 @@ The page ends with answers to common questions about RCTs. [How to design an RCT
     <span class="part-title">What impact is</span>
     <ul>
       <li><a href="#counterfactual">What is the real impact of an intervention?</a></li>
-      <li><a href="#allocation">What does good allocation of public resources look like?</a></li>
+      <li><a href="#allocation">What difference does the support make?</a></li>
     </ul>
   </div>
   <div class="part-card">
@@ -122,10 +122,9 @@ in designing a strong impact evaluation. There is more on this in
 Making the chain explicit also surfaces the assumptions behind each link, and shows which of them the intervention's impact depends on most. If one of these assumptions does not hold (for example, that firms will take up the support they are offered), the intervention may fall short of its intended impact. Such weak links can be tested directly, as shown under [How can it be delivered better?](#two-questions)
 
 
-## What does good allocation of public resources look like? {#allocation}
+## What difference does the support make? {#allocation}
 
-Return on public investment is the benefit attributable to an intervention divided by its
-cost. "Attributable" requires knowing what the beneficiaries would have done in the absence of the intervention (the counterfactual).
+Whoever an intervention targets, its value lies in what it changes for them: its additionality. Judging additionality requires knowing what the beneficiaries would have done in the absence of the intervention (the counterfactual).
 
 That is especially hard when beneficiaries are not assigned at random but are selected by the managing authority. Beneficiaries may differ from those who were not selected; for example, they may be more motivated or have more resources. Most of these traits
 are never recorded in any database or questionnaire. When the beneficiaries later do better on the results of interest than the applicants that were not selected,
@@ -159,7 +158,7 @@ Strategy A looks stronger at first glance, as it is associated with 80 successes
 :::
 ::: {.col-e}
 ::: {.col-head}
-Strategy B: fund the marginal firm
+Strategy B: fund firms that need it
 :::
 ::: {.body}
 Firms that succeed: **55 of 100**
@@ -171,12 +170,12 @@ Succeeded because of the grant: **35**
 Additionality rate: **64%**
 :::
 ::: {.verdict}
-Strategy B causes 35 successes and thus has more impact than A.
+Strategy B shows fewer successes in total, but 35 of them happen because of the grant, more than twice as many as under A.
 :::
 :::
 :::
 
-Raw success counts can be misleading: to assess effectiveness, interventions need to be judged on their impact.
+Raw success counts can be misleading: to assess effectiveness, interventions need to be judged on their impact. Which applicants to target remains a policy choice, set by the intervention's objectives; cohesion policy may deliberately support those whose direct returns are lower, to reduce disparities. Whatever the target group, measuring additionality shows what the support actually changes.
 
 ::: {.cards}
 ::: {.card-e}
@@ -189,12 +188,12 @@ Comparing funded, stronger firms with unfunded, weaker ones credits the interven
 firms' pre-existing quality, not with what the grant did.
 :::
 ::: {.card-e}
-### Where the grant buys most {.unlisted}
-Support actually changes behaviour for the marginal, constrained firm: the good project
-that could not otherwise get funded.
+### Where support makes the most difference {.unlisted}
+Support changes behaviour most where it removes a real constraint: a good project
+that could not otherwise go ahead.
 :::
 ::: {.card-e}
-### Can experts spot the marginal firm? {.unlisted}
+### Can experts predict where support makes a difference? {.unlisted}
 Evidence suggests not reliably. In a business plan competition in Nigeria, judges' scores
 did not predict which firms would survive or grow three years later (McKenzie and Sansone,
 2019; see [Common questions about RCTs](#common-questions)).

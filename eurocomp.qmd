@@ -116,19 +116,19 @@ Cohesion policy is one of the EU's largest investments. It aims to foster balanc
 
 Increased funding alone will not be enough: smarter policymaking is needed to drive higher returns on EU investments and strengthen Europe's competitiveness. Innovation and learning in policymaking are key to increasing returns on European investments, and to improving Europe's competitiveness and readiness to address global and regional challenges.
 
-A prime example of this challenge is the EU's inefficient use of funds, reflected in low absorption rates. Almost halfway through the RRF implementation period, by the end of 2023, the European Commission had disbursed only around a third of the funds, €213 billion of the €723.8 billion, to Member States.
+Turning funds into results also takes time: almost halfway through the RRF implementation period, by the end of 2023, the European Commission had disbursed around a third of the funds, €213 billion of the €723.8 billion, to Member States.
 
 For the EU to compete globally, it must ensure that the funding invested by Member States reaches those in need while yielding substantial returns. This implies continuous policy improvements and their agile adaptation to changing circumstances. Evidence-based decision-making is essential for enhancing competition, economic growth, and social cohesion in the EU, with areas such as bureaucratic simplification and more effective public procurement serving as key examples.
 
-## Knowledge about cohesion policy's impact is limited
+## The case for more causal evidence
 
-Despite large investments, little is known about the (causal) impacts of cohesion policy programmes and implementation approaches. Despite its long history of investments to improve regional competitiveness, and of cohesion policy evaluations, the EU's methodological toolkit for policy evaluation is dominated by qualitative and ex-post evaluations completed long after investments have been made. Recent systematic reviews point to the need for more objective evaluations of the considerable public investments made into the EU's cohesion policy.
+Cohesion policy has a long record of evaluation, using a wide range of methods. Counterfactual evidence on the causal impact of specific interventions and implementation approaches is still comparatively scarce, however, and often arrives after the investments have been made. Recent systematic reviews call for more counterfactual evaluations of cohesion policy investments.
 
 ::: {.soft-panel}
-Only about 3% of the 2,940 EU evaluations to date provide insights into the return on investment, based on counterfactual policy analyses.
+About 3% of the 2,940 EU evaluations to date use counterfactual analysis to estimate the return on investment.
 :::
 
-In this context, it is difficult to incorporate lessons from past programmes and investments to improve the effectiveness of future ones. Interviews with managing authority representatives reveal that evaluations are often perceived as a formal, costly obligation with unclear benefits.
+In this context, lessons from past programmes and investments are not always easy to apply to future ones. Interviews with managing authority representatives show that evaluations are often experienced as a reporting obligation rather than a tool for learning, which experimentation aims to change.
 
 ## Increasing competitiveness through learning what works
 
