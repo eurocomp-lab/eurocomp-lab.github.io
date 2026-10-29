@@ -1144,9 +1144,37 @@ body:not(.glossary) #quarto-document-content a[href*="glossary.html#"]:hover { t
    Batch 24 (October 2026): the step timeline on How to design an
    RCT. Below 992px the wide version would shrink its text under
    9px, so the stacked (phone) version shows instead, at a width
-   that keeps its text near body size.
+   that keeps its text near body size. Since batch 28 each version
+   is a box holding the drawing and its links.
    --------------------------------------------------------------- */
 @media (max-width: 991.98px) {
-  #quarto-document-content figure.fig-e.fig-timeline > svg.fig-wide { display: none; }
-  #quarto-document-content figure.fig-e.fig-timeline > svg.fig-phone { display: block; max-width: 30rem; min-width: 0; }
+  #quarto-document-content figure.fig-e.fig-timeline > .fig-wide { display: none; }
+  #quarto-document-content figure.fig-e.fig-timeline > .fig-phone { display: block; max-width: 30rem; min-width: 0; }
+}
+
+/* ---------------------------------------------------------------
+   Batch 28 (October 2026): the timeline on How to design an RCT
+   links each task to the page that covers it. The links are HTML
+   boxes laid over the drawing (Quarto's navigation script fails on
+   links inside an SVG). On hover or keyboard focus the line gets a
+   yellow highlight and every circle of the same step turns yellow,
+   as in the step list below, showing where that step's work recurs.
+   --------------------------------------------------------------- */
+#quarto-document-content figure.fig-timeline .tl-box { position: relative; }
+#quarto-document-content figure.fig-timeline a.tl-hot {
+  position: absolute;
+  display: block;
+  border-radius: 5px;
+  text-decoration: none;
+}
+#quarto-document-content figure.fig-timeline a.tl-hot:hover,
+#quarto-document-content figure.fig-timeline a.tl-hot:focus-visible {
+  background: rgba(255, 214, 23, .35);
+  mix-blend-mode: multiply;      // tints the paper, keeps the text crisp
+  box-shadow: none;
+}
+#quarto-document-content figure.fig-timeline a.tl-hot:focus-visible { outline: 3px solid $rf-blue; outline-offset: 1px; }
+@for $i from 1 through 8 {
+  #quarto-document-content figure.fig-timeline .tl-box:has(a.tl-s#{$i}:is(:hover, :focus-visible)) .tl-b.tl-s#{$i} .tl-dot { fill: $rf-yellow; }
+  #quarto-document-content figure.fig-timeline .tl-box:has(a.tl-s#{$i}:is(:hover, :focus-visible)) .tl-b.tl-s#{$i} .tl-n { fill: $rf-blue; }
 }
