@@ -17,7 +17,8 @@ The page ends with answers to common questions about RCTs. [How to design an RCT
     <span class="part-title">What impact is</span>
     <ul>
       <li><a href="#counterfactual">What is the real impact of an intervention?</a></li>
-      <li><a href="#allocation">What difference does the support make?</a></li>
+      <li><a href="#measure">What does impact evaluation measure exactly?</a></li>
+      <li><a href="#allocation">Challenges in measuring impact</a></li>
     </ul>
   </div>
   <div class="part-card">
@@ -47,15 +48,15 @@ The page ends with answers to common questions about RCTs. [How to design an RCT
 
 ## What is the real impact of an intervention? {#counterfactual data-part="Part 1 of 3 · What impact is"}
 
-**Definition.** Impact is what happens after an intervention is introduced, minus what would
-have happened in its absence: the counterfactual.
+**Definition.** Impact is the difference between what happens after an intervention is introduced and what
+would have happened in its absence. What would have happened in its absence is called the counterfactual.
 
-**The dilemma.** The counterfactual is a "what if" and cannot be observed. Ideally, the same applicant would be observed twice, once with the intervention and once without
-it, and the two compared. That is impossible: each applicant either takes part or does not. Every
+**The dilemma.** The counterfactual is a "what if" and cannot be observed. Ideally, the same participant would be observed twice, once with the intervention and once without
+it, and the two compared. That is impossible: each participant either takes part or does not. Every
 impact evaluation method is a way of approximating that missing second observation.
 
 **The solution.** Impact evaluation methods differ in how they estimate the counterfactual.
-This page provides an overview over the main approaches and the role of RCTs among them.
+This page provides an overview of the main approaches and the role of RCTs among them.
 
 ```{=html}
 <figure class="fig-e">
@@ -82,9 +83,9 @@ This page provides an overview over the main approaches and the role of RCTs amo
 </figure>
 ```
 
-## What does Impact Evaluation measure exactly?
+## What does impact evaluation measure exactly? {#measure}
 
-Impact evaluation, if implemented correctly, makes it possible to measure not only what an intervention delivers (output indicators) but also what changes because of it (result indicators).
+Monitoring tracks what an intervention delivers and how the situation of the target group develops, using output and result indicators. Impact evaluation goes one step further: it estimates how much of the change in results was caused by the intervention, by comparing what happened with the counterfactual.
 
 ::: {.cards}
 ::: {.card-e}
@@ -94,7 +95,7 @@ For example, grants disbursed, participants enrolled, training sessions run.
 :::
 ::: {.card-e}
 #### Results
-What changes because of it.
+What changes for participants or the target group.
 For example, employment, skills, energy savings, firm growth.
 :::
 :::
@@ -121,13 +122,12 @@ in designing a strong impact evaluation. There is more on this in
 
 Making the chain explicit also surfaces the assumptions behind each link, and shows which of them the intervention's impact depends on most. If one of these assumptions does not hold (for example, that firms will take up the support they are offered), the intervention may fall short of its intended impact. Such weak links can be tested directly, as shown below under [How can it be delivered better?](#two-questions)
 
+## Challenges in measuring impact {#allocation}
 
-## What difference does the support make? {#allocation}
+The value of an intervention lies in the change it causes: its additionality. Measuring additionality requires knowing what participants would have done without the intervention – the counterfactual.
 
-Whoever an intervention targets, its value lies in what it changes for them: its additionality. Judging additionality requires knowing what the beneficiaries would have done in the absence of the intervention (the counterfactual).
-
-That is especially hard when beneficiaries are not assigned at random but are selected by the managing authority. Beneficiaries may differ from those who were not selected; for example, they may be more motivated or have more resources. Most of these traits
-are never recorded in any database or questionnaire. When the beneficiaries later do better on the results of interest than the applicants that were not selected,
+Identifying the change an intervention has caused can be difficult when participants are not assigned at random but selected. Selected applicants may differ from those who were not selected; for example, they may be more motivated or have more resources. Most of these traits
+are never recorded in any database or questionnaire. When participants later do better on the results of interest than the applicants who were not selected,
 it is impossible to tell how much of that difference is due to the intervention.
 
 ::: {.caution}
@@ -180,7 +180,7 @@ Raw success counts can be misleading: to assess effectiveness, interventions nee
 ::: {.cards}
 ::: {.card-e}
 ### Paying for what would have happened anyway {.unlisted}
-Additionality here means the share of results that would not have happened without the intervention. Support that pays for what would have happened anyway is often called deadweight. Top performers would likely have invested anyway, so public funds mostly substitute for money they would have spent regardless – generating little that is truly additional per euro.
+Support that pays for what would have happened anyway is often called deadweight. Top performers would likely have invested anyway, so public funds mostly substitute for money they would have spent regardless – generating little that is truly additional per euro.
 :::
 ::: {.card-e}
 ### Crediting the intervention with existing strengths {.unlisted}
@@ -196,7 +196,7 @@ that could not otherwise go ahead.
 ### Can experts predict where support makes a difference? {.unlisted}
 Evidence suggests not reliably. In a business plan competition in Nigeria, judges' scores
 did not predict which firms would survive or grow three years later (McKenzie and Sansone,
-2019; see [Common questions about RCTs](#common-questions)).
+2019; see below [Common questions about RCTs](#common-questions)).
 :::
 :::
 
@@ -204,7 +204,7 @@ did not predict which firms would survive or grow three years later (McKenzie an
 
 ## Finding the counterfactual  {#finding-counterfactual data-part="Part 2 of 3 · Why an RCT"}
 
-As [defined above](#counterfactual), the counterfactual is what would have happened to participants without the intervention. It can never be observed directly, so it has to be estimated.
+The counterfactual can never be observed directly, so it has to be estimated.
 
 **Strategy.** Find a group that, on average, looks like the participants would have looked without the intervention. This group is the comparison group.
 
@@ -275,12 +275,14 @@ randomly deciding, among eligible applicants, who receives the intervention and 
 does not (or who receives another intervention).
 :::
 
-**Strengths and requirements.** The Commission's [Better Regulation toolbox](https://commission.europa.eu/law/law-making-process/better-regulation/better-regulation-guidelines-and-toolbox/better-regulation-toolbox_en) (Tool #68) describes randomised controlled trials as "the benchmark for scientific quantitative methods". Their main strengths are:
+**Strengths and requirements.** The Commission's [Better Regulation toolbox](https://commission.europa.eu/law/law-making-process/better-regulation/better-regulation-guidelines-and-toolbox/better-regulation-toolbox_en) (Tool #68) describes randomised controlled trials as "the benchmark for scientific quantitative methods". 
+Their main strengths are:
 
+- They provide strong causal evidence: because assignment is random, a difference in results between the groups can be attributed to the intervention rather than to pre-existing differences
 - No assumptions about levels or trends between groups are needed, as long as randomisation is implemented correctly
 - The estimate is simple to calculate and to explain: it is the difference in average results between the groups
 
-RCTs also have requirements. Random assignment has to be built into the selection process, usually before the intervention starts. Enough eligible participants are needed to detect an effect, and the assignment has to be respected during implementation. [When an RCT may not be the right choice](#when-not) discusses these limits.
+RCTs also have requirements. Random assignment has to be built into the selection process, usually before the intervention starts. Enough eligible participants are needed to detect an effect, and the assignment has to be respected during implementation. [When an RCT may not be the right choice](#when-not) below discusses these further.
 
 
 ::: {.example .romania #running-example data-map="romania-ne"}
@@ -435,7 +437,7 @@ check that each firm met the formal criteria and that the requested funds were j
 
 [↑ Back to the overview](#page-overview){.back-to-cases}
 
-## What is the learning question? {#two-questions data-part="Part 3 of 3 · When to use one"}
+## What can be learned from an RCT? {#two-questions data-part="Part 3 of 3 · When to use one"}
 
 Whether or not there is already good evidence that an intervention works, there can be a
 case for experimentation. The starting question is whether the intervention is working as
@@ -496,6 +498,10 @@ significantly raised sales and profits.
 :::
 
 ## Choosing an evaluation design {#choosing-design}
+
+As this page discussed, RCTs are one of several ways to estimate the counterfactual, distinguished by participants being assigned at random ([Finding the counterfactual](#finding-counterfactual)). Whether an RCT is the most suitable approach, or whether another works better for the intervention at hand, depends on what the evaluation should find out, whether it can be planned before the intervention starts and whether there are more eligible applicants than places, so that participation can be randomised.
+
+The decision tree below gives an overview of how these factors point towards an RCT or a quasi-experimental method. It is a simplified guide: in practice, the available data, the budget and the context of the intervention also need to be factored in.
 
 ```{=html}
 <figure class="fig-e">
