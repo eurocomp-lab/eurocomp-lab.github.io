@@ -9,7 +9,7 @@ description-meta: "Decide where your evaluation data will come from: weigh surve
 
 ::: {.team-note}
 ## Summary {.unlisted}
-This page covers the choice between primary and secondary data, how to assess what administrative sources already exist and whether they cover the right result indicators, where to find secondary firm-level data, and how to set up data-sharing agreements.
+This page covers the choice between primary and secondary data, how to assess what administrative sources already exist and whether they cover the right indicators, where to find secondary firm-level data, and how to set up data-sharing agreements.
 :::
 
 
