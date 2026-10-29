@@ -5,7 +5,7 @@ description-meta: "Learn what the impact of an intervention is, how randomised c
 
 ::: {.team-note}
 ## Summary {.unlisted}
-This page builds on the [home page](index.qmd), which introduces randomised controlled trials (RCTs) as one of several ways to conduct an impact evaluation. Part 1 is about impact evaluation in general: what the impact of an intervention is, what impact evaluation measures and which challenges can arise along the way. Part 2 contrasts random and non-random assignment and then focuses on RCTs: why random assignment makes the groups comparable, illustrated by a running example from North-East Romania, and how it can support transparency and trust. Part 3 covers when to use an RCT: how the learning question influences when the RCT needs to be planned, what to do when randomisation is not possible, when an RCT may not be the right choice and how learning from RCTs builds over time.
+This page builds on the [home page](index.qmd), which introduces randomised controlled trials (RCTs) as one of several ways to conduct an impact evaluation. Part 1 is about impact evaluation in general: what the impact of an intervention is, what impact evaluation measures and which challenges can arise along the way. Part 2 contrasts random and non-random assignment and then focuses on RCTs: why random assignment makes the groups comparable, illustrated by a running example from North-East Romania, and how it can support transparency and trust, before introducing the main quasi-experimental methods. Part 3 covers when to use an RCT: how the learning question influences when the RCT needs to be planned, how to choose an evaluation design, when an RCT may not be the right choice and how learning from RCTs builds over time.
 
 The page ends with answers to common questions about RCTs. [How to design an RCT](02-how.qmd) then explains how to plan one step by step.
 :::
@@ -23,21 +23,21 @@ The page ends with answers to common questions about RCTs. [How to design an RCT
   </div>
   <div class="part-card">
     <span class="part-no">Part 2</span>
-    <span class="part-title">Why an RCT</span>
+    <span class="part-title">Forming a comparison group</span>
     <ul>
       <li><a href="#finding-counterfactual">Finding the counterfactual</a></li>
       <li><a href="#rct">How an RCT creates a comparison group</a></li>
       <li><a href="#running-example">Running example: North-East Romania</a></li>
       <li><a href="#legitimacy">Randomisation can support transparency and trust</a></li>
+      <li><a href="#alternatives">Quasi-experimental methods</a></li>
     </ul>
   </div>
   <div class="part-card">
     <span class="part-no">Part 3</span>
     <span class="part-title">When to use one</span>
     <ul>
-      <li><a href="#two-questions">What is the learning question?</a></li>
+      <li><a href="#two-questions">What can be learned from an RCT?</a></li>
       <li><a href="#choosing-design">Choosing an evaluation design</a></li>
-      <li><a href="#alternatives">What if randomisation is not possible?</a></li>
       <li><a href="#when-not">When an RCT may not be the right choice</a></li>
       <li><a href="#learning-cycle">Learning through RCTs is a continuous process</a></li>
       <li><a href="#common-questions">Common questions about RCTs</a></li>
@@ -202,7 +202,7 @@ did not predict which firms would survive or grow three years later (McKenzie an
 
 [↑ Back to the overview](#page-overview){.back-to-cases}
 
-## Finding the counterfactual  {#finding-counterfactual data-part="Part 2 of 3 · Why an RCT"}
+## Finding the counterfactual  {#finding-counterfactual data-part="Part 2 of 3 · Forming a comparison group"}
 
 The counterfactual can never be observed directly, so it has to be estimated.
 
@@ -435,208 +435,14 @@ eligible pool, no ranking of the "best" applications was needed. Evaluators only
 check that each firm met the formal criteria and that the requested funds were justified.
 :::
 
-[↑ Back to the overview](#page-overview){.back-to-cases}
+## Quasi-experimental methods {#alternatives}
 
-## What can be learned from an RCT? {#two-questions data-part="Part 3 of 3 · When to use one"}
-
-Whether or not there is already good evidence that an intervention works, there can be a
-case for experimentation. The starting question is whether the intervention is working as
-well as it could be.
-
-::: {.compare}
-::: {.col-e}
-::: {.col-head}
-Does the intervention have an effect at all?
-:::
-::: {.body}
-It is not yet known whether the intervention works, or who it reaches and how it should be
-designed. Answering this requires a credible comparison group, which for an RCT means
-randomising before the intervention launches. Example: in North-East Romania, a lottery
-decided which eligible firms were invited to apply for a digitalisation grant, and the
-others formed the comparison group ([see above](#running-example)).
-:::
-:::
-::: {.col-e}
-::: {.col-head}
-How can it be delivered better?
-:::
-::: {.body}
-There is already evidence that the intervention works, and implementation may already be under way. The question is which version of the intervention works
-best. Example: the Digitrans pilot below compares a grant alone with a grant combined with
-technical assistance.
-:::
-:::
-:::
-
-Comparing versions is also a way to address weak links in the theory of change. Where impact depends on an assumption that may not hold, for example that firms will take up the support they are offered, alternative ways of addressing it can be tested within the same evaluation.
-
-::: {.example .case #digitrans data-map="digitrans"}
-[Digitrans example]{.tag}
-The Digitrans pilot (see [Examples](03-examples.qmd#digitrans) for more details) tested and compared two alternative ways to increase digital adoption among MSMEs in Bulgaria, Poland and Slovakia. Firms were randomly assigned to either (i) a comparison group receiving no support, (ii) a financial subsidy alone, or (iii) the same subsidy paired with technical assistance.
-
-The pilot found that money alone was not the most effective approach. Firms that also received technical assistance used
-digital tools 2.5 times more intensively than those with the subsidy alone. This is evidence that capability, not just cash, was a constraint to digitalisation.
-:::
-
-::: {.example .romania data-map="romania-ne"}
-[North&#8209;East Romania: testing outreach]{.tag}
-The North-East Romania intervention asked both questions. It used one experiment to find out whether the grants were effective and a second to study how best to conduct outreach.
-Before the digitalisation call, the regional development agency randomly selected 26 of 46
-towns for in-person information visits, in which a consultant explained the call and
-helped firms complete the pre-assessment survey. The 26 visited towns produced 110
-applications against 71 in the 20 towns without visits, about 4.2 per town against 3.6.
-Applicants from visited towns were also smaller firms (12.6 employees on average, compared with 19.6).
-:::
-
-::: {.example .case data-map="colombia"}
-[Colombia: group vs individual management support]{.tag}
-[Iacovone et al. 2022](03-examples.qmd#colombia-scaling-up-management-consulting) compared two ways to deliver management consulting to auto-parts firms:
-one-to-one (about USD 28,950 per firm) and in groups of 3–8 firms (about USD 10,500). Both
-raised management scores by around 9 percentage points, but only group consulting
-significantly raised sales and profits.
-
-:::
-
-## Choosing an evaluation design {#choosing-design}
-
-As this page discussed, RCTs are one of several ways to estimate the counterfactual, distinguished by participants being assigned at random ([Finding the counterfactual](#finding-counterfactual)). Whether an RCT is the most suitable approach, or whether another works better for the intervention at hand, depends on what the evaluation should find out, whether it can be planned before the intervention starts and whether there are more eligible applicants than places, so that participation can be randomised.
-
-The decision tree below gives an overview of how these factors point towards an RCT or a quasi-experimental method. It is a simplified guide: in practice, the available data, the budget and the context of the intervention also need to be factored in.
-
-```{=html}
-<figure class="fig-e">
-<svg class="fig-wide" viewBox="0 0 900 490" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Two decision paths from one question: what is the learning question? To learn whether the intervention has an effect at all: if the evaluation can be planned from the outset and there is excess demand, an RCT can compare the intervention with no intervention, and quasi-experimental methods planned in advance are an alternative; without excess demand, a phase-in RCT or quasi-experimental methods; if the evaluation cannot be planned from the outset, quasi-experimental methods. To learn how to deliver it better: every eligible participant receives the intervention and an RCT compares one version with another, which can start once the intervention is running.">
-  <rect x="330" y="10" width="240" height="44" rx="5" fill="var(--dg-ink)"/>
-  <text x="450" y="38" text-anchor="middle" fill="var(--dg-reverse)" font-size="16" font-weight="bold">What is the learning question?</text>
-  <path d="M450 54 V72 H225 V90 M450 72 H675 V90" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
-
-  <rect x="10" y="90" width="430" height="46" rx="5" fill="var(--dg-ink)"/>
-  <text x="225" y="119" text-anchor="middle" fill="var(--dg-reverse)" font-size="15" font-weight="bold">Does the intervention have an effect at all?</text>
-  <rect x="460" y="90" width="430" height="46" rx="5" fill="var(--dg-ink)"/>
-  <text x="675" y="119" text-anchor="middle" fill="var(--dg-reverse)" font-size="15" font-weight="bold">How can it be delivered better?</text>
-
-  <rect x="10" y="158" width="430" height="46" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="225" y="186" text-anchor="middle" fill="var(--dg-ink)" font-size="14" font-weight="bold">Can the evaluation be planned from the outset?</text>
-  <path d="M225 204 V222 H112 V246 M225 222 H337 V246" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
-  <text x="119" y="240" fill="var(--dg-ink-soft)" font-size="12.5" font-weight="bold">Yes</text>
-  <text x="344" y="240" fill="var(--dg-ink-soft)" font-size="12.5" font-weight="bold">No</text>
-
-  <rect x="10" y="246" width="205" height="86" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="112" y="272" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5" font-weight="bold">Is there excess demand</text>
-  <text x="112" y="290" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5" font-weight="bold">that allows randomising</text>
-  <text x="112" y="308" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5" font-weight="bold">participation?</text>
-
-  <rect x="235" y="246" width="205" height="86" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="337" y="270" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5" font-weight="bold">Quasi-experimental</text>
-  <text x="337" y="287" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5" font-weight="bold">methods</text>
-  <text x="337" y="306" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12">Matching &#183; Diff-in-diff &#183;</text>
-  <text x="337" y="321" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12">Regression discontinuity</text>
-
-  <path d="M112 332 V380 M112 356 H337 V380" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
-  <text x="119" y="374" fill="var(--dg-ink-soft)" font-size="12.5" font-weight="bold">Yes</text>
-  <text x="344" y="374" fill="var(--dg-ink-soft)" font-size="12.5" font-weight="bold">No</text>
-
-  <rect x="10" y="380" width="205" height="56" rx="5" fill="var(--dg-accent)"/>
-  <text x="112" y="404" text-anchor="middle" fill="var(--dg-ink)" font-size="16" font-weight="bold">RCT</text>
-  <text x="112" y="423" text-anchor="middle" fill="var(--dg-ink)" font-size="12">(intervention vs no intervention)</text>
-  <text x="10" y="458" fill="var(--dg-ink-soft)" font-size="12">Quasi-experimental methods planned in advance</text>
-  <text x="10" y="473" fill="var(--dg-ink-soft)" font-size="12">(for example, a scoring cut-off) are an alternative.</text>
-
-  <rect x="235" y="380" width="205" height="56" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="337" y="404" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5" font-weight="bold">Phase-in RCT</text>
-  <text x="337" y="423" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5">or quasi-experimental methods</text>
-
-  <rect x="460" y="158" width="430" height="134" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="482" y="182" fill="var(--dg-ink-soft)" font-size="11" font-weight="bold" letter-spacing="1.4">HOW IT WORKS</text>
-  <text x="482" y="207" fill="var(--dg-ink)" font-size="14">Every eligible participant receives the</text>
-  <text x="482" y="226" fill="var(--dg-ink)" font-size="14">intervention, so nobody is held back. Which</text>
-  <text x="482" y="245" fill="var(--dg-ink)" font-size="14">version each participant receives is randomised.</text>
-  <text x="482" y="273" fill="var(--dg-ink-soft)" font-size="13">For example: grant alone vs grant plus technical assistance</text>
-
-  <path d="M675 292 V316" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
-  <rect x="560" y="316" width="230" height="56" rx="5" fill="var(--dg-accent)"/>
-  <text x="675" y="340" text-anchor="middle" fill="var(--dg-ink)" font-size="16" font-weight="bold">RCT</text>
-  <text x="675" y="359" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5">(one version vs another)</text>
-
-  <rect x="460" y="394" width="430" height="62" rx="5" fill="var(--dg-accent-wash)"/>
-  <text x="675" y="420" text-anchor="middle" fill="var(--dg-ink)" font-size="13">The RCT does not need to be planned at the design stage.</text>
-  <text x="675" y="439" text-anchor="middle" fill="var(--dg-ink)" font-size="13">It can be added once implementation is already under way.</text>
-</svg>
-<svg class="fig-phone" viewBox="0 0 360 817" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Two decision paths from one question: what is the learning question? To learn whether the intervention has an effect at all: if the evaluation can be planned from the outset and there is excess demand, an RCT can compare the intervention with no intervention, and quasi-experimental methods planned in advance are an alternative; without excess demand, a phase-in RCT or quasi-experimental methods; if the evaluation cannot be planned from the outset, quasi-experimental methods. To learn how to deliver it better: every eligible participant receives the intervention and an RCT compares one version with another, which can start once the intervention is running.">
-  <rect x="10" y="10" width="340" height="40" rx="5" fill="var(--dg-ink)"/>
-  <text x="180" y="35" text-anchor="middle" fill="var(--dg-reverse)" font-size="15" font-weight="bold">What is the learning question?</text>
-  <path d="M24 50 V510 M24 86 H36 M24 510 H36" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
-
-  <rect x="36" y="66" width="314" height="40" rx="5" fill="var(--dg-ink)"/>
-  <text x="193" y="91" text-anchor="middle" fill="var(--dg-reverse)" font-size="13" font-weight="bold">Does the intervention have an effect at all?</text>
-
-  <rect x="36" y="118" width="314" height="40" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="193" y="143" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Can the evaluation be planned from the outset?</text>
-
-  <path d="M52 158 V422 M52 191 H82 M52 422 H82" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
-  <text x="56" y="186" fill="var(--dg-ink-soft)" font-size="12" font-weight="bold">Yes</text>
-  <text x="58" y="417" fill="var(--dg-ink-soft)" font-size="12" font-weight="bold">No</text>
-
-  <rect x="82" y="168" width="268" height="46" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="96" y="187" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Is there excess demand that</text>
-  <text x="96" y="204" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">allows randomising participation?</text>
-
-  <path d="M100 214 V346 M100 244 H130 M100 346 H130" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
-  <text x="104" y="239" fill="var(--dg-ink-soft)" font-size="12" font-weight="bold">Yes</text>
-  <text x="106" y="341" fill="var(--dg-ink-soft)" font-size="12" font-weight="bold">No</text>
-
-  <rect x="130" y="224" width="220" height="40" rx="5" fill="var(--dg-accent)"/>
-  <text x="144" y="249" fill="var(--dg-ink)" font-size="13" font-weight="bold">RCT <tspan font-weight="normal" font-size="10.5">(intervention vs none)</tspan></text>
-  <text x="130" y="280" fill="var(--dg-ink-soft)" font-size="11">Quasi-experimental methods</text>
-  <text x="130" y="294" fill="var(--dg-ink-soft)" font-size="11">planned in advance are an</text>
-  <text x="130" y="308" fill="var(--dg-ink-soft)" font-size="11">alternative.</text>
-
-  <rect x="130" y="326" width="220" height="42" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="144" y="343" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Phase-in RCT</text>
-  <text x="144" y="359" fill="var(--dg-ink)" font-size="11.5">or quasi-experimental methods</text>
-
-  <rect x="82" y="392" width="268" height="62" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="96" y="413" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Quasi-experimental methods</text>
-  <text x="96" y="430" fill="var(--dg-ink-soft)" font-size="11.5">Matching &#183; Diff-in-diff &#183;</text>
-  <text x="96" y="445" fill="var(--dg-ink-soft)" font-size="11.5">Regression discontinuity</text>
-
-  <rect x="36" y="490" width="314" height="40" rx="5" fill="var(--dg-ink)"/>
-  <text x="193" y="515" text-anchor="middle" fill="var(--dg-reverse)" font-size="13" font-weight="bold">How can it be delivered better?</text>
-
-  <rect x="36" y="542" width="314" height="137" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
-  <text x="52" y="563" fill="var(--dg-ink-soft)" font-size="10.5" font-weight="bold" letter-spacing="1.3">HOW IT WORKS</text>
-  <text x="52" y="584" fill="var(--dg-ink)" font-size="12.5">Every eligible participant receives the</text>
-  <text x="52" y="601" fill="var(--dg-ink)" font-size="12.5">intervention, so nobody is held back. Which</text>
-  <text x="52" y="618" fill="var(--dg-ink)" font-size="12.5">version each receives is randomised.</text>
-  <text x="52" y="644" fill="var(--dg-ink-soft)" font-size="11.5">For example: grant alone vs</text>
-  <text x="52" y="659" fill="var(--dg-ink-soft)" font-size="11.5">grant plus technical assistance</text>
-
-  <path d="M193 679 V693" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
-  <rect x="76" y="693" width="234" height="40" rx="5" fill="var(--dg-accent)"/>
-  <text x="193" y="718" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">RCT <tspan font-weight="normal" font-size="11.5">(one version vs another)</tspan></text>
-
-  <rect x="36" y="745" width="314" height="62" rx="5" fill="var(--dg-accent-wash)"/>
-  <text x="193" y="767" text-anchor="middle" fill="var(--dg-ink)" font-size="12">The RCT does not need to be planned at</text>
-  <text x="193" y="783" text-anchor="middle" fill="var(--dg-ink)" font-size="12">the design stage. It can be added once</text>
-  <text x="193" y="799" text-anchor="middle" fill="var(--dg-ink)" font-size="12">implementation is already under way.</text>
-</svg>
-<figcaption>Note: for an RCT, the first path needs a comparison group fixed before launch. If there is no excess demand, an RCT may still be possible with another design, for
-example a randomised phase-in, where every eligible participant is served but in a random order. Even when an evaluation can be planned from the outset, quasi-experimental methods can be the right choice, depending on the context. <a href="02.05-randomisation.qmd">Step 5: how to randomise</a> explains the different ways to
-randomise. The second path does not need a comparison group fixed from the outset, because nobody is excluded from the intervention itself – only which version each participant receives is randomised.</figcaption>
-</figure>
-```
-
-## What if randomisation is not possible? {#alternatives}
-
-To find out whether an intervention has an effect at all, an RCT generally has to be built in at the design stage, before the intervention launches. The comparison group, sample size and data to collect all depend on those early decisions. When randomisation is not possible,
-quasi-experimental methods can estimate the counterfactual instead. They can be planned in advance or applied after an intervention has been rolled out. This section introduces the most common ones; the Commission's [Better Regulation toolbox](https://commission.europa.eu/law/law-making-process/better-regulation/better-regulation-guidelines-and-toolbox/better-regulation-toolbox_en) (Tool #68) also covers further methods, such as instrumental variables and synthetic controls.
-
-However, if the question is how best to run an intervention that has already been launched, rather than whether it works at all, this constraint does not apply in the same way ([see above](#two-questions)).
+When participants are not assigned at random, quasi-experimental methods estimate the counterfactual by comparing participants with non-participants under specific assumptions. They can be planned before an intervention starts – for example, around an existing scoring rule – or applied once it has been rolled out, using data that already exist. The overview below is not exhaustive: it presents some of the most common methods. The Commission's [Better Regulation toolbox](https://commission.europa.eu/law/law-making-process/better-regulation/better-regulation-guidelines-and-toolbox/better-regulation-toolbox_en) (Tool #68) describes further ones, such as synthetic controls.
 
 ::: {.caution}
 Quasi-experimental methods always rely on assumptions, some stronger than others. If those
 assumptions do not hold, the impact estimate is biased. Many of these assumptions are not
-testable directly, so they need to be stated and discussed. The credibility of the evaluation depends on the credibility of the assumptions made.
+testable directly, so they need to be stated and discussed. The credibility of the evaluation depends on the credibility of the assumptions made. RCTs also depend on conditions being met; see [Strengths and requirements](#rct).
 :::
 
 ::::: {.myths-grid .methods}
@@ -858,7 +664,215 @@ are no longer comparable to those just above.
 
 </details>
 
+<details class="myth-box" id="instrumental-variables">
+<summary>Instrumental variables</summary>
+
+::: {.method}
+Method
+: Use a variable – the instrument – that influences whether units take part in the intervention but is otherwise unrelated to the results of interest. The difference in results between units with different values of the instrument, divided by the difference in their participation rates, gives the effect of taking part for those whose participation the instrument changed. The Better Regulation toolbox (Tool #68) illustrates the approach with the Covenant of Mayors in Italy: the presence of a territorial coordinator offering technical support made municipalities more likely to join, and was assumed to be otherwise unrelated to the mayors' re-election results (Martelli et al., 2018). A randomly assigned encouragement, such as an invitation or an information visit, can also serve as an instrument; the same logic is used in RCTs where not everyone offered support takes it up.
+
+Identifying assumption
+: The instrument must clearly influence participation, and it must affect results only through participation – in the toolbox's terms, the exclusion restriction. This condition cannot be tested and has to be argued. The estimate applies only to those whose participation was changed by the instrument, not to all participants, and data on the instrument are needed for both participants and non-participants.
+
+::: {.eg}
+For example, a local business adviser who promotes a grant may make firms more likely to apply. But if the same adviser also gives firms other help, the adviser's presence affects results through more than the grant, and the exclusion restriction does not hold.
+:::
+:::
+
+</details>
+
 :::::
+
+[↑ Back to the overview](#page-overview){.back-to-cases}
+
+## What can be learned from an RCT? {#two-questions data-part="Part 3 of 3 · When to use one"}
+
+Whether or not there is already good evidence that an intervention works, there can be a
+case for experimentation. The starting question is whether the intervention is working as
+well as it could be.
+
+::: {.compare}
+::: {.col-e}
+::: {.col-head}
+Does the intervention have an effect at all?
+:::
+::: {.body}
+It is not yet known whether the intervention works, or who it reaches and how it should be
+designed. Answering this requires a credible comparison group, which for an RCT means
+randomising before the intervention launches. Example: in North-East Romania, a lottery
+decided which eligible firms were invited to apply for a digitalisation grant, and the
+others formed the comparison group ([see above](#running-example)).
+:::
+:::
+::: {.col-e}
+::: {.col-head}
+How can it be delivered better?
+:::
+::: {.body}
+There is already evidence that the intervention works, and implementation may already be under way. The question is which version of the intervention works
+best. Example: the Digitrans pilot below compares a grant alone with a grant combined with
+technical assistance.
+:::
+:::
+:::
+
+Comparing versions is also a way to address weak links in the theory of change. Where impact depends on an assumption that may not hold, for example that firms will take up the support they are offered, alternative ways of addressing it can be tested within the same evaluation.
+
+::: {.example .case #digitrans data-map="digitrans"}
+[Digitrans example]{.tag}
+The Digitrans pilot (see [Examples](03-examples.qmd#digitrans) for more details) tested and compared two alternative ways to increase digital adoption among MSMEs in Bulgaria, Poland and Slovakia. Firms were randomly assigned to either (i) a comparison group receiving no support, (ii) a financial subsidy alone, or (iii) the same subsidy paired with technical assistance.
+
+The pilot found that money alone was not the most effective approach. Firms that also received technical assistance used
+digital tools 2.5 times more intensively than those with the subsidy alone. This is evidence that capability, not just cash, was a constraint to digitalisation.
+:::
+
+::: {.example .romania data-map="romania-ne"}
+[North&#8209;East Romania: testing outreach]{.tag}
+The North-East Romania intervention asked both questions. It used one experiment to find out whether the grants were effective and a second to study how best to conduct outreach.
+Before the digitalisation call, the regional development agency randomly selected 26 of 46
+towns for in-person information visits, in which a consultant explained the call and
+helped firms complete the pre-assessment survey. The 26 visited towns produced 110
+applications against 71 in the 20 towns without visits, about 4.2 per town against 3.6.
+Applicants from visited towns were also smaller firms (12.6 employees on average, compared with 19.6).
+:::
+
+::: {.example .case data-map="colombia"}
+[Colombia: group vs individual management support]{.tag}
+[Iacovone et al. 2022](03-examples.qmd#colombia-scaling-up-management-consulting) compared two ways to deliver management consulting to auto-parts firms:
+one-to-one (about USD 28,950 per firm) and in groups of 3–8 firms (about USD 10,500). Both
+raised management scores by around 9 percentage points, but only group consulting
+significantly raised sales and profits.
+
+:::
+
+## Choosing an evaluation design {#choosing-design}
+
+As this page discussed, RCTs are one of several ways to estimate the counterfactual, distinguished by participants being assigned at random ([Finding the counterfactual](#finding-counterfactual)). Whether an RCT is the most suitable approach, or whether another works better for the intervention at hand, depends on what the evaluation should find out, whether it can be planned before the intervention starts and whether there are more eligible applicants than places, so that participation can be randomised.
+
+The decision tree below gives an overview of how these factors point towards an RCT or a quasi-experimental method. It is a simplified guide. In practice, other considerations can make a quasi-experimental design the better choice even when an RCT would be possible – for example, when selection already follows a scoring rule with a clear cut-off, which suits a regression discontinuity design; when legal, political or ethical considerations limit random selection; when all eligible applicants need to be served at the same time; or when good administrative data are already available. The budget and the wider context of the intervention also play a part.
+
+```{=html}
+<figure class="fig-e">
+<svg class="fig-wide" viewBox="0 0 900 490" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Two decision paths from one question: what can be learned? To learn whether the intervention has an effect at all: if the evaluation can be planned from the outset and there is excess demand, an RCT can compare the intervention with no intervention, and quasi-experimental methods planned in advance are an alternative; without excess demand, a phase-in RCT or quasi-experimental methods; if the evaluation cannot be planned from the outset, quasi-experimental methods. To learn how to deliver it better: every eligible participant receives the intervention and an RCT compares one version with another, which can start once the intervention is running.">
+  <rect x="330" y="10" width="240" height="44" rx="5" fill="var(--dg-ink)"/>
+  <text x="450" y="38" text-anchor="middle" fill="var(--dg-reverse)" font-size="16" font-weight="bold">What can be learned?</text>
+  <path d="M450 54 V72 H225 V90 M450 72 H675 V90" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+
+  <rect x="10" y="90" width="430" height="46" rx="5" fill="var(--dg-ink)"/>
+  <text x="225" y="119" text-anchor="middle" fill="var(--dg-reverse)" font-size="15" font-weight="bold">Does the intervention have an effect at all?</text>
+  <rect x="460" y="90" width="430" height="46" rx="5" fill="var(--dg-ink)"/>
+  <text x="675" y="119" text-anchor="middle" fill="var(--dg-reverse)" font-size="15" font-weight="bold">How can it be delivered better?</text>
+
+  <rect x="10" y="158" width="430" height="46" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="225" y="186" text-anchor="middle" fill="var(--dg-ink)" font-size="14" font-weight="bold">Can the evaluation be planned from the outset?</text>
+  <path d="M225 204 V222 H112 V246 M225 222 H337 V246" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+  <text x="119" y="240" fill="var(--dg-ink-soft)" font-size="12.5" font-weight="bold">Yes</text>
+  <text x="344" y="240" fill="var(--dg-ink-soft)" font-size="12.5" font-weight="bold">No</text>
+
+  <rect x="10" y="246" width="205" height="86" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="112" y="272" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5" font-weight="bold">Is there excess demand</text>
+  <text x="112" y="290" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5" font-weight="bold">that allows randomising</text>
+  <text x="112" y="308" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5" font-weight="bold">participation?</text>
+
+  <rect x="235" y="246" width="205" height="86" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="337" y="270" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5" font-weight="bold">Quasi-experimental</text>
+  <text x="337" y="287" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5" font-weight="bold">methods</text>
+  <text x="337" y="306" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12">Matching &#183; Diff-in-diff &#183;</text>
+  <text x="337" y="321" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12">Regression discontinuity</text>
+
+  <path d="M112 332 V380 M112 356 H337 V380" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+  <text x="119" y="374" fill="var(--dg-ink-soft)" font-size="12.5" font-weight="bold">Yes</text>
+  <text x="344" y="374" fill="var(--dg-ink-soft)" font-size="12.5" font-weight="bold">No</text>
+
+  <rect x="10" y="380" width="205" height="56" rx="5" fill="var(--dg-accent)"/>
+  <text x="112" y="404" text-anchor="middle" fill="var(--dg-ink)" font-size="16" font-weight="bold">RCT</text>
+  <text x="112" y="423" text-anchor="middle" fill="var(--dg-ink)" font-size="12">(intervention vs no intervention)</text>
+  <text x="10" y="458" fill="var(--dg-ink-soft)" font-size="12">Quasi-experimental methods planned in advance</text>
+  <text x="10" y="473" fill="var(--dg-ink-soft)" font-size="12">(for example, a scoring cut-off) are an alternative.</text>
+
+  <rect x="235" y="380" width="205" height="56" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="337" y="404" text-anchor="middle" fill="var(--dg-ink)" font-size="13.5" font-weight="bold">Phase-in RCT</text>
+  <text x="337" y="423" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5">or quasi-experimental methods</text>
+
+  <rect x="460" y="158" width="430" height="134" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="482" y="182" fill="var(--dg-ink-soft)" font-size="11" font-weight="bold" letter-spacing="1.4">HOW IT WORKS</text>
+  <text x="482" y="207" fill="var(--dg-ink)" font-size="14">Every eligible participant receives the</text>
+  <text x="482" y="226" fill="var(--dg-ink)" font-size="14">intervention, so nobody is held back. Which</text>
+  <text x="482" y="245" fill="var(--dg-ink)" font-size="14">version each participant receives is randomised.</text>
+  <text x="482" y="273" fill="var(--dg-ink-soft)" font-size="13">For example: grant alone vs grant plus technical assistance</text>
+
+  <path d="M675 292 V316" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+  <rect x="560" y="316" width="230" height="56" rx="5" fill="var(--dg-accent)"/>
+  <text x="675" y="340" text-anchor="middle" fill="var(--dg-ink)" font-size="16" font-weight="bold">RCT</text>
+  <text x="675" y="359" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5">(one version vs another)</text>
+
+  <rect x="460" y="394" width="430" height="62" rx="5" fill="var(--dg-accent-wash)"/>
+  <text x="675" y="420" text-anchor="middle" fill="var(--dg-ink)" font-size="13">The RCT does not need to be planned at the design stage.</text>
+  <text x="675" y="439" text-anchor="middle" fill="var(--dg-ink)" font-size="13">It can be added once implementation is already under way.</text>
+</svg>
+<svg class="fig-phone" viewBox="0 0 360 817" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Two decision paths from one question: what can be learned? To learn whether the intervention has an effect at all: if the evaluation can be planned from the outset and there is excess demand, an RCT can compare the intervention with no intervention, and quasi-experimental methods planned in advance are an alternative; without excess demand, a phase-in RCT or quasi-experimental methods; if the evaluation cannot be planned from the outset, quasi-experimental methods. To learn how to deliver it better: every eligible participant receives the intervention and an RCT compares one version with another, which can start once the intervention is running.">
+  <rect x="10" y="10" width="340" height="40" rx="5" fill="var(--dg-ink)"/>
+  <text x="180" y="35" text-anchor="middle" fill="var(--dg-reverse)" font-size="15" font-weight="bold">What can be learned?</text>
+  <path d="M24 50 V510 M24 86 H36 M24 510 H36" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+
+  <rect x="36" y="66" width="314" height="40" rx="5" fill="var(--dg-ink)"/>
+  <text x="193" y="91" text-anchor="middle" fill="var(--dg-reverse)" font-size="13" font-weight="bold">Does the intervention have an effect at all?</text>
+
+  <rect x="36" y="118" width="314" height="40" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="193" y="143" text-anchor="middle" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Can the evaluation be planned from the outset?</text>
+
+  <path d="M52 158 V422 M52 191 H82 M52 422 H82" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+  <text x="56" y="186" fill="var(--dg-ink-soft)" font-size="12" font-weight="bold">Yes</text>
+  <text x="58" y="417" fill="var(--dg-ink-soft)" font-size="12" font-weight="bold">No</text>
+
+  <rect x="82" y="168" width="268" height="46" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="96" y="187" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Is there excess demand that</text>
+  <text x="96" y="204" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">allows randomising participation?</text>
+
+  <path d="M100 214 V346 M100 244 H130 M100 346 H130" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+  <text x="104" y="239" fill="var(--dg-ink-soft)" font-size="12" font-weight="bold">Yes</text>
+  <text x="106" y="341" fill="var(--dg-ink-soft)" font-size="12" font-weight="bold">No</text>
+
+  <rect x="130" y="224" width="220" height="40" rx="5" fill="var(--dg-accent)"/>
+  <text x="144" y="249" fill="var(--dg-ink)" font-size="13" font-weight="bold">RCT <tspan font-weight="normal" font-size="10.5">(intervention vs none)</tspan></text>
+  <text x="130" y="280" fill="var(--dg-ink-soft)" font-size="11">Quasi-experimental methods</text>
+  <text x="130" y="294" fill="var(--dg-ink-soft)" font-size="11">planned in advance are an</text>
+  <text x="130" y="308" fill="var(--dg-ink-soft)" font-size="11">alternative.</text>
+
+  <rect x="130" y="326" width="220" height="42" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="144" y="343" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Phase-in RCT</text>
+  <text x="144" y="359" fill="var(--dg-ink)" font-size="11.5">or quasi-experimental methods</text>
+
+  <rect x="82" y="392" width="268" height="62" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="96" y="413" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Quasi-experimental methods</text>
+  <text x="96" y="430" fill="var(--dg-ink-soft)" font-size="11.5">Matching &#183; Diff-in-diff &#183;</text>
+  <text x="96" y="445" fill="var(--dg-ink-soft)" font-size="11.5">Regression discontinuity</text>
+
+  <rect x="36" y="490" width="314" height="40" rx="5" fill="var(--dg-ink)"/>
+  <text x="193" y="515" text-anchor="middle" fill="var(--dg-reverse)" font-size="13" font-weight="bold">How can it be delivered better?</text>
+
+  <rect x="36" y="542" width="314" height="137" rx="5" fill="var(--dg-panel)" stroke="var(--dg-rule)"/>
+  <text x="52" y="563" fill="var(--dg-ink-soft)" font-size="10.5" font-weight="bold" letter-spacing="1.3">HOW IT WORKS</text>
+  <text x="52" y="584" fill="var(--dg-ink)" font-size="12.5">Every eligible participant receives the</text>
+  <text x="52" y="601" fill="var(--dg-ink)" font-size="12.5">intervention, so nobody is held back. Which</text>
+  <text x="52" y="618" fill="var(--dg-ink)" font-size="12.5">version each receives is randomised.</text>
+  <text x="52" y="644" fill="var(--dg-ink-soft)" font-size="11.5">For example: grant alone vs</text>
+  <text x="52" y="659" fill="var(--dg-ink-soft)" font-size="11.5">grant plus technical assistance</text>
+
+  <path d="M193 679 V693" stroke="var(--dg-line)" stroke-width="1.5" fill="none"/>
+  <rect x="76" y="693" width="234" height="40" rx="5" fill="var(--dg-accent)"/>
+  <text x="193" y="718" text-anchor="middle" fill="var(--dg-ink)" font-size="13" font-weight="bold">RCT <tspan font-weight="normal" font-size="11.5">(one version vs another)</tspan></text>
+
+  <rect x="36" y="745" width="314" height="62" rx="5" fill="var(--dg-accent-wash)"/>
+  <text x="193" y="767" text-anchor="middle" fill="var(--dg-ink)" font-size="12">The RCT does not need to be planned at</text>
+  <text x="193" y="783" text-anchor="middle" fill="var(--dg-ink)" font-size="12">the design stage. It can be added once</text>
+  <text x="193" y="799" text-anchor="middle" fill="var(--dg-ink)" font-size="12">implementation is already under way.</text>
+</svg>
+<figcaption>Note: for an RCT, the first path needs a comparison group fixed before launch. If there is no excess demand, an RCT may still be possible with another design, for
+example a randomised phase-in, where every eligible participant is served but in a random order. Even when an evaluation can be planned from the outset, quasi-experimental methods can be the right choice, depending on the context. <a href="02.05-randomisation.qmd">Step 5: how to randomise</a> explains the different ways to
+randomise. The second path does not need a comparison group fixed from the outset, because nobody is excluded from the intervention itself – only which version each participant receives is randomised.</figcaption>
+</figure>
+```
 
 ## When an RCT may not be the right choice {#when-not}
 
