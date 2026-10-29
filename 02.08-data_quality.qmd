@@ -32,7 +32,7 @@ The most effective quality controls are the ones built into the data collection 
 
 These rules catch errors at the point of entry, before they enter the dataset.
 
-**Pilot the questionnaire.** As described in Step 7, no questionnaire should go to the field untested. The pilot should specifically assess whether questions produce consistent, interpretable answers, not just whether they are understood. If two respondents from similar firms give very different answers to the same question, the wording may be ambiguous even if both respondents felt they understood it.
+**Pilot the questionnaire.** As described in Step 7, no questionnaire should go to the field untested. The pilot should specifically assess whether questions produce consistent, interpretable answers, not just whether they are understood. For example: if two respondents from similar firms give very different answers to the same question, the wording may be ambiguous even if both respondents felt they understood it.
 
 **Train enumerators thoroughly.** For Computer-Assisted Telephone Interviews (CATI) and Computer-Assisted Personal Interviews (CAPI) surveys, enumerator quality is one of the strongest predictors of data quality. Training should cover not only how to administer each question but also how to handle refusals, clarify without leading, and record partial responses. Enumerators should complete mock interviews before fieldwork begins.
 
@@ -42,7 +42,7 @@ These rules catch errors at the point of entry, before they enter the dataset.
 
 Once fieldwork begins, the evaluation team should monitor progress continuously rather than waiting for a complete dataset to arrive.
 
-**Track response rates by group.** Response rates should be monitored separately for the treatment and control groups throughout fieldwork. If response rates diverge significantly (for example, if control firms are less willing to respond), this is an early warning of differential [attrition](glossary.qmd#attrition "Glossary definition") that can bias the findings.
+**Track response rates by group.** Response rates should be monitored separately for the treatment and control groups throughout fieldwork. If response rates diverge significantly (for example, if control units are less willing to respond), this is an early warning of differential [attrition](glossary.qmd#attrition "Glossary definition") that can bias the findings.
 
 **Conduct back-checks.** A back-check involves re-contacting a random subset of completed interviews (typically 10%) to verify a selection of answers. Significant discrepancies between the original interview and the back-check indicate either enumerator error or data fabrication, both of which require immediate investigation. Back-checks are standard practice in telephone (CATI) and face-to-face (CAPI) surveys and should be a contractual requirement for any data collection firm.
 
