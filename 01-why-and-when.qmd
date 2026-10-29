@@ -5,7 +5,7 @@ description-meta: "Learn what the impact of an intervention is, how randomised c
 
 ::: {.team-note}
 ## Summary {.unlisted}
-This page builds on the [home page](index.qmd), which introduces RCTs as one of several ways to conduct an impact evaluation. Part 1 is about impact evaluation in general: what the impact of an intervention is, what needs to be measured and what challenges may arise when measuring it. Part 2 compares the two ways of forming a comparison group – random and non-random assignment – and then focuses on RCTs: how random assignment creates a comparison group, illustrated by a running example from North-East Romania, and how it can support transparency and trust. Part 3 covers when to use an RCT: which learning questions it can answer, how to choose an evaluation design, what to do when randomisation is not possible, when an RCT may not be the right choice and how learning from RCTs builds over time.
+This page builds on the [home page](index.qmd), which introduces randomised controlled trials (RCTs) as one of several ways to conduct an impact evaluation. Part 1 is about impact evaluation in general: what the impact of an intervention is, what impact evaluation measures and which challenges can arise along the way. Part 2 contrasts random and non-random assignment and then focuses on RCTs: why random assignment makes the groups comparable, illustrated by a running example from North-East Romania, and how it can support transparency and trust. Part 3 covers when to use an RCT: how the learning question influences when the RCT needs to be planned, what to do when randomisation is not possible, when an RCT may not be the right choice and how learning from RCTs builds over time.
 
 The page ends with answers to common questions about RCTs. [How to design an RCT](02-how.qmd) then explains how to plan one step by step.
 :::
@@ -55,7 +55,7 @@ it, and the two compared. That is impossible: each applicant either takes part o
 impact evaluation method is a way of approximating that missing second observation.
 
 **The solution.** Impact evaluation methods differ in how they estimate the counterfactual.
-This page explains the main approaches and the role of RCTs among them.
+This page provides an overview over the main approaches and the role of RCTs among them.
 
 ```{=html}
 <figure class="fig-e">
@@ -82,7 +82,7 @@ This page explains the main approaches and the role of RCTs among them.
 </figure>
 ```
 
-### From outputs to results
+## What does Impact Evaluation measure exactly?
 
 Impact evaluation, if implemented correctly, makes it possible to measure not only what an intervention delivers (output indicators) but also what changes because of it (result indicators).
 
@@ -119,7 +119,7 @@ This chain is the foundation of a theory of change, and having thought it throug
 in designing a strong impact evaluation. There is more on this in
 [Step 1: develop a Theory of Change](02.01-toc.qmd).
 
-Making the chain explicit also surfaces the assumptions behind each link, and shows which of them the intervention's impact depends on most. If one of these assumptions does not hold (for example, that firms will take up the support they are offered), the intervention may fall short of its intended impact. Such weak links can be tested directly, as shown under [How can it be delivered better?](#two-questions)
+Making the chain explicit also surfaces the assumptions behind each link, and shows which of them the intervention's impact depends on most. If one of these assumptions does not hold (for example, that firms will take up the support they are offered), the intervention may fall short of its intended impact. Such weak links can be tested directly, as shown below under [How can it be delivered better?](#two-questions)
 
 
 ## What difference does the support make? {#allocation}
