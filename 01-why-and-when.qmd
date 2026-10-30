@@ -132,7 +132,42 @@ do not show it, because some participants would have achieved them anyway.
 Consider an illustrative innovation-grant scheme: EUR 50,000 to each of 100 firms, where
 "success" means launching a new product. Compare two selection rules.
 
-[A/B compare block as you have it now]
+::: {.compare .strategy}
+::: {.col-e}
+::: {.col-head}
+Strategy A: fund the top performers
+:::
+::: {.body}
+Firms that succeed: **80 of 100**
+
+Would have succeeded anyway: **65**
+
+Succeeded because of the grant: **15**
+
+Additionality rate: **19%**
+:::
+::: {.verdict}
+Strategy A looks stronger at first glance, as it is associated with 80 successes, but only 15 of these succeeded because of the grant. The other 65 would have succeeded anyway. Support that pays for such results is often called deadweight.
+:::
+:::
+::: {.col-e}
+::: {.col-head}
+Strategy B: fund firms that need it
+:::
+::: {.body}
+Firms that succeed: **55 of 100**
+
+Would have succeeded anyway: **20**
+
+Succeeded because of the grant: **35**
+
+Additionality rate: **64%**
+:::
+::: {.verdict}
+Strategy B shows fewer successes in total, but 35 of them happen because of the grant, more than twice as many as under A.
+:::
+:::
+:::
 
 Raw success counts can be misleading: to assess effectiveness, interventions need to be
 judged on their impact. Which applicants to target remains a policy choice, set by the
@@ -156,6 +191,7 @@ that also affect results. In that case, the impact estimate is biased.
 
 Measuring additionality therefore requires a comparison group that differs from participants
 only in not receiving the intervention. Part 2 shows how to form one.
+
 [↑ Back to the overview](#page-overview){.back-to-cases}
 
 ## Finding the counterfactual  {#finding-counterfactual data-part="Part 2 of 3 · Forming a comparison group"}

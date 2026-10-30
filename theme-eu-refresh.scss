@@ -422,6 +422,28 @@ hr:has(+ .nav-buttons) { display: none; }
 }
 .hero-draw .draw-again:hover { background: rgba(255, 255, 255, .12); }
 .hero-draw .draw-again[hidden] { display: none; }
+/* Batch 37: the switch above the drawing compares a random draw with selection on merit (random-draw.js);
+   in merit mode a link under the caption leads to the selection bias section */
+.hero-draw .draw-mode { display: inline-flex; margin: 0 0 1rem; border: 1px solid rgba(255, 255, 255, .7); border-radius: 2px; }
+.hero-draw .draw-mode[hidden] { display: none; }
+.hero-draw .draw-mode button {
+  background: transparent;
+  color: #FFFFFF;
+  border: 0;
+  border-radius: 0;
+  padding: .45rem .85rem;
+  font: inherit;
+  font-size: .9rem;
+  font-weight: 700;
+  line-height: 1.3;
+  cursor: pointer;
+}
+.hero-draw .draw-mode button + button { border-left: 1px solid rgba(255, 255, 255, .7); }
+.hero-draw .draw-mode button[aria-pressed="true"] { background: #FFFFFF; color: $rf-blue; cursor: default; }
+.hero-draw .draw-mode button[aria-pressed="false"]:hover { background: rgba(255, 255, 255, .12); }
+.hero-draw .draw-why { color: #FFFFFF; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
+.hero-draw .draw-why:hover { text-decoration-thickness: 2px; }
+.hero-draw .draw-why[hidden] { display: none; }
 
 @media (max-width: 991.98px) {
   #quarto-document-content .hero-inner { grid-template-columns: 1fr; gap: 2.25rem; }
