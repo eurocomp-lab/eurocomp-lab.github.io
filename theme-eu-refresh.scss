@@ -1153,28 +1153,56 @@ body:not(.glossary) #quarto-document-content a[href*="glossary.html#"]:hover { t
 }
 
 /* ---------------------------------------------------------------
-   Batch 28 (October 2026): the timeline on How to design an RCT
-   links each task to the page that covers it. The links are HTML
-   boxes laid over the drawing (Quarto's navigation script fails on
-   links inside an SVG). On hover or keyboard focus the line gets a
-   yellow highlight and every circle of the same step turns yellow,
-   as in the step list below, showing where that step's work recurs.
+   Batch 29 (October 2026): How to design an RCT lists the steps in
+   a table with the outputs each step prepares, then shows in the
+   timeline when each output is used. The table replaces the step
+   cards. Outputs keep their step number and one of three colours,
+   by group of steps; hovering or focusing a step or an output
+   highlights that step in both parts. The timeline links are HTML
+   boxes laid over the drawing, because Quarto's navigation script
+   fails on links inside an SVG.
    --------------------------------------------------------------- */
-#quarto-document-content figure.fig-timeline .tl-box { position: relative; }
-#quarto-document-content figure.fig-timeline a.tl-hot {
-  position: absolute;
-  display: block;
-  border-radius: 5px;
-  text-decoration: none;
+#quarto-document-content .plan-block {
+  .fam-a { --fam: #6250D6; --fam-tint: #ECE9FB; }
+  .fam-b { --fam: #C5531B; --fam-tint: #FAEBE3; }
+  .fam-c { --fam: #00845C; --fam-tint: #E2F2EC; }
+  .fam-0 { --fam: #{$rf-ink-soft}; --fam-tint: #{$rf-pale}; }
+  h3.plan-h { margin: 1.5rem 0 .55rem; font-size: 1.05rem; font-weight: 700; color: $rf-blue; }
+  .plan-table { width: 100%; margin: 0 0 1rem; border-collapse: collapse; font-size: .92rem; line-height: 1.42; }
+  .plan-table thead th {
+    padding: 0 .55rem .35rem; border-bottom: 2px solid $rf-rule; text-align: left;
+    font-size: .72rem; font-weight: 700; letter-spacing: .03em; text-transform: uppercase; color: $rf-ink-soft;
+  }
+  .plan-table .pl-grp th { padding: .8rem .55rem .25rem; border-bottom: 1px solid $rf-rule; text-align: left; font-size: .8rem; font-weight: 700; color: $rf-ink-soft; }
+  .pl-swatch { display: inline-block; width: .7rem; height: .7rem; margin-right: .45rem; border-radius: 50%; background: var(--fam); vertical-align: -.04rem; }
+  .plan-table td { padding: .55rem .55rem; border-bottom: 1px solid $rf-rule; vertical-align: top; transition: background-color .12s ease; }
+  .pl-n { width: 2.5rem; }
+  .pl-n span { display: inline-grid; place-items: center; width: 1.45rem; height: 1.45rem; border-radius: 50%; background: var(--fam); color: #FFFFFF; font-size: .75rem; font-weight: 700; line-height: 1; }
+  .pl-team .pl-n span { width: 1rem; height: 1rem; margin: .2rem .22rem 0; background: $rf-yellow; box-shadow: 0 0 0 2px $rf-blue; }
+  .pl-title { display: block; color: $rf-blue; font-weight: 700; text-decoration: none; }
+  .pl-title:hover { text-decoration: underline; }
+  .pl-desc { display: block; margin-top: .12rem; color: $rf-ink; }
+  .pl-extra { display: block; margin-top: .25rem; font-size: .86rem; color: $rf-ink-soft; }
+  .pl-out { width: 34%; }
+  .pl-chips { display: flex; flex-wrap: wrap; gap: .3rem; }
+  .pl-chip { display: inline-block; padding: .04rem .45rem; border: 1.5px solid var(--fam); border-radius: 6px; background: #FFFFFF; color: $rf-ink; font-size: .84rem; line-height: 1.4; }
+  .pl-chips-inline { display: none; }
+  @media (max-width: 575.98px) {
+    // phones: the outputs sit under the step text instead of in their own column
+    .plan-table thead th:nth-child(3), .plan-table .pl-out { display: none; }
+    .pl-chips-inline { display: flex; margin-top: .4rem; }
+    .plan-table td { padding: .55rem .4rem; }
+    .pl-n { width: 2.2rem; }
+  }
+  .tl-box { position: relative; }
+  a.tl-hot { position: absolute; display: block; border-radius: 6px; text-decoration: none; }
+  a.tl-hot:focus-visible { background: transparent; box-shadow: none; outline: 3px solid $rf-blue; outline-offset: 1px; }
+  .tl-chip .chip-bg { transition: fill .12s ease; }
 }
-#quarto-document-content figure.fig-timeline a.tl-hot:hover,
-#quarto-document-content figure.fig-timeline a.tl-hot:focus-visible {
-  background: rgba(255, 214, 23, .35);
-  mix-blend-mode: multiply;      // tints the paper, keeps the text crisp
-  box-shadow: none;
-}
-#quarto-document-content figure.fig-timeline a.tl-hot:focus-visible { outline: 3px solid $rf-blue; outline-offset: 1px; }
-@for $i from 1 through 8 {
-  #quarto-document-content figure.fig-timeline .tl-box:has(a.tl-s#{$i}:is(:hover, :focus-visible)) .tl-b.tl-s#{$i} .tl-dot { fill: $rf-yellow; }
-  #quarto-document-content figure.fig-timeline .tl-box:has(a.tl-s#{$i}:is(:hover, :focus-visible)) .tl-b.tl-s#{$i} .tl-n { fill: $rf-blue; }
+@each $n in 1, 2, 3, 4, 5, 6, 7, 8 {
+  #quarto-document-content .plan-block:has(.tl-s#{$n}:is(:hover, :focus-visible, :focus-within)) {
+    tr.tl-s#{$n} > td { background: var(--fam-tint); }
+    .tl-chip.tl-s#{$n} .chip-bg { fill: var(--fam-tint); stroke-width: 2.5; }
+    .tl-key.tl-s#{$n} circle { stroke: $rf-ink; stroke-width: 2; }
+  }
 }
