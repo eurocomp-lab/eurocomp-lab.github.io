@@ -1145,13 +1145,13 @@ body:not(.glossary) #quarto-document-content a[href*="glossary.html#"]:hover { t
    RCT. Below 1100px the wide version would shrink its labels
    under 11px (the column is narrower while the "On this page"
    menu shows), so the stacked (phone) version shows instead,
-   at up to 25rem so its text matches the table above it (batch 33;
-   was 992px and 30rem). Since batch 28 each version is a box
-   holding the drawing and its links.
+   at up to 23rem so its text stays near the size of the table
+   above it (batch 33 and 35; was 992px and 30rem). Since batch 28
+   each version is a box holding the drawing and its links.
    --------------------------------------------------------------- */
 @media (max-width: 1099.98px) {
   #quarto-document-content figure.fig-e.fig-timeline > .fig-wide { display: none; }
-  #quarto-document-content figure.fig-e.fig-timeline > .fig-phone { display: block; max-width: 25rem; min-width: 0; }
+  #quarto-document-content figure.fig-e.fig-timeline > .fig-phone { display: block; max-width: 23rem; min-width: 0; }
 }
 
 /* ---------------------------------------------------------------
@@ -1169,14 +1169,15 @@ body:not(.glossary) #quarto-document-content a[href*="glossary.html#"]:hover { t
   .fam-b { --fam: #C5531B; --fam-tint: #FAEBE3; }
   .fam-c { --fam: #00845C; --fam-tint: #E2F2EC; }
   .fam-0 { --fam: #{$rf-ink-soft}; --fam-tint: #{$rf-pale}; }
-  h3.plan-h { margin: 1.5rem 0 .55rem; font-size: 1.05rem; font-weight: 700; color: $rf-blue; }
+  h3.plan-h { margin: 2.5rem 0 .6rem; }   // the site's h3 size and colour (batch 35: was small blue bold, like a link)
+  > h3.plan-h:first-child { margin-top: 1.25rem; }
   .plan-desc { max-width: 40rem; margin: 0 0 .8rem; color: $rf-ink-soft; }   // same text width as the page (batch 33)
   .plan-table { width: 100%; margin: 0 0 1rem; border-collapse: collapse; font-size: .92rem; line-height: 1.42; }
-  .plan-table thead th {
-    padding: 0 .55rem .35rem; border-bottom: 2px solid $rf-rule; text-align: left;
-    font-size: .72rem; font-weight: 700; letter-spacing: .03em; text-transform: uppercase; color: $rf-ink-soft;
+  .plan-table thead th {   // batch 35: sentence case at table text size, as in the site's other tables
+    padding: 0 .55rem .4rem; border-bottom: 2px solid $rf-rule; text-align: left;
+    font-size: .92rem; font-weight: 700; color: $rf-ink;
   }
-  .plan-table .pl-grp th { padding: .8rem .55rem .25rem; border-bottom: 1px solid $rf-rule; text-align: left; font-size: .8rem; font-weight: 700; color: $rf-ink-soft; }
+  .plan-table .pl-grp th { padding: .8rem .55rem .25rem; border-bottom: 1px solid $rf-rule; text-align: left; font-size: .88rem; font-weight: 700; color: $rf-ink; }
   .pl-swatch { display: inline-block; width: .7rem; height: .7rem; margin-right: .45rem; border-radius: 50%; background: var(--fam); vertical-align: -.04rem; }
   .plan-table td { padding: .55rem .55rem; border-bottom: 1px solid $rf-rule; vertical-align: top; transition: background-color .12s ease; }
   .pl-n { width: 2.5rem; }
