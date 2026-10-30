@@ -5,7 +5,10 @@ description-meta: "Learn what the impact of an intervention is, how randomised c
 
 ::: {.team-note}
 ## Summary {.unlisted}
-This page builds on the [home page](index.qmd), which introduces randomised controlled trials (RCTs) as one of several ways to conduct an impact evaluation. Part 1 is about impact evaluation in general: what the impact of an intervention is, what impact evaluation measures and which challenges can arise along the way. Part 2 contrasts random and non-random assignment and then focuses on RCTs: why random assignment makes the groups comparable, illustrated by a running example from North-East Romania, and how it can support transparency and trust, before providing an overview over the main quasi-experimental methods. Part 3 covers when to use an RCT: how the learning question influences when the RCT needs to be planned, how to choose an evaluation design, when an RCT may not be the right choice and how learning from RCTs builds over time.
+This page builds on the [home page](index.qmd), which introduces randomised controlled trials (RCTs) as one of several ways to conduct an impact evaluation. 
+Part 1 is about impact evaluation in general: what the impact of an intervention is, what impact evaluation measures and which challenges can arise along the way. 
+Part 2 contrasts random and non-random assignment and then focuses on RCTs: why random assignment makes the groups comparable, illustrated by a running example from North-East Romania, and how it can support transparency and trust, before providing an overview over the main quasi-experimental methods.
+Part 3 covers when to use an RCT: how the learning question influences when the RCT needs to be planned, how to choose an evaluation design, when an RCT may not be the right choice and how learning from RCTs builds over time.
 
 The page ends with answers to common questions about RCTs. [How to design an RCT](02-how.qmd) then explains how to plan one step by step.
 :::
@@ -27,7 +30,6 @@ The page ends with answers to common questions about RCTs. [How to design an RCT
     <ul>
       <li><a href="#finding-counterfactual">Finding the counterfactual</a></li>
       <li><a href="#rct">How an RCT creates a comparison group</a></li>
-      <li><a href="#running-example">Running example: North-East Romania</a></li>
       <li><a href="#legitimacy">Randomisation can support transparency and trust</a></li>
       <li><a href="#alternatives">Quasi-experimental methods</a></li>
     </ul>
@@ -245,7 +247,7 @@ group without the intervention.
 <figcaption>Note: treatment and comparison groups start at a similar level and diverge after the intervention starts; the gap between them is the impact of the intervention.</figcaption>
 </figure>
 ```
-Because assignment is decided by chance, the two groups are similar on average, differing systematically only in whether they receive the intervention. Take applicants for a grant: randomising who receives the money means that, on average, the two groups are similar in observable characteristics such as size, sector or turnover, and also in unobservable ones such as management quality or motivation. That is why, in a well-implemented RCT, no statistical adjustment for applicant characteristics is needed to obtain a credible estimate: the difference in average results between the two groups can be interpreted as the causal effect of the intervention.
+Because assignment is decided by chance, the two groups are similar on average not only in characteristics that can be measured but also in those that cannot. Take applicants for support, whether firms applying for a grant or jobseekers applying for a training course: randomising who receives it means that, on average, the two groups are similar in observable characteristics – such as size and sector for firms, or age and education for jobseekers – and also in unobservable ones, such as management quality or motivation. Apart from the luck of the draw, nothing should systematically differ between them. That is why, in a well-implemented RCT, no statistical adjustment for applicant characteristics is needed to obtain a credible estimate. 
 
 ::: {.soft-panel}
 **What "random" means here.** Not randomly sampling a sub-population to study, but
