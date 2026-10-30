@@ -23,6 +23,13 @@
    all small on merit), and above the caption a verdict, "Comparable groups" or
    "Groups not comparable: selection bias".
 
+   Batch 39 shows the consequence. Under the verdict, two bars give each group's
+   average result a year later in an illustrative case where the support has no
+   effect at all: results depend only on firm size (larger firms do better anyway)
+   plus a little noise. After a random draw the two bars come out about equal; on
+   merit the supported firms come out clearly ahead, a difference the support did
+   not cause.
+
    Without JavaScript the static fallback image stays, and the switch and the
    button stay hidden. With "reduce motion" set, a new result appears at once,
    without movement. */
@@ -70,6 +77,10 @@
     f.jx = rand() - 0.5;
     f.jy = rand() - 0.5;
   });
+  // Illustrative result a year later, with a support that has no effect: size plus noise
+  var randY = seeded(20240601);
+  var YMAX = 8;                       // full bar
+  firms.forEach(function (f) { f.y = 2 + 1.2 * (f.r - 5) + (randY() - 0.5) * 1.6; });
 
   // What changes between the two ways of selecting
   var MODES = {
@@ -79,8 +90,9 @@
       otherShort: "comparison group",
       icon: "\u2713",
       verdict: "Comparable groups",
-      caption: "A random draw splits eligible applicants into two groups that are similar on average. " +
-        "Any difference that appears later can be attributed to the intervention.",
+      caption: "A random draw splits eligible applicants into two groups that are similar on average, so a " +
+        "later difference in results can be attributed to the intervention.",
+      result: "With no effect, both groups show similar results a year later.",
       label: "Forty eligible firms of different sizes. A random draw marks twenty as supported and twenty " +
         "as the comparison group, and the two groups are comparable.",
       status: "Random draw: comparable groups, with a similar mix of small, medium and large firms."
@@ -91,8 +103,10 @@
       otherShort: "not selected",
       icon: "\u2715",
       verdict: "Groups not comparable: selection bias",
-      caption: "Selecting on merit supports the largest firms, so the two groups already differ before the " +
-        "intervention starts. A later difference mixes the effect of the intervention with that head start.",
+      caption: "Selecting on merit supports the largest firms. Even with no effect, they show better results " +
+        "a year later because they were ahead from the start, so the comparison overstates the impact.",
+      result: "With no effect, the supported firms still show clearly better results a year later than those " +
+        "not selected.",
       label: "Forty eligible firms of different sizes. Selection on merit supports the twenty largest, " +
         "so the two groups are not comparable.",
       status: "Selection on merit: groups not comparable. The twenty largest firms are supported, and the " +
@@ -172,6 +186,25 @@
       MODES[mode].otherShort + ": " + mixWords(c) + ".");
   }
 
+  // Each group's average result a year later (no effect), as bar lengths
+  var bars = { t: figure.querySelector(".draw-bar.t"), c: figure.querySelector(".draw-bar.c") };
+  var otherBarLabel = figure.querySelector(".draw-other");
+  var resultText = figure.querySelector(".draw-result-text");
+  function average(g) {
+    var sum = 0, n = 0;
+    firms.forEach(function (f) { if (f.group === g) { sum += f.y; n += 1; } });
+    return n ? sum / n : 0;
+  }
+  function setResult(show) {
+    ["t", "c"].forEach(function (g) {
+      if (!bars[g]) return;
+      bars[g].style.width = show ? Math.min(100, average(g) / YMAX * 100).toFixed(1) + "%" : "0";
+      bars[g].style.opacity = show ? "1" : "0";
+    });
+    if (otherBarLabel) otherBarLabel.textContent = mode === "merit" ? "Not selected" : "Comparison group";
+    if (resultText) resultText.textContent = MODES[mode].result;
+  }
+
   // The labels that depend on the mode: the arrow and the second group
   function setLabels() {
     var L = LAYOUTS[layout];
@@ -248,6 +281,7 @@
   function showResult() {
     var L = LAYOUTS[layout];
     setMix(true);
+    setResult(true);
     firms.forEach(function (f) {
       f.dot.setAttribute("class", "firm " + f.group);
       f.copy.setAttribute("class", "firm " + f.group);
@@ -311,6 +345,8 @@
   var status = figure.querySelector("[aria-live]");
   var caption = document.getElementById("hero-draw-caption");
   var why = figure.querySelector(".draw-why");
+  var resultBlock = figure.querySelector(".draw-result");
+  if (resultBlock) resultBlock.hidden = false;
   var switcher = figure.querySelector(".draw-mode");
   var icon = figure.querySelector(".draw-icon");
   var verdict = figure.querySelector(".draw-verdict-text");
@@ -319,6 +355,7 @@
     running = false;
     if (button) button.removeAttribute("aria-disabled");
     setMix(true);
+    setResult(true);
   }
 
   // Run a new result: animated where possible, at once otherwise
@@ -327,7 +364,8 @@
     if (status) status.textContent = message;
     if (!canAnimate) { showResult(); return; }
     stopAll();
-    setMix(false);                      // the mix appears once the groups are complete
+    setMix(false);                      // the mix and the results appear once the groups are complete
+    setResult(false);
     running = true;
     if (button) button.setAttribute("aria-disabled", "true");
     clear(function () { drawOneByOne(finish); });
@@ -349,7 +387,8 @@
     button.hidden = false;
     button.addEventListener("click", function () {
       if (running) return;              // let the current draw finish
-      play("New draw: different firms picked, and both groups again have a similar mix of firm sizes.");
+      play("New draw: different firms picked, and both groups again have a similar mix of firm sizes and " +
+        "similar results.");
     });
   }
 
@@ -372,7 +411,7 @@
         if (button) button.hidden = mode !== "random";
         if (why) why.hidden = mode !== "merit";
         finish();                         // a switch interrupts a draw in progress
-        play(MODES[mode].status);
+        play(MODES[mode].status + " " + MODES[mode].result);
       });
     });
   }
