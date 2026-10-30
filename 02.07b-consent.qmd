@@ -82,7 +82,7 @@ Explain clearly that the evaluation uses a randomised design: all eligible appli
 
 ### 4. Who will have access to the data
 
-Name every party that will have access to the data, in what capacity, and under what safeguards. If data will be transferred outside the European Union (for example, to the World Bank as an international organisation), state this explicitly. Specify the transfer mechanism: Standard Contractual Clauses, an adequacy decision, or the organisation's own data protection framework.
+Name every party that will have access to the data, in what capacity, and under what safeguards. If data will be transferred outside the European Union (for example, to the World Bank as an international organisation or an university), state this explicitly. Specify the transfer mechanism: Standard Contractual Clauses, an adequacy decision, or the organisation's own data protection framework.
 
 ### 5. How long data will be retained
 
