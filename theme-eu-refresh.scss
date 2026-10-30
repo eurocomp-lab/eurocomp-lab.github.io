@@ -444,6 +444,24 @@ hr:has(+ .nav-buttons) { display: none; }
 .hero-draw .draw-why { color: #FFFFFF; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
 .hero-draw .draw-why:hover { text-decoration-thickness: 2px; }
 .hero-draw .draw-why[hidden] { display: none; }
+/* Batch 38: the game states its verdict. Under each group label, its mix of firm sizes; above the caption,
+   "Comparable groups" (white check) or "Groups not comparable: selection bias" (coral cross). */
+.hero-draw svg text.mix { font-size: 11px; font-weight: 400; fill: rgba(255, 255, 255, .85); transition: opacity .3s ease; }
+#quarto-document-content .hero-draw .draw-verdict { display: flex; align-items: center; gap: .55rem; margin: 0; color: #FFFFFF; font-size: 1.05rem; font-weight: 700; line-height: 1.3; }
+.hero-draw .draw-icon {
+  flex: none;
+  display: inline-grid;
+  place-items: center;
+  width: 1.6rem;
+  height: 1.6rem;
+  border-radius: 50%;
+  background: #FFFFFF;
+  color: $rf-blue;
+  font-size: .95rem;
+  font-weight: 700;
+  line-height: 1;
+}
+.hero-draw[data-mode="merit"] .draw-icon { background: #FF8A75; color: $rf-ink; }
 
 @media (max-width: 991.98px) {
   #quarto-document-content .hero-inner { grid-template-columns: 1fr; gap: 2.25rem; }
@@ -462,6 +480,7 @@ hr:has(+ .nav-buttons) { display: none; }
   .gold-panel { font-size: 1.15rem; }
 }
 @media (prefers-reduced-motion: reduce) {
+  .hero-draw svg text.mix,
   .hero-draw svg .firm,
   .card-e { transition: none; }
 }
@@ -1194,9 +1213,9 @@ body:not(.glossary) #quarto-document-content a[href*="glossary.html#"]:hover { t
    fails on links inside an SVG.
    --------------------------------------------------------------- */
 #quarto-document-content .plan-block {
-  .fam-a { --fam: #6250D6; --fam-tint: #ECE9FB; }
-  .fam-b { --fam: #C5531B; --fam-tint: #FAEBE3; }
-  .fam-c { --fam: #00845C; --fam-tint: #E2F2EC; }
+  .fam-a { --fam: #894B9C; --fam-tint: #F1E9F3; }   // batch 38: plum, burnt orange and sea green (were violet #6250D6,
+  .fam-b { --fam: #BB5608; --fam-tint: #F7EBE1; }   // orange #C5531B, green #00845C): even weight, clear of the EU blue,
+  .fam-c { --fam: #0E8264; --fam-tint: #E2F0EC; }   // better colour-blind separation; see plan7_fig.py
   .fam-0 { --fam: #{$rf-ink-soft}; --fam-tint: #{$rf-pale}; }
   h3.plan-h { margin: 2.5rem 0 .6rem; }   // the site's h3 size and colour (batch 35: was small blue bold, like a link)
   > h3.plan-h:first-child { margin-top: 1.25rem; }
