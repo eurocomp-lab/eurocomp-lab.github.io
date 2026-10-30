@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-005a5368a8c0f47668126ea80a489a53.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-6dd2a0aaba8e9482c711cf2691099fc7.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -237,7 +237,7 @@ ul.task-list li input[type="checkbox"] {
 
 <section id="summary" class="level2 unlisted team-note">
 <h2 class="unlisted anchored" data-anchor-id="summary">Summary</h2>
-<p>This page builds on the <a href="./index.html">home page</a>, which introduces randomised controlled trials (RCTs) as one of several ways to conduct an impact evaluation. Part 1 is about impact evaluation in general: what the impact of an intervention is, what impact evaluation measures and which challenges can arise along the way. Part 2 contrasts random and non-random assignment and then focuses on RCTs: why random assignment makes the groups comparable, illustrated by a running example from North-East Romania, and how it can support transparency and trust, before introducing the main quasi-experimental methods. Part 3 covers when to use an RCT: how the learning question influences when the RCT needs to be planned, how to choose an evaluation design, when an RCT may not be the right choice and how learning from RCTs builds over time.</p>
+<p>This page builds on the <a href="./index.html">home page</a>, which introduces randomised controlled trials (RCTs) as one of several ways to conduct an impact evaluation. Part 1 is about impact evaluation in general: what the impact of an intervention is, what impact evaluation measures and which challenges can arise along the way. Part 2 contrasts random and non-random assignment and then focuses on RCTs: why random assignment makes the groups comparable, illustrated by a running example from North-East Romania, and how it can support transparency and trust, before providing an overview over the main quasi-experimental methods. Part 3 covers when to use an RCT: how the learning question influences when the RCT needs to be planned, how to choose an evaluation design, when an RCT may not be the right choice and how learning from RCTs builds over time.</p>
 <p>The page ends with answers to common questions about RCTs. <a href="./02-how.html">How to design an RCT</a> then explains how to plan one step by step.</p>
 </section>
 <nav class="page-parts" id="page-overview" aria-label="Parts of this page">
@@ -256,7 +256,6 @@ ul.task-list li input[type="checkbox"] {
     <ul>
       <li><a href="#finding-counterfactual">Finding the counterfactual</a></li>
       <li><a href="#rct">How an RCT creates a comparison group</a></li>
-      <li><a href="#running-example">Running example: North-East Romania</a></li>
       <li><a href="#legitimacy">Randomisation can support transparency and trust</a></li>
       <li><a href="#alternatives">Quasi-experimental methods</a></li>
     </ul>
@@ -326,66 +325,20 @@ ul.task-list li input[type="checkbox"] {
 </div>
 <p>But which results should be looked at exactly? An intervention can change many things, and not all of them can or should be measured. To know which results to look at, and when to expect them to change, the starting point is to spell out how the intervention is supposed to work: how its inputs and activities lead to outputs, and how those outputs are expected to lead to results.</p>
 <p>This chain is the foundation of a theory of change, and having thought it through helps in designing a strong impact evaluation. There is more on this in <a href="./02.01-toc.html">Step 1: develop a Theory of Change</a>.</p>
-<p>Making the chain explicit also surfaces the assumptions behind each link, and shows which of them the intervention’s impact depends on most. If one of these assumptions does not hold (for example, that firms will take up the support they are offered), the intervention may fall short of its intended impact. Such weak links can be tested directly, as shown below under <a href="#two-questions">How can it be delivered better?</a></p>
+<p>Making the chain explicit also surfaces the assumptions behind each link, and shows which of them the intervention’s impact depends on most. If one of these assumptions does not hold (for example, that firms will take up the support they are offered), the intervention may fall short of its intended impact. Such weak links can be tested directly ( see below under <a href="#two-questions">How can it be delivered better?</a>).</p>
 </section>
 <section id="allocation" class="level2">
 <h2 class="anchored" data-anchor-id="allocation">Challenges in measuring impact</h2>
-<p>The value of an intervention lies in the change it causes: its additionality. Measuring additionality requires knowing what participants would have done without the intervention – the counterfactual.</p>
-<p>Identifying the change an intervention has caused can be difficult when participants are not assigned at random but selected. Selected applicants may differ from those who were not selected; for example, they may be more motivated or have more resources. Most of these traits are never recorded in any database or questionnaire. When participants later do better on the results of interest than the applicants who were not selected, it is impossible to tell how much of that difference is due to the intervention.</p>
+<p>The value of an intervention lies in the change it causes: its additionality. Results alone do not show it, because some participants would have achieved them anyway.</p>
+<p>Consider an illustrative innovation-grant scheme: EUR 50,000 to each of 100 firms, where “success” means launching a new product. Compare two selection rules.</p>
+<p>[A/B compare block as you have it now]</p>
+<p>Raw success counts can be misleading: to assess effectiveness, interventions need to be judged on their impact. Which applicants to target remains a policy choice, set by the intervention’s objectives. Cohesion policy may deliberately support those whose direct returns are lower, to reduce disparities.</p>
+<p>In practice, nobody knows how many participants would have succeeded anyway: the 65 and the 20 in the example are counterfactual numbers. The obvious workaround is to compare participants with applicants who were not selected. That runs into a second problem.</p>
+<p>Selected applicants may differ from those who were not selected; for example, they may be more motivated or have more resources. Under Strategy A, funded firms would outperform unfunded applicants even if the grant did nothing. Most of these traits are never recorded in any database or questionnaire, so it is impossible to tell how much of the difference is due to the intervention.</p>
 <div class="caution">
 <p><strong>Selection bias</strong> arises when the comparison group differs from the participants in ways that also affect results. In that case, the impact estimate is biased.</p>
 </div>
-<p>Consider an illustrative innovation-grant scheme: EUR 50,000 to each of 100 firms, where “success” means launching a new product. Compare two selection rules.</p>
-<div class="compare strategy">
-<div class="col-e">
-<div class="col-head">
-<p>Strategy A: fund the top performers</p>
-</div>
-<div class="body">
-<p>Firms that succeed: <strong>80 of 100</strong></p>
-<p>Would have succeeded anyway: <strong>65</strong></p>
-<p>Succeeded because of the grant: <strong>15</strong></p>
-<p>Additionality rate: <strong>19%</strong></p>
-</div>
-<div class="verdict">
-<p>Strategy A looks stronger at first glance, as it is associated with 80 successes, but only 15 of these succeeded because of the grant.</p>
-</div>
-</div>
-<div class="col-e">
-<div class="col-head">
-<p>Strategy B: fund firms that need it</p>
-</div>
-<div class="body">
-<p>Firms that succeed: <strong>55 of 100</strong></p>
-<p>Would have succeeded anyway: <strong>20</strong></p>
-<p>Succeeded because of the grant: <strong>35</strong></p>
-<p>Additionality rate: <strong>64%</strong></p>
-</div>
-<div class="verdict">
-<p>Strategy B shows fewer successes in total, but 35 of them happen because of the grant, more than twice as many as under A.</p>
-</div>
-</div>
-</div>
-<p>Raw success counts can be misleading: to assess effectiveness, interventions need to be judged on their impact. Which applicants to target remains a policy choice, set by the intervention’s objectives; cohesion policy may deliberately support those whose direct returns are lower, to reduce disparities. Whatever the target group, measuring additionality shows what the support actually changes.</p>
-<div class="cards">
-<section id="paying-for-what-would-have-happened-anyway" class="level3 unlisted card-e">
-<h3 class="unlisted anchored" data-anchor-id="paying-for-what-would-have-happened-anyway">Paying for what would have happened anyway</h3>
-<p>Support that pays for what would have happened anyway is often called deadweight. Top performers would likely have invested anyway, so public funds mostly substitute for money they would have spent regardless – generating little that is truly additional per euro.</p>
-</section>
-<section id="crediting-the-intervention-with-existing-strengths" class="level3 unlisted card-e">
-<h3 class="unlisted anchored" data-anchor-id="crediting-the-intervention-with-existing-strengths">Crediting the intervention with existing strengths</h3>
-<p>Comparing funded, stronger firms with unfunded, weaker ones credits the intervention with firms’ pre-existing quality, not with what the grant did.</p>
-</section>
-<section id="where-support-makes-the-most-difference" class="level3 unlisted card-e">
-<h3 class="unlisted anchored" data-anchor-id="where-support-makes-the-most-difference">Where support makes the most difference</h3>
-<p>Support changes behaviour most where it removes a real constraint: a good project that could not otherwise go ahead.</p>
-</section>
-<section id="can-experts-predict-where-support-makes-a-difference" class="level3 unlisted card-e">
-<h3 class="unlisted anchored" data-anchor-id="can-experts-predict-where-support-makes-a-difference">Can experts predict where support makes a difference?</h3>
-<p>Evidence suggests not reliably. In a business plan competition in Nigeria, judges’ scores did not predict which firms would survive or grow three years later (McKenzie and Sansone, 2019; see below <a href="#common-questions">Common questions about RCTs</a>).</p>
-</section>
-</div>
-<p><a href="#page-overview" class="back-to-cases">↑ Back to the overview</a></p>
+<p>Measuring additionality therefore requires a comparison group that differs from participants only in not receiving the intervention. Part 2 shows how to form one. <a href="#page-overview" class="back-to-cases">↑ Back to the overview</a></p>
 </section>
 <section id="finding-counterfactual" class="level2" data-part="Part 2 of 3 · Forming a comparison group">
 <h2 data-part="Part 2 of 3 · Forming a comparison group" class="anchored" data-anchor-id="finding-counterfactual">Finding the counterfactual</h2>
@@ -441,7 +394,7 @@ ul.task-list li input[type="checkbox"] {
 </svg>
 <figcaption>Note: treatment and comparison groups start at a similar level and diverge after the intervention starts; the gap between them is the impact of the intervention.</figcaption>
 </figure>
-<p>Because assignment is decided by chance, the two groups are similar on average, differing systematically only in whether they receive the intervention. Take applicants for a grant: randomising who receives the money means that, on average, the two groups are similar in observable characteristics such as size, sector or turnover, and also in unobservable ones such as management quality or motivation. That is why, in a well-implemented RCT, no statistical adjustment for applicant characteristics is needed to obtain a credible estimate: the difference in average results between the two groups can be interpreted as the causal effect of the intervention.</p>
+<p>Because assignment is decided by chance, the two groups are similar on average not only in characteristics that can be measured but also in those that cannot. Take applicants for support, whether firms applying for a grant or jobseekers applying for a training course: randomising who receives it means that, on average, the two groups are similar in observable characteristics – such as size and sector for firms, or age and education for jobseekers – and also in unobservable ones, such as management quality or motivation. Apart from the luck of the draw, nothing should systematically differ between them. That is why, in a well-implemented RCT, no statistical adjustment for applicant characteristics is needed to obtain a credible estimate.</p>
 <div class="soft-panel">
 <p><strong>What “random” means here.</strong> Not randomly sampling a sub-population to study, but randomly deciding, among eligible applicants, who receives the intervention and who does not (or who receives another intervention).</p>
 </div>
@@ -597,7 +550,7 @@ ul.task-list li input[type="checkbox"] {
 <h2 class="anchored" data-anchor-id="alternatives">Quasi-experimental methods</h2>
 <p>When participants are not assigned at random, quasi-experimental methods estimate the counterfactual by comparing participants with non-participants under specific assumptions. They can be planned before an intervention starts – for example, around an existing scoring rule – or applied once it has been rolled out, using data that already exist. The overview below is not exhaustive: it presents some of the most common methods. The Commission’s <a href="https://commission.europa.eu/law/law-making-process/better-regulation/better-regulation-guidelines-and-toolbox/better-regulation-toolbox_en">Better Regulation toolbox</a> (Tool #68) describes further ones, such as synthetic controls.</p>
 <div class="caution">
-<p>Quasi-experimental methods always rely on assumptions, some stronger than others. If those assumptions do not hold, the impact estimate is biased. Many of these assumptions are not testable directly, so they need to be stated and discussed. The credibility of the evaluation depends on the credibility of the assumptions made. RCTs also depend on conditions being met; see <a href="#rct">Strengths and requirements</a>.</p>
+<p>Quasi-experimental methods always rely on assumptions, some stronger than others. If those assumptions do not hold, the impact estimate is biased. Many of these assumptions are not testable directly, so they need to be stated and discussed. The credibility of the evaluation depends on the credibility of the assumptions made.</p>
 </div>
 <div class="myths-grid methods">
 <details class="myth-box" id="pre-post-before-and-after">
@@ -814,7 +767,7 @@ Use a variable – the instrument – that influences whether units take part in
 </dd>
 <dt>Identifying assumption</dt>
 <dd>
-The instrument must clearly influence participation, and it must affect results only through participation – in the toolbox’s terms, the exclusion restriction. This condition cannot be tested and has to be argued. The estimate applies only to those whose participation was changed by the instrument, not to all participants, and data on the instrument are needed for both participants and non-participants.
+The instrument must clearly influence participation, and it must affect results only through participation. This requirement is commonly called the exclusion restriction. This condition cannot be tested and has to be argued. The estimate applies only to those whose participation was changed by the instrument, not to all participants, and data on the instrument are needed for both participants and non-participants.
 </dd>
 </dl>
 <div class="eg">
@@ -860,8 +813,8 @@ The instrument must clearly influence participation, and it must affect results 
 </section>
 <section id="choosing-design" class="level2">
 <h2 class="anchored" data-anchor-id="choosing-design">Choosing an evaluation design</h2>
-<p>As this page discussed, RCTs are one of several ways to estimate the counterfactual, distinguished by participants being assigned at random (<a href="#finding-counterfactual">Finding the counterfactual</a>). Whether an RCT is the most suitable approach, or whether another works better for the intervention at hand, depends on what the evaluation should find out, whether it can be planned before the intervention starts and whether there are more eligible applicants than places, so that participation can be randomised.</p>
-<p>The decision tree below gives an overview of how these factors point towards an RCT or a quasi-experimental method. It is a simplified guide. In practice, other considerations can make a quasi-experimental design the better choice even when an RCT would be possible – for example, when selection already follows a scoring rule with a clear cut-off, which suits a regression discontinuity design; when legal, political or ethical considerations limit random selection; when all eligible applicants need to be served at the same time; or when good administrative data are already available. The budget and the wider context of the intervention also play a part.</p>
+<p>As this page discussed, RCTs are one of several ways to estimate the counterfactual, distinguished by participants being assigned at random (<a href="#finding-counterfactual">Finding the counterfactual</a>). Whether an RCT is the most suitable approach, or whether another works better for the intervention at hand, depends on what the evaluation should find out, when it can be planned and whether there are more eligible applicants than places, so that participation can be randomised.</p>
+<p>The decision tree below gives an overview of how these factors point towards an RCT or a quasi-experimental method. It is a simplified guide. In practice, other considerations can make a quasi-experimental design the better choice even when an RCT would be possible – for example, when legal, political or ethical considerations limit random selection or when all eligible applicants need to be served at the same time. The budget and the wider context of the intervention also play a part.</p>
 <figure class="fig-e figure">
 <svg class="fig-wide" viewbox="0 0 900 490" xmlns="http://www.w3.org/2000/svg" font-family="Arial, sans-serif" role="img" aria-label="Two decision paths from one question: what can be learned? To learn whether the intervention has an effect at all: if the evaluation can be planned from the outset and there is excess demand, an RCT can compare the intervention with no intervention, and quasi-experimental methods planned in advance are an alternative; without excess demand, a phase-in RCT or quasi-experimental methods; if the evaluation cannot be planned from the outset, quasi-experimental methods. To learn how to deliver it better: every eligible participant receives the intervention and an RCT compares one version with another, which can start once the intervention is running.">
   <rect x="330" y="10" width="240" height="44" rx="5" fill="var(--dg-ink)"></rect>
