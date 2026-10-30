@@ -5,7 +5,7 @@ description-meta: "Learn what the impact of an intervention is, how randomised c
 
 ::: {.team-note}
 ## Summary {.unlisted}
-This page builds on the [home page](index.qmd), which introduces randomised controlled trials (RCTs) as one of several ways to conduct an impact evaluation. Part 1 is about impact evaluation in general: what the impact of an intervention is, what impact evaluation measures and which challenges can arise along the way. Part 2 contrasts random and non-random assignment and then focuses on RCTs: why random assignment makes the groups comparable, illustrated by a running example from North-East Romania, and how it can support transparency and trust, before introducing the main quasi-experimental methods. Part 3 covers when to use an RCT: how the learning question influences when the RCT needs to be planned, how to choose an evaluation design, when an RCT may not be the right choice and how learning from RCTs builds over time.
+This page builds on the [home page](index.qmd), which introduces randomised controlled trials (RCTs) as one of several ways to conduct an impact evaluation. Part 1 is about impact evaluation in general: what the impact of an intervention is, what impact evaluation measures and which challenges can arise along the way. Part 2 contrasts random and non-random assignment and then focuses on RCTs: why random assignment makes the groups comparable, illustrated by a running example from North-East Romania, and how it can support transparency and trust, before providing an overview over the main quasi-experimental methods. Part 3 covers when to use an RCT: how the learning question influences when the RCT needs to be planned, how to choose an evaluation design, when an RCT may not be the right choice and how learning from RCTs builds over time.
 
 The page ends with answers to common questions about RCTs. [How to design an RCT](02-how.qmd) then explains how to plan one step by step.
 :::
@@ -120,7 +120,7 @@ This chain is the foundation of a theory of change, and having thought it throug
 in designing a strong impact evaluation. There is more on this in
 [Step 1: develop a Theory of Change](02.01-toc.qmd).
 
-Making the chain explicit also surfaces the assumptions behind each link, and shows which of them the intervention's impact depends on most. If one of these assumptions does not hold (for example, that firms will take up the support they are offered), the intervention may fall short of its intended impact. Such weak links can be tested directly, as shown below under [How can it be delivered better?](#two-questions)
+Making the chain explicit also surfaces the assumptions behind each link, and shows which of them the intervention's impact depends on most. If one of these assumptions does not hold (for example, that firms will take up the support they are offered), the intervention may fall short of its intended impact. Such weak links can be tested directly ( see below under [How can it be delivered better?](#two-questions)).
 
 ## Challenges in measuring impact {#allocation}
 
@@ -170,35 +170,13 @@ Succeeded because of the grant: **35**
 Additionality rate: **64%**
 :::
 ::: {.verdict}
-Strategy B shows fewer successes in total, but 35 of them happen because of the grant, more than twice as many as under A.
+Strategy A looks stronger at first glance, as it is associated with 80 successes, but only 15 of these succeeded because of the grant. The other 65 would have succeeded anyway. Support that pays for such results is often called deadweight.
 :::
 :::
 :::
 
-Raw success counts can be misleading: to assess effectiveness, interventions need to be judged on their impact. Which applicants to target remains a policy choice, set by the intervention's objectives; cohesion policy may deliberately support those whose direct returns are lower, to reduce disparities. Whatever the target group, measuring additionality shows what the support actually changes.
+Raw success counts can be misleading: to assess effectiveness, interventions need to be judged on their impact. Which applicants to target remains a policy choice, set by the intervention's objectives. Cohesion policy may deliberately support those whose direct returns are lower, to reduce disparities. Whatever the target group, measuring additionality requires a credible comparison group – the subject of Part 2.
 
-::: {.cards}
-::: {.card-e}
-### Paying for what would have happened anyway {.unlisted}
-Support that pays for what would have happened anyway is often called deadweight. Top performers would likely have invested anyway, so public funds mostly substitute for money they would have spent regardless – generating little that is truly additional per euro.
-:::
-::: {.card-e}
-### Crediting the intervention with existing strengths {.unlisted}
-Comparing funded, stronger firms with unfunded, weaker ones credits the intervention with
-firms' pre-existing quality, not with what the grant did.
-:::
-::: {.card-e}
-### Where support makes the most difference {.unlisted}
-Support changes behaviour most where it removes a real constraint: a good project
-that could not otherwise go ahead.
-:::
-::: {.card-e}
-### Can experts predict where support makes a difference? {.unlisted}
-Evidence suggests not reliably. In a business plan competition in Nigeria, judges' scores
-did not predict which firms would survive or grow three years later (McKenzie and Sansone,
-2019; see below [Common questions about RCTs](#common-questions)).
-:::
-:::
 
 [↑ Back to the overview](#page-overview){.back-to-cases}
 
