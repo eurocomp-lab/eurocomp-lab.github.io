@@ -462,6 +462,17 @@ hr:has(+ .nav-buttons) { display: none; }
   line-height: 1;
 }
 .hero-draw[data-mode="merit"] .draw-icon { background: #FF8A75; color: $rf-ink; }
+/* Batch 39: each group's average result a year later when the support has no effect (illustrative), as two bars:
+   about equal after a random draw, the supported firms clearly ahead on merit. Bars grow once the groups are complete. */
+.hero-draw .draw-result { width: 100%; max-width: 26rem; }
+.hero-draw .draw-result[hidden] { display: none; }
+.hero-draw .draw-result-title { margin-bottom: .45rem; font-size: .85rem; color: rgba(255, 255, 255, .88); }
+.hero-draw .draw-bars { display: grid; grid-template-columns: 8.75rem 1fr; gap: .4rem .7rem; align-items: center; }   /* fixed label column: same bar scale in both modes */
+.hero-draw .draw-bar-label { font-size: .85rem; font-weight: 700; color: #FFFFFF; }
+.hero-draw .draw-bar-track { display: block; height: .8rem; }
+.hero-draw .draw-bar { display: block; box-sizing: border-box; height: 100%; width: 0; border-radius: 2px; opacity: 0; transition: width .6s ease, opacity .2s ease; }
+.hero-draw .draw-bar.t { background: $rf-yellow; }
+.hero-draw .draw-bar.c { border: 2px solid #FFFFFF; }
 
 @media (max-width: 991.98px) {
   #quarto-document-content .hero-inner { grid-template-columns: 1fr; gap: 2.25rem; }
@@ -480,6 +491,7 @@ hr:has(+ .nav-buttons) { display: none; }
   .gold-panel { font-size: 1.15rem; }
 }
 @media (prefers-reduced-motion: reduce) {
+  .hero-draw .draw-bar,
   .hero-draw svg text.mix,
   .hero-draw svg .firm,
   .card-e { transition: none; }
