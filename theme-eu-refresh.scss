@@ -1142,14 +1142,16 @@ body:not(.glossary) #quarto-document-content a[href*="glossary.html#"]:hover { t
 
 /* ---------------------------------------------------------------
    Batch 24 (October 2026): the step timeline on How to design an
-   RCT. Below 992px the wide version would shrink its text under
-   9px, so the stacked (phone) version shows instead, at a width
-   that keeps its text near body size. Since batch 28 each version
-   is a box holding the drawing and its links.
+   RCT. Below 1100px the wide version would shrink its labels
+   under 11px (the column is narrower while the "On this page"
+   menu shows), so the stacked (phone) version shows instead,
+   at up to 25rem so its text matches the table above it (batch 33;
+   was 992px and 30rem). Since batch 28 each version is a box
+   holding the drawing and its links.
    --------------------------------------------------------------- */
-@media (max-width: 991.98px) {
+@media (max-width: 1099.98px) {
   #quarto-document-content figure.fig-e.fig-timeline > .fig-wide { display: none; }
-  #quarto-document-content figure.fig-e.fig-timeline > .fig-phone { display: block; max-width: 30rem; min-width: 0; }
+  #quarto-document-content figure.fig-e.fig-timeline > .fig-phone { display: block; max-width: 25rem; min-width: 0; }
 }
 
 /* ---------------------------------------------------------------
@@ -1168,7 +1170,7 @@ body:not(.glossary) #quarto-document-content a[href*="glossary.html#"]:hover { t
   .fam-c { --fam: #00845C; --fam-tint: #E2F2EC; }
   .fam-0 { --fam: #{$rf-ink-soft}; --fam-tint: #{$rf-pale}; }
   h3.plan-h { margin: 1.5rem 0 .55rem; font-size: 1.05rem; font-weight: 700; color: $rf-blue; }
-  .plan-desc { margin: 0 0 .8rem; color: $rf-ink-soft; }
+  .plan-desc { max-width: 40rem; margin: 0 0 .8rem; color: $rf-ink-soft; }   // same text width as the page (batch 33)
   .plan-table { width: 100%; margin: 0 0 1rem; border-collapse: collapse; font-size: .92rem; line-height: 1.42; }
   .plan-table thead th {
     padding: 0 .55rem .35rem; border-bottom: 2px solid $rf-rule; text-align: left;
