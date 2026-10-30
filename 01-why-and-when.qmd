@@ -422,7 +422,7 @@ When participants are not assigned at random, quasi-experimental methods estimat
 ::: {.caution}
 Quasi-experimental methods always rely on assumptions, some stronger than others. If those
 assumptions do not hold, the impact estimate is biased. Many of these assumptions are not
-testable directly, so they need to be stated and discussed. The credibility of the evaluation depends on the credibility of the assumptions made. RCTs also depend on conditions being met; see [Strengths and requirements](#rct).
+testable directly, so they need to be stated and discussed. The credibility of the evaluation depends on the credibility of the assumptions made. 
 :::
 
 ::::: {.myths-grid .methods}
@@ -652,7 +652,7 @@ Method
 : Use a variable – the instrument – that influences whether units take part in the intervention but is otherwise unrelated to the results of interest. The difference in results between units with different values of the instrument, divided by the difference in their participation rates, gives the effect of taking part for those whose participation the instrument changed. The Better Regulation toolbox (Tool #68) illustrates the approach with the Covenant of Mayors in Italy: the presence of a territorial coordinator offering technical support made municipalities more likely to join, and was assumed to be otherwise unrelated to the mayors' re-election results (Martelli et al., 2018). A randomly assigned encouragement, such as an invitation or an information visit, can also serve as an instrument; the same logic is used in RCTs where not everyone offered support takes it up.
 
 Identifying assumption
-: The instrument must clearly influence participation, and it must affect results only through participation – in the toolbox's terms, the exclusion restriction. This condition cannot be tested and has to be argued. The estimate applies only to those whose participation was changed by the instrument, not to all participants, and data on the instrument are needed for both participants and non-participants.
+: The instrument must clearly influence participation, and it must affect results only through participation. This requirement is commonly called the exclusion restriction. This condition cannot be tested and has to be argued. The estimate applies only to those whose participation was changed by the instrument, not to all participants, and data on the instrument are needed for both participants and non-participants.
 
 ::: {.eg}
 For example, a local business adviser who promotes a grant may make firms more likely to apply. But if the same adviser also gives firms other help, the adviser's presence affects results through more than the grant, and the exclusion restriction does not hold.
