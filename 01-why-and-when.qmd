@@ -123,6 +123,7 @@ in designing a strong impact evaluation. There is more on this in
 [Step 1: develop a Theory of Change](02.01-toc.qmd).
 
 Making the chain explicit also surfaces the assumptions behind each link, and shows which of them the intervention's impact depends on most. If one of these assumptions does not hold (for example, that firms will take up the support they are offered), the intervention may fall short of its intended impact. Such weak links can be tested directly ( see below under [How can it be delivered better?](#two-questions)).
+
 ## Challenges in measuring impact {#allocation}
 
 The value of an intervention lies in the change it causes: its additionality. Results alone

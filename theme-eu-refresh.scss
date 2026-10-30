@@ -1168,6 +1168,7 @@ body:not(.glossary) #quarto-document-content a[href*="glossary.html#"]:hover { t
   .fam-c { --fam: #00845C; --fam-tint: #E2F2EC; }
   .fam-0 { --fam: #{$rf-ink-soft}; --fam-tint: #{$rf-pale}; }
   h3.plan-h { margin: 1.5rem 0 .55rem; font-size: 1.05rem; font-weight: 700; color: $rf-blue; }
+  .plan-desc { margin: 0 0 .8rem; color: $rf-ink-soft; }
   .plan-table { width: 100%; margin: 0 0 1rem; border-collapse: collapse; font-size: .92rem; line-height: 1.42; }
   .plan-table thead th {
     padding: 0 .55rem .35rem; border-bottom: 2px solid $rf-rule; text-align: left;
