@@ -727,9 +727,9 @@ significantly raised sales and profits.
 
 ## Choosing an evaluation design {#choosing-design}
 
-As this page discussed, RCTs are one of several ways to estimate the counterfactual, distinguished by participants being assigned at random ([Finding the counterfactual](#finding-counterfactual)). Whether an RCT is the most suitable approach, or whether another works better for the intervention at hand, depends on what the evaluation should find out, whether it can be planned before the intervention starts and whether there are more eligible applicants than places, so that participation can be randomised.
+As this page discussed, RCTs are one of several ways to estimate the counterfactual, distinguished by participants being assigned at random ([Finding the counterfactual](#finding-counterfactual)). Whether an RCT is the most suitable approach, or whether another works better for the intervention at hand, depends on what the evaluation should find out, when it can be planned and whether there are more eligible applicants than places, so that participation can be randomised.
 
-The decision tree below gives an overview of how these factors point towards an RCT or a quasi-experimental method. It is a simplified guide. In practice, other considerations can make a quasi-experimental design the better choice even when an RCT would be possible – for example, when selection already follows a scoring rule with a clear cut-off, which suits a regression discontinuity design; when legal, political or ethical considerations limit random selection; when all eligible applicants need to be served at the same time; or when good administrative data are already available. The budget and the wider context of the intervention also play a part.
+The decision tree below gives an overview of how these factors point towards an RCT or a quasi-experimental method. It is a simplified guide. In practice, other considerations can make a quasi-experimental design the better choice even when an RCT would be possible – for example, when legal, political or ethical considerations limit random selection or when all eligible applicants need to be served at the same time. The budget and the wider context of the intervention also play a part.
 
 ```{=html}
 <figure class="fig-e">
