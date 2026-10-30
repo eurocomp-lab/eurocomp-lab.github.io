@@ -1097,6 +1097,13 @@ body:not(.glossary) #quarto-document-content a[href*="glossary.html#"]:hover { t
 .nav-buttons p a.back { background-color: transparent; color: $rf-blue; border-color: $rf-blue; }
 .nav-buttons p a.back:only-child { margin-left: 0; }
 .nav-buttons p a.back:hover { background-color: $rf-blue; color: #FFFFFF; }
+/* Batch 36: Steps 2 to 8 have a "Back to overview" button (How to design an RCT), centred on its own row above the
+   previous and next buttons and outlined like the other back buttons (as a lone link it would otherwise take the
+   filled "next" style on the right). */
+.nav-buttons p:has(> a.up) { justify-content: center; margin-bottom: .8rem; }
+.nav-buttons p > a.up,
+.nav-buttons p > a.up:last-child { margin-left: 0; background-color: transparent; color: $rf-blue; border-color: $rf-blue; }
+.nav-buttons p > a.up:hover { background-color: $rf-blue; color: #FFFFFF; }
 .glossary #quarto-document-content dt { scroll-margin-top: 5.5rem; }
 .glossary #quarto-document-content :is(dt, dd).is-target { background: $rf-pale; }
 .glossary #quarto-document-content dt.is-target { box-shadow: -.6rem 0 0 $rf-pale; }

@@ -193,5 +193,7 @@ Managing authorities should involve their Data Protection Officer or the respons
 ***
 
 ::: {.nav-buttons}
+[↑ Back to overview](02-how.qmd){.up}
+
 [← Step 6: identify available data sources](02.06-data_sources.qmd) | [Step 8: ensure high-quality data →](02.08-data_quality.qmd)
 :::

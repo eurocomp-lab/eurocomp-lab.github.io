@@ -58,6 +58,8 @@ The indicator repository lists indicators for firm-level evaluations by topic, f
 ---
 
 ::: {.nav-buttons}
+[↑ Back to overview](02-how.qmd){.up}
+
 [← Step 2: define learning questions](02.02-eval_questions.qmd) | [Step 4: check whether an RCT is feasible →](02.04-assess.qmd)
 :::
 
