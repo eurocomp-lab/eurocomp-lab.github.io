@@ -46,7 +46,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-64a204ab8560d761af7679ceaba22944.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-74519477bec09f796e175d04ad332078.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
+<link href="site_libs/bootstrap/bootstrap-b93625f2547fecad45f5450a01e2b905.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -215,7 +215,7 @@ ul.task-list li input[type="checkbox"] {
 </header>
 
 
-<!-- Homepage hero. Styles: theme-eu-refresh.scss; the draw: assets/hero/random-draw.js -->
+<!-- Homepage hero. Styles: theme-eu-refresh.scss; the draw, and selection on merit for comparison: assets/hero/random-draw.js -->
 <div class="hero column-screen">
 <div class="hero-inner">
 <section id="join-a-growing-community-of-practice-for-experimental-evaluation-in-europe" class="level1 hero-copy">
@@ -226,8 +226,9 @@ ul.task-list li input[type="checkbox"] {
 </div>
 </section>
 <div class="hero-draw" role="figure" aria-labelledby="hero-draw-caption">
+  <div class="draw-mode" role="group" aria-label="How applicants are selected" hidden=""><button type="button" data-mode="random" aria-pressed="true">Random draw</button><button type="button" data-mode="merit" aria-pressed="false">Selection on merit</button></div>
   <img src="assets/hero/random-draw.svg" alt="Forty eligible applicants with different characteristics, shown as dots of three sizes, are split by a random draw into two groups of twenty, each with a similar mix of characteristics.">
-  <div class="hero-draw-caption"><span id="hero-draw-caption">A random draw splits eligible applicants into two groups that are similar on average. Any difference that appears later can be attributed to the intervention.</span><button type="button" class="draw-again" hidden="">Run the draw again</button></div>
+  <div class="hero-draw-caption"><span id="hero-draw-caption">A random draw splits eligible applicants into two groups that are similar on average. Any difference that appears later can be attributed to the intervention.</span><a class="draw-why" href="./01-why-and-when.html#allocation" hidden="">Read about selection bias</a><button type="button" class="draw-again" hidden="">Run the draw again</button></div>
   <span class="visually-hidden" aria-live="polite"></span>
 </div>
 <script src="assets/hero/random-draw.js" defer=""></script>
