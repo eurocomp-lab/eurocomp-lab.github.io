@@ -123,63 +123,38 @@ in designing a strong impact evaluation. There is more on this in
 [Step 1: develop a Theory of Change](02.01-toc.qmd).
 
 Making the chain explicit also surfaces the assumptions behind each link, and shows which of them the intervention's impact depends on most. If one of these assumptions does not hold (for example, that firms will take up the support they are offered), the intervention may fall short of its intended impact. Such weak links can be tested directly ( see below under [How can it be delivered better?](#two-questions)).
-
 ## Challenges in measuring impact {#allocation}
 
-The value of an intervention lies in the change it causes: its additionality. Measuring additionality requires knowing what participants would have done without the intervention – the counterfactual.
-
-Identifying the change an intervention has caused can be difficult when participants are not assigned at random but selected. Selected applicants may differ from those who were not selected; for example, they may be more motivated or have more resources. Most of these traits
-are never recorded in any database or questionnaire. When participants later do better on the results of interest than the applicants who were not selected,
-it is impossible to tell how much of that difference is due to the intervention.
-
-::: {.caution}
-**Selection bias** arises when the comparison group differs from the participants in ways that also
-affect results. In that case, the impact estimate is biased.
-:::
+The value of an intervention lies in the change it causes: its additionality. Results alone
+do not show it, because some participants would have achieved them anyway.
 
 Consider an illustrative innovation-grant scheme: EUR 50,000 to each of 100 firms, where
 "success" means launching a new product. Compare two selection rules.
 
-::: {.compare .strategy}
-::: {.col-e}
-::: {.col-head}
-Strategy A: fund the top performers
-:::
-::: {.body}
-Firms that succeed: **80 of 100**
+[A/B compare block as you have it now]
 
-Would have succeeded anyway: **65**
+Raw success counts can be misleading: to assess effectiveness, interventions need to be
+judged on their impact. Which applicants to target remains a policy choice, set by the
+intervention's objectives. Cohesion policy may deliberately support those whose direct
+returns are lower, to reduce disparities.
 
-Succeeded because of the grant: **15**
+In practice, nobody knows how many participants would have succeeded anyway: the 65 and
+the 20 in the example are counterfactual numbers. The obvious workaround is to compare
+participants with applicants who were not selected. That runs into a second problem.
 
-Additionality rate: **19%**
-:::
-::: {.verdict}
-Strategy A looks stronger at first glance, as it is associated with 80 successes, but only 15 of these succeeded because of the grant. The other 65 would have succeeded anyway. Support that pays for such results is often called deadweight.
-:::
-:::
-::: {.col-e}
-::: {.col-head}
-Strategy B: fund firms that need it
-:::
-::: {.body}
-Firms that succeed: **55 of 100**
+Selected applicants may differ from those who were not selected; for example, they may be
+more motivated or have more resources. Under Strategy A, funded firms would outperform
+unfunded applicants even if the grant did nothing. Most of these traits are never recorded
+in any database or questionnaire, so it is impossible to tell how much of the difference is
+due to the intervention.
 
-Would have succeeded anyway: **20**
-
-Succeeded because of the grant: **35**
-
-Additionality rate: **64%**
-:::
-::: {.verdict}
-Strategy B shows fewer successes in total, but 35 of them happen because of the grant, more than twice as many as under A.
-:::
-:::
+::: {.caution}
+**Selection bias** arises when the comparison group differs from the participants in ways
+that also affect results. In that case, the impact estimate is biased.
 :::
 
-Raw success counts can be misleading: to assess effectiveness, interventions need to be judged on their impact. Which applicants to target remains a policy choice, set by the intervention's objectives. Cohesion policy may deliberately support those whose direct returns are lower, to reduce disparities. Whatever the target group, measuring additionality requires a credible comparison group – the subject of Part 2.
-
-
+Measuring additionality therefore requires a comparison group that differs from participants
+only in not receiving the intervention. Part 2 shows how to form one.
 [↑ Back to the overview](#page-overview){.back-to-cases}
 
 ## Finding the counterfactual  {#finding-counterfactual data-part="Part 2 of 3 · Forming a comparison group"}
