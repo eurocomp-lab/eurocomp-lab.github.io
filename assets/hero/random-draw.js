@@ -18,6 +18,11 @@
    the two groups now differ before the intervention starts. A ranking picks the
    same firms every time, so "Run the draw again" shows only for the random draw.
 
+   Batch 38 makes the verdict explicit: under each group label, its mix of large,
+   medium and small firms (the same for both groups after a draw; all large against
+   all small on merit), and above the caption a verdict, "Comparable groups" or
+   "Groups not comparable: selection bias".
+
    Without JavaScript the static fallback image stays, and the switch and the
    button stay hidden. With "reduce motion" set, a new result appears at once,
    without movement. */
@@ -49,9 +54,9 @@
 
   // Firm sizes as dot radii: 8 large, 14 medium, 18 small
   var firms = [];
-  [[8, 9.5], [14, 7], [18, 5]].forEach(function (group) {
+  [[8, 9.5, "large"], [14, 7, "medium"], [18, 5, "small"]].forEach(function (group) {
     for (var i = 0; i < group[0]; i++) {
-      firms.push({ r: group[1] + (rand() - 0.5) * 1.2 });
+      firms.push({ r: group[1] + (rand() - 0.5) * 1.2, size: group[2] });
     }
   });
   // Each firm gets a shuffled pool slot (so sizes are mixed) and a small jitter
@@ -71,21 +76,27 @@
     random: {
       rule: "Random draw",
       other: "Comparison group (20)",
+      otherShort: "comparison group",
+      icon: "\u2713",
+      verdict: "Comparable groups",
       caption: "A random draw splits eligible applicants into two groups that are similar on average. " +
         "Any difference that appears later can be attributed to the intervention.",
       label: "Forty eligible firms of different sizes. A random draw marks twenty as supported and twenty " +
-        "as the comparison group. Both groups end up with a similar mix of small, medium and large firms.",
-      status: "Random draw: both groups have a similar mix of small, medium and large firms."
+        "as the comparison group, and the two groups are comparable.",
+      status: "Random draw: comparable groups, with a similar mix of small, medium and large firms."
     },
     merit: {
       rule: "Selection on merit",
       other: "Not selected (20)",
-      caption: "Selecting applicants on merit, here the largest firms, gives two groups that differ " +
-        "before the intervention starts. A later difference may reflect that head start, not the intervention.",
-      label: "Forty eligible firms of different sizes. Selection on merit supports the twenty largest. " +
-        "The twenty not selected are all smaller, so the two groups differ before the intervention starts.",
-      status: "Selection on merit: the twenty largest firms are supported, and the twenty not selected " +
-        "are all smaller."
+      otherShort: "not selected",
+      icon: "\u2715",
+      verdict: "Groups not comparable: selection bias",
+      caption: "Selecting on merit supports the largest firms, so the two groups already differ before the " +
+        "intervention starts. A later difference mixes the effect of the intervention with that head start.",
+      label: "Forty eligible firms of different sizes. Selection on merit supports the twenty largest, " +
+        "so the two groups are not comparable.",
+      status: "Selection on merit: groups not comparable. The twenty largest firms are supported, and the " +
+        "twenty not selected are all smaller."
     }
   };
   var mode = "random";
@@ -101,20 +112,22 @@
       },
       via: [{ x: 150, y: 184 }, { x: 245, y: 184 }],   // along the arrow: start, then fork
       labels: { pool: [4, 40], t: [312, 40], c: [312, 200], rule: [152, 166] },
+      mix: { t: [312, 57], c: [312, 217] },
       ruleLines: { random: ["Random draw"], merit: ["Selection", "on merit"] },   // the second fits before the fork
       paths: ["M150 184 H245 C272 184 276 121 300 121", "M245 184 C272 184 276 281 300 281",
               "M294 116 L301 121 L294 126", "M294 276 L301 281 L294 286"]
     },
     tall: {
-      W: 340, H: 420,
+      W: 340, H: 438,
       pool: function (f) {
         return { x: 44 + (f.slot % 8) * 36 + f.jx * 6, y: 48 + Math.floor(f.slot / 8) * 30 + f.jy * 6 };
       },
       group: function (g, i) {
-        return { x: (g === "t" ? 25 : 195) + (i % 5) * 30, y: 312 + Math.floor(i / 5) * 30 };
+        return { x: (g === "t" ? 25 : 195) + (i % 5) * 30, y: 330 + Math.floor(i / 5) * 30 };
       },
       via: [{ x: 170, y: 184 }, { x: 170, y: 220 }],
       labels: { pool: [0, 18], t: [10, 292], c: [180, 292], rule: [186, 208] },
+      mix: { t: [10, 309], c: [180, 309] },
       ruleLines: { random: ["Random draw"], merit: ["Selection on merit"] },
       paths: ["M170 184 V220 C170 250 85 244 85 268", "M170 220 C170 250 255 244 255 268",
               "M80 262 L85 269 L90 262", "M250 262 L255 269 L260 262"]
@@ -142,6 +155,23 @@
   var timers = [];
   var running = false;
 
+  // Each group's mix of large, medium and small firms, for its label and the description
+  function mix(g) {
+    var n = { large: 0, medium: 0, small: 0 };
+    firms.forEach(function (f) { if (f.group === g) n[f.size] += 1; });
+    return n;
+  }
+  function mixText(n) { return n.large + " large \u00b7 " + n.medium + " medium \u00b7 " + n.small + " small"; }
+  function mixWords(n) { return n.large + " large, " + n.medium + " medium and " + n.small + " small"; }
+  function setMix(show) {
+    var t = mix("t"), c = mix("c");
+    labels.tmix.textContent = mixText(t);
+    labels.cmix.textContent = mixText(c);
+    labels.tmix.style.opacity = labels.cmix.style.opacity = show ? "1" : "0";
+    svg.setAttribute("aria-label", MODES[mode].label + " Supported: " + mixWords(t) + " firms; " +
+      MODES[mode].otherShort + ": " + mixWords(c) + ".");
+  }
+
   // The labels that depend on the mode: the arrow and the second group
   function setLabels() {
     var L = LAYOUTS[layout];
@@ -155,7 +185,6 @@
       }, line));
     });
     labels.c.textContent = MODES[mode].other;
-    svg.setAttribute("aria-label", MODES[mode].label);
   }
 
   function build(key) {
@@ -167,7 +196,9 @@
     labels.t = el("text", { x: L.labels.t[0], y: L.labels.t[1], "class": "t" }, "Supported (20)");
     labels.c = el("text", { x: L.labels.c[0], y: L.labels.c[1] });
     labels.rule = el("text", {});
-    [labels.pool, labels.t, labels.c, labels.rule].forEach(function (t) { svg.appendChild(t); });
+    labels.tmix = el("text", { x: L.mix.t[0], y: L.mix.t[1], "class": "mix" });
+    labels.cmix = el("text", { x: L.mix.c[0], y: L.mix.c[1], "class": "mix" });
+    [labels.pool, labels.t, labels.c, labels.rule, labels.tmix, labels.cmix].forEach(function (t) { svg.appendChild(t); });
     setLabels();
     L.paths.forEach(function (d) { svg.appendChild(el("path", { "class": "path", d: d })); });
     firms.forEach(function (f) {
@@ -216,6 +247,7 @@
   // The finished result, without movement
   function showResult() {
     var L = LAYOUTS[layout];
+    setMix(true);
     firms.forEach(function (f) {
       f.dot.setAttribute("class", "firm " + f.group);
       f.copy.setAttribute("class", "firm " + f.group);
@@ -280,10 +312,13 @@
   var caption = document.getElementById("hero-draw-caption");
   var why = figure.querySelector(".draw-why");
   var switcher = figure.querySelector(".draw-mode");
+  var icon = figure.querySelector(".draw-icon");
+  var verdict = figure.querySelector(".draw-verdict-text");
 
   function finish() {
     running = false;
     if (button) button.removeAttribute("aria-disabled");
+    setMix(true);
   }
 
   // Run a new result: animated where possible, at once otherwise
@@ -292,6 +327,7 @@
     if (status) status.textContent = message;
     if (!canAnimate) { showResult(); return; }
     stopAll();
+    setMix(false);                      // the mix appears once the groups are complete
     running = true;
     if (button) button.setAttribute("aria-disabled", "true");
     clear(function () { drawOneByOne(finish); });
@@ -329,6 +365,9 @@
           o.setAttribute("aria-pressed", o === t ? "true" : "false");
         });
         setLabels();
+        figure.setAttribute("data-mode", mode);
+        if (icon) icon.textContent = MODES[mode].icon;
+        if (verdict) verdict.textContent = MODES[mode].verdict;
         if (caption) caption.textContent = MODES[mode].caption;
         if (button) button.hidden = mode !== "random";
         if (why) why.hidden = mode !== "merit";
