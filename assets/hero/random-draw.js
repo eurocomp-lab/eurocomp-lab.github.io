@@ -11,27 +11,24 @@
    Every draw picks different firms; the two groups still end up with a similar
    mix, because firms are paired by size and a coin flip splits each pair.
 
-   A switch above the drawing (batch 37) compares this with selection on merit:
-   the same firms are ranked, here by size, and the twenty largest are supported.
-   They move one by one from largest to smallest, the other group is labelled
-   "Not selected" rather than "Comparison group", and the caption explains why
-   the two groups now differ before the intervention starts. A ranking picks the
-   same firms every time, so "Run the draw again" shows only for the random draw.
+   A switch above the drawing, under the line "Compare two ways to choose who
+   gets support", compares this with selection on merit (batch 37): the same
+   firms are ranked, here by size, and the twenty largest are supported. They
+   move one by one from largest to smallest and the other group is labelled
+   "Not selected" rather than "Comparison group". A ranking picks the same firms
+   every time, so "Run the draw again" shows only for the random draw.
 
-   Batch 38 makes the verdict explicit: under each group label, its mix of large,
-   medium and small firms (the same for both groups after a draw; all large against
-   all small on merit), and above the caption a verdict, "Comparable groups" or
-   "Groups not comparable: selection bias".
+   Under the drawing, one plain sentence gives the verdict for each mode (fair
+   comparison or not; batches 38 and 40), and two bars show the consequence
+   (batch 39): each group's average result a year later in an illustrative case
+   where the support makes no difference at all, so results depend only on firm
+   size (larger firms do better anyway) plus a little noise. After a random draw
+   the bars come out about equal; on merit the supported firms come out clearly
+   ahead, a difference the support did not cause. Each group's mix of firm sizes
+   is given to screen readers in the drawing's description.
 
-   Batch 39 shows the consequence. Under the verdict, two bars give each group's
-   average result a year later in an illustrative case where the support has no
-   effect at all: results depend only on firm size (larger firms do better anyway)
-   plus a little noise. After a random draw the two bars come out about equal; on
-   merit the supported firms come out clearly ahead, a difference the support did
-   not cause.
-
-   Without JavaScript the static fallback image stays, and the switch and the
-   button stay hidden. With "reduce motion" set, a new result appears at once,
+   Without JavaScript the static fallback image and the random-draw verdict stay,
+   and the switch, the bars and the button stay hidden. With "reduce motion" set, a new result appears at once,
    without movement. */
 (function () {
   "use strict";
@@ -88,29 +85,23 @@
       rule: "Random draw",
       other: "Comparison group (20)",
       otherShort: "comparison group",
+      otherBar: "Comparison group",
       icon: "\u2713",
-      verdict: "Comparable groups",
-      caption: "A random draw splits eligible applicants into two groups that are similar on average, so a " +
-        "later difference in results can be attributed to the intervention.",
-      result: "With no effect, both groups show similar results a year later.",
+      verdict: "A random draw gives two groups that start out alike, so the comparison is fair.",
+      result: "If the support made no difference, both groups would have similar results a year later.",
       label: "Forty eligible firms of different sizes. A random draw marks twenty as supported and twenty " +
-        "as the comparison group, and the two groups are comparable.",
-      status: "Random draw: comparable groups, with a similar mix of small, medium and large firms."
+        "as the comparison group."
     },
     merit: {
       rule: "Selection on merit",
       other: "Not selected (20)",
       otherShort: "not selected",
+      otherBar: "Not selected",
       icon: "\u2715",
-      verdict: "Groups not comparable: selection bias",
-      caption: "Selecting on merit supports the largest firms. Even with no effect, they show better results " +
-        "a year later because they were ahead from the start, so the comparison overstates the impact.",
-      result: "With no effect, the supported firms still show clearly better results a year later than those " +
-        "not selected.",
-      label: "Forty eligible firms of different sizes. Selection on merit supports the twenty largest, " +
-        "so the two groups are not comparable.",
-      status: "Selection on merit: groups not comparable. The twenty largest firms are supported, and the " +
-        "twenty not selected are all smaller."
+      verdict: "Selecting on merit gives the support to bigger firms, so the comparison is not fair.",
+      result: "If the support made no difference, the supported firms would still show better results a year " +
+        "later, because they were bigger from the start.",
+      label: "Forty eligible firms of different sizes. Selection on merit supports the twenty largest."
     }
   };
   var mode = "random";
@@ -126,22 +117,20 @@
       },
       via: [{ x: 150, y: 184 }, { x: 245, y: 184 }],   // along the arrow: start, then fork
       labels: { pool: [4, 40], t: [312, 40], c: [312, 200], rule: [152, 166] },
-      mix: { t: [312, 57], c: [312, 217] },
       ruleLines: { random: ["Random draw"], merit: ["Selection", "on merit"] },   // the second fits before the fork
       paths: ["M150 184 H245 C272 184 276 121 300 121", "M245 184 C272 184 276 281 300 281",
               "M294 116 L301 121 L294 126", "M294 276 L301 281 L294 286"]
     },
     tall: {
-      W: 340, H: 438,
+      W: 340, H: 420,
       pool: function (f) {
         return { x: 44 + (f.slot % 8) * 36 + f.jx * 6, y: 48 + Math.floor(f.slot / 8) * 30 + f.jy * 6 };
       },
       group: function (g, i) {
-        return { x: (g === "t" ? 25 : 195) + (i % 5) * 30, y: 330 + Math.floor(i / 5) * 30 };
+        return { x: (g === "t" ? 25 : 195) + (i % 5) * 30, y: 312 + Math.floor(i / 5) * 30 };
       },
       via: [{ x: 170, y: 184 }, { x: 170, y: 220 }],
       labels: { pool: [0, 18], t: [10, 292], c: [180, 292], rule: [186, 208] },
-      mix: { t: [10, 309], c: [180, 309] },
       ruleLines: { random: ["Random draw"], merit: ["Selection on merit"] },
       paths: ["M170 184 V220 C170 250 85 244 85 268", "M170 220 C170 250 255 244 255 268",
               "M80 262 L85 269 L90 262", "M250 262 L255 269 L260 262"]
@@ -175,13 +164,9 @@
     firms.forEach(function (f) { if (f.group === g) n[f.size] += 1; });
     return n;
   }
-  function mixText(n) { return n.large + " large \u00b7 " + n.medium + " medium \u00b7 " + n.small + " small"; }
   function mixWords(n) { return n.large + " large, " + n.medium + " medium and " + n.small + " small"; }
-  function setMix(show) {
+  function setMix() {
     var t = mix("t"), c = mix("c");
-    labels.tmix.textContent = mixText(t);
-    labels.cmix.textContent = mixText(c);
-    labels.tmix.style.opacity = labels.cmix.style.opacity = show ? "1" : "0";
     svg.setAttribute("aria-label", MODES[mode].label + " Supported: " + mixWords(t) + " firms; " +
       MODES[mode].otherShort + ": " + mixWords(c) + ".");
   }
@@ -201,7 +186,7 @@
       bars[g].style.width = show ? Math.min(100, average(g) / YMAX * 100).toFixed(1) + "%" : "0";
       bars[g].style.opacity = show ? "1" : "0";
     });
-    if (otherBarLabel) otherBarLabel.textContent = mode === "merit" ? "Not selected" : "Comparison group";
+    if (otherBarLabel) otherBarLabel.textContent = MODES[mode].otherBar;
     if (resultText) resultText.textContent = MODES[mode].result;
   }
 
@@ -229,9 +214,7 @@
     labels.t = el("text", { x: L.labels.t[0], y: L.labels.t[1], "class": "t" }, "Supported (20)");
     labels.c = el("text", { x: L.labels.c[0], y: L.labels.c[1] });
     labels.rule = el("text", {});
-    labels.tmix = el("text", { x: L.mix.t[0], y: L.mix.t[1], "class": "mix" });
-    labels.cmix = el("text", { x: L.mix.c[0], y: L.mix.c[1], "class": "mix" });
-    [labels.pool, labels.t, labels.c, labels.rule, labels.tmix, labels.cmix].forEach(function (t) { svg.appendChild(t); });
+    [labels.pool, labels.t, labels.c, labels.rule].forEach(function (t) { svg.appendChild(t); });
     setLabels();
     L.paths.forEach(function (d) { svg.appendChild(el("path", { "class": "path", d: d })); });
     firms.forEach(function (f) {
@@ -280,7 +263,7 @@
   // The finished result, without movement
   function showResult() {
     var L = LAYOUTS[layout];
-    setMix(true);
+    setMix();
     setResult(true);
     firms.forEach(function (f) {
       f.dot.setAttribute("class", "firm " + f.group);
@@ -343,10 +326,10 @@
 
   var button = figure.querySelector(".draw-again");
   var status = figure.querySelector("[aria-live]");
-  var caption = document.getElementById("hero-draw-caption");
   var why = figure.querySelector(".draw-why");
   var resultBlock = figure.querySelector(".draw-result");
   if (resultBlock) resultBlock.hidden = false;
+  var intro = figure.querySelector(".draw-intro");
   var switcher = figure.querySelector(".draw-mode");
   var icon = figure.querySelector(".draw-icon");
   var verdict = figure.querySelector(".draw-verdict-text");
@@ -354,7 +337,7 @@
   function finish() {
     running = false;
     if (button) button.removeAttribute("aria-disabled");
-    setMix(true);
+    setMix();
     setResult(true);
   }
 
@@ -364,8 +347,7 @@
     if (status) status.textContent = message;
     if (!canAnimate) { showResult(); return; }
     stopAll();
-    setMix(false);                      // the mix and the results appear once the groups are complete
-    setResult(false);
+    setResult(false);                   // the results appear once the groups are complete
     running = true;
     if (button) button.setAttribute("aria-disabled", "true");
     clear(function () { drawOneByOne(finish); });
@@ -387,14 +369,14 @@
     button.hidden = false;
     button.addEventListener("click", function () {
       if (running) return;              // let the current draw finish
-      play("New draw: different firms picked, and both groups again have a similar mix of firm sizes and " +
-        "similar results.");
+      play("New draw: different firms picked, and again two groups that start out alike.");
     });
   }
 
   if (switcher) {
     var toggles = switcher.querySelectorAll("button[data-mode]");
     switcher.hidden = false;
+    if (intro) intro.hidden = false;
     Array.prototype.forEach.call(toggles, function (t) {
       t.addEventListener("click", function () {
         var next = t.getAttribute("data-mode");
@@ -407,11 +389,10 @@
         figure.setAttribute("data-mode", mode);
         if (icon) icon.textContent = MODES[mode].icon;
         if (verdict) verdict.textContent = MODES[mode].verdict;
-        if (caption) caption.textContent = MODES[mode].caption;
         if (button) button.hidden = mode !== "random";
         if (why) why.hidden = mode !== "merit";
         finish();                         // a switch interrupts a draw in progress
-        play(MODES[mode].status + " " + MODES[mode].result);
+        play(MODES[mode].verdict + " " + MODES[mode].result);
       });
     });
   }
