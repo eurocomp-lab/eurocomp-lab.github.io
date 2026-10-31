@@ -88,7 +88,7 @@
       otherShort: "comparison group",
       otherBar: "Comparison group",
       icon: "\u2713",
-      verdict: "A random draw gives two groups that start out alike.",
+      verdict: "A random draw creates two groups that start out alike.",
       result: "If the support made no difference, both groups would have similar results a year later.",
       label: "Forty eligible firms of different sizes. A random draw marks twenty as supported and twenty " +
         "as the comparison group."
