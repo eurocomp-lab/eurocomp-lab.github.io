@@ -446,8 +446,8 @@ hr:has(+ .nav-buttons) { display: none; }
 .hero-draw .draw-why { color: #FFFFFF; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
 .hero-draw .draw-why:hover { text-decoration-thickness: 2px; }
 .hero-draw .draw-why[hidden] { display: none; }
-/* Batch 38 and 40: one plain sentence gives the verdict under the drawing, a fair comparison (white check) or not
-   (coral cross); it is the figure's caption */
+/* Batch 38, 40 and 41: one plain sentence under the drawing says what each method does, with a white check for
+   the random draw and a coral cross for selection on merit; it is the figure's caption */
 #quarto-document-content .hero-draw .draw-verdict { display: flex; align-items: flex-start; gap: .6rem; margin: 0; color: #FFFFFF; font-size: 1.1rem; font-weight: 700; line-height: 1.4; }
 .hero-draw .draw-icon {
   flex: none;

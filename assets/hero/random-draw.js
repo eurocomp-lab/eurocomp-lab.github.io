@@ -18,8 +18,9 @@
    "Not selected" rather than "Comparison group". A ranking picks the same firms
    every time, so "Run the draw again" shows only for the random draw.
 
-   Under the drawing, one plain sentence gives the verdict for each mode (fair
-   comparison or not; batches 38 and 40), and two bars show the consequence
+   Under the drawing, one plain sentence says what each method does (groups that
+   start out alike, or support for bigger firms; batches 38, 40 and 41), and two
+   bars show the consequence
    (batch 39): each group's average result a year later in an illustrative case
    where the support makes no difference at all, so results depend only on firm
    size (larger firms do better anyway) plus a little noise. After a random draw
@@ -87,7 +88,7 @@
       otherShort: "comparison group",
       otherBar: "Comparison group",
       icon: "\u2713",
-      verdict: "A random draw gives two groups that start out alike, so the comparison is fair.",
+      verdict: "A random draw gives two groups that start out alike.",
       result: "If the support made no difference, both groups would have similar results a year later.",
       label: "Forty eligible firms of different sizes. A random draw marks twenty as supported and twenty " +
         "as the comparison group."
@@ -98,7 +99,7 @@
       otherShort: "not selected",
       otherBar: "Not selected",
       icon: "\u2715",
-      verdict: "Selecting on merit gives the support to bigger firms, so the comparison is not fair.",
+      verdict: "Selecting on merit gives the support to bigger firms.",
       result: "If the support made no difference, the supported firms would still show better results a year " +
         "later, because they were bigger from the start.",
       label: "Forty eligible firms of different sizes. Selection on merit supports the twenty largest."
