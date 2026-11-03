@@ -19,7 +19,7 @@ Examples on these pages involve firms, because the EuroCOMP Lab's experiments ha
 ```{=html}
 <div class="plan-block">
 <h3 class="plan-h" id="planning-what-each-step-prepares">Planning: what each step prepares</h3>
-<p class="plan-desc">The eight steps are about how to design an RCT. This planning needs to happen before the intervention and any data collection is launched.</p>
+<p class="plan-desc">The eight steps are about how to design an RCT. This planning needs to happen before the intervention and any data collection is launched. Most outputs have to be ready before the call opens.</p>
 <table class="plan-table">
 <thead><tr><th scope="col">Step</th><th scope="col">What to plan</th><th scope="col">Outputs</th></tr></thead>
 <tbody class="fam-a">
@@ -38,7 +38,7 @@ Examples on these pages involve firms, because the EuroCOMP Lab's experiments ha
 </tbody>
 </table>
 <h3 class="plan-h" id="timeline-when-each-output-is-prepared-and-used">Timeline of an RCT</h3>
-<p class="plan-desc">Once the RCT is readily plannedMost outputs have to be ready before the call opens, because the call and the application form depend on them. The baseline survey, for example, is planned in Step 7 but runs before the random draw; in North-East Romania, it was collected with the applications. The follow-up survey and its quality checks can be prepared later, during delivery.</p>
+<p class="plan-desc">After the design stage, the following timeline: </p>
 <figure class="fig-e fig-timeline fig-plan">
 <p class="visually-hidden">Timeline of an RCT in five phases, from left to right: design, before the call; applications and eligibility; random draw and balance check; delivery of the intervention; follow-up and analysis. Most outputs in the table above have to be ready before the call opens; the follow-up survey and its quality checks are prepared during delivery, before follow-up starts. The call opens after the design phase, the intervention starts after the random draw, and follow-up starts after delivery: everything in the first three phases has to be in place before the intervention starts. Example dates from North-East Romania: pre-assessment survey, May to September 2023; lottery before a notary, October 2023; contracts signed, March 2024 to March 2025; follow-up survey, March to May 2025. The links that follow list where each output is used and open the page that covers it.</p>
 <div class="fig-wide tl-box">
