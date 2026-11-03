@@ -8,7 +8,7 @@ description-meta: "Follow eight steps to design a credible randomised controlled
 This page covers the internal team to assemble before starting, and eight steps for designing a credible randomised controlled trial (RCT): Theory of Change (ToC), learning questions, indicators, feasibility, randomisation, data sources, data collection, and data quality.
 :::
 
-A well-designed RCT does not begin with randomisation. It begins with a clear understanding of what an intervention is trying to achieve and why. The eight steps below set out the preparatory work that makes randomisation meaningful and the findings credible. They are numbered in a logical order, but their work overlaps in practice, and most of it is done before the first call for applications is launched.
+A well-designed RCT does not begin with randomisation. It begins with a clear understanding of what an intervention is trying to achieve and why. The eight steps below set out the preparatory work that makes randomisation meaningful and the findings credible. They are numbered in a logical order, but their work overlaps in practice, and most of it is done before the intervention is launched.
 
 Examples on these pages involve firms, because the EuroCOMP Lab's experiments have so far focused on business support. The same steps apply to any intervention, whether it reaches people, households, schools, municipalities or other units.
 
@@ -19,7 +19,7 @@ Examples on these pages involve firms, because the EuroCOMP Lab's experiments ha
 ```{=html}
 <div class="plan-block">
 <h3 class="plan-h" id="planning-what-each-step-prepares">Planning: what each step prepares</h3>
-<p class="plan-desc">The eight steps are about planning: each step prepares one or more outputs, and each output has to be ready before it is used in the field.</p>
+<p class="plan-desc">The eight steps are about how to design an RCT. This planning needs to happen before the intervention and any data collection is launched.</p>
 <table class="plan-table">
 <thead><tr><th scope="col">Step</th><th scope="col">What to plan</th><th scope="col">Outputs</th></tr></thead>
 <tbody class="fam-a">
@@ -37,8 +37,8 @@ Examples on these pages involve firms, because the EuroCOMP Lab's experiments ha
 <tr class="tl-s8"><td class="pl-n"><span>8</span></td><td class="pl-task"><a class="pl-title" href="02.08-data_quality.qmd">Ensure high-quality data</a><span class="pl-desc">Before each round of data collection, put in place the checks that catch data problems while they can still be fixed.</span><span class="pl-chips pl-chips-inline"><span class="pl-chip">Baseline quality checks</span><span class="pl-chip">Follow-up quality checks</span></span></td><td class="pl-out"><span class="pl-chips"><span class="pl-chip">Baseline quality checks</span><span class="pl-chip">Follow-up quality checks</span></span></td></tr>
 </tbody>
 </table>
-<h3 class="plan-h" id="timeline-when-each-output-is-prepared-and-used">Timeline: when each output is prepared and used</h3>
-<p class="plan-desc">Most outputs have to be ready before the call opens, because the call and the application form depend on them. The baseline survey, for example, is planned in Step 7 but runs before the random draw; in North-East Romania, it was collected with the applications. The follow-up survey and its quality checks can be prepared later, during delivery.</p>
+<h3 class="plan-h" id="timeline-when-each-output-is-prepared-and-used">Timeline of an RCT</h3>
+<p class="plan-desc">Once the RCT is readily plannedMost outputs have to be ready before the call opens, because the call and the application form depend on them. The baseline survey, for example, is planned in Step 7 but runs before the random draw; in North-East Romania, it was collected with the applications. The follow-up survey and its quality checks can be prepared later, during delivery.</p>
 <figure class="fig-e fig-timeline fig-plan">
 <p class="visually-hidden">Timeline of an RCT in five phases, from left to right: design, before the call; applications and eligibility; random draw and balance check; delivery of the intervention; follow-up and analysis. Most outputs in the table above have to be ready before the call opens; the follow-up survey and its quality checks are prepared during delivery, before follow-up starts. The call opens after the design phase, the intervention starts after the random draw, and follow-up starts after delivery: everything in the first three phases has to be in place before the intervention starts. Example dates from North-East Romania: pre-assessment survey, May to September 2023; lottery before a notary, October 2023; contracts signed, March 2024 to March 2025; follow-up survey, March to May 2025. The links that follow list where each output is used and open the page that covers it.</p>
 <div class="fig-wide tl-box">
