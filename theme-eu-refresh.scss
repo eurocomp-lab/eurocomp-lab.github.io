@@ -1239,9 +1239,7 @@ body:not(.glossary) #quarto-document-content a[href*="glossary.html#"]:hover { t
    fails on links inside an SVG.
    --------------------------------------------------------------- */
 #quarto-document-content .plan-block {
-  .fam-a { --fam: #894B9C; --fam-tint: #F1E9F3; }   // batch 38: plum, burnt orange and sea green (were violet #6250D6,
-  .fam-b { --fam: #BB5608; --fam-tint: #F7EBE1; }   // orange #C5531B, green #00845C): even weight, clear of the EU blue,
-  .fam-c { --fam: #0E8264; --fam-tint: #E2F0EC; }   // better colour-blind separation; see plan7_fig.py
+  .fam-a, .fam-b, .fam-c { --fam: #{$rf-blue}; --fam-tint: #{$rf-pale}; }   // one colour for all steps; the step numbers link each output to its step
   .fam-0 { --fam: #{$rf-ink-soft}; --fam-tint: #{$rf-pale}; }
   h3.plan-h { margin: 2.5rem 0 .6rem; }   // the site's h3 size and colour (batch 35: was small blue bold, like a link)
   > h3.plan-h:first-child { margin-top: 1.25rem; }
