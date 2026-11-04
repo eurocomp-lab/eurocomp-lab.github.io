@@ -1,5 +1,5 @@
 ---
-title: "Examples of RCTs in public interventions"
+title: "Examples in cohesion policy"
 description-meta: "Explore randomised trials built into public interventions in Spain, Croatia, Czechia, Romania and beyond: the problem, the design and the results so far."
 toc-depth: 2
 ---
