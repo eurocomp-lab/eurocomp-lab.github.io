@@ -1,7 +1,7 @@
 ---
 title: "Glossary"
 description-meta: "Look up plain-language definitions of the evaluation terms used on this site, from additionality and attrition to spillover effects and Theory of Change."
-# styles the terms below as a list of terms and definitions (theme-eu-refresh.scss, batch 21)
+# styles the terms below as a list of terms and definitions (theme-eu-refresh.scss)
 body-classes: glossary
 ---
 

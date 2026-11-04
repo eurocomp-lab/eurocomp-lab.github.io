@@ -434,7 +434,7 @@ hr:has(+ .nav-buttons) { display: none; }
 }
 .hero-draw .draw-again:hover { background: rgba(255, 255, 255, .12); }
 .hero-draw .draw-again[hidden] { display: none; }
-/* Batch 37 and 40: under the line "Compare two ways to choose who gets support", a switch compares a random
+/* Under the line "Compare two ways to choose who gets support", a switch compares a random
    draw (RCT) with selection on merit (random-draw.js); in merit mode a link leads to the selection bias section */
 .hero-draw .draw-intro { margin: 0 0 .5rem; color: #FFFFFF; font-size: 1rem; font-weight: 700; line-height: 1.35; }
 .hero-draw .draw-intro[hidden] { display: none; }
@@ -458,9 +458,10 @@ hr:has(+ .nav-buttons) { display: none; }
 .hero-draw .draw-why { color: #FFFFFF; font-weight: 700; text-decoration: underline; text-underline-offset: 3px; }
 .hero-draw .draw-why:hover { text-decoration-thickness: 2px; }
 .hero-draw .draw-why[hidden] { display: none; }
-/* Batch 38, 40 and 41: one plain sentence under the drawing says what each method does, with a white check for
+/* One plain sentence under the drawing says what each method does, with a white check for
    the random draw and a coral cross for selection on merit; it is the figure's caption */
 #quarto-document-content .hero-draw .draw-verdict { display: flex; align-items: flex-start; gap: .6rem; margin: 0; color: #FFFFFF; font-size: 1.1rem; font-weight: 700; line-height: 1.4; }
+#quarto-document-content .hero-draw .draw-verdict-text { text-wrap: balance; }   // two even lines when the sentence wraps
 .hero-draw .draw-icon {
   flex: none;
   margin-top: .05rem;
@@ -476,7 +477,7 @@ hr:has(+ .nav-buttons) { display: none; }
   line-height: 1;
 }
 .hero-draw[data-mode="merit"] .draw-icon { background: #FF8A75; color: $rf-ink; }
-/* Batch 39: each group's average result a year later if the support made no difference (illustrative), as two
+/* Each group's average result a year later if the support made no difference (illustrative), as two
    bars: about equal after a random draw, the supported firms clearly ahead on merit. Bars grow once the groups are
    complete. */
 .hero-draw .draw-result { width: 100%; max-width: 26rem; }
@@ -536,7 +537,7 @@ hr:has(+ .nav-buttons) { display: none; }
 }
 
 /* ---------------------------------------------------------------
-   Batch 5 (October 2026): layout fixes from the review of
+   Layout fixes from the review of
    'Why and when to use a randomised controlled trial'
    --------------------------------------------------------------- */
 /* Step flows: one row where all steps fit; below 1200px a column with
@@ -573,7 +574,7 @@ hr:has(+ .nav-buttons) { display: none; }
 }
 
 /* ---------------------------------------------------------------
-   Batch 8 (October 2026): fixes from the page check of
+   Fixes from the page check of
    'Why and when to use a randomised controlled trial'
    --------------------------------------------------------------- */
 /* Inputs -> outcomes chain: one row with right arrows from 576px up;
@@ -613,7 +614,7 @@ hr:has(+ .nav-buttons) { display: none; }
 .compare .col-head { text-wrap: balance; }
 
 /* ---------------------------------------------------------------
-   Batch 9 (October 2026): examples page. Overview cards with a
+   Examples page. Overview cards with a
    locator map, a header band for each example, large headline
    results, and a link back to the overview.
    --------------------------------------------------------------- */
@@ -747,7 +748,7 @@ hr:has(+ .nav-buttons) { display: none; }
 }
 
 /* ---------------------------------------------------------------
-   Batch 12 (October 2026): why-and-when page. An overview of the
+   Why-and-when page. An overview of the
    page in three parts, a part label above the heading that starts
    each part, locator maps in the example boxes, and the
    additionality rates as large numbers.
@@ -836,7 +837,7 @@ hr:has(+ .nav-buttons) { display: none; }
 }
 
 /* ---------------------------------------------------------------
-   Batch 13 (October 2026): How to design an RCT overview. Numbered
+   How to design an RCT overview. Numbered
    steps that open on a click anywhere in the row, the team to
    assemble as the first stop, the detail pages under Steps 4 and 6,
    and labelled cards instead of bullets that left a stray dash.
@@ -895,7 +896,7 @@ hr:has(+ .nav-buttons) { display: none; }
 #quarto-document-content .cards.defs .card-e > p:first-child { margin-bottom: .45rem; color: $rf-blue; }
 
 /* ---------------------------------------------------------------
-   Batch 14 (October 2026): How to design an RCT section. Each step
+   How to design an RCT section. Each step
    in the tracker opens its page (the detail pages show the tracker
    too), maps in the example boxes on the step pages, dashed cards
    for the roles that help, and tool links under the steps.
@@ -922,7 +923,7 @@ hr:has(+ .nav-buttons) { display: none; }
 #quarto-document-content .cards.steps > .card-e > .sub-steps > p + p { margin-top: .25rem; }
 
 /* ---------------------------------------------------------------
-   Batch 15 (October 2026): "On this page". A quiet label as the
+   "On this page". A quiet label as the
    title, a thin rail, the current section in blue on a pale band.
    On the examples page each entry shows the place over the topic,
    under the group labels of the overview cards.
@@ -974,7 +975,7 @@ hr:has(+ .nav-buttons) { display: none; }
 #TOC a .nobr { white-space: nowrap; }
 
 /* ---------------------------------------------------------------
-   Batch 16 (October 2026): the home page gets the "On this page"
+   The home page gets the "On this page"
    menu. Quarto hides it while the hero is in view; over the
    "How to start" band it sits on a white panel.
    --------------------------------------------------------------- */
@@ -987,7 +988,7 @@ hr:has(+ .nav-buttons) { display: none; }
 .has-hero #quarto-toc-toggle { display: none !important; }
 
 /* ---------------------------------------------------------------
-   Batch 17 (October 2026): one locator map per Czech example, and
+   One locator map per Czech example, and
    lists inside cards (Go further links, peer contacts, templates)
    at the size and colour of the card text around them.
    --------------------------------------------------------------- */
@@ -998,7 +999,7 @@ hr:has(+ .nav-buttons) { display: none; }
 #quarto-document-content .card-e li + li { margin-top: .4rem; }
 
 /* ---------------------------------------------------------------
-   Batch 20 (October 2026): the repository pages. The topics as
+   The repository pages. The topics as
    cards (in two groups on the survey page) with what each covers,
    and on the indicator page an example at the foot of each card;
    the example citations in full at the end; and on each topic page
@@ -1067,7 +1068,7 @@ hr:has(+ .nav-buttons) { display: none; }
 #quarto-document-content .topic-nav > p + p { color: $rf-ink-soft; }
 
 /* ---------------------------------------------------------------
-   Batch 21 (October 2026): the About pages. Four key figures on the
+   The About pages. Four key figures on the
    EuroCOMP Lab page, the peer contacts grouped by country, and the
    glossary as a list of terms and definitions with an A-Z bar.
    --------------------------------------------------------------- */
@@ -1151,7 +1152,7 @@ hr:has(+ .nav-buttons) { display: none; }
 }
 
 /* ---------------------------------------------------------------
-   Batch 22 (October 2026): links to the glossary from the step pages
+   Links to the glossary from the step pages
    (a dotted underline marks a definition rather than a page), and on
    the glossary the term a link points to is highlighted and clears the
    top bar.
@@ -1164,7 +1165,7 @@ body:not(.glossary) #quarto-document-content a[href*="glossary.html#"]:hover { t
 .nav-buttons p a.back { background-color: transparent; color: $rf-blue; border-color: $rf-blue; }
 .nav-buttons p a.back:only-child { margin-left: 0; }
 .nav-buttons p a.back:hover { background-color: $rf-blue; color: #FFFFFF; }
-/* Batch 36: Steps 2 to 8 have a "Back to overview" button (How to design an RCT), centred on its own row above the
+/* Steps 2 to 8 have a "Back to overview" button (How to design an RCT), centred on its own row above the
    previous and next buttons and outlined like the other back buttons (as a lone link it would otherwise take the
    filled "next" style on the right). */
 .nav-buttons p:has(> a.up) { justify-content: center; margin-bottom: .8rem; }
@@ -1176,7 +1177,7 @@ body:not(.glossary) #quarto-document-content a[href*="glossary.html#"]:hover { t
 .glossary #quarto-document-content dt.is-target { box-shadow: -.6rem 0 0 $rf-pale; }
 
 /* ---------------------------------------------------------------
-   Batch 23 (October 2026): REGIO feedback. The "On this page"
+   REGIO feedback. The "On this page"
    entries are numbered and the sub-entries get a small bullet,
    so the menu reads as a list. Group labels (parts, example
    groups) are not counted.
@@ -1215,13 +1216,13 @@ body:not(.glossary) #quarto-document-content a[href*="glossary.html#"]:hover { t
 }
 
 /* ---------------------------------------------------------------
-   Batch 24 (October 2026): the step timeline on How to design an
+   The step timeline on How to design an
    RCT. Below 1100px the wide version would shrink its labels
    under 11px (the column is narrower while the "On this page"
    menu shows), so the stacked (phone) version shows instead,
    at up to 23rem so its text stays near the size of the table
-   above it (batch 33 and 35; was 992px and 30rem). Since batch 28
-   each version is a box holding the drawing and its links.
+   above it (was 992px and 30rem). Each
+   version is a box holding the drawing and its links.
    --------------------------------------------------------------- */
 @media (max-width: 1099.98px) {
   #quarto-document-content figure.fig-e.fig-timeline > .fig-wide { display: none; }
@@ -1229,7 +1230,7 @@ body:not(.glossary) #quarto-document-content a[href*="glossary.html#"]:hover { t
 }
 
 /* ---------------------------------------------------------------
-   Batch 29 (October 2026): How to design an RCT lists the steps in
+   How to design an RCT lists the steps in
    a table with the outputs each step prepares, then shows in the
    timeline when each output is used. The table replaces the step
    cards. Outputs keep their step number and one of three colours,
@@ -1241,11 +1242,11 @@ body:not(.glossary) #quarto-document-content a[href*="glossary.html#"]:hover { t
 #quarto-document-content .plan-block {
   .fam-a, .fam-b, .fam-c { --fam: #{$rf-blue}; --fam-tint: #{$rf-pale}; }   // one colour for all steps; the step numbers link each output to its step
   .fam-0 { --fam: #{$rf-ink-soft}; --fam-tint: #{$rf-pale}; }
-  h3.plan-h { margin: 2.5rem 0 .6rem; }   // the site's h3 size and colour (batch 35: was small blue bold, like a link)
+  h3.plan-h { margin: 2.5rem 0 .6rem; }   // the site's h3 size and colour (was small blue bold, like a link)
   > h3.plan-h:first-child { margin-top: 1.25rem; }
-  .plan-desc { max-width: 40rem; margin: 0 0 .8rem; color: $rf-ink-soft; }   // same text width as the page (batch 33)
+  .plan-desc { max-width: 40rem; margin: 0 0 .8rem; color: $rf-ink-soft; }   // same text width as the page
   .plan-table { width: 100%; margin: 0 0 1rem; border-collapse: collapse; font-size: .92rem; line-height: 1.42; }
-  .plan-table thead th {   // batch 35: sentence case at table text size, as in the site's other tables
+  .plan-table thead th {   // sentence case at table text size, as in the site's other tables
     padding: 0 .55rem .4rem; border-bottom: 2px solid $rf-rule; text-align: left;
     font-size: .92rem; font-weight: 700; color: $rf-ink;
   }
