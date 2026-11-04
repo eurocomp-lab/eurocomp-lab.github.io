@@ -12,16 +12,16 @@
    mix, because firms are paired by size and a coin flip splits each pair.
 
    A switch above the drawing, under the line "Compare two ways to choose who
-   gets support", compares this with selection on merit (batch 37): the same
+   gets support", compares this with selection on merit: the same
    firms are ranked, here by size, and the twenty largest are supported. They
    move one by one from largest to smallest and the other group is labelled
    "Not selected" rather than "Comparison group". A ranking picks the same firms
    every time, so "Run the draw again" shows only for the random draw.
 
    Under the drawing, one plain sentence says what each method does (groups that
-   start out alike, or support for bigger firms; batches 38, 40 and 41), and two
-   bars show the consequence
-   (batch 39): each group's average result a year later in an illustrative case
+   start out alike, or support for bigger applicants), and two
+   bars show the consequence:
+   each group's average result a year later in an illustrative case
    where the support makes no difference at all, so results depend only on firm
    size (larger firms do better anyway) plus a little noise. After a random draw
    the bars come out about equal; on merit the supported firms come out clearly
@@ -57,11 +57,13 @@
   }
   var rand = seeded(20231018);
 
-  // Firm sizes as dot radii: 8 large, 14 medium, 18 small
+  // Firm sizes: 8 large, 14 medium, 18 small. The dot radius (r) keeps the three sizes far apart,
+  // so a group of larger firms stands out; the size score (s) sets the results further down.
   var firms = [];
-  [[8, 9.5, "large"], [14, 7, "medium"], [18, 5, "small"]].forEach(function (group) {
+  [[8, 9.5, 11, "large"], [14, 7, 7.5, "medium"], [18, 5, 4, "small"]].forEach(function (group) {
     for (var i = 0; i < group[0]; i++) {
-      firms.push({ r: group[1] + (rand() - 0.5) * 1.2, size: group[2] });
+      var u = rand() - 0.5;
+      firms.push({ s: group[1] + u * 1.2, r: group[2] + u * 0.8, size: group[3] });
     }
   });
   // Each firm gets a shuffled pool slot (so sizes are mixed) and a small jitter
@@ -78,7 +80,7 @@
   // Illustrative result a year later, with a support that has no effect: size plus noise
   var randY = seeded(20240601);
   var YMAX = 8;                       // full bar
-  firms.forEach(function (f) { f.y = 2 + 1.2 * (f.r - 5) + (randY() - 0.5) * 1.6; });
+  firms.forEach(function (f) { f.y = 2 + 1.2 * (f.s - 5) + (randY() - 0.5) * 1.6; });
 
   // What changes between the two ways of selecting
   var MODES = {
@@ -99,7 +101,7 @@
       otherShort: "not selected",
       otherBar: "Not selected",
       icon: "\u2715",
-      verdict: "Selecting on merit gives the support to bigger firms.",
+      verdict: "Selecting on merit gives the support to bigger applicants.",
       result: "If the support made no difference, the supported firms would still show better results a year " +
         "later, because they were bigger from the start.",
       label: "Forty eligible firms of different sizes. Selection on merit supports the twenty largest."
@@ -111,7 +113,7 @@
     wide: {
       W: 470, H: 340,
       pool: function (f) {
-        return { x: 18 + (f.slot % 5) * 28 + f.jx * 7, y: 74 + Math.floor(f.slot / 5) * 33 + f.jy * 7 };
+        return { x: 18 + (f.slot % 5) * 28 + f.jx * 5, y: 74 + Math.floor(f.slot / 5) * 33 + f.jy * 5 };
       },
       group: function (g, i) {
         return { x: 326 + (i % 5) * 29, y: (g === "t" ? 76 : 236) + Math.floor(i / 5) * 30 };
@@ -125,7 +127,7 @@
     tall: {
       W: 340, H: 420,
       pool: function (f) {
-        return { x: 44 + (f.slot % 8) * 36 + f.jx * 6, y: 48 + Math.floor(f.slot / 8) * 30 + f.jy * 6 };
+        return { x: 44 + (f.slot % 8) * 36 + f.jx * 5, y: 48 + Math.floor(f.slot / 8) * 30 + f.jy * 5 };
       },
       group: function (g, i) {
         return { x: (g === "t" ? 25 : 195) + (i % 5) * 30, y: 312 + Math.floor(i / 5) * 30 };
