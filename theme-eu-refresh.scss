@@ -349,6 +349,18 @@ hr:has(+ .nav-buttons) { display: none; }
   max-width: 30em;
   margin-bottom: 1.75rem;
 }
+/* Home page: the line under the main title */
+#quarto-document-content .hero .hero-lead p {
+  color: #FFFFFF;
+  font-size: 1.45rem;
+  font-weight: 700;
+  line-height: 1.3;
+  max-width: 24em;
+  margin-bottom: 1rem;
+}
+@media (max-width: 575.98px) {
+  #quarto-document-content .hero .hero-lead p { font-size: 1.22rem; }
+}
 #quarto-document-content .hero-actions p {
   display: flex;
   flex-wrap: wrap;
@@ -1271,4 +1283,18 @@ body:not(.glossary) #quarto-document-content a[href*="glossary.html#"]:hover { t
     .tl-chip.tl-s#{$n} .chip-bg { fill: var(--fam-tint); stroke-width: 2.5; }
     .tl-key.tl-s#{$n} circle { stroke: $rf-ink; stroke-width: 2; }
   }
+}
+
+/* Top-bar menus: group label (Repository, in the How to design an RCT menu),
+   styled like the "On this page" label; light on the blue menu on phones and tablets */
+.navbar .dropdown-header {
+  padding: .6rem 1.1rem .25rem;
+  font-size: .7rem;
+  font-weight: 700;
+  letter-spacing: .12em;
+  text-transform: uppercase;
+  color: $rf-ink-soft;
+}
+@media (max-width: 991.98px) {
+  .navbar .dropdown-header { padding: .65rem .8rem .2rem; color: rgba(255, 255, 255, .75); }
 }

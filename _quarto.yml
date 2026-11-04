@@ -9,7 +9,7 @@ project:
     - "!XX-*.qmd"        # parked drafts: prefix a file XX- to keep it out of the site
 
 website:
-  title: "EuroCOMP Lab"
+  title: "Experimentation through randomised trials"
   description: "Experimentation for evidence-based policymaking and adaptive learning in cohesion policy"
   favicon: assets/logo/favicon.png
 
@@ -39,12 +39,12 @@ website:
           - href: 02.06-data_sources.qmd
           - href: 02.07-data_collect.qmd
           - href: 02.08-data_quality.qmd
-      - href: 03-examples.qmd
-        text: Examples
-      - text: Repository
-        menu:
+          - text: "---"
+          - text: "Repository"
           - href: 09-bank_outcomes.qmd
           - href: 08-bank_survey.qmd
+      - href: 03-examples.qmd
+        text: "Examples in cohesion policy"
       - text: About
         menu:
           - href: eurocomp.qmd

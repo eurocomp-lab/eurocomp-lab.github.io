@@ -16,7 +16,7 @@ Plain-language definitions of the evaluation terms used throughout this site.
 **Scope**
 Terms specific to a single case study (names of interventions, voucher types) are not
 repeated here; they are explained on the page where they appear, for example
-[Examples](03-examples.qmd).
+[Examples in cohesion policy](03-examples.qmd).
 :::
 
 ::: {.az role="navigation" aria-label="Glossary from A to Z"}

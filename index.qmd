@@ -1,5 +1,5 @@
 ---
-title: "Randomised trials for EU-funded interventions"
+title: "Experimentation through randomised trials"
 description-meta: "Learn how managing authorities and evaluators can use randomised controlled trials (RCTs) for evidence-based policymaking and adaptive learning in cohesion policy, with guidance, examples and survey tools."
 title-block-style: none   # the hero below carries the page title
 body-classes: has-hero
@@ -9,7 +9,11 @@ body-classes: has-hero
 :::::: {.hero .column-screen}
 ::::: {.hero-inner}
 :::: {.hero-copy}
-# Join a growing community of practice for experimental evaluation in Europe
+# Experimentation through randomised trials
+
+::: {.hero-lead}
+Join a growing community of practice for experimental evaluation in Europe.
+:::
 
 This website pools knowledge and resources to help managing authorities and evaluators use randomised controlled trials (RCTs) to learn what works in cohesion policy interventions.
 
@@ -259,12 +263,8 @@ What the impact of an intervention is, how RCTs and other methods form a compari
 How to plan an RCT in eight steps: from the causal logic of the intervention, through choosing the right design, to ensuring high-quality data is collected.
 :::
 ::: {.card-e}
-#### [Examples](03-examples.qmd)
-Experiences from projects partnering with the EuroCOMP Lab and beyond.
-:::
-::: {.card-e}
-#### [Repository](09-bank_outcomes.qmd)
-[Indicators](09-bank_outcomes.qmd) and [survey questions](08-bank_survey.qmd), organised by topic.
+#### [Examples in cohesion policy](03-examples.qmd)
+Experiences from cohesion policy projects that partnered with the EuroCOMP Lab and its precursors.
 :::
 ::::
 

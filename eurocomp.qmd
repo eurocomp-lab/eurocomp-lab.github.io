@@ -71,7 +71,7 @@ An open call for interested managing authorities in EU Member States working on 
 
 DG REGIO also supported policy experimentation on mechanisms to increase digitalisation among small and medium-sized enterprises (SMEs) in three further Member States, under the 'Digitrans' project. Together, these projects initiated an ambitious, strategic agenda that is helping managing authorities learn through policy experiments about the impact of competitiveness programmes.
 
-The [Examples](03-examples.qmd) page describes several of these experiments.
+The [Examples in cohesion policy](03-examples.qmd) page describes several of these experiments.
 
 ## How it works
 
