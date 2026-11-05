@@ -38,7 +38,7 @@ Examples on these pages involve firms, because the EuroCOMP Lab's experiments ha
 </tbody>
 </table>
 <h3 class="plan-h" id="timeline-when-each-output-is-prepared-and-used">Timeline of an RCT</h3>
-<p class="plan-desc">After the design stage, the following timeline: </p>
+<p class="plan-desc">Timeline of an RCT in five phases, from left to right: design; baseline data; random draw; delivery of the intervention; follow-up and analysis. Example dates from North-East Romania: pre-assessment survey, May to September 2023; lottery before a notary, October 2023; contracts signed, March 2024 to March 2025; follow-up survey, March to May 2025.</p>
 <figure class="fig-e fig-timeline fig-plan">
 <p class="visually-hidden">Timeline of an RCT in five phases, from left to right: design, before the call; applications and eligibility; random draw and balance check; delivery of the intervention; follow-up and analysis. Most outputs in the table above have to be ready before the call opens; the follow-up survey and its quality checks are prepared during delivery, before follow-up starts. The call opens after the design phase, the intervention starts after the random draw, and follow-up starts after delivery: everything in the first three phases has to be in place before the intervention starts. Example dates from North-East Romania: pre-assessment survey, May to September 2023; lottery before a notary, October 2023; contracts signed, March 2024 to March 2025; follow-up survey, March to May 2025. The links that follow list where each output is used and open the page that covers it.</p>
 <div class="fig-wide tl-box">
@@ -83,48 +83,48 @@ Examples on these pages involve firms, because the EuroCOMP Lab's experiments ha
   <g class="tl-key tl-s7"><circle cx="27.5" cy="311.8" r="7.5" fill="#004494"/><text x="27.5" y="315.4" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">7</text></g>
   <text x="42.0" y="316.0" fill="var(--dg-ink)" font-size="12.5">Terms of reference,</text>
   <text x="42.0" y="331.0" fill="var(--dg-ink)" font-size="12.5">consent form,</text>
-  <text x="42.0" y="346.0" fill="var(--dg-ink)" font-size="12.5">baseline survey,</text>
+  <text x="42.0" y="346.0" fill="var(--dg-ink)" font-size="12.5">surveys,</text>
   <text x="42.0" y="361.0" fill="var(--dg-ink)" font-size="12.5">contact tracking</text>
   <g class="tl-key tl-s8"><circle cx="27.5" cy="377.8" r="7.5" fill="#004494"/><text x="27.5" y="381.4" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">8</text></g>
-  <text x="42.0" y="382.0" fill="var(--dg-ink)" font-size="12.5">Baseline</text>
+  <text x="42.0" y="382.0" fill="var(--dg-ink)" font-size="12.5">Data</text>
   <text x="42.0" y="397.0" fill="var(--dg-ink)" font-size="12.5">quality checks</text>
-  <g class="tl-chip tl-s4 fam-b">
+  <g class="tl-chip tl-s7 fam-b">
     <rect class="chip-bg" x="166.0" y="124.0" width="140.0" height="25.5" rx="6" fill="var(--dg-panel)" stroke="#004494" stroke-width="1.5"/>
     <circle cx="179.5" cy="135.8" r="8" fill="#004494"/><text x="179.5" y="139.3" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">4</text>
-    <text x="192.0" y="139.8" fill="var(--dg-ink)" font-size="12.5">Legal basis</text>
+    <text x="192.0" y="139.8" fill="var(--dg-ink)" font-size="12.5">Administrative data</text>
   </g>
   <g class="tl-chip tl-s7 fam-c">
     <rect class="chip-bg" x="166.0" y="155.5" width="140.0" height="25.5" rx="6" fill="var(--dg-panel)" stroke="#004494" stroke-width="1.5"/>
     <circle cx="179.5" cy="167.2" r="8" fill="#004494"/><text x="179.5" y="170.8" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">7</text>
-    <text x="192.0" y="171.2" fill="var(--dg-ink)" font-size="12.5">Consent form</text>
+    <text x="192.0" y="171.2" fill="var(--dg-ink)" font-size="12.5">Baseline survey</text>
   </g>
   <g class="tl-chip tl-s7 fam-c">
     <rect class="chip-bg" x="166.0" y="187.0" width="140.0" height="25.5" rx="6" fill="var(--dg-panel)" stroke="#004494" stroke-width="1.5"/>
     <circle cx="179.5" cy="198.8" r="8" fill="#004494"/><text x="179.5" y="202.3" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">7</text>
-    <text x="192.0" y="202.8" fill="var(--dg-ink)" font-size="12.5">Baseline survey</text>
+    <text x="192.0" y="202.8" fill="var(--dg-ink)" font-size="12.5">Consent form</text>
   </g>
   <g class="tl-chip tl-s8 fam-c">
     <rect class="chip-bg" x="166.0" y="218.5" width="140.0" height="40.0" rx="6" fill="var(--dg-panel)" stroke="#004494" stroke-width="1.5"/>
     <circle cx="179.5" cy="230.2" r="8" fill="#004494"/><text x="179.5" y="233.8" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">8</text>
-    <text x="192.0" y="234.2" fill="var(--dg-ink)" font-size="12.5">Baseline</text>
+    <text x="192.0" y="234.2" fill="var(--dg-ink)" font-size="12.5">Data</text>
     <text x="192.0" y="248.8" fill="var(--dg-ink)" font-size="12.5">quality checks</text>
   </g>
   <g class="tl-chip tl-s4 fam-b">
     <rect class="chip-bg" x="318.0" y="124.0" width="116.0" height="25.5" rx="6" fill="var(--dg-panel)" stroke="#004494" stroke-width="1.5"/>
     <circle cx="331.5" cy="135.8" r="8" fill="#004494"/><text x="331.5" y="139.3" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">4</text>
-    <text x="344.0" y="139.8" fill="var(--dg-ink)" font-size="12.5">Sample size</text>
+    <text x="344.0" y="139.8" fill="var(--dg-ink)" font-size="12.5">Sample size large enough?</text>
   </g>
   <g class="tl-chip tl-s5 fam-b">
     <rect class="chip-bg" x="318.0" y="155.5" width="116.0" height="40.0" rx="6" fill="var(--dg-panel)" stroke="#004494" stroke-width="1.5"/>
     <circle cx="331.5" cy="167.2" r="8" fill="#004494"/><text x="331.5" y="170.8" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">5</text>
     <text x="344.0" y="171.2" fill="var(--dg-ink)" font-size="12.5">Randomisation</text>
-    <text x="344.0" y="185.8" fill="var(--dg-ink)" font-size="12.5">plan</text>
+    <text x="344.0" y="185.8" fill="var(--dg-ink)" font-size="12.5">of units</text>
   </g>
-  <g class="tl-chip tl-s5 fam-b">
+  <g class="tl-chip tl-s7 fam-b">
     <rect class="chip-bg" x="446.0" y="124.0" width="128.0" height="40.0" rx="6" fill="var(--dg-panel)" stroke="#004494" stroke-width="1.5"/>
     <circle cx="459.5" cy="135.8" r="8" fill="#004494"/><text x="459.5" y="139.3" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">5</text>
-    <text x="472.0" y="139.8" fill="var(--dg-ink)" font-size="12.5">Randomisation</text>
-    <text x="472.0" y="154.2" fill="var(--dg-ink)" font-size="12.5">plan</text>
+    <text x="472.0" y="139.8" fill="var(--dg-ink)" font-size="12.5">Monitoring</text>
+    <text x="472.0" y="154.2" fill="var(--dg-ink)" font-size="12.5">data</text>
   </g>
   <g class="tl-chip tl-s7 fam-c">
     <rect class="chip-bg" x="446.0" y="170.0" width="128.0" height="25.5" rx="6" fill="var(--dg-panel)" stroke="#004494" stroke-width="1.5"/>
