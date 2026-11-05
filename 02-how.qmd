@@ -83,7 +83,7 @@ Examples on these pages involve firms, because the EuroCOMP Lab's experiments ha
   <g class="tl-key tl-s7"><circle cx="27.5" cy="311.8" r="7.5" fill="#004494"/><text x="27.5" y="315.4" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">7</text></g>
   <text x="42.0" y="316.0" fill="var(--dg-ink)" font-size="12.5">Terms of reference,</text>
   <text x="42.0" y="331.0" fill="var(--dg-ink)" font-size="12.5">consent form,</text>
-  <text x="42.0" y="346.0" fill="var(--dg-ink)" font-size="12.5">surveys,</text>
+  <text x="42.0" y="346.0" fill="var(--dg-ink)" font-size="12.5">surveys and data,</text>
   <text x="42.0" y="361.0" fill="var(--dg-ink)" font-size="12.5">contact tracking</text>
   <g class="tl-key tl-s8"><circle cx="27.5" cy="377.8" r="7.5" fill="#004494"/><text x="27.5" y="381.4" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">8</text></g>
   <text x="42.0" y="382.0" fill="var(--dg-ink)" font-size="12.5">Data</text>
