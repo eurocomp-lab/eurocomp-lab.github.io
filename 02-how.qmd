@@ -8,7 +8,7 @@ description-meta: "Follow eight steps to design a credible randomised controlled
 This page covers the internal team to assemble before starting, and eight steps for designing a credible randomised controlled trial (RCT): Theory of Change (ToC), learning questions, indicators, feasibility, randomisation, data sources, data collection, and data quality.
 :::
 
-A well-designed RCT does not begin with randomisation. It begins with a clear understanding of what an intervention is trying to achieve and why. The eight steps below set out the preparatory work that makes randomisation meaningful and the findings credible. They are numbered in a logical order, but their work overlaps in practice, and most of it is done before the first call for applications is launched.
+A well-designed RCT does not begin with randomisation. It begins with a clear understanding of what an intervention is trying to achieve and why. The eight steps below set out the preparatory work that makes randomisation meaningful and the findings credible. They are numbered in a logical order, but their work overlaps in practice, and most of it is done before the intervention is launched.
 
 Examples on these pages involve firms, because the EuroCOMP Lab's experiments have so far focused on business support. The same steps apply to any intervention, whether it reaches people, households, schools, municipalities or other units.
 
@@ -19,32 +19,26 @@ Examples on these pages involve firms, because the EuroCOMP Lab's experiments ha
 ```{=html}
 <div class="plan-block">
 <h3 class="plan-h" id="planning-what-each-step-prepares">Planning: what each step prepares</h3>
-<p class="plan-desc">The eight steps are about planning: each step prepares one or more outputs, and each output has to be ready before it is used in the field.</p>
+<p class="plan-desc">The eight steps are about how to design an RCT. This planning needs to happen before the intervention and any data collection is launched. Most outputs have to be ready before the call opens.</p>
 <table class="plan-table">
 <thead><tr><th scope="col">Step</th><th scope="col">What to plan</th><th scope="col">Outputs</th></tr></thead>
-<tbody class="fam-0">
-<tr class="pl-team"><td class="pl-n"><span></span></td><td class="pl-task"><a class="pl-title" href="#before-you-start-assemble-your-internal-evaluation-team">Before you start: assemble your internal evaluation team</a><span class="pl-desc">Identify who inside the managing authority will take on each role before working through the eight steps.</span><span class="pl-chips pl-chips-inline"><span class="pl-chip">Internal evaluation team</span></span></td><td class="pl-out"><span class="pl-chips"><span class="pl-chip">Internal evaluation team</span></span></td></tr>
-</tbody>
 <tbody class="fam-a">
-<tr class="pl-grp"><th colspan="3" scope="rowgroup"><span class="pl-swatch"></span>What the evaluation will learn</th></tr>
 <tr class="tl-s1"><td class="pl-n"><span>1</span></td><td class="pl-task"><a class="pl-title" href="02.01-toc.qmd">Develop a Theory of Change</a><span class="pl-desc">Map the causal logic of your intervention, from inputs to long-term goals, and make the assumptions explicit.</span><span class="pl-chips pl-chips-inline"><span class="pl-chip">Theory of Change</span></span></td><td class="pl-out"><span class="pl-chips"><span class="pl-chip">Theory of Change</span></span></td></tr>
 <tr class="tl-s2"><td class="pl-n"><span>2</span></td><td class="pl-task"><a class="pl-title" href="02.02-eval_questions.qmd">Define learning questions</a><span class="pl-desc">Formulate the specific questions the evaluation is designed to answer, grounded in the ToC.</span><span class="pl-chips pl-chips-inline"><span class="pl-chip">Learning questions</span></span></td><td class="pl-out"><span class="pl-chips"><span class="pl-chip">Learning questions</span></span></td></tr>
 <tr class="tl-s3"><td class="pl-n"><span>3</span></td><td class="pl-task"><a class="pl-title" href="02.03-indicators.qmd">Determine relevant indicators</a><span class="pl-desc">Select the indicators that will be used to measure change at each level of the ToC.</span><span class="pl-extra">Tool: <a href="09-bank_outcomes.qmd">Indicator repository</a></span><span class="pl-chips pl-chips-inline"><span class="pl-chip">Indicators</span></span></td><td class="pl-out"><span class="pl-chips"><span class="pl-chip">Indicators</span></span></td></tr>
 </tbody>
 <tbody class="fam-b">
-<tr class="pl-grp"><th colspan="3" scope="rowgroup"><span class="pl-swatch"></span>Who receives the intervention</th></tr>
 <tr class="tl-s4"><td class="pl-n"><span>4</span></td><td class="pl-task"><a class="pl-title" href="02.04-assess.qmd">Check whether an RCT is feasible</a><span class="pl-desc">Check whether the conditions for a valid RCT are in place: oversubscription, timing, legal basis, political buy-in, and measurable results.</span><span class="pl-extra">Also in this step: <a href="02.04a-power.qmd">Power calculations</a> · <a href="02.04b-legal.qmd">Legal basis for random selection</a></span><span class="pl-chips pl-chips-inline"><span class="pl-chip">Sample size</span><span class="pl-chip">Legal basis</span></span></td><td class="pl-out"><span class="pl-chips"><span class="pl-chip">Sample size</span><span class="pl-chip">Legal basis</span></span></td></tr>
 <tr class="tl-s5"><td class="pl-n"><span>5</span></td><td class="pl-task"><a class="pl-title" href="02.05-randomisation.qmd">How to randomise</a><span class="pl-desc">Choose a randomisation design, from a simple lottery to a phase-in or an encouragement design, decide how the draw is run, and pre-register the design before the intervention begins.</span><span class="pl-extra">Also in this step: <a href="02.05a-balance.qmd">Balance checks</a></span><span class="pl-chips pl-chips-inline"><span class="pl-chip">Randomisation plan</span></span></td><td class="pl-out"><span class="pl-chips"><span class="pl-chip">Randomisation plan</span></span></td></tr>
 </tbody>
 <tbody class="fam-c">
-<tr class="pl-grp"><th colspan="3" scope="rowgroup"><span class="pl-swatch"></span>Which data are collected</th></tr>
 <tr class="tl-s6"><td class="pl-n"><span>6</span></td><td class="pl-task"><a class="pl-title" href="02.06-data_sources.qmd">Identify available data sources</a><span class="pl-desc">Decide whether to rely on primary data, administrative data, or a combination, and map what is already available.</span><span class="pl-chips pl-chips-inline"><span class="pl-chip">Data-sharing agreements</span></span></td><td class="pl-out"><span class="pl-chips"><span class="pl-chip">Data-sharing agreements</span></span></td></tr>
-<tr class="tl-s7"><td class="pl-n"><span>7</span></td><td class="pl-task"><a class="pl-title" href="02.07-data_collect.qmd">Collect data</a><span class="pl-desc">Plan the data collection: surveys, administrative data access, and quality controls.</span><span class="pl-extra">Also in this step: <a href="02.07a-tor.qmd">Terms of reference</a> · <a href="02.07b-consent.qmd">Informed consent</a></span><span class="pl-extra">Tool: <a href="08-bank_survey.qmd">Survey question repository</a></span><span class="pl-chips pl-chips-inline"><span class="pl-chip">Terms of reference</span><span class="pl-chip">Consent form</span><span class="pl-chip">Baseline survey</span><span class="pl-chip">Contact tracking</span><span class="pl-chip">Follow-up survey</span></span></td><td class="pl-out"><span class="pl-chips"><span class="pl-chip">Terms of reference</span><span class="pl-chip">Consent form</span><span class="pl-chip">Baseline survey</span><span class="pl-chip">Contact tracking</span><span class="pl-chip">Follow-up survey</span></span></td></tr>
+<tr class="tl-s7"><td class="pl-n"><span>7</span></td><td class="pl-task"><a class="pl-title" href="02.07-data_collect.qmd">Collect data</a><span class="pl-desc">Plan the data collection: surveys, administrative data access, and quality controls.</span><span class="pl-extra">Also in this step: <a href="02.07a-tor.qmd">Terms of reference</a> · <a href="02.07b-consent.qmd">Informed consent</a></span><span class="pl-extra">Tool: <a href="08-bank_survey.qmd">Survey question repository</a></span><span class="pl-chips pl-chips-inline"><span class="pl-chip">Terms of reference</span><span class="pl-chip">Consent form</span><span class="pl-chip">Baseline survey</span><span class="pl-chip">Contact tracking</span><span class="pl-chip">Follow-up survey</span></span></td><td class="pl-out"><span class="pl-chips"><span class="pl-chip">Terms of reference</span><span class="pl-chip">Consent form</span><span class="pl-chip">Baseline data</span><span class="pl-chip">Contact tracking</span><span class="pl-chip">Follow-up data</span></span></td></tr>
 <tr class="tl-s8"><td class="pl-n"><span>8</span></td><td class="pl-task"><a class="pl-title" href="02.08-data_quality.qmd">Ensure high-quality data</a><span class="pl-desc">Before each round of data collection, put in place the checks that catch data problems while they can still be fixed.</span><span class="pl-chips pl-chips-inline"><span class="pl-chip">Baseline quality checks</span><span class="pl-chip">Follow-up quality checks</span></span></td><td class="pl-out"><span class="pl-chips"><span class="pl-chip">Baseline quality checks</span><span class="pl-chip">Follow-up quality checks</span></span></td></tr>
 </tbody>
 </table>
-<h3 class="plan-h" id="timeline-when-each-output-is-prepared-and-used">Timeline: when each output is prepared and used</h3>
-<p class="plan-desc">Most outputs have to be ready before the call opens, because the call and the application form depend on them. The baseline survey, for example, is planned in Step 7 but runs before the random draw; in North-East Romania, it was collected with the applications. The follow-up survey and its quality checks can be prepared later, during delivery.</p>
+<h3 class="plan-h" id="timeline-when-each-output-is-prepared-and-used">Timeline of an RCT</h3>
+<p class="plan-desc">After the design stage, the following timeline: </p>
 <figure class="fig-e fig-timeline fig-plan">
 <p class="visually-hidden">Timeline of an RCT in five phases, from left to right: design, before the call; applications and eligibility; random draw and balance check; delivery of the intervention; follow-up and analysis. Most outputs in the table above have to be ready before the call opens; the follow-up survey and its quality checks are prepared during delivery, before follow-up starts. The call opens after the design phase, the intervention starts after the random draw, and follow-up starts after delivery: everything in the first three phases has to be in place before the intervention starts. Example dates from North-East Romania: pre-assessment survey, May to September 2023; lottery before a notary, October 2023; contracts signed, March 2024 to March 2025; follow-up survey, March to May 2025. The links that follow list where each output is used and open the page that covers it.</p>
 <div class="fig-wide tl-box">
@@ -58,131 +52,125 @@ Examples on these pages involve firms, because the EuroCOMP Lab's experiments ha
   <path d="M580 84 V478" stroke="var(--dg-line)" stroke-width="1.5" stroke-dasharray="4 4"/>
   <polygon points="10.0,34.0 149.0,34.0 159.0,59.0 149.0,84.0 10.0,84.0 10.0,59.0" fill="var(--dg-ink)"/>
   <text x="79.5" y="56.0" text-anchor="middle" fill="var(--dg-reverse)" font-size="14" font-weight="bold">Design</text>
-  <text x="79.5" y="73.0" text-anchor="middle" fill="var(--dg-reverse)" font-size="11.5">before the call</text>
+  <text x="79.5" y="73.0" text-anchor="middle" fill="var(--dg-reverse)" font-size="11.5">before the intervention and data collection</text>
   <polygon points="162.0,34.0 301.0,34.0 311.0,59.0 301.0,84.0 162.0,84.0 172.0,59.0" fill="var(--dg-ink)"/>
-  <text x="236.5" y="56.0" text-anchor="middle" fill="var(--dg-reverse)" font-size="14" font-weight="bold">Applications</text>
-  <text x="236.5" y="73.0" text-anchor="middle" fill="var(--dg-reverse)" font-size="11.5">and eligibility</text>
+  <text x="236.5" y="56.0" text-anchor="middle" fill="var(--dg-reverse)" font-size="14" font-weight="bold">Baseline</text>
+  <text x="236.5" y="73.0" text-anchor="middle" fill="var(--dg-reverse)" font-size="11.5">data</text>
   <polygon points="314.0,34.0 429.0,34.0 439.0,59.0 429.0,84.0 314.0,84.0 324.0,59.0" fill="var(--dg-accent)"/>
-  <text x="376.5" y="56.0" text-anchor="middle" fill="var(--dg-ink)" font-size="14" font-weight="bold">Random draw</text>
-  <text x="376.5" y="73.0" text-anchor="middle" fill="var(--dg-ink)" font-size="11.5">and balance check</text>
+  <text x="376.5" y="56.0" text-anchor="middle" fill="var(--dg-reverse)" font-size="14" font-weight="bold">Random draw</text>
+  <text x="376.5" y="73.0" text-anchor="middle" fill="var(--dg-reverse)" font-size="11.5">and balance check</text>
   <polygon points="442.0,34.0 569.0,34.0 579.0,59.0 569.0,84.0 442.0,84.0 452.0,59.0" fill="var(--dg-ink)"/>
   <text x="510.5" y="56.0" text-anchor="middle" fill="var(--dg-reverse)" font-size="14" font-weight="bold">Delivery</text>
   <text x="510.5" y="73.0" text-anchor="middle" fill="var(--dg-reverse)" font-size="11.5">of the intervention</text>
   <polygon points="582.0,34.0 739.0,34.0 749.0,59.0 739.0,84.0 582.0,84.0 592.0,59.0" fill="var(--dg-ink)"/>
   <text x="665.5" y="56.0" text-anchor="middle" fill="var(--dg-reverse)" font-size="14" font-weight="bold">Follow-up</text>
   <text x="665.5" y="73.0" text-anchor="middle" fill="var(--dg-reverse)" font-size="11.5">and analysis</text>
-  <rect x="123.7" y="93" width="72.7" height="22" rx="11" fill="var(--dg-panel)" stroke="var(--dg-line)" stroke-width="1.5"/>
-  <text x="160.0" y="108.2" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12" font-style="italic">Call opens</text>
-  <rect x="380.5" y="93" width="119.0" height="22" rx="11" fill="var(--dg-panel)" stroke="var(--dg-ink)" stroke-width="1.5"/>
-  <text x="440.0" y="108.2" text-anchor="middle" fill="var(--dg-ink)" font-size="12" font-weight="bold">Intervention starts</text>
-  <rect x="529.7" y="93" width="100.7" height="22" rx="11" fill="var(--dg-panel)" stroke="var(--dg-line)" stroke-width="1.5"/>
-  <text x="580.0" y="108.2" text-anchor="middle" fill="var(--dg-ink-soft)" font-size="12" font-style="italic">Follow-up starts</text>
-  <text x="20.0" y="137.0" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Ready before the call:</text>
-  <g class="tl-key tl-s1"><circle cx="27.5" cy="155.8" r="7.5" fill="#894B9C"/><text x="27.5" y="159.3" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">1</text></g>
+  <text x="20.0" y="137.0" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Ready before the intervention:</text>
+  <g class="tl-key tl-s1"><circle cx="27.5" cy="155.8" r="7.5" fill="#004494"/><text x="27.5" y="159.3" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">1</text></g>
   <text x="42.0" y="160.0" fill="var(--dg-ink)" font-size="12.5">Theory of Change</text>
-  <g class="tl-key tl-s2"><circle cx="27.5" cy="176.8" r="7.5" fill="#894B9C"/><text x="27.5" y="180.3" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">2</text></g>
+  <g class="tl-key tl-s2"><circle cx="27.5" cy="176.8" r="7.5" fill="#004494"/><text x="27.5" y="180.3" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">2</text></g>
   <text x="42.0" y="181.0" fill="var(--dg-ink)" font-size="12.5">Learning questions</text>
-  <g class="tl-key tl-s3"><circle cx="27.5" cy="197.8" r="7.5" fill="#894B9C"/><text x="27.5" y="201.3" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">3</text></g>
+  <g class="tl-key tl-s3"><circle cx="27.5" cy="197.8" r="7.5" fill="#004494"/><text x="27.5" y="201.3" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">3</text></g>
   <text x="42.0" y="202.0" fill="var(--dg-ink)" font-size="12.5">Indicators</text>
-  <g class="tl-key tl-s4"><circle cx="27.5" cy="218.8" r="7.5" fill="#BB5608"/><text x="27.5" y="222.3" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">4</text></g>
+  <g class="tl-key tl-s4"><circle cx="27.5" cy="218.8" r="7.5" fill="#004494"/><text x="27.5" y="222.3" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">4</text></g>
   <text x="42.0" y="223.0" fill="var(--dg-ink)" font-size="12.5">Sample size,</text>
   <text x="42.0" y="238.0" fill="var(--dg-ink)" font-size="12.5">legal basis</text>
-  <g class="tl-key tl-s5"><circle cx="27.5" cy="254.8" r="7.5" fill="#BB5608"/><text x="27.5" y="258.4" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">5</text></g>
+  <g class="tl-key tl-s5"><circle cx="27.5" cy="254.8" r="7.5" fill="#004494"/><text x="27.5" y="258.4" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">5</text></g>
   <text x="42.0" y="259.0" fill="var(--dg-ink)" font-size="12.5">Randomisation plan</text>
-  <g class="tl-key tl-s6"><circle cx="27.5" cy="275.8" r="7.5" fill="#0E8264"/><text x="27.5" y="279.4" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">6</text></g>
+  <g class="tl-key tl-s6"><circle cx="27.5" cy="275.8" r="7.5" fill="#004494"/><text x="27.5" y="279.4" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">6</text></g>
   <text x="42.0" y="280.0" fill="var(--dg-ink)" font-size="12.5">Data-sharing</text>
   <text x="42.0" y="295.0" fill="var(--dg-ink)" font-size="12.5">agreements</text>
-  <g class="tl-key tl-s7"><circle cx="27.5" cy="311.8" r="7.5" fill="#0E8264"/><text x="27.5" y="315.4" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">7</text></g>
+  <g class="tl-key tl-s7"><circle cx="27.5" cy="311.8" r="7.5" fill="#004494"/><text x="27.5" y="315.4" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">7</text></g>
   <text x="42.0" y="316.0" fill="var(--dg-ink)" font-size="12.5">Terms of reference,</text>
   <text x="42.0" y="331.0" fill="var(--dg-ink)" font-size="12.5">consent form,</text>
   <text x="42.0" y="346.0" fill="var(--dg-ink)" font-size="12.5">baseline survey,</text>
   <text x="42.0" y="361.0" fill="var(--dg-ink)" font-size="12.5">contact tracking</text>
-  <g class="tl-key tl-s8"><circle cx="27.5" cy="377.8" r="7.5" fill="#0E8264"/><text x="27.5" y="381.4" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">8</text></g>
+  <g class="tl-key tl-s8"><circle cx="27.5" cy="377.8" r="7.5" fill="#004494"/><text x="27.5" y="381.4" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">8</text></g>
   <text x="42.0" y="382.0" fill="var(--dg-ink)" font-size="12.5">Baseline</text>
   <text x="42.0" y="397.0" fill="var(--dg-ink)" font-size="12.5">quality checks</text>
   <g class="tl-chip tl-s4 fam-b">
-    <rect class="chip-bg" x="166.0" y="124.0" width="140.0" height="25.5" rx="6" fill="var(--dg-panel)" stroke="#BB5608" stroke-width="1.5"/>
-    <circle cx="179.5" cy="135.8" r="8" fill="#BB5608"/><text x="179.5" y="139.3" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">4</text>
+    <rect class="chip-bg" x="166.0" y="124.0" width="140.0" height="25.5" rx="6" fill="var(--dg-panel)" stroke="#004494" stroke-width="1.5"/>
+    <circle cx="179.5" cy="135.8" r="8" fill="#004494"/><text x="179.5" y="139.3" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">4</text>
     <text x="192.0" y="139.8" fill="var(--dg-ink)" font-size="12.5">Legal basis</text>
   </g>
   <g class="tl-chip tl-s7 fam-c">
-    <rect class="chip-bg" x="166.0" y="155.5" width="140.0" height="25.5" rx="6" fill="var(--dg-panel)" stroke="#0E8264" stroke-width="1.5"/>
-    <circle cx="179.5" cy="167.2" r="8" fill="#0E8264"/><text x="179.5" y="170.8" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">7</text>
+    <rect class="chip-bg" x="166.0" y="155.5" width="140.0" height="25.5" rx="6" fill="var(--dg-panel)" stroke="#004494" stroke-width="1.5"/>
+    <circle cx="179.5" cy="167.2" r="8" fill="#004494"/><text x="179.5" y="170.8" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">7</text>
     <text x="192.0" y="171.2" fill="var(--dg-ink)" font-size="12.5">Consent form</text>
   </g>
   <g class="tl-chip tl-s7 fam-c">
-    <rect class="chip-bg" x="166.0" y="187.0" width="140.0" height="25.5" rx="6" fill="var(--dg-panel)" stroke="#0E8264" stroke-width="1.5"/>
-    <circle cx="179.5" cy="198.8" r="8" fill="#0E8264"/><text x="179.5" y="202.3" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">7</text>
+    <rect class="chip-bg" x="166.0" y="187.0" width="140.0" height="25.5" rx="6" fill="var(--dg-panel)" stroke="#004494" stroke-width="1.5"/>
+    <circle cx="179.5" cy="198.8" r="8" fill="#004494"/><text x="179.5" y="202.3" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">7</text>
     <text x="192.0" y="202.8" fill="var(--dg-ink)" font-size="12.5">Baseline survey</text>
   </g>
   <g class="tl-chip tl-s8 fam-c">
-    <rect class="chip-bg" x="166.0" y="218.5" width="140.0" height="40.0" rx="6" fill="var(--dg-panel)" stroke="#0E8264" stroke-width="1.5"/>
-    <circle cx="179.5" cy="230.2" r="8" fill="#0E8264"/><text x="179.5" y="233.8" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">8</text>
+    <rect class="chip-bg" x="166.0" y="218.5" width="140.0" height="40.0" rx="6" fill="var(--dg-panel)" stroke="#004494" stroke-width="1.5"/>
+    <circle cx="179.5" cy="230.2" r="8" fill="#004494"/><text x="179.5" y="233.8" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">8</text>
     <text x="192.0" y="234.2" fill="var(--dg-ink)" font-size="12.5">Baseline</text>
     <text x="192.0" y="248.8" fill="var(--dg-ink)" font-size="12.5">quality checks</text>
   </g>
   <g class="tl-chip tl-s4 fam-b">
-    <rect class="chip-bg" x="318.0" y="124.0" width="116.0" height="25.5" rx="6" fill="var(--dg-panel)" stroke="#BB5608" stroke-width="1.5"/>
-    <circle cx="331.5" cy="135.8" r="8" fill="#BB5608"/><text x="331.5" y="139.3" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">4</text>
+    <rect class="chip-bg" x="318.0" y="124.0" width="116.0" height="25.5" rx="6" fill="var(--dg-panel)" stroke="#004494" stroke-width="1.5"/>
+    <circle cx="331.5" cy="135.8" r="8" fill="#004494"/><text x="331.5" y="139.3" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">4</text>
     <text x="344.0" y="139.8" fill="var(--dg-ink)" font-size="12.5">Sample size</text>
   </g>
   <g class="tl-chip tl-s5 fam-b">
-    <rect class="chip-bg" x="318.0" y="155.5" width="116.0" height="40.0" rx="6" fill="var(--dg-panel)" stroke="#BB5608" stroke-width="1.5"/>
-    <circle cx="331.5" cy="167.2" r="8" fill="#BB5608"/><text x="331.5" y="170.8" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">5</text>
+    <rect class="chip-bg" x="318.0" y="155.5" width="116.0" height="40.0" rx="6" fill="var(--dg-panel)" stroke="#004494" stroke-width="1.5"/>
+    <circle cx="331.5" cy="167.2" r="8" fill="#004494"/><text x="331.5" y="170.8" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">5</text>
     <text x="344.0" y="171.2" fill="var(--dg-ink)" font-size="12.5">Randomisation</text>
     <text x="344.0" y="185.8" fill="var(--dg-ink)" font-size="12.5">plan</text>
   </g>
   <g class="tl-chip tl-s5 fam-b">
-    <rect class="chip-bg" x="446.0" y="124.0" width="128.0" height="40.0" rx="6" fill="var(--dg-panel)" stroke="#BB5608" stroke-width="1.5"/>
-    <circle cx="459.5" cy="135.8" r="8" fill="#BB5608"/><text x="459.5" y="139.3" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">5</text>
+    <rect class="chip-bg" x="446.0" y="124.0" width="128.0" height="40.0" rx="6" fill="var(--dg-panel)" stroke="#004494" stroke-width="1.5"/>
+    <circle cx="459.5" cy="135.8" r="8" fill="#004494"/><text x="459.5" y="139.3" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">5</text>
     <text x="472.0" y="139.8" fill="var(--dg-ink)" font-size="12.5">Randomisation</text>
     <text x="472.0" y="154.2" fill="var(--dg-ink)" font-size="12.5">plan</text>
   </g>
   <g class="tl-chip tl-s7 fam-c">
-    <rect class="chip-bg" x="446.0" y="170.0" width="128.0" height="25.5" rx="6" fill="var(--dg-panel)" stroke="#0E8264" stroke-width="1.5"/>
-    <circle cx="459.5" cy="181.8" r="8" fill="#0E8264"/><text x="459.5" y="185.3" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">7</text>
+    <rect class="chip-bg" x="446.0" y="170.0" width="128.0" height="25.5" rx="6" fill="var(--dg-panel)" stroke="#004494" stroke-width="1.5"/>
+    <circle cx="459.5" cy="181.8" r="8" fill="#004494"/><text x="459.5" y="185.3" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">7</text>
     <text x="472.0" y="185.8" fill="var(--dg-ink)" font-size="12.5">Contact tracking</text>
   </g>
   <path d="M446 207.5 H574" stroke="var(--dg-rule)" stroke-width="1"/>
   <text x="450.0" y="226.5" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">Ready before</text>
   <text x="450.0" y="241.5" fill="var(--dg-ink)" font-size="12.5" font-weight="bold">follow-up:</text>
-  <g class="tl-key tl-s7"><circle cx="457.5" cy="260.2" r="7.5" fill="#0E8264"/><text x="457.5" y="263.9" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">7</text></g>
+  <g class="tl-key tl-s7"><circle cx="457.5" cy="260.2" r="7.5" fill="#004494"/><text x="457.5" y="263.9" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">7</text></g>
   <text x="472.0" y="264.5" fill="var(--dg-ink)" font-size="12.5">Follow-up survey</text>
-  <g class="tl-key tl-s8"><circle cx="457.5" cy="281.2" r="7.5" fill="#0E8264"/><text x="457.5" y="284.9" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">8</text></g>
+  <g class="tl-key tl-s8"><circle cx="457.5" cy="281.2" r="7.5" fill="#004494"/><text x="457.5" y="284.9" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">8</text></g>
   <text x="472.0" y="285.5" fill="var(--dg-ink)" font-size="12.5">Follow-up</text>
   <text x="472.0" y="300.5" fill="var(--dg-ink)" font-size="12.5">quality checks</text>
   <g class="tl-chip tl-s6 fam-c">
-    <rect class="chip-bg" x="586.0" y="124.0" width="168.0" height="40.0" rx="6" fill="var(--dg-panel)" stroke="#0E8264" stroke-width="1.5"/>
-    <circle cx="599.5" cy="135.8" r="8" fill="#0E8264"/><text x="599.5" y="139.3" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">6</text>
+    <rect class="chip-bg" x="586.0" y="124.0" width="168.0" height="40.0" rx="6" fill="var(--dg-panel)" stroke="#004494" stroke-width="1.5"/>
+    <circle cx="599.5" cy="135.8" r="8" fill="#004494"/><text x="599.5" y="139.3" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">6</text>
     <text x="612.0" y="139.8" fill="var(--dg-ink)" font-size="12.5">Data-sharing</text>
     <text x="612.0" y="154.2" fill="var(--dg-ink)" font-size="12.5">agreements</text>
   </g>
   <g class="tl-chip tl-s7 fam-c">
-    <rect class="chip-bg" x="586.0" y="170.0" width="168.0" height="25.5" rx="6" fill="var(--dg-panel)" stroke="#0E8264" stroke-width="1.5"/>
-    <circle cx="599.5" cy="181.8" r="8" fill="#0E8264"/><text x="599.5" y="185.3" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">7</text>
+    <rect class="chip-bg" x="586.0" y="170.0" width="168.0" height="25.5" rx="6" fill="var(--dg-panel)" stroke="#004494" stroke-width="1.5"/>
+    <circle cx="599.5" cy="181.8" r="8" fill="#004494"/><text x="599.5" y="185.3" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">7</text>
     <text x="612.0" y="185.8" fill="var(--dg-ink)" font-size="12.5">Follow-up survey</text>
   </g>
   <g class="tl-chip tl-s8 fam-c">
-    <rect class="chip-bg" x="586.0" y="201.5" width="168.0" height="40.0" rx="6" fill="var(--dg-panel)" stroke="#0E8264" stroke-width="1.5"/>
-    <circle cx="599.5" cy="213.2" r="8" fill="#0E8264"/><text x="599.5" y="216.8" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">8</text>
+    <rect class="chip-bg" x="586.0" y="201.5" width="168.0" height="40.0" rx="6" fill="var(--dg-panel)" stroke="#004494" stroke-width="1.5"/>
+    <circle cx="599.5" cy="213.2" r="8" fill="#004494"/><text x="599.5" y="216.8" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">8</text>
     <text x="612.0" y="217.2" fill="var(--dg-ink)" font-size="12.5">Follow-up</text>
     <text x="612.0" y="231.8" fill="var(--dg-ink)" font-size="12.5">quality checks</text>
   </g>
   <path d="M586 253.5 H744" stroke="var(--dg-rule)" stroke-width="1"/>
   <text x="588.0" y="269.5" fill="var(--dg-ink-soft)" font-size="12" font-style="italic">Analysis</text>
   <g class="tl-chip tl-s1 fam-a">
-    <rect class="chip-bg" x="586.0" y="276.5" width="168.0" height="25.5" rx="6" fill="var(--dg-panel)" stroke="#894B9C" stroke-width="1.5"/>
-    <circle cx="599.5" cy="288.2" r="8" fill="#894B9C"/><text x="599.5" y="291.9" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">1</text>
+    <rect class="chip-bg" x="586.0" y="276.5" width="168.0" height="25.5" rx="6" fill="var(--dg-panel)" stroke="#004494" stroke-width="1.5"/>
+    <circle cx="599.5" cy="288.2" r="8" fill="#004494"/><text x="599.5" y="291.9" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">1</text>
     <text x="612.0" y="292.2" fill="var(--dg-ink)" font-size="12.5">Theory of Change</text>
   </g>
   <g class="tl-chip tl-s2 fam-a">
-    <rect class="chip-bg" x="586.0" y="308.0" width="168.0" height="25.5" rx="6" fill="var(--dg-panel)" stroke="#894B9C" stroke-width="1.5"/>
-    <circle cx="599.5" cy="319.8" r="8" fill="#894B9C"/><text x="599.5" y="323.4" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">2</text>
+    <rect class="chip-bg" x="586.0" y="308.0" width="168.0" height="25.5" rx="6" fill="var(--dg-panel)" stroke="#004494" stroke-width="1.5"/>
+    <circle cx="599.5" cy="319.8" r="8" fill="#004494"/><text x="599.5" y="323.4" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">2</text>
     <text x="612.0" y="323.8" fill="var(--dg-ink)" font-size="12.5">Learning questions</text>
   </g>
   <g class="tl-chip tl-s3 fam-a">
-    <rect class="chip-bg" x="586.0" y="339.5" width="168.0" height="25.5" rx="6" fill="var(--dg-panel)" stroke="#894B9C" stroke-width="1.5"/>
-    <circle cx="599.5" cy="351.2" r="8" fill="#894B9C"/><text x="599.5" y="354.9" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">3</text>
+    <rect class="chip-bg" x="586.0" y="339.5" width="168.0" height="25.5" rx="6" fill="var(--dg-panel)" stroke="#004494" stroke-width="1.5"/>
+    <circle cx="599.5" cy="351.2" r="8" fill="#004494"/><text x="599.5" y="354.9" text-anchor="middle" fill="#FFFFFF" font-size="10" font-weight="bold">3</text>
     <text x="612.0" y="355.2" fill="var(--dg-ink)" font-size="12.5">Indicators</text>
   </g>
   <text x="150.0" y="455.0" text-anchor="end" fill="var(--dg-ink-soft)" font-size="12" font-style="italic">Example dates:</text>
@@ -219,22 +207,22 @@ Examples on these pages involve firms, because the EuroCOMP Lab's experiments ha
   <rect x="14" y="40" width="332" height="34" rx="5" fill="var(--dg-ink)"/>
   <text x="26" y="62" fill="var(--dg-reverse)" font-size="15" font-weight="bold">Design<tspan dx="7" font-weight="normal" font-size="13">before the call</tspan></text>
   <text x="26.0" y="99.0" fill="var(--dg-ink)" font-size="14" font-weight="bold">Ready before the call:</text>
-  <g class="tl-key tl-s1"><circle cx="35.0" cy="119.2" r="9" fill="#894B9C"/><text x="35.0" y="123.2" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold">1</text></g>
+  <g class="tl-key tl-s1"><circle cx="35.0" cy="119.2" r="9" fill="#004494"/><text x="35.0" y="123.2" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold">1</text></g>
   <text x="51.0" y="124.0" fill="var(--dg-ink)" font-size="14">Theory of Change</text>
-  <g class="tl-key tl-s2"><circle cx="35.0" cy="142.2" r="9" fill="#894B9C"/><text x="35.0" y="146.2" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold">2</text></g>
+  <g class="tl-key tl-s2"><circle cx="35.0" cy="142.2" r="9" fill="#004494"/><text x="35.0" y="146.2" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold">2</text></g>
   <text x="51.0" y="147.0" fill="var(--dg-ink)" font-size="14">Learning questions</text>
-  <g class="tl-key tl-s3"><circle cx="35.0" cy="165.2" r="9" fill="#894B9C"/><text x="35.0" y="169.2" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold">3</text></g>
+  <g class="tl-key tl-s3"><circle cx="35.0" cy="165.2" r="9" fill="#004494"/><text x="35.0" y="169.2" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold">3</text></g>
   <text x="51.0" y="170.0" fill="var(--dg-ink)" font-size="14">Indicators</text>
-  <g class="tl-key tl-s4"><circle cx="35.0" cy="188.2" r="9" fill="#BB5608"/><text x="35.0" y="192.2" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold">4</text></g>
+  <g class="tl-key tl-s4"><circle cx="35.0" cy="188.2" r="9" fill="#004494"/><text x="35.0" y="192.2" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold">4</text></g>
   <text x="51.0" y="193.0" fill="var(--dg-ink)" font-size="14">Sample size, legal basis</text>
-  <g class="tl-key tl-s5"><circle cx="35.0" cy="211.2" r="9" fill="#BB5608"/><text x="35.0" y="215.2" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold">5</text></g>
+  <g class="tl-key tl-s5"><circle cx="35.0" cy="211.2" r="9" fill="#004494"/><text x="35.0" y="215.2" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold">5</text></g>
   <text x="51.0" y="216.0" fill="var(--dg-ink)" font-size="14">Randomisation plan</text>
-  <g class="tl-key tl-s6"><circle cx="35.0" cy="234.2" r="9" fill="#0E8264"/><text x="35.0" y="238.2" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold">6</text></g>
+  <g class="tl-key tl-s6"><circle cx="35.0" cy="234.2" r="9" fill="#004494"/><text x="35.0" y="238.2" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold">6</text></g>
   <text x="51.0" y="239.0" fill="var(--dg-ink)" font-size="14">Data-sharing agreements</text>
-  <g class="tl-key tl-s7"><circle cx="35.0" cy="257.2" r="9" fill="#0E8264"/><text x="35.0" y="261.2" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold">7</text></g>
+  <g class="tl-key tl-s7"><circle cx="35.0" cy="257.2" r="9" fill="#004494"/><text x="35.0" y="261.2" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold">7</text></g>
   <text x="51.0" y="262.0" fill="var(--dg-ink)" font-size="14">Terms of reference, consent form,</text>
   <text x="51.0" y="279.0" fill="var(--dg-ink)" font-size="14">baseline survey, contact tracking</text>
-  <g class="tl-key tl-s8"><circle cx="35.0" cy="297.2" r="9" fill="#0E8264"/><text x="35.0" y="301.2" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold">8</text></g>
+  <g class="tl-key tl-s8"><circle cx="35.0" cy="297.2" r="9" fill="#004494"/><text x="35.0" y="301.2" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold">8</text></g>
   <text x="51.0" y="302.0" fill="var(--dg-ink)" font-size="14">Baseline quality checks</text>
   <path d="M180.0 334 V348" stroke="var(--dg-line)" stroke-width="1.5"/>
   <path d="M175.5 346 L180.0 354 L184.5 346 Z" fill="var(--dg-line)"/>
@@ -243,23 +231,23 @@ Examples on these pages involve firms, because the EuroCOMP Lab's experiments ha
   <rect x="14" y="359" width="332" height="34" rx="5" fill="var(--dg-ink)"/>
   <text x="26" y="381" fill="var(--dg-reverse)" font-size="15" font-weight="bold">Applications<tspan dx="7" font-weight="normal" font-size="13">and eligibility</tspan></text>
   <g class="tl-chip tl-s4 fam-b">
-    <rect class="chip-bg" x="24.0" y="405.0" width="312.0" height="31.0" rx="6" fill="var(--dg-panel)" stroke="#BB5608" stroke-width="1.5"/>
-    <circle cx="39.0" cy="419.5" r="9.5" fill="#BB5608"/><text x="39.0" y="423.6" text-anchor="middle" fill="#FFFFFF" font-size="11.5" font-weight="bold">4</text>
+    <rect class="chip-bg" x="24.0" y="405.0" width="312.0" height="31.0" rx="6" fill="var(--dg-panel)" stroke="#004494" stroke-width="1.5"/>
+    <circle cx="39.0" cy="419.5" r="9.5" fill="#004494"/><text x="39.0" y="423.6" text-anchor="middle" fill="#FFFFFF" font-size="11.5" font-weight="bold">4</text>
     <text x="53.0" y="424.0" fill="var(--dg-ink)" font-size="14">Legal basis</text>
   </g>
   <g class="tl-chip tl-s7 fam-c">
-    <rect class="chip-bg" x="24.0" y="443.0" width="312.0" height="31.0" rx="6" fill="var(--dg-panel)" stroke="#0E8264" stroke-width="1.5"/>
-    <circle cx="39.0" cy="457.5" r="9.5" fill="#0E8264"/><text x="39.0" y="461.6" text-anchor="middle" fill="#FFFFFF" font-size="11.5" font-weight="bold">7</text>
+    <rect class="chip-bg" x="24.0" y="443.0" width="312.0" height="31.0" rx="6" fill="var(--dg-panel)" stroke="#004494" stroke-width="1.5"/>
+    <circle cx="39.0" cy="457.5" r="9.5" fill="#004494"/><text x="39.0" y="461.6" text-anchor="middle" fill="#FFFFFF" font-size="11.5" font-weight="bold">7</text>
     <text x="53.0" y="462.0" fill="var(--dg-ink)" font-size="14">Consent form</text>
   </g>
   <g class="tl-chip tl-s7 fam-c">
-    <rect class="chip-bg" x="24.0" y="481.0" width="312.0" height="31.0" rx="6" fill="var(--dg-panel)" stroke="#0E8264" stroke-width="1.5"/>
-    <circle cx="39.0" cy="495.5" r="9.5" fill="#0E8264"/><text x="39.0" y="499.6" text-anchor="middle" fill="#FFFFFF" font-size="11.5" font-weight="bold">7</text>
+    <rect class="chip-bg" x="24.0" y="481.0" width="312.0" height="31.0" rx="6" fill="var(--dg-panel)" stroke="#004494" stroke-width="1.5"/>
+    <circle cx="39.0" cy="495.5" r="9.5" fill="#004494"/><text x="39.0" y="499.6" text-anchor="middle" fill="#FFFFFF" font-size="11.5" font-weight="bold">7</text>
     <text x="53.0" y="500.0" fill="var(--dg-ink)" font-size="14">Baseline survey</text>
   </g>
   <g class="tl-chip tl-s8 fam-c">
-    <rect class="chip-bg" x="24.0" y="519.0" width="312.0" height="31.0" rx="6" fill="var(--dg-panel)" stroke="#0E8264" stroke-width="1.5"/>
-    <circle cx="39.0" cy="533.5" r="9.5" fill="#0E8264"/><text x="39.0" y="537.6" text-anchor="middle" fill="#FFFFFF" font-size="11.5" font-weight="bold">8</text>
+    <rect class="chip-bg" x="24.0" y="519.0" width="312.0" height="31.0" rx="6" fill="var(--dg-panel)" stroke="#004494" stroke-width="1.5"/>
+    <circle cx="39.0" cy="533.5" r="9.5" fill="#004494"/><text x="39.0" y="537.6" text-anchor="middle" fill="#FFFFFF" font-size="11.5" font-weight="bold">8</text>
     <text x="53.0" y="538.0" fill="var(--dg-ink)" font-size="14">Baseline quality checks</text>
   </g>
   <path d="M26 560.0 H334" stroke="var(--dg-rule)" stroke-width="1"/>
@@ -271,13 +259,13 @@ Examples on these pages involve firms, because the EuroCOMP Lab's experiments ha
   <rect x="14" y="636.0" width="332" height="34" rx="5" fill="var(--dg-accent)"/>
   <text x="26" y="658.0" fill="var(--dg-ink)" font-size="15" font-weight="bold">Random draw<tspan dx="7" font-weight="normal" font-size="13">and balance check</tspan></text>
   <g class="tl-chip tl-s4 fam-b">
-    <rect class="chip-bg" x="24.0" y="682.0" width="312.0" height="31.0" rx="6" fill="var(--dg-panel)" stroke="#BB5608" stroke-width="1.5"/>
-    <circle cx="39.0" cy="696.5" r="9.5" fill="#BB5608"/><text x="39.0" y="700.6" text-anchor="middle" fill="#FFFFFF" font-size="11.5" font-weight="bold">4</text>
+    <rect class="chip-bg" x="24.0" y="682.0" width="312.0" height="31.0" rx="6" fill="var(--dg-panel)" stroke="#004494" stroke-width="1.5"/>
+    <circle cx="39.0" cy="696.5" r="9.5" fill="#004494"/><text x="39.0" y="700.6" text-anchor="middle" fill="#FFFFFF" font-size="11.5" font-weight="bold">4</text>
     <text x="53.0" y="701.0" fill="var(--dg-ink)" font-size="14">Sample size</text>
   </g>
   <g class="tl-chip tl-s5 fam-b">
-    <rect class="chip-bg" x="24.0" y="720.0" width="312.0" height="31.0" rx="6" fill="var(--dg-panel)" stroke="#BB5608" stroke-width="1.5"/>
-    <circle cx="39.0" cy="734.5" r="9.5" fill="#BB5608"/><text x="39.0" y="738.6" text-anchor="middle" fill="#FFFFFF" font-size="11.5" font-weight="bold">5</text>
+    <rect class="chip-bg" x="24.0" y="720.0" width="312.0" height="31.0" rx="6" fill="var(--dg-panel)" stroke="#004494" stroke-width="1.5"/>
+    <circle cx="39.0" cy="734.5" r="9.5" fill="#004494"/><text x="39.0" y="738.6" text-anchor="middle" fill="#FFFFFF" font-size="11.5" font-weight="bold">5</text>
     <text x="53.0" y="739.0" fill="var(--dg-ink)" font-size="14">Randomisation plan</text>
   </g>
   <path d="M26 761.0 H334" stroke="var(--dg-rule)" stroke-width="1"/>
@@ -291,20 +279,20 @@ Examples on these pages involve firms, because the EuroCOMP Lab's experiments ha
   <rect x="14" y="877.0" width="332" height="34" rx="5" fill="var(--dg-ink)"/>
   <text x="26" y="899.0" fill="var(--dg-reverse)" font-size="15" font-weight="bold">Delivery<tspan dx="7" font-weight="normal" font-size="13">of the intervention</tspan></text>
   <g class="tl-chip tl-s5 fam-b">
-    <rect class="chip-bg" x="24.0" y="923.0" width="312.0" height="31.0" rx="6" fill="var(--dg-panel)" stroke="#BB5608" stroke-width="1.5"/>
-    <circle cx="39.0" cy="937.5" r="9.5" fill="#BB5608"/><text x="39.0" y="941.6" text-anchor="middle" fill="#FFFFFF" font-size="11.5" font-weight="bold">5</text>
+    <rect class="chip-bg" x="24.0" y="923.0" width="312.0" height="31.0" rx="6" fill="var(--dg-panel)" stroke="#004494" stroke-width="1.5"/>
+    <circle cx="39.0" cy="937.5" r="9.5" fill="#004494"/><text x="39.0" y="941.6" text-anchor="middle" fill="#FFFFFF" font-size="11.5" font-weight="bold">5</text>
     <text x="53.0" y="942.0" fill="var(--dg-ink)" font-size="14">Randomisation plan</text>
   </g>
   <g class="tl-chip tl-s7 fam-c">
-    <rect class="chip-bg" x="24.0" y="961.0" width="312.0" height="31.0" rx="6" fill="var(--dg-panel)" stroke="#0E8264" stroke-width="1.5"/>
-    <circle cx="39.0" cy="975.5" r="9.5" fill="#0E8264"/><text x="39.0" y="979.6" text-anchor="middle" fill="#FFFFFF" font-size="11.5" font-weight="bold">7</text>
+    <rect class="chip-bg" x="24.0" y="961.0" width="312.0" height="31.0" rx="6" fill="var(--dg-panel)" stroke="#004494" stroke-width="1.5"/>
+    <circle cx="39.0" cy="975.5" r="9.5" fill="#004494"/><text x="39.0" y="979.6" text-anchor="middle" fill="#FFFFFF" font-size="11.5" font-weight="bold">7</text>
     <text x="53.0" y="980.0" fill="var(--dg-ink)" font-size="14">Contact tracking</text>
   </g>
   <path d="M26 1002.0 H334" stroke="var(--dg-rule)" stroke-width="1"/>
   <text x="26.0" y="1023.0" fill="var(--dg-ink)" font-size="14" font-weight="bold">Ready before follow-up:</text>
-  <g class="tl-key tl-s7"><circle cx="35.0" cy="1043.2" r="9" fill="#0E8264"/><text x="35.0" y="1047.2" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold">7</text></g>
+  <g class="tl-key tl-s7"><circle cx="35.0" cy="1043.2" r="9" fill="#004494"/><text x="35.0" y="1047.2" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold">7</text></g>
   <text x="51.0" y="1048.0" fill="var(--dg-ink)" font-size="14">Follow-up survey</text>
-  <g class="tl-key tl-s8"><circle cx="35.0" cy="1066.2" r="9" fill="#0E8264"/><text x="35.0" y="1070.2" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold">8</text></g>
+  <g class="tl-key tl-s8"><circle cx="35.0" cy="1066.2" r="9" fill="#004494"/><text x="35.0" y="1070.2" text-anchor="middle" fill="#FFFFFF" font-size="11" font-weight="bold">8</text></g>
   <text x="51.0" y="1071.0" fill="var(--dg-ink)" font-size="14">Follow-up quality checks</text>
   <path d="M26 1102.0 H334" stroke="var(--dg-rule)" stroke-width="1"/>
   <text x="26" y="1121.0" fill="var(--dg-ink-soft)" font-size="12.5">North-East Romania: <tspan fill="var(--dg-ink)" font-weight="bold">Mar 2024 to Mar 2025</tspan></text>
@@ -316,35 +304,35 @@ Examples on these pages involve firms, because the EuroCOMP Lab's experiments ha
   <rect x="14" y="1178.0" width="332" height="34" rx="5" fill="var(--dg-ink)"/>
   <text x="26" y="1200.0" fill="var(--dg-reverse)" font-size="15" font-weight="bold">Follow-up<tspan dx="7" font-weight="normal" font-size="13">and analysis</tspan></text>
   <g class="tl-chip tl-s6 fam-c">
-    <rect class="chip-bg" x="24.0" y="1224.0" width="312.0" height="31.0" rx="6" fill="var(--dg-panel)" stroke="#0E8264" stroke-width="1.5"/>
-    <circle cx="39.0" cy="1238.5" r="9.5" fill="#0E8264"/><text x="39.0" y="1242.6" text-anchor="middle" fill="#FFFFFF" font-size="11.5" font-weight="bold">6</text>
+    <rect class="chip-bg" x="24.0" y="1224.0" width="312.0" height="31.0" rx="6" fill="var(--dg-panel)" stroke="#004494" stroke-width="1.5"/>
+    <circle cx="39.0" cy="1238.5" r="9.5" fill="#004494"/><text x="39.0" y="1242.6" text-anchor="middle" fill="#FFFFFF" font-size="11.5" font-weight="bold">6</text>
     <text x="53.0" y="1243.0" fill="var(--dg-ink)" font-size="14">Data-sharing agreements</text>
   </g>
   <g class="tl-chip tl-s7 fam-c">
-    <rect class="chip-bg" x="24.0" y="1262.0" width="312.0" height="31.0" rx="6" fill="var(--dg-panel)" stroke="#0E8264" stroke-width="1.5"/>
-    <circle cx="39.0" cy="1276.5" r="9.5" fill="#0E8264"/><text x="39.0" y="1280.6" text-anchor="middle" fill="#FFFFFF" font-size="11.5" font-weight="bold">7</text>
+    <rect class="chip-bg" x="24.0" y="1262.0" width="312.0" height="31.0" rx="6" fill="var(--dg-panel)" stroke="#004494" stroke-width="1.5"/>
+    <circle cx="39.0" cy="1276.5" r="9.5" fill="#004494"/><text x="39.0" y="1280.6" text-anchor="middle" fill="#FFFFFF" font-size="11.5" font-weight="bold">7</text>
     <text x="53.0" y="1281.0" fill="var(--dg-ink)" font-size="14">Follow-up survey</text>
   </g>
   <g class="tl-chip tl-s8 fam-c">
-    <rect class="chip-bg" x="24.0" y="1300.0" width="312.0" height="31.0" rx="6" fill="var(--dg-panel)" stroke="#0E8264" stroke-width="1.5"/>
-    <circle cx="39.0" cy="1314.5" r="9.5" fill="#0E8264"/><text x="39.0" y="1318.6" text-anchor="middle" fill="#FFFFFF" font-size="11.5" font-weight="bold">8</text>
+    <rect class="chip-bg" x="24.0" y="1300.0" width="312.0" height="31.0" rx="6" fill="var(--dg-panel)" stroke="#004494" stroke-width="1.5"/>
+    <circle cx="39.0" cy="1314.5" r="9.5" fill="#004494"/><text x="39.0" y="1318.6" text-anchor="middle" fill="#FFFFFF" font-size="11.5" font-weight="bold">8</text>
     <text x="53.0" y="1319.0" fill="var(--dg-ink)" font-size="14">Follow-up quality checks</text>
   </g>
   <path d="M26 1342.0 H334" stroke="var(--dg-rule)" stroke-width="1"/>
   <text x="26.0" y="1358.0" fill="var(--dg-ink-soft)" font-size="13" font-style="italic">Analysis</text>
   <g class="tl-chip tl-s1 fam-a">
-    <rect class="chip-bg" x="24.0" y="1366.0" width="312.0" height="31.0" rx="6" fill="var(--dg-panel)" stroke="#894B9C" stroke-width="1.5"/>
-    <circle cx="39.0" cy="1380.5" r="9.5" fill="#894B9C"/><text x="39.0" y="1384.6" text-anchor="middle" fill="#FFFFFF" font-size="11.5" font-weight="bold">1</text>
+    <rect class="chip-bg" x="24.0" y="1366.0" width="312.0" height="31.0" rx="6" fill="var(--dg-panel)" stroke="#004494" stroke-width="1.5"/>
+    <circle cx="39.0" cy="1380.5" r="9.5" fill="#004494"/><text x="39.0" y="1384.6" text-anchor="middle" fill="#FFFFFF" font-size="11.5" font-weight="bold">1</text>
     <text x="53.0" y="1385.0" fill="var(--dg-ink)" font-size="14">Theory of Change</text>
   </g>
   <g class="tl-chip tl-s2 fam-a">
-    <rect class="chip-bg" x="24.0" y="1404.0" width="312.0" height="31.0" rx="6" fill="var(--dg-panel)" stroke="#894B9C" stroke-width="1.5"/>
-    <circle cx="39.0" cy="1418.5" r="9.5" fill="#894B9C"/><text x="39.0" y="1422.6" text-anchor="middle" fill="#FFFFFF" font-size="11.5" font-weight="bold">2</text>
+    <rect class="chip-bg" x="24.0" y="1404.0" width="312.0" height="31.0" rx="6" fill="var(--dg-panel)" stroke="#004494" stroke-width="1.5"/>
+    <circle cx="39.0" cy="1418.5" r="9.5" fill="#004494"/><text x="39.0" y="1422.6" text-anchor="middle" fill="#FFFFFF" font-size="11.5" font-weight="bold">2</text>
     <text x="53.0" y="1423.0" fill="var(--dg-ink)" font-size="14">Learning questions</text>
   </g>
   <g class="tl-chip tl-s3 fam-a">
-    <rect class="chip-bg" x="24.0" y="1442.0" width="312.0" height="31.0" rx="6" fill="var(--dg-panel)" stroke="#894B9C" stroke-width="1.5"/>
-    <circle cx="39.0" cy="1456.5" r="9.5" fill="#894B9C"/><text x="39.0" y="1460.6" text-anchor="middle" fill="#FFFFFF" font-size="11.5" font-weight="bold">3</text>
+    <rect class="chip-bg" x="24.0" y="1442.0" width="312.0" height="31.0" rx="6" fill="var(--dg-panel)" stroke="#004494" stroke-width="1.5"/>
+    <circle cx="39.0" cy="1456.5" r="9.5" fill="#004494"/><text x="39.0" y="1460.6" text-anchor="middle" fill="#FFFFFF" font-size="11.5" font-weight="bold">3</text>
     <text x="53.0" y="1461.0" fill="var(--dg-ink)" font-size="14">Indicators</text>
   </g>
   <path d="M26 1483.0 H334" stroke="var(--dg-rule)" stroke-width="1"/>
@@ -366,7 +354,7 @@ Examples on these pages involve firms, because the EuroCOMP Lab's experiments ha
 <a class="tl-hot tl-s2" href="02.02-eval_questions.qmd" style="left:6.667%;top:91.466%;width:86.667%;height:2.020%"><span class="visually-hidden">Analysis: Learning questions, prepared in Step 2</span></a>
 <a class="tl-hot tl-s3" href="02.03-indicators.qmd" style="left:6.667%;top:93.941%;width:86.667%;height:2.020%"><span class="visually-hidden">Analysis: Indicators, prepared in Step 3</span></a>
 </div>
-<figcaption>Note: indicative; how long each phase lasts depends on the intervention, so phases are not drawn to scale. Lists show what has to be ready before the call or before follow-up; boxes show where each output is used, with the number and colour of the step that prepares it. Select a box to open the page that covers it.</figcaption>
+<figcaption>Note: indicative; how long each phase lasts depends on the intervention, so phases are not drawn to scale. Lists show what has to be ready before the call or before follow-up; boxes show where each output is used, with the number of the step that prepares it. Select a box to open the page that covers it.</figcaption>
 </figure>
 </div>
 ```
@@ -412,6 +400,21 @@ The internal team does not need to be large: in smaller managing authorities, on
 
 Where internal capacity or methodological expertise is limited, external experts can be hired to support evaluation design, data collection, or both.
 :::
+
+## Repository: indicators and survey questions
+
+Once the design is in place, two repositories help to measure what the intervention changes. Both are organised by topic and are a starting point: pick what fits the Theory of Change and learning questions, and adapt it to the intervention.
+
+:::: {.cards}
+::: {.card-e}
+### [Indicator repository](09-bank_outcomes.qmd) {.unlisted}
+Indicators for firm-level evaluations, from firm performance and innovation to digitalisation, management practices and energy efficiency, each with a plain-language definition and a metric. Used in [Step 3](02.03-indicators.qmd).
+:::
+::: {.card-e}
+### [Survey question repository](08-bank_survey.qmd) {.unlisted}
+Questions from firm-level surveys, from company details and financial performance to innovation, digitalisation and management practices. Used in [Step 7](02.07-data_collect.qmd).
+:::
+::::
 
 ::: {.nav-buttons}
 [← Back to RCTs: why and when](01-why-and-when.qmd) | [Step 1: develop a Theory of Change →](02.01-toc.qmd)
