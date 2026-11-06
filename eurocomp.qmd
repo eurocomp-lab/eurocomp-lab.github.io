@@ -46,7 +46,7 @@ support more efficient and effective, and how it is already being used to improv
 programmes across Europe.
 
 ::: {.video-frame}
-{{< video https://youtu.be/yeEmFmDABIk title="Introducing the EuroCOMP Lab" aspect-ratio="16x9" >}}
+{{< video https://youtu.be/i5JB8PETQOc title="Introducing the EuroCOMP Lab" aspect-ratio="16x9" >}}
 :::
 
 ## What the EuroCOMP Lab does {data-part="Part 1 of 3 · The Lab"}
